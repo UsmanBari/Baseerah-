@@ -28,7 +28,7 @@
       </header>
 
       <div class="home-intro">
-        <p class="bismillah" lang="ar" dir="rtl">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+        <p class="bismillah" lang="ar" dir="rtl">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ</p>
         <p class="muted" data-i18n="touchToBegin">Touch a card to begin</p>
       </div>
 
@@ -39,19 +39,40 @@
           <span class="card-en">Learn Namaz</span>
           <span class="card-sub" data-i18n="namazSub">Step by step — what to do and what to recite</span>
         </button>
-        <button type="button" class="home-card card-light" data-go="quran">
+        <button type="button" class="home-card card-light" data-go="surah-list">
           <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v16H5.5c-.8 0-1.5-.7-1.5-1.5z"/><path d="M20 5.5c0-.8-.7-1.5-1.5-1.5H13v16h5.5c.8 0 1.5-.7 1.5-1.5z"/><path d="M7 8h1.5M7 11h1.5M15.5 8H17M15.5 11H17"/></svg>
           <span class="card-ur accent" lang="ur" dir="rtl">قرآن سمجھیں</span>
           <span class="card-en">Understand the Quran</span>
           <span class="card-sub muted" data-i18n="quranSub">Every ayah, word by word, in Urdu and English</span>
         </button>
       </div>
+
+      <footer class="home-footer">
+        <button type="button" class="about-btn" data-go="about">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          <span data-i18n="about">About &amp; Sources · ذرائع اور اسناد</span>
+        </button>
+      </footer>
+    </section>
+
+    <!-- ===== SURAH LIST ===== -->
+    <section id="screen-surah-list" class="screen" aria-label="Surah List">
+      <header class="topbar">
+        <button type="button" class="pill-btn" data-go="home">‹ <span data-i18n="home">Home</span></button>
+        <div class="title-block">
+          <span class="title-ur" lang="ur" dir="rtl" data-i18n="surahListTitle">قرآن مجید کی سورتیں</span>
+          <span class="muted small" data-i18n="surahListSub">114 Surahs · Choose a surah to read</span>
+        </div>
+        <span class="pill-info" data-i18n="totalSurahs">114 Surahs</span>
+      </header>
+
+      <div id="surah-grid" class="surah-grid"></div>
     </section>
 
     <!-- ===== QURAN ===== -->
     <section id="screen-quran" class="screen" aria-label="Quran">
       <header class="topbar">
-        <button type="button" class="pill-btn" data-go="home">‹ <span data-i18n="home">Home</span></button>
+        <button type="button" class="pill-btn" data-go="surah-list">‹ <span data-i18n="surahs">Surahs</span></button>
         <div class="title-block">
           <span id="surah-ar" class="title-ar" lang="ar" dir="rtl"></span>
           <span id="surah-sub" class="muted small"></span>
@@ -84,9 +105,25 @@
 
       <footer class="bottombar">
         <button type="button" id="prev-ayah" class="nav-btn" data-i18n="prevAyah">Previous ayah</button>
-        <span class="muted tiny" data-i18n="sampleNote">Sample data — replace with Tanzil / QUL / QuranEnc</span>
+        <span id="ayah-indicator" class="muted small"></span>
         <button type="button" id="next-ayah" class="nav-btn nav-primary" data-i18n="nextAyah">Next ayah</button>
       </footer>
+    </section>
+
+    <!-- ===== ABOUT & SOURCES ===== -->
+    <section id="screen-about" class="screen" aria-label="About &amp; Sources">
+      <header class="topbar">
+        <button type="button" class="pill-btn" data-go="home">‹ <span data-i18n="home">Home</span></button>
+        <div class="title-block">
+          <span class="title-ur" lang="ur" dir="rtl" data-i18n="about">ذرائع اور اسناد</span>
+          <span class="muted small">Data Sources, Licenses &amp; Attributions</span>
+        </div>
+        <span class="pill-info">Verified Ground Truth</span>
+      </header>
+
+      <div class="about-container">
+        <div id="about-content" class="about-content"></div>
+      </div>
     </section>
 
     <!-- ===== NAMAZ ===== -->
@@ -119,7 +156,7 @@
   </div>
 
   <!-- Data first, then app logic -->
-  <script src="data/quran-sample.js"></script>
+  <script src="data/index.js"></script>
   <script src="data/namaz.js"></script>
   <script src="js/app.js"></script>
 </body>
