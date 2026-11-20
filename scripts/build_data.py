@@ -585,6 +585,15 @@ def main():
         json.dump(manifest, f, indent=2)
     print(f"  Wrote integrity manifest ({len(manifest)} files) to {manifest_path}")
 
+    # 5. Update Service Worker cache version with git commit hash
+    try:
+        import sys
+        sys.path.insert(0, SCRIPTS_DIR)
+        from update_sw_version import update_sw
+        update_sw()
+    except Exception as e:
+        print(f"  Note: Service Worker cache version update skipped: {e}")
+
     print("\nBUILD SUCCESSFUL! All checks passed.")
 
 if __name__ == "__main__":

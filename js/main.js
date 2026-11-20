@@ -12,6 +12,14 @@ import { renderAttractScreen } from "./screens/attract.js";
 
 // Register Service Worker for PWA & 100% Offline Kiosk Operation
 if ("serviceWorker" in navigator && window.location.protocol.startsWith("http")) {
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (refreshing) return;
+    refreshing = true;
+    console.info("New ServiceWorker activated and claimed clients — refreshing page.");
+    window.location.reload();
+  });
+
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("./sw.js").then(
       (reg) => {
