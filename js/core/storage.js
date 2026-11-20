@@ -10,6 +10,8 @@ const DEFAULT_SETTINGS = {
   attractSeconds: 60,
   lang: "ur",
   fontScale: "normal", // "normal", "large", "xlarge"
+  fontScaleLevel: 3,   // 1 to 5 (3 is normal 1.0x)
+  meaningDisplay: "both", // "both" | "ur" | "en"
   highContrast: false,
   mosqueMute: true,
   readingMode: "wbw", // "wbw" | "mushaf"

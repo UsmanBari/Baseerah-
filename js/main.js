@@ -37,8 +37,7 @@ router.register("attract", renderAttractScreen);
 // Apply stored kiosk preferences
 function applyPreferences() {
   document.body.classList.toggle("high-contrast", !!state.highContrast);
-  document.body.className = document.body.className.replace(/\bscale-\w+/g, "").trim();
-  document.body.classList.add(`scale-${state.fontScale || "normal"}`);
+  state.applyFontScale();
   document.documentElement.lang = state.lang;
   document.documentElement.dir = state.lang === "ur" ? "rtl" : "ltr";
 }

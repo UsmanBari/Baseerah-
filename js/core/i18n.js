@@ -71,7 +71,19 @@ export const DICT = {
     surahNumber: "Surah (1-114)",
     ayahNumber: "Ayah",
     jump: "Jump",
-    clear: "Clear"
+    clear: "Clear",
+    meaningToggleBoth: "Both",
+    meaningToggleUrdu: "اردو",
+    meaningToggleEnglish: "English",
+    understandQuranTitle: "Understand the Quran",
+    understandQuranSub: "Every ayah, word by word, in Urdu & English",
+    surahsAndParas: "Surahs & Paras",
+    welcome: "Welcome",
+    footnoteTitle: "Footnote",
+    translatorUrdu: "URDU · MUHAMMAD JUNAGARHI",
+    translatorEnglish: "ENGLISH · SAHEEH INTERNATIONAL",
+    surahWord: "Surah",
+    ayahsWord: "ayahs"
   },
   ur: {
     appTitle: "بصیرت",
@@ -143,7 +155,19 @@ export const DICT = {
     surahNumber: "سورت (۱-۱۱۴)",
     ayahNumber: "آیت نمبر",
     jump: "جائیں",
-    clear: "صاف"
+    clear: "صاف",
+    meaningToggleBoth: "دونوں",
+    meaningToggleUrdu: "اردو",
+    meaningToggleEnglish: "English",
+    understandQuranTitle: "فہمِ قرآن (لفظ بہ لفظ)",
+    understandQuranSub: "ہر آیت، لفظ بہ لفظ، اردو اور انگریزی معانی کے ساتھ",
+    surahsAndParas: "سورتیں اور پارے",
+    welcome: "خوش آمدید",
+    footnoteTitle: "وضاحتی حاشیہ",
+    translatorUrdu: "اردو · مولانا محمد جوناگڑھی",
+    translatorEnglish: "ENGLISH · SAHEEH INTERNATIONAL",
+    surahWord: "سورت",
+    ayahsWord: "آیات"
   }
 };
 

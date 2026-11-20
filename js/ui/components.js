@@ -360,6 +360,103 @@ export const UIComponents = {
   },
 
   /**
+   * Generates an authentic 8-point Islamic star (Khatim) medallion SVG
+   * Displays the ayah number inside in Urdu numerals
+   */
+  getAyahMedallionSvg(ayahNumber, size = 48) {
+    const urduNum = toUrduDigits(ayahNumber);
+    return `
+      <span class="ayah-medallion-badge" aria-label="Ayah ${ayahNumber}">
+        <svg class="ayah-medallion-svg" width="${size}" height="${size}" viewBox="0 0 48 48" fill="none">
+          <g fill="#FFFDF7" stroke="#C99A2E" stroke-width="1.8">
+            <rect x="9" y="9" width="30" height="30" rx="3" />
+            <rect x="9" y="9" width="30" height="30" rx="3" transform="rotate(45 24 24)" />
+          </g>
+          <circle cx="24" cy="24" r="13.5" fill="#FAF6EC" stroke="#D9B45A" stroke-width="1.2"/>
+          <text x="24" y="29" text-anchor="middle" font-family="'Noto Nastaliq Urdu', 'AlQuran IndoPak', serif" font-size="15" font-weight="700" fill="#0B4A3B">${urduNum}</text>
+        </svg>
+      </span>
+    `;
+  },
+
+  /**
+   * Displays scholarly QuranEnc footnote in a bottom sheet
+   */
+  showFootnoteBottomSheet({ footnoteNum, footnoteText, lang = "ur", surahNum, ayahNum }) {
+    const isUr = lang === "ur";
+    const sheet = document.createElement("div");
+    sheet.className = "bottom-sheet-overlay active";
+    sheet.setAttribute("role", "dialog");
+    sheet.setAttribute("aria-modal", "true");
+
+    sheet.innerHTML = `
+      <div class="bottom-sheet footnote-sheet">
+        <div class="bottom-sheet-handle"></div>
+        <div class="bottom-sheet-header">
+          <div class="sheet-title-box">
+            <span class="sheet-surah-ar">${isUr ? `حاشیہ نمبر [${toUrduDigits(footnoteNum)}]` : `Footnote [${footnoteNum}]`}</span>
+            <span class="sheet-ayah-badge">${isUr ? `آیت ${toUrduDigits(surahNum)}:${toUrduDigits(ayahNum)}` : `Ayah ${surahNum}:${ayahNum}`}</span>
+          </div>
+          <button type="button" class="btn-close" aria-label="${t("close", lang)}">✕</button>
+        </div>
+        <div class="bottom-sheet-content">
+          <div class="footnote-body ${isUr ? 'ur' : 'en'}" dir="${isUr ? 'rtl' : 'ltr'}">
+            <p class="footnote-text">${footnoteText || (isUr ? "کوئی اضافی تشریح موجود نہیں۔" : "No additional footnote text.")}</p>
+          </div>
+          <div class="footnote-source-tag">
+            <span>${isUr ? "ماخذ: تفسیر و حواشی مجمع الملک فہد / QuranEnc" : "Source: King Fahd Complex / QuranEnc"}</span>
+          </div>
+        </div>
+      </div>
+    `;
+
+    const close = () => {
+      if (sheet.parentNode) sheet.parentNode.removeChild(sheet);
+    };
+
+    sheet.querySelector(".btn-close").addEventListener("click", close);
+    sheet.addEventListener("click", (e) => {
+      if (e.target === sheet) close();
+    });
+
+    document.body.appendChild(sheet);
+  },
+
+  /**
+   * Renders 5-step font scaler [A− | A+]
+   */
+  renderFontScalerPills(container, onChange) {
+    const render = () => {
+      const currentLevel = state.fontScaleLevel;
+      container.innerHTML = `
+        <div class="font-scaler-group" role="group" aria-label="${t("fontSizeLabel", state.lang)}">
+          <button type="button" class="btn-scaler-step btn-scaler-minus ${currentLevel <= 1 ? 'disabled' : ''}" aria-label="Decrease text size">A−</button>
+          <span class="scaler-level-indicator">${currentLevel}/5</span>
+          <button type="button" class="btn-scaler-step btn-scaler-plus ${currentLevel >= 5 ? 'disabled' : ''}" aria-label="Increase text size">A+</button>
+        </div>
+      `;
+
+      container.querySelector(".btn-scaler-minus").addEventListener("click", () => {
+        if (state.fontScaleLevel > 1) {
+          state.fontScaleLevel -= 1;
+          render();
+          if (onChange) onChange(state.fontScaleLevel);
+        }
+      });
+
+      container.querySelector(".btn-scaler-plus").addEventListener("click", () => {
+        if (state.fontScaleLevel < 5) {
+          state.fontScaleLevel += 1;
+          render();
+          if (onChange) onChange(state.fontScaleLevel);
+        }
+      });
+    };
+
+    render();
+  },
+
+  /**
    * Renders Elder Scale button group
    */
   renderElderScalePills(container) {
