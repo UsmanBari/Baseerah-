@@ -259,28 +259,42 @@ test.describe("Baseerah — Viewports & Live Stress Test Fixes", () => {
           if (!arEl || !enEl) return { ok: false, reason: "missing elements" };
           const r1 = arEl.getBoundingClientRect();
           const r2 = enEl.getBoundingClientRect();
-          const overlap = !(r1.bottom <= r2.top || r2.bottom <= r1.top || r1.right <= r2.left || r2.right <= r1.left);
+          const fs = parseFloat(window.getComputedStyle(arEl).fontSize);
+          const minGap = 0.35 * fs;
           const gap = r2.top - r1.bottom;
-          return { ok: !overlap, gap, r1Bottom: r1.bottom, r2Top: r2.top };
+          return { ok: gap >= minGap, gap, minGap, r1Bottom: r1.bottom, r2Top: r2.top };
         });
         expect(brandCheck.ok).toBe(true);
-        expect(brandCheck.gap).toBeGreaterThanOrEqual(0);
 
-        // 2. Check Namaz Tile: .tile-title-gold vs .tile-desc-light
+        // 2. Check Welcome Header: .welcome-text vs .welcome-sub
+        const welcomeCheck = await page.evaluate(() => {
+          const titleEl = document.querySelector(".welcome-text");
+          const subEl = document.querySelector(".welcome-sub");
+          if (!titleEl || !subEl) return { ok: false, reason: "missing elements" };
+          const r1 = titleEl.getBoundingClientRect();
+          const r2 = subEl.getBoundingClientRect();
+          const fs = parseFloat(window.getComputedStyle(titleEl).fontSize);
+          const minGap = 0.35 * fs;
+          const gap = r2.top - r1.bottom;
+          return { ok: gap >= minGap, gap, minGap };
+        });
+        expect(welcomeCheck.ok).toBe(true);
+
+        // 3. Check Namaz Tile: .tile-title-gold vs .tile-desc-light
         const namazCheck = await page.evaluate(() => {
           const titleEl = document.querySelector(".tile-namaz-emerald .tile-title-gold");
           const descEl = document.querySelector(".tile-namaz-emerald .tile-desc-light");
           if (!titleEl || !descEl) return { ok: false, reason: "missing elements" };
           const r1 = titleEl.getBoundingClientRect();
           const r2 = descEl.getBoundingClientRect();
-          const overlap = !(r1.bottom <= r2.top || r2.bottom <= r1.top || r1.right <= r2.left || r2.right <= r1.left);
+          const fs = parseFloat(window.getComputedStyle(titleEl).fontSize);
+          const minGap = 0.35 * fs;
           const gap = r2.top - r1.bottom;
-          return { ok: !overlap, gap, r1Bottom: r1.bottom, r2Top: r2.top };
+          return { ok: gap >= minGap, gap, minGap, r1Bottom: r1.bottom, r2Top: r2.top };
         });
         expect(namazCheck.ok).toBe(true);
-        expect(namazCheck.gap).toBeGreaterThanOrEqual(0);
 
-        // 3. Check WBW Tile: .tile-title vs .tile-desc
+        // 4. Check WBW Tile: .tile-title vs .tile-desc
         const wbwCheck = await page.evaluate(() => {
           const titleEl = document.querySelector(".tile-wide-wbw .tile-title");
           const descEl = document.querySelector(".tile-wide-wbw .tile-desc");
@@ -295,5 +309,111 @@ test.describe("Baseerah — Viewports & Live Stress Test Fixes", () => {
         expect(wbwCheck.gap).toBeGreaterThanOrEqual(0);
       }
     }
+  });
+
+  test("Item 7: Word tiles never overlap (1:1, 1:7, 2:282) and round arrow buttons & keyboard navigate ayahs correctly", async ({ page }) => {
+    // 1. Check Word Tiles for sample ayahs 1:1, 1:7, and 2:282 (longest ayah)
+    const testAyahs = [
+      { surah: 1, ayah: 1 },
+      { surah: 1, ayah: 7 },
+      { surah: 2, ayah: 282 },
+    ];
+
+    for (const item of testAyahs) {
+      for (const lang of ["ur", "en"]) {
+        await page.goto(`/index.html#quran/${item.surah}/${item.ayah}`);
+        await page.waitForSelector(".wbw-interlinear-tile");
+
+        // Verify meaning mode is 'both'
+        await page.click(".meaning-btn[data-meaning='both']");
+        await page.waitForTimeout(100);
+
+        const tileOverlapReport = await page.evaluate(() => {
+          const tiles = Array.from(document.querySelectorAll(".wbw-interlinear-tile"));
+          const failures = [];
+          tiles.forEach((t, i) => {
+            const urEl = t.querySelector(".tile-ur");
+            const enEl = t.querySelector(".tile-en");
+            if (urEl && enEl) {
+              const rUr = urEl.getBoundingClientRect();
+              const rEn = enEl.getBoundingClientRect();
+              // In block layout, rUr sits above rEn. They must not overlap.
+              const overlap = !(rUr.bottom <= rEn.top || rEn.bottom <= rUr.top || rUr.right <= rEn.left || rEn.right <= rUr.left);
+              const gap = rEn.top - rUr.bottom;
+              if (overlap || gap < 4) {
+                failures.push({ index: i, overlap, gap, urText: urEl.textContent, enText: enEl.textContent });
+              }
+            }
+          });
+          return { total: tiles.length, failures };
+        });
+
+        expect(tileOverlapReport.failures.length).toBe(0);
+      }
+    }
+
+    // 2. Navigation in Urdu mode (RTL):
+    // Left arrow button is NEXT, Right arrow button is PREV
+    await page.goto("/index.html#home");
+    await page.click(".lang-btn[data-lang='ur']");
+    await page.goto("/index.html#quran/1/2");
+    await page.waitForSelector(".reading-card-container");
+
+    // Click Prev (Right button) -> goes to 1:1
+    await page.click(".nav-arrow-right");
+    await page.waitForTimeout(300);
+    expect(page.url()).toContain("quran/1/1");
+
+    // Click Next (Left button) -> goes to 1:2
+    await page.click(".nav-arrow-left");
+    await page.waitForTimeout(300);
+    expect(page.url()).toContain("quran/1/2");
+
+    // Keyboard ArrowLeft -> Next (1:3 in Urdu)
+    await page.keyboard.press("ArrowLeft");
+    await page.waitForTimeout(300);
+    expect(page.url()).toContain("quran/1/3");
+
+    // Keyboard ArrowRight -> Prev (1:2 in Urdu)
+    await page.keyboard.press("ArrowRight");
+    await page.waitForTimeout(300);
+    expect(page.url()).toContain("quran/1/2");
+
+    // 3. Navigation in English mode (LTR):
+    // Right arrow button is NEXT, Left arrow button is PREV
+    await page.goto("/index.html#home");
+    await page.click(".lang-btn[data-lang='en']");
+    await page.goto("/index.html#quran/1/2");
+    await page.waitForSelector(".reading-card-container");
+
+    // Click Prev (Left button) -> goes to 1:1
+    await page.click(".nav-arrow-left");
+    await page.waitForTimeout(300);
+    expect(page.url()).toContain("quran/1/1");
+
+    // Click Next (Right button) -> goes to 1:2
+    await page.click(".nav-arrow-right");
+    await page.waitForTimeout(300);
+    expect(page.url()).toContain("quran/1/2");
+
+    // Keyboard ArrowRight -> Next (1:3 in English)
+    await page.keyboard.press("ArrowRight");
+    await page.waitForTimeout(300);
+    expect(page.url()).toContain("quran/1/3");
+
+    // Keyboard ArrowLeft -> Prev (1:2 in English)
+    await page.keyboard.press("ArrowLeft");
+    await page.waitForTimeout(300);
+    expect(page.url()).toContain("quran/1/2");
+
+    // 4. End of surah: at 1:7, clicking Next advances to Surah 2 (2:1) with toast
+    await page.goto("/index.html#quran/1/7");
+    await page.waitForSelector(".reading-card-container");
+    await page.click(".nav-arrow-right"); // Next in English
+    await page.waitForTimeout(400);
+    expect(page.url()).toContain("quran/2/1");
+    // Check toast appeared
+    const toast = page.locator(".baseerah-toast");
+    await expect(toast).toBeVisible();
   });
 });

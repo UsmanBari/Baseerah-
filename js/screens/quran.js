@@ -126,6 +126,42 @@ export async function renderQuranScreen(container, params = []) {
     `;
   }).join("");
 
+  const canGoNext = (aNum < totalAyahs) || (sNum < 114);
+  const canGoPrev = aNum > 1;
+
+  let leftId, leftAria, leftText, leftDisabled, leftPoints;
+  let rightId, rightAria, rightText, rightDisabled, rightPoints;
+
+  if (isUr) {
+    // Left = Next
+    leftId = "btn-next-ayah";
+    leftAria = "‹ اگلی آیت";
+    leftText = "‹ اگلی آیت";
+    leftDisabled = !canGoNext;
+    leftPoints = "15 18 9 12 15 6";
+
+    // Right = Prev
+    rightId = "btn-prev-ayah";
+    rightAria = "پچھلی آیت ›";
+    rightText = "پچھلی آیت ›";
+    rightDisabled = !canGoPrev;
+    rightPoints = "9 18 15 12 9 6";
+  } else {
+    // Left = Prev
+    leftId = "btn-prev-ayah";
+    leftAria = "‹ Previous ayah";
+    leftText = "‹ Previous ayah";
+    leftDisabled = !canGoPrev;
+    leftPoints = "15 18 9 12 15 6";
+
+    // Right = Next
+    rightId = "btn-next-ayah";
+    rightAria = "Next ayah ›";
+    rightText = "Next ayah ›";
+    rightDisabled = !canGoNext;
+    rightPoints = "9 18 15 12 9 6";
+  }
+
   container.innerHTML = `
     <div class="screen active screen-quran-v2 meaning-${meaningMode}" dir="${isUr ? "rtl" : "ltr"}">
       
@@ -147,15 +183,13 @@ export async function renderQuranScreen(container, params = []) {
           </div>
         </div>
 
-        <div class="header-center-group">
+        <div class="header-right-group quran-toolbar-group">
           <!-- Reading Mode Switch (WBW / Mushaf) -->
           <div class="mode-pill-toggle mode-toggle" role="group" aria-label="Reading Mode">
             <button type="button" class="mode-pill-btn mode-btn active" data-mode="wbw">${t("readingModeWbw", state.lang)}</button>
             <button type="button" class="mode-pill-btn mode-btn" data-mode="mushaf">${t("readingModeMushaf", state.lang)}</button>
           </div>
-        </div>
 
-        <div class="header-right-group">
           <!-- Meaning Toggle: [Both | اردو | English] -->
           <div class="meaning-toggle-group" role="group" aria-label="Meaning display">
             <button type="button" class="meaning-btn ${meaningMode === "both" ? "active" : ""}" data-meaning="both">${t("meaningToggleBoth", state.lang)}</button>
@@ -177,13 +211,29 @@ export async function renderQuranScreen(container, params = []) {
 
       <!-- MAIN READING CARD (Parchment, internal scroll only, page never scrolls) -->
       <main class="quran-reading-viewport">
-        <div class="interlinear-reading-card" id="interlinear-card">
-          <div class="interlinear-flow-row" dir="rtl">
-            ${wordsHtml}
-            <div class="medallion-tile-end">
-              ${medallionSvg}
+        <div class="reading-card-container">
+          <button type="button" class="nav-arrow-btn nav-arrow-left ${leftDisabled ? 'disabled' : ''}" id="${leftId}" aria-label="${leftAria}">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="${leftPoints}"/>
+            </svg>
+            <span class="sr-only">${leftText}</span>
+          </button>
+
+          <div class="interlinear-reading-card" id="interlinear-card">
+            <div class="interlinear-flow-row" dir="rtl">
+              ${wordsHtml}
+              <div class="medallion-tile-end">
+                ${medallionSvg}
+              </div>
             </div>
           </div>
+
+          <button type="button" class="nav-arrow-btn nav-arrow-right ${rightDisabled ? 'disabled' : ''}" id="${rightId}" aria-label="${rightAria}">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="${rightPoints}"/>
+            </svg>
+            <span class="sr-only">${rightText}</span>
+          </button>
         </div>
 
         <!-- TWO SIDE-BY-SIDE FULL TRANSLATION CARDS -->
@@ -206,19 +256,11 @@ export async function renderQuranScreen(container, params = []) {
         </div>
       </main>
 
-      <!-- FOOTER: 60px Tall Pill Navigation Buttons -->
+      <!-- FOOTER: Centered Jump-to-Ayah Keypad Pill -->
       <footer class="quran-v2-footer">
-        <button type="button" class="kiosk-nav-pill btn-pill-prev ${isFirstAyah ? 'disabled' : ''}" id="btn-prev-ayah">
-          ${isUr ? 'پچھلی آیت ›' : '‹ Previous ayah'}
-        </button>
-
         <button type="button" class="btn-jump-keypad-pill" id="btn-goto-keypad">
           <span>${isUr ? `آیت <span class="urdu-num">${toUrduDigits(currentAyahObj.number)}</span> / <span class="urdu-num">${toUrduDigits(totalAyahs)}</span>` : `Ayah ${currentAyahObj.number} of ${totalAyahs}`}</span>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
-        </button>
-
-        <button type="button" class="kiosk-nav-pill btn-pill-next ${isLastAyah ? 'disabled' : ''}" id="btn-next-ayah">
-          ${isUr ? '‹ اگلی آیت' : 'Next ayah ›'}
         </button>
       </footer>
     </div>
@@ -247,21 +289,106 @@ export async function renderQuranScreen(container, params = []) {
     });
   });
 
-  // Navigation: Prev / Next
-  const btnPrev = container.querySelector("#btn-prev-ayah");
-  if (btnPrev && !isFirstAyah) {
-    btnPrev.addEventListener("click", () => {
-      selectedWordIndex = null;
-      router.navigate(`quran/${sNum}/${aNum - 1}`);
-    });
-  }
+  // Navigation: Prev / Next with slide animation & next-surah toast
+  const navigateNext = () => {
+    if (aNum < totalAyahs) {
+      animateAyahChange("next", () => {
+        selectedWordIndex = null;
+        router.navigate(`quran/${sNum}/${aNum + 1}`);
+      });
+    } else if (sNum < 114) {
+      const nextSurahNum = sNum + 1;
+      const surahsIndex = window.BASEERAH_INDEX || [];
+      const nextSurahObj = surahsIndex.find((s) => s.number === nextSurahNum);
+      const nextName = isUr
+        ? (nextSurahObj ? `${t("surahWord", "ur")} ${nextSurahObj.nameAr}` : `${t("surahWord", "ur")} ${nextSurahNum}`)
+        : (nextSurahObj ? nextSurahObj.nameEn : `Surah ${nextSurahNum}`);
+      UIComponents.showToast(isUr ? `اگلی سورت: ${nextName}` : `Next: ${nextName}`);
+      animateAyahChange("next", () => {
+        selectedWordIndex = null;
+        router.navigate(`quran/${nextSurahNum}/1`);
+      });
+    }
+  };
+
+  const navigatePrev = () => {
+    if (aNum > 1) {
+      animateAyahChange("prev", () => {
+        selectedWordIndex = null;
+        router.navigate(`quran/${sNum}/${aNum - 1}`);
+      });
+    }
+  };
+
+  const animateAyahChange = (direction, callback) => {
+    const card = container.querySelector("#interlinear-card");
+    if (!card) {
+      callback();
+      return;
+    }
+    const slideClass = direction === "next"
+      ? (isUr ? "slide-out-left" : "slide-out-right")
+      : (isUr ? "slide-out-right" : "slide-out-left");
+    card.classList.add(slideClass);
+    setTimeout(callback, 160);
+  };
 
   const btnNext = container.querySelector("#btn-next-ayah");
-  if (btnNext && !isLastAyah) {
-    btnNext.addEventListener("click", () => {
-      selectedWordIndex = null;
-      router.navigate(`quran/${sNum}/${aNum + 1}`);
-    });
+  if (btnNext && canGoNext) {
+    btnNext.addEventListener("click", () => navigateNext());
+  }
+
+  const btnPrev = container.querySelector("#btn-prev-ayah");
+  if (btnPrev && canGoPrev) {
+    btnPrev.addEventListener("click", () => navigatePrev());
+  }
+
+  // Keyboard Navigation: ← and →
+  const handleKeydown = (e) => {
+    if (e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA")) return;
+    if (e.key === "ArrowLeft") {
+      if (isUr) navigateNext();
+      else navigatePrev();
+    } else if (e.key === "ArrowRight") {
+      if (isUr) navigatePrev();
+      else navigateNext();
+    }
+  };
+  window.addEventListener("keydown", handleKeydown);
+  if (window._baseerahQuranKeyCleanup) window._baseerahQuranKeyCleanup();
+  window._baseerahQuranKeyCleanup = () => {
+    window.removeEventListener("keydown", handleKeydown);
+  };
+
+  // Touch Swipe on Reading Card
+  const readingCard = container.querySelector("#interlinear-card");
+  if (readingCard) {
+    let touchStartX = 0;
+    let touchStartY = 0;
+    readingCard.addEventListener("touchstart", (e) => {
+      if (e.touches && e.touches.length === 1) {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+      }
+    }, { passive: true });
+
+    readingCard.addEventListener("touchend", (e) => {
+      if (e.changedTouches && e.changedTouches.length === 1) {
+        const dx = e.changedTouches[0].clientX - touchStartX;
+        const dy = e.changedTouches[0].clientY - touchStartY;
+        if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.4) {
+          if (dx < 0) {
+            // Swiped Left
+            if (isUr) navigateNext();
+            else navigatePrev();
+          } else {
+            // Swiped Right
+            if (isUr) navigatePrev();
+            else navigateNext();
+          }
+        }
+      }
+    }, { passive: true });
   }
 
   // Back to Surahs
