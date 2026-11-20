@@ -28,6 +28,7 @@ import re
 import hashlib
 import unicodedata
 import difflib
+import argparse
 from collections import defaultdict
 from datetime import datetime, timezone
 
@@ -112,11 +113,47 @@ def compute_sha256(filepath):
     return h.hexdigest()
 
 def main():
+    parser = argparse.ArgumentParser(description="Baseerah Quran Data Builder")
+    parser.add_argument(
+        "--script",
+        choices=["indopak-qwbw", "digitalkhatt", "pdms"],
+        default="indopak-qwbw",
+        help="Indo-Pak script family: indopak-qwbw (QUL 59/89), digitalkhatt (QUL 565/566), or pdms (QUL 55/90)"
+    )
+    args = parser.parse_args()
+
+    script_configs = {
+        "indopak-qwbw": {
+            "wbw_file": "qul-wbw-indopak.json",
+            "ayah_file": "qul-ayah-indopak.json",
+            "wbw_id": 59,
+            "ayah_id": 89,
+            "font": "AlQuran IndoPak by QuranWBW"
+        },
+        "digitalkhatt": {
+            "wbw_file": "qul-wbw-digitalkhatt.json",
+            "ayah_file": "qul-ayah-digitalkhatt.json",
+            "wbw_id": 565,
+            "ayah_id": 566,
+            "font": "Digital Khatt Indopak"
+        },
+        "pdms": {
+            "wbw_file": "qul-wbw-pdms.json",
+            "ayah_file": "qul-ayah-pdms.json",
+            "wbw_id": 55,
+            "ayah_id": 90,
+            "font": "PDMS Saleem"
+        }
+    }
+
+    selected_cfg = script_configs[args.script]
+
     print("=" * 70)
-    print("BASEERAH DATA BUILD & VALIDATION")
+    print(f"BASEERAH DATA BUILD & VALIDATION (Script: {args.script} - {selected_cfg['font']})")
     print("=" * 70)
     report = {
         "buildTimestamp": datetime.now(timezone.utc).isoformat(),
+        "scriptFamily": args.script,
         "counts": {},
         "missingUrduMeanings": [],
         "missingEnglishMeanings": [],
@@ -153,13 +190,25 @@ def main():
     with open(p56, "r", encoding="utf-8") as f:
         s56 = json.load(f)
 
-    # 3. Load QUL 59 (Indo-Pak WBW)
-    p59 = os.path.join(RAW_DIR, "qul-wbw-indopak.json")
+    # 3. Load Selected Indo-Pak WBW
+    p59 = os.path.join(RAW_DIR, selected_cfg["wbw_file"])
+    if not os.path.exists(p59):
+        sys.exit(
+            f"FATAL: Raw file for script {args.script} not found: {p59}\n"
+            f"Download QUL script {selected_cfg['wbw_id']} from https://qul.tarteel.ai/resources/quran-script/{selected_cfg['wbw_id']} "
+            f"and place it at {p59}."
+        )
     with open(p59, "r", encoding="utf-8") as f:
         s59 = json.load(f)
 
-    # 4. Load QUL 89 (Indo-Pak Ayah)
-    p89 = os.path.join(RAW_DIR, "qul-ayah-indopak.json")
+    # 4. Load Selected Indo-Pak Ayah
+    p89 = os.path.join(RAW_DIR, selected_cfg["ayah_file"])
+    if not os.path.exists(p89):
+        sys.exit(
+            f"FATAL: Raw ayah file for script {args.script} not found: {p89}\n"
+            f"Download QUL script {selected_cfg['ayah_id']} from https://qul.tarteel.ai/resources/quran-script/{selected_cfg['ayah_id']} "
+            f"and place it at {p89}."
+        )
     with open(p89, "r", encoding="utf-8") as f:
         s89 = json.load(f)
 
@@ -471,7 +520,41 @@ def main():
         f.write(index_js)
     print(f"  Wrote index file (with verified Bismillah) to {index_path}")
 
-    # 3. data/build_report.json
+    # 3. data/juz.js (generated from raw/tanzil-quran-data.xml)
+    tanzil_meta_path = os.path.join(RAW_DIR, "tanzil-quran-data.xml")
+    if os.path.exists(tanzil_meta_path):
+        import xml.etree.ElementTree as ET
+        tree = ET.parse(tanzil_meta_path)
+        root = tree.getroot()
+        t_juzs = []
+        for j in root.find("juzs"):
+            t_juzs.append({
+                "number": int(j.attrib["index"]),
+                "start": {"surah": int(j.attrib["sura"]), "ayah": int(j.attrib["aya"])}
+            })
+        for i in range(len(t_juzs)):
+            item = t_juzs[i]
+            if i < len(t_juzs) - 1:
+                next_start = t_juzs[i + 1]["start"]
+                ns, na = next_start["surah"], next_start["ayah"]
+                if na > 1:
+                    item["end"] = {"surah": ns, "ayah": na - 1}
+                else:
+                    prev_s = ns - 1
+                    item["end"] = {"surah": prev_s, "ayah": tanzil_surah_counts[prev_s]}
+            else:
+                item["end"] = {"surah": 114, "ayah": 6}
+            item["nameUr"] = None
+            item["nameEn"] = f"Juz {item['number']}"
+            item["source"] = "Tanzil Project (CC BY 3.0) quran-data.xml"
+
+        juz_path = os.path.join(DATA_DIR, "juz.js")
+        with open(juz_path, "w", encoding="utf-8") as f:
+            f.write("/* Generated from Tanzil Project (CC BY 3.0) metadata/quran-data.xml */\n")
+            f.write("window.BASEERAH_JUZ = " + json.dumps(t_juzs, ensure_ascii=False, indent=2) + ";\n")
+        print(f"  Wrote validated Juz dataset (30 contiguous juzs) to {juz_path}")
+
+    # 4. data/build_report.json
     report_path = os.path.join(DATA_DIR, "build_report.json")
     with open(report_path, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)

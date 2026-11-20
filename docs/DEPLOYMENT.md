@@ -85,11 +85,18 @@ Open the kiosk URL once online or on the local server; the Service Worker (`sw.j
 
 ---
 
-## 5. Mosque Respect Mode Setting
+## 5. Mosque Respect Mode & Admin Security
 
 Mosques require silence during prayer times and recitation:
 1. Baseerah ships with **Mosque Respect Mode (Global Mute) enabled by default**.
-2. If audio recitation is ever desired during non-prayer hours:
-   - Tap the brand logo 5 times rapidly.
-   - Enter Admin PIN (`1234`).
-   - Toggle Mosque Respect Mode off or adjust the idle timeout.
+2. If facility management needs to adjust settings:
+   - Tap the brand logo 5 times rapidly within 3 seconds.
+   - On **First Launch**: Baseerah will prompt the administrator to set a 6-digit PIN and confirm it. The PIN is stored as a salted SHA-256 hash in local storage.
+   - On **Subsequent Access**: Enter the 6-digit Admin PIN.
+   - **Brute-Force Protection**: 5 consecutive incorrect attempts automatically locks out entry for 60 seconds.
+
+### Admin PIN Emergency Reset Procedure:
+If the administrator forgets the 6-digit PIN:
+1. **In Google Chrome / Edge:** Open DevTools (`F12`), navigate to **Application** -> **Storage**, and click **Clear site data** (or execute `localStorage.removeItem('baseerah_admin_pin_hash')`).
+2. **In Fully Kiosk Browser (Android):** Open Fully Kiosk settings (swipe from left or exit kiosk mode with your hardware key), navigate to **Other Settings** -> **Clear Webview Cache & Cookies**.
+3. Upon the next 5-tap sequence on the logo, Baseerah will detect that no PIN hash exists and will prompt the administrator to configure a fresh 6-digit PIN.

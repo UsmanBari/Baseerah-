@@ -9,56 +9,64 @@
       "titleUr": "نیت اور بسم اللہ",
       "titleEn": "Intention & Bismillah",
       "instructionUr": "دل میں وضو کی نیت کریں اور بسم اللہ پڑھیں۔",
-      "instructionEn": "Make intention in the heart to purify for prayer and say Bismillah."
+      "instructionEn": "Make intention in the heart to purify for prayer and say Bismillah.",
+      "provenance": "placeholder"
     },
     {
       "id": 2,
       "titleUr": "ہاتھ دھونا",
       "titleEn": "Washing Hands",
       "instructionUr": "دونوں ہاتھوں کو کلائیوں تک تین بار دھوئیں۔ انگلیوں کا خلال کریں۔",
-      "instructionEn": "Wash both hands up to the wrists three times, rubbing between fingers."
+      "instructionEn": "Wash both hands up to the wrists three times, rubbing between fingers.",
+      "provenance": "placeholder"
     },
     {
       "id": 3,
       "titleUr": "کلی کرنا",
       "titleEn": "Rinsing Mouth",
       "instructionUr": "دائیں ہاتھ سے منہ میں پانی ڈال کر تین بار اچھی طرح کلی کریں۔",
-      "instructionEn": "Rinse the mouth thoroughly three times with the right hand."
+      "instructionEn": "Rinse the mouth thoroughly three times with the right hand.",
+      "provenance": "placeholder"
     },
     {
       "id": 4,
       "titleUr": "ناک میں پانی ڈالنا",
       "titleEn": "Cleaning Nose",
       "instructionUr": "دائیں ہاتھ سے ناک میں پانی چڑھائیں اور بائیں ہاتھ سے تین بار ناک صاف کریں۔",
-      "instructionEn": "Sniff water into the nostrils with right hand and clean out with left hand three times."
+      "instructionEn": "Sniff water into the nostrils with right hand and clean out with left hand three times.",
+      "provenance": "placeholder"
     },
     {
       "id": 5,
       "titleUr": "چہرہ دھونا",
       "titleEn": "Washing Face",
       "instructionUr": "پیشانی کے بالوں سے لے کر ٹھوڑی کے نیچے تک اور ایک کان کی لو سے دوسرے کان کی لو تک پورا چہرہ تین بار دھوئیں۔",
-      "instructionEn": "Wash the entire face three times, from hair-line to below the chin and ear-to-ear."
+      "instructionEn": "Wash the entire face three times, from hair-line to below the chin and ear-to-ear.",
+      "provenance": "placeholder"
     },
     {
       "id": 6,
       "titleUr": "بازو دھونا",
       "titleEn": "Washing Arms",
       "instructionUr": "پہلے دایاں بازو کہنی سمیت تین بار، پھر بایاں بازو کہنی سمیت تین بار دھوئیں۔",
-      "instructionEn": "Wash the right arm including elbow three times, then the left arm three times."
+      "instructionEn": "Wash the right arm including elbow three times, then the left arm three times.",
+      "provenance": "placeholder"
     },
     {
       "id": 7,
       "titleUr": "مسح کرنا",
       "titleEn": "Wiping Head & Ears",
       "instructionUr": "گیلے ہاتھوں سے پورے سر کا مسح کریں اور کانوں کے اندر اور باہر مسح کریں۔",
-      "instructionEn": "Wipe the whole head once with wet hands, and wipe the ears inside and out."
+      "instructionEn": "Wipe the whole head once with wet hands, and wipe the ears inside and out.",
+      "provenance": "placeholder"
     },
     {
       "id": 8,
       "titleUr": "پاؤں دھونا",
       "titleEn": "Washing Feet",
       "instructionUr": "پہلے دایاں پاؤں ٹخنوں سمیت تین بار دھوئیں، پھر بایاں پاؤں ٹخنوں سمیت تین بار دھوئیں۔",
-      "instructionEn": "Wash right foot up to the ankle three times, then left foot three times, cleaning between toes."
+      "instructionEn": "Wash right foot up to the ankle three times, then left foot three times, cleaning between toes.",
+      "provenance": "placeholder"
     }
   ]
 }

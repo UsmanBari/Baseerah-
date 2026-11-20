@@ -40,10 +40,10 @@ class TestBaseerahKiosk(unittest.TestCase):
         
         # Verify first and last juz
         self.assertEqual(juz_list[0]["number"], 1)
-        self.assertEqual(juz_list[0]["nameUr"], "الم")
+        self.assertIsNone(juz_list[0]["nameUr"]) # Sourced from Tanzil, Urdu names left null pending scholar input
         self.assertEqual(juz_list[0]["start"], {"surah": 1, "ayah": 1})
         self.assertEqual(juz_list[29]["number"], 30)
-        self.assertEqual(juz_list[29]["nameUr"], "عمّ")
+        self.assertIsNone(juz_list[29]["nameUr"])
         self.assertEqual(juz_list[29]["end"], {"surah": 114, "ayah": 6})
 
     def test_featured_ayahs_consistency(self):
@@ -72,6 +72,21 @@ class TestBaseerahKiosk(unittest.TestCase):
                 data = json.load(f)
             self.assertEqual(data.get("status"), "draft")
             self.assertEqual(data.get("reviewed_by"), "pending-scholar-review")
+
+            # Check provenance field on every item
+            items = data.get("steps") or data.get("duas") or data.get("prayers") or []
+            for item in items:
+                prov = item.get("provenance")
+                self.assertIn(prov, ["scholar-provided", "placeholder"], f"Invalid provenance in {filename}: {prov}")
+                # Any non-null Arabic field must be scholar-provided
+                ar_val = item.get("ar")
+                if ar_val is not None and ar_val != "" and ar_val != "—":
+                    self.assertEqual(
+                        prov, "scholar-provided",
+                        f"Non-null Arabic found without 'scholar-provided' provenance in {filename}: {ar_val}"
+                    )
+                if prov == "placeholder":
+                    self.assertIn(ar_val, [None, "", "—"], f"Placeholder item in {filename} contains unverified Arabic: {ar_val}")
 
     def test_pwa_manifest_and_sw(self):
         manifest_path = os.path.join(BASE_DIR, "manifest.json")

@@ -141,7 +141,7 @@ function renderJuzGrid(juzList, isUr) {
             <span class="juz-card-en">${j.nameEn}</span>
             <span class="juz-card-meta">${isUr ? `سورت ${toUrduDigits(j.start.surah)}:${toUrduDigits(j.start.ayah)} سے` : `Surah ${j.start.surah}:${j.start.ayah} onward`}</span>
           </div>
-          <div class="juz-card-ur" lang="ur" dir="rtl">${j.nameUr}</div>
+          <div class="juz-card-ur" lang="ur" dir="rtl">${j.nameUr ? j.nameUr : `پارہ ${toUrduDigits(j.number)}`}</div>
         </button>
       `).join("")}
     </div>

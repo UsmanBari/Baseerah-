@@ -8,57 +8,71 @@
       "id": "thana",
       "nameUr": "ثناء (تکبیر کے بعد)",
       "nameEn": "Thana (Opening Supplication)",
-      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلَا إِلَهَ غَيْرُكَ",
-      "ur": "اے اللہ! تو پاک ہے اپنی تعریفوں کے ساتھ، تیرا نام بابرکت ہے، تیری شان بلند ہے اور تیرے سوا کوئی معبود نہیں۔",
-      "en": "Glory be to You, O Allah, and all praise. Blessed is Your name and exalted is Your majesty, and there is no deity besides You."
+      "ar": null,
+      "ur": null,
+      "en": "Opening supplication praised by scholar consensus.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
     },
     {
       "id": "ruku_tasbeeh",
       "nameUr": "رکوع کی تسبیح",
       "nameEn": "Tasbeeh in Ruku",
-      "ar": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
-      "ur": "پاک ہے میرا رب جو عظمت والا ہے۔ (تین بار)",
-      "en": "Glory be to my Lord, the Magnificent. (Three times)"
+      "ar": null,
+      "ur": null,
+      "en": "Tasbeeh in bowing posture.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
     },
     {
       "id": "qawmah",
-      "nameUr": "قومہ (رکوع سے اٹھتے وقت اور سیدھے کھڑے ہو کر)",
+      "nameUr": "قومہ (رکوع سے اٹھتے وقت)",
       "nameEn": "Rising from Ruku (Qawmah)",
-      "ar": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ · رَبَّنَا لَكَ الْحَمْدُ",
-      "ur": "اللہ نے سن لی اس کی جس نے اس کی تعریف کی · اے ہمارے رب! تمام تعریفیں تیرے ہی لیے ہیں۔",
-      "en": "Allah hears the one who praises Him · Our Lord, all praise belongs to You."
+      "ar": null,
+      "ur": null,
+      "en": "Praise upon rising from bowing.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
     },
     {
       "id": "sajdah_tasbeeh",
       "nameUr": "سجدے کی تسبیح",
       "nameEn": "Tasbeeh in Sajdah",
-      "ar": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
-      "ur": "پاک ہے میرا رب جو سب سے بلند ہے۔ (تین بار)",
-      "en": "Glory be to my Lord, the Most High. (Three times)"
+      "ar": null,
+      "ur": null,
+      "en": "Tasbeeh in prostration.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
     },
     {
       "id": "tashahhud",
       "nameUr": "التحیات (تشہد)",
       "nameEn": "Tashahhud (Attahiyyat)",
-      "ar": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
-      "ur": "تمام قولی، بدنی اور مالی عبادتیں اللہ کے لیے ہیں۔ اے نبی! آپ پر سلامتی ہو اور اللہ کی رحمت اور برکتیں ہوں۔ سلام ہو ہم پر اور اللہ کے نیک بندوں پر۔ میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں اور محمد (صلی اللہ علیہ وسلم) اس کے بندے اور رسول ہیں۔",
-      "en": "All compliments, prayers and pure words are due to Allah. Peace be upon you, O Prophet, and the mercy of Allah and His blessings. Peace be upon us and upon the righteous servants of Allah. I bear witness that there is no god but Allah, and I bear witness that Muhammad is His servant and messenger."
+      "ar": null,
+      "ur": null,
+      "en": "Sitting supplication and testimony.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
     },
     {
       "id": "durood",
       "nameUr": "درودِ ابراہیمی",
       "nameEn": "Durood-e-Ibrahimi",
-      "ar": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
-      "ur": "اے اللہ! درود بھیج محمد (صلی اللہ علیہ وسلم) پر اور ان کی آل پر جیسے تو نے درود بھیجا ابراہیم (علیہ السلام) پر اور ان کی آل پر، بے شک تو تعریف کیا گیا بزرگی والا ہے۔ اے اللہ! برکت نازل فرما محمد (صلی اللہ علیہ وسلم) پر اور ان کی آل پر جیسے تو نے برکت نازل فرمائی ابراہیم (علیہ السلام) پر اور ان کی آل پر، بے شک تو تعریف کیا گیا بزرگی والا ہے۔",
-      "en": "O Allah, bestow peace upon Muhammad and the family of Muhammad, as You bestowed peace upon Ibrahim and the family of Ibrahim. Indeed, You are Praiseworthy, Majestic. O Allah, bless Muhammad and the family of Muhammad, as You blessed Ibrahim and the family of Ibrahim. Indeed, You are Praiseworthy, Majestic."
+      "ar": null,
+      "ur": null,
+      "en": "Salutations upon the Prophet (PBUH) and Ibrahim (AS).",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
     },
     {
       "id": "dua_masura",
       "nameUr": "دعا بعد درود (دعا ماسورہ)",
       "nameEn": "Supplication after Durood",
-      "ar": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِنْ ذُرِّيَّتِي رَبَّنَا وَتَقَبَّلْ دُعَاءِ، رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
-      "ur": "اے میرے رب! مجھے اور میری اولاد کو نماز قائم کرنے والا بنا، اے ہمارے رب! اور میری دعا قبول فرما۔ اے ہمارے رب! مجھے اور میرے والدین کو اور تمام مومنوں کو بخش دے جس دن حساب قائم ہوگا۔",
-      "en": "My Lord, make me an establisher of prayer, and from my descendants. Our Lord, and accept my supplication. Our Lord, forgive me and my parents and the believers the Day the account is established."
+      "ar": null,
+      "ur": null,
+      "en": "Closing supplication before Salam.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
     }
   ]
 }

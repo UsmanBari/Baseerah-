@@ -9,6 +9,7 @@
       "nameEn": "Fajr",
       "timeEn": "Dawn to Sunrise",
       "timeUr": "صبح صادق سے طلوعِ آفتاب تک",
+      "provenance": "placeholder",
       "rakats": [
         { "typeUr": "سنت مؤکدہ", "typeEn": "Sunnah Mu'akkadah", "count": 2 },
         { "typeUr": "فرض", "typeEn": "Fard", "count": 2 }
@@ -20,6 +21,7 @@
       "nameEn": "Dhuhr",
       "timeEn": "Midday to Asr",
       "timeUr": "زوال آفتاب کے بعد سے عصر تک",
+      "provenance": "placeholder",
       "rakats": [
         { "typeUr": "سنت مؤکدہ", "typeEn": "Sunnah Mu'akkadah", "count": 4 },
         { "typeUr": "فرض", "typeEn": "Fard", "count": 4 },
@@ -33,6 +35,7 @@
       "nameEn": "Asr",
       "timeEn": "Late afternoon to Sunset",
       "timeUr": "دو مثل سائے سے غروبِ آفتاب تک",
+      "provenance": "placeholder",
       "rakats": [
         { "typeUr": "سنت غیر مؤکدہ", "typeEn": "Sunnah Ghair-Mu'akkadah", "count": 4 },
         { "typeUr": "فرض", "typeEn": "Fard", "count": 4 }
@@ -44,6 +47,7 @@
       "nameEn": "Maghrib",
       "timeEn": "Just after Sunset to Dusk",
       "timeUr": "غروبِ آفتاب سے شفق غائب ہونے تک",
+      "provenance": "placeholder",
       "rakats": [
         { "typeUr": "فرض", "typeEn": "Fard", "count": 3 },
         { "typeUr": "سنت مؤکدہ", "typeEn": "Sunnah Mu'akkadah", "count": 2 },
@@ -56,6 +60,7 @@
       "nameEn": "Isha",
       "timeEn": "Night until Midnight",
       "timeUr": "شفق کے غائب ہونے سے صبح صادق تک",
+      "provenance": "placeholder",
       "rakats": [
         { "typeUr": "سنت غیر مؤکدہ", "typeEn": "Sunnah Ghair-Mu'akkadah", "count": 4 },
         { "typeUr": "فرض", "typeEn": "Fard", "count": 4 },

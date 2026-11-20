@@ -1174,6 +1174,21 @@ button:focus-visible {
   margin: 0;
 }
 
+.pending-scholar-box {
+  background: var(--color-surface-subtle);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 16px;
+  color: var(--color-text-muted);
+}
+.pending-icon {
+  font-size: 20px;
+}
+
 /* Wudu Grid */
 .wudu-grid {
   display: grid;

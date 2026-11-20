@@ -1,0 +1,13 @@
+{
+  "name": "baseerah",
+  "version": "1.0.0",
+  "description": "Baseerah — Commercial Quran and Namaz learning kiosk for mosques",
+  "private": true,
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:ci": "python -m unittest tests/test_build.py tests/test_kiosk.py && python scripts/check_arabic_allowlist.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  }
+}

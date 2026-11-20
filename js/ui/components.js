@@ -17,6 +17,8 @@ export const UIComponents = {
     let activeField = "ayah"; // "surah" | "ayah"
     let surahVal = String(currentSurah);
     let ayahVal = "1";
+    let isFirstSurahInput = true;
+    let isFirstAyahInput = true;
 
     const render = () => {
       dialog.innerHTML = `
@@ -70,14 +72,22 @@ export const UIComponents = {
         k.addEventListener("click", () => {
           const num = k.getAttribute("data-key");
           if (activeField === "surah") {
-            if (surahVal === "0" || surahVal === "1" && num !== "0") surahVal = num;
-            else if (surahVal.length < 3) surahVal += num;
+            if (isFirstSurahInput || surahVal === "0") {
+              surahVal = num;
+              isFirstSurahInput = false;
+            } else if (surahVal.length < 3) {
+              surahVal += num;
+            }
             const parsed = parseInt(surahVal, 10);
             if (parsed > 114) surahVal = "114";
             if (parsed < 1) surahVal = "1";
           } else {
-            if (ayahVal === "0") ayahVal = num;
-            else if (ayahVal.length < 3) ayahVal += num;
+            if (isFirstAyahInput || ayahVal === "0") {
+              ayahVal = num;
+              isFirstAyahInput = false;
+            } else if (ayahVal.length < 3) {
+              ayahVal += num;
+            }
             const parsed = parseInt(ayahVal, 10);
             if (parsed > maxAyahs) ayahVal = String(maxAyahs);
             if (parsed < 1) ayahVal = "1";
@@ -118,60 +128,150 @@ export const UIComponents = {
   },
 
   /**
-   * Prompts for Admin PIN (default 1234)
+   * Prompts for Admin PIN (6 digits, setup on first launch, salted hash + 60s lockout)
    */
-  showAdminPinDialog(onSuccess) {
+  async showAdminPinDialog(onSuccess) {
     const dialog = document.createElement("div");
     dialog.className = "modal-overlay active";
 
+    const hashString = async (str) => {
+      if (window.crypto && window.crypto.subtle) {
+        const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
+        return Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, "0")).join("");
+      }
+      // Simple fallback
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) hash = ((hash << 5) - hash) + str.charCodeAt(i);
+      return String(hash);
+    };
+
+    let storedHash = localStorage.getItem("baseerah_admin_pin_hash");
+    let storedSalt = localStorage.getItem("baseerah_admin_pin_salt");
+
+    // Mode: "setup_entry", "setup_confirm", "verify"
+    let mode = !storedHash ? "setup_entry" : "verify";
+    let firstEnteredPin = "";
     let enteredPin = "";
     let errorMsg = "";
 
+    const checkLockout = () => {
+      const lockoutUntil = parseInt(localStorage.getItem("baseerah_admin_lockout_until") || "0", 10);
+      const now = Date.now();
+      if (lockoutUntil > now) {
+        return Math.ceil((lockoutUntil - now) / 1000);
+      }
+      return 0;
+    };
+
     const render = () => {
+      const remainingLockout = checkLockout();
+      const isLocked = remainingLockout > 0;
+      const isUr = state.lang === "ur";
+
+      let promptTitle = t("admin", state.lang);
+      let promptText = "";
+      if (isLocked) {
+        promptText = isUr ? `کیوسک لاک ہے۔ ${remainingLockout} سیکنڈ بعد دوبارہ کوشش کریں۔` : `Locked out. Try again in ${remainingLockout}s.`;
+      } else if (mode === "setup_entry") {
+        promptText = isUr ? "نیا ایڈمن پن کوڈ درج کریں (۶ ہندسے)" : "Set new 6-digit Admin PIN (Step 1/2)";
+      } else if (mode === "setup_confirm") {
+        promptText = isUr ? "پن کوڈ کی تصدیق کریں (۶ ہندسے)" : "Confirm 6-digit Admin PIN (Step 2/2)";
+      } else {
+        promptText = isUr ? "ایڈمن پن کوڈ درج کریں" : "Enter 6-digit Admin PIN";
+      }
+
       dialog.innerHTML = `
         <div class="modal-card">
           <div class="modal-header">
-            <h3>${t("admin", state.lang)}</h3>
+            <h3>${promptTitle}</h3>
             <button type="button" class="btn-close" aria-label="${t("close", state.lang)}">✕</button>
           </div>
-          <p class="modal-prompt">${t("adminPinPrompt", state.lang)}</p>
+          <p class="modal-prompt" style="${isLocked ? "color: var(--color-danger); font-weight: 700;" : ""}">${promptText}</p>
           <div class="pin-display">
             <span class="pin-dot ${enteredPin.length >= 1 ? "filled" : ""}"></span>
             <span class="pin-dot ${enteredPin.length >= 2 ? "filled" : ""}"></span>
             <span class="pin-dot ${enteredPin.length >= 3 ? "filled" : ""}"></span>
             <span class="pin-dot ${enteredPin.length >= 4 ? "filled" : ""}"></span>
+            <span class="pin-dot ${enteredPin.length >= 5 ? "filled" : ""}"></span>
+            <span class="pin-dot ${enteredPin.length >= 6 ? "filled" : ""}"></span>
           </div>
           ${errorMsg ? `<p class="pin-error">${errorMsg}</p>` : ""}
           <div class="touch-keypad">
-            <button type="button" class="key-btn" data-key="1">1</button>
-            <button type="button" class="key-btn" data-key="2">2</button>
-            <button type="button" class="key-btn" data-key="3">3</button>
-            <button type="button" class="key-btn" data-key="4">4</button>
-            <button type="button" class="key-btn" data-key="5">5</button>
-            <button type="button" class="key-btn" data-key="6">6</button>
-            <button type="button" class="key-btn" data-key="7">7</button>
-            <button type="button" class="key-btn" data-key="8">8</button>
-            <button type="button" class="key-btn" data-key="9">9</button>
-            <button type="button" class="key-btn key-clear" data-action="clear">${t("clear", state.lang)}</button>
-            <button type="button" class="key-btn" data-key="0">0</button>
-            <button type="button" class="key-btn key-backspace" data-action="backspace">⌫</button>
+            <button type="button" class="key-btn" data-key="1" ${isLocked ? "disabled" : ""}>1</button>
+            <button type="button" class="key-btn" data-key="2" ${isLocked ? "disabled" : ""}>2</button>
+            <button type="button" class="key-btn" data-key="3" ${isLocked ? "disabled" : ""}>3</button>
+            <button type="button" class="key-btn" data-key="4" ${isLocked ? "disabled" : ""}>4</button>
+            <button type="button" class="key-btn" data-key="5" ${isLocked ? "disabled" : ""}>5</button>
+            <button type="button" class="key-btn" data-key="6" ${isLocked ? "disabled" : ""}>6</button>
+            <button type="button" class="key-btn" data-key="7" ${isLocked ? "disabled" : ""}>7</button>
+            <button type="button" class="key-btn" data-key="8" ${isLocked ? "disabled" : ""}>8</button>
+            <button type="button" class="key-btn" data-key="9" ${isLocked ? "disabled" : ""}>9</button>
+            <button type="button" class="key-btn key-clear" data-action="clear" ${isLocked ? "disabled" : ""}>${t("clear", state.lang)}</button>
+            <button type="button" class="key-btn" data-key="0" ${isLocked ? "disabled" : ""}>0</button>
+            <button type="button" class="key-btn key-backspace" data-action="backspace" ${isLocked ? "disabled" : ""}>⌫</button>
           </div>
         </div>
       `;
 
       dialog.querySelectorAll(".key-btn[data-key]").forEach((k) => {
-        k.addEventListener("click", () => {
-          if (enteredPin.length < 4) {
+        k.addEventListener("click", async () => {
+          if (isLocked) return;
+          if (enteredPin.length < 6) {
             enteredPin += k.getAttribute("data-key");
             errorMsg = "";
-            if (enteredPin.length === 4) {
-              if (enteredPin === "1234") {
-                document.body.removeChild(dialog);
-                if (onSuccess) onSuccess();
-                return;
-              } else {
-                errorMsg = t("adminPinError", state.lang);
+
+            if (enteredPin.length === 6) {
+              if (mode === "setup_entry") {
+                firstEnteredPin = enteredPin;
                 enteredPin = "";
+                mode = "setup_confirm";
+                render();
+                return;
+              }
+
+              if (mode === "setup_confirm") {
+                if (enteredPin === firstEnteredPin) {
+                  // Save salted hash
+                  const salt = Math.random().toString(36).substring(2, 15) + Date.now().toString(36);
+                  const hash = await hashString(salt + enteredPin);
+                  localStorage.setItem("baseerah_admin_pin_salt", salt);
+                  localStorage.setItem("baseerah_admin_pin_hash", hash);
+                  localStorage.setItem("baseerah_admin_failed_attempts", "0");
+                  document.body.removeChild(dialog);
+                  if (onSuccess) onSuccess();
+                  return;
+                } else {
+                  errorMsg = isUr ? "پن کوڈ مماثل نہیں ہے۔ دوبارہ درج کریں۔" : "PINs do not match. Start over.";
+                  mode = "setup_entry";
+                  firstEnteredPin = "";
+                  enteredPin = "";
+                  render();
+                  return;
+                }
+              }
+
+              if (mode === "verify") {
+                const computedHash = await hashString(storedSalt + enteredPin);
+                if (computedHash === storedHash) {
+                  localStorage.setItem("baseerah_admin_failed_attempts", "0");
+                  document.body.removeChild(dialog);
+                  if (onSuccess) onSuccess();
+                  return;
+                } else {
+                  let failed = parseInt(localStorage.getItem("baseerah_admin_failed_attempts") || "0", 10) + 1;
+                  localStorage.setItem("baseerah_admin_failed_attempts", String(failed));
+                  enteredPin = "";
+
+                  if (failed >= 5) {
+                    localStorage.setItem("baseerah_admin_lockout_until", String(Date.now() + 60000));
+                    localStorage.setItem("baseerah_admin_failed_attempts", "0");
+                    errorMsg = isUr ? "۵ بار غلط کوشش۔ ۶۰ سیکنڈ لاک آؤٹ۔" : "5 failed attempts. Locked for 60s.";
+                  } else {
+                    errorMsg = isUr ? `غلط پن کوڈ۔ (${5 - failed} کوششیں باقی)` : `Incorrect PIN. (${5 - failed} attempts remaining)`;
+                  }
+                  render();
+                  return;
+                }
               }
             }
             render();

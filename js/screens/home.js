@@ -31,7 +31,7 @@ export function renderHomeScreen(container) {
       </header>
 
       <div class="home-intro">
-        <p class="bismillah" lang="ar" dir="rtl">${bismillah}</p>
+        <p id="home-bismillah" class="bismillah" lang="ar" dir="rtl">${bismillah}</p>
         <p class="muted">${t("touchToBegin", state.lang)}</p>
       </div>
 

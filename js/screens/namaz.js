@@ -156,8 +156,15 @@ function renderStepsTab(isUr) {
 
         <div class="detail-section">
           <h4 class="detail-section-title">${t("whatToRecite", state.lang)}</h4>
-          <div class="detail-arabic-box" lang="ar" dir="rtl">${currentStep.ar || "—"}</div>
-          <p class="detail-ar-trans" lang="ur" dir="rtl">${currentStep.arUr || ""}</p>
+          ${currentStep.ar ? `
+            <div class="detail-arabic-box" lang="ar" dir="rtl">${currentStep.ar}</div>
+            <p class="detail-ar-trans" lang="ur" dir="rtl">${currentStep.arUr || ""}</p>
+          ` : `
+            <div class="pending-scholar-box">
+              <span class="pending-icon">⏳</span>
+              <span class="pending-text">${isUr ? "متن باقاعدہ شرعی تصدیق کے بعد شامل ہوگا (عالم دین کا جائزہ باقی)" : "Text coming after scholar review"}</span>
+            </div>
+          `}
         </div>
       </div>
     </div>
@@ -227,11 +234,18 @@ function renderDuasTab(isUr) {
             <h4 class="dua-title-ur" lang="ur">${d.nameUr}</h4>
             <span class="dua-title-en">${d.nameEn}</span>
           </div>
-          <div class="dua-arabic" lang="ar" dir="rtl">${d.ar}</div>
-          <div class="dua-translations">
-            <p class="dua-ur" lang="ur" dir="rtl">${d.ur}</p>
-            <p class="dua-en" dir="ltr">${d.en}</p>
-          </div>
+          ${d.ar ? `
+            <div class="dua-arabic" lang="ar" dir="rtl">${d.ar}</div>
+            <div class="dua-translations">
+              <p class="dua-ur" lang="ur" dir="rtl">${d.ur}</p>
+              <p class="dua-en" dir="ltr">${d.en}</p>
+            </div>
+          ` : `
+            <div class="pending-scholar-box">
+              <span class="pending-icon">⏳</span>
+              <span class="pending-text">${isUr ? "عربی متن اور ترجمہ باقاعدہ شرعی تصدیق کے بعد شامل ہوگا (عالم دین کا جائزہ باقی)" : "Arabic text and translation coming after scholar review"}</span>
+            </div>
+          `}
         </div>
       `).join("")}
     </div>

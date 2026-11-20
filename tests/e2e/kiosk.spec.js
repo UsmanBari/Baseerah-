@@ -79,8 +79,12 @@ test.describe("Baseerah Commercial Mosque Kiosk E2E", () => {
     await expect(page).toHaveURL(/.*#quran\/1\/5/);
   });
 
-  test("Hidden Admin Panel unlocks with PIN 1234", async ({ page }) => {
+  test("Hidden Admin Panel unlocks with 6-digit PIN setup", async ({ page }) => {
     await page.goto("/index.html#home");
+    await page.evaluate(() => {
+      localStorage.removeItem("baseerah_admin_pin_hash");
+      localStorage.removeItem("baseerah_admin_pin_salt");
+    });
     const logo = page.locator("#brand-logo");
 
     // Rapid 5 taps
@@ -88,14 +92,18 @@ test.describe("Baseerah Commercial Mosque Kiosk E2E", () => {
       await logo.click();
     }
 
-    // Modal appears
+    // Setup Modal appears
     await expect(page.locator(".modal-card")).toBeVisible();
 
-    // Enter PIN: 1, 2, 3, 4
-    await page.click(".key-btn[data-key='1']");
-    await page.click(".key-btn[data-key='2']");
-    await page.click(".key-btn[data-key='3']");
-    await page.click(".key-btn[data-key='4']");
+    // Step 1: Set PIN: 1, 2, 3, 4, 5, 6
+    for (const d of ["1", "2", "3", "4", "5", "6"]) {
+      await page.click(`.key-btn[data-key='${d}']`);
+    }
+
+    // Step 2: Confirm PIN: 1, 2, 3, 4, 5, 6
+    for (const d of ["1", "2", "3", "4", "5", "6"]) {
+      await page.click(`.key-btn[data-key='${d}']`);
+    }
 
     await expect(page).toHaveURL(/.*#admin/);
     await expect(page.locator(".screen-admin")).toBeVisible();
