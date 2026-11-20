@@ -1,12 +1,23 @@
-/* Baseerah — Quran Reading Screen (Word-by-Word & Mushaf Modes) */
+/* Baseerah — Quran Screen (Baseerah v2 Interlinear Word-by-Word Redesign) */
 import { state } from "../core/state.js";
 import { t, toUrduDigits } from "../core/i18n.js";
 import { router } from "../core/router.js";
 import { UIComponents } from "../ui/components.js";
-import { audioManager } from "../core/audio.js";
 import { Integrity } from "../core/integrity.js";
 
-let currentSelectedWordIndex = 0;
+let selectedWordIndex = null;
+
+function parseFootnotesMap(fnRaw) {
+  const map = {};
+  if (!fnRaw || typeof fnRaw !== "string") return map;
+  // Match lines or blocks starting with [number]
+  const pattern = /\[(\d+)\]\s*([^[]+)/g;
+  let match;
+  while ((match = pattern.exec(fnRaw)) !== null) {
+    map[match[1]] = match[2].trim();
+  }
+  return map;
+}
 
 export async function renderQuranScreen(container, params = []) {
   const isUr = state.lang === "ur";
@@ -23,7 +34,7 @@ export async function renderQuranScreen(container, params = []) {
     </div>
   `;
 
-  // Fetch surah data with integrity check
+  // Fetch surah data with SHA-256 integrity check
   let surahData = state.surahCache.get(sNum);
   if (!surahData) {
     try {
@@ -32,14 +43,12 @@ export async function renderQuranScreen(container, params = []) {
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const text = await resp.text();
 
-      // Integrity verification
       const verifyRes = await Integrity.verifySurahFile(sNum, text);
       if (!verifyRes.valid) {
         showIntegrityError(container, sNum, verifyRes);
         return;
       }
 
-      // Safe extraction of json object
       const jsonStr = text.replace(/^window\.BASEERAH_SURAH\s*=\s*/, "").replace(/;\s*$/, "");
       surahData = JSON.parse(jsonStr);
       state.surahCache.set(sNum, surahData);
@@ -60,277 +69,394 @@ export async function renderQuranScreen(container, params = []) {
   const totalAyahs = surahData.ayahs.length;
   const currentAyahObj = surahData.ayahs.find((a) => a.number === aNum) || surahData.ayahs[0];
   const ayahIndex = surahData.ayahs.indexOf(currentAyahObj);
+  const isFirstAyah = aNum <= 1;
+  const isLastAyah = aNum >= totalAyahs;
+
+  const fnMapUr = parseFootnotesMap(currentAyahObj.footnotesUr);
+  const fnMapEn = parseFootnotesMap(currentAyahObj.footnotesEn);
+
+  // Parse footnotes inside translations
+  const renderTransWithFootnotes = (rawText, lang, fnMap) => {
+    if (!rawText) return "—";
+    return rawText.replace(/\[(\d+)\]/g, (match, p1) => {
+      return `<button type="button" class="fn-ref-btn" data-fn="${p1}" data-lang="${lang}" aria-label="Footnote ${p1}"><sup>[${p1}]</sup></button>`;
+    });
+  };
+
+  const urHtml = renderTransWithFootnotes(currentAyahObj.ur, "ur", fnMapUr);
+  const enHtml = renderTransWithFootnotes(currentAyahObj.en, "en", fnMapEn);
+
+  const meaningMode = state.meaningDisplay; // "both" | "ur" | "en"
+
+  // Mode: WBW vs Mushaf
+  const isMushafMode = state.readingMode === "mushaf";
+
+  if (isMushafMode) {
+    renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr);
+    return;
+  }
+
+  // -------------------------------------------------------------
+  // INTERLINEAR WORD-BY-WORD LAYOUT
+  // -------------------------------------------------------------
+  const wordsHtml = (currentAyahObj.words || []).map((w, idx) => {
+    const isSelected = selectedWordIndex === idx;
+    return `
+      <div class="wbw-interlinear-tile wbw-word-tile ${isSelected ? 'selected' : ''}" data-word-idx="${idx}" role="button" tabindex="0">
+        <span class="tile-ar" lang="ar">${w.ar}</span>
+        <div class="tile-gold-divider"></div>
+        <span class="tile-ur" lang="ur">${w.ur || "—"}</span>
+        <span class="tile-en">${w.en || "—"}</span>
+      </div>
+    `;
+  }).join("");
+
+  const medallionSvg = UIComponents.getAyahMedallionSvg(currentAyahObj.number, 52);
+
+  // Ayah Chips Row (current = emerald, read = light green, upcoming = white)
+  const chipsHtml = surahData.ayahs.map((a) => {
+    let chipStatus = "chip-upcoming";
+    if (a.number === aNum) chipStatus = "chip-current";
+    else if (a.number < aNum) chipStatus = "chip-read";
+
+    return `
+      <button type="button" class="ayah-chip ${chipStatus}" data-chip-ayah="${a.number}" aria-label="Ayah ${a.number}">
+        ${isUr ? toUrduDigits(a.number) : a.number}
+      </button>
+    `;
+  }).join("");
 
   container.innerHTML = `
-    <div class="screen active screen-quran" dir="${isUr ? "rtl" : "ltr"}">
-      <!-- Top Action Bar -->
-      <header class="quran-header">
-        <div class="header-left">
-          <button type="button" class="btn-icon btn-back" data-nav="surahs" aria-label="${t("surahs", state.lang)}">
+    <div class="screen active screen-quran-v2 meaning-${meaningMode}" dir="${isUr ? "rtl" : "ltr"}">
+      
+      <!-- TOP ACTION BAR (Emerald + Star Pattern) -->
+      <header class="quran-header-emerald">
+        <div class="header-left-group">
+          <button type="button" class="btn-header-back" data-nav="surahs" aria-label="${t("surahs", state.lang)}">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
               ${isUr ? '<polyline points="9 18 15 12 9 6"/>' : '<polyline points="15 18 9 12 15 6"/>'}
             </svg>
             <span>${t("surahs", state.lang)}</span>
           </button>
 
-          <div class="surah-title-chip">
-            <span class="chip-num">${isUr ? toUrduDigits(sNum) : sNum}</span>
-            <span class="chip-name-ar" lang="ar" dir="rtl">${surahData.nameAr}</span>
-            <span class="chip-name-en">${surahData.nameEn}</span>
+          <div class="header-surah-meta">
+            <span class="surah-name-gold" lang="ar" dir="rtl">${surahData.nameAr}</span>
+            <span class="surah-sub-info">
+              ${surahData.nameEn} · ${t("surahWord", state.lang)} ${isUr ? toUrduDigits(sNum) : sNum} · ${isUr ? toUrduDigits(totalAyahs) : totalAyahs} ${t("ayahsWord", state.lang)}
+            </span>
           </div>
         </div>
 
-        <div class="header-center">
-          <button type="button" class="keypad-trigger-btn" id="btn-goto-keypad">
-            <span>${isUr ? `آیت ${toUrduDigits(currentAyahObj.number)} / ${toUrduDigits(totalAyahs)}` : `Ayah ${currentAyahObj.number} of ${totalAyahs}`}</span>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
-          </button>
+        <div class="header-center-group">
+          <!-- Reading Mode Switch (WBW / Mushaf) -->
+          <div class="mode-pill-toggle mode-toggle" role="group" aria-label="Reading Mode">
+            <button type="button" class="mode-pill-btn mode-btn active" data-mode="wbw">${t("readingModeWbw", state.lang)}</button>
+            <button type="button" class="mode-pill-btn mode-btn" data-mode="mushaf">${t("readingModeMushaf", state.lang)}</button>
+          </div>
         </div>
 
-        <div class="header-right">
-          <!-- Reading Mode Switch -->
-          <div class="mode-toggle" role="group" aria-label="Reading Mode">
-            <button type="button" class="mode-btn ${state.readingMode === "wbw" ? "active" : ""}" data-mode="wbw">
-              ${t("readingModeWbw", state.lang)}
-            </button>
-            <button type="button" class="mode-btn ${state.readingMode === "mushaf" ? "active" : ""}" data-mode="mushaf">
-              ${t("readingModeMushaf", state.lang)}
-            </button>
+        <div class="header-right-group">
+          <!-- Meaning Toggle: [Both | اردو | English] -->
+          <div class="meaning-toggle-group" role="group" aria-label="Meaning display">
+            <button type="button" class="meaning-btn ${meaningMode === "both" ? "active" : ""}" data-meaning="both">${t("meaningToggleBoth", state.lang)}</button>
+            <button type="button" class="meaning-btn ${meaningMode === "ur" ? "active" : ""}" data-meaning="ur">${t("meaningToggleUrdu", state.lang)}</button>
+            <button type="button" class="meaning-btn ${meaningMode === "en" ? "active" : ""}" data-meaning="en">${t("meaningToggleEnglish", state.lang)}</button>
           </div>
 
-          <!-- Elder Text Scaler -->
-          <div id="elder-scale-container"></div>
+          <!-- 5-Step Text Scaler [A− | A+] -->
+          <div class="font-scaler-container" id="font-scaler-box"></div>
         </div>
       </header>
 
-      <!-- Main Reader Area -->
-      <main class="quran-main-body">
-        ${state.readingMode === "wbw" 
-          ? renderWbwView(surahData, currentAyahObj, ayahIndex, totalAyahs, isUr)
-          : renderMushafView(surahData, isUr)
-        }
+      <!-- AYAH CHIPS ROW (Horizontally scrolling, auto-centered) -->
+      <nav class="ayah-chips-bar" id="ayah-chips-bar" aria-label="Ayah Navigation">
+        <div class="chips-scroll-track" id="chips-scroll-track">
+          ${chipsHtml}
+        </div>
+      </nav>
+
+      <!-- MAIN READING CARD (Parchment, internal scroll only, page never scrolls) -->
+      <main class="quran-reading-viewport">
+        <div class="interlinear-reading-card" id="interlinear-card">
+          <div class="interlinear-flow-row" dir="rtl">
+            ${wordsHtml}
+            <div class="medallion-tile-end">
+              ${medallionSvg}
+            </div>
+          </div>
+        </div>
+
+        <!-- TWO SIDE-BY-SIDE FULL TRANSLATION CARDS -->
+        <div class="translations-duo-grid">
+          <!-- English Translation (Left, LTR) -->
+          <div class="trans-duo-card trans-card-en" dir="ltr">
+            <div class="trans-duo-header">
+              <span class="trans-translator-tag">${t("translatorEnglish", state.lang)}</span>
+            </div>
+            <p class="trans-body-text">${enHtml}</p>
+          </div>
+
+          <!-- Urdu Translation (Right, RTL) -->
+          <div class="trans-duo-card trans-card-ur" dir="rtl">
+            <div class="trans-duo-header">
+              <span class="trans-translator-tag" lang="ur">${t("translatorUrdu", state.lang)}</span>
+            </div>
+            <p class="trans-body-text" lang="ur">${urHtml}</p>
+          </div>
+        </div>
       </main>
 
-      <!-- Bottom Audio / Navigation Bar (For WBW Mode) -->
-      ${state.readingMode === "wbw" ? `
-        <footer class="quran-footer">
-          <button type="button" class="btn-nav-ayah" id="btn-prev-ayah" ${ayahIndex <= 0 ? "disabled" : ""}>
-            ${isUr ? "← اگلی آیت" : "← Previous"}
-          </button>
-          
-          <button type="button" class="btn-audio-ayah" id="btn-audio-ayah">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
-              <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>
-            </svg>
-            <span>${state.mosqueMute ? (isUr ? "احترامِ مسجد موڈ" : "Mosque Mute") : (isUr ? "تلاوت سنیں" : "Recitation")}</span>
-          </button>
+      <!-- FOOTER: 60px Tall Pill Navigation Buttons -->
+      <footer class="quran-v2-footer">
+        <button type="button" class="kiosk-nav-pill btn-pill-prev ${isFirstAyah ? 'disabled' : ''}" id="btn-prev-ayah">
+          ${isUr ? '‹ پچھلی آیت' : '‹ Previous ayah'}
+        </button>
 
-          <button type="button" class="btn-nav-ayah" id="btn-next-ayah" ${ayahIndex >= totalAyahs - 1 ? "disabled" : ""}>
-            ${isUr ? "پچھلی آیت →" : "Next →"}
-          </button>
-        </footer>
-      ` : ""}
+        <button type="button" class="btn-jump-keypad-pill" id="btn-goto-keypad">
+          <span>${isUr ? `آیت ${toUrduDigits(currentAyahObj.number)} / ${toUrduDigits(totalAyahs)}` : `Ayah ${currentAyahObj.number} of ${totalAyahs}`}</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+        </button>
+
+        <button type="button" class="kiosk-nav-pill btn-pill-next ${isLastAyah ? 'disabled' : ''}" id="btn-next-ayah">
+          ${isUr ? 'اگلی آیت ›' : 'Next ayah ›'}
+        </button>
+      </footer>
     </div>
   `;
 
-  // Render Elder Scaler
-  const scalerContainer = container.querySelector("#elder-scale-container");
-  if (scalerContainer) {
-    UIComponents.renderElderScalePills(scalerContainer);
+  // Render 5-step font scaler into box
+  const scalerBox = container.querySelector("#font-scaler-box");
+  if (scalerBox) {
+    UIComponents.renderFontScalerPills(scalerBox);
   }
 
-  // Wire Back Button
-  container.querySelector("[data-nav='surahs']").addEventListener("click", () => {
-    router.navigate("surahs");
+  // Scroll current chip into center
+  const currentChip = container.querySelector(`.ayah-chip[data-chip-ayah="${aNum}"]`);
+  if (currentChip) {
+    setTimeout(() => {
+      currentChip.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    }, 100);
+  }
+
+  // Navigation: Ayah chips
+  container.querySelectorAll("[data-chip-ayah]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const targetAyah = btn.getAttribute("data-chip-ayah");
+      selectedWordIndex = null;
+      router.navigate(`quran/${sNum}/${targetAyah}`);
+    });
   });
 
-  // Wire Keypad Trigger
-  container.querySelector("#btn-goto-keypad").addEventListener("click", () => {
-    UIComponents.showKeypadDialog({
-      maxAyahs: totalAyahs,
-      currentSurah: sNum,
-      onJump: (targetS, targetA) => {
-        router.navigate(`quran/${targetS}/${targetA}`);
+  // Navigation: Prev / Next
+  const btnPrev = container.querySelector("#btn-prev-ayah");
+  if (btnPrev && !isFirstAyah) {
+    btnPrev.addEventListener("click", () => {
+      selectedWordIndex = null;
+      router.navigate(`quran/${sNum}/${aNum - 1}`);
+    });
+  }
+
+  const btnNext = container.querySelector("#btn-next-ayah");
+  if (btnNext && !isLastAyah) {
+    btnNext.addEventListener("click", () => {
+      selectedWordIndex = null;
+      router.navigate(`quran/${sNum}/${aNum + 1}`);
+    });
+  }
+
+  // Back to Surahs
+  container.querySelectorAll("[data-nav='surahs']").forEach((el) => {
+    el.addEventListener("click", () => router.navigate("surahs"));
+  });
+
+  // Mode Toggle
+  container.querySelectorAll(".mode-pill-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const m = btn.getAttribute("data-mode");
+      state.readingMode = m;
+      renderQuranScreen(container, [sNum, aNum]);
+    });
+  });
+
+  // Meaning Toggle
+  container.querySelectorAll(".meaning-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const mode = btn.getAttribute("data-meaning");
+      state.meaningDisplay = mode;
+      const screenEl = container.querySelector(".screen-quran-v2");
+      if (screenEl) {
+        screenEl.classList.remove("meaning-both", "meaning-ur", "meaning-en");
+        screenEl.classList.add(`meaning-${mode}`);
+      }
+      container.querySelectorAll(".meaning-btn").forEach((b) => b.classList.toggle("active", b === btn));
+    });
+  });
+
+  // Tap Word Tile -> Highlight
+  container.querySelectorAll(".wbw-interlinear-tile").forEach((tile) => {
+    tile.addEventListener("click", () => {
+      const idx = parseInt(tile.getAttribute("data-word-idx"), 10);
+      if (selectedWordIndex === idx) {
+        selectedWordIndex = null;
+        tile.classList.remove("selected");
+      } else {
+        selectedWordIndex = idx;
+        container.querySelectorAll(".wbw-interlinear-tile").forEach((t) => t.classList.toggle("selected", t === tile));
       }
     });
   });
 
-  // Wire Reading Mode Switch
-  container.querySelectorAll(".mode-btn").forEach((btn) => {
+  // Tap Footnote marker -> Bottom sheet
+  container.querySelectorAll(".fn-ref-btn").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const fnNum = btn.getAttribute("data-fn");
+      const fnLang = btn.getAttribute("data-lang");
+      const fnMap = fnLang === "ur" ? fnMapUr : fnMapEn;
+      const fnText = fnMap[fnNum] || (fnLang === "ur" ? currentAyahObj.footnotesUr : currentAyahObj.footnotesEn);
+
+      UIComponents.showFootnoteBottomSheet({
+        footnoteNum: fnNum,
+        footnoteText: fnText,
+        lang: fnLang,
+        surahNum: sNum,
+        ayahNum: aNum
+      });
+    });
+  });
+
+  // Keypad jump dialog
+  const keypadTrigger = container.querySelector("#btn-goto-keypad");
+  if (keypadTrigger) {
+    keypadTrigger.addEventListener("click", () => {
+      UIComponents.showKeypadDialog({
+        maxAyahs: totalAyahs,
+        currentSurah: sNum,
+        onJump: (s, a) => {
+          selectedWordIndex = null;
+          router.navigate(`quran/${s}/${a}`);
+        }
+      });
+    });
+  }
+}
+
+/**
+ * Renders Mushaf Continuous Mode with v2 Styling & 8-point Medallions
+ */
+function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
+  const ayahsHtml = surahData.ayahs.map((a) => {
+    const medallion = UIComponents.getAyahMedallionSvg(a.number, 40);
+    return `
+      <span class="mushaf-ayah-span" data-ayah-num="${a.number}" role="button" tabindex="0">
+        <span class="mushaf-ar-text" lang="ar">${a.arFull}</span>
+        ${medallion}
+      </span>
+    `;
+  }).join(" ");
+
+  container.innerHTML = `
+    <div class="screen active screen-quran-v2 screen-mushaf-v2" dir="${isUr ? "rtl" : "ltr"}">
+      <header class="quran-header-emerald">
+        <div class="header-left-group">
+          <button type="button" class="btn-header-back" data-nav="surahs">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              ${isUr ? '<polyline points="9 18 15 12 9 6"/>' : '<polyline points="15 18 9 12 15 6"/>'}
+            </svg>
+            <span>${t("surahs", state.lang)}</span>
+          </button>
+          <div class="header-surah-meta">
+            <span class="surah-name-gold" lang="ar" dir="rtl">${surahData.nameAr}</span>
+            <span class="surah-sub-info">${surahData.nameEn} · ${t("surahWord", state.lang)} ${isUr ? toUrduDigits(sNum) : sNum}</span>
+          </div>
+        </div>
+
+        <div class="header-center-group">
+          <div class="mode-pill-toggle mode-toggle" role="group">
+            <button type="button" class="mode-pill-btn mode-btn" data-mode="wbw">${t("readingModeWbw", state.lang)}</button>
+            <button type="button" class="mode-pill-btn mode-btn active" data-mode="mushaf">${t("readingModeMushaf", state.lang)}</button>
+          </div>
+        </div>
+
+        <div class="header-right-group">
+          <div class="font-scaler-container" id="font-scaler-box"></div>
+        </div>
+      </header>
+
+      <main class="mushaf-reading-viewport">
+        <div class="mushaf-card" id="mushaf-card">
+          <div class="mushaf-continuous-text mushaf-flow-text" lang="ar" dir="rtl">
+            ${ayahsHtml}
+          </div>
+        </div>
+      </main>
+
+      <footer class="quran-v2-footer">
+        <button type="button" class="btn-jump-keypad-pill" id="btn-goto-keypad" style="margin: 0 auto;">
+          <span>${isUr ? `آیت پر جائیں (${toUrduDigits(totalAyahs)} آیات)` : `Go to Ayah (${totalAyahs} ayahs)`}</span>
+        </button>
+      </footer>
+    </div>
+  `;
+
+  const scalerBox = container.querySelector("#font-scaler-box");
+  if (scalerBox) UIComponents.renderFontScalerPills(scalerBox);
+
+  container.querySelector("[data-nav='surahs']").addEventListener("click", () => router.navigate("surahs"));
+  container.querySelectorAll(".mode-pill-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.readingMode = btn.getAttribute("data-mode");
       renderQuranScreen(container, [sNum, aNum]);
     });
   });
 
-  // WBW Mode specifics
-  if (state.readingMode === "wbw") {
-    wireWbwInteractions(container, surahData, currentAyahObj, ayahIndex, sNum);
-  } else {
-    wireMushafInteractions(container, surahData);
-  }
-}
-
-function renderWbwView(surahData, ayah, ayahIndex, totalAyahs, isUr) {
-  const words = ayah.words || [];
-  if (currentSelectedWordIndex >= words.length) {
-    currentSelectedWordIndex = 0;
-  }
-  const selWord = words[currentSelectedWordIndex] || words[0] || { ar: "", ur: "", en: "" };
-
-  return `
-    <div class="wbw-container">
-      <!-- Full Ayah Card in Indo-Pak Nastaleeq -->
-      <div class="ayah-full-card" lang="ar" dir="rtl">
-        <p class="ayah-full-text">${ayah.arFull}</p>
-      </div>
-
-      <!-- Word-by-Word Grid -->
-      <div class="wbw-grid-box" dir="rtl">
-        <div class="wbw-grid">
-          ${words.map((w, idx) => `
-            <button type="button" class="wbw-word-tile ${idx === currentSelectedWordIndex ? "selected" : ""}" data-widx="${idx}">
-              <span class="tile-ar" lang="ar">${w.ar}</span>
-              <span class="tile-ur" lang="ur">${w.ur || "—"}</span>
-              <span class="tile-en">${w.en || "—"}</span>
-            </button>
-          `).join("")}
-        </div>
-      </div>
-
-      <!-- Selected Word Inspector -->
-      <div class="word-inspector-card" dir="${isUr ? "rtl" : "ltr"}">
-        <div class="inspector-badge">${t("selectedWord", state.lang)}</div>
-        <div class="inspector-details">
-          <div class="inspector-ar" lang="ar" dir="rtl">${selWord.ar}</div>
-          <div class="inspector-meanings">
-            <div class="meaning-item">
-              <span class="meaning-label" lang="ur">اردو معنی:</span>
-              <span class="meaning-val" lang="ur">${selWord.ur || "—"}</span>
-            </div>
-            <div class="meaning-item">
-              <span class="meaning-label">English:</span>
-              <span class="meaning-val">${selWord.en || "—"}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Full Ayah Translations Card -->
-      <div class="ayah-translations-card" dir="${isUr ? "rtl" : "ltr"}">
-        <h4 class="trans-heading">${t("fullTranslation", state.lang)}</h4>
-        
-        <div class="translation-block">
-          <div class="trans-meta">
-            <span class="trans-author" lang="ur">اردو ترجمہ — مولانا محمد جوناگڑھی</span>
-          </div>
-          <p class="trans-text urdu-trans" lang="ur" dir="rtl">${ayah.ur}</p>
-        </div>
-
-        <div class="translation-block">
-          <div class="trans-meta">
-            <span class="trans-author">English Translation — Saheeh International</span>
-          </div>
-          <p class="trans-text en-trans" dir="ltr">${ayah.en}</p>
-        </div>
-      </div>
-    </div>
-  `;
-}
-
-function wireWbwInteractions(container, surahData, ayah, ayahIndex, sNum) {
-  // Tile clicks
-  container.querySelectorAll(".wbw-word-tile").forEach((tile) => {
-    tile.addEventListener("click", () => {
-      currentSelectedWordIndex = parseInt(tile.getAttribute("data-widx"), 10);
-      renderQuranScreen(container, [sNum, ayah.number]);
-    });
-  });
-
-  // Prev / Next Ayah
-  const prevBtn = container.querySelector("#btn-prev-ayah");
-  if (prevBtn) {
-    prevBtn.addEventListener("click", () => {
-      if (ayahIndex > 0) {
-        currentSelectedWordIndex = 0;
-        const prevAyah = surahData.ayahs[ayahIndex - 1];
-        router.navigate(`quran/${sNum}/${prevAyah.number}`);
-      }
-    });
-  }
-
-  const nextBtn = container.querySelector("#btn-next-ayah");
-  if (nextBtn) {
-    nextBtn.addEventListener("click", () => {
-      if (ayahIndex < surahData.ayahs.length - 1) {
-        currentSelectedWordIndex = 0;
-        const nextAyah = surahData.ayahs[ayahIndex + 1];
-        router.navigate(`quran/${sNum}/${nextAyah.number}`);
-      }
-    });
-  }
-
-  // Audio Playback
-  const audioBtn = container.querySelector("#btn-audio-ayah");
-  if (audioBtn) {
-    audioBtn.addEventListener("click", () => {
-      const result = audioManager.playAyah(sNum, ayah.number);
-      if (!result.played && result.reason === "mosque_mute_active") {
-        UIComponents.showToast(result.messageUr);
-      }
-    });
-  }
-}
-
-function renderMushafView(surahData, isUr) {
-  return `
-    <div class="mushaf-container" dir="rtl">
-      ${surahData.number !== 1 && surahData.number !== 9 ? `
-        <div class="mushaf-bismillah-box" lang="ar">
-          ${window.BASEERAH_BISMILLAH || ""}
-        </div>
-      ` : ""}
-      
-      <div class="mushaf-flow-text" lang="ar">
-        ${surahData.ayahs.map((a) => `
-          <span class="mushaf-ayah-span" data-ayah-num="${a.number}" tabindex="0" role="button" aria-label="Ayah ${a.number}">
-            ${a.arFull}
-          </span>
-        `).join(" ")}
-      </div>
-    </div>
-  `;
-}
-
-function wireMushafInteractions(container, surahData) {
+  // Tap ayah in mushaf mode -> open bottom sheet
   container.querySelectorAll(".mushaf-ayah-span").forEach((span) => {
     span.addEventListener("click", () => {
-      const aNum = parseInt(span.getAttribute("data-ayah-num"), 10);
-      const aData = surahData.ayahs.find((a) => a.number === aNum);
-      if (aData) {
-        UIComponents.showMushafBottomSheet(aData, surahData.nameAr, surahData.nameEn);
+      const num = parseInt(span.getAttribute("data-ayah-num"), 10);
+      const targetAyah = surahData.ayahs.find((a) => a.number === num);
+      if (targetAyah) {
+        UIComponents.showMushafBottomSheet(targetAyah, surahData.nameAr, surahData.nameEn);
       }
     });
   });
+
+  const keypadBtn = container.querySelector("#btn-goto-keypad");
+  if (keypadBtn) {
+    keypadBtn.addEventListener("click", () => {
+      UIComponents.showKeypadDialog({
+        maxAyahs: totalAyahs,
+        currentSurah: sNum,
+        onJump: (s, a) => {
+          router.navigate(`quran/${s}/${a}`);
+        }
+      });
+    });
+  }
 }
 
-function showIntegrityError(container, sNum, res) {
+function showIntegrityError(container, sNum, verifyRes) {
+  const isUr = state.lang === "ur";
   container.innerHTML = `
-    <div class="screen active screen-security-error">
-      <div class="security-card">
-        <div class="security-icon">⚠️</div>
-        <h3>${state.lang === "ur" ? "ڈیٹا کی حفاظت کا انتباہ" : "Data Integrity Verification Failed"}</h3>
-        <p class="security-msg">
-          ${state.lang === "ur" 
-            ? `سورت نمبر ${sNum} کے ڈیجیٹل دستخط (SHA-256) کی تصدیق ناکام ہو گئی ہے۔ قرآنی متن کی حفاظت کی خاطر یہ سورت اس وقت تک ظاہر نہیں کی جا سکتی جب تک کہ مستند فائل بحال نہ ہو جائے۔`
-            : `Digital integrity check (SHA-256) failed for Surah ${sNum}. To protect Quranic authenticity, corrupted or modified files are strictly blocked from rendering.`
-          }
-        </p>
-        <p class="security-meta">Expected: <code>${res.expected}</code><br>Computed: <code>${res.got}</code></p>
-        <button type="button" class="btn-primary" data-nav="surahs">${t("surahs", state.lang)}</button>
+    <div class="screen active screen-error screen-integrity-error">
+      <div class="error-badge">⚠</div>
+      <h2>${isUr ? "ڈیٹا کی حفاظت کا انتباہ!" : "Data Integrity Verification Failed!"}</h2>
+      <p class="error-desc">
+        ${isUr
+          ? `سورت نمبر ${toUrduDigits(sNum)} کی فائل کا ڈیجیٹل دستخط (SHA-256) تبدیل شدہ پایا گیا۔`
+          : `Surah ${sNum} cryptographic checksum mismatch against the signed manifest.`}
+      </p>
+      <div class="error-details">
+        <div><span>Expected:</span> <code>${verifyRes.expected || "N/A"}</code></div>
+        <div><span>Computed:</span> <code>${verifyRes.actual || "N/A"}</code></div>
       </div>
+      <p class="error-action-hint">
+        ${isUr ? "قرآن پاک کی حرمت اور حفاظت کے لیے کیوسک نے اس سورت کو روک دیا ہے۔" : "To protect Quranic accuracy, this surah has been locked."}
+      </p>
+      <button type="button" class="btn-primary" data-nav="home">
+        ${t("home", state.lang)}
+      </button>
     </div>
   `;
-  container.querySelector("[data-nav='surahs']").addEventListener("click", () => router.navigate("surahs"));
+  container.querySelector("[data-nav='home']").addEventListener("click", () => router.navigate("home"));
 }
