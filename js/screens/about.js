@@ -48,9 +48,9 @@ export function renderAboutScreen(container) {
           </div>
 
           <div class="about-card">
-            <h4>3. Indo-Pak Nastaleeq Typography</h4>
+            <h4>3. Indo-Pak Nastaleeq Typography (QuranWBW)</h4>
             <p><strong>Font:</strong> AlQuran IndoPak by QuranWBW (v2.100) by Ayman Siddiqui.</p>
-            <p><strong>Notice:</strong> Complete 435 PUA glyph mappings for South Asian Nastaleeq calligraphic ligatures. Commercial use permissions initiated by Acme One.</p>
+            <p><strong>Attribution:</strong> This font AlQuran-IndoPak-by-QuranWBW is made by Ayman Siddiqui and is based on Al Qalam Quran Majeed and Al Qalam Quran Majeed Web fonts, specially adjusted and edited to work with Special Naskh Nastaleeq (IndoPak) Quran Text of www.QuranWBW.com. The Ayah Numbers have been made using glyphs of Nastaleeq Font by King Fahad Glorious Quran Printing Complex (KFGQPC). Copyright © Al Qalam, © Ghandhara, © KFGQPC, © Ayman Siddiqui. Credits: Abdul Majeed Khan, Arif Karim, Shakir-ul-Qadree, Jawad. Used with written permission from QuranWBW (quranwbw.com / quranwbw@gmail.com).</p>
           </div>
 
           <div class="about-card">

@@ -44,7 +44,6 @@
 .total-rakat-badge,
 .tab-pill-btn {
   font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', serif !important;
-  font-feature-settings: "locl" 0 !important;
 }
 
 * {
