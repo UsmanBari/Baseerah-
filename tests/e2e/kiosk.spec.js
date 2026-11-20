@@ -1,18 +1,26 @@
 // @ts-check
 const { test, expect } = require("@playwright/test");
 
-test.describe("Baseerah Commercial Mosque Kiosk E2E", () => {
+test.describe("Baseerah Commercial Mosque Kiosk — v2 Redesign E2E", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/index.html");
   });
 
-  test("Home screen loads with verified Bismillah from data", async ({ page }) => {
+  test("1. Home screen split hero loads with verified Bismillah and Ayah of the Moment", async ({ page }) => {
     const bismillah = page.locator("#home-bismillah");
     await expect(bismillah).toBeVisible();
     await expect(bismillah).toContainText("بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ");
+
+    // Left hero panel with gold calligraphy
+    const logoCalligraphy = page.locator(".hero-calligraphy-gold");
+    await expect(logoCalligraphy).toBeVisible();
+
+    // Ayah of the Moment card
+    const momentCard = page.locator("#ayah-moment-card");
+    await expect(momentCard).toBeVisible();
   });
 
-  test("Language toggle mirrors layout between Urdu and English", async ({ page }) => {
+  test("2. Language toggle mirrors layout between Urdu and English", async ({ page }) => {
     // Default is Urdu
     await expect(page.locator("html")).toHaveAttribute("lang", "ur");
     await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
@@ -27,7 +35,7 @@ test.describe("Baseerah Commercial Mosque Kiosk E2E", () => {
     await expect(page.locator("html")).toHaveAttribute("lang", "ur");
   });
 
-  test("Navigate to Surahs and open Quran reader", async ({ page }) => {
+  test("3. Navigate to Surahs and open Quran reader", async ({ page }) => {
     await page.click("[data-nav='surahs']");
     await expect(page).toHaveURL(/.*#surahs/);
 
@@ -35,39 +43,129 @@ test.describe("Baseerah Commercial Mosque Kiosk E2E", () => {
     await page.click("[data-surah='1']");
     await expect(page).toHaveURL(/.*#quran\/1\/1/);
 
-    // Verify word by word tile appears
-    const firstWord = page.locator(".wbw-word-tile").first();
-    await expect(firstWord).toBeVisible();
-    await expect(firstWord.locator(".tile-ar")).toContainText("بِسْمِ");
+    // Verify interlinear word tile appears
+    const firstTile = page.locator(".wbw-interlinear-tile").first();
+    await expect(firstTile).toBeVisible();
+    await expect(firstTile.locator(".tile-ar")).toContainText("بِسْمِ");
   });
 
-  test("Elder readability text scaling applies correct CSS class", async ({ page }) => {
+  test("4. Interlinear tiles count check for 1:1 (4 tiles) and 1:7 (9 tiles)", async ({ page }) => {
+    // Navigate to 1:1 (Al-Fatiha 1)
     await page.goto("/index.html#quran/1/1");
-    await expect(page.locator("body")).toHaveClass(/scale-normal/);
+    await page.waitForSelector(".wbw-interlinear-tile");
+    const tiles1_1 = page.locator(".wbw-interlinear-tile");
+    await expect(tiles1_1).toHaveCount(4);
+
+    // Verify 8-point medallion badge exists at the end of the ayah
+    await expect(page.locator(".medallion-tile-end")).toBeVisible();
+
+    // Navigate to 1:7 (Al-Fatiha 7)
+    await page.goto("/index.html#quran/1/7");
+    await page.waitForSelector(".wbw-interlinear-tile");
+    const tiles1_7 = page.locator(".wbw-interlinear-tile");
+    await expect(tiles1_7).toHaveCount(9);
+  });
+
+  test("5. Meaning toggle [Both | اردو | English] hides/shows translation lines", async ({ page }) => {
+    await page.goto("/index.html#quran/1/1");
+    await page.waitForSelector(".wbw-interlinear-tile");
+
+    // Both lines visible by default
+    const firstUr = page.locator(".wbw-interlinear-tile .tile-ur").first();
+    const firstEn = page.locator(".wbw-interlinear-tile .tile-en").first();
+    await expect(firstUr).toBeVisible();
+    await expect(firstEn).toBeVisible();
+
+    // Toggle to Urdu only
+    await page.click(".meaning-btn[data-meaning='ur']");
+    await expect(firstUr).toBeVisible();
+    await expect(firstEn).toBeHidden();
+
+    // Toggle to English only
+    await page.click(".meaning-btn[data-meaning='en']");
+    await expect(firstUr).toBeHidden();
+    await expect(firstEn).toBeVisible();
+
+    // Toggle back to Both
+    await page.click(".meaning-btn[data-meaning='both']");
+    await expect(firstUr).toBeVisible();
+    await expect(firstEn).toBeVisible();
+  });
+
+  test("6. 5-step font scaler [A− | A+] changes scale classes", async ({ page }) => {
+    await page.goto("/index.html#quran/1/1");
+    await page.waitForSelector(".btn-scaler-plus");
+
+    // Default is level 3 (scale-step-3 / scale-normal)
+    await expect(page.locator("body")).toHaveClass(/scale-step-3/);
 
     // Click A+
-    await page.click(".scale-btn[data-scale='large']");
-    await expect(page.locator("body")).toHaveClass(/scale-large/);
+    await page.click(".btn-scaler-plus");
+    await expect(page.locator("body")).toHaveClass(/scale-step-4/);
 
-    // Click A++
-    await page.click(".scale-btn[data-scale='xlarge']");
-    await expect(page.locator("body")).toHaveClass(/scale-xlarge/);
+    // Click A+ again
+    await page.click(".btn-scaler-plus");
+    await expect(page.locator("body")).toHaveClass(/scale-step-5/);
+
+    // Click A-
+    await page.click(".btn-scaler-minus");
+    await expect(page.locator("body")).toHaveClass(/scale-step-4/);
   });
 
-  test("Reading mode switch to Mushaf Continuous Mode", async ({ page }) => {
+  test("7. Scholarly footnote tap opens the bottom sheet", async ({ page }) => {
+    await page.goto("/index.html#quran/1/1");
+    await page.waitForSelector(".fn-ref-btn");
+
+    // Click first footnote reference
+    const firstFootnote = page.locator(".fn-ref-btn").first();
+    await expect(firstFootnote).toBeVisible();
+    await firstFootnote.click();
+
+    // Verify footnote bottom sheet appears
+    const sheet = page.locator(".footnote-sheet");
+    await expect(sheet).toBeVisible();
+    await expect(page.locator(".footnote-text")).not.toBeEmpty();
+
+    // Close footnote sheet
+    await page.click(".footnote-sheet .btn-close");
+    await expect(sheet).toBeHidden();
+  });
+
+  test("8. Zero page scroll verification for 20 sample ayahs of Al-Baqarah and 2:282 (longest ayah)", async ({ page }) => {
+    // 20 representative sample ayahs + longest ayah 282
+    const sampleAyahs = [1, 20, 45, 67, 102, 124, 142, 163, 177, 195, 213, 228, 243, 255, 260, 270, 275, 280, 285, 286, 282];
+
+    for (const aNum of sampleAyahs) {
+      await page.goto(`/index.html#quran/2/${aNum}`);
+      await page.waitForSelector(".interlinear-reading-card");
+
+      // Verify page itself never scrolls (reading card scrolls internally)
+      const isPageOverflowing = await page.evaluate(() => {
+        return document.documentElement.scrollHeight > window.innerHeight || document.body.scrollHeight > window.innerHeight;
+      });
+      expect(isPageOverflowing).toBe(false);
+    }
+  });
+
+  test("9. Reading mode switch to Mushaf Continuous Mode with 8-point medallions", async ({ page }) => {
     await page.goto("/index.html#quran/1/1");
     await page.click(".mode-btn[data-mode='mushaf']");
 
     const mushafText = page.locator(".mushaf-flow-text");
     await expect(mushafText).toBeVisible();
 
-    // Click first ayah span to open bottom sheet
+    // Verify 8-point medallions between ayahs
+    const medallions = page.locator(".mushaf-ayah-span .ayah-medallion-badge");
+    await expect(medallions.first()).toBeVisible();
+
+    // Click first ayah span to open details bottom sheet
     await page.locator(".mushaf-ayah-span").first().click();
     await expect(page.locator(".bottom-sheet")).toBeVisible();
     await expect(page.locator(".sheet-surah-ar")).toContainText("الفاتحة");
+    await page.click(".bottom-sheet .btn-close");
   });
 
-  test("Go-to-Ayah touch keypad jumps directly to specified verse", async ({ page }) => {
+  test("10. Go-to-Ayah touch keypad jumps directly to specified verse", async ({ page }) => {
     await page.goto("/index.html#quran/1/1");
     await page.click("#btn-goto-keypad");
 
@@ -79,7 +177,7 @@ test.describe("Baseerah Commercial Mosque Kiosk E2E", () => {
     await expect(page).toHaveURL(/.*#quran\/1\/5/);
   });
 
-  test("Hidden Admin Panel unlocks with 6-digit PIN setup", async ({ page }) => {
+  test("11. Hidden Admin Panel unlocks with 6-digit PIN setup", async ({ page }) => {
     await page.goto("/index.html#home");
     await page.evaluate(() => {
       localStorage.removeItem("baseerah_admin_pin_hash");
