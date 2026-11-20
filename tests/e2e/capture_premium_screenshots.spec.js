@@ -4,14 +4,20 @@ const path = require("path");
 const fs = require("fs");
 
 test.describe("Capture Premium Screenshots", () => {
-  test.setTimeout(90000);
+  test.setTimeout(180000);
   const artifactDir = "C:\\Users\\usmanbari\\.gemini\\antigravity\\brain\\c6033c6b-cd0c-4b4a-bb86-1829034a6c1c";
   const premiumDir = path.join(process.cwd(), "docs", "screenshots", "premium");
 
-  test("Capture Home & Quran WBW screenshots for Urdu and English", async ({ page }) => {
+  test("Capture All Screens for Urdu and English across Viewports", async ({ page }) => {
     if (!fs.existsSync(premiumDir)) {
       fs.mkdirSync(premiumDir, { recursive: true });
     }
+
+    const saveScreenshot = async (filename) => {
+      const docPath = path.join(premiumDir, filename);
+      await page.screenshot({ path: docPath });
+      fs.copyFileSync(docPath, path.join(artifactDir, filename));
+    };
 
     const viewports = [
       { width: 1280, height: 800, name: "1280x800" },
@@ -22,47 +28,83 @@ test.describe("Capture Premium Screenshots", () => {
     for (const vp of viewports) {
       await page.setViewportSize({ width: vp.width, height: vp.height });
 
-      // 1. Home - Urdu UI
+      // === URDU UI ===
       await page.goto("/index.html#home");
       await page.waitForSelector("#brand-logo");
       await page.click('.lang-btn[data-lang="ur"]');
-      await page.waitForTimeout(400);
+      await page.waitForTimeout(300);
 
-      const urHomeFile = `home_ur_${vp.name}.png`;
-      const urHomeDocPath = path.join(premiumDir, urHomeFile);
-      await page.screenshot({ path: urHomeDocPath });
-      fs.copyFileSync(urHomeDocPath, path.join(artifactDir, urHomeFile));
+      // 1. Home
+      await saveScreenshot(`home_ur_${vp.name}.png`);
 
-      // 2. Quran WBW - Urdu UI
+      // 2. Quran WBW
       await page.goto("/index.html#quran/1/1");
+      await page.waitForSelector(".screen-quran-v2");
+      const isMushafUr = await page.$(".mushaf-ayah-block");
+      if (isMushafUr) {
+        await page.click(".mode-btn[data-mode='wbw']");
+        await page.waitForTimeout(300);
+      }
       await page.waitForSelector(".wbw-interlinear-tile");
-      await page.waitForTimeout(400);
+      await page.waitForTimeout(300);
+      await saveScreenshot(`quran_wbw_ur_${vp.name}.png`);
 
-      const urQuranFile = `quran_wbw_ur_${vp.name}.png`;
-      const urQuranDocPath = path.join(premiumDir, urQuranFile);
-      await page.screenshot({ path: urQuranDocPath });
-      fs.copyFileSync(urQuranDocPath, path.join(artifactDir, urQuranFile));
+      // 3. Quran Mushaf Mode
+      await page.click(".mode-btn[data-mode='mushaf']");
+      await page.waitForSelector(".mushaf-ayah-block");
+      await page.waitForTimeout(300);
+      await saveScreenshot(`quran_mushaf_ur_${vp.name}.png`);
 
-      // 3. Home - English UI
+      // 4. Surah List
+      await page.goto("/index.html#surahs");
+      await page.waitForSelector(".surah-card-v2");
+      await page.waitForTimeout(300);
+      await saveScreenshot(`surahs_ur_${vp.name}.png`);
+
+      // 5. Namaz Screen
+      await page.goto("/index.html#namaz");
+      await page.waitForSelector(".namaz-step-detail-card");
+      await page.waitForTimeout(300);
+      await saveScreenshot(`namaz_ur_${vp.name}.png`);
+
+      // === ENGLISH UI ===
       await page.goto("/index.html#home");
       await page.waitForSelector("#brand-logo");
       await page.click('.lang-btn[data-lang="en"]');
-      await page.waitForTimeout(400);
+      await page.waitForTimeout(300);
 
-      const enHomeFile = `home_en_${vp.name}.png`;
-      const enHomeDocPath = path.join(premiumDir, enHomeFile);
-      await page.screenshot({ path: enHomeDocPath });
-      fs.copyFileSync(enHomeDocPath, path.join(artifactDir, enHomeFile));
+      // 1. Home
+      await saveScreenshot(`home_en_${vp.name}.png`);
 
-      // 4. Quran WBW - English UI
+      // 2. Quran WBW
       await page.goto("/index.html#quran/1/1");
+      await page.waitForSelector(".screen-quran-v2");
+      const isMushafEn = await page.$(".mushaf-ayah-block");
+      if (isMushafEn) {
+        await page.click(".mode-btn[data-mode='wbw']");
+        await page.waitForTimeout(300);
+      }
       await page.waitForSelector(".wbw-interlinear-tile");
-      await page.waitForTimeout(400);
+      await page.waitForTimeout(300);
+      await saveScreenshot(`quran_wbw_en_${vp.name}.png`);
 
-      const enQuranFile = `quran_wbw_en_${vp.name}.png`;
-      const enQuranDocPath = path.join(premiumDir, enQuranFile);
-      await page.screenshot({ path: enQuranDocPath });
-      fs.copyFileSync(enQuranDocPath, path.join(artifactDir, enQuranFile));
+      // 3. Quran Mushaf Mode
+      await page.click(".mode-btn[data-mode='mushaf']");
+      await page.waitForSelector(".mushaf-ayah-block");
+      await page.waitForTimeout(300);
+      await saveScreenshot(`quran_mushaf_en_${vp.name}.png`);
+
+      // 4. Surah List
+      await page.goto("/index.html#surahs");
+      await page.waitForSelector(".surah-card-v2");
+      await page.waitForTimeout(300);
+      await saveScreenshot(`surahs_en_${vp.name}.png`);
+
+      // 5. Namaz Screen
+      await page.goto("/index.html#namaz");
+      await page.waitForSelector(".namaz-step-detail-card");
+      await page.waitForTimeout(300);
+      await saveScreenshot(`namaz_en_${vp.name}.png`);
     }
   });
 });

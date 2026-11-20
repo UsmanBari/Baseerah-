@@ -416,4 +416,63 @@ test.describe("Baseerah — Viewports & Live Stress Test Fixes", () => {
     const toast = page.locator(".baseerah-toast");
     await expect(toast).toBeVisible();
   });
+
+  test("Item 8: Mushaf mode and Namaz screen text boxes never overlap across viewports", async ({ page }) => {
+    test.setTimeout(90000);
+    const viewports = [
+      { width: 1280, height: 800, name: "1280x800" },
+      { width: 1280, height: 585, name: "1280x585" },
+      { width: 390, height: 844, name: "390x844" },
+    ];
+
+    for (const vp of viewports) {
+      await page.setViewportSize({ width: vp.width, height: vp.height });
+
+      for (const lang of ["ur", "en"]) {
+        // 1. Mushaf Mode (Surah 1)
+        await page.goto("/index.html#home");
+        await page.click(`.lang-btn[data-lang="${lang}"]`);
+        await page.goto("/index.html#quran/1/1");
+        await page.click(".mode-btn[data-mode='mushaf']");
+        await page.waitForSelector(".mushaf-ayah-block");
+
+        const mushafOverlap = await page.evaluate(() => {
+          const blocks = document.querySelectorAll(".mushaf-ayah-block");
+          const fails = [];
+          blocks.forEach((block, idx) => {
+            const arText = block.querySelector(".mushaf-ar-text");
+            const transCard = block.querySelector(".mushaf-ayah-translation-card");
+            if (arText && transCard) {
+              const rAr = arText.getBoundingClientRect();
+              const rCard = transCard.getBoundingClientRect();
+              if (rCard.top < rAr.bottom) {
+                fails.push(`Block ${idx + 1}: transCard overlaps Arabic text`);
+              }
+            }
+          });
+          return fails;
+        });
+        expect(mushafOverlap.length).toBe(0);
+
+        // 2. Namaz Screen
+        await page.goto("/index.html#namaz");
+        await page.waitForSelector(".namaz-step-detail-card");
+
+        const namazOverlap = await page.evaluate(() => {
+          const fails = [];
+          const urTitle = document.querySelector(".step-name-ur");
+          const enTitle = document.querySelector(".step-name-en");
+          if (urTitle && enTitle) {
+            const rUr = urTitle.getBoundingClientRect();
+            const rEn = enTitle.getBoundingClientRect();
+            if (rEn.top < rUr.bottom) {
+              fails.push("Namaz title Urdu and English overlap");
+            }
+          }
+          return fails;
+        });
+        expect(namazOverlap.length).toBe(0);
+      }
+    }
+  });
 });

@@ -154,22 +154,45 @@ test.describe("Baseerah Commercial Mosque Kiosk — v2 Redesign E2E", () => {
     }
   });
 
-  test("9. Reading mode switch to Mushaf Continuous Mode with 8-point medallions", async ({ page }) => {
+  test("9. Reading mode switch to Mushaf Continuous Mode with 8-point medallions and translation toggle", async ({ page }) => {
     await page.goto("/index.html#quran/1/1");
     await page.click(".mode-btn[data-mode='mushaf']");
+    await page.waitForSelector(".mushaf-ayah-block");
 
     const mushafText = page.locator(".mushaf-flow-text");
     await expect(mushafText).toBeVisible();
 
     // Verify 8-point medallions between ayahs
-    const medallions = page.locator(".mushaf-ayah-span .ayah-medallion-badge");
+    const medallions = page.locator(".mushaf-medallion-box svg");
     await expect(medallions.first()).toBeVisible();
 
-    // Click first ayah span to open details bottom sheet
-    await page.locator(".mushaf-ayah-span").first().click();
-    await expect(page.locator(".bottom-sheet")).toBeVisible();
-    await expect(page.locator(".sheet-surah-ar")).toContainText("الفاتحة");
-    await page.click(".bottom-sheet .btn-close");
+    // Translations visible under every ayah by default
+    const transCards = page.locator(".mushaf-ayah-translation-card");
+    await expect(transCards).toHaveCount(7);
+
+    // Toggle translation OFF
+    await page.click("#btn-toggle-mushaf-trans");
+    await page.waitForTimeout(200);
+    await expect(transCards).toHaveCount(0);
+
+    // Toggle translation back ON
+    await page.click("#btn-toggle-mushaf-trans");
+    await page.waitForTimeout(200);
+    await expect(transCards).toHaveCount(7);
+
+    // Tapping footnote opens footnote sheet
+    const firstFootnote = page.locator(".mushaf-ayah-translation-card .fn-ref-btn").first();
+    if (await firstFootnote.count() > 0) {
+      await firstFootnote.click();
+      await expect(page.locator(".footnote-sheet")).toBeVisible();
+      await page.click(".footnote-sheet .btn-close");
+    }
+
+    // Tapping ayah Arabic navigates to Word-by-Word view for that ayah
+    await page.locator(".mushaf-ayah-arabic-row").first().click();
+    await page.waitForTimeout(400);
+    expect(page.url()).toContain("quran/1/1");
+    await expect(page.locator(".wbw-interlinear-tile").first()).toBeVisible();
   });
 
   test("10. Go-to-Ayah touch keypad jumps directly to specified verse", async ({ page }) => {

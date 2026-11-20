@@ -45,8 +45,14 @@ export function renderSurahListScreen(container, params = []) {
       </header>
 
       <div class="list-search-bar">
-        <input type="text" id="surah-search-input" class="search-input" placeholder="${t("searchPlaceholder", state.lang)}" value="${searchQuery}" autocomplete="off">
-        ${searchQuery ? '<button type="button" id="clear-search-btn" class="search-clear-btn">✕</button>' : ""}
+        <div class="search-input-wrap">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" id="surah-search-input" class="search-input" placeholder="${t("searchPlaceholder", state.lang)}" value="${searchQuery}" autocomplete="off">
+          ${searchQuery ? '<button type="button" id="clear-search-btn" class="search-clear-btn" aria-label="Clear search">✕</button>' : ""}
+        </div>
       </div>
 
       <div class="list-content-container">
@@ -118,18 +124,21 @@ function renderSurahGrid(surahs, query, isUr) {
 
   return `
     <div class="surah-grid">
-      ${filtered.map((s) => `
-        <button type="button" class="surah-card-v2" data-surah="${s.number}" data-ayah="1">
-          <div class="surah-card-medallion">
-            ${UIComponents.getAyahMedallionSvg(s.number, 44)}
-          </div>
-          <div class="surah-card-info">
-            <span class="surah-card-en">${s.nameEn}</span>
-            <span class="surah-card-meta">${isUr ? `<span class="urdu-num">${toUrduDigits(s.ayahCount)}</span> آیات` : s.ayahCount + " Ayahs"}</span>
-          </div>
-          <div class="surah-card-ar" lang="ar" dir="rtl">${s.nameAr}</div>
-        </button>
-      `).join("")}
+      ${filtered.map((s) => {
+        const isActive = state.nav.surah === s.number;
+        return `
+          <button type="button" class="surah-card-v2 ${isActive ? 'surah-card-active' : ''}" data-surah="${s.number}" data-ayah="1">
+            <div class="surah-card-medallion">
+              ${UIComponents.getAyahMedallionSvg(s.number, 44)}
+            </div>
+            <div class="surah-card-info">
+              <span class="surah-card-en">${s.nameEn}</span>
+              <span class="surah-card-meta">${isUr ? `<span class="urdu-num">${toUrduDigits(s.ayahCount)}</span> آیات` : s.ayahCount + " Ayahs"}</span>
+            </div>
+            <div class="surah-card-ar" lang="ar" dir="rtl">${s.nameAr}</div>
+          </button>
+        `;
+      }).join("")}
     </div>
   `;
 }

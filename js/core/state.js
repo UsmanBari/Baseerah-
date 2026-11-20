@@ -112,6 +112,16 @@ class AppState {
     this.notify();
   }
 
+  get mushafShowTranslation() {
+    return this.settings.mushafShowTranslation !== false; // on by default
+  }
+
+  set mushafShowTranslation(val) {
+    this.settings.mushafShowTranslation = !!val;
+    Storage.saveSettings(this.settings);
+    this.notify();
+  }
+
   get translationDisplay() {
     return this.settings.translationDisplay;
   }

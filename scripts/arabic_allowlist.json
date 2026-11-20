@@ -120,6 +120,9 @@
     "ترجمہ": {
       "reason": "UI label / layout metadata in Urdu language"
     },
+    "دکھائیں": {
+      "reason": "UI label for Mushaf translation visibility toggle"
+    },
     "پچھلی": {
       "reason": "UI label / layout metadata in Urdu language"
     },
@@ -357,6 +360,9 @@
     },
     "ترجمہ": {
       "reason": "UI label / layout metadata in Urdu language"
+    },
+    "دکھائیں": {
+      "reason": "UI label for Mushaf translation visibility toggle"
     },
     "مولانا": {
       "reason": "UI label / layout metadata in Urdu language"
@@ -1351,6 +1357,9 @@
     }
   },
   "js/screens/quran.js": {
+    "بصيرة": {
+      "reason": "Brand calligraphy logo in branded loader"
+    },
     "قرآنِ": {
       "reason": "UI label / layout metadata in Urdu language"
     },
@@ -1600,6 +1609,9 @@
     },
     "ترجمہ": {
       "reason": "UI label / layout metadata in Urdu language"
+    },
+    "دکھائیں": {
+      "reason": "UI label for Mushaf translation visibility toggle"
     },
     "مولانا": {
       "reason": "UI label / layout metadata in Urdu language"

@@ -26,11 +26,23 @@ export async function renderQuranScreen(container, params = []) {
 
   state.updateNav({ surah: sNum, ayah: aNum });
 
-  // Show loading indicator
+  // Show branded loading indicator with skeleton tiles
   container.innerHTML = `
     <div class="screen active screen-quran-loading" dir="${isUr ? "rtl" : "ltr"}">
-      <div class="loading-spinner"></div>
-      <p class="loading-text">${isUr ? "قرآنِ پاک لوڈ ہو رہا ہے..." : "Loading Quran text..."}</p>
+      <div class="branded-loader-box">
+        <div class="loader-logo-pulse">
+          <span class="loader-ar-logo" lang="ar">بصيرة</span>
+        </div>
+        <div class="loader-bar-track">
+          <div class="loader-bar-fill"></div>
+        </div>
+        <p class="loading-text">${isUr ? "قرآنِ پاک لوڈ ہو رہا ہے..." : "Loading Quran text..."}</p>
+      </div>
+      <div class="skeleton-tiles-preview" aria-hidden="true">
+        <div class="skeleton-tile"></div>
+        <div class="skeleton-tile"></div>
+        <div class="skeleton-tile"></div>
+      </div>
     </div>
   `;
 
@@ -472,47 +484,124 @@ export async function renderQuranScreen(container, params = []) {
  * Renders Mushaf Continuous Mode with v2 Styling & 8-point Medallions
  */
 function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
+  const showTranslation = state.mushafShowTranslation;
+  const meaningMode = state.meaningDisplay; // "both" | "ur" | "en"
+
+  const cleanArabic = (rawAr) => {
+    if (!rawAr) return "";
+    return rawAr.replace(/[\s\uf500-\uf65d\u0660-\u0669\u06dd\u06de\u06df\u25cb\u25ef\ufd3e\ufd3f\u061e]+$/, "").trim();
+  };
+
   const ayahsHtml = surahData.ayahs.map((a) => {
-    const medallion = UIComponents.getAyahMedallionSvg(a.number, 40);
+    const fnMapUr = parseFootnotesMap(a.footnotesUr);
+    const fnMapEn = parseFootnotesMap(a.footnotesEn);
+    const renderTransWithFootnotes = (rawText, lang) => {
+      if (!rawText) return "—";
+      return rawText.replace(/\[(\d+)\]/g, (match, p1) => {
+        return `<button type="button" class="fn-ref-btn" data-fn="${p1}" data-lang="${lang}" data-ayah="${a.number}" aria-label="Footnote ${p1}"><sup>[${p1}]</sup></button>`;
+      });
+    };
+    const urHtml = renderTransWithFootnotes(a.ur, "ur");
+    const enHtml = renderTransWithFootnotes(a.en, "en");
+    const medallion = UIComponents.getAyahMedallionSvg(a.number, 36);
+
     return `
-      <span class="mushaf-ayah-span" data-ayah-num="${a.number}" role="button" tabindex="0">
-        <span class="mushaf-ar-text" lang="ar">${a.arFull}</span>
-        ${medallion}
-      </span>
+      <div class="mushaf-ayah-block mushaf-ayah-span" data-ayah-num="${a.number}" id="mushaf-ayah-${a.number}">
+        <div class="mushaf-ayah-arabic-row" lang="ar" dir="rtl" role="button" tabindex="0" aria-label="${t("readingModeWbw", state.lang)}">
+          <span class="mushaf-ar-text">${cleanArabic(a.arFull)}</span>
+          <span class="mushaf-medallion-box">${medallion}</span>
+        </div>
+        ${showTranslation ? `
+          <div class="mushaf-ayah-translation-card">
+            ${(meaningMode === "both" || meaningMode === "ur") && a.ur ? `
+              <div class="mushaf-trans-ur" lang="ur" dir="rtl">${urHtml}</div>
+            ` : ""}
+            ${(meaningMode === "both" || meaningMode === "en") && a.en ? `
+              <div class="mushaf-trans-en" lang="en" dir="ltr">${enHtml}</div>
+            ` : ""}
+          </div>
+        ` : ""}
+      </div>
     `;
-  }).join(" ");
+  }).join("");
+
+  // Surah Header Banner
+  const bismillahHtml = (sNum !== 9 && sNum !== 1) ? `
+    <div class="mushaf-bismillah-box">
+      <p class="bismillah mushaf-bismillah" lang="ar" dir="rtl">${window.BASEERAH_BISMILLAH || ""}</p>
+    </div>
+  ` : "";
+
+  const translatorBarHtml = showTranslation ? `
+    <div class="mushaf-translator-bar">
+      <span class="mushaf-translator-tag">${t("translatorUrdu", state.lang)} · ${t("translatorEnglish", state.lang)}</span>
+    </div>
+  ` : "";
 
   container.innerHTML = `
-    <div class="screen active screen-quran-v2 screen-mushaf-v2" dir="${isUr ? "rtl" : "ltr"}">
+    <div class="screen active screen-quran-v2 screen-mushaf-v2 meaning-${meaningMode}" dir="${isUr ? "rtl" : "ltr"}">
       <header class="quran-header-emerald">
         <div class="header-left-group">
-          <button type="button" class="btn-header-back" data-nav="surahs">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <button type="button" class="btn-header-back" data-nav="surahs" aria-label="${t("surahs", state.lang)}">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
               ${isUr ? '<polyline points="9 18 15 12 9 6"/>' : '<polyline points="15 18 9 12 15 6"/>'}
             </svg>
             <span>${t("surahs", state.lang)}</span>
           </button>
           <div class="header-surah-meta">
             <span class="surah-name-gold" lang="ar" dir="rtl">${surahData.nameAr}</span>
-            <span class="surah-sub-info">${surahData.nameEn} · ${t("surahWord", state.lang)} ${isUr ? `<span class="urdu-num">${toUrduDigits(sNum)}</span>` : sNum}</span>
+            <span class="surah-sub-info">${surahData.nameEn} · ${t("surahWord", state.lang)} ${isUr ? `<span class="urdu-num">${toUrduDigits(sNum)}</span>` : sNum} · ${isUr ? `<span class="urdu-num">${toUrduDigits(totalAyahs)}</span>` : totalAyahs} ${t("ayahsWord", state.lang)}</span>
           </div>
         </div>
 
-        <div class="header-center-group">
-          <div class="mode-pill-toggle mode-toggle" role="group">
+        <div class="header-right-group quran-toolbar-group">
+          <!-- Reading Mode Switch (WBW / Mushaf) -->
+          <div class="mode-pill-toggle mode-toggle" role="group" aria-label="Reading Mode">
             <button type="button" class="mode-pill-btn mode-btn" data-mode="wbw">${t("readingModeWbw", state.lang)}</button>
             <button type="button" class="mode-pill-btn mode-btn active" data-mode="mushaf">${t("readingModeMushaf", state.lang)}</button>
           </div>
-        </div>
 
-        <div class="header-right-group">
+          <!-- Translation Toggle (Show translation on/off) -->
+          <button type="button" class="mushaf-toggle-trans-btn ${showTranslation ? 'active' : ''}" id="btn-toggle-mushaf-trans" aria-pressed="${showTranslation}">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+            <span>${t("showTranslation", state.lang)}</span>
+          </button>
+
+          <!-- Meaning Toggle: [Both | اردو | English] (Visible when showTranslation is true) -->
+          ${showTranslation ? `
+            <div class="meaning-toggle-group" role="group" aria-label="Meaning display">
+              <button type="button" class="meaning-btn ${meaningMode === "both" ? "active" : ""}" data-meaning="both">${t("meaningToggleBoth", state.lang)}</button>
+              <button type="button" class="meaning-btn ${meaningMode === "ur" ? "active" : ""}" data-meaning="ur">${t("meaningToggleUrdu", state.lang)}</button>
+              <button type="button" class="meaning-btn ${meaningMode === "en" ? "active" : ""}" data-meaning="en">${t("meaningToggleEnglish", state.lang)}</button>
+            </div>
+          ` : ""}
+
+          <!-- 5-Step Text Scaler [A− | A+] -->
           <div class="font-scaler-container" id="font-scaler-box"></div>
         </div>
       </header>
 
       <main class="mushaf-reading-viewport">
-        <div class="mushaf-card" id="mushaf-card">
-          <div class="mushaf-continuous-text mushaf-flow-text" lang="ar" dir="rtl">
+        <div class="mushaf-column" id="mushaf-column">
+          <!-- Surah Header Banner -->
+          <div class="mushaf-surah-banner">
+            <div class="mushaf-banner-inner">
+              <h2 class="mushaf-banner-ar" lang="ar" dir="rtl">${surahData.nameAr}</h2>
+              <div class="mushaf-banner-meta">
+                <span class="banner-en">${surahData.nameEn}</span>
+                <span class="banner-bullet">·</span>
+                <span>${isUr ? `<span class="urdu-num">${toUrduDigits(totalAyahs)}</span> آیات` : `${totalAyahs} Ayahs`}</span>
+              </div>
+            </div>
+          </div>
+
+          ${bismillahHtml}
+          ${translatorBarHtml}
+
+          <div class="mushaf-ayahs-container mushaf-flow-text">
             ${ayahsHtml}
           </div>
         </div>
@@ -537,14 +626,55 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
     });
   });
 
-  // Tap ayah in mushaf mode -> open bottom sheet
-  container.querySelectorAll(".mushaf-ayah-span").forEach((span) => {
-    span.addEventListener("click", () => {
-      const num = parseInt(span.getAttribute("data-ayah-num"), 10);
-      const targetAyah = surahData.ayahs.find((a) => a.number === num);
-      if (targetAyah) {
-        UIComponents.showMushafBottomSheet(targetAyah, surahData.nameAr, surahData.nameEn);
-      }
+  // Translation visibility toggle
+  const transToggleBtn = container.querySelector("#btn-toggle-mushaf-trans");
+  if (transToggleBtn) {
+    transToggleBtn.addEventListener("click", () => {
+      state.mushafShowTranslation = !state.mushafShowTranslation;
+      renderQuranScreen(container, [sNum, aNum]);
+    });
+  }
+
+  // Meaning toggle
+  container.querySelectorAll(".meaning-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.meaningDisplay = btn.getAttribute("data-meaning");
+      renderQuranScreen(container, [sNum, aNum]);
+    });
+  });
+
+  // Tap ayah in mushaf mode -> soft gold highlight, then open word-by-word view
+  container.querySelectorAll(".mushaf-ayah-arabic-row").forEach((row) => {
+    row.addEventListener("click", (e) => {
+      if (e.target.closest(".fn-ref-btn")) return;
+      const block = row.closest(".mushaf-ayah-block");
+      const num = parseInt(block.getAttribute("data-ayah-num"), 10);
+      block.classList.add("active-highlight");
+      setTimeout(() => {
+        state.readingMode = "wbw";
+        router.navigate(`quran/${sNum}/${num}`);
+      }, 140);
+    });
+  });
+
+  // Footnote tap -> open bottom sheet
+  container.querySelectorAll(".fn-ref-btn").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const fnNum = btn.getAttribute("data-fn");
+      const fnLang = btn.getAttribute("data-lang");
+      const ayahNum = parseInt(btn.getAttribute("data-ayah"), 10) || aNum;
+      const targetAyah = surahData.ayahs.find((a) => a.number === ayahNum) || surahData.ayahs[0];
+      const fnMap = fnLang === "ur" ? parseFootnotesMap(targetAyah.footnotesUr) : parseFootnotesMap(targetAyah.footnotesEn);
+      const fnText = fnMap[fnNum] || (fnLang === "ur" ? targetAyah.footnotesUr : targetAyah.footnotesEn);
+
+      UIComponents.showFootnoteBottomSheet({
+        footnoteNum: fnNum,
+        footnoteText: fnText,
+        lang: fnLang,
+        surahNum: sNum,
+        ayahNum: ayahNum
+      });
     });
   });
 
@@ -555,7 +685,14 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
         maxAyahs: totalAyahs,
         currentSurah: sNum,
         onJump: (s, a) => {
-          router.navigate(`quran/${s}/${a}`);
+          const targetEl = container.querySelector(`#mushaf-ayah-${a}`);
+          if (targetEl) {
+            targetEl.scrollIntoView({ behavior: "smooth", block: "center" });
+            targetEl.classList.add("active-highlight");
+            setTimeout(() => targetEl.classList.remove("active-highlight"), 1200);
+          } else {
+            router.navigate(`quran/${s}/${a}`);
+          }
         }
       });
     });
