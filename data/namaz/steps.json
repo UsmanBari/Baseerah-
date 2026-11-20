@@ -1,0 +1,112 @@
+{
+  "status": "draft",
+  "reviewed_by": "pending-scholar-review",
+  "notice": "مسودہ — باقاعدہ مستند عالم دین کی تصدیق تک زیرِ التواء ہے",
+  "noticeEn": "Draft — pending formal review and approval by qualified Islamic scholars",
+  "steps": [
+    {
+      "id": "wudu",
+      "step": 1,
+      "ur": "وضو",
+      "en": "Wudu",
+      "posture": "wudu",
+      "how": "Wash for prayer: hands, mouth, nose, face, arms, wipe head, feet.",
+      "howUr": "نماز سے پہلے وضو کریں",
+      "ar": null,
+      "arUr": null,
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "niyyah",
+      "step": 2,
+      "ur": "نیت",
+      "en": "Intention",
+      "posture": "standing",
+      "how": "Make the intention in your heart for the prayer you are offering.",
+      "howUr": "دل میں نماز کی نیت کریں",
+      "ar": null,
+      "arUr": null,
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "takbeer",
+      "step": 3,
+      "ur": "تکبیر",
+      "en": "Takbeer",
+      "posture": "takbeer",
+      "how": "Raise both hands and say Allahu Akbar to start the prayer.",
+      "howUr": "دونوں ہاتھ اٹھا کر اللہ اکبر کہیں",
+      "ar": null,
+      "arUr": null,
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "qiyam",
+      "step": 4,
+      "ur": "قیام",
+      "en": "Standing",
+      "posture": "qiyam",
+      "how": "Stand and recite Sana, then Surah Al-Fatiha, then another surah.",
+      "howUr": "کھڑے ہو کر ثناء، سورۃ فاتحہ اور کوئی سورت پڑھیں",
+      "ar": null,
+      "arUr": null,
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "ruku",
+      "step": 5,
+      "ur": "رکوع",
+      "en": "Ruku",
+      "posture": "ruku",
+      "how": "Bow with hands on knees and back straight.",
+      "howUr": "گھٹنوں پر ہاتھ رکھ کر جھکیں",
+      "ar": null,
+      "arUr": null,
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "sajdah",
+      "step": 6,
+      "ur": "سجدہ",
+      "en": "Sajdah",
+      "posture": "sajdah",
+      "how": "Prostrate with forehead, nose, hands, knees and toes on the ground.",
+      "howUr": "ماتھا اور ناک زمین پر رکھیں",
+      "ar": null,
+      "arUr": null,
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "tashahhud",
+      "step": 7,
+      "ur": "تشہد",
+      "en": "Sitting",
+      "posture": "jalsah",
+      "how": "Sit and recite Tashahhud, then Durood and dua in the last sitting.",
+      "howUr": "بیٹھ کر التحیات پڑھیں",
+      "ar": null,
+      "arUr": null,
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "salam",
+      "step": 8,
+      "ur": "سلام",
+      "en": "Salam",
+      "posture": "salam",
+      "how": "Turn your face to the right, then to the left, to finish.",
+      "howUr": "دائیں پھر بائیں سلام پھیریں",
+      "ar": null,
+      "arUr": null,
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    }
+  ]
+}

@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="utf-8">
+  <title>Baseerah — Hafiz & Scholar Quran Review (پڑتال و تصدیق)</title>
+  <style>
+    @font-face {
+      font-family: "QUL-IndoPak";
+      src: url("fonts/indopak-nastaleeq-qul.ttf") format("truetype");
+      font-display: block;
+    }
+    :root {
+      --bg: #F7F4EC;
+      --surface: #FFFFFF;
+      --line: #E2DACA;
+      --ink: #1D2B26;
+      --accent: #0E5A47;
+      --gold: #E9C77B;
+      --danger: #B3261E;
+      --danger-bg: #F9DEDC;
+    }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 30px;
+      line-height: 1.6;
+    }
+    .header {
+      background: var(--surface);
+      border: 2px solid var(--line);
+      border-radius: 16px;
+      padding: 24px 32px;
+      margin-bottom: 30px;
+    }
+    .header h1 {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 28px;
+    }
+    .header p {
+      margin: 4px 0;
+      color: #555;
+    }
+    .group-block {
+      background: var(--surface);
+      border: 2px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 28px;
+    }
+    .group-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      border-bottom: 2px solid var(--line);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .badge-danger {
+      background: var(--danger);
+      color: #FFFFFF;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .exception-note {
+      background: var(--danger-bg);
+      border-left: 4px solid var(--danger);
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #410E0B;
+    }
+    .ayah-card {
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+    .ayah-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    .ayah-ar-full {
+      font-family: "QUL-IndoPak", serif;
+      font-size: 34px;
+      line-height: 2.2;
+      color: #000000;
+      direction: rtl;
+      text-align: right;
+      padding: 12px 18px;
+      background: #FFFFFF;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    .wbw-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 16px;
+      background: #FFFFFF;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+    .wbw-table th, .wbw-table td {
+      border: 1px solid var(--line);
+      padding: 10px 14px;
+      text-align: center;
+    }
+    .wbw-table th {
+      background: #EFEBE0;
+      color: var(--accent);
+      font-size: 14px;
+    }
+    .wbw-ar {
+      font-family: "QUL-IndoPak", serif;
+      font-size: 28px;
+      direction: rtl;
+      color: #000000;
+    }
+    .wbw-ur {
+      font-family: "Noto Nastaliq Urdu", serif;
+      font-size: 17px;
+      direction: rtl;
+      color: #2E3D37;
+      line-height: 1.8;
+    }
+    .wbw-en {
+      font-size: 15px;
+      color: #333333;
+    }
+    .translation-pane {
+      background: #FFFFFF;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 18px;
+    }
+    .trans-ur {
+      font-family: "Noto Nastaliq Urdu", serif;
+      font-size: 18px;
+      direction: rtl;
+      text-align: right;
+      line-height: 2.0;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .trans-en {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.5;
+    }
+    .trans-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Baseerah (بصيرة) — Hafiz &amp; Scholar Proofreading Suite</h1>
+  <p><strong>Rasm &amp; Font:</strong> Indo-Pak Nastaleeq Script 89 (Ayah) &amp; Script 59 (WBW) rendered via <code>fonts/indopak-nastaleeq-qul.ttf</code>.</p>
+  <p><strong>Translations:</strong> Maulana Muhammad Junagarhi (Urdu) &amp; Saheeh International (English) via QuranEnc.</p>
+  <p><em>Purpose: For visual cross-examination against printed Pakistani 16-line / 15-line Tajweed Mushafs.</em></p>
+</div>
+
+<div class="group-block">
+<div class="group-title">Surah Al-Fatihah (1:1–7) </div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 1, Ayah 1</span><span>4 Words</span></div>
+<div class="ayah-ar-full">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">بِسْمِ</td><td class="wbw-ur">ساتھ نام</td><td class="wbw-en">In (the) name</td></tr>
+<tr><td>2</td><td class="wbw-ar">اللّٰهِ</td><td class="wbw-ur">اللہ کے</td><td class="wbw-en">(of) Allah</td></tr>
+<tr><td>3</td><td class="wbw-ar">الرَّحْمٰنِ</td><td class="wbw-ur">جو بے حد مہربان ہے</td><td class="wbw-en">the Most Gracious</td></tr>
+<tr><td>4</td><td class="wbw-ar">الرَّحِیْمِ</td><td class="wbw-ur">بار بار رحم فرمانے والا ہے</td><td class="wbw-en">the Most Merciful</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">شروع کرتا ہوں اللہ تعالیٰ کے نام سے جو بڑا مہربان نہایت رحم واﻻ ہے۔[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">In the name of Allāh,[2] the Entirely Merciful, the Especially Merciful.[3]</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 1, Ayah 2</span><span>4 Words</span></div>
+<div class="ayah-ar-full">اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اَلْحَمْدُ</td><td class="wbw-ur">سب تعریف</td><td class="wbw-en">All praises and thanks</td></tr>
+<tr><td>2</td><td class="wbw-ar">لِلّٰهِ</td><td class="wbw-ur">اللہ کے لیے ہے</td><td class="wbw-en">(be) to Allah</td></tr>
+<tr><td>3</td><td class="wbw-ar">رَبِّ</td><td class="wbw-ur">جو رب ہے</td><td class="wbw-en">the Lord</td></tr>
+<tr><td>4</td><td class="wbw-ar">الْعٰلَمِیْنَ</td><td class="wbw-ur">تمام جہانوں کا</td><td class="wbw-en">of the universe</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">سب تعریف اللہ تعالیٰ کے لئے ہے[1] جو تمام جہانوں کا پالنے واﻻ ہے۔[2]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">[All] praise is [due] to Allāh, Lord[4] of the worlds -</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 1, Ayah 3</span><span>2 Words</span></div>
+<div class="ayah-ar-full">الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">الرَّحْمٰنِ</td><td class="wbw-ur">جو بہت مہربان</td><td class="wbw-en">The Most Gracious</td></tr>
+<tr><td>2</td><td class="wbw-ar">الرَّحِیْمِ</td><td class="wbw-ur">بار بار رحم فرمانے والا ہے</td><td class="wbw-en">the Most Merciful</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">بڑا مہربان نہایت رحم کرنے واﻻ۔[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">The Entirely Merciful, the Especially Merciful,</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 1, Ayah 4</span><span>3 Words</span></div>
+<div class="ayah-ar-full">مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">مٰلِكِ</td><td class="wbw-ur">مالک ہے</td><td class="wbw-en">(The) Master</td></tr>
+<tr><td>2</td><td class="wbw-ar">یَوْمِ</td><td class="wbw-ur">دن کا</td><td class="wbw-en">(of the) Day</td></tr>
+<tr><td>3</td><td class="wbw-ar">الدِّیْنِ</td><td class="wbw-ur">بدلے کے</td><td class="wbw-en">(of the) Judgment</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">بدلے کے دن (یعنی قیامت) کا مالک ہے۔[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Sovereign of the Day of Recompense.[5]</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 1, Ayah 5</span><span>4 Words</span></div>
+<div class="ayah-ar-full">اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اِیَّاكَ</td><td class="wbw-ur">صرف تیری</td><td class="wbw-en">You Alone</td></tr>
+<tr><td>2</td><td class="wbw-ar">نَعْبُدُ</td><td class="wbw-ur">ہم عبادت کرتے ہیں</td><td class="wbw-en">we worship</td></tr>
+<tr><td>3</td><td class="wbw-ar">وَاِیَّاكَ</td><td class="wbw-ur">اور صرف تجھ سے</td><td class="wbw-en">and You Alone</td></tr>
+<tr><td>4</td><td class="wbw-ar">نَسْتَعِیْنُ</td><td class="wbw-ur">ہم مدد چاہتے ہیں</td><td class="wbw-en">we ask for help</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">ہم صرف تیری ہی عبادت کرتے ہیں اور صرف تجھ ہی سے مدد چاہتے ہیں۔[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">It is You we worship and You we ask for help.</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 1, Ayah 6</span><span>3 Words</span></div>
+<div class="ayah-ar-full">اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اِهْدِنَا</td><td class="wbw-ur">دکھا ہم کو</td><td class="wbw-en">Guide us</td></tr>
+<tr><td>2</td><td class="wbw-ar">الصِّرَاطَ</td><td class="wbw-ur">راستہ</td><td class="wbw-en">(to) the path</td></tr>
+<tr><td>3</td><td class="wbw-ar">الْمُسْتَقِیْمَ</td><td class="wbw-ur">سیدھا</td><td class="wbw-en">the straight</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">ہمیں سیدھی (اور سچی) راه دکھا۔[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Guide us to the straight path -</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 1, Ayah 7</span><span>9 Words</span></div>
+<div class="ayah-ar-full">صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ۦ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ ۟۠</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">صِرَاطَ</td><td class="wbw-ur">راستہ</td><td class="wbw-en">(The) path</td></tr>
+<tr><td>2</td><td class="wbw-ar">الَّذِیْنَ</td><td class="wbw-ur">ان لوگوں کا</td><td class="wbw-en">(of) those</td></tr>
+<tr><td>3</td><td class="wbw-ar">اَنْعَمْتَ</td><td class="wbw-ur">انعام کیا تو نے</td><td class="wbw-en">You have bestowed (Your) Favors</td></tr>
+<tr><td>4</td><td class="wbw-ar">عَلَیْهِمْ ۙ۬ۦ</td><td class="wbw-ur">اوپر ان کے</td><td class="wbw-en">on them</td></tr>
+<tr><td>5</td><td class="wbw-ar">غَیْرِ</td><td class="wbw-ur">نہ ان (لوگوں) کا</td><td class="wbw-en">not (of)</td></tr>
+<tr><td>6</td><td class="wbw-ar">الْمَغْضُوْبِ</td><td class="wbw-ur">غضب کیا گیا</td><td class="wbw-en">those who earned (Your) wrath</td></tr>
+<tr><td>7</td><td class="wbw-ar">عَلَیْهِمْ</td><td class="wbw-ur">اوپر ان کے</td><td class="wbw-en">on themselves</td></tr>
+<tr><td>8</td><td class="wbw-ar">وَلَا</td><td class="wbw-ur">اور نہ</td><td class="wbw-en">and not</td></tr>
+<tr><td>9</td><td class="wbw-ar">الضَّآلِّیْنَ</td><td class="wbw-ur">ان (لوگوں) کا جو گمراہ ہیں / گم کردہ راہ ہیں</td><td class="wbw-en">(of) those who go astray</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">ان لوگوں کی راه جن پر تو نے انعام کیا[1] ان کی نہیں جن پر غضب کیا گیا (یعنی وه لوگ جنہوں نے حق کو پہچانا، مگر اس پر عمل پیرا نہیں ہوئے) اور نہ گمراہوں کی[2] (یعنی وه لوگ جو جہالت کے سبب راه حق سے برگشتہ ہوگئے)۔</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">The path of those upon whom You have bestowed favor, not of those who have earned [Your] anger or of those who are astray.</div>
+</div>
+</div>
+</div>
+<div class="group-block">
+<div class="group-title">Ayat al-Kursi (2:255) </div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 2, Ayah 255</span><span>50 Words</span></div>
+<div class="ayah-ar-full">اَللّٰهُ لَاۤ اِلٰهَ اِلَّا هُوَ ۚ اَلْحَیُّ الْقَیُّوْمُ ۚ۬ لَا تَاْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌ ؕ لَهٗ مَا فِی السَّمٰوٰتِ وَمَا فِی الْاَرْضِ ؕ مَنْ ذَا الَّذِیْ یَشْفَعُ عِنْدَهٗۤ اِلَّا بِاِذْنِهٖ ؕ یَعْلَمُ مَا بَیْنَ اَیْدِیْهِمْ وَمَا خَلْفَهُمْ ۚ وَلَا یُحِیْطُوْنَ بِشَیْءٍ مِّنْ عِلْمِهٖۤ اِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِیُّهُ السَّمٰوٰتِ وَالْاَرْضَ ۚ وَلَا یَـُٔوْدُهٗ حِفْظُهُمَا ۚ وَهُوَ الْعَلِیُّ الْعَظِیْمُ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اَللّٰهُ</td><td class="wbw-ur">اللہ تعالیٰ وہ ہے</td><td class="wbw-en">Allah</td></tr>
+<tr><td>2</td><td class="wbw-ar">لَاۤ</td><td class="wbw-ur">نہیں</td><td class="wbw-en">(there is) no</td></tr>
+<tr><td>3</td><td class="wbw-ar">اِلٰهَ</td><td class="wbw-ur">کوئی الہ</td><td class="wbw-en">God</td></tr>
+<tr><td>4</td><td class="wbw-ar">اِلَّا</td><td class="wbw-ur">مگر</td><td class="wbw-en">except</td></tr>
+<tr><td>5</td><td class="wbw-ar">هُوَ ۚ</td><td class="wbw-ur">وہی</td><td class="wbw-en">Him</td></tr>
+<tr><td>6</td><td class="wbw-ar">اَلْحَیُّ</td><td class="wbw-ur">جو ہمیشہ سے۔ زندہ ہے</td><td class="wbw-en">the Ever-Living</td></tr>
+<tr><td>7</td><td class="wbw-ar">الْقَیُّوْمُ ۚ۬</td><td class="wbw-ur">جو ہمیشہ سے قائم ہے</td><td class="wbw-en">the Sustainer of all that exists</td></tr>
+<tr><td>8</td><td class="wbw-ar">لَا</td><td class="wbw-ur">نہیں</td><td class="wbw-en">Not</td></tr>
+<tr><td>9</td><td class="wbw-ar">تَاْخُذُهٗ</td><td class="wbw-ur">پکڑتی اس کو</td><td class="wbw-en">overtakes Him</td></tr>
+<tr><td>10</td><td class="wbw-ar">سِنَةٌ</td><td class="wbw-ur">اونگھ</td><td class="wbw-en">slumber</td></tr>
+<tr><td>11</td><td class="wbw-ar">وَّلَا</td><td class="wbw-ur">اورنہ</td><td class="wbw-en">[and] not</td></tr>
+<tr><td>12</td><td class="wbw-ar">نَوْمٌ ؕ</td><td class="wbw-ur">نیند</td><td class="wbw-en">sleep</td></tr>
+<tr><td>13</td><td class="wbw-ar">لَهٗ</td><td class="wbw-ur">اس کے لیے ہے</td><td class="wbw-en">To Him (belongs)</td></tr>
+<tr><td>14</td><td class="wbw-ar">مَا</td><td class="wbw-ur">جو</td><td class="wbw-en">what(ever)</td></tr>
+<tr><td>15</td><td class="wbw-ar">فِی</td><td class="wbw-ur">میں ہے</td><td class="wbw-en">(is) in</td></tr>
+<tr><td>16</td><td class="wbw-ar">السَّمٰوٰتِ</td><td class="wbw-ur">آسمانوں</td><td class="wbw-en">the heavens</td></tr>
+<tr><td>17</td><td class="wbw-ar">وَمَا</td><td class="wbw-ur">اور جو</td><td class="wbw-en">and what(ever)</td></tr>
+<tr><td>18</td><td class="wbw-ar">فِی</td><td class="wbw-ur">میں ہے</td><td class="wbw-en">(is) in</td></tr>
+<tr><td>19</td><td class="wbw-ar">الْاَرْضِ ؕ</td><td class="wbw-ur">زمین</td><td class="wbw-en">the earth</td></tr>
+<tr><td>20</td><td class="wbw-ar">مَنْ</td><td class="wbw-ur">کون</td><td class="wbw-en">Who</td></tr>
+<tr><td>21</td><td class="wbw-ar">ذَا</td><td class="wbw-ur">(ہے) ایک</td><td class="wbw-en">(is) the one</td></tr>
+<tr><td>22</td><td class="wbw-ar">الَّذِیْ</td><td class="wbw-ur">وہ جو</td><td class="wbw-en">who</td></tr>
+<tr><td>23</td><td class="wbw-ar">یَشْفَعُ</td><td class="wbw-ur">سفارش کرے</td><td class="wbw-en">can intercede</td></tr>
+<tr><td>24</td><td class="wbw-ar">عِنْدَهٗۤ</td><td class="wbw-ur">اس کے پاس</td><td class="wbw-en">with Him</td></tr>
+<tr><td>25</td><td class="wbw-ar">اِلَّا</td><td class="wbw-ur">مگر</td><td class="wbw-en">except</td></tr>
+<tr><td>26</td><td class="wbw-ar">بِاِذْنِهٖ ؕ</td><td class="wbw-ur">اُس کی اجازت سے</td><td class="wbw-en">by His permission</td></tr>
+<tr><td>27</td><td class="wbw-ar">یَعْلَمُ</td><td class="wbw-ur">وہ جانتا ہے</td><td class="wbw-en">He knows</td></tr>
+<tr><td>28</td><td class="wbw-ar">مَا</td><td class="wbw-ur">جو</td><td class="wbw-en">what</td></tr>
+<tr><td>29</td><td class="wbw-ar">بَیْنَ</td><td class="wbw-ur">درمیان</td><td class="wbw-en">(is)</td></tr>
+<tr><td>30</td><td class="wbw-ar">اَیْدِیْهِمْ</td><td class="wbw-ur">ان سے پہلے</td><td class="wbw-en">before them</td></tr>
+<tr><td>31</td><td class="wbw-ar">وَمَا</td><td class="wbw-ur">اورجو</td><td class="wbw-en">and what</td></tr>
+<tr><td>32</td><td class="wbw-ar">خَلْفَهُمْ ۚ</td><td class="wbw-ur">ان کے پیچھے ہے</td><td class="wbw-en">(is) behind them</td></tr>
+<tr><td>33</td><td class="wbw-ar">وَلَا</td><td class="wbw-ur">اور  نہیں</td><td class="wbw-en">And not</td></tr>
+<tr><td>34</td><td class="wbw-ar">یُحِیْطُوْنَ</td><td class="wbw-ur">احاطہ کرسکتے ہیں</td><td class="wbw-en">they encompass</td></tr>
+<tr><td>35</td><td class="wbw-ar">بِشَیْءٍ</td><td class="wbw-ur">کچھ بھی</td><td class="wbw-en">anything</td></tr>
+<tr><td>36</td><td class="wbw-ar">مِّنْ</td><td class="wbw-ur">میں سے</td><td class="wbw-en">of</td></tr>
+<tr><td>37</td><td class="wbw-ar">عِلْمِهٖۤ</td><td class="wbw-ur">اس کے علم</td><td class="wbw-en">His Knowledge</td></tr>
+<tr><td>38</td><td class="wbw-ar">اِلَّا</td><td class="wbw-ur">مگر</td><td class="wbw-en">except</td></tr>
+<tr><td>39</td><td class="wbw-ar">بِمَا</td><td class="wbw-ur">ساتھ اس کے جو</td><td class="wbw-en">[of] what</td></tr>
+<tr><td>40</td><td class="wbw-ar">شَآءَ ۚ</td><td class="wbw-ur">وہ چاہے</td><td class="wbw-en">He willed</td></tr>
+<tr><td>41</td><td class="wbw-ar">وَسِعَ</td><td class="wbw-ur">وسیع ہے</td><td class="wbw-en">Extends</td></tr>
+<tr><td>42</td><td class="wbw-ar">كُرْسِیُّهُ</td><td class="wbw-ur">اس کی کرسی</td><td class="wbw-en">His Seat</td></tr>
+<tr><td>43</td><td class="wbw-ar">السَّمٰوٰتِ</td><td class="wbw-ur">آسمانوں پر</td><td class="wbw-en">(to) the heavens</td></tr>
+<tr><td>44</td><td class="wbw-ar">وَالْاَرْضَ ۚ</td><td class="wbw-ur">اور زمین پر</td><td class="wbw-en">and the earth</td></tr>
+<tr><td>45</td><td class="wbw-ar">وَلَا</td><td class="wbw-ur">اور نہیں</td><td class="wbw-en">And not</td></tr>
+<tr><td>46</td><td class="wbw-ar">یَـُٔوْدُهٗ</td><td class="wbw-ur">تھکاتی اس کو</td><td class="wbw-en">tires Him</td></tr>
+<tr><td>47</td><td class="wbw-ar">حِفْظُهُمَا ۚ</td><td class="wbw-ur">ان دونوں کی حفاظت</td><td class="wbw-en">(the) guarding of both of them</td></tr>
+<tr><td>48</td><td class="wbw-ar">وَهُوَ</td><td class="wbw-ur">اور وہ</td><td class="wbw-en">And He</td></tr>
+<tr><td>49</td><td class="wbw-ar">الْعَلِیُّ</td><td class="wbw-ur">بلند ہے</td><td class="wbw-en">(is) the Most High</td></tr>
+<tr><td>50</td><td class="wbw-ar">الْعَظِیْمُ</td><td class="wbw-ur">بہت بڑا</td><td class="wbw-en">the Most Great</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">اللہ تعالیٰ ہی معبود برحق ہے جس کے سوا کوئی معبود نہیں جو زنده اور سب کا تھامنے واﻻ ہے، جسے نہ اونگھ آئے نہ نیند، اس کی ملکیت میں زمین اور آسمانوں کی تمام چیزیں ہیں۔ کون ہے جو اس کی اجازت کے بغیر اس کے سامنے شفاعت کرسکے، وه جانتا ہے جو ان کے سامنے ہے اور جو ان کے پیچھے ہے اور وه اس کے علم میں سے کسی چیز کا احاطہ نہیں کرسکتے مگر جتنا وه چاہے[1] ، اس کی کرسی کی وسعت[2] نے زمین و آسمان کو گھیر رکھا ہے اور اللہ تعالیٰ ان کی حفاﻇت سے نہ تھکتا اور نہ اکتاتا ہے، وه تو بہت بلند اور بہت بڑا ہے۔</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Allāh - there is no deity except Him, the Ever-Living,[98] the Self-Sustaining.[99] Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them,[100] and they encompass not a thing of His knowledge except for what He wills. His Kursī[101] extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High,[102] the Most Great.[103]</div>
+</div>
+</div>
+</div>
+<div class="group-block">
+<div class="group-title">Surah Ya-Sin (36:1–12) </div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 1</span><span>1 Words</span></div>
+<div class="ayah-ar-full">یٰسٓ ۟ۚ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">یٰسٓ</td><td class="wbw-ur">یس</td><td class="wbw-en">Ya Seen</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">یٰس.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Yā, Seen.[1260]</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 2</span><span>2 Words</span></div>
+<div class="ayah-ar-full">وَالْقُرْاٰنِ الْحَكِیْمِ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">وَالْقُرْاٰنِ</td><td class="wbw-ur">قسم ہے قرآن</td><td class="wbw-en">By the Quran</td></tr>
+<tr><td>2</td><td class="wbw-ar">الْحَكِیْمِ</td><td class="wbw-ur">حکیم کی</td><td class="wbw-en">the Wise</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">قسم ہے قرآن باحکمت کی.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">By the wise[1261] Qur’ān,</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 3</span><span>3 Words</span></div>
+<div class="ayah-ar-full">اِنَّكَ لَمِنَ الْمُرْسَلِیْنَ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اِنَّكَ</td><td class="wbw-ur">بیشک آپ</td><td class="wbw-en">Indeed, you</td></tr>
+<tr><td>2</td><td class="wbw-ar">لَمِنَ</td><td class="wbw-ur">البتہ  سے ہیں</td><td class="wbw-en">(are) among</td></tr>
+<tr><td>3</td><td class="wbw-ar">الْمُرْسَلِیْنَ</td><td class="wbw-ur">رسولوں میں (سے ہیں)</td><td class="wbw-en">the Messengers</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">کہ بے شک آپ پیغمبروں میں سے ہیں.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Indeed you, [O Muḥammad], are from among the messengers,</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 4</span><span>3 Words</span></div>
+<div class="ayah-ar-full">عَلٰی صِرَاطٍ مُّسْتَقِیْمٍ ۟ؕ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">عَلٰی</td><td class="wbw-ur">پر</td><td class="wbw-en">On</td></tr>
+<tr><td>2</td><td class="wbw-ar">صِرَاطٍ</td><td class="wbw-ur">راستے کی طرف</td><td class="wbw-en">a Path</td></tr>
+<tr><td>3</td><td class="wbw-ar">مُّسْتَقِیْمٍ</td><td class="wbw-ur">سیدھے</td><td class="wbw-en">Straight</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">سیدھے راستے پر ہیں.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">On a straight path.</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 5</span><span>3 Words</span></div>
+<div class="ayah-ar-full">تَنْزِیْلَ الْعَزِیْزِ الرَّحِیْمِ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">تَنْزِیْلَ</td><td class="wbw-ur">نازل کردہ ہے</td><td class="wbw-en">A revelation</td></tr>
+<tr><td>2</td><td class="wbw-ar">الْعَزِیْزِ</td><td class="wbw-ur">زبردست</td><td class="wbw-en">(of) the All-Mighty</td></tr>
+<tr><td>3</td><td class="wbw-ar">الرَّحِیْمِ</td><td class="wbw-ur">رحم فرمانے والی ہستی کی طرف</td><td class="wbw-en">the Most Merciful</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">یہ قرآن اللہ زبردست مہربان کی طرف سے نازل کیا گیا ہے.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">[This is] a revelation of the Exalted in Might, the Merciful,</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 6</span><span>7 Words</span></div>
+<div class="ayah-ar-full">لِتُنْذِرَ قَوْمًا مَّاۤ اُنْذِرَ اٰبَآؤُهُمْ فَهُمْ غٰفِلُوْنَ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">لِتُنْذِرَ</td><td class="wbw-ur">تاکہ تم خبردار کرو</td><td class="wbw-en">That you may warn</td></tr>
+<tr><td>2</td><td class="wbw-ar">قَوْمًا</td><td class="wbw-ur">ایک قوم کو</td><td class="wbw-en">a people</td></tr>
+<tr><td>3</td><td class="wbw-ar">مَّاۤ</td><td class="wbw-ur">نہیں</td><td class="wbw-en">not</td></tr>
+<tr><td>4</td><td class="wbw-ar">اُنْذِرَ</td><td class="wbw-ur">خبردار کیے گئے</td><td class="wbw-en">were warned</td></tr>
+<tr><td>5</td><td class="wbw-ar">اٰبَآؤُهُمْ</td><td class="wbw-ur">ان کے آباؤ اجداد</td><td class="wbw-en">their forefathers</td></tr>
+<tr><td>6</td><td class="wbw-ar">فَهُمْ</td><td class="wbw-ur">پس وہ</td><td class="wbw-en">so they</td></tr>
+<tr><td>7</td><td class="wbw-ar">غٰفِلُوْنَ</td><td class="wbw-ur">غافل ہیں</td><td class="wbw-en">(are) heedless</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">تاکہ آپ ایسے لوگوں کو ڈرائیں جن کے باپ دادے نہیں ڈرائے گئے تھے، سو (اسی وجہ سے) یہ غافل ہیں.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">That you may warn a people whose forefathers were not warned, so they are unaware.</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 7</span><span>8 Words</span></div>
+<div class="ayah-ar-full">لَقَدْ حَقَّ الْقَوْلُ عَلٰۤی اَكْثَرِهِمْ فَهُمْ لَا یُؤْمِنُوْنَ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">لَقَدْ</td><td class="wbw-ur">البتہ تحقیق</td><td class="wbw-en">Certainly</td></tr>
+<tr><td>2</td><td class="wbw-ar">حَقَّ</td><td class="wbw-ur">حق ہوئی۔ ثابت ہوئی</td><td class="wbw-en">(has) proved true</td></tr>
+<tr><td>3</td><td class="wbw-ar">الْقَوْلُ</td><td class="wbw-ur">بات</td><td class="wbw-en">the word</td></tr>
+<tr><td>4</td><td class="wbw-ar">عَلٰۤی</td><td class="wbw-ur">پر</td><td class="wbw-en">upon</td></tr>
+<tr><td>5</td><td class="wbw-ar">اَكْثَرِهِمْ</td><td class="wbw-ur">ان کی اکثریت (پر )</td><td class="wbw-en">most of them</td></tr>
+<tr><td>6</td><td class="wbw-ar">فَهُمْ</td><td class="wbw-ur">کہ وہ</td><td class="wbw-en">so they</td></tr>
+<tr><td>7</td><td class="wbw-ar">لَا</td><td class="wbw-ur">نہیں</td><td class="wbw-en">(do) not</td></tr>
+<tr><td>8</td><td class="wbw-ar">یُؤْمِنُوْنَ</td><td class="wbw-ur">ایمان لائیں گے</td><td class="wbw-en">believe</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">ان میں سے اکثر لوگوں پر بات ﺛابت ہوچکی ہے سو یہ لوگ ایمان نہ ﻻئیں گے.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Already the word [i.e., decree] has come into effect upon most of them, so they do not believe.</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 8</span><span>10 Words</span></div>
+<div class="ayah-ar-full">اِنَّا جَعَلْنَا فِیْۤ اَعْنَاقِهِمْ اَغْلٰلًا فَهِیَ اِلَی الْاَذْقَانِ فَهُمْ مُّقْمَحُوْنَ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اِنَّا</td><td class="wbw-ur">بیشک ہم نے</td><td class="wbw-en">Indeed, We</td></tr>
+<tr><td>2</td><td class="wbw-ar">جَعَلْنَا</td><td class="wbw-ur">ڈال دیے ہم نے</td><td class="wbw-en">[We] have placed</td></tr>
+<tr><td>3</td><td class="wbw-ar">فِیْۤ</td><td class="wbw-ur">میں</td><td class="wbw-en">on</td></tr>
+<tr><td>4</td><td class="wbw-ar">اَعْنَاقِهِمْ</td><td class="wbw-ur">ان کی گردنوں میں</td><td class="wbw-en">their necks</td></tr>
+<tr><td>5</td><td class="wbw-ar">اَغْلٰلًا</td><td class="wbw-ur">طوق</td><td class="wbw-en">iron collars</td></tr>
+<tr><td>6</td><td class="wbw-ar">فَهِیَ</td><td class="wbw-ur">تو وہ</td><td class="wbw-en">and they</td></tr>
+<tr><td>7</td><td class="wbw-ar">اِلَی</td><td class="wbw-ur">تک</td><td class="wbw-en">(are up) to</td></tr>
+<tr><td>8</td><td class="wbw-ar">الْاَذْقَانِ</td><td class="wbw-ur">ٹھوڑیوں تک ہیں</td><td class="wbw-en">the chins</td></tr>
+<tr><td>9</td><td class="wbw-ar">فَهُمْ</td><td class="wbw-ur">تو وہ</td><td class="wbw-en">so they</td></tr>
+<tr><td>10</td><td class="wbw-ar">مُّقْمَحُوْنَ</td><td class="wbw-ur">سر اٹھائے ہوئے ہیں</td><td class="wbw-en">(are with) heads raised up</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">ہم نے ان کی گردنوں میں طوق ڈال دیئے ہیں پھر وه ٹھوڑیوں تک ہیں، جس سے ان کے سر اوپر کو الٹ گئے ہیں.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Indeed, We have put shackles on their necks, and they are to their chins, so they are with heads [kept] aloft.</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 9</span><span>12 Words</span></div>
+<div class="ayah-ar-full">وَجَعَلْنَا مِنْ بَیْنِ اَیْدِیْهِمْ سَدًّا وَّمِنْ خَلْفِهِمْ سَدًّا فَاَغْشَیْنٰهُمْ فَهُمْ لَا یُبْصِرُوْنَ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">وَجَعَلْنَا</td><td class="wbw-ur">اور بنادی ہم نے</td><td class="wbw-en">And We have made</td></tr>
+<tr><td>2</td><td class="wbw-ar">مِنْ</td><td class="wbw-ur">سے</td><td class="wbw-en">from</td></tr>
+<tr><td>3</td><td class="wbw-ar">بَیْنِ</td><td class="wbw-ur">درمیان</td><td class="wbw-en">before/between</td></tr>
+<tr><td>4</td><td class="wbw-ar">اَیْدِیْهِمْ</td><td class="wbw-ur">ان کے سامنے سے</td><td class="wbw-en">their hands/their front</td></tr>
+<tr><td>5</td><td class="wbw-ar">سَدًّا</td><td class="wbw-ur">ایک دیوار</td><td class="wbw-en">a barrier</td></tr>
+<tr><td>6</td><td class="wbw-ar">وَّمِنْ</td><td class="wbw-ur">اور سے</td><td class="wbw-en">and from</td></tr>
+<tr><td>7</td><td class="wbw-ar">خَلْفِهِمْ</td><td class="wbw-ur">ان کے پیچھے سے</td><td class="wbw-en">behind them</td></tr>
+<tr><td>8</td><td class="wbw-ar">سَدًّا</td><td class="wbw-ur">ایک دیوار</td><td class="wbw-en">a barrier</td></tr>
+<tr><td>9</td><td class="wbw-ar">فَاَغْشَیْنٰهُمْ</td><td class="wbw-ur">پھر ڈھانپ دیا ہم نے ان کو</td><td class="wbw-en">and We covered them</td></tr>
+<tr><td>10</td><td class="wbw-ar">فَهُمْ</td><td class="wbw-ur">پس وہ</td><td class="wbw-en">so they</td></tr>
+<tr><td>11</td><td class="wbw-ar">لَا</td><td class="wbw-ur">نہیں</td><td class="wbw-en">(do) not</td></tr>
+<tr><td>12</td><td class="wbw-ar">یُبْصِرُوْنَ</td><td class="wbw-ur">وہ دیکھ پاتے</td><td class="wbw-en">see</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">اور ہم نے ایک آڑ ان کے سامنے کردی اورایک آڑ ان کے پیچھے کردی[1] ، جس سے ہم نے ان کو ڈھانک دیا سو وه نہیں دیکھ سکتے.[2]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">And We have put before them a barrier and behind them a barrier and covered them, so they do not see.</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 10</span><span>8 Words</span></div>
+<div class="ayah-ar-full">وَسَوَآءٌ عَلَیْهِمْ ءَاَنْذَرْتَهُمْ اَمْ لَمْ تُنْذِرْهُمْ لَا یُؤْمِنُوْنَ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">وَسَوَآءٌ</td><td class="wbw-ur">اور برابر ہے</td><td class="wbw-en">And it (is) same</td></tr>
+<tr><td>2</td><td class="wbw-ar">عَلَیْهِمْ</td><td class="wbw-ur">ان پر</td><td class="wbw-en">to them</td></tr>
+<tr><td>3</td><td class="wbw-ar">ءَاَنْذَرْتَهُمْ</td><td class="wbw-ur">خواہ تم ڈراؤ ان کو</td><td class="wbw-en">whether you warn them</td></tr>
+<tr><td>4</td><td class="wbw-ar">اَمْ</td><td class="wbw-ur">یا</td><td class="wbw-en">or</td></tr>
+<tr><td>5</td><td class="wbw-ar">لَمْ</td><td class="wbw-ur">نہ</td><td class="wbw-en">(do) not</td></tr>
+<tr><td>6</td><td class="wbw-ar">تُنْذِرْهُمْ</td><td class="wbw-ur">تم ڈراؤ ان کو</td><td class="wbw-en">warn them</td></tr>
+<tr><td>7</td><td class="wbw-ar">لَا</td><td class="wbw-ur">نہیں</td><td class="wbw-en">not</td></tr>
+<tr><td>8</td><td class="wbw-ar">یُؤْمِنُوْنَ</td><td class="wbw-ur">وہ ایمان لائیں گے</td><td class="wbw-en">they will believe</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">اور آپ ان کو ڈرائیں یا نہ ڈرائیں دونوں برابر ہیں، یہ ایمان نہیں ﻻئیں گے.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">And it is all the same for them whether you warn them or do not warn them - they will not believe.</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 11</span><span>12 Words</span></div>
+<div class="ayah-ar-full">اِنَّمَا تُنْذِرُ مَنِ اتَّبَعَ الذِّكْرَ وَخَشِیَ الرَّحْمٰنَ بِالْغَیْبِ ۚ فَبَشِّرْهُ بِمَغْفِرَةٍ وَّاَجْرٍ كَرِیْمٍ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اِنَّمَا</td><td class="wbw-ur">بیشک</td><td class="wbw-en">Only</td></tr>
+<tr><td>2</td><td class="wbw-ar">تُنْذِرُ</td><td class="wbw-ur">تم خبردار کرسکتے ہو</td><td class="wbw-en">you (can) warn</td></tr>
+<tr><td>3</td><td class="wbw-ar">مَنِ</td><td class="wbw-ur">اس کو جو</td><td class="wbw-en">(him) who</td></tr>
+<tr><td>4</td><td class="wbw-ar">اتَّبَعَ</td><td class="wbw-ur">پیروی کرے</td><td class="wbw-en">follows</td></tr>
+<tr><td>5</td><td class="wbw-ar">الذِّكْرَ</td><td class="wbw-ur">نصیحت کی</td><td class="wbw-en">the Reminder</td></tr>
+<tr><td>6</td><td class="wbw-ar">وَخَشِیَ</td><td class="wbw-ur">اور ڈرتا ہوں</td><td class="wbw-en">and fears</td></tr>
+<tr><td>7</td><td class="wbw-ar">الرَّحْمٰنَ</td><td class="wbw-ur">رحمن سے</td><td class="wbw-en">the Most Gracious</td></tr>
+<tr><td>8</td><td class="wbw-ar">بِالْغَیْبِ ۚ</td><td class="wbw-ur">ساتھ غیب کے۔ غائبانہ طور پر</td><td class="wbw-en">in the unseen</td></tr>
+<tr><td>9</td><td class="wbw-ar">فَبَشِّرْهُ</td><td class="wbw-ur">پس خوش خبری دے دو اس کو</td><td class="wbw-en">So give him glad tidings</td></tr>
+<tr><td>10</td><td class="wbw-ar">بِمَغْفِرَةٍ</td><td class="wbw-ur">بخشش کی</td><td class="wbw-en">of forgiveness</td></tr>
+<tr><td>11</td><td class="wbw-ar">وَّاَجْرٍ</td><td class="wbw-ur">اجر کی</td><td class="wbw-en">and a reward</td></tr>
+<tr><td>12</td><td class="wbw-ar">كَرِیْمٍ</td><td class="wbw-ur">عزت والے</td><td class="wbw-en">noble</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">بس آپ تو صرف ایسے شخص کو ڈرا سکتے ہیں[1] جو نصیحت پر چلے اور رحمٰن سے بےدیکھے ڈرے، سو آپ اس کو مغفرت اور باوقار اجر کی خوش خبریاں سنا دیجیئے.</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">You can only warn one who follows the message and fears the Most Merciful unseen. So give him good tidings of forgiveness and noble reward.</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 36, Ayah 12</span><span>14 Words</span></div>
+<div class="ayah-ar-full">اِنَّا نَحْنُ نُحْیِ الْمَوْتٰی وَنَكْتُبُ مَا قَدَّمُوْا وَاٰثَارَهُمْ ؔؕ وَكُلَّ شَیْءٍ اَحْصَیْنٰهُ فِیْۤ اِمَامٍ مُّبِیْنٍ ۟۠</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اِنَّا</td><td class="wbw-ur">بیشک ہم</td><td class="wbw-en">Indeed, We</td></tr>
+<tr><td>2</td><td class="wbw-ar">نَحْنُ</td><td class="wbw-ur">ہم ہی</td><td class="wbw-en">[We]</td></tr>
+<tr><td>3</td><td class="wbw-ar">نُحْیِ</td><td class="wbw-ur">ہم زندہ کریں گے</td><td class="wbw-en">[We] give life</td></tr>
+<tr><td>4</td><td class="wbw-ar">الْمَوْتٰی</td><td class="wbw-ur">مردوں کو</td><td class="wbw-en">(to) the dead</td></tr>
+<tr><td>5</td><td class="wbw-ar">وَنَكْتُبُ</td><td class="wbw-ur">اور ہم لکھ رہے ہیں</td><td class="wbw-en">and We record</td></tr>
+<tr><td>6</td><td class="wbw-ar">مَا</td><td class="wbw-ur">جو</td><td class="wbw-en">what</td></tr>
+<tr><td>7</td><td class="wbw-ar">قَدَّمُوْا</td><td class="wbw-ur">انہوں نے آگے بھیجا</td><td class="wbw-en">they have sent before</td></tr>
+<tr><td>8</td><td class="wbw-ar">وَاٰثَارَهُمْ ؔؕ</td><td class="wbw-ur">اور ان کے آثار کو</td><td class="wbw-en">and their footprints</td></tr>
+<tr><td>9</td><td class="wbw-ar">وَكُلَّ</td><td class="wbw-ur">اور ہر</td><td class="wbw-en">and every</td></tr>
+<tr><td>10</td><td class="wbw-ar">شَیْءٍ</td><td class="wbw-ur">چیز کو</td><td class="wbw-en">thing</td></tr>
+<tr><td>11</td><td class="wbw-ar">اَحْصَیْنٰهُ</td><td class="wbw-ur">شمار کررکھا ہے ہم نے اس کو</td><td class="wbw-en">We have enumerated it</td></tr>
+<tr><td>12</td><td class="wbw-ar">فِیْۤ</td><td class="wbw-ur">میں</td><td class="wbw-en">in</td></tr>
+<tr><td>13</td><td class="wbw-ar">اِمَامٍ</td><td class="wbw-ur">ایک کتاب میں</td><td class="wbw-en">a Register</td></tr>
+<tr><td>14</td><td class="wbw-ar">مُّبِیْنٍ</td><td class="wbw-ur">واضح</td><td class="wbw-en">clear</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">بےشک ہم مُردوں کو زنده کریں گے[1] ، اور ہم لکھتے جاتے ہیں وه اعمال بھی جن کو لوگ آگے بھیجتے ہیں[2] اور ان کے وه اعمال بھی جن کو پیچھے چھوڑ جاتے ہیں، اور ہم نے ہر چیز کو ایک واضح کتاب میں ضبط کر رکھا ہے.[3]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Indeed, it is We who bring the dead to life and record what they have put forth and what they left behind, and all things We have enumerated in a clear register.</div>
+</div>
+</div>
+</div>
+<div class="group-block">
+<div class="group-title">Surah Al-Ikhlas (112:1–4) </div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 112, Ayah 1</span><span>4 Words</span></div>
+<div class="ayah-ar-full">قُلْ هُوَ اللّٰهُ اَحَدٌ ۟ۚ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">قُلْ</td><td class="wbw-ur">کہہ دیجئے</td><td class="wbw-en">Say</td></tr>
+<tr><td>2</td><td class="wbw-ar">هُوَ</td><td class="wbw-ur">وہ</td><td class="wbw-en">He</td></tr>
+<tr><td>3</td><td class="wbw-ar">اللّٰهُ</td><td class="wbw-ur">اللہ</td><td class="wbw-en">(is) Allah</td></tr>
+<tr><td>4</td><td class="wbw-ar">اَحَدٌ</td><td class="wbw-ur">ایک ہے</td><td class="wbw-en">the One</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">آپ کہہ دیجئے کہ وه اللہ تعالیٰ ایک (ہی) ہے.</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Say, "He is Allāh, [who is] One,[2011]</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 112, Ayah 2</span><span>2 Words</span></div>
+<div class="ayah-ar-full">اَللّٰهُ الصَّمَدُ ۟ۚ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اَللّٰهُ</td><td class="wbw-ur">اللہ</td><td class="wbw-en">Allah</td></tr>
+<tr><td>2</td><td class="wbw-ar">الصَّمَدُ</td><td class="wbw-ur">بےنیاز ہے</td><td class="wbw-en">the Eternal, the Absolute</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">اللہ تعالیٰ بے نیاز ہے.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Allāh, the Eternal Refuge.[2012]</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 112, Ayah 3</span><span>4 Words</span></div>
+<div class="ayah-ar-full">لَمْ یَلِدْ ۙ۬ وَلَمْ یُوْلَدْ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">لَمْ</td><td class="wbw-ur">نہ</td><td class="wbw-en">Not</td></tr>
+<tr><td>2</td><td class="wbw-ar">یَلِدْ ۙ۬</td><td class="wbw-ur">اس نے جنا</td><td class="wbw-en">He begets</td></tr>
+<tr><td>3</td><td class="wbw-ar">وَلَمْ</td><td class="wbw-ur">اور نہ</td><td class="wbw-en">and not</td></tr>
+<tr><td>4</td><td class="wbw-ar">یُوْلَدْ</td><td class="wbw-ur">وہ جنا گیا</td><td class="wbw-en">He is begotten</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">نہ اس سے کوئی پیدا ہوا نہ وه کسی سے پیدا ہوا.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">He neither begets nor is born,</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 112, Ayah 4</span><span>5 Words</span></div>
+<div class="ayah-ar-full">وَلَمْ یَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۟۠</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">وَلَمْ</td><td class="wbw-ur">اور نہیں</td><td class="wbw-en">And not</td></tr>
+<tr><td>2</td><td class="wbw-ar">یَكُنْ</td><td class="wbw-ur">ہے</td><td class="wbw-en">is</td></tr>
+<tr><td>3</td><td class="wbw-ar">لَّهٗ</td><td class="wbw-ur">اس کے لئے</td><td class="wbw-en">for Him</td></tr>
+<tr><td>4</td><td class="wbw-ar">كُفُوًا</td><td class="wbw-ur">برابر کا</td><td class="wbw-en">equivalent</td></tr>
+<tr><td>5</td><td class="wbw-ar">اَحَدٌ</td><td class="wbw-ur">کوئی ایک بھی</td><td class="wbw-en">any [one]</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">اور نہ کوئی اس کا ہمسر ہے.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Nor is there to Him any equivalent."</div>
+</div>
+</div>
+</div>
+<div class="group-block">
+<div class="group-title">Surah An-Nas (114:1–6) </div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 114, Ayah 1</span><span>4 Words</span></div>
+<div class="ayah-ar-full">قُلْ اَعُوْذُ بِرَبِّ النَّاسِ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">قُلْ</td><td class="wbw-ur">کہہ دیجئے</td><td class="wbw-en">Say</td></tr>
+<tr><td>2</td><td class="wbw-ar">اَعُوْذُ</td><td class="wbw-ur">میں پناہ چاہتا ہوں</td><td class="wbw-en">I seek refuge</td></tr>
+<tr><td>3</td><td class="wbw-ar">بِرَبِّ</td><td class="wbw-ur">رب کی</td><td class="wbw-en">in (the) Lord</td></tr>
+<tr><td>4</td><td class="wbw-ar">النَّاسِ</td><td class="wbw-ur">انسانوں کے</td><td class="wbw-en">(of) mankind</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">آپ کہہ دیجئے! کہ میں لوگوں کے پروردگار کی پناه میں آتا ہوں.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Say, "I seek refuge in the Lord of mankind,</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 114, Ayah 2</span><span>2 Words</span></div>
+<div class="ayah-ar-full">مَلِكِ النَّاسِ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">مَلِكِ</td><td class="wbw-ur">بادشاہ</td><td class="wbw-en">(The) King</td></tr>
+<tr><td>2</td><td class="wbw-ar">النَّاسِ</td><td class="wbw-ur">انسانوں کے</td><td class="wbw-en">(of) mankind</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">لوگوں کے مالک کی[1] (اور).</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">The Sovereign of mankind,</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 114, Ayah 3</span><span>2 Words</span></div>
+<div class="ayah-ar-full">اِلٰهِ النَّاسِ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اِلٰهِ</td><td class="wbw-ur">الٰہ کی/معبود کی</td><td class="wbw-en">(The) God</td></tr>
+<tr><td>2</td><td class="wbw-ar">النَّاسِ</td><td class="wbw-ur">انسانوں کے</td><td class="wbw-en">(of) mankind</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">لوگوں کے معبود کی (پناه میں).[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">The God of mankind,</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 114, Ayah 4</span><span>4 Words</span></div>
+<div class="ayah-ar-full">مِنْ شَرِّ الْوَسْوَاسِ ۙ۬ الْخَنَّاسِ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">مِنْ</td><td class="wbw-ur">سے</td><td class="wbw-en">From</td></tr>
+<tr><td>2</td><td class="wbw-ar">شَرِّ</td><td class="wbw-ur">شر</td><td class="wbw-en">(the) evil</td></tr>
+<tr><td>3</td><td class="wbw-ar">الْوَسْوَاسِ ۙ۬</td><td class="wbw-ur">وسوسہ ڈالنے والے</td><td class="wbw-en">(of) the whisperer</td></tr>
+<tr><td>4</td><td class="wbw-ar">الْخَنَّاسِ</td><td class="wbw-ur">بار بار پلٹ کر آنے والے کے</td><td class="wbw-en">the one who withdraws</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">وسوسہ ڈالنے والے پیچھے ہٹ جانے والے کے شر سے.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">From the evil of the retreating whisperer[2016] -</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 114, Ayah 5</span><span>5 Words</span></div>
+<div class="ayah-ar-full">الَّذِیْ یُوَسْوِسُ فِیْ صُدُوْرِ النَّاسِ ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">الَّذِیْ</td><td class="wbw-ur">وہ جو</td><td class="wbw-en">The one who</td></tr>
+<tr><td>2</td><td class="wbw-ar">یُوَسْوِسُ</td><td class="wbw-ur">وسوسہ ڈالتا ہے</td><td class="wbw-en">whispers</td></tr>
+<tr><td>3</td><td class="wbw-ar">فِیْ</td><td class="wbw-ur">میں</td><td class="wbw-en">in</td></tr>
+<tr><td>4</td><td class="wbw-ar">صُدُوْرِ</td><td class="wbw-ur">سینوں</td><td class="wbw-en">(the) breasts</td></tr>
+<tr><td>5</td><td class="wbw-ar">النَّاسِ</td><td class="wbw-ur">انسانوں کے</td><td class="wbw-en">(of) mankind</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">جو لوگوں کے سینوں میں وسوسہ ڈالتا ہے.</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Who whispers [evil] into the breasts of mankind -</div>
+</div>
+</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 114, Ayah 6</span><span>3 Words</span></div>
+<div class="ayah-ar-full">مِنَ الْجِنَّةِ وَالنَّاسِ ۟۠</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">مِنَ</td><td class="wbw-ur">سے</td><td class="wbw-en">From</td></tr>
+<tr><td>2</td><td class="wbw-ar">الْجِنَّةِ</td><td class="wbw-ur">جنوں میں</td><td class="wbw-en">the jinn</td></tr>
+<tr><td>3</td><td class="wbw-ar">وَالنَّاسِ</td><td class="wbw-ur">اور انسانوں میں</td><td class="wbw-en">and men</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">(خواه) وه جن میں سے ہو یا انسان میں سے.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">From among the jinn and mankind."[2017]</div>
+</div>
+</div>
+</div>
+<div class="group-block">
+<div class="group-title">Verification Exception: Surah Al-Ma'idah (5:52) <span class="badge-danger">Hafiz Check Required</span></div>
+<div class="exception-note"><strong>Note:</strong> QUL 56 Uthmani reference has an internal space in word 12 ('دَآئِرَ ةٌۭ'). In shipped Indo-Pak QUL 59, word 12 is 'دَآىِٕرَةٌ ؕ' where letters are joined correctly and space is only before the waqf sign.</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 5, Ayah 52</span><span>28 Words</span></div>
+<div class="ayah-ar-full">فَتَرَی الَّذِیْنَ فِیْ قُلُوْبِهِمْ مَّرَضٌ یُّسَارِعُوْنَ فِیْهِمْ یَقُوْلُوْنَ نَخْشٰۤی اَنْ تُصِیْبَنَا دَآىِٕرَةٌ ؕ فَعَسَی اللّٰهُ اَنْ یَّاْتِیَ بِالْفَتْحِ اَوْ اَمْرٍ مِّنْ عِنْدِهٖ فَیُصْبِحُوْا عَلٰی مَاۤ اَسَرُّوْا فِیْۤ اَنْفُسِهِمْ نٰدِمِیْنَ ۟ؕ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">فَتَرَی</td><td class="wbw-ur">تو تم دیکھو گے</td><td class="wbw-en">And you see</td></tr>
+<tr><td>2</td><td class="wbw-ar">الَّذِیْنَ</td><td class="wbw-ur">ان لوگوں کو</td><td class="wbw-en">those</td></tr>
+<tr><td>3</td><td class="wbw-ar">فِیْ</td><td class="wbw-ur">میں</td><td class="wbw-en">in</td></tr>
+<tr><td>4</td><td class="wbw-ar">قُلُوْبِهِمْ</td><td class="wbw-ur">جن کے دلوں میں</td><td class="wbw-en">their hearts</td></tr>
+<tr><td>5</td><td class="wbw-ar">مَّرَضٌ</td><td class="wbw-ur">بیماری ہے</td><td class="wbw-en">(is) a disease</td></tr>
+<tr><td>6</td><td class="wbw-ar">یُّسَارِعُوْنَ</td><td class="wbw-ur">وہ دوڑ دھوپ کرتے ہیں</td><td class="wbw-en">they hasten</td></tr>
+<tr><td>7</td><td class="wbw-ar">فِیْهِمْ</td><td class="wbw-ur">ان میں</td><td class="wbw-en">to them</td></tr>
+<tr><td>8</td><td class="wbw-ar">یَقُوْلُوْنَ</td><td class="wbw-ur">وہ کہتے ہیں</td><td class="wbw-en">saying</td></tr>
+<tr><td>9</td><td class="wbw-ar">نَخْشٰۤی</td><td class="wbw-ur">ہم ڈرتے ہیں</td><td class="wbw-en">We fear</td></tr>
+<tr><td>10</td><td class="wbw-ar">اَنْ</td><td class="wbw-ur">کہ</td><td class="wbw-en">that</td></tr>
+<tr><td>11</td><td class="wbw-ar">تُصِیْبَنَا</td><td class="wbw-ur">پہنچے گی ہم کو</td><td class="wbw-en">(may) strike us</td></tr>
+<tr><td>12</td><td class="wbw-ar">دَآىِٕرَةٌ ؕ</td><td class="wbw-ur">کوئی مصیبت۔ گردش</td><td class="wbw-en">a misfortune</td></tr>
+<tr><td>13</td><td class="wbw-ar">فَعَسَی</td><td class="wbw-ur">تو امید ہے کہ</td><td class="wbw-en">But perhaps</td></tr>
+<tr><td>14</td><td class="wbw-ar">اللّٰهُ</td><td class="wbw-ur">اللہ</td><td class="wbw-en">Allah</td></tr>
+<tr><td>15</td><td class="wbw-ar">اَنْ</td><td class="wbw-ur">کہ</td><td class="wbw-en">[that]</td></tr>
+<tr><td>16</td><td class="wbw-ar">یَّاْتِیَ</td><td class="wbw-ur">لے آئے</td><td class="wbw-en">will bring</td></tr>
+<tr><td>17</td><td class="wbw-ar">بِالْفَتْحِ</td><td class="wbw-ur">فتح</td><td class="wbw-en">the victory</td></tr>
+<tr><td>18</td><td class="wbw-ar">اَوْ</td><td class="wbw-ur">یا</td><td class="wbw-en">or</td></tr>
+<tr><td>19</td><td class="wbw-ar">اَمْرٍ</td><td class="wbw-ur">کوئی حکم۔ فیصلہ</td><td class="wbw-en">a decision</td></tr>
+<tr><td>20</td><td class="wbw-ar">مِّنْ</td><td class="wbw-ur">سے</td><td class="wbw-en">from</td></tr>
+<tr><td>21</td><td class="wbw-ar">عِنْدِهٖ</td><td class="wbw-ur">اپنی طرف سے</td><td class="wbw-en">(of) Him</td></tr>
+<tr><td>22</td><td class="wbw-ar">فَیُصْبِحُوْا</td><td class="wbw-ur">پھر وہ ہوجائیں</td><td class="wbw-en">Then they will become</td></tr>
+<tr><td>23</td><td class="wbw-ar">عَلٰی</td><td class="wbw-ur">اوپر  اس کے</td><td class="wbw-en">for</td></tr>
+<tr><td>24</td><td class="wbw-ar">مَاۤ</td><td class="wbw-ur">جو</td><td class="wbw-en">what</td></tr>
+<tr><td>25</td><td class="wbw-ar">اَسَرُّوْا</td><td class="wbw-ur">انہوں نے چھپایا</td><td class="wbw-en">they had concealed</td></tr>
+<tr><td>26</td><td class="wbw-ar">فِیْۤ</td><td class="wbw-ur">میں</td><td class="wbw-en">within</td></tr>
+<tr><td>27</td><td class="wbw-ar">اَنْفُسِهِمْ</td><td class="wbw-ur">اپنے نفسوں میں</td><td class="wbw-en">themselves</td></tr>
+<tr><td>28</td><td class="wbw-ar">نٰدِمِیْنَ</td><td class="wbw-ur">ندامت اٹھانے والے۔ شرمسار ہونے والے</td><td class="wbw-en">regretful</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">آپ دیکھیں گے کہ جن کے دلوں میں بیماری ہے[1] وه دوڑ دوڑ کر ان میں گھس رہے ہیں اور کہتے ہیں کہ ہمیں خطره ہے، ایسا نہ ہو کہ کوئی حادﺛہ ہم پر پڑ جائے[2] بہت ممکن ہے کہ اللہ تعالیٰ فتح دے دے[3]۔ یا اپنے پاس سے کوئی اور چیز ﻻئے[4] پھر تو یہ اپنے دلوں میں چھپائی ہوئی باتوں پر (بے طرح) نادم ہونے لگیں گے۔</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">So you see those in whose hearts is disease [i.e., hypocrisy] hastening into [association with] them, saying, "We are afraid a misfortune may strike us." But perhaps Allāh will bring conquest or a decision from Him, and they will become, over what they have been concealing within themselves, regretful.</div>
+</div>
+</div>
+</div>
+<div class="group-block">
+<div class="group-title">Verification Exception: Surah Hud (11:13) <span class="badge-danger">Hafiz Check Required</span></div>
+<div class="exception-note"><strong>Note:</strong> Tanzil uses Alef Wasla & Dagger Alef ('ٱفْتَرَىٰهُ'), QUL 56 uses plain Alef ('افْتَرَاهُ'). Shipped Indo-Pak uses authentic South Asian Nastaleeq rasm ('افْتَرَاهُ ؕ').</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 11, Ayah 13</span><span>18 Words</span></div>
+<div class="ayah-ar-full">اَمْ یَقُوْلُوْنَ افْتَرٰىهُ ؕ قُلْ فَاْتُوْا بِعَشْرِ سُوَرٍ مِّثْلِهٖ مُفْتَرَیٰتٍ وَّادْعُوْا مَنِ اسْتَطَعْتُمْ مِّنْ دُوْنِ اللّٰهِ اِنْ كُنْتُمْ صٰدِقِیْنَ ۟</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اَمْ</td><td class="wbw-ur">کیا</td><td class="wbw-en">Or</td></tr>
+<tr><td>2</td><td class="wbw-ar">یَقُوْلُوْنَ</td><td class="wbw-ur">وہ کہتے ہیں</td><td class="wbw-en">they say</td></tr>
+<tr><td>3</td><td class="wbw-ar">افْتَرٰىهُ ؕ</td><td class="wbw-ur">اس نے گھڑ لیا ہے اس کو</td><td class="wbw-en">He has fabricated it</td></tr>
+<tr><td>4</td><td class="wbw-ar">قُلْ</td><td class="wbw-ur">آپ کہہ دیجئے</td><td class="wbw-en">Say</td></tr>
+<tr><td>5</td><td class="wbw-ar">فَاْتُوْا</td><td class="wbw-ur">پس لے آؤ</td><td class="wbw-en">Then bring</td></tr>
+<tr><td>6</td><td class="wbw-ar">بِعَشْرِ</td><td class="wbw-ur">دس</td><td class="wbw-en">ten</td></tr>
+<tr><td>7</td><td class="wbw-ar">سُوَرٍ</td><td class="wbw-ur">سورتیں</td><td class="wbw-en">Surahs</td></tr>
+<tr><td>8</td><td class="wbw-ar">مِّثْلِهٖ</td><td class="wbw-ur">اس کی مانند۔ اس جیسی</td><td class="wbw-en">like it</td></tr>
+<tr><td>9</td><td class="wbw-ar">مُفْتَرَیٰتٍ</td><td class="wbw-ur">گھڑی ہوئی</td><td class="wbw-en">fabricated</td></tr>
+<tr><td>10</td><td class="wbw-ar">وَّادْعُوْا</td><td class="wbw-ur">اور پکارو۔ بلالو</td><td class="wbw-en">and call</td></tr>
+<tr><td>11</td><td class="wbw-ar">مَنِ</td><td class="wbw-ur">جس کی</td><td class="wbw-en">whoever</td></tr>
+<tr><td>12</td><td class="wbw-ar">اسْتَطَعْتُمْ</td><td class="wbw-ur">استطاعت رکھتے ہو تم</td><td class="wbw-en">you can</td></tr>
+<tr><td>13</td><td class="wbw-ar">مِّنْ</td><td class="wbw-ur">کے</td><td class="wbw-en">besides Allah</td></tr>
+<tr><td>14</td><td class="wbw-ar">دُوْنِ</td><td class="wbw-ur">سوا</td><td class="wbw-en">besides Allah</td></tr>
+<tr><td>15</td><td class="wbw-ar">اللّٰهِ</td><td class="wbw-ur">اللہ کے</td><td class="wbw-en">besides Allah</td></tr>
+<tr><td>16</td><td class="wbw-ar">اِنْ</td><td class="wbw-ur">اگر</td><td class="wbw-en">if</td></tr>
+<tr><td>17</td><td class="wbw-ar">كُنْتُمْ</td><td class="wbw-ur">ہو تم</td><td class="wbw-en">you are</td></tr>
+<tr><td>18</td><td class="wbw-ar">صٰدِقِیْنَ</td><td class="wbw-ur">سچے</td><td class="wbw-en">truthful</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">کیا یہ کہتے ہیں کہ اس قرآن کو اسی نے گھڑا ہے۔ جواب دیجئے کہ پھر تم بھی اسی کی مثل دس سورتیں گھڑی ہوئی لے آؤ اور اللہ کے سوا جسے چاہو اپنے ساتھ بلا بھی لو اگر تم سچے ہو.[1]</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">Or do they say, "He invented it"? Say, "Then bring ten sūrahs like it that have been invented and call upon [for assistance] whomever you can besides Allāh, if you should be truthful."</div>
+</div>
+</div>
+</div>
+<div class="group-block">
+<div class="group-title">Verification Exception: Surah 'Abasa (80:25) <span class="badge-danger">Hafiz Check Required</span></div>
+<div class="exception-note"><strong>Note:</strong> Tanzil uses Alef with Hamza Above ('أَنَّا'), QUL 56 uses bare Alef with Fatha ('اَنَّا'). Shipped Indo-Pak uses 'اَنَّا'.</div>
+<div class="ayah-card">
+<div class="ayah-header"><span>Surah 80, Ayah 25</span><span>4 Words</span></div>
+<div class="ayah-ar-full">اَنَّا صَبَبْنَا الْمَآءَ صَبًّا ۟ۙ</div>
+<table class="wbw-table">
+<thead><tr><th>#</th><th>Arabic (Indo-Pak QUL 59)</th><th>Urdu Meaning (QUL 93)</th><th>English Meaning (QUL 92)</th></tr></thead><tbody>
+<tr><td>1</td><td class="wbw-ar">اَنَّا</td><td class="wbw-ur">بیشک ہم نے</td><td class="wbw-en">That [We]</td></tr>
+<tr><td>2</td><td class="wbw-ar">صَبَبْنَا</td><td class="wbw-ur">ڈالا ہم نے/پلٹنا ہم نے/ انڈیلا ہم نے</td><td class="wbw-en">[We] poured</td></tr>
+<tr><td>3</td><td class="wbw-ar">الْمَآءَ</td><td class="wbw-ur">پانی</td><td class="wbw-en">the water</td></tr>
+<tr><td>4</td><td class="wbw-ar">صَبًّا</td><td class="wbw-ur">ڈالنا/ انڈیلنا</td><td class="wbw-en">(in) abundance</td></tr>
+</tbody></table>
+<div class="translation-pane">
+<span class="trans-label">Urdu Full Translation (Maulana Junagarhi):</span>
+<div class="trans-ur">کہ ہم نے خوب پانی برسایا.</div>
+<span class="trans-label">English Full Translation (Saheeh International):</span>
+<div class="trans-en">How We poured down water in torrents,</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -2,3 +2,9 @@ raw/
 node_modules/
 .DS_Store
 *.log
+__pycache__/
+*.pyc
+release/*.zip
+test-results/
+playwright-report/
+
