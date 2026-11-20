@@ -32,12 +32,11 @@ Every piece of Quranic text, word translation, and full ayah translation in Base
 
 ## 3. Indo-Pak Nastaleeq Font (`fonts/indopak-nastaleeq-qul.ttf`)
 - **Font Full Name:** `AlQuran IndoPak by QuranWBW` (Version 2.100; November 26, 2022)
-- **Copyright:** © Al Qalam, © Ghandhara, © KFGQPC, © Ayman Siddiqui. Credits: Abdul Majeed Khan, Arif Karim, Shakir-ul-Qadree, Jawad.
 - **Developer / Designer:** Ayman Siddiqui ([QuranWBW.com](https://www.quranwbw.com))
 - **Source:** [QUL Font Resource](https://qul.tarteel.ai/resources/font) / QuranWBW
 - **License in Name Table:**
   > *"Made only for Sadaqa-e-Jaria purposes. No Copyright infringement intended. NOT FOR SALE, NOT FOR MODIFICATION, NOT FOR DISTRIBUTION OR NOT FOR DEVELOPMENT WITHOUT WRITTEN NOTICE BY QURANWBW.COM. E-mail: quranwbw@gmail.com"*
-- **Compliance Status:** Written permission granted by Ayman Siddiqui / QuranWBW on 2026-11-20 (saved in `docs/permissions/quranwbw_font_permission.pdf`). Exact attribution maintained in documentation and kiosk UI.
+- **Compliance Status:** Permission requested by Usman Bari on 2026-11-20, awaiting reply.
 
 ---
 
