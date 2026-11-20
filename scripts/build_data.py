@@ -246,12 +246,18 @@ def main():
         with open(os.path.join(qenc_ur_dir, fn), "r", encoding="utf-8") as f:
             data = json.load(f)
             for item in data.get("result", []):
-                qenc_ur[(int(item["sura"]), int(item["aya"]))] = item["translation"].strip()
+                qenc_ur[(int(item["sura"]), int(item["aya"]))] = {
+                    "translation": item["translation"].strip(),
+                    "footnotes": item.get("footnotes", "").strip()
+                }
 
         with open(os.path.join(qenc_en_dir, fn), "r", encoding="utf-8") as f:
             data = json.load(f)
             for item in data.get("result", []):
-                qenc_en[(int(item["sura"]), int(item["aya"]))] = item["translation"].strip()
+                qenc_en[(int(item["sura"]), int(item["aya"]))] = {
+                    "translation": item["translation"].strip(),
+                    "footnotes": item.get("footnotes", "").strip()
+                }
 
     # Load Known Exceptions
     known_ex_path = os.path.join(SCRIPTS_DIR, "known_exceptions.json")
@@ -303,8 +309,8 @@ def main():
     # Check 2: Every ayah has non-empty ur and en full translations
     empty_trans = []
     for sa in tanzil_ayahs:
-        u = qenc_ur.get(sa)
-        e = qenc_en.get(sa)
+        u = qenc_ur.get(sa, {}).get("translation")
+        e = qenc_en.get(sa, {}).get("translation")
         if not u:
             empty_trans.append((sa, "ur"))
         if not e:
@@ -427,8 +433,12 @@ def main():
         for a in range(1, expected_ayahs + 1):
             sa = (s, a)
             ar_full = s89[f"{s}:{a}"]["text"]
-            ur_full = qenc_ur[sa]
-            en_full = qenc_en[sa]
+            ur_entry = qenc_ur[sa]
+            en_entry = qenc_en[sa]
+            ur_full = ur_entry["translation"]
+            en_full = en_entry["translation"]
+            ur_fn = ur_entry["footnotes"] or None
+            en_fn = en_entry["footnotes"] or None
 
             words_59 = by_ayah_59[sa]
             words_56 = by_ayah_56[sa]
@@ -466,6 +476,8 @@ def main():
                 "arFull": ar_full,
                 "ur": ur_full,
                 "en": en_full,
+                "footnotesUr": ur_fn,
+                "footnotesEn": en_fn,
                 "words": ayah_words_shipped
             })
 

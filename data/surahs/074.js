@@ -8,6 +8,8 @@ window.BASEERAH_SURAH = {
       "arFull": "یٰۤاَیُّهَا الْمُدَّثِّرُ ۟ۙ",
       "ur": "اے کپڑا اوڑھنے والے.[1]",
       "en": "O you who covers himself [with a garment],[1788]",
+      "footnotesUr": "[1] سب سے پہلے جو وحی نازل ہوئی وہ «اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ» ہے اس کے بعد وحی میں وقفہ ہوگیا اور نبی (صلى الله عليه وسلم) سخت مضطرب اور پریشان رہتے۔ ایک روز اچانک پھر وہی فرشتہ، جو غار حرا میں پہلی مرتبہ وحی لے کر آیا تھا۔ آپ نے دیکھا کہ آسمان و زمین کے درمیان ایک کرسی پر بیٹھا ہے، جس سے آپ پر ایک خوف سا طاری ہوگیا اور گھر جاکر گھر والوں سے کہا کہ مجھے کوئی کپڑا اوڑھا دو، مجھے کپڑا اوڑھا دو۔ چنانچہ انہوں نے آپ کے جسم پر ایک کپڑا ڈال دیا، اسی حالت میں وحی نازل ہوئی۔ (صحيح البخاري، ومسلم، سورة المدثر وكتاب الإيمان) اس اعتبار سے یہ دوسری وحی اور احکام کے حساب سے پہلی وحی ہے۔",
+      "footnotesEn": "[1788] Referring to the Prophet (ﷺ).",
       "words": [
         {
           "ar": "یٰۤاَیُّهَا",
@@ -26,6 +28,8 @@ window.BASEERAH_SURAH = {
       "arFull": "قُمْ فَاَنْذِرْ ۟",
       "ur": "کھڑا ہوجا اور آگاه کردے.[1]",
       "en": "Arise and warn",
+      "footnotesUr": "[1] یعنی اہل مکہ کو ڈرا، اگر وہ ایمان نہ لائیں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "قُمْ",
@@ -44,6 +48,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَرَبَّكَ فَكَبِّرْ ۟",
       "ur": "اور اپنے رب ہی کی بڑائیاں بیان کر.",
       "en": "And your Lord glorify",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَرَبَّكَ",
@@ -62,6 +68,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَثِیَابَكَ فَطَهِّرْ ۟",
       "ur": "اپنے کپڑوں کو پاک رکھا کر.[1]",
       "en": "And your clothing purify",
+      "footnotesUr": "[1] یعنی قلب اور نیت کے ساتھ کپڑے بھی پاک رکھ۔ یہ حکم اس لئے دیا گیا کہ مشرکین مکہ طہارت کا اہتمام نہیں کرتے تھے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَثِیَابَكَ",
@@ -80,6 +88,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالرُّجْزَ فَاهْجُرْ ۟",
       "ur": "ناپاکی کو چھوڑ دے.[1]",
       "en": "And uncleanliness[1789] avoid",
+      "footnotesUr": "[1] یعنی بتوں کی عبادت چھوڑ دے۔ یہ دراصل لوگوں کو آپ کے ذریعے سے حکم دیا جا رہا ہے۔",
+      "footnotesEn": "[1789] Specifically, idols or generally, bad conduct and morals.",
       "words": [
         {
           "ar": "وَالرُّجْزَ",
@@ -98,6 +108,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَلَا تَمْنُنْ تَسْتَكْثِرُ ۟",
       "ur": "اور احسان کرکے زیاده لینے کی خواہش نہ کر.[1]",
       "en": "And do not confer favor to acquire more[1790]",
+      "footnotesUr": "[1] یعنی احسان کرکے یہ خواہش نہ کر کہ بدلے میں اس سے زیادہ ملے گا۔",
+      "footnotesEn": "[1790] An alternative meaning is \"Do not consider any favor you have conferred to be great.\"",
       "words": [
         {
           "ar": "وَلَا",
@@ -121,6 +133,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَلِرَبِّكَ فَاصْبِرْ ۟ؕ",
       "ur": "اور اپنے رب کی راه میں صبر کر.",
       "en": "But for your Lord be patient.",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَلِرَبِّكَ",
@@ -139,6 +153,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَاِذَا نُقِرَ فِی النَّاقُوْرِ ۟ۙ",
       "ur": "پس جب کہ صور میں پھونک ماری جائے گی.",
       "en": "And when the trumpet is blown,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَاِذَا",
@@ -167,6 +183,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَذٰلِكَ یَوْمَىِٕذٍ یَّوْمٌ عَسِیْرٌ ۟ۙ",
       "ur": "تو وه دن بڑا سخت دن ہوگا.",
       "en": "That Day will be a difficult day",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَذٰلِكَ",
@@ -195,6 +213,8 @@ window.BASEERAH_SURAH = {
       "arFull": "عَلَی الْكٰفِرِیْنَ غَیْرُ یَسِیْرٍ ۟",
       "ur": "جو کافروں پر آسان نہ ہوگا.[1]",
       "en": "For the disbelievers - not easy.",
+      "footnotesUr": "[1] یعنی قیامت کا دن کافروں پر بھاری ہوگا کیونکہ اس روز کفر کا نتیجہ انہیں بھگتنا ہوگا، جو جرم وہ دنیا میں کرتے رہے ہونگے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "عَلَی",
@@ -223,6 +243,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ذَرْنِیْ وَمَنْ خَلَقْتُ وَحِیْدًا ۟ۙ",
       "ur": "مجھے اور اسے چھوڑ دے جسے میں نے اکیلا پیدا کیا ہے.[1]",
       "en": "Leave Me with the one I created alone[1791]",
+      "footnotesUr": "[1] یہ کلمہ وعید و تہدید ہے کہ اسے، جسے میں نے ماں کے پیٹ میں اکیلا پیدا کیا، اس کے پاس مال تھا نہ اولاد، اور مجھے اکیلا چھوڑ دو، یعنی میں خود ہی اس سے نمٹ لوں گا، کہتے ہیں کہ یہ ولید بن مغیرہ کی طرف اشارہ ہے۔ یہ کفر و طغیان میں بہت بڑھا ہوا تھا، اس لئے اس کا خصوصی طور پر ذکر کیا ہے۔ واللہ عالم۔",
+      "footnotesEn": "[1791] i.e., without wealth or children. The reference is to al-Waleed bin al-Mugheerah, who after inclining toward the Qur’ān, denied it publicly in order to win the approval of the Quraysh.",
       "words": [
         {
           "ar": "ذَرْنِیْ",
@@ -251,6 +273,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَّجَعَلْتُ لَهٗ مَالًا مَّمْدُوْدًا ۟ۙ",
       "ur": "اور اسے بہت سا مال دے رکھا ہے.",
       "en": "And to whom I granted extensive wealth",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَّجَعَلْتُ",
@@ -279,6 +303,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَّبَنِیْنَ شُهُوْدًا ۟ۙ",
       "ur": "اور حاضر باش فرزند بھی.[1]",
       "en": "And children present [with him]",
+      "footnotesUr": "[1] اسے اللہ نے اولاد سے نوازا تھا اور وہ ہر وقت اس کے پاس ہی رہتے تھے، گھر میں دولت کی فروانی تھی، اس لئے بیٹوں کو تجارت و کاروبار کے لئے باہر جانے کی ضرورت پیش نہیں آتی تھی بعض کہتے ہیں کہ اس کے تین بیٹے مسلمان ہوگئے تھے، خالد، ہشام اور ولید بن ولید (فتح القدیر)",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَّبَنِیْنَ",
@@ -297,6 +323,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَّمَهَّدْتُّ لَهٗ تَمْهِیْدًا ۟ۙ",
       "ur": "اور میں نے اسے بہت کچھ کشادگی دے رکھی ہے.[1]",
       "en": "And spread [everything] before him, easing [his life].",
+      "footnotesUr": "[1] یعنی مال و دولت میں ریاست و سرداری میں اور درازی عمر میں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَّمَهَّدْتُّ",
@@ -320,6 +348,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ یَطْمَعُ اَنْ اَزِیْدَ ۟ۗۙ",
       "ur": "پھر بھی اس کی چاہت ہے کہ میں اسے اور زیاده دوں.[1]",
       "en": "Then he desires that I should add more.",
+      "footnotesUr": "[1] یعنی کفرو معصیت کے باوجود، اس کی خواہش ہے کہ میں اسے زیادہ دوں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -348,6 +378,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّا ؕ اِنَّهٗ كَانَ لِاٰیٰتِنَا عَنِیْدًا ۟ؕ",
       "ur": "نہیں نہیں، [1] وه ہماری آیتوں کا مخالف ہے.[2]",
       "en": "No! Indeed, he has been toward Our verses obstinate.",
+      "footnotesUr": "[1] یعنی میں اسے زیادہ نہیں دونگا۔\n[2] یہ کلا کی علت ہے۔ عنید اس شخص کو کہتے ہیں جو جاننے کے باوجود حق کی مخالفت کرے اور اس کو رد کرے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "كَلَّا ؕ",
@@ -381,6 +413,8 @@ window.BASEERAH_SURAH = {
       "arFull": "سَاُرْهِقُهٗ صَعُوْدًا ۟ؕ",
       "ur": "عنقریب میں اسے ایک سخت چڑھائی چڑھاؤں گا.[1]",
       "en": "I will cover him with arduous torment.",
+      "footnotesUr": "[1] یعنی ایسے عذاب میں مبتلا کروں گا جس کا برداشت کرنا نہایت سخت ہوگا، بعض کہتے ہیں، جہنم میں آگ کا پہاڑ ہوگا جس پر اس کو چڑھایا جائے گا۔ ارھاق کے معنی ہیں۔ انسان پر بھاری چیز لاد دینا۔ (فتح القدیر)",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "سَاُرْهِقُهٗ",
@@ -399,6 +433,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِنَّهٗ فَكَّرَ وَقَدَّرَ ۟ۙ",
       "ur": "اس نے غور کرکے تجویز کی.[1]",
       "en": "Indeed, he thought and deliberated.[1792]",
+      "footnotesUr": "[1] یعنی قرآن اور نبی (صلى الله عليه وسلم) کا پیغام سن کر، اس نے اس امر پر غور کیا کہ میں اس کا جواب دوں؟ اور اپنے جی میں اس نے وہ تیار کیا۔",
+      "footnotesEn": "[1792] About what he would say concerning the Qur’ān and how he might discredit the Prophet (ﷺ).",
       "words": [
         {
           "ar": "اِنَّهٗ",
@@ -422,6 +458,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَقُتِلَ كَیْفَ قَدَّرَ ۟ۙ",
       "ur": "اسے ہلاکت ہو کیسی (تجویز) سوچی؟",
       "en": "So may he be destroyed [for] how he deliberated.",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَقُتِلَ",
@@ -445,6 +483,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ قُتِلَ كَیْفَ قَدَّرَ ۟ۙ",
       "ur": "وه پھر غارت ہو کس طرح اندازه کیا.[1]",
       "en": "Then may he be destroyed [for] how he deliberated.",
+      "footnotesUr": "[1] یہ اس کے حق میں بد دعائیہ کلمے ہیں، کہ ہلاک ہو، مارا جائے، کیا بات اس نے سوچی ہے؟",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -473,6 +513,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ نَظَرَ ۟ۙ",
       "ur": "اس نے پھر دیکھا.[1]",
       "en": "Then he considered [again];",
+      "footnotesUr": "[1] یعنی پھر غور کیا کہ قرآن کا رو کس طرح ممکن ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -491,6 +533,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ عَبَسَ وَبَسَرَ ۟ۙ",
       "ur": "پھر تیوری چڑھائی اور منھ بنایا.[1]",
       "en": "Then he frowned and scowled;",
+      "footnotesUr": "[1] یعنی جواب سوچتے وقت چہرے کی سلوٹیں بدلیں، اور منہ بسورا، جیسا کہ عمومًا کسی مشکل بات پر غور کرتے وقت آدمی ایسا کرتا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -514,6 +558,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ اَدْبَرَ وَاسْتَكْبَرَ ۟ۙ",
       "ur": "پھر پیچھے ہٹ گیا اور غرور کیا.[1]",
       "en": "Then he turned back and was arrogant",
+      "footnotesUr": "[1] یعنی حق سے اعرض کیا اور ایمان لانے سے تکبر کیا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -537,6 +583,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَقَالَ اِنْ هٰذَاۤ اِلَّا سِحْرٌ یُّؤْثَرُ ۟ۙ",
       "ur": "اور کہنے لگا تو یہ صرف جادو ہے جو نقل کیا جاتا ہے.[1]",
       "en": "And said, \"This is not but magic imitated [from others].",
+      "footnotesUr": "[1] یعنی کسی سے یہ سیکھ آیا ہے اور وہاں سے نقل کر لایا ہے اور دعویٰ کر دیا کہ اللہ کا نازل کردہ ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَقَالَ",
@@ -575,6 +623,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِنْ هٰذَاۤ اِلَّا قَوْلُ الْبَشَرِ ۟ؕ",
       "ur": "سوائے انسانی کلام کے کچھ بھی نہیں ہے.",
       "en": "This is not but the word of a human being.\"",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِنْ",
@@ -608,6 +658,8 @@ window.BASEERAH_SURAH = {
       "arFull": "سَاُصْلِیْهِ سَقَرَ ۟",
       "ur": "میں عنقریب اسے دوزخ میں ڈالوں گا.",
       "en": "I will drive him into Saqar.[1793]",
+      "footnotesUr": null,
+      "footnotesEn": "[1793] One of the proper names of Hell.",
       "words": [
         {
           "ar": "سَاُصْلِیْهِ",
@@ -626,6 +678,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَمَاۤ اَدْرٰىكَ مَا سَقَرُ ۟ؕ",
       "ur": "اور تجھے کیا خبر کہ دوزخ کیا چیز ہے؟[1]",
       "en": "And what can make you know what is Saqar?",
+      "footnotesUr": "[1] دوزخ کے ناموں یا درجات ایک کا نام سَقَرُ بھی ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَمَاۤ",
@@ -654,6 +708,8 @@ window.BASEERAH_SURAH = {
       "arFull": "لَا تُبْقِیْ وَلَا تَذَرُ ۟ۚ",
       "ur": "نہ وه باقی رکھتی ہے نہ چھوڑتی ہے.[1]",
       "en": "It lets nothing remain and leaves nothing [unburned],",
+      "footnotesUr": "[1] ان کے جسموں پر گوشت چھوڑے گی نہ ہڈی، یا مطلب ہے جہنمیوں کو زندہ چھوڑے گی نہ مردہ'لا یموت فیھا و لا یحیٰ",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "لَا",
@@ -682,6 +738,8 @@ window.BASEERAH_SURAH = {
       "arFull": "لَوَّاحَةٌ لِّلْبَشَرِ ۟ۚۖ",
       "ur": "کھال کو جھلسا دیتی ہے.",
       "en": "Altering [i.e., blackening] the skins.",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "لَوَّاحَةٌ",
@@ -700,6 +758,8 @@ window.BASEERAH_SURAH = {
       "arFull": "عَلَیْهَا تِسْعَةَ عَشَرَ ۟ؕ",
       "ur": "اور اس میں انیس (فرشتے مقرر) ہیں.[1]",
       "en": "Over it are nineteen [angels].",
+      "footnotesUr": "[1] یعنی جہنم پر بطور دربان ١٩ فرشتے مقرر ہیں",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "عَلَیْهَا",
@@ -723,6 +783,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَمَا جَعَلْنَاۤ اَصْحٰبَ النَّارِ اِلَّا مَلٰٓىِٕكَةً ۪ وَّمَا جَعَلْنَا عِدَّتَهُمْ اِلَّا فِتْنَةً لِّلَّذِیْنَ كَفَرُوْا ۙ لِیَسْتَیْقِنَ الَّذِیْنَ اُوْتُوا الْكِتٰبَ وَیَزْدَادَ الَّذِیْنَ اٰمَنُوْۤا اِیْمَانًا وَّلَا یَرْتَابَ الَّذِیْنَ اُوْتُوا الْكِتٰبَ وَالْمُؤْمِنُوْنَ ۙ وَلِیَقُوْلَ الَّذِیْنَ فِیْ قُلُوْبِهِمْ مَّرَضٌ وَّالْكٰفِرُوْنَ مَاذَاۤ اَرَادَ اللّٰهُ بِهٰذَا مَثَلًا ؕ كَذٰلِكَ یُضِلُّ اللّٰهُ مَنْ یَّشَآءُ وَیَهْدِیْ مَنْ یَّشَآءُ ؕ وَمَا یَعْلَمُ جُنُوْدَ رَبِّكَ اِلَّا هُوَ ؕ وَمَا هِیَ اِلَّا ذِكْرٰی لِلْبَشَرِ ۟۠",
       "ur": "ہم نے دوزخ کے داروغے صرف فرشتے رکھے ہیں۔ اور ہم نے ان کی تعداد صرف کافروں کی آزمائش کے لیے مقرر کی ہے[1] تاکہ اہل کتاب یقین کرلیں[2]، اوراہل ایمان کے ایمان میں اضافہ ہو جائے[3] اور اہل کتاب اور اہل ایمان شک نہ کریں اور جن کے دلوں میں بیماری ہے وه اور کافر کہیں کہ اس بیان سے اللہ تعالیٰ کی کیا مراد ہے[4]؟ اسی طرح اللہ تعالیٰ جسے چاہتا ہے گمراه کرتا ہے اور جسے چاہتا ہے ہدایت دیتا ہے[5]۔ تیرے رب کے لشکروں کو اس کے سوا کوئی نہیں جانتا[6]، یہ تو کل بنی آدم کے لیے سراسر پند ونصیحت ہے.[7]",
       "en": "And We have not made the keepers of the Fire except angels. And We have not made their number except as a trial for those who disbelieve - that those who were given the Scripture will be convinced and those who have believed will increase in faith and those who were given the Scripture and the believers will not doubt and that those in whose hearts is disease [i.e., hypocrisy] and the disbelievers will say, \"What does Allāh intend by this as an example?\" Thus does Allāh send astray whom He wills and guide whom He wills. And none knows the soldiers of your Lord except Him. And it [i.e., mention of the Fire] is not but a reminder to humanity.",
+      "footnotesUr": "[1] یہ مشرکین قریش کا رد ہے، جب جہنم کے دروغوں کا اللہ نے ذکر فرمایا تو ابو جہل نے جماعت قریش کو خطاب کرتے ہوئے کہا کہ کیا تم میں سے ہر دس آدمیوں کا گروپ، ایک ایک فرشتے کے لئے کافی نہیں ہوگا، بعض کہتے ہیں کہ کالدہ نامی شخص نے اپنی طاقت پر بڑا گھمنڈ تھا، کہا، تم سب صرف دو فرشتے سنبھال لینا، ١٧ فرشتوں کو تو میں اکیلا ہی کافی ہوں۔ کہتے ہیں اس نے رسول اللہ (صلى الله عليه وسلم) کو کشتی کا بھی کئی مرتبہ چلینج دیا اور ہر مرتبہ شکست کھائی مگر ایمان نہیں لایا، کہتے ہیں اس کے علاوہ رکانہ بن عبد یزید کے ساتھ بھی آپ (صلى الله عليه وسلم) نے کشتی لڑی تھی لیکن وہ شکست کھا کر مسلمان ہوگئے تھے (ابن کثیر) مطلب یہ کہ یہ تعداد بھی ان کے مذاق یا آزمائش کا سبب بن گئی۔\n[2] یعنی جان لیں کہ رسول برحق ہے اور اس نے وہی بات کی ہے جو پچھلی کتابوں میں بھی درج ہے۔\n[3] کہ اہل کتاب نے ان کے پیغمبر کی بات کی تصدیق کی ہے ۔\n[4] بیمار دلوں سے مراد منافقین ہیں یا پھر وہ جن کے دلوں میں شکوک تھے کیونکہ مکہ میں منافقین نہیں تھے۔ یعنی یہ پوچھیں گے کہ اس تعداد کو یہاں ذکر کرنے میں اللہ کی کیا حکمت ہے؟\n[5] یعنی گذشتہ گمراہی کی طرح جسے چاہتا ہے گمراہ اور جسے چاہتا ہے، راہ یاب کر دیتا ہے، اس میں حکمت بالغہ ہوتی ہے اسے صرف اللہ ہی جانتا ہے۔\n[6] یعنی کفار و مشرکین سمجھتے ہیں کہ جہنم میں 19 فرشتے ہی تو ہیں، جن پر قابو پانا کون سا مشکل کام ہے؟ لیکن ان کو معلوم نہیں کہ رب کے لشکر تو اتنے ہیں جنہیں اللہ کے سوا کوئی نہیں جانتا ہی نہیں۔ صرف فرشتے ہی اتنی تعداد میں ہیں کہ 70 ہزار فرشتے روزانہ اللہ کی عبادت کے لئے بیت المعمور میں داخل ہوتے ہیں، پھر قیامت تک ان کی باری نہیں آئے گی۔ (صحیح بخاری)\n[7] یعنی یہ جہنم اور اس پر مقرر فرشتے، انسانوں کی پند و نصیحت کے لئے ہیں کہ شاید وہ نافرمانیوں سے باز آجائیں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَمَا",
@@ -1016,6 +1078,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّا وَالْقَمَرِ ۟ۙ",
       "ur": "سچ کہتا ہوں[1] قسم ہے چاند کی.",
       "en": "No! By the moon",
+      "footnotesUr": "[1] کلا یہ اہل مکہ کے خیالات کی نفی ہے یعنی جو وہ سمجھتے ہیں کہ ہم فرشتوں کو مغلوب کر لیں گے ہر گز ایسا نہیں ہوگا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "كَلَّا",
@@ -1034,6 +1098,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالَّیْلِ اِذْ اَدْبَرَ ۟ۙ",
       "ur": "اور رات کی جب وه پیچھے ہٹے.",
       "en": "And [by] the night when it departs",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالَّیْلِ",
@@ -1057,6 +1123,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالصُّبْحِ اِذَاۤ اَسْفَرَ ۟ۙ",
       "ur": "اور صبح کی جب کہ روشن ہو جائے.",
       "en": "And [by] the morning when it brightens,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالصُّبْحِ",
@@ -1080,6 +1148,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِنَّهَا لَاِحْدَی الْكُبَرِ ۟ۙ",
       "ur": "کہ (یقیناً وه جہنم) بڑی چیزوں میں سے ایک ہے.[1]",
       "en": "Indeed, it [i.e., the Fire] is of the greatest [afflictions]",
+      "footnotesUr": "[1] یہ جواب قسم ہے کُبَر، کُبْرَیٰ کی جمع ہے تین نہایت اہم چیزوں کی قسموں کے بعد اللہ نے جہنم کی بڑائی اور ہولناکی کو بیان کیا ہے جس سے اس کی بڑائی میں کوئی شک نہیں رہتا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِنَّهَا",
@@ -1103,6 +1173,8 @@ window.BASEERAH_SURAH = {
       "arFull": "نَذِیْرًا لِّلْبَشَرِ ۟ۙ",
       "ur": "بنی آدم کو ڈرانے والی.",
       "en": "As a warning to humanity -",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "نَذِیْرًا",
@@ -1121,6 +1193,8 @@ window.BASEERAH_SURAH = {
       "arFull": "لِمَنْ شَآءَ مِنْكُمْ اَنْ یَّتَقَدَّمَ اَوْ یَتَاَخَّرَ ۟ؕ",
       "ur": "(یعنی) اسے[1] جو تم میں سے آگے بڑھنا چاہے یا پیچھے ہٹنا چاہے.[2]",
       "en": "To whoever wills among you to proceed[1794] or stay behind.",
+      "footnotesUr": "[1] یعنی یہ جہنم ڈرانے والی ہے یا نذیر سے مراد نبی کریم (صلى الله عليه وسلم) ہیں یا قرآن بھی اپنے بیان کردہ وعد و وعید کے اعتبار سے انسانوں کے لئے نذیر ہے۔\n[2] یعنی ایمان واطاعت میں آگے بڑھنا چاہیے یا اس سے پیچھے ہٹنا چاہیے مطلب ہے کہ انداز ہر ایک کے لیے ہے جو ایمان لائے یا کفر کرے۔",
+      "footnotesEn": "[1794] To righteousness by acceptance of the warning.",
       "words": [
         {
           "ar": "لِمَنْ",
@@ -1164,6 +1238,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كُلُّ نَفْسٍ بِمَا كَسَبَتْ رَهِیْنَةٌ ۟ۙ",
       "ur": "ہر شخص اپنے اعمال کے بدلے میں گروی ہے.[1]",
       "en": "Every soul, for what it has earned, will be retained[1795]",
+      "footnotesUr": "[1] رہن گروی کو کہتے ہیں یعنی ہر شخص اپنے عمل کا گروی ہے، وہ عمل اسے عذاب سے چھڑا لے گا، (اگر نیک ہوگا) یا ہلاک کروا دے گا۔ (اگر برا ہے)",
+      "footnotesEn": "[1795] i.e., subject or held responsible.",
       "words": [
         {
           "ar": "كُلُّ",
@@ -1197,6 +1273,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِلَّاۤ اَصْحٰبَ الْیَمِیْنِ ۟ؕۛ",
       "ur": "مگر دائیں ہاتھ والے.[1]",
       "en": "Except the companions of the right,[1796].",
+      "footnotesUr": "[1] یعنی وہ اپنے گناہوں کے اسیر نہیں ہوں گے بلکہ اپنے نیک اعمال کی وجہ سے آزاد ہونگے۔",
+      "footnotesEn": "[1796] i.e., the righteous who receive their records in their right hands.",
       "words": [
         {
           "ar": "اِلَّاۤ",
@@ -1220,6 +1298,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فِیْ جَنّٰتٍ ۛ۫ یَتَسَآءَلُوْنَ ۟ۙ",
       "ur": "کہ وه بہشتوں میں (بیٹھے ہوئے) گناه گاروں سے.",
       "en": "[Who will be] in gardens, questioning each other",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فِیْ",
@@ -1243,6 +1323,8 @@ window.BASEERAH_SURAH = {
       "arFull": "عَنِ الْمُجْرِمِیْنَ ۟ۙ",
       "ur": "سوال کرتے ہوں گے.[1]",
       "en": "About the criminals,",
+      "footnotesUr": "[1] فی الجنات،اصحاب الیمین سے غال ہےاہل جنت بالاخانوں میں بیٹھے، جہنمیوں سے سوال کریں گے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "عَنِ",
@@ -1261,6 +1343,8 @@ window.BASEERAH_SURAH = {
       "arFull": "مَا سَلَكَكُمْ فِیْ سَقَرَ ۟",
       "ur": "تمہیں دوزخ میں کس چیز نے ڈاﻻ.",
       "en": "[And asking them], \"What put you into Saqar?\"",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "مَا",
@@ -1289,6 +1373,8 @@ window.BASEERAH_SURAH = {
       "arFull": "قَالُوْا لَمْ نَكُ مِنَ الْمُصَلِّیْنَ ۟ۙ",
       "ur": "وه جواب دیں گے کہ ہم نمازی نہ تھے.",
       "en": "They will say, \"We were not of those who prayed,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "قَالُوْا",
@@ -1322,6 +1408,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَلَمْ نَكُ نُطْعِمُ الْمِسْكِیْنَ ۟ۙ",
       "ur": "نہ مسکینوں کو کھانا کھلاتے تھے.[1]",
       "en": "Nor did we used to feed the poor.",
+      "footnotesUr": "[1] نماز حقوق اللہ میں سے اور مساکین کو کھانا کھلانا حقوق العباد میں سے ہے مطلب یہ ہوا کہ ہم نے اللہ کے حقوق ادا کیے نہ بندوں کے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَلَمْ",
@@ -1350,6 +1438,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَكُنَّا نَخُوْضُ مَعَ الْخَآىِٕضِیْنَ ۟ۙ",
       "ur": "اور ہم بحﺚ کرنے والے (انکاریوں) کا ساتھ دے کر بحﺚ مباحثہ میں مشغول رہا کرتے تھے.[1]",
       "en": "And we used to enter into vain discourse with those who engaged [in it],",
+      "footnotesUr": "[1] یعنی کج بحثی اور گمراہی کی حمایت میں سرگرمی سے حصہ لیتے تھے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَكُنَّا",
@@ -1378,6 +1468,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَكُنَّا نُكَذِّبُ بِیَوْمِ الدِّیْنِ ۟ۙ",
       "ur": "اور روز جزا کو جھٹلاتے تھے.",
       "en": "And we used to deny the Day of Recompense",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَكُنَّا",
@@ -1406,6 +1498,8 @@ window.BASEERAH_SURAH = {
       "arFull": "حَتّٰۤی اَتٰىنَا الْیَقِیْنُ ۟ؕ",
       "ur": "یہاں تک کہ ہمیں موت آگئی.[1]",
       "en": "Until there came to us the certainty [i.e., death].\"",
+      "footnotesUr": "[1] یقین کے معنی موت کے ہیں، جیسے دوسرے مقام پر ہے۔ واعبد ربک حتی یاتیک الیقین» (الحجر: 99)",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "حَتّٰۤی",
@@ -1429,6 +1523,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَمَا تَنْفَعُهُمْ شَفَاعَةُ الشّٰفِعِیْنَ ۟ؕ",
       "ur": "پس انہیں سفارش کرنے والوں کی سفارش نفع نہ دے گی.[1]",
       "en": "So there will not benefit them the intercession of [any] intercessors.",
+      "footnotesUr": "[1] یعنی جو صفات مذکورہ کا حامل ہوگا، اسے کسی کی شفاعت بھی فائدہ نہیں پہنچائے گی، اس لئے کہ کفر کی وجہ سے محل شفاعت ہی نہیں ہوگا، شفاعت تو صرف ان کے لئے مفید ہوگی جو ایمان کی وجہ سے شفاعت کے قابل ہونگے۔اللہ کی طرف سے شفاعت کی اجازت بھی انہی کے لئے ملے گی نہ کہ ہر ایک کے لئے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَمَا",
@@ -1457,6 +1553,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَمَا لَهُمْ عَنِ التَّذْكِرَةِ مُعْرِضِیْنَ ۟ۙ",
       "ur": "انہیں کیا ہو گیا ہے؟ کہ نصیحت سے منھ موڑ رہے ہیں.",
       "en": "Then what is [the matter] with them that they are, from the reminder, turning away",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَمَا",
@@ -1490,6 +1588,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَاَنَّهُمْ حُمُرٌ مُّسْتَنْفِرَةٌ ۟ۙ",
       "ur": "گویا کہ وه بِدکے ہوئے گدھے ہیں.",
       "en": "As if they were alarmed donkeys",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "كَاَنَّهُمْ",
@@ -1513,6 +1613,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَرَّتْ مِنْ قَسْوَرَةٍ ۟ؕ",
       "ur": "جو شیر سے بھاگے ہوں.[1]",
       "en": "Fleeing from a lion?",
+      "footnotesUr": "[1] یعنی یہ حق سے نفرت اور اعراض کرنے میں ایسے ہیں جیسے وحشی، خوف زدہ گدھے، شیر سے بھاگتے ہیں جب وہ ان کا شکار کرنا چاہیے۔قسورۃ'بمعنی شیر بعض نے تئر انداز معنی بھی کئے ہیں ۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَرَّتْ",
@@ -1536,6 +1638,8 @@ window.BASEERAH_SURAH = {
       "arFull": "بَلْ یُرِیْدُ كُلُّ امْرِئٍ مِّنْهُمْ اَنْ یُّؤْتٰی صُحُفًا مُّنَشَّرَةً ۟ۙ",
       "ur": "بلکہ ان میں سے ہر شخص چاہتا ہے کہ اسے کھلی ہوئی کتابیں دی جائیں.[1]",
       "en": "Rather, every person among them desires that he[1797] would be given scriptures spread about.[1798]",
+      "footnotesUr": "[1] یعنی ہر ایک کے ہاتھ میں اللہ کی طرف سے ایک ایک کتاب مفتوح نازل ہو جس میں لکھا ہو کہ محمد (صلی اللہ علیہ وسلم) اللہ کے رسول ہیں۔ بعض نے اس کا مفہوم یہ بیان کیا ہے کہ بغیر عمل کے یہ عذاب سے چھٹکارہ چاہتے ہیں، یعنی ہر ایک کو پروانہ نجات مل جائے۔ (ابن کثیر)",
+      "footnotesEn": "[1797] Instead of Muḥammad (ﷺ).\n[1798] i.e., made public. Much of their refusal of his message was due to envy and jealousy of the Prophet (ﷺ).",
       "words": [
         {
           "ar": "بَلْ",
@@ -1589,6 +1693,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّا ؕ بَلْ لَّا یَخَافُوْنَ الْاٰخِرَةَ ۟ؕ",
       "ur": "ہرگز ایسا نہیں (ہوسکتا بلکہ) یہ قیامت سے بے خوف ہیں.[1]",
       "en": "No! But they do not fear the Hereafter.",
+      "footnotesUr": "[1] یعنی ان کے فساد کی وجہ سے ان کا آخرت پر عدم ایمان اور اس کی تکذیب ہے جس نے انہیں بےخوف کر دیا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "كَلَّا ؕ",
@@ -1622,6 +1728,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّاۤ اِنَّهٗ تَذْكِرَةٌ ۟ۚ",
       "ur": "سچی بات تو یہ ہے کہ یہ (قرآن) ایک نصیحت ہے.[1]",
       "en": "No! Indeed, it [i.e., the Qur’ān] is a reminder",
+      "footnotesUr": "[1] لیکن اس کے لئے جو اس قرآن کے واعظ اور نصیحت سے عبرت حاصل کرنا چاہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "كَلَّاۤ",
@@ -1645,6 +1753,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَمَنْ شَآءَ ذَكَرَهٗ ۟ؕ",
       "ur": "اب جو چاہے اس سے نصیحت حاصل کرے.",
       "en": "Then whoever wills will remember it.",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَمَنْ",
@@ -1668,6 +1778,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَمَا یَذْكُرُوْنَ اِلَّاۤ اَنْ یَّشَآءَ اللّٰهُ ؕ هُوَ اَهْلُ التَّقْوٰی وَاَهْلُ الْمَغْفِرَةِ ۟۠",
       "ur": "اور وه اس وقت نصیحت حاصل کریں گے جب اللہ تعالیٰ چاہے[1] ، وه اسی ﻻئق ہے کہ اس سے ڈریں اور اس ﻻئق بھی کہ وه بخشے.[2]",
       "en": "And they will not remember except that Allāh wills. He is worthy of fear and adequate for [granting] forgiveness.",
+      "footnotesUr": "[1] یعنی اس قرآن سے ہدایت اور نصیحت اسے ہی حاصل ہوگی جسے اللہ چاہے گا۔\n[2] یعنی وہ اللہ ہی اس لائق ہے اس سے ڈرا جائے اور وہی معاف کرنے کے اختیارات رکھتا ہے۔ اس لئے وہی اس بات کا مستحق ہے کہ اس کی اطاعت کی جائے اور اسکی نافرمانی سے بچا جائے تاکہ انسان اس کی مغفرت و رحمت کا سزاوار قرار پائے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَمَا",

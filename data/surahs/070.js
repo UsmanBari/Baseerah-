@@ -8,6 +8,8 @@ window.BASEERAH_SURAH = {
       "arFull": "سَاَلَ سَآىِٕلٌۢ بِعَذَابٍ وَّاقِعٍ ۟ۙ",
       "ur": "ایک سوال کرنے والے[1] نے اس عذاب کا سوال کیا جو واضح ہونے واﻻ ہے.",
       "en": "A supplicant asked for a punishment bound to happen[1748]",
+      "footnotesUr": "[1] کہتے ہیں نضر بن حارث تھا یا ابو جہل تھا جس نے کہا تھا «اللَّهُمَّ إِنْ كَانَ هَذَا هُوَ الْحَقَّ مِنْ عِنْدِكَ فَأَمْطِرْ عَلَيْنَا حِجَارَةً مِنَ السَّمَاءِ» الآية (الأنفال: 32) چنانچہ یہ شخص جنگ بدر میں مارا گیا۔ بعض کہتے ہیں اس سے مراد رسول اللہ (صلى الله عليه وسلم) ہیں۔ جنہوں نے اپنی قوم کے لئے بد دعا کی تھی اور اس کے نتیجے میں اہل مکہ پر قحط سالی مسلط کی گئی تھی۔",
+      "footnotesEn": "[1748] In the Hereafter. Disbelievers had challenged the Prophet (ﷺ) by invoking Allāh to bring on His punishment. See 8:32.",
       "words": [
         {
           "ar": "سَاَلَ",
@@ -36,6 +38,8 @@ window.BASEERAH_SURAH = {
       "arFull": "لِّلْكٰفِرِیْنَ لَیْسَ لَهٗ دَافِعٌ ۟ۙ",
       "ur": "کافروں پر، جسے کوئی ہٹانے واﻻ نہیں.",
       "en": "To the disbelievers; of it there is no preventer.",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "لِّلْكٰفِرِیْنَ",
@@ -64,6 +68,8 @@ window.BASEERAH_SURAH = {
       "arFull": "مِّنَ اللّٰهِ ذِی الْمَعَارِجِ ۟ؕ",
       "ur": "اس اللہ کی طرف سے جو سیڑھیوں واﻻ ہے.[1]",
       "en": "[It is] from Allāh, owner of the ways of ascent.",
+      "footnotesUr": "[1] یا درجات والا، بلندیوں والا ہے، جس کی طرف فرشتے چڑھتے ہیں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "مِّنَ",
@@ -92,6 +98,8 @@ window.BASEERAH_SURAH = {
       "arFull": "تَعْرُجُ الْمَلٰٓىِٕكَةُ وَالرُّوْحُ اِلَیْهِ فِیْ یَوْمٍ كَانَ مِقْدَارُهٗ خَمْسِیْنَ اَلْفَ سَنَةٍ ۟ۚ",
       "ur": "جس کی طرف فرشتے اور روح چڑھتے ہیں[1] ایک دن میں جس کی مقدار پچاس ہزار سال کی ہے.",
       "en": "The angels and the Spirit [i.e., Gabriel] will ascend to Him during a Day the extent of which is fifty thousand years.",
+      "footnotesUr": "[1] روح سے مراد حضرت جبرائیل (عليه السلام) ہیں، ان کی عظمت شان کے پیش نظر ان کا الگ خصوصی ذکر کیا گیا ہے ورنہ فرشتوں میں وہ بھی شامل ہیں۔ یا روح سے مراد انسانی روحیں ہیں جو مرنے کے بعد آسمان پر لے جاتی ہیں جیسا کہ بعض روایات میں ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "تَعْرُجُ",
@@ -155,6 +163,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَاصْبِرْ صَبْرًا جَمِیْلًا ۟",
       "ur": "پس تو اچھی طرح صبر کر.",
       "en": "So be patient with gracious patience.",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَاصْبِرْ",
@@ -178,6 +188,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِنَّهُمْ یَرَوْنَهٗ بَعِیْدًا ۟ۙ",
       "ur": "بیشک یہ اس (عذاب) کو دور سمجھ رہے ہیں.[1]",
       "en": "Indeed, they see it [as] distant,",
+      "footnotesUr": "[1] اس یوم کی تعریف میں بہت اختلاف ہے جیسا کہ الم سجدہ کے آغاز میں ہم بیان کر آئے ہیں۔ یہاں امام ابن کثیر نے چار اقوال نقل فرمائےہیں۔ پہلا قول ہے کہ اس سے وہ مسافت مراد ہے جو عرش عظیم سے اسفل سافلین (زمین کے ساتویں طبقے) تک ہے۔ یہ مسافت 50 ہزار سال میں طے ہونے والی ہے۔ دوسرا قول ہے کہ یہ دنیا کی کل مدت ہے۔ ابتدائے آفرینش سے وقوع قیامت تک، اس میں سے کتنی مدت گزر گئی اور کتنی باقی ہے، اسے صرف اللہ تعالیٰ جانتا ہے۔ تیسرا قول ہے کہ یہ دنیا و آخرت کے درمیان فاصلہ ہے۔ چوتھا قول یہ ہے کہ یہ قیامت کے دن کی مقدار ہے۔ یعنی کافروں پر یہ یوم حساب پچاس ہزار سال کی طرح بھاری ہوگا۔ لیکن مومن کے لئے دنیا میں ایک فرض نماز پڑھنے سے بھی مختصر ہوگا۔ (مسند احمد، 3/75) امام ابن کثیر نے اسی قول کو ترجیح دی ہے کیوں کہ احادیث سے بھی اس کی تائید ہوتی ہے۔ چنانچہ ایک حدیث میں زکوٰۃ ادا نہ کرنے والے کو قیامت والے دن جو عذاب دیا جائے گا اس کی تفصیل بیان فرماتے ہوئے رسول اللہ (صلى الله عليه وسلم) نے فرمایا: «حَتَّى يَحْكُمَ اللَّهُ بَيْنَ عِبَادِهِ فِى يَوْمٍ كَانَ مِقْدَارُهُ خَمْسِينَ أَلْفَ سَنَةٍ مِمَّا تَعُدُّونَ»۔ (صحیح مسلم، کتاب الزکوٰۃ، باب اثم مانع الزکوٰۃ)، ”یہاں تک کہ اللہ اپنے بندوں کے درمیان فیصلہ فرمائے گا، ایسے دن میں، جس کی مدت تمہاری گنتی کے مطابق پچاس ہزار سال ہوگی“۔ اس تفسیر کی رو سے فی یوم کا تعلق عذاب سے ہوگا، یعنی وہ واقع ہونے والا عذاب قیامت والے دن ہوگا جو کافروں پر پچاس ہزار سال کی طرح بھاری ہوگا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِنَّهُمْ",
@@ -201,6 +213,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَّنَرٰىهُ قَرِیْبًا ۟ؕ",
       "ur": "اور ہم اسے قریب ہی دیکھتے ہیں.[1]",
       "en": "But We see it [as] near.",
+      "footnotesUr": "[1] دور سے مراد ناممکن اور قریب سے اس کا یقینی واقع ہونا ہے۔ یعنی کافر قیامت کو ناممکن سمجھتے ہیں اور مسلمانوں کا عقیدہ ہے کہ وہ ضرور آکر رہے گیاس لئے کہ کل ما ھوا آت فھوا قریب\"ہر آبت واکئ چیز قریب ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَّنَرٰىهُ",
@@ -219,6 +233,8 @@ window.BASEERAH_SURAH = {
       "arFull": "یَوْمَ تَكُوْنُ السَّمَآءُ كَالْمُهْلِ ۟ۙ",
       "ur": "جس دن آسمان مثل تیل کی تلچھٹ کے ہو جائے گا۔",
       "en": "On the Day the sky will be like murky oil,[1749]",
+      "footnotesUr": null,
+      "footnotesEn": "[1749] Or \"molten metal.\"",
       "words": [
         {
           "ar": "یَوْمَ",
@@ -247,6 +263,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَتَكُوْنُ الْجِبَالُ كَالْعِهْنِ ۟ۙ",
       "ur": "اور پہاڑ مثل رنگین اون کے ہو جائیں گے.[1]",
       "en": "And the mountains will be like wool,[1750]",
+      "footnotesUr": "[1] یعنی دھنی ہوئی روئی کی طرح، جیسے سورہ القارعۃ میں ہے۔(كَالْعِهْنِ الْمَنْفُوشِ)",
+      "footnotesEn": "[1750] i.e., in the process of disintegration.",
       "words": [
         {
           "ar": "وَتَكُوْنُ",
@@ -270,6 +288,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَلَا یَسْـَٔلُ حَمِیْمٌ حَمِیْمًا ۟ۚۖ",
       "ur": "اور کوئی دوست کسی دوست کو نہ پوچھے گا.",
       "en": "And no friend will ask [anything of] a friend,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَلَا",
@@ -298,6 +318,8 @@ window.BASEERAH_SURAH = {
       "arFull": "یُّبَصَّرُوْنَهُمْ ؕ یَوَدُّ الْمُجْرِمُ لَوْ یَفْتَدِیْ مِنْ عَذَابِ یَوْمِىِٕذٍ بِبَنِیْهِ ۟ۙ",
       "ur": "(حاﻻنکہ) ایک دوسرے کو دکھا دیئے جائیں گے[1] ، گناهگار اس دن کے عذاب کے بدلے فدیے میں اپنے بیٹوں کو.",
       "en": "They will be shown each other. The criminal will wish that he could be ransomed from the punishment of that Day by his children",
+      "footnotesUr": "[1] لیکن سب کو اپنی اپنی پڑی ہوگی، اس لئے تعارف اور شناخت کے باوجود ایک دوسرے کو نہیں پوچھیں گے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "یُّبَصَّرُوْنَهُمْ ؕ",
@@ -351,6 +373,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَصَاحِبَتِهٖ وَاَخِیْهِ ۟ۙ",
       "ur": "اپنی بیوی کو اور اپنے بھائی کو.",
       "en": "And his wife and his brother",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَصَاحِبَتِهٖ",
@@ -369,6 +393,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَفَصِیْلَتِهِ الَّتِیْ تُـْٔوِیْهِ ۟ۙ",
       "ur": "اور اپنے کنبے کو جو اسے پناه دیتا تھا.",
       "en": "And his nearest kindred who shelter him",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَفَصِیْلَتِهِ",
@@ -392,6 +418,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَمَنْ فِی الْاَرْضِ جَمِیْعًا ۙ ثُمَّ یُنْجِیْهِ ۟ۙ",
       "ur": "اور روئے زمین کے سب لوگوں کو دینا چاہے گا تاکہ یہ اسے نجات دﻻ دے.[1]",
       "en": "And whoever is on earth entirely [so] then it could save him.",
+      "footnotesUr": "[1] یعنی اولاد، بیوی، بھائی اور خاندان یہ ساری چیزیں انسان کو نہایت عزیز ہوتی ہیں، لیکن قیامت والے دن مجرم چاہے گا کہ اس سے فدیے میں یہ عزیز چیزیں قبول کر لی جائیں اور اسے چھوڑ دیا جائے۔فصيلةٌ ،خاندان کو کہتے ہیں، کیوں کہ وہ قبیلے سے جدا ہوتا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَمَنْ",
@@ -430,6 +458,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّا ؕ اِنَّهَا لَظٰی ۟ۙ",
       "ur": "(مگر) ہرگز یہ نہ ہوگا، یقیناً وه شعلہ والی (آگ) ہے.[1]",
       "en": "No![1751] Indeed, it is the Flame [of Hell],",
+      "footnotesUr": "[1] یعنی وہ جہنم، یہ اس کی شدت حرارت کا بیان ہے۔",
+      "footnotesEn": "[1751] An emphatic refusal meaning \"It is not to be.\"",
       "words": [
         {
           "ar": "كَلَّا ؕ",
@@ -453,6 +483,8 @@ window.BASEERAH_SURAH = {
       "arFull": "نَزَّاعَةً لِّلشَّوٰی ۟ۚۖ",
       "ur": "جو منھ اور سر کی کھال کھینچ ﻻنے والی ہے.[1]",
       "en": "A remover of exteriors.[1752]",
+      "footnotesUr": "[1] یعنی گوشت اور کھال کو جلا کر رکھ دے گی۔ انسان صرف ہڈیوں کا ڈھانچہ رہ جائے گا۔",
+      "footnotesEn": "[1752] This refers to the skin of the head or of the body or to the body extremities - which will be burned away.",
       "words": [
         {
           "ar": "نَزَّاعَةً",
@@ -471,6 +503,8 @@ window.BASEERAH_SURAH = {
       "arFull": "تَدْعُوْا مَنْ اَدْبَرَ وَتَوَلّٰی ۟ۙ",
       "ur": "وه ہر اس شخص کو پکارے گی جو پیچھے ہٹتا اور منھ موڑتا ہے.",
       "en": "It invites he who turned his back [on truth] and went away [from obedience]",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "تَدْعُوْا",
@@ -499,6 +533,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَجَمَعَ فَاَوْعٰی ۟",
       "ur": "اور جمع کرکے سنبھال رکھتا ہے.[1]",
       "en": "And collected [wealth] and hoarded.",
+      "footnotesUr": "[1] یعنی دنیا میں حق سے پیٹھ پھیرتا اور منہ موڑتا تھا اور مال جمع کرکے خزانوں میں سنبھال سنبھال کر رکھتا تھا، اسے اللہ کی راہ میں خرچ کرتا تھا نہ اس میں سے زکوۃ نکالتا تھا۔ اللہ تعالٰی جہنم کو قوت گویائی عطا فرمائے گا اور جہنم بزبان قال خود ایسے لوگوں کو پکارے گی، بعض کہتے ہیں، پکارنے والے فرشتے ہی ہونگے اسے منسوب جہنم کی طرف کر دیا گیا ہے۔ بعض کہتے ہیں کوئی نہیں پکارے گا، یہ صرف تمثیل کے طور پر ایسا کہا گیا ہے۔ مطلب ہے کہ مذکورہ افراد کا ٹھکانا جہنم ہوگا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَجَمَعَ",
@@ -517,6 +553,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِنَّ الْاِنْسَانَ خُلِقَ هَلُوْعًا ۟ۙ",
       "ur": "بیشک انسان بڑے کچے دل واﻻ بنایا گیا ہے.[1]",
       "en": "Indeed, mankind was created anxious:",
+      "footnotesUr": "[1] سخت حریص اور بہت جزع فزع کرنے والے کو ھلوع کہا جاتا ہے۔ جس کو ترجمے میں انسان کچے دل والا سے تعبیر کیا گیا ہے کیونکہ ایسا شخص ہی بخیل و حریص اور زیادہ گریہ جاری کرنے والا ہوتا ہے۔آگےاس کی صفت بیان کی گئی ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِنَّ",
@@ -545,6 +583,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِذَا مَسَّهُ الشَّرُّ جَزُوْعًا ۟ۙ",
       "ur": "جب اسے مصیبت پہنچتی ہے تو ہڑبڑا اٹھتا ہے.",
       "en": "When evil touches him, impatient,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِذَا",
@@ -573,6 +613,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَّاِذَا مَسَّهُ الْخَیْرُ مَنُوْعًا ۟ۙ",
       "ur": "اور جب راحت ملتی ہے تو بخل کرنے لگتا ہے.",
       "en": "And when good touches him, withholding [of it],",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَّاِذَا",
@@ -601,6 +643,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِلَّا الْمُصَلِّیْنَ ۟ۙ",
       "ur": "مگر وه نمازی.",
       "en": "Except the observers of prayer -",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِلَّا",
@@ -619,6 +663,8 @@ window.BASEERAH_SURAH = {
       "arFull": "الَّذِیْنَ هُمْ عَلٰی صَلَاتِهِمْ دَآىِٕمُوْنَ ۟",
       "ur": "جو اپنی نماز پر ہمیشگی کرنے والے ہیں.[1]",
       "en": "Those who are constant in their prayer",
+      "footnotesUr": "[1] مراد ہیں مومن کامل اور اہل توحید، ان کے اندر مذکورہ اخلاقی کمزوریاں نہیں ہوتیں بلکہ اس کے برعکس وہ صفات محمودہ کے پیکر ہوتے ہیں۔ ہمیشہ نماز پڑھنے کا مطلب ہے کہ نماز میں کوتاہی نہیں کرتے ہر نماز اپنے وقت پر نہایت پابندی اور التزام سے پڑھ لیتے ہیں۔ کوئی مشغولیت انہیں نماز سے نہیں روکتی اور دنیا کا کوئی فائدہ انہیں نماز سے غافل نہیں کرتا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "الَّذِیْنَ",
@@ -652,6 +698,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالَّذِیْنَ فِیْۤ اَمْوَالِهِمْ حَقٌّ مَّعْلُوْمٌ ۟",
       "ur": "اور جن کے مالوں میں مقرره حصہ ہے.[1]",
       "en": "And those within whose wealth is a known right[1753]",
+      "footnotesUr": "[1] یعنی زکوۃ مفروضۃ، بعض کے نزدیک یہ عام ہے، صدقات واجبہ اور نافلہ دونوں اس میں شامل ہیں۔",
+      "footnotesEn": "[1753] i.e., a specified share, meaning the obligatory zakāh.",
       "words": [
         {
           "ar": "وَالَّذِیْنَ",
@@ -685,6 +733,8 @@ window.BASEERAH_SURAH = {
       "arFull": "لِّلسَّآىِٕلِ وَالْمَحْرُوْمِ ۟",
       "ur": "مانگنے والوں کا بھی اور سوال سے بچنے والوں کا بھی.[1]",
       "en": "For the petitioner and the deprived -",
+      "footnotesUr": "[1] محروم میں وہ شخص بھی داخل ہے جو رزق سے ہی محروم ہے وہ بھی جو کسی آفت سماوی وارضی کی زد میں آکر اپنی پونجی سے محروم ہوگیا اور وہ بھی جو ضرورت مند ہونے کے باوجود اپنی صفت تعفف کی وجہ سے لوگوں کی عطا اور صدقات سے محروم رہتا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "لِّلسَّآىِٕلِ",
@@ -703,6 +753,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالَّذِیْنَ یُصَدِّقُوْنَ بِیَوْمِ الدِّیْنِ ۟",
       "ur": "اور جو انصاف کے دن پر یقین رکھتے ہیں.[1]",
       "en": "And those who believe in the Day of Recompense",
+      "footnotesUr": "[1] یعنی وہ اس کا انکار کرتے ہیں نہ اس میں شک وشبہ کا اظہار۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالَّذِیْنَ",
@@ -731,6 +783,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالَّذِیْنَ هُمْ مِّنْ عَذَابِ رَبِّهِمْ مُّشْفِقُوْنَ ۟ۚ",
       "ur": "اور جو اپنے رب کے عذاب سے ڈرتے رہتے ہیں.[1]",
       "en": "And those who are fearful of the punishment of their Lord -",
+      "footnotesUr": "[1] یعنی اطاعت اور اعمال صالحہ کے باوجود اللہ کی عظمت وجلالت کے پیش نظر اس کی گرفت سے لرزاں وترساں رہتے ہیں اور یقین رکھتے ہیں کہ جب تک اللہ کی رحمت ہمیں اپنے دامن میں نہیں ڈھانک لے گی ہمارے یہ اعمال نجات کے لیے کافی نہیں ہوں گے جیسا کہ اس مفہوم کی حدیث پہلے گزر چکی ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالَّذِیْنَ",
@@ -769,6 +823,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِنَّ عَذَابَ رَبِّهِمْ غَیْرُ مَاْمُوْنٍ ۟",
       "ur": "بیشک ان کے رب کا عذاب بے خوف ہونے کی چیز نہیں.[1]",
       "en": "Indeed, the punishment of their Lord is not that from which one is safe -",
+      "footnotesUr": "[1] یہ سابقہ مضمون ہی کی تاکید ہے کہ اللہ کے عذاب سے کسی کو بھی بےخوف نہیں ہونا چاہیے بلکہ ہر وقت اس سے ڈرتے رہنا اور اس سے بچاؤ کی ممکنہ تدابیر اختیار کرتے رہنا چاہیے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِنَّ",
@@ -802,6 +858,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالَّذِیْنَ هُمْ لِفُرُوْجِهِمْ حٰفِظُوْنَ ۟ۙ",
       "ur": "اور جو لوگ اپنی شرم گاہوں کی (حرام سے) حفاﻇت کرتے ہیں.",
       "en": "And those who guard their private parts",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالَّذِیْنَ",
@@ -830,6 +888,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِلَّا عَلٰۤی اَزْوَاجِهِمْ اَوْ مَا مَلَكَتْ اَیْمَانُهُمْ فَاِنَّهُمْ غَیْرُ مَلُوْمِیْنَ ۟ۚ",
       "ur": "ہاں ان کی بیویوں اور لونڈیوں کے بارے میں جن کے وه مالک ہیں انہیں کوئی ملامت نہیں.[1]",
       "en": "Except from their wives or those their right hands possess,[1754] for indeed, they are not to be blamed -",
+      "footnotesUr": "[1] یعنی انسان کے جنسی تسکین کے لئے اللہ نے دو جائز ذرائع رکھے ہیں ایک بیوی اور دوسری (لونڈی) بہرحال اہل ایمان کی ایک صفت یہ بھی ہے کہ جنسی خواہش کی تکمیل و تسکین کے لئے ناجائز ذریعہ اختیار نہیں کرتے۔",
+      "footnotesEn": "[1754] i.e., female slaves.",
       "words": [
         {
           "ar": "اِلَّا",
@@ -888,6 +948,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَمَنِ ابْتَغٰی وَرَآءَ ذٰلِكَ فَاُولٰٓىِٕكَ هُمُ الْعٰدُوْنَ ۟ۚ",
       "ur": "اب جو کوئی اس کے علاوه (راه) ڈھونڈے گا توایسے لوگ حد سے گزر جانے والے ہوں گے.",
       "en": "But whoever seeks beyond that, then they are the transgressors -",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَمَنِ",
@@ -931,6 +993,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالَّذِیْنَ هُمْ لِاَمٰنٰتِهِمْ وَعَهْدِهِمْ رٰعُوْنَ ۟",
       "ur": "اور جو اپنی امانتوں کا اور اپنے قول و قرار کا پاس رکھتے ہیں.[1]",
       "en": "And those who are to their trusts and promises attentive",
+      "footnotesUr": "[1] یعنی ان کے پاس جو لوگوں کی امانتیں ہیں اس میں وہ خیانت نہیں کرتے اور لوگوں سے جو عہد کرتے ہیں انہیں توڑتے نہیں بلکہ ان کی پاسداری کرتے ہیں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالَّذِیْنَ",
@@ -964,6 +1028,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالَّذِیْنَ هُمْ بِشَهٰدٰتِهِمْ قَآىِٕمُوْنَ ۟",
       "ur": "اور جو اپنی گواہیوں پر سیدھے اور قائم رہتے ہیں.[1]",
       "en": "And those who are in their testimonies upright",
+      "footnotesUr": "[1] یعنی اسے صحیح صحیح ادا کرتے ہیں چاہے اس کی زد میں ان کے قریبی عزیز ہی آجائیں علاوہ ازیں اسے چھپاتے بھی نہیں، نہ اس میں تبدیلی ہی کرتے ہیں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالَّذِیْنَ",
@@ -992,6 +1058,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالَّذِیْنَ هُمْ عَلٰی صَلَاتِهِمْ یُحَافِظُوْنَ ۟ؕ",
       "ur": "اور جو اپنی نمازوں کی حفاﻇت کرتے ہیں.",
       "en": "And those who [carefully] maintain their prayer:",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالَّذِیْنَ",
@@ -1025,6 +1093,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اُولٰٓىِٕكَ فِیْ جَنّٰتٍ مُّكْرَمُوْنَ ۟ؕ۠",
       "ur": "یہی لوگ جنتوں میں عزت والے ہوں گے.",
       "en": "They will be in gardens,[1755] honored.",
+      "footnotesUr": null,
+      "footnotesEn": "[1755] In Paradise.",
       "words": [
         {
           "ar": "اُولٰٓىِٕكَ",
@@ -1053,6 +1123,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَمَالِ الَّذِیْنَ كَفَرُوْا قِبَلَكَ مُهْطِعِیْنَ ۟ۙ",
       "ur": "پس کافروں کو کیاہو گیا ہے کہ وه تیری طرف دوڑتے آتے ہیں.",
       "en": "So what is [the matter] with those who disbelieve, hastening [from] before you, [O Muḥammad],",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَمَالِ",
@@ -1086,6 +1158,8 @@ window.BASEERAH_SURAH = {
       "arFull": "عَنِ الْیَمِیْنِ وَعَنِ الشِّمَالِ عِزِیْنَ ۟",
       "ur": "دائیں اور بائیں سے گروه کے گروه..[1]",
       "en": "[To sit] on [your] right and [your] left in separate groups?[1756]",
+      "footnotesUr": "[1] یہ نبی (صلى الله عليه وسلم) کے زمانے کے کفار کا ذکر ہے کہ وہ آپ کی مجلس میں دوڑتے دوڑتے آتے، لیکن آپ کی باتیں سن کر عمل کرنے کی بجائے ان کا مذاق اڑاتے اور ٹولیوں میں بٹ جاتے۔ اور دعویٰ یہ کرتے کہ اگر مسلمان جنت میں گئے تو ہم ان سے پہلے جنت میں جائیں گے۔ اللہ نے اگلی آیت میں ان کے اس زعم باطل کی تردید فرمائی۔",
+      "footnotesEn": "[1756] They sat at a distance in order to oppose and mock the Prophet (ﷺ), claiming that they would enter Paradise before the believers.",
       "words": [
         {
           "ar": "عَنِ",
@@ -1119,6 +1193,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اَیَطْمَعُ كُلُّ امْرِئٍ مِّنْهُمْ اَنْ یُّدْخَلَ جَنَّةَ نَعِیْمٍ ۟ۙ",
       "ur": "کیا ان میں سے ہر ایک کی توقع یہ ہے کہ وه نعمتوں والی جنت میں داخل کیا جائے گا؟",
       "en": "Does every person among them aspire to enter a garden of pleasure?",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اَیَطْمَعُ",
@@ -1167,6 +1243,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّا ؕ اِنَّا خَلَقْنٰهُمْ مِّمَّا یَعْلَمُوْنَ ۟",
       "ur": "(ایسا) ہرگز نہ ہوگا[1] ۔ ہم نے انہیں اس (چیز) سے پیدا کیا ہے جسے وه جانتے ہیں.[2]",
       "en": "No! Indeed, We have created them from that which they know.[1757]",
+      "footnotesUr": "[1] یعنی یہ کس طرح ممکن ہے کہ مومن اور کافر دونوں جنت میں جائیں؟ رسول کو ماننے والے اور اس کی تکذیب کرنے والے دونوں کو اخروی نعمتیں ملیں ایسا کبھی نہیں ہو سکتا۔\n[2] یعنی ماءٍ مَّهِين (حقیر قطرے) سے۔ جب یہ بات ہے تو کیا تکبر اس انسان کو زیب دیتا ہے؟ جس تکبر کی وجہ سے ہی یہ اللہ اور اس کے رسول کی تکذیب بھی کرتا ہے۔",
+      "footnotesEn": "[1757] i.e., a liquid disdained. So how can they expect to enter Paradise except by the will of their Creator?",
       "words": [
         {
           "ar": "كَلَّا ؕ",
@@ -1200,6 +1278,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَلَاۤ اُقْسِمُ بِرَبِّ الْمَشٰرِقِ وَالْمَغٰرِبِ اِنَّا لَقٰدِرُوْنَ ۟ۙ",
       "ur": "پس مجھے قسم ہے مشرقوں اور مغربوں[1] کے رب کی (کہ) ہم یقیناً قادر ہیں.",
       "en": "So I swear by the Lord of [all] risings and settings[1758] that indeed We are able",
+      "footnotesUr": "[1] ہر روز سورج ایک الگ جگہ سے نکلتا اور الگ مغرب میں غروب ہوتا ہے۔ اس لحاظ سے مشرق بھی بہت ہیں اور مغرب بھی اتنے ہی۔ مزید تفصیل کے لئے سورۂ صافات، 5 دیکھئے۔",
+      "footnotesEn": "[1758] i.e., Allāh (subḥānahu wa taʿālā), who determines the point at which the sun, moon and stars rise and set according to season and every position of observation.",
       "words": [
         {
           "ar": "فَلَاۤ",
@@ -1243,6 +1323,8 @@ window.BASEERAH_SURAH = {
       "arFull": "عَلٰۤی اَنْ نُّبَدِّلَ خَیْرًا مِّنْهُمْ ۙ وَمَا نَحْنُ بِمَسْبُوْقِیْنَ ۟",
       "ur": "اس پر کہ ان کے عوض ان سے اچھے لوگ لے آئیں[1] اور ہم عاجز نہیں ہیں.[2]",
       "en": "To replace them with better than them; and We are not to be outdone.",
+      "footnotesUr": "[1] یعنی ان کو ختم کرکے ایک نئی مخلوق آباد کر دینے پر ہم پوری طرح قادر ہیں۔\n[2] جب ایسا ہے تو کیا ہم قیامت والے دن ان کو دوبارہ نہیں اٹھا سکیں گے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "عَلٰۤی",
@@ -1291,6 +1373,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَذَرْهُمْ یَخُوْضُوْا وَیَلْعَبُوْا حَتّٰی یُلٰقُوْا یَوْمَهُمُ الَّذِیْ یُوْعَدُوْنَ ۟ۙ",
       "ur": "پس تو انہیں جھگڑتا کھیلتا چھوڑ دے[1] یہاں تک کہ یہ اپنے اس دن سے جاملیں جس کا ان سے وعده کیا جاتا ہے.",
       "en": "So leave them to converse vainly and amuse themselves until they meet their Day which they are promised -",
+      "footnotesUr": "[1] یعنی فضول اور لایعنی بحثوں میں پھنسے اور اپنی دنیا میں مگن رہیں تاہم آپ اپنی تبلیغ کا کام جاری رکھیں ان کا رویہ آپ کو اپنے منصب سے غافل یا بد دل نہ کر دے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَذَرْهُمْ",
@@ -1339,6 +1423,8 @@ window.BASEERAH_SURAH = {
       "arFull": "یَوْمَ یَخْرُجُوْنَ مِنَ الْاَجْدَاثِ سِرَاعًا كَاَنَّهُمْ اِلٰی نُصُبٍ یُّوْفِضُوْنَ ۟ۙ",
       "ur": "جس دن یہ قبروں سے دوڑتے ہوئے نکلیں گے، گویا کہ وه کسی جگہ کی طرف تیز تیز جا رہے ہیں.[1]",
       "en": "The Day they will emerge from the graves rapidly as if they were, toward an erected idol, hastening.[1759]",
+      "footnotesUr": "[1] اجداث جمع ہے ۔جدث کے معنی ہیں قبر۔ نصب تھانے جہاں بتوں کے نام پر جانور ذبح کیے جاتے ہیں اور بتوں کے معنی میں بھی استعمال ہے۔ بتوں کے پجاری جب سورج طلوع ہوتا تھا تو نہایت تیزی سے اپنے بتوں کی طرف دوڑتے کہ کون پہلے اسے بوسہ دیتا ہے۔ اسی طرح قیامت والے دن اپنی قبروں سے برق رفتاری سے نکلیں گے۔یوفضون یسرعون کے معنی میں ہے۔",
+      "footnotesEn": "[1759] i.e., just as they used to race, whenever an idol was newly appointed, to be the first of its worshippers.",
       "words": [
         {
           "ar": "یَوْمَ",
@@ -1392,6 +1478,8 @@ window.BASEERAH_SURAH = {
       "arFull": "خَاشِعَةً اَبْصَارُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ؕ ذٰلِكَ الْیَوْمُ الَّذِیْ كَانُوْا یُوْعَدُوْنَ ۟۠",
       "ur": "ان کی آنکھیں جھکی ہوئی ہوں گی[1] ، ان پر ذلت چھا رہی ہوگی[2]، یہ ہے وه دن جس کا ان سے وعده کیا جاتا تھا.[3]",
       "en": "Their eyes humbled, humiliation will cover them. That is the Day which they had been promised.",
+      "footnotesUr": "[1] جس طرح مجرموں کی آنکھیں جھکی ہوتی ہیں کیونکہ انہیں اپنے کرتوتوں کا علم ہوتا ہے۔\n[2] یعنی سخت ذلت انہیں اپنی لپیٹ میں لے رہی ہوگی اور ان کے چہرے مارے خوف کے سیاہ ہوں گے۔\n[3] یعنی رسولوں کی زبانی اور آسمانی کتابوں کے ذریعے سے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "خَاشِعَةً",
