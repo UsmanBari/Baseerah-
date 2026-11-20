@@ -1,0 +1,184 @@
+/* Baseerah — kiosk styles */
+:root {
+  --bg: #F7F4EC;
+  --surface: #FFFFFF;
+  --sand: #ECE6D8;
+  --line: #E2DACA;
+  --ink: #1D2B26;
+  --ink-2: #2E3D37;
+  --muted: #4A5A54;
+  --accent: #0E5A47;
+  --accent-ink: #F7F4EC;
+  --accent-soft: #CFE3DB;
+  --gold: #E9C77B;
+  --warn-bg: #F3E2BF;
+  --warn-ink: #5C3F0A;
+  --font-ui: Inter, system-ui, sans-serif;
+  --font-ar: Amiri, "Traditional Arabic", serif;
+  --font-ur: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+.app { height: 100vh; width: 100vw; }
+
+.screen {
+  display: none;
+  height: 100%;
+  flex-direction: column;
+  gap: 20px;
+  padding: 28px 48px;
+}
+.screen.active { display: flex; }
+
+.muted { color: var(--muted); }
+.small { font-size: 15px; }
+.tiny { font-size: 13px; }
+.accent { color: var(--accent); }
+
+/* ---------- top bar ---------- */
+.topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+
+.brand { display: flex; align-items: center; gap: 16px; }
+.brand-mark {
+  width: 64px; height: 64px; border-radius: 18px;
+  background: var(--accent); color: var(--gold);
+  font-family: var(--font-ar); font-weight: 700; font-size: 26px;
+  display: flex; align-items: center; justify-content: center; line-height: 1;
+}
+.brand-text { display: flex; flex-direction: column; gap: 2px; }
+.brand-name { font-size: 26px; font-weight: 600; letter-spacing: 0.5px; }
+.brand-sub { font-size: 15px; color: var(--muted); }
+
+.lang-toggle { display: flex; gap: 8px; background: var(--sand); padding: 6px; border-radius: 999px; }
+.lang-btn {
+  min-height: 48px; padding: 0 22px; border-radius: 999px; border: 0;
+  background: transparent; color: var(--muted); font-size: 17px; font-weight: 500;
+}
+.lang-btn[data-lang="ur"] { font-family: var(--font-ur); font-size: 18px; }
+.lang-btn.active { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+
+.pill-btn {
+  min-height: 48px; padding: 0 20px; border-radius: 999px;
+  background: var(--surface); border: 2px solid var(--line);
+  font-size: 17px; font-weight: 500;
+}
+.pill-info, .pill-warn {
+  min-height: 48px; padding: 0 20px; border-radius: 999px;
+  display: flex; align-items: center; font-size: 15px;
+}
+.pill-info { background: var(--sand); color: var(--muted); }
+.pill-warn { background: var(--warn-bg); color: var(--warn-ink); font-size: 14px; }
+
+.title-block { text-align: center; display: flex; flex-direction: column; }
+.title-ar { font-family: var(--font-ar); font-size: 30px; color: var(--accent); }
+.title-ur { font-family: var(--font-ur); font-size: 30px; line-height: 1.9; color: var(--accent); }
+
+/* ---------- home ---------- */
+.home-intro { text-align: center; display: flex; flex-direction: column; gap: 6px; }
+.home-intro p { margin: 0; }
+.bismillah { font-family: var(--font-ar); font-size: 44px; color: var(--accent); }
+
+.home-cards { flex-grow: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+.home-card {
+  border-radius: 28px; padding: 40px; text-align: left;
+  display: flex; flex-direction: column; justify-content: flex-end; gap: 10px;
+  transition: transform 0.12s ease;
+}
+.home-card:active { transform: scale(0.98); }
+.home-card svg { margin-bottom: auto; }
+.card-primary { background: var(--accent); color: var(--accent-ink); border: 0; }
+.card-light { background: var(--surface); color: var(--ink); border: 2px solid var(--line); }
+.card-light svg { color: var(--accent); }
+.card-ur { font-family: var(--font-ur); font-size: 44px; line-height: 1.9; text-align: left; }
+.card-en { font-size: 26px; font-weight: 600; }
+.card-sub { font-size: 17px; }
+.card-primary .card-sub { color: var(--accent-soft); }
+
+/* ---------- quran ---------- */
+.ayah-words {
+  background: var(--surface); border: 2px solid var(--line); border-radius: 24px;
+  padding: 28px 32px; display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;
+}
+.word-btn {
+  min-height: 88px; padding: 4px 26px; border-radius: 18px;
+  font-family: var(--font-ar); font-size: 52px; line-height: 1.4;
+  background: var(--bg); color: var(--ink); border: 2px solid var(--line);
+  transition: background 0.12s ease, color 0.12s ease;
+}
+.word-btn.selected { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
+.word-panels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.panel {
+  background: var(--surface); border: 2px solid var(--line); border-radius: 20px;
+  padding: 18px 24px; display: flex; flex-direction: column; gap: 4px;
+}
+.panel-accent { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); align-items: center; justify-content: center; }
+.panel-label { font-size: 14px; color: var(--muted); }
+.panel-accent .panel-label { color: var(--accent-soft); }
+.sel-ar { font-family: var(--font-ar); font-size: 44px; line-height: 1.5; }
+.sel-ur { font-family: var(--font-ur); font-size: 28px; line-height: 2.1; text-align: right; }
+.sel-en { font-size: 26px; font-weight: 500; padding-top: 10px; }
+
+.translation-box {
+  flex-grow: 1; background: var(--sand); border-radius: 20px; padding: 16px 28px;
+  display: flex; flex-direction: column; justify-content: center; gap: 6px;
+}
+.ayah-ur { margin: 0; font-family: var(--font-ur); font-size: 24px; line-height: 2.1; text-align: right; }
+.ayah-en { margin: 0; font-size: 20px; color: var(--ink-2); }
+
+.bottombar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.nav-btn {
+  min-height: 64px; min-width: 200px; border-radius: 999px;
+  border: 2px solid var(--line); background: var(--surface); font-size: 19px; font-weight: 500;
+}
+.nav-primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+.nav-btn:disabled { opacity: 0.4; cursor: default; }
+
+/* ---------- namaz ---------- */
+.namaz-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.step-btn {
+  min-height: 124px; border-radius: 20px; padding: 12px 18px; text-align: left;
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: center;
+  background: var(--surface); color: var(--ink); border: 2px solid var(--line);
+}
+.step-btn.selected { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.step-num { font-size: 14px; font-weight: 600; opacity: 0.8; }
+.step-ur { font-family: var(--font-ur); font-size: 24px; line-height: 1.9; }
+.step-en { font-size: 17px; font-weight: 500; }
+
+.step-detail {
+  flex-grow: 1; background: var(--surface); border: 2px solid var(--line); border-radius: 24px;
+  padding: 24px 32px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; align-items: center;
+}
+.step-how { display: flex; flex-direction: column; gap: 8px; }
+.step-how-en { font-size: 20px; line-height: 1.5; }
+.step-how-ur { font-family: var(--font-ur); font-size: 20px; line-height: 2.1; text-align: right; color: var(--ink-2); }
+.step-recite {
+  background: var(--bg); border-radius: 20px; padding: 20px 24px;
+  display: flex; flex-direction: column; gap: 6px; align-items: center; text-align: center;
+}
+.step-ar { font-family: var(--font-ar); font-size: 40px; line-height: 1.6; color: var(--accent); }
+.step-ar-ur { font-family: var(--font-ur); font-size: 20px; line-height: 2.1; }
+
+/* ---------- smaller tablets / portrait ---------- */
+@media (max-width: 1000px) {
+  .screen { padding: 20px 24px; overflow-y: auto; }
+  .home-cards, .word-panels, .step-detail { grid-template-columns: minmax(0, 1fr); }
+  .namaz-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .word-btn { font-size: 40px; min-height: 72px; }
+  .bottombar .tiny { display: none; }
+}
