@@ -7,6 +7,46 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  src: url("../fonts/noto-naskh-arabic.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Nastaliq Urdu";
+  src: url("../fonts/noto-nastaliq-urdu.ttf") format("truetype");
+  font-display: swap;
+}
+
+/* Force authentic Noto font with correct U+06F0–U+06F9 glyphs for all Urdu/Eastern digits */
+.ayah-chip,
+.btn-jump-keypad-pill,
+.surah-sub-info,
+.header-surah-meta,
+.surah-card-badge,
+.juz-card-badge,
+.moment-ref-badge,
+.ayah-medallion-badge text,
+.ayah-medallion-svg text,
+.keypad-field .field-val,
+.urdu-digit,
+.urdu-num,
+.surah-card-meta,
+.juz-card-meta,
+.juz-card-ur,
+.sheet-ayah-badge,
+.sheet-surah-ar,
+.rail-num,
+.step-tag,
+.wudu-step-badge,
+.rakat-tag,
+.total-rakat-badge,
+.tab-pill-btn {
+  font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', serif !important;
+  font-feature-settings: "locl" 0 !important;
+}
+
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
@@ -213,15 +253,6 @@ button:focus-visible {
   font-weight: 500;
 }
 
-.hero-bismillah-text {
-  font-family: var(--font-arabic);
-  font-size: 32px;
-  line-height: 1.5;
-  color: var(--color-gold);
-  margin: 12px 0 0 0;
-  opacity: 0.95;
-}
-
 /* Ayah of the Moment Card (Bottom of left panel) */
 .ayah-moment-card {
   background: var(--color-reading-surface);
@@ -276,14 +307,26 @@ button:focus-visible {
 .moment-arabic {
   font-family: var(--font-arabic);
   font-size: 26px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--color-primary);
   margin: 4px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .moment-translations {
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+.moment-translations sup,
+.fn-sup {
+  font-size: 0.8em;
+  color: var(--color-gold-cream);
+  font-weight: 800;
+  vertical-align: super;
+  line-height: 0;
 }
 .moment-ur {
   font-family: var(--font-ur);
@@ -311,10 +354,11 @@ button:focus-visible {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 36px 44px;
-  gap: 24px;
+  padding: 28px 36px 20px 36px;
+  gap: 14px;
   background: var(--color-parchment);
-  overflow-y: auto;
+  overflow-y: hidden;
+  height: 100vh;
 }
 
 .home-top-bar {
@@ -360,12 +404,13 @@ button:focus-visible {
   box-shadow: var(--shadow-sm);
 }
 
-/* HOME TILES GRID */
+/* HOME TILES GRID (Fills full height) */
 .home-tiles-grid {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
   flex: 1;
+  min-height: 0;
 }
 
 .home-v2-tile {
@@ -383,11 +428,12 @@ button:focus-visible {
 
 /* 1. Wide Top Tile: Understand the Quran */
 .tile-wide-wbw {
-  padding: 24px 30px;
+  flex: 1.15;
+  padding: 20px 28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
 }
 .tile-wide-wbw .tile-content {
   display: flex;
@@ -470,15 +516,16 @@ button:focus-visible {
 
 /* 2. Emerald Tile: Learn Namaz */
 .tile-namaz-emerald {
+  flex: 1.15;
   background: var(--color-primary);
   background-image: var(--pattern-star);
   color: var(--color-text-white);
-  padding: 24px 30px;
+  padding: 20px 28px;
   border: 1.5px solid var(--color-gold-line);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 16px;
+  gap: 14px;
 }
 .tile-namaz-top {
   display: flex;
@@ -509,12 +556,14 @@ button:focus-visible {
 
 /* 3. Two stacked subtiles */
 .home-subtiles-column {
+  flex: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 14px;
 }
 .tile-subtile {
-  padding: 18px 24px;
+  height: 100%;
+  padding: 16px 22px;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -549,7 +598,8 @@ button:focus-visible {
 .home-v2-footer {
   display: flex;
   justify-content: center;
-  margin-top: auto;
+  margin-top: 4px;
+  flex-shrink: 0;
 }
 .footer-about-link {
   min-height: 44px;

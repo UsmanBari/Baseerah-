@@ -209,7 +209,7 @@ export async function renderQuranScreen(container, params = []) {
       <!-- FOOTER: 60px Tall Pill Navigation Buttons -->
       <footer class="quran-v2-footer">
         <button type="button" class="kiosk-nav-pill btn-pill-prev ${isFirstAyah ? 'disabled' : ''}" id="btn-prev-ayah">
-          ${isUr ? '‹ پچھلی آیت' : '‹ Previous ayah'}
+          ${isUr ? 'پچھلی آیت ›' : '‹ Previous ayah'}
         </button>
 
         <button type="button" class="btn-jump-keypad-pill" id="btn-goto-keypad">
@@ -218,7 +218,7 @@ export async function renderQuranScreen(container, params = []) {
         </button>
 
         <button type="button" class="kiosk-nav-pill btn-pill-next ${isLastAyah ? 'disabled' : ''}" id="btn-next-ayah">
-          ${isUr ? 'اگلی آیت ›' : 'Next ayah ›'}
+          ${isUr ? '‹ اگلی آیت' : 'Next ayah ›'}
         </button>
       </footer>
     </div>

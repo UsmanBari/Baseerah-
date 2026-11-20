@@ -373,7 +373,7 @@ export const UIComponents = {
             <rect x="9" y="9" width="30" height="30" rx="3" transform="rotate(45 24 24)" />
           </g>
           <circle cx="24" cy="24" r="13.5" fill="#FAF6EC" stroke="#D9B45A" stroke-width="1.2"/>
-          <text x="24" y="29" text-anchor="middle" font-family="'Noto Nastaliq Urdu', 'AlQuran IndoPak', serif" font-size="15" font-weight="700" fill="#0B4A3B">${urduNum}</text>
+          <text x="24" y="29" text-anchor="middle" font-family="'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'AlQuran IndoPak', serif" font-size="15" font-weight="700" fill="#0B4A3B">${urduNum}</text>
         </svg>
       </span>
     `;

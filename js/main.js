@@ -53,6 +53,17 @@ document.addEventListener("gesturestart", (e) => e.preventDefault());
 // Initialize Idle Timer
 Idle.init();
 
+// Ensure offline fonts are loaded
+if (document.fonts) {
+  Promise.all([
+    document.fonts.load('1em "AlQuran IndoPak"'),
+    document.fonts.load('1em "Noto Naskh Arabic"'),
+    document.fonts.load('1em "Noto Nastaliq Urdu"')
+  ]).then(() => {
+    document.documentElement.classList.add("fonts-ready");
+  });
+}
+
 // Boot application
 applyPreferences();
 router.resolveRoute();

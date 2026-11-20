@@ -9,6 +9,8 @@ const PRECACHE_ASSETS = [
   "./css/tokens.css",
   "./css/styles.css",
   "./fonts/indopak-nastaleeq-qul.ttf",
+  "./fonts/noto-naskh-arabic.ttf",
+  "./fonts/noto-nastaliq-urdu.ttf",
   "./data/index.js",
   "./data/manifest.sha256.json",
   "./data/featured_ayahs.json",

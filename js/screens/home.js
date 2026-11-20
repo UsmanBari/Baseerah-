@@ -32,6 +32,18 @@ export async function renderHomeScreen(container) {
     }
   }
 
+  const cleanArabic = (rawAr) => {
+    if (!rawAr) return "";
+    return rawAr.replace(/[\s\uf500-\uf65d\u0660-\u0669\u06dd\u06de\u06df]+$/, "").trim();
+  };
+
+  const renderTransWithFootnotes = (rawText, lang) => {
+    if (!rawText) return "—";
+    return rawText.replace(/\[(\d+)\]/g, (match, p1) => {
+      return `<sup class="fn-sup" data-fn="${p1}" data-lang="${lang}">[${p1}]</sup>`;
+    });
+  };
+
   const currentAyah = (featuredAyahs && featuredAyahs.length > 0)
     ? featuredAyahs[currentFeaturedIndex % featuredAyahs.length]
     : {
@@ -46,22 +58,24 @@ export async function renderHomeScreen(container) {
         en: "In the name of Allah, the Entirely Merciful, the Especially Merciful."
       };
 
+  const currentCleanAr = cleanArabic(currentAyah.ar);
+  const currentUrHtml = renderTransWithFootnotes(currentAyah.ur, "ur");
+  const currentEnHtml = renderTransWithFootnotes(currentAyah.en, "en");
+
   container.innerHTML = `
     <div class="screen active screen-home-v2" dir="${isUr ? "rtl" : "ltr"}">
       <div class="split-hero-container">
         
         <!-- LEFT HERO PANEL (~40% width, deep emerald + 8-point star pattern) -->
-        <aside class="hero-panel-emerald" id="brand-logo" role="region" aria-label="Baseerah Brand & Daily Verse">
+        <aside class="hero-panel-emerald" role="region" aria-label="Baseerah Brand & Daily Verse">
           <div class="hero-top">
             <div class="hero-brand-group">
-              <div class="hero-logo-box" tabindex="0" role="button" aria-label="Baseerah Admin Gateway">
+              <div class="hero-logo-box" id="brand-logo" tabindex="0" role="button" aria-label="Baseerah Admin Gateway">
                 <span class="hero-calligraphy-gold" lang="ur">بصيرة</span>
                 <h1 class="hero-title-en">Baseerah</h1>
                 <p class="hero-tagline">${t("tagline", state.lang)}</p>
               </div>
             </div>
-            
-            <p id="home-bismillah" class="hero-bismillah-text" lang="ar" dir="rtl">${bismillah}</p>
           </div>
 
           <!-- Ayah of the Moment Card (rotates every 20s with cross-fade) -->
@@ -77,10 +91,13 @@ export async function renderHomeScreen(container) {
                 ${isUr ? `${currentAyah.surahNameAr} ${toUrduDigits(currentAyah.surah)}:${toUrduDigits(currentAyah.ayah)}` : `${currentAyah.surahNameEn} ${currentAyah.surah}:${currentAyah.ayah}`}
               </span>
             </div>
-            <div class="moment-arabic" lang="ar" dir="rtl">${currentAyah.ar}</div>
+            <div class="moment-arabic" lang="ar" dir="rtl">
+              <span class="moment-ar-text">${currentCleanAr}</span>
+              ${UIComponents.getAyahMedallionSvg(currentAyah.ayah, 36)}
+            </div>
             <div class="moment-translations">
-              <p class="moment-ur" lang="ur" dir="rtl">${currentAyah.ur}</p>
-              <p class="moment-en" dir="ltr">${currentAyah.en}</p>
+              <p class="moment-ur" lang="ur" dir="rtl">${currentUrHtml}</p>
+              <p class="moment-en" dir="ltr">${currentEnHtml}</p>
             </div>
             <div class="moment-hint">
               <span>${isUr ? "پورا متن پڑھنے کے لیے چھوئیں ‹" : "Tap to open verse ›"}</span>
@@ -217,11 +234,16 @@ export async function renderHomeScreen(container) {
               : `${nextAyah.surahNameEn} ${nextAyah.surah}:${nextAyah.ayah}`;
           }
           const ar = card.querySelector(".moment-arabic");
-          if (ar) ar.textContent = nextAyah.ar;
+          if (ar) {
+            ar.innerHTML = `
+              <span class="moment-ar-text">${cleanArabic(nextAyah.ar)}</span>
+              ${UIComponents.getAyahMedallionSvg(nextAyah.ayah, 36)}
+            `;
+          }
           const ur = card.querySelector(".moment-ur");
-          if (ur) ur.textContent = nextAyah.ur;
+          if (ur) ur.innerHTML = renderTransWithFootnotes(nextAyah.ur, "ur");
           const en = card.querySelector(".moment-en");
-          if (en) en.textContent = nextAyah.en;
+          if (en) en.innerHTML = renderTransWithFootnotes(nextAyah.en, "en");
           card.classList.remove("fade-out");
         }, 300);
       }

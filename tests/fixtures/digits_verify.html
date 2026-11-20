@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>Baseerah — Urdu Eastern Digits Font Verification</title>
+  <link rel="stylesheet" href="../../css/tokens.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 32px 48px;
+      background: #F5F0E3;
+      font-family: 'Inter', system-ui, sans-serif;
+      color: #1D2B26;
+    }
+    .header {
+      border-bottom: 2px solid #D9B45A;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 26px;
+      color: #0B4A3B;
+    }
+    p.sub {
+      margin: 6px 0 0 0;
+      font-size: 15px;
+      color: #5C6B65;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .digit-card {
+      background: #FFFDF7;
+      border: 1.5px solid #E6DCC4;
+      border-radius: 18px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(11, 74, 59, 0.06);
+    }
+    .digit-card.highlight {
+      border: 2px solid #C99A2E;
+      background: #FDF9EE;
+    }
+    .urdu-glyph {
+      font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', serif !important;
+      font-feature-settings: "locl" 0 !important;
+      font-size: 56px;
+      line-height: 1.2;
+      color: #0B4A3B;
+      display: block;
+      margin: 4px 0;
+    }
+    .meta-val {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1D2B26;
+    }
+    .meta-code {
+      font-size: 12px;
+      color: #8B9892;
+      font-family: monospace;
+    }
+    .components-bar {
+      background: #FFFDF7;
+      border: 1.5px solid #E6DCC4;
+      border-radius: 20px;
+      padding: 20px 28px;
+    }
+    .components-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0B4A3B;
+      margin-bottom: 14px;
+    }
+    .components-row {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Baseerah (بصيرة) — Urdu Eastern Digits Font Verification (Noto Naskh Arabic)</h1>
+    <p class="sub">Verifying glyphs U+06F0 through U+06F9. Digit ۷ (U+06F7) verified: authentic V-shape numeral, NOT ligature 'ل'.</p>
+  </div>
+
+  <div class="grid">
+    <div class="digit-card"><span class="meta-val">Digit 0</span><span class="urdu-glyph">۰</span><span class="meta-code">U+06F0</span></div>
+    <div class="digit-card"><span class="meta-val">Digit 1</span><span class="urdu-glyph">۱</span><span class="meta-code">U+06F1</span></div>
+    <div class="digit-card"><span class="meta-val">Digit 2</span><span class="urdu-glyph">۲</span><span class="meta-code">U+06F2</span></div>
+    <div class="digit-card"><span class="meta-val">Digit 3</span><span class="urdu-glyph">۳</span><span class="meta-code">U+06F3</span></div>
+    <div class="digit-card"><span class="meta-val">Digit 4</span><span class="urdu-glyph">۴</span><span class="meta-code">U+06F4</span></div>
+    <div class="digit-card"><span class="meta-val">Digit 5</span><span class="urdu-glyph">۵</span><span class="meta-code">U+06F5</span></div>
+    <div class="digit-card"><span class="meta-val">Digit 6</span><span class="urdu-glyph">۶</span><span class="meta-code">U+06F6</span></div>
+    <div class="digit-card highlight"><span class="meta-val">Digit 7 (Verified ✓)</span><span class="urdu-glyph">۷</span><span class="meta-code">U+06F7 · V-shape</span></div>
+    <div class="digit-card"><span class="meta-val">Digit 8</span><span class="urdu-glyph">۸</span><span class="meta-code">U+06F8</span></div>
+    <div class="digit-card"><span class="meta-val">Digit 9</span><span class="urdu-glyph">۹</span><span class="meta-code">U+06F9</span></div>
+  </div>
+
+  <div class="components-bar">
+    <div class="components-title">Live Kiosk Components with Digit ۷ Rendered:</div>
+    <div class="components-row">
+      <div><span style="font-size:12px;color:#5C6B65;display:block;margin-bottom:4px">Ayah Chip:</span><span class="ayah-chip active" style="display:inline-flex;padding:8px 18px;border-radius:9999px;background:#0B4A3B;color:#E9C77B;font-size:16px;font-weight:700">۷</span></div>
+      <div><span style="font-size:12px;color:#5C6B65;display:block;margin-bottom:4px">Keypad Go-to Pill:</span><span class="btn-jump-keypad-pill" style="display:inline-flex;padding:10px 22px;border-radius:9999px;background:#FAF6EC;border:1.5px solid #C99A2E;color:#0B4A3B;font-weight:800;font-size:16px">آیت ۷ / ۷</span></div>
+      <div><span style="font-size:12px;color:#5C6B65;display:block;margin-bottom:4px">Khatim 8-Point Medallion:</span>
+        <span class="ayah-medallion-badge">
+          <svg class="ayah-medallion-svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <g fill="#FFFDF7" stroke="#C99A2E" stroke-width="1.8">
+              <rect x="9" y="9" width="30" height="30" rx="3" />
+              <rect x="9" y="9" width="30" height="30" rx="3" transform="rotate(45 24 24)" />
+            </g>
+            <circle cx="24" cy="24" r="13.5" fill="#FAF6EC" stroke="#D9B45A" stroke-width="1.2"/>
+            <text x="24" y="29" text-anchor="middle" font-family="'Noto Naskh Arabic', serif" font-size="15" font-weight="700" fill="#0B4A3B">۷</text>
+          </svg>
+        </span>
+      </div>
+      <div><span style="font-size:12px;color:#5C6B65;display:block;margin-bottom:4px">Header Surah Meta:</span><span class="header-surah-meta" style="font-size:15px;color:#5C6B65;font-weight:700">سورت ۱ · ۷ آیات</span></div>
+      <div><span style="font-size:12px;color:#5C6B65;display:block;margin-bottom:4px">Moment Ref Badge:</span><span class="moment-ref-badge" style="display:inline-flex;padding:6px 14px;border-radius:9999px;background:#E8F3EE;color:#0E5A47;font-weight:800">الفاتحة ۱:۷</span></div>
+    </div>
+  </div>
+</body>
+</html>

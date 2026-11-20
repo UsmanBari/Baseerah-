@@ -46,6 +46,19 @@ async function main() {
   console.log("Capturing Baseerah v2 visual snapshots suite...");
   const browser = await chromium.launch();
 
+  // 0. Urdu Digits 0–9 Font Verification Snapshot
+  console.log("Capturing Urdu Digits 0-9 verification snapshot...");
+  const verifyContext = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const verifyPage = await verifyContext.newPage();
+  await verifyPage.goto("http://127.0.0.1:8080/tests/fixtures/digits_verify.html");
+  await verifyPage.waitForSelector(".grid");
+  await verifyPage.evaluate(async () => {
+    if (document.fonts) await document.fonts.ready;
+  });
+  await verifyPage.waitForTimeout(500);
+  await verifyPage.screenshot({ path: path.join(SCREENSHOTS_V2_DIR, "00_urdu_digits_0_to_9_verification.png") });
+  await verifyContext.close();
+
   const configs = [
     { name: "landscape_1280x800", width: 1280, height: 800 },
     { name: "portrait_800x1280", width: 800, height: 1280 }
@@ -111,7 +124,7 @@ async function main() {
     await page.locator(".fn-ref-btn").first().click();
     await page.waitForTimeout(400);
     await page.screenshot({ path: path.join(SCREENSHOTS_V2_DIR, `09_footnote_sheet_${cfg.name}.png`) });
-    await page.click(".footnote-sheet .btn-close");
+    await page.click(".footnote-sheet .btn-close", { force: true });
     await page.waitForTimeout(300);
 
     // 10. Quran Mushaf Continuous Mode

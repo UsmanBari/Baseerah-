@@ -3,21 +3,28 @@ const { test, expect } = require("@playwright/test");
 
 test.describe("Baseerah Commercial Mosque Kiosk — v2 Redesign E2E", () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto("/index.html");
+    await page.goto("/index.html#home");
+    await page.waitForSelector("#brand-logo");
   });
 
   test("1. Home screen split hero loads with verified Bismillah and Ayah of the Moment", async ({ page }) => {
-    const bismillah = page.locator("#home-bismillah");
-    await expect(bismillah).toBeVisible();
-    await expect(bismillah).toContainText("بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ");
-
     // Left hero panel with gold calligraphy
     const logoCalligraphy = page.locator(".hero-calligraphy-gold");
     await expect(logoCalligraphy).toBeVisible();
 
+    // Verify hero logo area has NO duplicate bismillah
+    const heroBismillah = page.locator("#home-bismillah");
+    await expect(heroBismillah).toHaveCount(0);
+
     // Ayah of the Moment card
     const momentCard = page.locator("#ayah-moment-card");
     await expect(momentCard).toBeVisible();
+
+    // Verify Arabic text and 8-point gold medallion
+    const momentAr = momentCard.locator(".moment-ar-text");
+    await expect(momentAr).toBeVisible();
+    await expect(momentAr).toContainText("بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ");
+    await expect(momentCard.locator(".ayah-medallion-badge")).toBeVisible();
   });
 
   test("2. Language toggle mirrors layout between Urdu and English", async ({ page }) => {
@@ -178,11 +185,12 @@ test.describe("Baseerah Commercial Mosque Kiosk — v2 Redesign E2E", () => {
   });
 
   test("11. Hidden Admin Panel unlocks with 6-digit PIN setup", async ({ page }) => {
-    await page.goto("/index.html#home");
     await page.evaluate(() => {
       localStorage.removeItem("baseerah_admin_pin_hash");
       localStorage.removeItem("baseerah_admin_pin_salt");
     });
+    await page.goto("/index.html#home");
+    await page.waitForSelector("#brand-logo");
     const logo = page.locator("#brand-logo");
 
     // Rapid 5 taps
@@ -205,5 +213,64 @@ test.describe("Baseerah Commercial Mosque Kiosk — v2 Redesign E2E", () => {
 
     await expect(page).toHaveURL(/.*#admin/);
     await expect(page.locator(".screen-admin")).toBeVisible();
+  });
+
+  test("12. Quran and Urdu fonts load properly before rendering text, with zero missing-glyph boxes", async ({ page }) => {
+    await page.goto("/index.html#quran/1/1");
+    await page.waitForSelector(".wbw-interlinear-tile");
+
+    const fontsLoaded = await page.evaluate(async () => {
+      await document.fonts.ready;
+      return {
+        quranFont: document.fonts.check('1em "AlQuran IndoPak"'),
+        urduFont: document.fonts.check('1em "Noto Nastaliq Urdu"')
+      };
+    });
+    expect(fontsLoaded.quranFont).toBe(true);
+    expect(fontsLoaded.urduFont).toBe(true);
+
+    // Check computed font-family
+    const firstTileAr = page.locator(".wbw-interlinear-tile .tile-ar").first();
+    const quranFontFamily = await firstTileAr.evaluate((el) => window.getComputedStyle(el).fontFamily);
+    expect(quranFontFamily).toContain("AlQuran IndoPak");
+
+    // Check no '○' or missing glyphs in Arabic tiles
+    const tileTexts = await page.locator(".wbw-interlinear-tile .tile-ar").allInnerTexts();
+    for (const t of tileTexts) {
+      expect(t).not.toContain("○");
+    }
+  });
+
+  test("13. Urdu digits render in authentic Noto font family with correct U+06F0–06F9 glyphs", async ({ page }) => {
+    await page.goto("/index.html#quran/1/1");
+    await page.waitForSelector(".ayah-chip");
+
+    const chipFont = await page.locator(".ayah-chip").first().evaluate((el) => window.getComputedStyle(el).fontFamily);
+    expect(chipFont).toMatch(/Noto Naskh Arabic|Noto Nastaliq Urdu/);
+
+    const keypadPillFont = await page.locator(".btn-jump-keypad-pill").evaluate((el) => window.getComputedStyle(el).fontFamily);
+    expect(keypadPillFont).toMatch(/Noto Naskh Arabic|Noto Nastaliq Urdu/);
+  });
+
+  test("14. Footer arrows point away from center in both Urdu (RTL) and English (LTR)", async ({ page }) => {
+    // 1. Urdu mode (RTL): Next (left) uses '‹' and Prev (right) uses '›'
+    await page.goto("/index.html#quran/1/2");
+    await page.waitForSelector(".quran-v2-footer");
+
+    const prevBtnUr = page.locator("#btn-prev-ayah");
+    const nextBtnUr = page.locator("#btn-next-ayah");
+    await expect(prevBtnUr).toContainText("پچھلی آیت ›");
+    await expect(nextBtnUr).toContainText("‹ اگلی آیت");
+
+    // 2. English mode (LTR): Prev (left) uses '‹' and Next (right) uses '›'
+    await page.goto("/index.html#home");
+    await page.click(".lang-btn[data-lang='en']");
+    await page.goto("/index.html#quran/1/2");
+    await page.waitForSelector(".quran-v2-footer");
+
+    const prevBtnEn = page.locator("#btn-prev-ayah");
+    const nextBtnEn = page.locator("#btn-next-ayah");
+    await expect(prevBtnEn).toContainText("‹ Previous ayah");
+    await expect(nextBtnEn).toContainText("Next ayah ›");
   });
 });
