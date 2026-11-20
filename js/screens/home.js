@@ -100,7 +100,7 @@ export async function renderHomeScreen(container) {
               <p class="moment-en" dir="ltr">${currentEnHtml}</p>
             </div>
             <div class="moment-hint">
-              <span>${isUr ? "پورا متن پڑھنے کے لیے چھوئیں ‹" : "Tap to open verse ›"}</span>
+              <span>${isUr ? "پورا پڑھنے کے لیے چھوئیں ‹" : "Tap to read ›"}</span>
             </div>
           </div>
         </aside>

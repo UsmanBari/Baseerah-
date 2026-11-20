@@ -230,4 +230,70 @@ test.describe("Baseerah — Viewports & Live Stress Test Fixes", () => {
     await page.waitForSelector(".wbw-interlinear-tile");
     await expect(page.locator(".wbw-interlinear-tile").first()).toBeVisible();
   });
+
+  test("Item 6: Home screen text bounding boxes never overlap in Urdu and English UI", async ({ page }) => {
+    const viewports = [
+      { width: 1280, height: 800, name: "kiosk-landscape" },
+      { width: 1280, height: 585, name: "laptop-short" },
+      { width: 390, height: 844, name: "mobile-portrait" }
+    ];
+
+    for (const vp of viewports) {
+      await page.setViewportSize({ width: vp.width, height: vp.height });
+
+      for (const lang of ["ur", "en"]) {
+        await page.goto("/index.html#home");
+        await page.waitForSelector("#brand-logo");
+
+        // Toggle language if needed
+        const currentLang = await page.evaluate(() => document.documentElement.lang);
+        if (currentLang !== lang) {
+          await page.click(`.lang-btn[data-lang="${lang}"]`);
+          await page.waitForTimeout(200);
+        }
+
+        // 1. Check Brand Lockup: .hero-calligraphy-gold vs .hero-title-en
+        const brandCheck = await page.evaluate(() => {
+          const arEl = document.querySelector(".hero-calligraphy-gold");
+          const enEl = document.querySelector(".hero-title-en");
+          if (!arEl || !enEl) return { ok: false, reason: "missing elements" };
+          const r1 = arEl.getBoundingClientRect();
+          const r2 = enEl.getBoundingClientRect();
+          const overlap = !(r1.bottom <= r2.top || r2.bottom <= r1.top || r1.right <= r2.left || r2.right <= r1.left);
+          const gap = r2.top - r1.bottom;
+          return { ok: !overlap, gap, r1Bottom: r1.bottom, r2Top: r2.top };
+        });
+        expect(brandCheck.ok).toBe(true);
+        expect(brandCheck.gap).toBeGreaterThanOrEqual(0);
+
+        // 2. Check Namaz Tile: .tile-title-gold vs .tile-desc-light
+        const namazCheck = await page.evaluate(() => {
+          const titleEl = document.querySelector(".tile-namaz-emerald .tile-title-gold");
+          const descEl = document.querySelector(".tile-namaz-emerald .tile-desc-light");
+          if (!titleEl || !descEl) return { ok: false, reason: "missing elements" };
+          const r1 = titleEl.getBoundingClientRect();
+          const r2 = descEl.getBoundingClientRect();
+          const overlap = !(r1.bottom <= r2.top || r2.bottom <= r1.top || r1.right <= r2.left || r2.right <= r1.left);
+          const gap = r2.top - r1.bottom;
+          return { ok: !overlap, gap, r1Bottom: r1.bottom, r2Top: r2.top };
+        });
+        expect(namazCheck.ok).toBe(true);
+        expect(namazCheck.gap).toBeGreaterThanOrEqual(0);
+
+        // 3. Check WBW Tile: .tile-title vs .tile-desc
+        const wbwCheck = await page.evaluate(() => {
+          const titleEl = document.querySelector(".tile-wide-wbw .tile-title");
+          const descEl = document.querySelector(".tile-wide-wbw .tile-desc");
+          if (!titleEl || !descEl) return { ok: false, reason: "missing elements" };
+          const r1 = titleEl.getBoundingClientRect();
+          const r2 = descEl.getBoundingClientRect();
+          const overlap = !(r1.bottom <= r2.top || r2.bottom <= r1.top || r1.right <= r2.left || r2.right <= r1.left);
+          const gap = r2.top - r1.bottom;
+          return { ok: !overlap, gap, r1Bottom: r1.bottom, r2Top: r2.top };
+        });
+        expect(wbwCheck.ok).toBe(true);
+        expect(wbwCheck.gap).toBeGreaterThanOrEqual(0);
+      }
+    }
+  });
 });

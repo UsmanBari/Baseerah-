@@ -128,11 +128,159 @@ button {
   border: none;
   background: transparent;
   padding: 0;
+  transition: transform var(--transition-press);
 }
 
 button:focus-visible {
-  outline: 3px solid var(--color-gold-border);
+  outline: 2.5px solid var(--color-gold-border);
   outline-offset: 2px;
+}
+
+/* ==========================================================================
+   0. FOUNDATION COMPONENT SET (Unified 12/20/28 radius, 2-level shadows, 180ms press)
+   ========================================================================== */
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-gold);
+  border: 1.5px solid var(--color-gold-line);
+  border-radius: var(--radius-pill);
+  padding: 0 var(--space-3);
+  min-height: var(--touch-target-min);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+  box-shadow: var(--shadow-level-1);
+  transition: transform var(--transition-press), background var(--transition-fast), box-shadow var(--transition-fast);
+}
+.btn-primary:active {
+  transform: scale(0.98);
+}
+.btn-primary:focus-visible {
+  outline: 2.5px solid var(--color-gold-border);
+  outline-offset: 2px;
+}
+
+.btn-secondary {
+  background: var(--color-reading-surface);
+  color: var(--color-primary-text);
+  border: 1.5px solid var(--color-parchment-border);
+  border-radius: var(--radius-pill);
+  padding: 0 var(--space-3);
+  min-height: var(--touch-target-min);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+  box-shadow: var(--shadow-level-1);
+  transition: transform var(--transition-press), background var(--transition-fast);
+}
+.btn-secondary:active {
+  transform: scale(0.98);
+}
+.btn-secondary:focus-visible {
+  outline: 2.5px solid var(--color-gold-border);
+  outline-offset: 2px;
+}
+
+.btn-icon {
+  width: var(--touch-target-min);
+  height: var(--touch-target-min);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-reading-surface);
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-parchment-border);
+  cursor: pointer;
+  transition: transform var(--transition-press), background var(--transition-fast);
+}
+.btn-icon:active {
+  transform: scale(0.98);
+}
+.btn-icon:focus-visible {
+  outline: 2.5px solid var(--color-gold-border);
+  outline-offset: 2px;
+}
+
+.chip {
+  border-radius: var(--radius-pill);
+  padding: 4px var(--space-2);
+  font-size: var(--font-caption-en-size);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--color-parchment-border);
+  background: var(--color-reading-surface);
+  transition: transform var(--transition-press);
+}
+.chip:active {
+  transform: scale(0.98);
+}
+
+.card {
+  background: var(--color-reading-surface);
+  border-radius: var(--radius-card);
+  border: 1.5px solid var(--color-parchment-border);
+  box-shadow: var(--shadow-level-1);
+  transition: transform var(--transition-press), box-shadow var(--transition-fast);
+}
+
+.tile {
+  background: var(--color-reading-surface);
+  border-radius: var(--radius-card);
+  border: 1.5px solid var(--color-parchment-border);
+  box-shadow: var(--shadow-level-1);
+  transition: transform var(--transition-press), box-shadow var(--transition-fast);
+}
+.tile:active {
+  transform: scale(0.98);
+}
+
+.sheet,
+.bottom-sheet {
+  background: var(--color-reading-surface);
+  border-top-left-radius: var(--radius-card);
+  border-top-right-radius: var(--radius-card);
+  box-shadow: var(--shadow-level-2);
+  border: 1.5px solid var(--color-parchment-border);
+}
+
+.segmented-control {
+  display: inline-flex;
+  background: var(--color-reading-surface);
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  border: 1.5px solid var(--color-parchment-border);
+  box-shadow: var(--shadow-level-1);
+}
+.segmented-control button {
+  border-radius: var(--radius-pill);
+  min-height: 44px;
+  padding: 0 var(--space-2);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all var(--transition-press);
+}
+.segmented-control button:active {
+  transform: scale(0.98);
+}
+.segmented-control button.active {
+  background: var(--color-primary);
+  color: var(--color-gold);
+  box-shadow: var(--shadow-level-1);
 }
 
 /* Custom kiosk scrollbars */
@@ -256,11 +404,12 @@ button:focus-visible {
   background: var(--color-primary);
   background-image: var(--pattern-star);
   color: var(--color-text-white);
-  padding: 32px 36px 28px 36px;
+  padding: var(--space-4);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  border-right: 2px solid var(--color-gold-line);
+  justify-content: flex-start; /* Stacked from top! */
+  gap: var(--space-4); /* 32px between logo group and ayah card */
+  border-inline-end: 2px solid var(--color-gold-line);
   box-shadow: var(--shadow-hero);
   position: relative;
   z-index: 2;
@@ -269,7 +418,7 @@ button:focus-visible {
 .hero-top {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--space-2);
 }
 
 .hero-brand-group {
@@ -281,54 +430,65 @@ button:focus-visible {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  align-items: flex-start;
 }
 
 .hero-calligraphy-gold {
   font-family: var(--font-ur);
-  font-size: 58px;
-  line-height: 1.3;
+  font-size: 52px;
+  line-height: 1.6;
   color: var(--color-gold);
   font-weight: 700;
+  display: block;
+  margin: 0 0 var(--space-1) 0; /* 8px guaranteed spacing above Latin */
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .hero-title-en {
-  margin: 0;
-  font-size: 26px;
-  font-weight: 800;
+  margin: 0 0 4px 0;
+  font-family: var(--font-sans);
+  font-size: var(--font-title-en-size);
+  line-height: var(--font-title-en-lh);
+  font-weight: 700;
   letter-spacing: 0.5px;
   color: var(--color-text-white);
+  direction: ltr !important;
+  unicode-bidi: isolate;
 }
 
 .hero-tagline {
   margin: 0;
   font-size: 15px;
+  line-height: 22px;
   color: rgba(233, 199, 123, 0.9);
   font-weight: 500;
 }
 
-/* Ayah of the Moment Card (Bottom of left panel) */
+/* Ayah of the Moment Card (Stacked cleanly under logo group) */
 .ayah-moment-card {
   background: var(--color-reading-surface);
   color: var(--color-ink);
   border-radius: var(--radius-card);
-  padding: 20px 24px;
+  padding: var(--space-3);
   border: 1.5px solid var(--color-gold-border);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-level-2);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--space-1);
   cursor: pointer;
-  max-height: 380px;
-  overflow-y: auto;
-  transition: opacity var(--transition-base), transform var(--transition-fast);
+  overflow: hidden; /* No scrollbar */
+  position: relative;
+  transition: opacity var(--transition-base), transform var(--transition-press);
 }
 .ayah-moment-card.fade-out {
   opacity: 0;
 }
 .ayah-moment-card:active {
   transform: scale(0.98);
+}
+.ayah-moment-card:focus-visible {
+  outline: 2.5px solid var(--color-gold-border);
+  outline-offset: 2px;
 }
 
 .moment-header {
@@ -362,11 +522,11 @@ button:focus-visible {
 }
 
 .moment-arabic {
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic) !important;
   font-size: 26px;
   line-height: 1.6;
   color: var(--color-primary);
-  margin: 4px 0;
+  margin: 0 0 var(--space-1) 0;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -375,35 +535,55 @@ button:focus-visible {
 .moment-translations {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: var(--space-1);
+  max-height: 140px;
+  overflow: hidden;
+  position: relative;
+}
+.moment-translations::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 24px;
+  background: linear-gradient(to bottom, transparent, var(--color-reading-surface));
+  pointer-events: none;
 }
 .moment-translations sup,
 .fn-sup {
-  font-size: 0.8em;
+  font-size: 11px;
+  opacity: 0.85;
   color: var(--color-gold-cream);
-  font-weight: 800;
+  font-weight: 600;
   vertical-align: super;
   line-height: 0;
+  margin: 0 1px;
 }
 .moment-ur {
   font-family: var(--font-ur);
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 2.0;
   color: var(--color-primary-text);
-  margin: 0;
+  margin: 0 0 var(--space-1) 0;
 }
 .moment-en {
-  font-size: 13px;
-  line-height: 1.4;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 22px;
   color: var(--color-text-muted);
   margin: 0;
+  direction: ltr !important;
+  unicode-bidi: isolate;
 }
 .moment-hint {
   font-size: 12px;
   font-weight: 600;
   color: var(--color-gold-cream);
-  text-align: right;
   margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 /* RIGHT MAIN PANEL (~60% width) */
@@ -411,8 +591,8 @@ button:focus-visible {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 28px 36px 20px 36px;
-  gap: 14px;
+  padding: var(--space-4) var(--space-4) var(--space-3) var(--space-4);
+  gap: var(--space-2);
   background: var(--color-parchment);
   min-width: 0;
 }
@@ -421,6 +601,7 @@ button:focus-visible {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 52px;
 }
 .welcome-box {
   display: flex;
@@ -430,11 +611,18 @@ button:focus-visible {
 .welcome-text {
   margin: 0;
   font-size: 28px;
+  line-height: 36px;
   font-weight: 800;
   color: var(--color-ink);
 }
+[lang="ur"] .welcome-text,
+[dir="rtl"] .welcome-text {
+  font-size: 32px;
+  line-height: 1.9;
+}
 .welcome-sub {
   font-size: 15px;
+  line-height: 22px;
   color: var(--color-text-muted);
 }
 
@@ -444,27 +632,34 @@ button:focus-visible {
   padding: 4px;
   border-radius: var(--radius-pill);
   border: 1.5px solid var(--color-parchment-border);
+  box-shadow: var(--shadow-level-1);
 }
 .lang-pill-btn {
-  min-height: 46px;
-  padding: 0 22px;
+  min-height: 44px;
+  padding: 0 var(--space-3);
   border-radius: var(--radius-pill);
   font-size: 15px;
   font-weight: 700;
   color: var(--color-text-muted);
-  transition: all var(--transition-fast);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-press);
+}
+.lang-pill-btn:active {
+  transform: scale(0.98);
 }
 .lang-pill-btn.active {
   background: var(--color-primary);
   color: var(--color-gold);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-level-1);
 }
 
-/* HOME TILES GRID (Fills full height) */
+/* HOME TILES GRID (24px equal gaps, matching 28px radius) */
 .home-tiles-grid {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: var(--space-3);
   flex: 1;
   min-height: 0;
 }
@@ -473,28 +668,32 @@ button:focus-visible {
   background: var(--color-reading-surface);
   border: 1.5px solid var(--color-parchment-border);
   border-radius: var(--radius-card);
-  box-shadow: var(--shadow-card);
+  box-shadow: var(--shadow-level-1);
   cursor: pointer;
   text-align: inherit;
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+  transition: transform var(--transition-press), box-shadow var(--transition-fast), border-color var(--transition-fast);
 }
 .home-v2-tile:active {
-  transform: scale(0.985);
+  transform: scale(0.98);
+}
+.home-v2-tile:focus-visible {
+  outline: 2.5px solid var(--color-gold-border);
+  outline-offset: 2px;
 }
 
 /* 1. Wide Top Tile: Understand the Quran */
 .tile-wide-wbw {
   flex: 1.15;
-  padding: 20px 28px;
+  padding: var(--space-3) var(--space-4);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: var(--space-3);
 }
 .tile-wide-wbw .tile-content {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: var(--space-2);
 }
 
 .tile-icon-badge {
@@ -524,49 +723,64 @@ button:focus-visible {
 .tile-title {
   margin: 0;
   font-size: 22px;
+  line-height: 30px;
   font-weight: 800;
   color: var(--color-ink);
+}
+[lang="ur"] .tile-title,
+[dir="rtl"] .tile-title {
+  font-size: 24px;
+  line-height: 1.9;
 }
 .tile-desc {
   margin: 0;
   font-size: 14px;
+  line-height: 20px;
   color: var(--color-text-muted);
 }
 
-/* Live 2-tile preview */
+/* Live 2-tile preview (vertically centered and aligned) */
 .tile-live-preview {
   display: flex;
-  gap: 12px;
+  gap: var(--space-2);
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
 }
 .mini-wbw-tile {
   background: var(--color-parchment);
   border: 1.5px solid var(--color-parchment-border);
-  border-radius: 14px;
+  border-radius: var(--radius-sm);
   padding: 8px 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 80px;
+  justify-content: center;
+  min-width: 84px;
 }
 .mini-ar {
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic) !important;
   font-size: 22px;
+  line-height: 1.55;
   color: var(--color-primary);
 }
 .mini-divider {
-  width: 20px;
+  width: 24px;
   height: 2px;
   background: var(--color-gold-line);
-  margin: 3px 0;
+  margin: 4px 0;
 }
 .mini-ur {
   font-family: var(--font-ur);
   font-size: 13px;
+  line-height: 1.9;
   color: var(--color-primary-text);
+  margin-bottom: 2px;
 }
 .mini-en {
-  font-size: 10px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 16px;
   color: var(--color-text-muted);
 }
 
@@ -576,12 +790,12 @@ button:focus-visible {
   background: var(--color-primary);
   background-image: var(--pattern-star);
   color: var(--color-text-white);
-  padding: 20px 28px;
+  padding: var(--space-4); /* Consistent 32px padding */
   border: 1.5px solid var(--color-gold-line);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 14px;
+  gap: var(--space-2);
 }
 .tile-namaz-top {
   display: flex;
@@ -597,17 +811,30 @@ button:focus-visible {
   font-size: 13px;
   font-weight: 700;
 }
+.tile-namaz-emerald .tile-text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
 .tile-title-gold {
-  margin: 0;
+  margin: 0 0 var(--space-1) 0; /* 8px guaranteed margin below Urdu */
   font-family: var(--font-ur);
-  font-size: 32px;
-  line-height: 1.3;
+  font-size: 26px;
+  line-height: 1.9; /* Independent line-height 1.9 */
   color: var(--color-gold);
+  font-weight: 700;
+  display: block;
+  text-align: start;
 }
 .tile-desc-light {
   margin: 0;
+  font-family: var(--font-sans);
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.85);
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.9);
+  display: block;
+  text-align: start;
 }
 
 /* 3. Two stacked subtiles */
@@ -615,21 +842,21 @@ button:focus-visible {
   flex: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 14px;
+  gap: var(--space-3); /* 24px equal gaps */
 }
 .tile-subtile {
   height: 100%;
-  padding: 16px 22px;
+  padding: var(--space-2) var(--space-3);
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: var(--space-2);
 }
 .subtile-icon {
-  width: 46px;
-  height: 46px;
-  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
   background: var(--color-parchment);
-  border: 1px solid var(--color-parchment-border);
+  border: 1.5px solid var(--color-parchment-border);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -643,29 +870,50 @@ button:focus-visible {
 .subtile-text h4 {
   margin: 0;
   font-size: 17px;
+  line-height: 24px;
   font-weight: 700;
   color: var(--color-ink);
 }
+[lang="ur"] .subtile-text h4,
+[dir="rtl"] .subtile-text h4 {
+  font-size: 18px;
+  line-height: 1.9;
+}
 .subtile-hint {
   font-size: 13px;
+  line-height: 18px;
   color: var(--color-text-muted);
 }
 
 .home-v2-footer {
   display: flex;
   justify-content: center;
-  margin-top: 4px;
+  align-items: center;
+  margin-top: var(--space-1);
+  margin-bottom: 0;
   flex-shrink: 0;
 }
 .footer-about-link {
-  min-height: 44px;
-  padding: 0 20px;
+  min-height: 38px;
+  padding: 0 var(--space-3);
   border-radius: var(--radius-pill);
-  background: var(--color-reading-surface);
+  background: transparent;
   border: 1px solid var(--color-parchment-border);
   color: var(--color-text-muted);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-press);
+}
+.footer-about-link:hover,
+.footer-about-link:active {
+  background: var(--color-reading-surface);
+  color: var(--color-ink);
+  transform: scale(0.98);
+}
+.footer-about-link:focus-visible {
+  outline: 2.5px solid var(--color-gold-border);
+  outline-offset: 2px;
 }
 
 /* ============================================================= */
@@ -1889,8 +2137,8 @@ button:focus-visible {
   .home-tiles-grid {
     height: auto;
     flex: none;
-    gap: 14px;
-    margin: 12px 0;
+    gap: var(--space-3);
+    margin: var(--space-2) 0;
   }
   .tile-wide-wbw {
     min-height: 120px;
@@ -1903,10 +2151,11 @@ button:focus-visible {
   .home-subtiles-column {
     min-height: 80px;
     flex: none;
+    gap: var(--space-3);
   }
   .home-v2-footer {
-    margin-top: 14px;
-    margin-bottom: 24px;
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-4);
   }
 }
 
@@ -1918,20 +2167,26 @@ button:focus-visible {
   .hero-panel-emerald {
     width: 100%;
     min-width: 100%;
-    border-right: none;
+    border-inline-end: none;
     border-bottom: 2px solid var(--color-gold-line);
-    padding: 24px 20px;
-    gap: 16px;
+    padding: var(--space-3);
+    gap: var(--space-3);
   }
   .hero-calligraphy-gold {
-    font-size: 46px;
+    font-size: 44px;
+    line-height: 1.6;
+    margin-bottom: var(--space-1);
+  }
+  .hero-title-en {
+    font-size: 22px;
+    line-height: 28px;
   }
   .ayah-moment-card {
-    padding: 16px 20px;
+    padding: var(--space-3);
   }
   .home-main-panel {
     width: 100%;
-    padding: 20px 20px 28px 20px;
+    padding: var(--space-3) var(--space-3) var(--space-4) var(--space-3);
   }
 }
 
@@ -1989,8 +2244,20 @@ button:focus-visible {
 }
 
 @media (max-width: 680px) {
+  .tile-wide-wbw {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+    padding: var(--space-3);
+  }
+  .tile-wide-wbw .tile-live-preview {
+    align-self: center;
+    width: 100%;
+    justify-content: center;
+  }
   .home-subtiles-column {
     grid-template-columns: 1fr;
+    gap: var(--space-2);
   }
   .namaz-header {
     flex-direction: column;
