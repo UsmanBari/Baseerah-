@@ -158,5 +158,14 @@ class TestBaseerahQuranBuild(unittest.TestCase):
         self.assertIn("data/index.js", manifest)
         self.assertGreaterEqual(len(manifest), 118) # 114 surahs + index + juz + featured + namaz
 
+        # Verify every manifest hash matches the file bytes with CRLF normalized to LF
+        for rel_path, expected_hash in manifest.items():
+            full_path = os.path.join(BASE_DIR, rel_path)
+            self.assertTrue(os.path.exists(full_path), f"Manifest file missing on disk: {rel_path}")
+            with open(full_path, "rb") as f:
+                content = f.read().replace(b"\r\n", b"\n")
+                actual_hash = hashlib.sha256(content).hexdigest()
+            self.assertEqual(actual_hash, expected_hash, f"Hash mismatch on {rel_path}: expected {expected_hash}, got {actual_hash}")
+
 if __name__ == "__main__":
     unittest.main()

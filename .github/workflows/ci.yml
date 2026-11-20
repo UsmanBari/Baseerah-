@@ -28,22 +28,28 @@ jobs:
         run: |
           python scripts/check_arabic_allowlist.py
 
-      - name: Validate SHA-256 Manifest
+      - name: Validate SHA-256 Manifest against Raw Checked-Out Linux Bytes
         run: |
           python -c "
-          import json, hashlib, os
+          import json, hashlib, os, sys
           with open('data/manifest.sha256.json', 'r', encoding='utf-8') as f:
               manifest = json.load(f)
+          errors = []
           for path, expected_hash in manifest.items():
               if not os.path.exists(path):
+                  errors.append(f'Missing file on disk: {path}')
                   continue
               with open(path, 'rb') as f:
-                  actual = hashlib.sha256(f.read().replace(b'\r\n', b'\n')).hexdigest()
-              # Allow either raw or normalized match
-              with open(path, 'rb') as f:
-                  raw_actual = hashlib.sha256(f.read()).hexdigest()
-              assert expected_hash in (actual, raw_actual), f'Hash mismatch on {path}'
-          print('All manifest files verified.')
+                  raw_bytes = f.read()
+              actual_hash = hashlib.sha256(raw_bytes).hexdigest()
+              if actual_hash != expected_hash:
+                  errors.append(f'{path}: expected {expected_hash}, got {actual_hash}')
+          if errors:
+              print('MANIFEST INTEGRITY CHECK FAILED ON LINUX BYTES:', file=sys.stderr)
+              for err in errors:
+                  print('  ' + err, file=sys.stderr)
+              sys.exit(1)
+          print(f'All {len(manifest)} manifest files strictly verified against Linux raw bytes.')
           "
 
       - name: Set up Node.js

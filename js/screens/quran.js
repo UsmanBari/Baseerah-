@@ -121,7 +121,7 @@ export async function renderQuranScreen(container, params = []) {
 
     return `
       <button type="button" class="ayah-chip ${chipStatus}" data-chip-ayah="${a.number}" aria-label="Ayah ${a.number}">
-        ${isUr ? toUrduDigits(a.number) : a.number}
+        ${isUr ? `<span class="urdu-num">${toUrduDigits(a.number)}</span>` : a.number}
       </button>
     `;
   }).join("");
@@ -142,7 +142,7 @@ export async function renderQuranScreen(container, params = []) {
           <div class="header-surah-meta">
             <span class="surah-name-gold" lang="ar" dir="rtl">${surahData.nameAr}</span>
             <span class="surah-sub-info">
-              ${surahData.nameEn} · ${t("surahWord", state.lang)} ${isUr ? toUrduDigits(sNum) : sNum} · ${isUr ? toUrduDigits(totalAyahs) : totalAyahs} ${t("ayahsWord", state.lang)}
+              ${surahData.nameEn} · ${t("surahWord", state.lang)} ${isUr ? `<span class="urdu-num">${toUrduDigits(sNum)}</span>` : sNum} · ${isUr ? `<span class="urdu-num">${toUrduDigits(totalAyahs)}</span>` : totalAyahs} ${t("ayahsWord", state.lang)}
             </span>
           </div>
         </div>
@@ -213,7 +213,7 @@ export async function renderQuranScreen(container, params = []) {
         </button>
 
         <button type="button" class="btn-jump-keypad-pill" id="btn-goto-keypad">
-          <span>${isUr ? `آیت ${toUrduDigits(currentAyahObj.number)} / ${toUrduDigits(totalAyahs)}` : `Ayah ${currentAyahObj.number} of ${totalAyahs}`}</span>
+          <span>${isUr ? `آیت <span class="urdu-num">${toUrduDigits(currentAyahObj.number)}</span> / <span class="urdu-num">${toUrduDigits(totalAyahs)}</span>` : `Ayah ${currentAyahObj.number} of ${totalAyahs}`}</span>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
         </button>
 
@@ -367,7 +367,7 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
           </button>
           <div class="header-surah-meta">
             <span class="surah-name-gold" lang="ar" dir="rtl">${surahData.nameAr}</span>
-            <span class="surah-sub-info">${surahData.nameEn} · ${t("surahWord", state.lang)} ${isUr ? toUrduDigits(sNum) : sNum}</span>
+            <span class="surah-sub-info">${surahData.nameEn} · ${t("surahWord", state.lang)} ${isUr ? `<span class="urdu-num">${toUrduDigits(sNum)}</span>` : sNum}</span>
           </div>
         </div>
 
@@ -393,7 +393,7 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
 
       <footer class="quran-v2-footer">
         <button type="button" class="btn-jump-keypad-pill" id="btn-goto-keypad" style="margin: 0 auto;">
-          <span>${isUr ? `آیت پر جائیں (${toUrduDigits(totalAyahs)} آیات)` : `Go to Ayah (${totalAyahs} ayahs)`}</span>
+          <span>${isUr ? `آیت پر جائیں (<span class="urdu-num">${toUrduDigits(totalAyahs)}</span> آیات)` : `Go to Ayah (${totalAyahs} ayahs)`}</span>
         </button>
       </footer>
     </div>
@@ -437,18 +437,19 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
 
 function showIntegrityError(container, sNum, verifyRes) {
   const isUr = state.lang === "ur";
+  const actualDisplay = verifyRes.actual || "verification unavailable";
   container.innerHTML = `
-    <div class="screen active screen-error screen-integrity-error">
+    <div class="screen active screen-error screen-integrity-error" dir="${isUr ? "rtl" : "ltr"}" lang="${isUr ? "ur" : "en"}">
       <div class="error-badge">⚠</div>
       <h2>${isUr ? "ڈیٹا کی حفاظت کا انتباہ!" : "Data Integrity Verification Failed!"}</h2>
       <p class="error-desc">
         ${isUr
-          ? `سورت نمبر ${toUrduDigits(sNum)} کی فائل کا ڈیجیٹل دستخط (SHA-256) تبدیل شدہ پایا گیا۔`
+          ? `سورت نمبر <span class="urdu-num">${toUrduDigits(sNum)}</span> کی فائل کا ڈیجیٹل دستخط (SHA-256) تبدیل شدہ پایا گیا۔`
           : `Surah ${sNum} cryptographic checksum mismatch against the signed manifest.`}
       </p>
       <div class="error-details">
         <div><span>Expected:</span> <code>${verifyRes.expected || "N/A"}</code></div>
-        <div><span>Computed:</span> <code>${verifyRes.actual || "N/A"}</code></div>
+        <div><span>Computed:</span> <code>${actualDisplay}</code></div>
       </div>
       <p class="error-action-hint">
         ${isUr ? "قرآن پاک کی حرمت اور حفاظت کے لیے کیوسک نے اس سورت کو روک دیا ہے۔" : "To protect Quranic accuracy, this surah has been locked."}

@@ -106,11 +106,9 @@ def normalize_indopak_for_comparison(text):
     return " ".join(text.split())
 
 def compute_sha256(filepath):
-    h = hashlib.sha256()
     with open(filepath, "rb") as f:
-        while chunk := f.read(65536):
-            h.update(chunk)
-    return h.hexdigest()
+        content = f.read().replace(b"\r\n", b"\n")
+    return hashlib.sha256(content).hexdigest()
 
 def main():
     parser = argparse.ArgumentParser(description="Baseerah Quran Data Builder")
@@ -518,7 +516,7 @@ def main():
         filename = f"{s:03d}.js"
         filepath = os.path.join(SURAHS_DIR, filename)
         js_content = f"window.BASEERAH_SURAH = {json.dumps(surah_data, ensure_ascii=False, indent=2)};\n"
-        with open(filepath, "w", encoding="utf-8") as f:
+        with open(filepath, "w", encoding="utf-8", newline="\n") as f:
             f.write(js_content)
     print(f"  Wrote 114 surah files to {SURAHS_DIR}")
 
@@ -528,7 +526,7 @@ def main():
         f"window.BASEERAH_BISMILLAH = {json.dumps(bismillah_ar, ensure_ascii=False)};\n"
         f"window.BASEERAH_INDEX = {json.dumps(index_entries, ensure_ascii=False, indent=2)};\n"
     )
-    with open(index_path, "w", encoding="utf-8") as f:
+    with open(index_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(index_js)
     print(f"  Wrote index file (with verified Bismillah) to {index_path}")
 
@@ -561,14 +559,14 @@ def main():
             item["source"] = "Tanzil Project (CC BY 3.0) quran-data.xml"
 
         juz_path = os.path.join(DATA_DIR, "juz.js")
-        with open(juz_path, "w", encoding="utf-8") as f:
+        with open(juz_path, "w", encoding="utf-8", newline="\n") as f:
             f.write("/* Generated from Tanzil Project (CC BY 3.0) metadata/quran-data.xml */\n")
             f.write("window.BASEERAH_JUZ = " + json.dumps(t_juzs, ensure_ascii=False, indent=2) + ";\n")
         print(f"  Wrote validated Juz dataset (30 contiguous juzs) to {juz_path}")
 
     # 4. data/build_report.json
     report_path = os.path.join(DATA_DIR, "build_report.json")
-    with open(report_path, "w", encoding="utf-8") as f:
+    with open(report_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
     print(f"  Wrote build report to {report_path}")
 
@@ -583,7 +581,7 @@ def main():
                 manifest[rel_path] = compute_sha256(full_path)
 
     manifest_path = os.path.join(DATA_DIR, "manifest.sha256.json")
-    with open(manifest_path, "w", encoding="utf-8") as f:
+    with open(manifest_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(manifest, f, indent=2)
     print(f"  Wrote integrity manifest ({len(manifest)} files) to {manifest_path}")
 

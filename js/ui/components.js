@@ -30,11 +30,11 @@ export const UIComponents = {
           <div class="keypad-inputs">
             <div class="keypad-field ${activeField === "surah" ? "active" : ""}" data-field="surah">
               <span class="field-label">${t("surahNumber", state.lang)}</span>
-              <span class="field-val">${isUr ? toUrduDigits(surahVal) : surahVal}</span>
+              <span class="field-val urdu-num">${isUr ? toUrduDigits(surahVal) : surahVal}</span>
             </div>
             <div class="keypad-field ${activeField === "ayah" ? "active" : ""}" data-field="ayah">
-              <span class="field-label">${t("ayahNumber", state.lang)} (1–${isUr ? toUrduDigits(maxAyahs) : maxAyahs})</span>
-              <span class="field-val">${isUr ? toUrduDigits(ayahVal) : ayahVal}</span>
+              <span class="field-label">${t("ayahNumber", state.lang)} (1–${isUr ? `<span class="urdu-num">${toUrduDigits(maxAyahs)}</span>` : maxAyahs})</span>
+              <span class="field-val urdu-num">${isUr ? toUrduDigits(ayahVal) : ayahVal}</span>
             </div>
           </div>
           <div class="touch-keypad">
@@ -322,7 +322,7 @@ export const UIComponents = {
         <div class="bottom-sheet-header">
           <div class="sheet-title-box">
             <span class="sheet-surah-ar" lang="ar">${surahNameAr}</span>
-            <span class="sheet-ayah-badge">${isUr ? "آیت " + toUrduDigits(ayahData.number) : "Ayah " + ayahData.number}</span>
+            <span class="sheet-ayah-badge">${isUr ? `آیت <span class="urdu-num">${toUrduDigits(ayahData.number)}</span>` : "Ayah " + ayahData.number}</span>
           </div>
           <button type="button" class="btn-close" aria-label="${t("close", state.lang)}">✕</button>
         </div>
@@ -394,8 +394,8 @@ export const UIComponents = {
         <div class="bottom-sheet-handle"></div>
         <div class="bottom-sheet-header">
           <div class="sheet-title-box">
-            <span class="sheet-surah-ar">${isUr ? `حاشیہ نمبر [${toUrduDigits(footnoteNum)}]` : `Footnote [${footnoteNum}]`}</span>
-            <span class="sheet-ayah-badge">${isUr ? `آیت ${toUrduDigits(surahNum)}:${toUrduDigits(ayahNum)}` : `Ayah ${surahNum}:${ayahNum}`}</span>
+            <span class="sheet-surah-ar">${isUr ? `حاشیہ نمبر [<span class="urdu-num">${toUrduDigits(footnoteNum)}</span>]` : `Footnote [${footnoteNum}]`}</span>
+            <span class="sheet-ayah-badge">${isUr ? `آیت <span class="urdu-num">${toUrduDigits(surahNum)}</span>:<span class="urdu-num">${toUrduDigits(ayahNum)}</span>` : `Ayah ${surahNum}:${ayahNum}`}</span>
           </div>
           <button type="button" class="btn-close" aria-label="${t("close", lang)}">✕</button>
         </div>

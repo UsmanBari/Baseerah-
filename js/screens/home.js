@@ -88,7 +88,7 @@ export async function renderHomeScreen(container) {
                 ${t("ayahOfTheMoment", state.lang)}
               </span>
               <span class="moment-ref-badge">
-                ${isUr ? `${currentAyah.surahNameAr} ${toUrduDigits(currentAyah.surah)}:${toUrduDigits(currentAyah.ayah)}` : `${currentAyah.surahNameEn} ${currentAyah.surah}:${currentAyah.ayah}`}
+                ${isUr ? `${currentAyah.surahNameAr} <span class="urdu-num">${toUrduDigits(currentAyah.surah)}</span>:<span class="urdu-num">${toUrduDigits(currentAyah.ayah)}</span>` : `${currentAyah.surahNameEn} ${currentAyah.surah}:${currentAyah.ayah}`}
               </span>
             </div>
             <div class="moment-arabic" lang="ar" dir="rtl">
@@ -229,8 +229,8 @@ export async function renderHomeScreen(container) {
           card.setAttribute("data-nav", `quran/${nextAyah.surah}/${nextAyah.ayah}`);
           const badge = card.querySelector(".moment-ref-badge");
           if (badge) {
-            badge.textContent = isUr
-              ? `${nextAyah.surahNameAr} ${toUrduDigits(nextAyah.surah)}:${toUrduDigits(nextAyah.ayah)}`
+            badge.innerHTML = isUr
+              ? `${nextAyah.surahNameAr} <span class="urdu-num">${toUrduDigits(nextAyah.surah)}</span>:<span class="urdu-num">${toUrduDigits(nextAyah.ayah)}</span>`
               : `${nextAyah.surahNameEn} ${nextAyah.surah}:${nextAyah.ayah}`;
           }
           const ar = card.querySelector(".moment-arabic");

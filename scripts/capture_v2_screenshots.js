@@ -152,6 +152,32 @@ async function main() {
     await page.waitForTimeout(400);
     await page.screenshot({ path: path.join(SCREENSHOTS_V2_DIR, `14_attract_screensaver_${cfg.name}.png`) });
 
+    // 15. Integrity Error Screen in Urdu
+    await page.goto("http://127.0.0.1:8080/index.html#home");
+    await page.waitForTimeout(300);
+    await page.evaluate(() => {
+      const container = document.getElementById("app-container");
+      container.innerHTML = `
+        <div class="screen active screen-error screen-integrity-error" dir="rtl" lang="ur">
+          <div class="error-badge">⚠</div>
+          <h2>ڈیٹا کی حفاظت کا انتباہ!</h2>
+          <p class="error-desc">
+            سورت نمبر <span class="urdu-num">۱</span> کی فائل کا ڈیجیٹل دستخط (SHA-256) تبدیل شدہ پایا گیا۔
+          </p>
+          <div class="error-details">
+            <div><span>Expected:</span> <code>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</code></div>
+            <div><span>Computed:</span> <code>d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35</code></div>
+          </div>
+          <p class="error-action-hint">
+            قرآن پاک کی حرمت اور حفاظت کے لیے کیوسک نے اس سورت کو روک دیا ہے۔
+          </p>
+          <button type="button" class="btn-primary" data-nav="home">مرکزی صفحہ</button>
+        </div>
+      `;
+    });
+    await page.waitForTimeout(400);
+    await page.screenshot({ path: path.join(SCREENSHOTS_V2_DIR, `15_error_integrity_ur_${cfg.name}.png`) });
+
     await context.close();
   }
 

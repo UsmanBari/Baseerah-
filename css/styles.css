@@ -19,30 +19,53 @@
   font-display: swap;
 }
 
-/* Force authentic Noto font with correct U+06F0–U+06F9 glyphs for all Urdu/Eastern digits */
-.ayah-chip,
-.btn-jump-keypad-pill,
-.surah-sub-info,
-.header-surah-meta,
-.surah-card-badge,
-.juz-card-badge,
-.moment-ref-badge,
+/* ==========================================================================
+   GLOBAL TYPOGRAPHY RULES
+   ========================================================================== */
+/* Default font family by direction and language: every Urdu text uses Noto Nastaliq Urdu */
+[lang="ur"],
+[dir="rtl"] {
+  font-family: var(--font-ur);
+}
+
+[lang="en"],
+[dir="ltr"] {
+  font-family: var(--font-sans);
+}
+
+/* Quranic Arabic is strictly bound to AlQuran IndoPak */
+[lang="ar"],
+[lang="ar"] *,
+.quran-arabic,
+.tile-ar,
+.moment-arabic,
+.surah-name-gold,
+.surah-card-ar,
+.mini-ar,
+.mushaf-continuous-text {
+  font-family: var(--font-arabic) !important;
+}
+
+/* English labels within RTL contexts */
+.surah-card-en,
+.juz-card-en,
+.rail-en,
+.step-name-en,
+.detail-text-en,
+.wudu-title-en,
+.wudu-instruction-en,
+.modal-close,
+.btn-close {
+  font-family: var(--font-sans);
+}
+
+/* Force authentic Noto Naskh Arabic font with correct U+06F0–U+06F9 glyphs
+   ONLY for pure digit elements (never elements with Urdu text) */
+.urdu-num,
+.urdu-digit,
 .ayah-medallion-badge text,
 .ayah-medallion-svg text,
-.keypad-field .field-val,
-.urdu-digit,
-.urdu-num,
-.surah-card-meta,
-.juz-card-meta,
-.juz-card-ur,
-.sheet-ayah-badge,
-.sheet-surah-ar,
-.rail-num,
-.step-tag,
-.wudu-step-badge,
-.rakat-tag,
-.total-rakat-badge,
-.tab-pill-btn {
+.keypad-field .field-val {
   font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', serif !important;
 }
 

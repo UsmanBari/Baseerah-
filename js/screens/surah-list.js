@@ -35,10 +35,10 @@ export function renderSurahListScreen(container, params = []) {
         <div class="list-controls">
           <div class="v2-tab-pill-group" role="tablist">
             <button type="button" class="tab-btn ${activeTab === "surahs" ? "active" : ""}" data-tab="surahs">
-              ${t("surahs", state.lang)} (${isUr ? toUrduDigits(114) : 114})
+              ${t("surahs", state.lang)} (${isUr ? `<span class="urdu-num">${toUrduDigits(114)}</span>` : 114})
             </button>
             <button type="button" class="tab-btn ${activeTab === "juz" ? "active" : ""}" data-tab="juz">
-              ${t("juz", state.lang)} (${isUr ? toUrduDigits(30) : 30})
+              ${t("juz", state.lang)} (${isUr ? `<span class="urdu-num">${toUrduDigits(30)}</span>` : 30})
             </button>
           </div>
         </div>
@@ -125,7 +125,7 @@ function renderSurahGrid(surahs, query, isUr) {
           </div>
           <div class="surah-card-info">
             <span class="surah-card-en">${s.nameEn}</span>
-            <span class="surah-card-meta">${isUr ? toUrduDigits(s.ayahCount) + " آیات" : s.ayahCount + " Ayahs"}</span>
+            <span class="surah-card-meta">${isUr ? `<span class="urdu-num">${toUrduDigits(s.ayahCount)}</span> آیات` : s.ayahCount + " Ayahs"}</span>
           </div>
           <div class="surah-card-ar" lang="ar" dir="rtl">${s.nameAr}</div>
         </button>
@@ -144,9 +144,9 @@ function renderJuzGrid(juzList, isUr) {
           </div>
           <div class="juz-card-info">
             <span class="juz-card-en">${j.nameEn}</span>
-            <span class="juz-card-meta">${isUr ? `سورت ${toUrduDigits(j.start.surah)}:${toUrduDigits(j.start.ayah)} سے` : `Surah ${j.start.surah}:${j.start.ayah} onward`}</span>
+            <span class="juz-card-meta">${isUr ? `سورت <span class="urdu-num">${toUrduDigits(j.start.surah)}</span>:<span class="urdu-num">${toUrduDigits(j.start.ayah)}</span> سے` : `Surah ${j.start.surah}:${j.start.ayah} onward`}</span>
           </div>
-          <div class="juz-card-ur" lang="ur" dir="rtl">${j.nameUr ? j.nameUr : `پارہ ${toUrduDigits(j.number)}`}</div>
+          <div class="juz-card-ur" lang="ur" dir="rtl">${j.nameUr ? j.nameUr : `پارہ <span class="urdu-num">${toUrduDigits(j.number)}</span>`}</div>
         </button>
       `).join("")}
     </div>

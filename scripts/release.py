@@ -29,7 +29,7 @@ def update_manifest():
     manifest = {}
     for root, _, files in os.walk(DATA_DIR):
         for f in files:
-            if f.endswith((".js", ".json")) and f != "manifest.sha256.json":
+            if f.endswith((".js", ".json", ".md")) and f != "manifest.sha256.json":
                 fp = os.path.join(root, f)
                 rel_path = os.path.relpath(fp, BASE_DIR).replace("\\", "/")
                 with open(fp, "rb") as fh:
@@ -37,7 +37,7 @@ def update_manifest():
                     manifest[rel_path] = hashlib.sha256(content).hexdigest()
 
     manifest_path = os.path.join(DATA_DIR, "manifest.sha256.json")
-    with open(manifest_path, "w", encoding="utf-8") as fh:
+    with open(manifest_path, "w", encoding="utf-8", newline="\n") as fh:
         json.dump(manifest, fh, ensure_ascii=False, indent=2)
     print(f"  ✓ Wrote SHA-256 hashes for {len(manifest)} data files to {manifest_path}")
 

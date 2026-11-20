@@ -126,7 +126,7 @@ function renderStepsTab(isUr) {
       <div class="namaz-steps-rail">
         ${steps.map((s, idx) => `
           <button type="button" class="rail-step-btn ${idx === selectedStepIndex ? "active" : ""}" data-step-idx="${idx}">
-            <span class="rail-num">${isUr ? toUrduDigits(idx + 1) : idx + 1}</span>
+            <span class="rail-num urdu-num">${isUr ? toUrduDigits(idx + 1) : idx + 1}</span>
             <div class="rail-labels">
               <span class="rail-ur" lang="ur">${s.ur}</span>
               <span class="rail-en">${s.en}</span>
@@ -142,7 +142,7 @@ function renderStepsTab(isUr) {
             ${renderSilhouetteSvg(currentStep.posture || "standing")}
           </div>
           <div class="step-title-block">
-            <span class="step-tag">${t("step", state.lang)} ${isUr ? toUrduDigits(selectedStepIndex + 1) : selectedStepIndex + 1}</span>
+            <span class="step-tag">${t("step", state.lang)} <span class="urdu-num">${isUr ? toUrduDigits(selectedStepIndex + 1) : selectedStepIndex + 1}</span></span>
             <h3 class="step-name-ur" lang="ur">${currentStep.ur}</h3>
             <h4 class="step-name-en">${currentStep.en}</h4>
           </div>
@@ -177,7 +177,7 @@ function renderWuduTab(isUr) {
     <div class="wudu-grid">
       ${steps.map((w) => `
         <div class="wudu-card">
-          <div class="wudu-step-badge">${isUr ? toUrduDigits(w.id) : w.id}</div>
+          <div class="wudu-step-badge urdu-num">${isUr ? toUrduDigits(w.id) : w.id}</div>
           <h4 class="wudu-title-ur" lang="ur">${w.titleUr}</h4>
           <h5 class="wudu-title-en">${w.titleEn}</h5>
           <p class="wudu-instruction-ur" lang="ur">${w.instructionUr}</p>
@@ -210,11 +210,11 @@ function renderRakatsTab(isUr) {
                 <td>
                   <div class="rakat-breakdown-tags">
                     ${p.rakats.map((r) => `
-                      <span class="rakat-tag">${isUr ? `${toUrduDigits(r.count)} ${r.typeUr}` : `${r.count} ${r.typeEn}`}</span>
+                      <span class="rakat-tag"><span class="urdu-num">${isUr ? toUrduDigits(r.count) : r.count}</span> ${isUr ? r.typeUr : r.typeEn}</span>
                     `).join(" ")}
                   </div>
                 </td>
-                <td><span class="total-rakat-badge">${isUr ? toUrduDigits(p.total) : p.total}</span></td>
+                <td><span class="total-rakat-badge urdu-num">${isUr ? toUrduDigits(p.total) : p.total}</span></td>
               </tr>
             `).join("")}
           </tbody>
