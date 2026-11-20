@@ -302,4 +302,52 @@ export async function renderHomeScreen(container) {
   };
   if (logoBox) logoBox.addEventListener("click", onLogoTap);
   if (logoBrand) logoBrand.addEventListener("click", onLogoTap);
+
+  // Background pre-cache popular surahs for instantaneous opening
+  preloadPopularSurahs();
+}
+
+const POPULAR_SURAHS = [1, 2, 18, 36, 55, 56, 67, 78, 112, 113, 114];
+let preloadingStarted = false;
+
+function preloadPopularSurahs() {
+  if (preloadingStarted) return;
+  preloadingStarted = true;
+
+  const queue = [...POPULAR_SURAHS];
+  function fetchNext() {
+    if (queue.length === 0) return;
+    const sNum = queue.shift();
+    if (state.surahCache.has(sNum)) {
+      fetchNext();
+      return;
+    }
+    const padded = String(sNum).padStart(3, "0");
+    fetch(`data/surahs/${padded}.js`)
+      .then((r) => (r.ok ? r.text() : null))
+      .then((text) => {
+        if (!text) return;
+        const jsonStr = text.replace(/^window\.BASEERAH_SURAH\s*=\s*/, "").replace(/;\s*$/, "");
+        try {
+          const data = JSON.parse(jsonStr);
+          state.surahCache.set(sNum, data);
+        } catch (e) {
+          console.warn("Pre-cache parse error for surah", sNum, e);
+        }
+      })
+      .catch(() => {})
+      .finally(() => {
+        if ("requestIdleCallback" in window) {
+          window.requestIdleCallback(fetchNext, { timeout: 2000 });
+        } else {
+          setTimeout(fetchNext, 120);
+        }
+      });
+  }
+
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(fetchNext, { timeout: 1500 });
+  } else {
+    setTimeout(fetchNext, 500);
+  }
 }

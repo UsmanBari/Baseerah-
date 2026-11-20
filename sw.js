@@ -1,5 +1,5 @@
 /* Baseerah — Offline Service Worker (Kiosk PWA) */
-const CACHE_NAME = "baseerah-v1.0.0-dfbad3a";
+const CACHE_NAME = "baseerah-v1.0.0-7a6ca80";
 
 const PRECACHE_ASSETS = [
   "./",

@@ -77,9 +77,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  min-height: 100dvh;
   width: 100vw;
-  overflow: hidden; /* Page must NEVER scroll */
+  overflow-x: hidden;
+  overflow-y: auto;
   background: var(--color-parchment);
   color: var(--color-ink);
   font-family: var(--font-sans);
@@ -118,9 +119,8 @@ button:focus-visible {
 
 /* App container */
 .app-container {
-  height: 100vh;
+  min-height: 100dvh;
   width: 100vw;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -128,9 +128,8 @@ button:focus-visible {
 /* Base Screen Container */
 .screen {
   display: none;
-  height: 100vh;
+  min-height: 100dvh;
   width: 100vw;
-  overflow: hidden; /* Zero page scroll */
   flex-direction: column;
 }
 .screen.active {
@@ -211,19 +210,18 @@ button:focus-visible {
 
 .split-hero-container {
   display: flex;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  min-height: 100dvh;
+  width: 100%;
 }
 
 /* LEFT HERO PANEL (~40% width in landscape) */
 .hero-panel-emerald {
   width: 40%;
-  min-width: 460px;
+  min-width: 440px;
   background: var(--color-primary);
   background-image: var(--pattern-star);
   color: var(--color-text-white);
-  padding: 36px 36px 28px 36px;
+  padding: 32px 36px 28px 36px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -280,13 +278,15 @@ button:focus-visible {
   background: var(--color-reading-surface);
   color: var(--color-ink);
   border-radius: var(--radius-card);
-  padding: 22px 24px;
+  padding: 20px 24px;
   border: 1.5px solid var(--color-gold-border);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
   gap: 10px;
   cursor: pointer;
+  max-height: 380px;
+  overflow-y: auto;
   transition: opacity var(--transition-base), transform var(--transition-fast);
 }
 .ayah-moment-card.fade-out {
@@ -379,8 +379,7 @@ button:focus-visible {
   padding: 28px 36px 20px 36px;
   gap: 14px;
   background: var(--color-parchment);
-  overflow-y: hidden;
-  height: 100vh;
+  min-width: 0;
 }
 
 .home-top-bar {
@@ -777,7 +776,7 @@ button:focus-visible {
 /* INTERLINEAR READING CARD (Parchment #FFFDF7, radius 28, internal scroll) */
 .interlinear-reading-card {
   flex: 1;
-  min-height: 0;
+  min-height: 300px;
   background: var(--color-reading-surface);
   border: 1.5px solid var(--color-parchment-border);
   border-radius: var(--radius-card);
@@ -1154,6 +1153,7 @@ button:focus-visible {
 .screen-namaz {
   padding: 0;
   background: var(--color-parchment);
+  min-height: 100dvh;
 }
 .namaz-header {
   padding: 14px 28px;
@@ -1165,17 +1165,30 @@ button:focus-visible {
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
+  gap: 16px;
 }
-.namaz-header h2 {
+.namaz-header .header-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.namaz-header .header-title-box h2 {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 700;
   color: var(--color-gold);
+}
+.namaz-header .header-title-box .muted {
+  margin: 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
 }
 .namaz-tab-group {
   display: flex;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.25);
   padding: 4px;
   border-radius: var(--radius-pill);
+  gap: 4px;
 }
 .namaz-tab-btn {
   min-height: 44px;
@@ -1183,7 +1196,8 @@ button:focus-visible {
   border-radius: var(--radius-pill);
   font-size: 14px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.85);
+  transition: background var(--transition-fast), color var(--transition-fast);
 }
 .namaz-tab-btn.active {
   background: var(--color-reading-surface);
@@ -1191,74 +1205,430 @@ button:focus-visible {
   box-shadow: var(--shadow-sm);
 }
 
-.namaz-content {
+/* Scholar Review Warning Banner */
+.scholar-review-banner {
+  background: rgba(217, 119, 6, 0.12);
+  border-bottom: 1px solid rgba(217, 119, 6, 0.3);
+  padding: 10px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #92400e;
+  flex-shrink: 0;
+  text-align: center;
+}
+.scholar-review-banner .banner-icon {
+  font-size: 16px;
+}
+
+/* Main Namaz Content Container */
+.namaz-main-content {
   flex: 1;
   min-height: 0;
   padding: 24px 28px;
   overflow-y: auto;
-}
-.namaz-placeholder-box {
-  background: var(--color-reading-surface);
-  border: 1.5px solid var(--color-gold-line);
-  border-radius: var(--radius-card);
-  padding: 28px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.namaz-placeholder-badge {
-  background: var(--color-gold-tint);
-  color: var(--color-gold-cream);
-  font-size: 14px;
-  font-weight: 700;
-  padding: 6px 16px;
-  border-radius: var(--radius-pill);
-  display: inline-block;
-  margin-bottom: 12px;
-}
-.namaz-placeholder-text {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--color-ink);
-  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-.steps-layout {
+/* 1. Step-by-Step Layout */
+.namaz-steps-layout {
   display: flex;
   gap: 24px;
-  height: 100%;
+  flex: 1;
+  min-height: 0;
 }
-.step-nav-column {
+.namaz-steps-rail {
   width: 320px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
   overflow-y: auto;
+  max-height: calc(100vh - 220px);
 }
-.step-item-card {
+.rail-step-btn {
   background: var(--color-reading-surface);
   border: 1.5px solid var(--color-parchment-border);
   border-radius: 18px;
-  padding: 14px 18px;
+  padding: 12px 16px;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
+  text-align: start;
   cursor: pointer;
+  transition: all var(--transition-fast);
 }
-.step-item-card.active {
+.rail-step-btn:hover {
   border-color: var(--color-gold-border);
-  background: var(--color-tile-selected);
 }
-.step-viewer-card {
+.rail-step-btn.active {
+  background: var(--color-tile-selected);
+  border: 2px solid var(--color-gold-border);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-1px);
+}
+.rail-num {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--color-parchment);
+  border: 1px solid var(--color-gold-line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--color-gold-cream);
+  flex-shrink: 0;
+}
+.rail-step-btn.active .rail-num {
+  background: var(--color-primary);
+  color: var(--color-gold);
+  border-color: var(--color-gold);
+}
+.rail-labels {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.rail-ur {
+  font-family: var(--font-ur);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: 1.3;
+}
+.rail-en {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+/* Step Detail Card */
+.namaz-step-detail-card {
   flex: 1;
+  min-width: 0;
   background: var(--color-reading-surface);
   border: 1.5px solid var(--color-parchment-border);
   border-radius: var(--radius-card);
-  padding: 32px;
+  padding: 28px 32px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  box-shadow: var(--shadow-card);
   overflow-y: auto;
+}
+.detail-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid var(--color-parchment-border);
+}
+.posture-silhouette-box {
+  width: 100px;
+  height: 110px;
+  background: var(--color-parchment);
+  border: 1.5px solid var(--color-gold-border);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary-text);
+  flex-shrink: 0;
+  box-shadow: var(--shadow-sm);
+}
+.step-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.step-tag {
+  background: var(--color-gold-tint);
+  color: var(--color-gold-cream);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  display: inline-block;
+  width: fit-content;
+}
+.step-name-ur {
+  margin: 0;
+  font-family: var(--font-ur);
+  font-size: 32px;
+  line-height: 1.3;
+  color: var(--color-primary-text);
+  font-weight: 700;
+}
+.step-name-en {
+  margin: 0;
+  font-size: 16px;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+.detail-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.detail-section-title {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--color-gold-cream);
+}
+.detail-text-ur {
+  margin: 0;
+  font-family: var(--font-ur);
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--color-ink);
+}
+.detail-text-en {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+.detail-arabic-box {
+  font-family: var(--font-arabic);
+  font-size: 26px;
+  line-height: 1.7;
+  color: var(--color-ink);
+  padding: 18px 22px;
+  background: var(--color-parchment);
+  border: 1px solid var(--color-gold-border);
+  border-radius: 16px;
+  text-align: center;
+}
+.detail-ar-trans {
+  margin: 0;
+  font-family: var(--font-ur);
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--color-primary-text);
+  text-align: center;
+}
+.pending-scholar-box {
+  background: rgba(184, 134, 11, 0.08);
+  border: 1.5px dashed var(--color-gold-border);
+  border-radius: 16px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--color-gold-cream);
+  font-size: 15px;
+  font-weight: 600;
+}
+.pending-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+.pending-text {
+  line-height: 1.5;
+}
+
+/* 2. Wudu Grid */
+.wudu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+.wudu-card {
+  background: var(--color-reading-surface);
+  border: 1.5px solid var(--color-parchment-border);
+  border-radius: 20px;
+  padding: 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+.wudu-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-gold-border);
+}
+.wudu-step-badge {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--color-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.wudu-title-ur {
+  margin: 0;
+  font-family: var(--font-ur);
+  font-size: 22px;
+  line-height: 1.3;
+  color: var(--color-primary-text);
+  font-weight: 700;
+}
+.wudu-title-en {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+.wudu-instruction-ur {
+  margin: 0;
+  font-family: var(--font-ur);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-ink);
+}
+.wudu-instruction-en {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+/* 3. Rakats Table */
+.rakats-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.rakats-table-card {
+  background: var(--color-reading-surface);
+  border: 1.5px solid var(--color-parchment-border);
+  border-radius: var(--radius-card);
+  padding: 24px 28px;
+  box-shadow: var(--shadow-card);
+  overflow-x: auto;
+}
+.rakats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+.rakats-table th {
+  padding: 14px 18px;
+  text-align: start;
+  font-weight: 800;
+  color: var(--color-gold-cream);
+  border-bottom: 2px solid var(--color-gold-line);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.rakats-table td {
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--color-parchment-border);
+  vertical-align: middle;
+}
+.rakats-table tr:last-child td {
+  border-bottom: none;
+}
+.rakat-breakdown-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.rakat-tag {
+  background: var(--color-parchment);
+  border: 1px solid var(--color-parchment-border);
+  border-radius: var(--radius-pill);
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-ink);
+  white-space: nowrap;
+}
+.total-rakat-badge {
+  background: var(--color-primary);
+  color: var(--color-gold);
+  font-weight: 800;
+  font-size: 16px;
+  padding: 6px 16px;
+  border-radius: var(--radius-pill);
+  display: inline-block;
+}
+
+/* 4. Duas Tab */
+.duas-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 20px;
+}
+.dua-card {
+  background: var(--color-reading-surface);
+  border: 1.5px solid var(--color-parchment-border);
+  border-radius: 20px;
+  padding: 22px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: var(--shadow-sm);
+}
+.dua-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  border-bottom: 1px solid var(--color-parchment-border);
+  padding-bottom: 10px;
+}
+.dua-title-ur {
+  margin: 0;
+  font-family: var(--font-ur);
+  font-size: 22px;
+  color: var(--color-primary-text);
+  font-weight: 700;
+}
+.dua-title-en {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+.dua-arabic {
+  font-family: var(--font-arabic);
+  font-size: 24px;
+  line-height: 1.6;
+  color: var(--color-ink);
+  padding: 14px;
+  background: var(--color-parchment);
+  border: 1px solid var(--color-gold-border);
+  border-radius: 14px;
+  text-align: center;
+}
+.dua-translations {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.dua-ur {
+  margin: 0;
+  font-family: var(--font-ur);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-ink);
+}
+.dua-en {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-text-muted);
 }
 
 /* ============================================================= */
@@ -1401,49 +1771,214 @@ button:focus-visible {
 }
 
 /* ============================================================= */
-/* 8. RESPONSIVE PORTRAIT MODE (800×1280)                        */
+/* 7. LOADING STATES & SKELETONS                                 */
 /* ============================================================= */
-@media (max-width: 900px), (orientation: portrait) {
-  /* Split Hero becomes stacked */
+.screen-quran-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 100dvh;
+  background: var(--color-parchment);
+  color: var(--color-primary-text);
+}
+.loading-spinner {
+  width: 52px;
+  height: 52px;
+  border: 4px solid rgba(14, 90, 71, 0.15);
+  border-top-color: var(--color-gold-cream);
+  border-radius: 50%;
+  animation: quran-spin 0.8s linear infinite;
+}
+@keyframes quran-spin {
+  to { transform: rotate(360deg); }
+}
+.loading-text {
+  font-family: var(--font-ur);
+  font-size: 22px;
+  color: var(--color-ink);
+  margin: 0;
+}
+
+/* ============================================================= */
+/* 8. RESPONSIVE & KIOSK LAYOUT RULES                            */
+/* ============================================================= */
+
+/* Full Kiosk Lock: Enforced on full-size kiosk screens:
+   - Landscape Kiosk Tablets (e.g. 1280×800): >= 1000px width & >= 760px height
+   - Portrait Kiosk Tablets (e.g. 800×1280): >= 760px width & >= 1000px height
+*/
+@media ((min-height: 760px) and (min-width: 1000px)), ((min-height: 1000px) and (min-width: 760px)) {
+  html, body {
+    height: 100vh;
+    overflow: hidden; /* Page must NEVER scroll on full-size kiosk */
+  }
+  .app-container,
+  .screen {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .split-hero-container {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .home-main-panel {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .screen-quran-v2 {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .quran-reading-viewport {
+    overflow: hidden;
+  }
+  .screen-namaz {
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+/* Responsive Viewports: Short screens (<760px height) or narrow/mobile viewports (<760px width) */
+@media (max-height: 759px), (max-width: 759px) {
+  .split-hero-container {
+    height: auto;
+    min-height: 100dvh;
+    overflow-y: visible;
+  }
+  .home-main-panel {
+    height: auto;
+    overflow-y: visible;
+  }
+  .home-tiles-grid {
+    height: auto;
+    flex: none;
+    gap: 14px;
+    margin: 12px 0;
+  }
+  .tile-wide-wbw {
+    min-height: 120px;
+    flex: none;
+  }
+  .tile-namaz-emerald {
+    min-height: 120px;
+    flex: none;
+  }
+  .home-subtiles-column {
+    min-height: 80px;
+    flex: none;
+  }
+  .home-v2-footer {
+    margin-top: 14px;
+    margin-bottom: 24px;
+  }
+}
+
+/* Portrait Screens (width < 1000px) */
+@media (max-width: 999px) {
   .split-hero-container {
     flex-direction: column;
-    overflow-y: auto;
   }
   .hero-panel-emerald {
     width: 100%;
     min-width: 100%;
-    height: 38%;
     border-right: none;
     border-bottom: 2px solid var(--color-gold-line);
-    padding: 24px;
+    padding: 24px 20px;
+    gap: 16px;
   }
   .hero-calligraphy-gold {
-    font-size: 42px;
+    font-size: 46px;
   }
   .ayah-moment-card {
     padding: 16px 20px;
   }
   .home-main-panel {
     width: 100%;
-    height: 62%;
-    padding: 24px;
-    gap: 16px;
+    padding: 20px 20px 28px 20px;
   }
-  .home-subtiles-column {
-    grid-template-columns: 1fr;
-  }
+}
 
-  /* Quran Screen Portrait */
+/* Portrait Kiosk (800×1280) Specific Proportioning */
+@media (min-width: 760px) and (max-width: 999px) and (min-height: 1000px) {
+  .hero-panel-emerald {
+    height: 38vh;
+    overflow: hidden;
+  }
+  .home-main-panel {
+    height: 62vh;
+    overflow: hidden;
+  }
   .translations-duo-grid {
     grid-template-columns: 1fr;
     max-height: 220px;
   }
-  .wbw-interlinear-tile {
-    min-width: 80px;
-    padding: 10px 12px;
+}
+
+/* Short screens (<760px height) Quran Reading & Card Collapsing Prevention */
+@media (max-height: 759px) {
+  .screen-quran-v2 {
+    height: auto;
+    min-height: 100dvh;
+    overflow-y: auto;
   }
-  .kiosk-nav-pill {
-    min-width: 140px;
-    padding: 0 20px;
+  .quran-reading-viewport {
+    height: auto;
+    flex: none;
+    overflow: visible;
+    padding: 12px 20px;
+    gap: 16px;
+  }
+  .interlinear-reading-card {
+    min-height: 300px;
+    height: auto;
+    flex: none;
+    overflow-y: visible;
+  }
+  .translations-duo-grid {
+    max-height: none;
+    height: auto;
+    flex-shrink: 0;
+  }
+  .trans-duo-card {
+    max-height: none;
+  }
+  .quran-v2-footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+    background: var(--color-reading-surface);
+    border-top: 1.5px solid var(--color-parchment-border);
+  }
+}
+
+@media (max-width: 680px) {
+  .home-subtiles-column {
+    grid-template-columns: 1fr;
+  }
+  .namaz-header {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+  .namaz-tab-group {
+    overflow-x: auto;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .namaz-steps-layout {
+    flex-direction: column;
+  }
+  .namaz-steps-rail {
+    width: 100%;
+    max-height: 180px;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .rail-step-btn {
+    min-width: 220px;
+    flex-shrink: 0;
   }
 }
