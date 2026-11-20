@@ -129,7 +129,7 @@ function renderStepsTab(isUr) {
             <span class="rail-num urdu-num">${isUr ? toUrduDigits(idx + 1) : idx + 1}</span>
             <div class="rail-labels">
               <span class="rail-ur" lang="ur">${s.ur}</span>
-              <span class="rail-en">${s.en}</span>
+              <span class="rail-en" dir="ltr">${s.en}</span>
             </div>
           </button>
         `).join("")}
@@ -144,14 +144,14 @@ function renderStepsTab(isUr) {
           <div class="step-title-block">
             <span class="step-tag">${t("step", state.lang)} <span class="urdu-num">${isUr ? toUrduDigits(selectedStepIndex + 1) : selectedStepIndex + 1}</span></span>
             <h3 class="step-name-ur" lang="ur">${currentStep.ur}</h3>
-            <h4 class="step-name-en">${currentStep.en}</h4>
+            <h4 class="step-name-en" dir="ltr">${currentStep.en}</h4>
           </div>
         </div>
 
         <div class="detail-section">
           <h4 class="detail-section-title">${t("howToPerform", state.lang)}</h4>
           <p class="detail-text-ur" lang="ur">${currentStep.howUr || ""}</p>
-          <p class="detail-text-en">${currentStep.how || ""}</p>
+          <p class="detail-text-en" dir="ltr">${currentStep.how || ""}</p>
         </div>
 
         <div class="detail-section">
@@ -179,9 +179,9 @@ function renderWuduTab(isUr) {
         <div class="wudu-card">
           <div class="wudu-step-badge urdu-num">${isUr ? toUrduDigits(w.id) : w.id}</div>
           <h4 class="wudu-title-ur" lang="ur">${w.titleUr}</h4>
-          <h5 class="wudu-title-en">${w.titleEn}</h5>
+          <h5 class="wudu-title-en" dir="ltr">${w.titleEn}</h5>
           <p class="wudu-instruction-ur" lang="ur">${w.instructionUr}</p>
-          <p class="wudu-instruction-en">${w.instructionEn}</p>
+          <p class="wudu-instruction-en" dir="ltr">${w.instructionEn}</p>
         </div>
       `).join("")}
     </div>
@@ -232,7 +232,7 @@ function renderDuasTab(isUr) {
         <div class="dua-card" dir="${isUr ? "rtl" : "ltr"}">
           <div class="dua-header">
             <h4 class="dua-title-ur" lang="ur">${d.nameUr}</h4>
-            <span class="dua-title-en">${d.nameEn}</span>
+            <span class="dua-title-en" dir="ltr">${d.nameEn}</span>
           </div>
           ${d.ar ? `
             <div class="dua-arabic" lang="ar" dir="rtl">${d.ar}</div>

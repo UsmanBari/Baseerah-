@@ -191,9 +191,9 @@ export async function renderQuranScreen(container, params = []) {
           <!-- English Translation (Left, LTR) -->
           <div class="trans-duo-card trans-card-en" dir="ltr">
             <div class="trans-duo-header">
-              <span class="trans-translator-tag">${t("translatorEnglish", state.lang)}</span>
+              <span class="trans-translator-tag" dir="ltr">${t("translatorEnglish", state.lang)}</span>
             </div>
-            <p class="trans-body-text">${enHtml}</p>
+            <p class="trans-body-text" dir="ltr">${enHtml}</p>
           </div>
 
           <!-- Urdu Translation (Right, RTL) -->

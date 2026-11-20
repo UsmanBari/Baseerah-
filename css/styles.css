@@ -59,6 +59,30 @@
   font-family: var(--font-sans);
 }
 
+/* English text direction & BiDi punctuation isolation inside RTL containers */
+[dir="ltr"] {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+  text-align: start;
+}
+
+.rail-en,
+.step-name-en,
+.detail-text-en,
+.wudu-title-en,
+.wudu-instruction-en,
+.dua-title-en,
+.dua-en,
+.tile-en,
+.trans-card-en,
+.trans-en,
+.moment-en,
+.footnote-body.en {
+  direction: ltr !important;
+  unicode-bidi: isolate !important;
+  text-align: start;
+}
+
 /* Force authentic Noto Naskh Arabic font with correct U+06F0–U+06F9 glyphs
    ONLY for pure digit elements (never elements with Urdu text) */
 .urdu-num,
@@ -74,13 +98,24 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-html, body {
+html {
   margin: 0;
   padding: 0;
   min-height: 100dvh;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+  background: var(--color-parchment);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100dvh;
+  width: 100%;
+  overflow: visible;
   background: var(--color-parchment);
   color: var(--color-ink);
   font-family: var(--font-sans);
@@ -120,7 +155,7 @@ button:focus-visible {
 /* App container */
 .app-container {
   min-height: 100dvh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -129,7 +164,7 @@ button:focus-visible {
 .screen {
   display: none;
   min-height: 100dvh;
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
 }
 .screen.active {

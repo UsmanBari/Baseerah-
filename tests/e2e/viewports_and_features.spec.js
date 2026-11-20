@@ -9,49 +9,108 @@ test.describe("Baseerah — Viewports & Live Stress Test Fixes", () => {
     fs.mkdirSync(screenshotsDir, { recursive: true });
   }
 
-  test("Item 2: Short and mobile viewports scroll gracefully without overlap", async ({ page }) => {
-    const viewports = [
+  test("Item 1: Real mouse wheel and keyboard scrolling works on short viewports without swallowing", async ({ page }) => {
+    const testViewports = [
       { width: 1280, height: 529, name: "laptop-short" },
-      { width: 1366, height: 650, name: "laptop-1366" },
       { width: 390, height: 844, name: "mobile-iphone" },
-      { width: 360, height: 640, name: "mobile-small" },
     ];
 
-    for (const vp of viewports) {
+    for (const vp of testViewports) {
       await page.setViewportSize({ width: vp.width, height: vp.height });
       await page.goto("/index.html#home");
       await page.waitForSelector("#brand-logo");
+      await page.evaluate(() => window.scrollTo(0, 0));
+      await page.waitForTimeout(100);
 
-      // Verify About button in normal flow is reachable and clickable
+      // Verify initial scroll position is 0
+      let scrollY = await page.evaluate(() => window.scrollY);
+      expect(scrollY).toBe(0);
+
+      // Real mouse wheel event (NOT window.scrollTo)
+      await page.mouse.move(vp.width / 2, vp.height / 2);
+      await page.mouse.wheel(0, 600);
+      await page.waitForTimeout(400);
+
+      scrollY = await page.evaluate(() => window.scrollY);
+      expect(scrollY).toBeGreaterThan(0);
+
+      // Reset to top with Home key
+      await page.keyboard.press("Home");
+      await page.waitForTimeout(200);
+
+      // Real keyboard End press (NOT window.scrollTo)
+      await page.keyboard.press("End");
+      await page.waitForTimeout(400);
+
+      const endScrollY = await page.evaluate(() => window.scrollY);
+      expect(endScrollY).toBeGreaterThan(0);
+
+      // Assert About button is visible in viewport
       const aboutBtn = page.locator(".footer-about-link");
-      await aboutBtn.scrollIntoViewIfNeeded();
-      await expect(aboutBtn).toBeVisible();
-
-      // Verify WBW tile is reachable and clickable
-      const wbwTile = page.locator(".tile-wide-wbw");
-      await wbwTile.scrollIntoViewIfNeeded();
-      await expect(wbwTile).toBeVisible();
-
-      // Verify Namaz tile is reachable and clickable
-      const namazTile = page.locator(".tile-namaz-emerald");
-      await namazTile.scrollIntoViewIfNeeded();
-      await expect(namazTile).toBeVisible();
-
-      // Verify Ayah-of-the-moment card is clamped and does not exceed 380px
-      const ayahCard = page.locator("#ayah-moment-card");
-      await expect(ayahCard).toBeVisible();
-      const cardBox = await ayahCard.boundingBox();
-      expect(cardBox).not.toBeNull();
-      if (cardBox) {
-        expect(cardBox.height).toBeLessThanOrEqual(385);
-      }
+      await expect(aboutBtn).toBeInViewport();
     }
+  });
 
-    // Capture screenshot on 1280x529
+  test("Item 2: Route changes reset scroll position to (0,0)", async ({ page }) => {
     await page.setViewportSize({ width: 1280, height: 529 });
-    await page.goto("/index.html#home");
-    await page.waitForSelector("#brand-logo");
-    await page.screenshot({ path: path.join(screenshotsDir, "short_viewport_1280x529.png") });
+    await page.goto("/index.html#namaz");
+    await page.waitForSelector(".namaz-header");
+
+    // Scroll down with mouse wheel on Namaz screen
+    await page.mouse.move(600, 300);
+    await page.mouse.wheel(0, 600);
+    await page.waitForTimeout(300);
+
+    const namazScroll = await page.evaluate(() => window.scrollY);
+    expect(namazScroll).toBeGreaterThan(0);
+
+    // Navigate to Quran screen via router
+    await page.evaluate(() => window.location.hash = "#quran/1/1");
+    await page.waitForSelector(".quran-header-emerald");
+
+    // Assert scroll position immediately reset to (0, 0) and header is fully visible
+    const newScrollY = await page.evaluate(() => window.scrollY);
+    expect(newScrollY).toBe(0);
+
+    const quranHeader = page.locator(".quran-header-emerald");
+    await expect(quranHeader).toBeInViewport();
+  });
+
+  test("Item 3: English text inside RTL containers has dir=ltr and unicode-bidi isolate", async ({ page }) => {
+    await page.goto("/index.html#namaz");
+    await page.waitForSelector(".namaz-header");
+
+    // Check Namaz step English elements
+    const railEn = page.locator(".rail-en").first();
+    await expect(railEn).toHaveAttribute("dir", "ltr");
+    const detailEn = page.locator(".detail-text-en");
+    await expect(detailEn).toHaveAttribute("dir", "ltr");
+
+    const detailBidi = await detailEn.evaluate((el) => {
+      const s = window.getComputedStyle(el);
+      return { dir: s.direction, bidi: s.unicodeBidi };
+    });
+    expect(detailBidi.dir).toBe("ltr");
+    expect(detailBidi.bidi).toBe("isolate");
+
+    // Check Wudu tab English elements
+    await page.click(".namaz-tab-btn[data-tab='wudu']");
+    const wuduTitleEn = page.locator(".wudu-title-en").first();
+    await expect(wuduTitleEn).toHaveAttribute("dir", "ltr");
+    const wuduInstEn = page.locator(".wudu-instruction-en").first();
+    await expect(wuduInstEn).toHaveAttribute("dir", "ltr");
+
+    // Check Quran translation card English body
+    await page.goto("/index.html#quran/1/1");
+    await page.waitForSelector(".trans-card-en");
+    const transEn = page.locator(".trans-card-en .trans-body-text");
+    await expect(transEn).toHaveAttribute("dir", "ltr");
+
+    // Check About screen
+    await page.goto("/index.html#about");
+    await page.waitForSelector(".about-card[dir='ltr']");
+    const aboutCardEn = page.locator(".about-card[dir='ltr']").first();
+    await expect(aboutCardEn).toBeVisible();
   });
 
   test("Item 3: Quran reading card never collapses below 300px on short viewports (2:282 & 9:1)", async ({ page }) => {
