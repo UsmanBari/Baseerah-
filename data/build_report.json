@@ -1,5 +1,5 @@
 {
-  "buildTimestamp": "2026-11-20T10:24:35.549654+00:00",
+  "buildTimestamp": "2026-11-20T11:07:41.468471+00:00",
   "counts": {
     "tanzilSurahs": 114,
     "tanzilAyahs": 6236,
@@ -1160,6 +1160,85 @@
   "validationResults": {
     "check1_countsMatch": true,
     "check2_nonEmptyTranslations": true,
+    "check3a_diffClasses": {
+      "space inside word": {
+        "count": 1,
+        "examples": [
+          {
+            "ayah": "5:52",
+            "tanzil": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَةٌۭ فَعَسَى ٱللَّهُ أَن يَأْتِىَ بِٱلْفَتْحِ أَوْ أَمْرٍۢ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ أَسَرُّوا۟ فِىٓ أَنفُسِهِمْ نَٰدِمِينَ",
+            "qul56": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَ ةٌۭ فَعَسَى ٱللَّهُ أَن يَأْتِىَ بِٱلْفَتْحِ أَوْ أَمْرٍۢ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ أَسَرُّوا۟ فِىٓ أَنفُسِهِمْ نَٰدِمِينَ"
+          }
+        ]
+      },
+      "alef wasla vs plain alef": {
+        "count": 1,
+        "examples": [
+          {
+            "ayah": "11:13",
+            "tanzil": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍۢ مِّثْلِهِۦ مُفْتَرَيَٰتٍۢ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+            "qul56": "أَمْ يَقُولُونَ افْتَرَاهُ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍۢ مِّثْلِهِۦ مُفْتَرَيَٰتٍۢ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ"
+          }
+        ]
+      },
+      "dagger alef / alef maksura vs plain alef": {
+        "count": 1,
+        "examples": [
+          {
+            "ayah": "11:13",
+            "tanzil": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍۢ مِّثْلِهِۦ مُفْتَرَيَٰتٍۢ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+            "qul56": "أَمْ يَقُولُونَ افْتَرَاهُ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍۢ مِّثْلِهِۦ مُفْتَرَيَٰتٍۢ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ"
+          }
+        ]
+      },
+      "alef with hamza above vs plain alef": {
+        "count": 1,
+        "examples": [
+          {
+            "ayah": "80:25",
+            "tanzil": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّۭا",
+            "qul56": "اَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّۭا"
+          }
+        ]
+      }
+    },
+    "check3a_uthmaniMismatches": [
+      {
+        "ayah": "5:52",
+        "tanzil": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَةٌۭ فَعَسَى ٱللَّهُ أَن يَأْتِىَ بِٱلْفَتْحِ أَوْ أَمْرٍۢ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ أَسَرُّوا۟ فِىٓ أَنفُسِهِمْ نَٰدِمِينَ",
+        "qul56": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَ ةٌۭ فَعَسَى ٱللَّهُ أَن يَأْتِىَ بِٱلْفَتْحِ أَوْ أَمْرٍۢ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ أَسَرُّوا۟ فِىٓ أَنفُسِهِمْ نَٰدِمِينَ"
+      },
+      {
+        "ayah": "11:13",
+        "tanzil": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍۢ مِّثْلِهِۦ مُفْتَرَيَٰتٍۢ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+        "qul56": "أَمْ يَقُولُونَ افْتَرَاهُ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍۢ مِّثْلِهِۦ مُفْتَرَيَٰتٍۢ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ"
+      },
+      {
+        "ayah": "80:25",
+        "tanzil": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّۭا",
+        "qul56": "اَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّۭا"
+      }
+    ],
+    "check3a_documentedExceptions": [
+      {
+        "ayah": "5:52",
+        "class": "space inside word token",
+        "reason": "QUL 56 word 12 token has an extraneous space between dal-alef-hamza-yeh-reh and ta-marbuta ('دَآئِرَ ةٌۭ' instead of 'دَآئِرَةٌۭ'). Shipped Indo-Pak word 12 in QUL 59 correctly joins the letters ('دَآىِٕرَةٌ ؕ') with space only before the pause sign.",
+        "reviewed_by": "pending-hafiz"
+      },
+      {
+        "ayah": "11:13",
+        "class": "alef wasla and dagger alef spelling",
+        "reason": "Tanzil encodes the verb with Alef Wasla U+0671 and Alef Maksura + Dagger Alef ('ٱفْتَرَىٰهُ'), whereas QUL 56 encodes it with bare Alef U+0627 and standard Alef ('افْتَرَاهُ'). Shipped Indo-Pak text (QUL 59/89) uses authentic South Asian Nastaleeq rasm ('افْتَرَاهُ ؕ').",
+        "reviewed_by": "pending-hafiz"
+      },
+      {
+        "ayah": "80:25",
+        "class": "hamza seat orthography",
+        "reason": "Tanzil uses Alef with Hamza Above U+0623 ('أَنَّا'), whereas QUL 56 uses bare Alef with Fatha U+0627 U+064E ('اَنَّا'). Both phonetically and grammatically represent the same particle. Shipped Indo-Pak text uses 'اَنَّا'.",
+        "reviewed_by": "pending-hafiz"
+      }
+    ],
     "check3a_uthmaniMatch": true,
     "check3b_alignmentMatch": true,
     "check3c_indopakConsistency": true,

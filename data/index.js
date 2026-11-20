@@ -1,3 +1,4 @@
+window.BASEERAH_BISMILLAH = "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ";
 window.BASEERAH_INDEX = [
   {
     "number": 1,

@@ -168,6 +168,11 @@
       }
     });
 
+    var bismillahEl = $("home-bismillah");
+    if (bismillahEl && window.BASEERAH_BISMILLAH) {
+      bismillahEl.textContent = window.BASEERAH_BISMILLAH;
+    }
+
     if (state.screen === "surah-list") renderSurahList();
     if (state.screen === "quran") renderQuran();
     if (state.screen === "namaz") renderNamaz();
