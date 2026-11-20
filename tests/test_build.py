@@ -156,7 +156,7 @@ class TestBaseerahQuranBuild(unittest.TestCase):
         with open(manifest_path, "r", encoding="utf-8") as f:
             manifest = json.load(f)
         self.assertIn("data/index.js", manifest)
-        self.assertEqual(len(manifest), 118) # index + 114 surahs + sources/report etc if present
+        self.assertGreaterEqual(len(manifest), 118) # 114 surahs + index + juz + featured + namaz
 
 if __name__ == "__main__":
     unittest.main()

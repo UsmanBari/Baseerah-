@@ -1,0 +1,70 @@
+{
+  "status": "draft",
+  "reviewed_by": "pending-scholar-review",
+  "notice": "مسودہ — باقاعدہ مستند عالم دین کی تصدیق تک زیرِ التواء ہے (حنفی فقہی ترتیب)",
+  "noticeEn": "Draft — pending formal review and approval by qualified Islamic scholars (Hanafi order)",
+  "prayers": [
+    {
+      "nameUr": "فجر",
+      "nameEn": "Fajr",
+      "timeEn": "Dawn to Sunrise",
+      "timeUr": "صبح صادق سے طلوعِ آفتاب تک",
+      "rakats": [
+        { "typeUr": "سنت مؤکدہ", "typeEn": "Sunnah Mu'akkadah", "count": 2 },
+        { "typeUr": "فرض", "typeEn": "Fard", "count": 2 }
+      ],
+      "total": 4
+    },
+    {
+      "nameUr": "ظہر",
+      "nameEn": "Dhuhr",
+      "timeEn": "Midday to Asr",
+      "timeUr": "زوال آفتاب کے بعد سے عصر تک",
+      "rakats": [
+        { "typeUr": "سنت مؤکدہ", "typeEn": "Sunnah Mu'akkadah", "count": 4 },
+        { "typeUr": "فرض", "typeEn": "Fard", "count": 4 },
+        { "typeUr": "سنت مؤکدہ", "typeEn": "Sunnah Mu'akkadah", "count": 2 },
+        { "typeUr": "نفل", "typeEn": "Nafl", "count": 2 }
+      ],
+      "total": 12
+    },
+    {
+      "nameUr": "عصر",
+      "nameEn": "Asr",
+      "timeEn": "Late afternoon to Sunset",
+      "timeUr": "دو مثل سائے سے غروبِ آفتاب تک",
+      "rakats": [
+        { "typeUr": "سنت غیر مؤکدہ", "typeEn": "Sunnah Ghair-Mu'akkadah", "count": 4 },
+        { "typeUr": "فرض", "typeEn": "Fard", "count": 4 }
+      ],
+      "total": 8
+    },
+    {
+      "nameUr": "مغرب",
+      "nameEn": "Maghrib",
+      "timeEn": "Just after Sunset to Dusk",
+      "timeUr": "غروبِ آفتاب سے شفق غائب ہونے تک",
+      "rakats": [
+        { "typeUr": "فرض", "typeEn": "Fard", "count": 3 },
+        { "typeUr": "سنت مؤکدہ", "typeEn": "Sunnah Mu'akkadah", "count": 2 },
+        { "typeUr": "نفل", "typeEn": "Nafl", "count": 2 }
+      ],
+      "total": 7
+    },
+    {
+      "nameUr": "عشاء",
+      "nameEn": "Isha",
+      "timeEn": "Night until Midnight",
+      "timeUr": "شفق کے غائب ہونے سے صبح صادق تک",
+      "rakats": [
+        { "typeUr": "سنت غیر مؤکدہ", "typeEn": "Sunnah Ghair-Mu'akkadah", "count": 4 },
+        { "typeUr": "فرض", "typeEn": "Fard", "count": 4 },
+        { "typeUr": "سنت مؤکدہ", "typeEn": "Sunnah Mu'akkadah", "count": 2 },
+        { "typeUr": "نفل", "typeEn": "Nafl", "count": 2 },
+        { "typeUr": "وتر واجب", "typeEn": "Witr Wajib", "count": 3 },
+        { "typeUr": "نفل", "typeEn": "Nafl", "count": 2 }
+      ],
+      "total": 17
+    }
+  ]
+}

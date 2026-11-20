@@ -1,0 +1,113 @@
+#!/usr/bin/env python3
+"""
+tests/test_kiosk.py
+Unittest suite for Baseerah Kiosk architecture:
+  - Juz 1 to 30 data structure and boundaries
+  - Featured ayahs consistency with built Quran data
+  - Namaz modular JSON files and draft scholar notices
+  - PWA manifest and service worker precaching
+  - CSS tokens and touch target sizing
+"""
+import os
+import json
+import re
+import unittest
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+SURAHS_DIR = os.path.join(DATA_DIR, "surahs")
+
+def load_surah(s_num):
+    fn = f"{s_num:03d}.js"
+    fp = os.path.join(SURAHS_DIR, fn)
+    with open(fp, "r", encoding="utf-8") as f:
+        content = f.read()
+    match = re.search(r"window\.BASEERAH_SURAH\s*=\s*(.+?);\s*$", content, re.DOTALL)
+    if not match:
+        raise ValueError(f"Could not parse {fn}")
+    return json.loads(match.group(1))
+
+class TestBaseerahKiosk(unittest.TestCase):
+    def test_juz_data(self):
+        juz_path = os.path.join(DATA_DIR, "juz.js")
+        self.assertTrue(os.path.exists(juz_path))
+        with open(juz_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        match = re.search(r"window\.BASEERAH_JUZ\s*=\s*(.+?);\s*$", content, re.DOTALL)
+        self.assertIsNotNone(match)
+        juz_list = json.loads(match.group(1))
+        self.assertEqual(len(juz_list), 30)
+        
+        # Verify first and last juz
+        self.assertEqual(juz_list[0]["number"], 1)
+        self.assertEqual(juz_list[0]["nameUr"], "الم")
+        self.assertEqual(juz_list[0]["start"], {"surah": 1, "ayah": 1})
+        self.assertEqual(juz_list[29]["number"], 30)
+        self.assertEqual(juz_list[29]["nameUr"], "عمّ")
+        self.assertEqual(juz_list[29]["end"], {"surah": 114, "ayah": 6})
+
+    def test_featured_ayahs_consistency(self):
+        feat_path = os.path.join(DATA_DIR, "featured_ayahs.json")
+        self.assertTrue(os.path.exists(feat_path))
+        with open(feat_path, "r", encoding="utf-8") as f:
+            featured = json.load(f)
+        self.assertEqual(len(featured), 10)
+
+        # Check each featured ayah matches the built surah data byte-for-byte
+        for item in featured:
+            s_data = load_surah(item["surah"])
+            ayah_obj = next((a for a in s_data["ayahs"] if a["number"] == item["ayah"]), None)
+            self.assertIsNotNone(ayah_obj, f"Featured ayah {item['surah']}:{item['ayah']} not in surah")
+            self.assertEqual(item["ar"], ayah_obj["arFull"])
+            self.assertEqual(item["ur"], ayah_obj["ur"])
+            self.assertEqual(item["en"], ayah_obj["en"])
+
+    def test_namaz_modular_files(self):
+        namaz_dir = os.path.join(DATA_DIR, "namaz")
+        self.assertTrue(os.path.exists(namaz_dir))
+        for filename in ["wudu.json", "steps.json", "rakats.json", "duas.json"]:
+            fp = os.path.join(namaz_dir, filename)
+            self.assertTrue(os.path.exists(fp), f"{filename} missing")
+            with open(fp, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            self.assertEqual(data.get("status"), "draft")
+            self.assertEqual(data.get("reviewed_by"), "pending-scholar-review")
+
+    def test_pwa_manifest_and_sw(self):
+        manifest_path = os.path.join(BASE_DIR, "manifest.json")
+        self.assertTrue(os.path.exists(manifest_path))
+        with open(manifest_path, "r", encoding="utf-8") as f:
+            manifest = json.load(f)
+        self.assertEqual(manifest["display"], "fullscreen")
+        self.assertEqual(manifest["theme_color"], "#0E5A47")
+
+        sw_path = os.path.join(BASE_DIR, "sw.js")
+        self.assertTrue(os.path.exists(sw_path))
+        with open(sw_path, "r", encoding="utf-8") as f:
+            sw_content = f.read()
+        self.assertIn("baseerah-v1.0.0", sw_content)
+        self.assertIn("PRECACHE_ASSETS", sw_content)
+
+    def test_css_tokens(self):
+        tokens_path = os.path.join(BASE_DIR, "css", "tokens.css")
+        self.assertTrue(os.path.exists(tokens_path))
+        with open(tokens_path, "r", encoding="utf-8") as f:
+            tokens = f.read()
+        self.assertIn("--touch-target-min: 56px", tokens)
+        self.assertIn("--arabic-word-size", tokens)
+        self.assertIn("body.high-contrast", tokens)
+        self.assertIn("body.scale-large", tokens)
+
+    def test_es_modules_presence(self):
+        core_files = ["router.js", "state.js", "i18n.js", "idle.js", "storage.js", "integrity.js", "audio.js"]
+        for cf in core_files:
+            fp = os.path.join(BASE_DIR, "js", "core", cf)
+            self.assertTrue(os.path.exists(fp), f"Core module missing: {cf}")
+
+        screen_files = ["home.js", "surah-list.js", "quran.js", "namaz.js", "about.js", "admin.js", "attract.js"]
+        for sf in screen_files:
+            fp = os.path.join(BASE_DIR, "js", "screens", sf)
+            self.assertTrue(os.path.exists(fp), f"Screen module missing: {sf}")
+
+if __name__ == "__main__":
+    unittest.main()

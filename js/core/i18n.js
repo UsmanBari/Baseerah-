@@ -1,0 +1,175 @@
+/* Baseerah — Localization (Urdu & English) */
+
+export const DICT = {
+  en: {
+    appTitle: "Baseerah",
+    tagline: "Insight into Namaz & Quran",
+    touchToBegin: "Touch a card to begin",
+    namazCardTitle: "Learn Namaz",
+    namazCardUr: "نماز سیکھیں",
+    namazCardSub: "Step by step — what to do and what to recite",
+    quranCardTitle: "Understand the Quran",
+    quranCardUr: "قرآن سمجھیں",
+    quranCardSub: "Every ayah, word by word, in Urdu and English",
+    home: "Home",
+    surahs: "Surahs",
+    juz: "Juz / Paras",
+    surahListTitle: "Surahs of the Quran",
+    surahListSub: "114 Surahs · Choose a surah to read",
+    juzListTitle: "Juz of the Quran",
+    juzListSub: "30 Paras · Traditional Quran division",
+    totalSurahs: "114 Surahs",
+    totalAyahs: "6,236 Ayahs",
+    searchPlaceholder: "Search by surah name or number...",
+    readingModeWbw: "Word-by-Word",
+    readingModeMushaf: "Mushaf Mode",
+    gotoAyah: "Go to Ayah",
+    fontSizeLabel: "Text Size",
+    tapWord: "Tap a word above to see meaning",
+    selectedWord: "Selected Word",
+    urduMeaning: "Urdu Meaning",
+    englishMeaning: "English Meaning",
+    fullTranslation: "Full Ayah Translation",
+    translationUrdu: "Urdu (Maulana Junagarhi)",
+    translationEnglish: "English (Saheeh Int.)",
+    prevAyah: "Previous Ayah",
+    nextAyah: "Next Ayah",
+    transViewAll: "Urdu & English",
+    transViewUrdu: "Urdu Only",
+    transViewEnglish: "English Only",
+    mushafBottomSheetTitle: "Ayah Details & Meaning",
+    close: "Close",
+    namazTabSteps: "How to Pray",
+    namazTabWudu: "Wudu Steps",
+    namazTabRakats: "Rakat Chart",
+    namazTabDuas: "Essential Duas",
+    draftDisclaimer: "Draft: Pending scholar review. Duas & steps will be updated upon formal approval.",
+    draftNotice: "Under Scholar Review · مسودہ: عالم کا جائزہ باقی",
+    step: "Step",
+    whatToRecite: "What to recite",
+    howToPerform: "How to perform",
+    about: "About & Sources · اسناد",
+    admin: "Kiosk Admin",
+    adminPinPrompt: "Enter Admin PIN to access kiosk configuration",
+    adminPinError: "Incorrect PIN. Access denied.",
+    mosqueRespect: "Mosque Respect Mode (Global Mute)",
+    mosqueRespectDesc: "Silences all audio recitations in prayer halls",
+    idleTimeout: "Idle Return Timeout",
+    attractTimeout: "Attract Screen Timeout",
+    defaultLang: "Default Language",
+    highContrast: "High Contrast Theme",
+    fontScale: "Default Elder Text Scale",
+    analyticsExport: "Export Usage Analytics (CSV)",
+    analyticsClear: "Clear Analytics Log",
+    deviceInfo: "Device Diagnostic Information",
+    integrityStatus: "Data Integrity Status",
+    integrityValid: "Verified (SHA-256 match)",
+    integrityFailed: "Integrity check failed!",
+    touchToWake: "Touch anywhere to begin",
+    ayahOfTheMoment: "Ayah of the Moment",
+    enterSurahAndAyah: "Enter Surah and Ayah Number",
+    surahNumber: "Surah (1-114)",
+    ayahNumber: "Ayah",
+    jump: "Jump",
+    clear: "Clear"
+  },
+  ur: {
+    appTitle: "بصیرت",
+    tagline: "نماز اور قرآن کی بصیرت",
+    touchToBegin: "شروع کرنے کے لیے کارڈ کو چھوئیں",
+    namazCardTitle: "Learn Namaz",
+    namazCardUr: "نماز سیکھیں",
+    namazCardSub: "قدم بہ قدم — کیا کریں اور کیا پڑھیں",
+    quranCardTitle: "Understand the Quran",
+    quranCardUr: "قرآن سمجھیں",
+    quranCardSub: "ہر آیت، لفظ بہ لفظ، اردو اور انگریزی میں",
+    home: "مرکزی صفحہ",
+    surahs: "سورتیں",
+    juz: "پارے (اجزاء)",
+    surahListTitle: "قرآن مجید کی سورتیں",
+    surahListSub: "۱۱۴ سورتیں · تلاوت کے لیے سورت منتخب کریں",
+    juzListTitle: "قرآن مجید کے ۳۰ پارے",
+    juzListSub: "۳۰ پارے · روایتی تقسیم کے مطابق",
+    totalSurahs: "۱۱۴ سورتیں",
+    totalAyahs: "۶،۲۳۶ آیات",
+    searchPlaceholder: "سورت کا نام یا نمبر تلاش کریں...",
+    readingModeWbw: "لفظ بہ لفظ",
+    readingModeMushaf: "مصحف (مسلسل)",
+    gotoAyah: "آیت پر جائیں",
+    fontSizeLabel: "حروف کا سائز",
+    tapWord: "معنی دیکھنے کے لیے کسی لفظ کو چھوئیں",
+    selectedWord: "منتخب لفظ",
+    urduMeaning: "اردو معنی",
+    englishMeaning: "انگریزی معنی",
+    fullTranslation: "مکمل آیت کا ترجمہ",
+    translationUrdu: "اردو (مولانا محمد جوناگڑھی)",
+    translationEnglish: "انگریزی (صحیح انٹرنیشنل)",
+    prevAyah: "پچھلی آیت",
+    nextAyah: "اگلی آیت",
+    transViewAll: "اردو اور انگریزی",
+    transViewUrdu: "صرف اردو",
+    transViewEnglish: "صرف انگریزی",
+    mushafBottomSheetTitle: "آیت کی تفصیل اور ترجمہ",
+    close: "بند کریں",
+    namazTabSteps: "طریقہ نماز",
+    namazTabWudu: "طریقہ وضو",
+    namazTabRakats: "رکعات جدول",
+    namazTabDuas: "مسنون دعائیں",
+    draftDisclaimer: "مسودہ — باقاعدہ مستند عالم دین کی تصدیق تک زیرِ التواء ہے۔",
+    draftNotice: "مسودہ · عالم کا جائزہ باقی",
+    step: "قدم",
+    whatToRecite: "کیا پڑھیں",
+    howToPerform: "طریقہ کار",
+    about: "ذرائع اور اسناد · About",
+    admin: "کیوسک ایڈمن",
+    adminPinPrompt: "کیوسک ترتیبات کے لیے پن کوڈ درج کریں",
+    adminPinError: "غلط پن کوڈ۔ رسائی مسترد۔",
+    mosqueRespect: "احترامِ مسجد موڈ (مکمل خاموشی)",
+    mosqueRespectDesc: "مسجد کے تقدس میں تمام آوازیں بند رکھتا ہے",
+    idleTimeout: "خاموشی پر واپسی کا وقت",
+    attractTimeout: "اسکرین سیور کا وقت",
+    defaultLang: "بنیادی زبان",
+    highContrast: "ہائی کنٹراسٹ تھیم",
+    fontScale: "بزرگوں کے لیے تحریر کا سائز",
+    analyticsExport: "استعمال کی رپورٹ ڈاؤنلوڈ کریں (CSV)",
+    analyticsClear: "رپورٹ ڈیٹا صاف کریں",
+    deviceInfo: "کیوسک ڈیوائس کی معلومات",
+    integrityStatus: "ڈیٹا کی تصدیق و حفاظت",
+    integrityValid: "تصدیق شدہ (SHA-256 مکمل مطابقت)",
+    integrityFailed: "ڈیٹا کی حفاظت کا نقص!",
+    touchToWake: "شروع کرنے کے لیے اسکرین کو چھوئیں",
+    ayahOfTheMoment: "آیتِ مبارکہ",
+    enterSurahAndAyah: "سورت اور آیت کا نمبر درج کریں",
+    surahNumber: "سورت (۱-۱۱۴)",
+    ayahNumber: "آیت نمبر",
+    jump: "جائیں",
+    clear: "صاف"
+  }
+};
+
+const URDU_DIGITS = ["۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹"];
+
+export function toUrduDigits(num) {
+  if (num === null || num === undefined) return "";
+  return String(num).replace(/\d/g, (d) => URDU_DIGITS[parseInt(d, 10)]);
+}
+
+export function t(key, lang = "ur") {
+  const table = DICT[lang] || DICT.ur;
+  return table[key] || DICT.en[key] || key;
+}
+
+export function applyI18n(container, lang = "ur") {
+  const elements = container.querySelectorAll("[data-i18n]");
+  elements.forEach((el) => {
+    const key = el.getAttribute("data-i18n");
+    const val = t(key, lang);
+    if (val) {
+      if (el.tagName === "INPUT" && el.hasAttribute("placeholder")) {
+        el.setAttribute("placeholder", val);
+      } else {
+        el.textContent = val;
+      }
+    }
+  });
+}
