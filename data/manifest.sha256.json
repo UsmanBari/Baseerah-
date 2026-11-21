@@ -3,6 +3,8 @@
   "data/featured_ayahs.json": "fbe337e8bdcabf01a1e050946fb2a427e3d54101aacd99f99e5d2d3650b4b699",
   "data/index.js": "7b217ff19e3bba5c1df3795b31256aefa09a1f82f0ffd419104d088f031f7d86",
   "data/juz.js": "7828ac97381e1679a400fb6fb8df1488dd700b5374cb3491e14dbc07a417bc8b",
+  "data/morphology.js": "1d5791b4e0e543c406952e504227e34dd88861bc10fef13693f7593f9c0c4bc9",
+  "data/morphology.json": "7940261c328902ead69f9b9a4e94709efada461b138ba883aff1b00ddcb417a4",
   "data/namaz.js": "0643af0e8aa079e630e2e0b639893fb03782ee919965f7874c749f31f9bf6816",
   "data/SOURCES.md": "9e5ab14ba5689049536d7756f0d3774e1f362693a6efbb938e26701777600ec6",
   "data/namaz/duas.json": "371f5b2ab673cb5547eb7aeecbe07dba8f5eb4cfe06e54cc82fb3902292904b8",
