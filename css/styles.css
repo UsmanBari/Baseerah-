@@ -1094,15 +1094,18 @@ button:focus-visible {
 
 /* READING CARD CONTAINER WITH ROUND ARROW BUTTONS */
 .reading-card-container {
-  flex: 1;
-  min-height: 320px;
+  flex: 1 1 auto;
+  min-height: 220px;
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: var(--space-2);
-  width: 100%;
   position: relative;
   direction: ltr !important;
+  overflow: hidden;
 }
 
 .nav-arrow-btn {
@@ -1137,20 +1140,34 @@ button:focus-visible {
 
 /* INTERLINEAR READING CARD */
 .interlinear-reading-card {
-  flex: 1;
+  flex: 1 1 auto;
   height: 100%;
-  min-height: 300px;
+  min-height: 0;
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
   background: var(--color-reading-surface);
   border: 1.5px solid var(--color-parchment-border);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-level-1);
   padding: var(--space-3) var(--space-4);
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  position: relative;
   transition: transform 180ms ease-out, opacity 180ms ease-out;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
+
+.interlinear-reading-card.has-scroll-fade {
+  mask-image: linear-gradient(to bottom, black calc(100% - 44px), transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 44px), transparent 100%);
+}
+
 .interlinear-reading-card.slide-out-left {
   transform: translateX(-30px);
   opacity: 0;
@@ -1168,6 +1185,68 @@ button:focus-visible {
   gap: 12px 16px;
   direction: rtl;
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin-block: auto;
+  box-sizing: border-box;
+  padding: 4px 2px;
+}
+
+/* Long ayah pagination bar inside card */
+.wbw-pagination-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: var(--space-2);
+  flex-shrink: 0;
+  padding: 6px 12px;
+  background: rgba(11, 74, 59, 0.05);
+  border: 1px solid var(--color-parchment-border);
+  border-radius: var(--radius-pill);
+}
+
+.btn-wbw-page-step {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--color-text-white);
+  border: 1px solid var(--color-gold-line);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform var(--transition-press), opacity var(--transition-fast);
+}
+
+.btn-wbw-page-step:active {
+  transform: scale(0.92);
+}
+
+.btn-wbw-page-step.disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.wbw-page-indicator {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.btn-wbw-mode-toggle {
+  background: var(--color-reading-surface);
+  border: 1px solid var(--color-gold-border);
+  border-radius: var(--radius-pill);
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-primary-text);
+  cursor: pointer;
+  margin-inline-start: 8px;
 }
 
 /* INTERLINEAR WORD TILE */
@@ -1178,8 +1257,9 @@ button:focus-visible {
   box-shadow: var(--shadow-level-1);
   padding: 10px 14px;
   width: max-content;
-  min-width: 96px;
-  max-width: 200px;
+  min-width: 86px;
+  max-width: 100%;
+  box-sizing: border-box;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -1203,6 +1283,7 @@ button:focus-visible {
   line-height: 1.55;
   color: var(--color-ink);
   white-space: nowrap;
+  max-width: 100%;
 }
 .tile-gold-divider {
   width: 28px;
@@ -1215,22 +1296,28 @@ button:focus-visible {
   font-family: var(--font-ur);
   font-size: var(--urdu-meaning-size);
   color: var(--color-primary-text);
-  line-height: 2.0; /* Strict 2.0 line-height */
-  margin: 0 0 6px 0; /* 6px gap before English line */
+  line-height: var(--lh-ur, 2.0) !important;
+  margin: 0 0 6px 0;
   display: block;
   width: 100%;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   word-break: break-word;
+  box-sizing: border-box;
 }
 .tile-en {
   font-family: var(--font-sans);
   font-size: var(--en-meaning-size);
   color: var(--color-text-muted);
-  line-height: 1.4;
+  line-height: var(--lh-en, 1.6) !important;
   display: block;
   width: 100%;
+  max-width: 100%;
   direction: ltr !important;
   unicode-bidi: isolate;
+  overflow-wrap: anywhere;
   word-break: break-word;
+  box-sizing: border-box;
 }
 
 /* Meaning display toggles */
@@ -1251,17 +1338,55 @@ button:focus-visible {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-2);
-  flex-shrink: 0;
-  max-height: 160px;
+  flex: 0 0 auto;
+  min-height: 80px;
+  max-height: 140px;
+  height: auto;
+  width: 100%;
 }
 
 .trans-duo-card {
   background: var(--color-reading-surface);
   border: 1.5px solid var(--color-parchment-border);
   border-radius: var(--radius-md);
-  padding: 12px var(--space-2);
+  padding: 10px 14px;
   overflow-y: auto;
   box-shadow: var(--shadow-level-1);
+  min-height: 0;
+  max-height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trans-duo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.btn-read-more-trans {
+  background: rgba(14, 90, 71, 0.06);
+  border: 1px solid var(--color-parchment-border);
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-primary-text);
+  cursor: pointer;
+  border-radius: var(--radius-pill);
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+.btn-read-more-trans:hover {
+  background: rgba(14, 90, 71, 0.12);
+  border-color: var(--color-gold-border);
+}
+
+/* Netlify Preview Badge Suppression */
+.netlify-badge,
+[class*="netlify-badge"],
+[id*="netlify-badge"] {
+  display: none !important;
 }
 
 .trans-card-ur,

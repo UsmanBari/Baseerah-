@@ -15,9 +15,11 @@ export const Idle = {
 
   reset() {
     clearTimeout(idleTimer);
-    const timeoutSeconds = state.settings.idleSeconds || 60;
+    const timeoutSeconds = (state.settings && state.settings.idleSeconds !== undefined && state.settings.idleSeconds !== null)
+      ? state.settings.idleSeconds
+      : 60;
     if (timeoutSeconds <= 0) {
-      return; // Disabled in admin settings
+      return; // Disabled in admin settings or tests
     }
 
     idleTimer = setTimeout(() => {

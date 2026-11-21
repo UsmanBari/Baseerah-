@@ -169,6 +169,15 @@
     }
   },
   "js/core/i18n.js": {
+    "دیکھیں": {
+      "reason": "UI label for viewing modes in i18n"
+    },
+    "الفاظ": {
+      "reason": "Word pagination label in long ayahs"
+    },
+    "صفحات": {
+      "reason": "Paged mode toggle in long ayahs"
+    },
     "چھپائیں": {
       "reason": "UI label for Hide translation toggle in Mushaf mode"
     },

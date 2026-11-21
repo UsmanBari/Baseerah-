@@ -422,6 +422,43 @@ export const UIComponents = {
     document.body.appendChild(sheet);
   },
 
+  showTranslationBottomSheet({ title, text, lang = "ur", surahNum, ayahNum }) {
+    const isUr = lang === "ur";
+    const sheet = document.createElement("div");
+    sheet.className = "bottom-sheet-overlay active";
+    sheet.setAttribute("role", "dialog");
+    sheet.setAttribute("aria-modal", "true");
+
+    sheet.innerHTML = `
+      <div class="bottom-sheet translation-sheet" dir="${isUr ? 'rtl' : 'ltr'}">
+        <div class="bottom-sheet-handle"></div>
+        <div class="bottom-sheet-header">
+          <div class="sheet-title-box">
+            <span class="sheet-surah-ar" lang="${lang}">${title}</span>
+            <span class="sheet-ayah-badge">${isUr ? `آیت <span class="urdu-num">${toUrduDigits(surahNum)}</span>:<span class="urdu-num">${toUrduDigits(ayahNum)}</span>` : `Ayah ${surahNum}:${ayahNum}`}</span>
+          </div>
+          <button type="button" class="btn-close" aria-label="${t("close", lang)}">✕</button>
+        </div>
+        <div class="bottom-sheet-content">
+          <div class="translation-sheet-body ${isUr ? 'trans-text-ur' : 'trans-text-en'}" lang="${lang}" dir="${isUr ? 'rtl' : 'ltr'}">
+            <p style="font-size: 20px; line-height: ${isUr ? '2.1' : '1.7'}; margin: 0; color: var(--color-ink);">${text}</p>
+          </div>
+        </div>
+      </div>
+    `;
+
+    const close = () => {
+      if (sheet.parentNode) sheet.parentNode.removeChild(sheet);
+    };
+
+    sheet.querySelector(".btn-close").addEventListener("click", close);
+    sheet.addEventListener("click", (e) => {
+      if (e.target === sheet) close();
+    });
+
+    document.body.appendChild(sheet);
+  },
+
   /**
    * Renders 5-step font scaler [A− | A+]
    */

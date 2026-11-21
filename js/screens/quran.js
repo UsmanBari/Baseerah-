@@ -111,7 +111,23 @@ export async function renderQuranScreen(container, params = []) {
   // -------------------------------------------------------------
   // INTERLINEAR WORD-BY-WORD LAYOUT
   // -------------------------------------------------------------
-  const wordsHtml = (currentAyahObj.words || []).map((w, idx) => {
+  const allWords = currentAyahObj.words || [];
+  const totalWordsCount = allWords.length;
+  const isVeryLongAyah = totalWordsCount > 32;
+  const pageSize = 24;
+  const totalPages = Math.max(1, Math.ceil(totalWordsCount / pageSize));
+
+  if (state.wbwPage === undefined || state.wbwPage === null || state.wbwPage >= totalPages) {
+    state.wbwPage = 0;
+  }
+  const isPaged = state.wbwPagedMode === true && isVeryLongAyah;
+  const displayedWords = isPaged
+    ? allWords.slice(state.wbwPage * pageSize, (state.wbwPage + 1) * pageSize)
+    : allWords;
+  const wordOffset = isPaged ? state.wbwPage * pageSize : 0;
+
+  const wordsHtml = displayedWords.map((w, i) => {
+    const idx = wordOffset + i;
     const isSelected = selectedWordIndex === idx;
     return `
       <div class="wbw-interlinear-tile wbw-word-tile ${isSelected ? 'selected' : ''}" data-word-idx="${idx}" role="button" tabindex="0">
@@ -124,6 +140,26 @@ export async function renderQuranScreen(container, params = []) {
   }).join("");
 
   const medallionSvg = UIComponents.getAyahMedallionSvg(currentAyahObj.number, 52);
+  const isLastPage = !isPaged || (state.wbwPage === totalPages - 1);
+  const medallionHtml = isLastPage ? `
+    <div class="medallion-tile-end">
+      ${medallionSvg}
+    </div>
+  ` : "";
+
+  const paginationBarHtml = isVeryLongAyah ? `
+    <div class="wbw-pagination-bar" dir="ltr">
+      ${isPaged ? `
+        <button type="button" class="btn-wbw-page-step btn-wbw-page-prev ${state.wbwPage === 0 ? 'disabled' : ''}" id="btn-wbw-page-prev" aria-label="Previous words page">‹</button>
+        <span class="wbw-page-indicator">${isUr ? `${t("wordsLabel", "ur")} <span class="urdu-num">${toUrduDigits(wordOffset + 1)}</span>–<span class="urdu-num">${toUrduDigits(Math.min(wordOffset + pageSize, totalWordsCount))}</span> / <span class="urdu-num">${toUrduDigits(totalWordsCount)}</span>` : `Words ${wordOffset + 1}–${Math.min(wordOffset + pageSize, totalWordsCount)} of ${totalWordsCount}`}</span>
+        <button type="button" class="btn-wbw-page-step btn-wbw-page-next ${state.wbwPage >= totalPages - 1 ? 'disabled' : ''}" id="btn-wbw-page-next" aria-label="Next words page">›</button>
+        <button type="button" class="btn-wbw-mode-toggle" id="btn-wbw-toggle-paged">${t("scrollMode", state.lang)}</button>
+      ` : `
+        <span class="wbw-page-indicator">${isUr ? `<span class="urdu-num">${toUrduDigits(totalWordsCount)}</span> ${t("wordsLabel", "ur")}` : `${totalWordsCount} Words`}</span>
+        <button type="button" class="btn-wbw-mode-toggle" id="btn-wbw-toggle-paged">${t("pagedMode", state.lang)}</button>
+      `}
+    </div>
+  ` : "";
 
   // Ayah Chips Row (current = emerald, read = light green, upcoming = white)
   const chipsHtml = surahData.ayahs.map((a) => {
@@ -232,11 +268,10 @@ export async function renderQuranScreen(container, params = []) {
           </button>
 
           <div class="interlinear-reading-card" id="interlinear-card">
+            ${paginationBarHtml}
             <div class="interlinear-flow-row" dir="rtl">
               ${wordsHtml}
-              <div class="medallion-tile-end">
-                ${medallionSvg}
-              </div>
+              ${medallionHtml}
             </div>
           </div>
 
@@ -254,6 +289,9 @@ export async function renderQuranScreen(container, params = []) {
           <div class="trans-duo-card trans-card-en" lang="en" dir="ltr">
             <div class="trans-duo-header">
               <span class="trans-translator-tag translator-tag-en" lang="en" dir="ltr">${t("translatorEnglish", state.lang)}</span>
+              <button type="button" class="btn-read-more-trans" data-lang="en" aria-label="Read full English translation">
+                <span>${t("readFull", "en")}</span>
+              </button>
             </div>
             <p class="trans-body-text trans-text-en" lang="en" dir="ltr">${enHtml}</p>
           </div>
@@ -262,6 +300,9 @@ export async function renderQuranScreen(container, params = []) {
           <div class="trans-duo-card trans-card-ur" lang="ur" dir="rtl">
             <div class="trans-duo-header">
               <span class="trans-translator-tag translator-tag-ur" lang="ur" dir="rtl">${t("translatorUrdu", state.lang)}</span>
+              <button type="button" class="btn-read-more-trans" data-lang="ur" aria-label="${t("readFull", state.lang)}">
+                <span lang="ur" dir="rtl">${t("readFull", "ur")}</span>
+              </button>
             </div>
             <p class="trans-body-text trans-text-ur" lang="ur" dir="rtl">${urHtml}</p>
           </div>
@@ -399,6 +440,63 @@ export async function renderQuranScreen(container, params = []) {
         }
       }
     }, { passive: true });
+  }
+
+  // Scroll fade updater for reading card
+  const cardEl = container.querySelector("#interlinear-card");
+  if (cardEl) {
+    const updateCardFade = () => {
+      const hasMore = cardEl.scrollHeight > (cardEl.clientHeight + 8) && (cardEl.scrollTop + cardEl.clientHeight < cardEl.scrollHeight - 12);
+      cardEl.classList.toggle("has-scroll-fade", hasMore);
+    };
+    cardEl.addEventListener("scroll", updateCardFade, { passive: true });
+    setTimeout(updateCardFade, 80);
+  }
+
+  // Translation card expand buttons
+  container.querySelectorAll(".btn-read-more-trans").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const l = btn.getAttribute("data-lang");
+      const title = l === "ur" ? t("translationUrdu", state.lang) : t("translationEnglish", state.lang);
+      const text = l === "ur" ? currentAyahObj.ur : currentAyahObj.en;
+      UIComponents.showTranslationBottomSheet({
+        title,
+        text,
+        lang: l,
+        surahNum: sNum,
+        ayahNum: aNum
+      });
+    });
+  });
+
+  // Long ayah pagination controls
+  const pagedToggle = container.querySelector("#btn-wbw-toggle-paged");
+  if (pagedToggle) {
+    pagedToggle.addEventListener("click", () => {
+      state.wbwPagedMode = !state.wbwPagedMode;
+      state.wbwPage = 0;
+      renderQuranScreen(container, [sNum, aNum]);
+    });
+  }
+
+  const pagedPrev = container.querySelector("#btn-wbw-page-prev");
+  if (pagedPrev) {
+    pagedPrev.addEventListener("click", () => {
+      if (state.wbwPage > 0) {
+        state.wbwPage -= 1;
+        renderQuranScreen(container, [sNum, aNum]);
+      }
+    });
+  }
+
+  const pagedNext = container.querySelector("#btn-wbw-page-next");
+  if (pagedNext) {
+    pagedNext.addEventListener("click", () => {
+      if (state.wbwPage < totalPages - 1) {
+        state.wbwPage += 1;
+        renderQuranScreen(container, [sNum, aNum]);
+      }
+    });
   }
 
   // Back to Surahs

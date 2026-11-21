@@ -47,6 +47,12 @@ router.register("about", renderAboutScreen);
 router.register("admin", renderAdminScreen);
 router.register("attract", renderAttractScreen);
 
+// Expose state and router for tests
+if (typeof window !== "undefined") {
+  window.baseerahState = state;
+  window.baseerahRouter = router;
+}
+
 // Apply stored kiosk preferences
 function applyPreferences() {
   document.body.classList.toggle("high-contrast", !!state.highContrast);
