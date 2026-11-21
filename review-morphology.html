@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baseerah — Quran Morphology Color Coding: Style A vs Style B</title>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      background: var(--color-parchment-base, #F8F6EE);
+      color: var(--color-ink, #0D2F24);
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 32px 16px;
+    }
+    .review-wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .review-header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .review-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--color-primary, #0B4A3B);
+      margin: 0 0 8px 0;
+    }
+    .review-sub {
+      font-size: 16px;
+      color: var(--color-ink-muted, #4A5B53);
+      max-width: 700px;
+      margin: 0 auto 20px auto;
+      line-height: 1.5;
+    }
+    .review-legend-bar {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      background: var(--color-surface, #FFFFFF);
+      padding: 10px 24px;
+      border-radius: var(--radius-pill, 9999px);
+      box-shadow: 0 2px 8px rgba(11, 74, 59, 0.08);
+      border: 1px solid var(--color-parchment-border, #E2DEC9);
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+    }
+    .dot-prefix { background: var(--color-morph-prefix, #A77B16); }
+    .dot-stem { background: var(--color-ink, #0D2F24); }
+    .dot-suffix { background: var(--color-morph-suffix, #0E5A47); }
+
+    .comparison-section {
+      background: var(--color-surface, #FFFFFF);
+      border-radius: var(--radius-lg, 24px);
+      box-shadow: 0 4px 20px rgba(11, 74, 59, 0.06);
+      border: 1px solid var(--color-parchment-border, #E2DEC9);
+      margin-bottom: 36px;
+      overflow: hidden;
+    }
+    .section-title-bar {
+      background: var(--color-primary, #0B4A3B);
+      color: var(--color-gold, #E9C77B);
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .section-title-bar h2 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .section-badge {
+      background: rgba(233, 199, 123, 0.15);
+      color: var(--color-gold, #E9C77B);
+      border: 1px solid rgba(233, 199, 123, 0.3);
+      padding: 4px 12px;
+      border-radius: var(--radius-pill, 9999px);
+      font-size: 13px;
+    }
+
+    table.morph-compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    table.morph-compare-table th {
+      background: var(--color-parchment-deep, #EDE8D8);
+      color: var(--color-ink, #0D2F24);
+      padding: 14px 16px;
+      font-size: 14px;
+      font-weight: 700;
+      border-bottom: 2px solid var(--color-parchment-border, #E2DEC9);
+    }
+    table.morph-compare-table td {
+      padding: 16px 12px;
+      border-bottom: 1px solid var(--color-parchment-border, #E2DEC9);
+      vertical-align: middle;
+    }
+    .col-loc {
+      font-family: monospace;
+      font-size: 13px;
+      color: #6B7280;
+      direction: ltr;
+      width: 60px;
+    }
+    .col-meaning {
+      font-family: var(--font-ur, 'Noto Nastaliq Urdu', serif);
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--color-ink-muted, #4A5B53);
+      width: 180px;
+    }
+    .col-ar {
+      font-family: 'BaseerahIndoPak', serif;
+      font-size: 46px;
+      line-height: 1.7;
+      position: relative;
+      direction: rtl;
+    }
+    .col-baseline {
+      color: var(--color-ink, #0D2F24);
+    }
+
+    /* Style A: Underline */
+    .style-a-box {
+      color: var(--color-ink, #0D2F24) !important;
+      position: relative;
+      display: inline-block;
+    }
+    .style-a-box .morph-seg {
+      color: var(--color-ink, #0D2F24) !important;
+    }
+
+    /* Style B: Tint */
+    .style-b-box {
+      position: relative;
+      display: inline-block;
+    }
+    .style-b-box .morph-letter-prefix {
+      color: var(--color-morph-prefix, #A77B16);
+    }
+    .style-b-box .morph-letter-suffix {
+      color: var(--color-morph-suffix, #0E5A47);
+    }
+    .style-b-box .morph-diacritic,
+    .style-b-box .morph-stem {
+      color: var(--color-ink, #0D2F24) !important;
+    }
+
+    /* Side-by-Side Reading Cards */
+    .cards-side-by-side {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .card-preview-box {
+      background: var(--color-parchment-base, #F8F6EE);
+      border: 1px solid var(--color-parchment-border, #E2DEC9);
+      border-radius: var(--radius-md, 16px);
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(11, 74, 59, 0.04);
+    }
+    .card-header-label {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--color-primary, #0B4A3B);
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      direction: ltr;
+    }
+    .card-flow-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      direction: rtl;
+    }
+  </style>
+</head>
+<body>
+  <div class="review-wrap">
+    <header class="review-header">
+      <h1 class="review-title">قرآنی بصارت: الفاظ کی رنگین صرفی ساخت (Spike)</h1>
+      <p class="review-sub">
+        Readability Rules Compliance: Word-by-word mode only · Pure ink diacritics · Cursive joining preserved across all browsers · Zero layout shift · 100% byte fidelity
+      </p>
+      <div class="review-legend-bar" dir="ltr">
+        <span class="legend-item"><span class="legend-dot dot-prefix"></span> Prefix (سابقہ): Gold #A77B16</span>
+        <span class="legend-item"><span class="legend-dot dot-stem"></span> Stem (اصل کلمہ): Ink #0D2F24</span>
+        <span class="legend-item"><span class="legend-dot dot-suffix"></span> Suffix (لاحقہ): Emerald #0E5A47</span>
+      </div>
+    </header>
+
+    <!-- Side-by-Side Reading Card Views for 1:1, 1:2, 1:7 and 2:3 -->
+    <section class="comparison-section" id="reading-card-previews">
+      <div class="section-title-bar">
+        <h2>نمونہ قرآنی کارڈز (Side-by-Side Reading Cards)</h2>
+        <span class="section-badge">Client Decision View</span>
+      </div>
+      <div id="side-by-side-cards-container">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+    <!-- Word-by-Word Granular Comparison Table -->
+    <section class="comparison-section">
+      <div class="section-title-bar">
+        <h2>لفظ بہ لفظ موازنہ: سورۃ الفاتحہ (1:1–7) اور سورۃ البقرۃ (2:1–5)</h2>
+        <span class="section-badge">65 Words Detailed</span>
+      </div>
+      <table class="morph-compare-table">
+        <thead>
+          <tr>
+            <th class="col-loc">آیت</th>
+            <th>اردو معنی</th>
+            <th>اصل رسم الخط (Baseline)</th>
+            <th>انداز اول: خط کشیدہ (Style A: Underline)</th>
+            <th>انداز دوم: رنگین (Style B: Tint)</th>
+          </tr>
+        </thead>
+        <tbody id="compare-table-body">
+          <!-- Injected via JavaScript -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="data/morphology.js"></script>
+  <script type="module">
+    import { renderArabicWordHtml, layoutUnderlineBars, shouldFallbackToUnderline, buildTintSegmentHtml } from "./js/core/morphology.js";
+
+    async function init() {
+      // Load Surah 1 & Surah 2 data
+      const s1 = await (await fetch("data/surahs/001.js")).text();
+      new Function(s1)();
+      const surah1 = window.BASEERAH_SURAH;
+
+      const s2 = await (await fetch("data/surahs/002.js")).text();
+      new Function(s2)();
+      const surah2 = window.BASEERAH_SURAH;
+      const morph = window.BASEERAH_MORPHOLOGY || {};
+
+      // 1. Render Table Rows for 1:1-7 & 2:1-5
+      const targets = [];
+      for (let a = 1; a <= 7; a++) targets.push([1, a]);
+      for (let a = 1; a <= 5; a++) targets.push([2, a]);
+
+      const tbody = document.getElementById("compare-table-body");
+      let tableHtml = "";
+
+      for (const [sNum, aNum] of targets) {
+        const surahObj = sNum === 1 ? surah1 : surah2;
+        const ayahObj = surahObj.ayahs.find(a => a.number === aNum);
+        if (!ayahObj || !ayahObj.words) continue;
+
+        ayahObj.words.forEach((w, wIdx) => {
+          const loc = `${sNum}:${aNum}:${wIdx + 1}`;
+          const m = morph[loc] || null;
+
+          const baseHtml = w.ar;
+          const styleAHtml = renderArabicWordHtml(w.ar, m, true, "underline");
+          const styleBHtml = renderArabicWordHtml(w.ar, m, true, "tint");
+
+          tableHtml += `
+            <tr data-loc="${loc}">
+              <td class="col-loc">${loc}</td>
+              <td class="col-meaning">${w.ur || "—"}</td>
+              <td class="col-ar col-baseline">${baseHtml}</td>
+              <td class="col-ar morph-style-underline"><span class="style-a-box">${styleAHtml}</span></td>
+              <td class="col-ar morph-style-tint"><span class="style-b-box">${styleBHtml}</span></td>
+            </tr>
+          `;
+        });
+      }
+      tbody.innerHTML = tableHtml;
+
+      // 2. Render Sample Side-by-Side Reading Cards for 1:1, 1:2, 1:7, 2:3
+      const sampleAyahs = [[1, 1], [1, 2], [1, 7], [2, 3]];
+      const cardsContainer = document.getElementById("side-by-side-cards-container");
+      let cardsHtml = "";
+
+      sampleAyahs.forEach(([sNum, aNum]) => {
+        const surahObj = sNum === 1 ? surah1 : surah2;
+        const ayahObj = surahObj.ayahs.find(a => a.number === aNum);
+        if (!ayahObj) return;
+
+        const renderTiles = (style) => {
+          return ayahObj.words.map((w, wIdx) => {
+            const loc = `${sNum}:${aNum}:${wIdx + 1}`;
+            const m = morph[loc] || null;
+            const arHtml = renderArabicWordHtml(w.ar, m, true, style);
+            return `
+              <div class="wbw-interlinear-tile wbw-word-tile">
+                <span class="tile-ar" lang="ar" dir="rtl">${arHtml}</span>
+                <div class="tile-gold-divider"></div>
+                <span class="tile-ur" lang="ur" dir="rtl">${w.ur || "—"}</span>
+                <span class="tile-en" lang="en" dir="ltr">${w.en || "—"}</span>
+              </div>
+            `;
+          }).join("");
+        };
+
+        cardsHtml += `
+          <div style="border-bottom: 1px solid var(--color-parchment-border); padding: 16px;">
+            <h3 style="margin: 0 0 12px 0; font-size: 16px; color: var(--color-primary); text-align: right;">
+              ${surahObj.nameUr} · آیت ${aNum}
+            </h3>
+            <div class="cards-side-by-side">
+              <div class="card-preview-box morph-style-underline">
+                <div class="card-header-label">
+                  <span>STYLE A: "UNDERLINE" (3px bar, pure ink text)</span>
+                  <span>انداز اول: خط کشیدہ</span>
+                </div>
+                <div class="card-flow-row">${renderTiles("underline")}</div>
+              </div>
+              <div class="card-preview-box morph-style-tint">
+                <div class="card-header-label">
+                  <span>STYLE B: "TINT" (letters tinted, diacritics ink)</span>
+                  <span>انداز دوم: رنگین کلمات</span>
+                </div>
+                <div class="card-flow-row">${renderTiles("tint")}</div>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+      cardsContainer.innerHTML = cardsHtml;
+
+      // 3. Compute and layout underline bars for Style A
+      setTimeout(() => {
+        layoutUnderlineBars(document.body);
+      }, 60);
+
+      window.addEventListener("resize", () => {
+        layoutUnderlineBars(document.body);
+      });
+    }
+
+    window.addEventListener("DOMContentLoaded", init);
+  </script>
+</body>
+</html>

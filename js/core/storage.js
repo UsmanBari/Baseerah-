@@ -16,7 +16,8 @@ const DEFAULT_SETTINGS = {
   mosqueMute: true,
   readingMode: "wbw", // "wbw" | "mushaf"
   translationDisplay: "both", // "both" | "ur" | "en"
-  showMorphology: false // automatic morphology color coding spike
+  showMorphology: false, // automatic morphology color coding spike
+  morphologyStyle: "underline" // "underline" (Style A) | "tint" (Style B)
 };
 
 export const Storage = {

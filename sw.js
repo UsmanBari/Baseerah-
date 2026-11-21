@@ -29,6 +29,7 @@ const PRECACHE_ASSETS = [
   "./js/core/storage.js",
   "./js/core/integrity.js",
   "./js/core/audio.js",
+  "./js/core/morphology.js",
   "./js/screens/home.js",
   "./js/screens/surah-list.js",
   "./js/screens/quran.js",

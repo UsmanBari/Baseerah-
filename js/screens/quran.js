@@ -6,6 +6,7 @@ import { router } from "../core/router.js";
 import { UIComponents } from "../ui/components.js";
 import { Integrity } from "../core/integrity.js";
 import { audioManager } from "../core/audio.js";
+import { renderArabicWordHtml, layoutUnderlineBars } from "../core/morphology.js";
 
 let selectedWordIndex = null;
 
@@ -128,6 +129,7 @@ export async function renderQuranScreen(container, params = []) {
     : allWords;
   const wordOffset = isPaged ? state.wbwPage * pageSize : 0;
   const isMorphActive = state.settings.showMorphology === true;
+  const morphStyle = state.settings.morphologyStyle || "underline";
 
   const wordsHtml = displayedWords.map((w, i) => {
     const idx = wordOffset + i;
@@ -135,15 +137,10 @@ export async function renderQuranScreen(container, params = []) {
     const loc = `${sNum}:${aNum}:${idx + 1}`;
     const morph = (window.BASEERAH_MORPHOLOGY && window.BASEERAH_MORPHOLOGY[loc]) || null;
 
-    let arHtml = w.ar;
+    let arHtml = renderArabicWordHtml(w.ar, morph, isMorphActive, morphStyle);
     let legendHtml = "";
 
     if (isMorphActive && morph && morph.segmented) {
-      const p = morph.prefix ? `<span class="morph-prefix">${morph.prefix}</span>` : "";
-      const st = `<span class="morph-stem">${morph.stem}</span>`;
-      const sf = morph.suffix ? `<span class="morph-suffix">${morph.suffix}</span>` : "";
-      arHtml = `${p}${st}${sf}`;
-
       const legendText = isUr ? (morph.legend?.ur || morph.legend?.en) : (morph.legend?.en || morph.legend?.ur);
       if (legendText) {
         legendHtml = `<div class="wbw-morph-legend" dir="${isUr ? 'rtl' : 'ltr'}">${legendText}</div>`;
@@ -277,10 +274,18 @@ export async function renderQuranScreen(container, params = []) {
             <button type="button" class="meaning-btn ${meaningMode === "en" ? "active" : ""}" data-meaning="en">${t("meaningToggleEnglish", state.lang)}</button>
           </div>
 
-          <!-- Morphology Spike Toggle: [Colours] -->
-          <button type="button" class="btn-morph-toggle ${isMorphActive ? "active" : ""}" id="btn-toggle-morphology" aria-label="${t("morphologyToggle", state.lang)}">
-            <span class="morph-toggle-label">${t("morphologyToggle", state.lang)}</span>
-          </button>
+          <!-- Morphology Spike Toggle: [Colours] & Style Selector -->
+          <div class="morph-toggle-cluster" role="group" aria-label="${t("morphologyToggle", state.lang)}">
+            <button type="button" class="btn-morph-toggle ${isMorphActive ? "active" : ""}" id="btn-toggle-morphology" aria-label="${t("morphologyToggle", state.lang)}">
+              <span class="morph-toggle-label">${t("morphologyToggle", state.lang)}</span>
+            </button>
+            ${isMorphActive ? `
+            <div class="morph-style-group" role="group" aria-label="Morphology Style">
+              <button type="button" class="morph-style-btn ${morphStyle === "underline" ? "active" : ""}" data-morph-style="underline">${t("morphStyleUnderline", state.lang)}</button>
+              <button type="button" class="morph-style-btn ${morphStyle === "tint" ? "active" : ""}" data-morph-style="tint">${t("morphStyleTint", state.lang)}</button>
+            </div>
+            ` : ""}
+          </div>
 
           <!-- 5-Step Text Scaler [A− | A+] -->
           <div class="font-scaler-container" id="font-scaler-box"></div>
@@ -314,7 +319,7 @@ export async function renderQuranScreen(container, params = []) {
             <span class="sr-only">${leftText}</span>
           </button>
 
-          <div class="interlinear-reading-card" id="interlinear-card">
+          <div class="interlinear-reading-card ${isMorphActive ? `morph-style-${morphStyle}` : ''}" id="interlinear-card">
             ${paginationBarHtml}
             <div class="interlinear-flow-row" dir="rtl">
               ${wordsHtml}
@@ -672,7 +677,7 @@ export async function renderQuranScreen(container, params = []) {
     });
   }
 
-  // Wire Morphology Colors Toggle
+  // Wire Morphology Colors Toggle & Style Selector
   const morphToggleBtn = container.querySelector("#btn-toggle-morphology");
   if (morphToggleBtn) {
     morphToggleBtn.addEventListener("click", () => {
@@ -681,6 +686,23 @@ export async function renderQuranScreen(container, params = []) {
       renderQuranScreen(container, [sNum, aNum]);
     });
   }
+
+  container.querySelectorAll(".morph-style-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const style = btn.getAttribute("data-morph-style");
+      state.settings.morphologyStyle = style;
+      Storage.saveSettings(state.settings);
+      renderQuranScreen(container, [sNum, aNum]);
+    });
+  });
+
+  if (isMorphActive) {
+    // Schedule layout of underline bars after fonts and layout settle
+    setTimeout(() => {
+      layoutUnderlineBars(container);
+    }, 40);
+  }
+
 
   // Wire Audio Recitation Controls
   const playBtns = container.querySelectorAll("#btn-audio-play, #btn-mobile-audio-play");
@@ -999,15 +1021,6 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
     });
   }
 
-  // Wire Morphology Colors Toggle
-  const morphToggleBtn = container.querySelector("#btn-toggle-morphology");
-  if (morphToggleBtn) {
-    morphToggleBtn.addEventListener("click", () => {
-      state.settings.showMorphology = !state.settings.showMorphology;
-      Storage.saveSettings(state.settings);
-      renderQuranScreen(container, [sNum, aNum]);
-    });
-  }
 
   // Wire Mushaf Individual Ayah Play Buttons
   container.querySelectorAll(".btn-mushaf-play").forEach((btn) => {

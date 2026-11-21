@@ -1320,20 +1320,61 @@ button:focus-visible {
   box-sizing: border-box;
 }
 
-/* Morphology Word Segments Spike */
-.tile-ar .morph-prefix {
-  color: var(--color-morph-prefix);
-  display: inline;
-}
-.tile-ar .morph-stem {
-  color: var(--color-morph-stem);
-  display: inline;
-}
-.tile-ar .morph-suffix {
-  color: var(--color-morph-suffix);
-  display: inline;
+/* ==========================================================================
+   Morphology Color Coding Spike (Readability Rules: Style A Underline vs Style B Tint)
+   ========================================================================== */
+.tile-ar {
+  position: relative;
+  display: inline-block;
 }
 
+/* Style A: Underline (Default) - Pure ink letters, 3px rounded bar under prefix/suffix */
+.morph-style-underline .tile-ar,
+.morph-style-underline .tile-ar .morph-seg {
+  color: var(--color-ink) !important;
+}
+
+.morph-bar-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+  z-index: 2;
+}
+
+.morph-bar {
+  position: absolute;
+  height: 3px;
+  border-radius: 1.5px;
+  pointer-events: none;
+}
+
+.morph-bar.morph-bar-prefix {
+  background-color: var(--color-morph-prefix, #A77B16);
+}
+
+.morph-bar.morph-bar-suffix {
+  background-color: var(--color-morph-suffix, #0E5A47);
+}
+
+/* Style B: Tint - Only base prefix/suffix letters tinted; all diacritics and stem stay ink */
+.morph-style-tint .tile-ar .morph-letter-prefix {
+  color: var(--color-morph-prefix, #A77B16);
+}
+
+.morph-style-tint .tile-ar .morph-letter-suffix {
+  color: var(--color-morph-suffix, #0E5A47);
+}
+
+.morph-style-tint .tile-ar .morph-diacritic,
+.morph-style-tint .tile-ar .morph-stem {
+  color: var(--color-ink) !important;
+}
+
+/* Legend line on tap only */
 .wbw-morph-legend {
   display: none;
   font-family: var(--font-sans);
@@ -1351,7 +1392,13 @@ button:focus-visible {
   display: block;
 }
 
-/* Header Toggle Button for Morphology Colors */
+/* Header Toggle & Style Controls for Morphology Colors */
+.morph-toggle-cluster {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .btn-morph-toggle {
   display: inline-flex;
   align-items: center;
@@ -1376,6 +1423,40 @@ button:focus-visible {
   background: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-gold);
+}
+
+.morph-style-group {
+  display: inline-flex;
+  align-items: center;
+  background: var(--color-parchment-deep, #EDE8D8);
+  border: 1px solid var(--color-parchment-border);
+  border-radius: var(--radius-pill);
+  padding: 2px;
+  gap: 2px;
+  height: 38px;
+  box-sizing: border-box;
+}
+
+.morph-style-btn {
+  border: none;
+  background: transparent;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-ink-muted, #4A5B53);
+  cursor: pointer;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  transition: all var(--duration-fast, 150ms) ease;
+}
+
+.morph-style-btn.active {
+  background: var(--color-surface, #FFFFFF);
+  color: var(--color-primary, #0B4A3B);
+  box-shadow: 0 1px 2px rgba(11, 74, 59, 0.12);
 }
 
 /* Meaning display toggles */
