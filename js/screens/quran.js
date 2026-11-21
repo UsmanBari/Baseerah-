@@ -248,6 +248,13 @@ export async function renderQuranScreen(container, params = []) {
           <!-- 5-Step Text Scaler [A− | A+] -->
           <div class="font-scaler-container" id="font-scaler-box"></div>
         </div>
+
+        <!-- Mobile Overflow "⋯" Button -->
+        <button type="button" class="btn-quran-overflow" id="btn-quran-overflow" aria-label="${t("displaySettings", state.lang)}">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="1.5"/><circle cx="5" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+          </svg>
+        </button>
       </header>
 
       <!-- AYAH CHIPS ROW (Horizontally scrolling, auto-centered) -->
@@ -309,12 +316,22 @@ export async function renderQuranScreen(container, params = []) {
         </div>
       </main>
 
-      <!-- FOOTER: Centered Jump-to-Ayah Keypad Pill -->
+      <!-- FOOTER: Responsive Navigation Bar (Fixed on mobile with arrows, centered keypad on desktop) -->
       <footer class="quran-v2-footer">
-        <button type="button" class="btn-jump-keypad-pill" id="btn-goto-keypad">
-          <span>${isUr ? `آیت <span class="urdu-num">${toUrduDigits(currentAyahObj.number)}</span> / <span class="urdu-num">${toUrduDigits(totalAyahs)}</span>` : `Ayah ${currentAyahObj.number} of ${totalAyahs}`}</span>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
-        </button>
+        <div class="footer-nav-bar" dir="${isUr ? 'rtl' : 'ltr'}">
+          <button type="button" class="footer-nav-btn footer-nav-prev ${!canGoPrev ? 'disabled' : ''}" id="footer-btn-prev" aria-label="${isUr ? 'پچھلی آیت ›' : '‹ Previous ayah'}">
+            ${isUr ? '<span>پچھلی آیت</span> <span class="arrow-char">›</span>' : '<span class="arrow-char">‹</span> <span>Previous ayah</span>'}
+          </button>
+
+          <button type="button" class="btn-jump-keypad-pill" id="btn-goto-keypad" aria-label="${t("gotoAyah", state.lang)}">
+            <span>${isUr ? `آیت <span class="urdu-num">${toUrduDigits(currentAyahObj.number)}</span> / <span class="urdu-num">${toUrduDigits(totalAyahs)}</span>` : `Ayah ${currentAyahObj.number} of ${totalAyahs}`}</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+          </button>
+
+          <button type="button" class="footer-nav-btn footer-nav-next ${!canGoNext ? 'disabled' : ''}" id="footer-btn-next" aria-label="${isUr ? '‹ اگلی آیت' : 'Next ayah ›'}">
+            ${isUr ? '<span class="arrow-char">‹</span> <span>اگلی آیت</span>' : '<span>Next ayah</span> <span class="arrow-char">›</span>'}
+          </button>
+        </div>
       </footer>
     </div>
   `;
@@ -574,6 +591,40 @@ export async function renderQuranScreen(container, params = []) {
       });
     });
   }
+
+  // Mobile Footer Navigation (‹ Agli Ayah / Pichli Ayah ›)
+  const footerPrev = container.querySelector("#footer-btn-prev");
+  if (footerPrev) {
+    footerPrev.addEventListener("click", () => {
+      if (canGoPrev) {
+        selectedWordIndex = null;
+        router.navigate(`quran/${sNum}/${aNum - 1}`);
+      }
+    });
+  }
+
+  const footerNext = container.querySelector("#footer-btn-next");
+  if (footerNext) {
+    footerNext.addEventListener("click", () => {
+      if (canGoNext) {
+        selectedWordIndex = null;
+        if (aNum < totalAyahs) router.navigate(`quran/${sNum}/${aNum + 1}`);
+        else if (sNum < 114) router.navigate(`quran/${sNum + 1}/1`);
+      }
+    });
+  }
+
+  // Mobile Overflow "⋯" Settings Sheet
+  const overflowBtn = container.querySelector("#btn-quran-overflow");
+  if (overflowBtn) {
+    overflowBtn.addEventListener("click", () => {
+      UIComponents.showQuranSettingsBottomSheet({
+        onChange: () => {
+          renderQuranScreen(container, [sNum, aNum]);
+        }
+      });
+    });
+  }
 }
 
 /**
@@ -680,6 +731,13 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
           <!-- 5-Step Text Scaler [A− | A+] -->
           <div class="font-scaler-container" id="font-scaler-box"></div>
         </div>
+
+        <!-- Mobile Overflow "⋯" Button -->
+        <button type="button" class="btn-quran-overflow" id="btn-quran-overflow" aria-label="${t("displaySettings", state.lang)}">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="1.5"/><circle cx="5" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+          </svg>
+        </button>
       </header>
 
       <main class="mushaf-reading-viewport">
@@ -791,6 +849,17 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
           } else {
             router.navigate(`quran/${s}/${a}`);
           }
+        }
+      });
+    });
+  }
+
+  const mushafOverflow = container.querySelector("#btn-quran-overflow");
+  if (mushafOverflow) {
+    mushafOverflow.addEventListener("click", () => {
+      UIComponents.showQuranSettingsBottomSheet({
+        onChange: () => {
+          renderQuranScreen(container, [sNum, aNum]);
         }
       });
     });

@@ -459,6 +459,88 @@ export const UIComponents = {
     document.body.appendChild(sheet);
   },
 
+  showQuranSettingsBottomSheet({ onChange }) {
+    const isUr = state.lang === "ur";
+    const sheet = document.createElement("div");
+    sheet.className = "bottom-sheet-overlay active";
+    sheet.setAttribute("role", "dialog");
+    sheet.setAttribute("aria-modal", "true");
+
+    sheet.innerHTML = `
+      <div class="bottom-sheet quran-settings-sheet" dir="${isUr ? 'rtl' : 'ltr'}">
+        <div class="bottom-sheet-handle"></div>
+        <div class="bottom-sheet-header">
+          <div class="sheet-title-box">
+            <span class="sheet-surah-ar" lang="${state.lang}">${t("displaySettings", state.lang)}</span>
+          </div>
+          <button type="button" class="btn-close" aria-label="${t("close", state.lang)}">✕</button>
+        </div>
+        <div class="bottom-sheet-content quran-settings-content">
+          <div class="settings-sheet-section">
+            <span class="settings-section-title">${t("readingModeLabel", state.lang)}</span>
+            <div class="mode-pill-toggle" role="group" aria-label="${t("readingModeLabel", state.lang)}">
+              <button type="button" class="mode-pill-btn ${state.readingMode === 'wbw' ? 'active' : ''}" data-sheet-mode="wbw">${t("readingModeWbw", state.lang)}</button>
+              <button type="button" class="mode-pill-btn ${state.readingMode === 'mushaf' ? 'active' : ''}" data-sheet-mode="mushaf">${t("readingModeMushaf", state.lang)}</button>
+            </div>
+          </div>
+
+          <div class="settings-sheet-section">
+            <span class="settings-section-title">${t("meaningLabel", state.lang)}</span>
+            <div class="meaning-toggle-group" role="group" aria-label="${t("meaningLabel", state.lang)}">
+              <button type="button" class="meaning-btn ${state.meaningDisplay === 'both' ? 'active' : ''}" data-sheet-meaning="both">${t("meaningToggleBoth", state.lang)}</button>
+              <button type="button" class="meaning-btn ${state.meaningDisplay === 'ur' ? 'active' : ''}" data-sheet-meaning="ur">${t("meaningToggleUrdu", state.lang)}</button>
+              <button type="button" class="meaning-btn ${state.meaningDisplay === 'en' ? 'active' : ''}" data-sheet-meaning="en">${t("meaningToggleEnglish", state.lang)}</button>
+            </div>
+          </div>
+
+          <div class="settings-sheet-section">
+            <span class="settings-section-title">${t("fontSizeLabel", state.lang)}</span>
+            <div class="sheet-font-scaler-box" id="sheet-scaler-box"></div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    const close = () => {
+      if (sheet.parentNode) sheet.parentNode.removeChild(sheet);
+    };
+
+    sheet.querySelector(".btn-close").addEventListener("click", close);
+    sheet.addEventListener("click", (e) => {
+      if (e.target === sheet) close();
+    });
+
+    // Wire reading mode
+    sheet.querySelectorAll("[data-sheet-mode]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const m = btn.getAttribute("data-sheet-mode");
+        state.readingMode = m;
+        sheet.querySelectorAll("[data-sheet-mode]").forEach((b) => b.classList.toggle("active", b === btn));
+        if (typeof onChange === "function") onChange();
+      });
+    });
+
+    // Wire meaning mode
+    sheet.querySelectorAll("[data-sheet-meaning]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const m = btn.getAttribute("data-sheet-meaning");
+        state.meaningDisplay = m;
+        sheet.querySelectorAll("[data-sheet-meaning]").forEach((b) => b.classList.toggle("active", b === btn));
+        if (typeof onChange === "function") onChange();
+      });
+    });
+
+    // Render font scaler
+    const scalerBox = sheet.querySelector("#sheet-scaler-box");
+    if (scalerBox) {
+      UIComponents.renderFontScalerPills(scalerBox, () => {
+        if (typeof onChange === "function") onChange();
+      });
+    }
+
+    document.body.appendChild(sheet);
+  },
+
   /**
    * Renders 5-step font scaler [A− | A+]
    */
