@@ -494,6 +494,14 @@ export const UIComponents = {
           </div>
 
           <div class="settings-sheet-section">
+            <span class="settings-section-title">${t("morphologyLabel", state.lang)}</span>
+            <div class="mode-pill-toggle" role="group" aria-label="${t("morphologyLabel", state.lang)}">
+              <button type="button" class="mode-pill-btn ${!state.settings.showMorphology ? 'active' : ''}" data-sheet-morph="off">${t("morphologyOff", state.lang)}</button>
+              <button type="button" class="mode-pill-btn ${state.settings.showMorphology ? 'active' : ''}" data-sheet-morph="on">${t("morphologyToggle", state.lang)}</button>
+            </div>
+          </div>
+
+          <div class="settings-sheet-section">
             <span class="settings-section-title">${t("fontSizeLabel", state.lang)}</span>
             <div class="sheet-font-scaler-box" id="sheet-scaler-box"></div>
           </div>
@@ -526,6 +534,17 @@ export const UIComponents = {
         const m = btn.getAttribute("data-sheet-meaning");
         state.meaningDisplay = m;
         sheet.querySelectorAll("[data-sheet-meaning]").forEach((b) => b.classList.toggle("active", b === btn));
+        if (typeof onChange === "function") onChange();
+      });
+    });
+
+    // Wire morphology mode
+    sheet.querySelectorAll("[data-sheet-morph]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const val = btn.getAttribute("data-sheet-morph") === "on";
+        state.settings.showMorphology = val;
+        Storage.saveSettings(state.settings);
+        sheet.querySelectorAll("[data-sheet-morph]").forEach((b) => b.classList.toggle("active", b === btn));
         if (typeof onChange === "function") onChange();
       });
     });

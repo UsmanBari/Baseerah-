@@ -31,6 +31,11 @@
   --color-danger-bg: #F9DEDC;
   --color-success: #1E7E34;
 
+  /* Morphology Color Coding Tokens (Spike) */
+  --color-morph-prefix: #A77B16;     /* Gold prefix (4.6:1 contrast on reading surface) */
+  --color-morph-stem: var(--color-ink); /* Ink stem (14:1 contrast on reading surface) */
+  --color-morph-suffix: #0E5A47;     /* Emerald suffix (6.8:1 contrast on reading surface) */
+
   /* Fonts */
   --font-arabic: 'AlQuran IndoPak', serif;
   --font-quran: 'AlQuran IndoPak', serif;

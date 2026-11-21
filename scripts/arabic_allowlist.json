@@ -645,6 +645,9 @@
     },
     "۹": {
       "reason": "UI label / layout metadata in Urdu language"
+    },
+    "رنگ": {
+      "reason": "Morphology color coding toggle in i18n"
     }
   },
   "js/screens/about.js": {

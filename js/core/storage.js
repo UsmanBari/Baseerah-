@@ -15,7 +15,8 @@ const DEFAULT_SETTINGS = {
   highContrast: false,
   mosqueMute: true,
   readingMode: "wbw", // "wbw" | "mushaf"
-  translationDisplay: "both" // "both" | "ur" | "en"
+  translationDisplay: "both", // "both" | "ur" | "en"
+  showMorphology: false // automatic morphology color coding spike
 };
 
 export const Storage = {

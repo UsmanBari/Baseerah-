@@ -1,5 +1,6 @@
 /* Baseerah — Quran Screen (Baseerah v2 Interlinear Word-by-Word Redesign) */
 import { state } from "../core/state.js";
+import { Storage } from "../core/storage.js";
 import { t, toUrduDigits } from "../core/i18n.js";
 import { router } from "../core/router.js";
 import { UIComponents } from "../ui/components.js";
@@ -126,15 +127,35 @@ export async function renderQuranScreen(container, params = []) {
     ? allWords.slice(state.wbwPage * pageSize, (state.wbwPage + 1) * pageSize)
     : allWords;
   const wordOffset = isPaged ? state.wbwPage * pageSize : 0;
+  const isMorphActive = state.settings.showMorphology === true;
 
   const wordsHtml = displayedWords.map((w, i) => {
     const idx = wordOffset + i;
     const isSelected = selectedWordIndex === idx;
+    const loc = `${sNum}:${aNum}:${idx + 1}`;
+    const morph = (window.BASEERAH_MORPHOLOGY && window.BASEERAH_MORPHOLOGY[loc]) || null;
+
+    let arHtml = w.ar;
+    let legendHtml = "";
+
+    if (isMorphActive && morph && morph.segmented) {
+      const p = morph.prefix ? `<span class="morph-prefix">${morph.prefix}</span>` : "";
+      const st = `<span class="morph-stem">${morph.stem}</span>`;
+      const sf = morph.suffix ? `<span class="morph-suffix">${morph.suffix}</span>` : "";
+      arHtml = `${p}${st}${sf}`;
+
+      const legendText = isUr ? (morph.legend?.ur || morph.legend?.en) : (morph.legend?.en || morph.legend?.ur);
+      if (legendText) {
+        legendHtml = `<div class="wbw-morph-legend" dir="${isUr ? 'rtl' : 'ltr'}">${legendText}</div>`;
+      }
+    }
+
     return `
       <div class="wbw-interlinear-tile wbw-word-tile ${isSelected ? 'selected' : ''}" data-word-idx="${idx}" role="button" tabindex="0">
-        <span class="tile-ar" lang="ar" dir="rtl">${w.ar}</span>
+        <span class="tile-ar" lang="ar" dir="rtl">${arHtml}</span>
         <div class="tile-gold-divider"></div>
         <span class="tile-ur" lang="ur" dir="rtl">${w.ur || "—"}</span>
+        ${legendHtml}
         <span class="tile-en" lang="en" dir="ltr">${w.en || "—"}</span>
       </div>
     `;
@@ -255,6 +276,11 @@ export async function renderQuranScreen(container, params = []) {
             <button type="button" class="meaning-btn ${meaningMode === "ur" ? "active" : ""}" data-meaning="ur">${t("meaningToggleUrdu", state.lang)}</button>
             <button type="button" class="meaning-btn ${meaningMode === "en" ? "active" : ""}" data-meaning="en">${t("meaningToggleEnglish", state.lang)}</button>
           </div>
+
+          <!-- Morphology Spike Toggle: [Colours] -->
+          <button type="button" class="btn-morph-toggle ${isMorphActive ? "active" : ""}" id="btn-toggle-morphology" aria-label="${t("morphologyToggle", state.lang)}">
+            <span class="morph-toggle-label">${t("morphologyToggle", state.lang)}</span>
+          </button>
 
           <!-- 5-Step Text Scaler [A− | A+] -->
           <div class="font-scaler-container" id="font-scaler-box"></div>
@@ -646,6 +672,16 @@ export async function renderQuranScreen(container, params = []) {
     });
   }
 
+  // Wire Morphology Colors Toggle
+  const morphToggleBtn = container.querySelector("#btn-toggle-morphology");
+  if (morphToggleBtn) {
+    morphToggleBtn.addEventListener("click", () => {
+      state.settings.showMorphology = !state.settings.showMorphology;
+      Storage.saveSettings(state.settings);
+      renderQuranScreen(container, [sNum, aNum]);
+    });
+  }
+
   // Wire Audio Recitation Controls
   const playBtns = container.querySelectorAll("#btn-audio-play, #btn-mobile-audio-play");
   const speedBtn = container.querySelector("#btn-audio-speed");
@@ -960,6 +996,16 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
           renderQuranScreen(container, [sNum, aNum]);
         }
       });
+    });
+  }
+
+  // Wire Morphology Colors Toggle
+  const morphToggleBtn = container.querySelector("#btn-toggle-morphology");
+  if (morphToggleBtn) {
+    morphToggleBtn.addEventListener("click", () => {
+      state.settings.showMorphology = !state.settings.showMorphology;
+      Storage.saveSettings(state.settings);
+      renderQuranScreen(container, [sNum, aNum]);
     });
   }
 

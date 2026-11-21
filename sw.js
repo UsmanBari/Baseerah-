@@ -14,6 +14,8 @@ const PRECACHE_ASSETS = [
   "./data/index.js",
   "./data/manifest.sha256.json",
   "./data/featured_ayahs.json",
+  "./data/morphology.js",
+  "./data/morphology.json",
   "./data/juz.js",
   "./data/namaz/wudu.json",
   "./data/namaz/steps.json",
