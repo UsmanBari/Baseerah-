@@ -1,106 +1,165 @@
-/* Baseerah — Design System Tokens (Commercial Mosque Kiosk) */
+/* Baseerah — Design System Tokens (Baseerah v2 Redesign) */
 
 :root {
-  /* Mosque Color Palette */
-  --color-primary: #0E5A47;
-  --color-primary-dark: #083B2E;
-  --color-primary-light: #15735B;
-  --color-primary-tint: #EBF3F0;
-  
-  --color-accent: #D4AF37;
-  --color-accent-light: #E9C77B;
-  --color-accent-dark: #B38E22;
-  --color-accent-tint: #FAF6EC;
+  /* Color Palette — Deep Mosque Emerald & Warm Gold */
+  --color-primary: #0B4A3B;          /* Rich deep mosque green */
+  --color-primary-text: #0E5A47;     /* High-contrast emerald text on cream */
+  --color-primary-dark: #073328;
+  --color-primary-light: #126350;
+  --color-primary-tint: #E8F3EE;
 
-  --color-bg: #F8F6F0;
-  --color-surface: #FFFFFF;
-  --color-surface-subtle: #F2EDE2;
-  --color-surface-hover: #EBE4D5;
+  --color-gold: #E9C77B;             /* Warm gold text/accent on emerald (7.2:1 contrast) */
+  --color-gold-line: #D9B45A;        /* Gold divider lines */
+  --color-gold-border: #C99A2E;      /* Selected tile border / medallion stroke */
+  --color-gold-cream: #A77B16;       /* Gold text on cream surfaces (4.6:1 contrast) */
+  --color-gold-tint: #FDF9EE;
 
-  --color-border: #E2DAC8;
-  --color-border-subtle: #EFE9DC;
-  --color-border-focus: #0E5A47;
+  /* Surfaces & Parchment */
+  --color-parchment: #F5F0E3;        /* Main background */
+  --color-reading-surface: #FFFDF7;  /* Reading surface & active cards */
+  --color-parchment-border: #E6DCC4; /* Subtle card & section borders */
+  --color-tile-selected: #FBF3DC;    /* Selected word tile fill */
+  --color-chip-read: #D4E7DC;        /* Completed ayah chip */
 
-  --color-text: #1C2421;
-  --color-text-muted: #55625D;
-  --color-text-faint: #8A9690;
-  --color-text-inverse: #FFFFFF;
+  /* Ink & Typography */
+  --color-ink: #1D2B26;              /* Dark green-black, softer than pure black */
+  --color-text-muted: #5C6B65;       /* Muted secondary text (4.9:1 contrast on reading surface) */
+  --color-text-faint: #8B9892;
+  --color-text-white: #FFFFFF;
 
   --color-danger: #B3261E;
   --color-danger-bg: #F9DEDC;
-  --color-warning: #B58500;
-  --color-warning-bg: #FEF3D6;
   --color-success: #1E7E34;
 
-  /* Typography */
+  /* Morphology Color Coding Tokens (Spike) */
+  --color-morph-prefix: #A77B16;     /* Gold prefix (4.6:1 contrast on reading surface) */
+  --color-morph-stem: var(--color-ink); /* Ink stem (14:1 contrast on reading surface) */
+  --color-morph-suffix: #0E5A47;     /* Emerald suffix (6.8:1 contrast on reading surface) */
+
+  /* Fonts */
   --font-arabic: 'AlQuran IndoPak', serif;
-  --font-ur: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', 'Urdu Typesetting', serif;
-  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-quran: 'AlQuran IndoPak', serif;
+  --font-ur: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  --font-urdu: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-english: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --lh-ur: 2.0;
+  --lh-en: 1.6;
 
-  /* Kiosk Touch Target Sizing (Strict Minimum 56px) */
+  /* 8px Spacing Grid */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+
+  /* Shapes & Component Radius Scale (12 / 20 / 28) */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-card: 28px;
+  --radius-card-lg: 28px;
+  --radius-tile: 20px;
+  --radius-pill: 9999px;
+
+  /* Type Scale per Script Tokens */
+  /* English (Inter) */
+  --font-display-en-size: 40px;
+  --font-display-en-lh: 48px;
+  --font-display-en-weight: 600;
+
+  --font-title-en-size: 24px;
+  --font-title-en-lh: 32px;
+  --font-title-en-weight: 600;
+
+  --font-body-en-size: 17px;
+  --font-body-en-lh: 26px;
+
+  --font-caption-en-size: 13px;
+  --font-caption-en-lh: 18px;
+  --font-caption-en-weight: 500;
+  --font-caption-en-ls: 0.02em;
+
+  /* Urdu (Nastaliq) — Independent Line Heights (never inherits Latin lh) */
+  --font-display-ur-size: 40px;
+  --font-display-ur-lh: 1.9;
+
+  --font-title-ur-size: 26px;
+  --font-title-ur-lh: 1.9;
+
+  --font-body-ur-size: 19px;
+  --font-body-ur-lh: 2.0;
+
+  --font-caption-ur-size: 15px;
+  --font-caption-ur-lh: 1.9;
+
+  /* Quran (Indo-Pak) */
+  --font-title-ar-size: 34px;
+  --font-title-ar-lh: 1.6;
+
+  --font-quran-tile-size: 46px;
+  --font-quran-tile-lh: 1.55;
+
+  /* Touch Sizing & Kiosk Dimensions */
   --touch-target-min: 56px;
-  --touch-padding: 16px 24px;
-  --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 20px;
-  --radius-full: 9999px;
+  --btn-pill-height: 60px;
 
-  /* Elevation Shadows */
-  --shadow-sm: 0 2px 6px rgba(14, 90, 71, 0.06);
-  --shadow-md: 0 6px 18px rgba(14, 90, 71, 0.09);
-  --shadow-lg: 0 12px 36px rgba(14, 90, 71, 0.14);
-  --shadow-modal: 0 20px 60px rgba(8, 59, 46, 0.35);
+  /* Soft Emerald-Tinted Elevation Shadows (2 Levels Only) */
+  --shadow-level-1: 0 4px 16px rgba(11, 74, 59, 0.08);
+  --shadow-level-2: 0 12px 36px rgba(11, 74, 59, 0.16);
 
-  /* Elder Readability Font Multiplier */
-  --arabic-word-size: 46px;
-  --arabic-full-size: 38px;
-  --urdu-text-size: 20px;
-  --en-text-size: 16px;
+  --shadow-sm: var(--shadow-level-1);
+  --shadow-tile: var(--shadow-level-1);
+  --shadow-tile-selected: 0 6px 18px rgba(201, 154, 46, 0.22);
+  --shadow-card: var(--shadow-level-1);
+  --shadow-hero: var(--shadow-level-2);
+  --shadow-modal: var(--shadow-level-2);
 
-  /* Transition speeds */
+  /* 8-Point Islamic Star Pattern (Inline SVG Data URI for Emerald Surfaces) */
+  --pattern-star: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='none' stroke='%23E9C77B' stroke-opacity='0.12' stroke-width='1'%3E%3Crect x='15' y='15' width='30' height='30' rx='1'/%3E%3Crect x='15' y='15' width='30' height='30' rx='1' transform='rotate(45 30 30)'/%3E%3Ccircle cx='30' cy='30' r='5'/%3E%3C/g%3E%3C/svg%3E");
+
+  /* 5-Step Font Scaler Multiplier */
+  --scale-factor: 1.0;
+
+  /* Default Typography Sizes (multiplied by --scale-factor) */
+  --arabic-word-size: calc(44px * var(--scale-factor));
+  --arabic-full-size: calc(38px * var(--scale-factor));
+  --urdu-meaning-size: calc(18px * var(--scale-factor));
+  --en-meaning-size: calc(13px * var(--scale-factor));
+  --trans-text-size: calc(18px * var(--scale-factor));
+
+  /* Transitions */
   --transition-fast: 150ms ease;
   --transition-base: 250ms ease;
   --transition-slow: 400ms ease;
+  --transition-press: 180ms ease-out;
 }
 
-/* Elder Readability Text Scales */
-body.scale-normal {
-  --arabic-word-size: 46px;
-  --arabic-full-size: 38px;
-  --urdu-text-size: 20px;
-  --en-text-size: 16px;
-}
+/* 5-Step Text Scaling Classes */
+body.scale-step-1 { --scale-factor: 0.85; }
+body.scale-step-2 { --scale-factor: 0.92; }
+body.scale-step-3 { --scale-factor: 1.00; }
+body.scale-step-4 { --scale-factor: 1.15; }
+body.scale-step-5 { --scale-factor: 1.30; }
 
-body.scale-large {
-  --arabic-word-size: 56px;
-  --arabic-full-size: 46px;
-  --urdu-text-size: 24px;
-  --en-text-size: 19px;
-}
+/* Legacy aliases for backward compatibility */
+body.scale-normal { --scale-factor: 1.00; }
+body.scale-large { --scale-factor: 1.15; }
+body.scale-xlarge { --scale-factor: 1.30; }
 
-body.scale-xlarge {
-  --arabic-word-size: 66px;
-  --arabic-full-size: 54px;
-  --urdu-text-size: 28px;
-  --en-text-size: 22px;
-}
-
-/* High Contrast Mode (Accessible for Elderly in Bright Mosques) */
+/* High-Contrast Mode for Accessibility */
 body.high-contrast {
-  --color-bg: #000000;
-  --color-surface: #121212;
-  --color-surface-subtle: #1E1E1E;
-  --color-surface-hover: #2A2A2A;
-  --color-border: #444444;
-  --color-border-subtle: #333333;
-  --color-text: #FFFFFF;
-  --color-text-muted: #CCCCCC;
-  --color-text-faint: #AAAAAA;
-  --color-primary: #19876C;
-  --color-primary-tint: #16382E;
-  --color-accent: #FFD700;
-  --color-accent-light: #FFE066;
-  --shadow-md: 0 4px 20px rgba(255, 255, 255, 0.1);
+  --color-parchment: #000000;
+  --color-reading-surface: #121212;
+  --color-parchment-border: #444444;
+  --color-tile-selected: #24221A;
+  --color-ink: #FFFFFF;
+  --color-text-muted: #DDDDDD;
+  --color-primary: #073328;
+  --color-primary-text: #2ECC71;
+  --color-gold: #FFD700;
+  --color-gold-border: #FFD700;
 }
 
 /* Kiosk Interaction Discipline */
@@ -109,5 +168,4 @@ html, body {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none;
-  overscroll-behavior: none;
 }

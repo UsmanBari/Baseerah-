@@ -32,13 +32,53 @@ class AppState {
     this.notify();
   }
 
+  get fontScaleLevel() {
+    return this.settings.fontScaleLevel || 3;
+  }
+
+  set fontScaleLevel(val) {
+    const lvl = Math.max(1, Math.min(5, parseInt(val, 10) || 3));
+    this.settings.fontScaleLevel = lvl;
+    // Map to fontScale for backward compatibility
+    if (lvl <= 2) this.settings.fontScale = "normal";
+    else if (lvl === 4) this.settings.fontScale = "large";
+    else if (lvl === 5) this.settings.fontScale = "xlarge";
+    else this.settings.fontScale = "normal";
+    Storage.saveSettings(this.settings);
+    this.applyFontScale();
+    this.notify();
+  }
+
+  get meaningDisplay() {
+    return this.settings.meaningDisplay || "both";
+  }
+
+  set meaningDisplay(val) {
+    this.settings.meaningDisplay = val;
+    Storage.saveSettings(this.settings);
+    this.notify();
+  }
+
+  applyFontScale() {
+    const lvl = this.fontScaleLevel;
+    document.body.classList.remove("scale-step-1", "scale-step-2", "scale-step-3", "scale-step-4", "scale-step-5", "scale-normal", "scale-large", "scale-xlarge");
+    document.body.classList.add(`scale-step-${lvl}`);
+    if (lvl === 3) document.body.classList.add("scale-normal");
+    else if (lvl === 4) document.body.classList.add("scale-large");
+    else if (lvl === 5) document.body.classList.add("scale-xlarge");
+  }
+
   get fontScale() {
     return this.settings.fontScale;
   }
 
   set fontScale(val) {
     this.settings.fontScale = val;
+    if (val === "large") this.settings.fontScaleLevel = 4;
+    else if (val === "xlarge") this.settings.fontScaleLevel = 5;
+    else this.settings.fontScaleLevel = 3;
     Storage.saveSettings(this.settings);
+    this.applyFontScale();
     this.notify();
   }
 
@@ -70,6 +110,27 @@ class AppState {
     this.settings.readingMode = val;
     Storage.saveSettings(this.settings);
     this.notify();
+  }
+
+  get mushafShowTranslation() {
+    try {
+      const sess = sessionStorage.getItem("baseerah_mushaf_show_trans");
+      if (sess !== null) return sess === "true";
+    } catch (e) {}
+    return true; // on by default
+  }
+
+  set mushafShowTranslation(val) {
+    try {
+      sessionStorage.setItem("baseerah_mushaf_show_trans", val ? "true" : "false");
+    } catch (e) {}
+    this.notify();
+  }
+
+  resetSession() {
+    try {
+      sessionStorage.removeItem("baseerah_mushaf_show_trans");
+    } catch (e) {}
   }
 
   get translationDisplay() {
@@ -110,3 +171,6 @@ class AppState {
 }
 
 export const state = new AppState();
+if (typeof window !== "undefined") {
+  window.state = state;
+}

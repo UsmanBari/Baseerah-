@@ -35,25 +35,25 @@ export function renderAboutScreen(container) {
         <div class="about-section">
           <h3>${isUr ? "قرآنی متن کے ماخذ اور اسناد" : "Quran Text Sources & Attributions"}</h3>
           
-          <div class="about-card">
+          <div class="about-card" dir="ltr">
             <h4>1. Tanzil Project (تنزيل) — Ground Truth Arabic</h4>
             <p><strong>License:</strong> Creative Commons Attribution 3.0 Unported (CC BY 3.0).</p>
             <p><strong>Attribution:</strong> Tanzil Quran Text Copyright © 2007–2024 Tanzil Project. Tanzil Uthmani text serves as the unalterable verification ground truth for all 6,236 ayahs.</p>
           </div>
 
-          <div class="about-card">
+          <div class="about-card" dir="ltr">
             <h4>2. Quranic Universal Library (QUL) by Tarteel AI</h4>
             <p><strong>Resources:</strong> Script 59 (Indo-Pak Nastaleeq WBW), Script 89 (Indo-Pak Nastaleeq Ayahs), Translation 93 (Urdu WBW), Translation 92 (English WBW).</p>
             <p><strong>Attribution:</strong> Courtesy of Tarteel AI and the open Quran research community.</p>
           </div>
 
-          <div class="about-card">
+          <div class="about-card" dir="ltr">
             <h4>3. Indo-Pak Nastaleeq Typography</h4>
-            <p><strong>Font:</strong> AlQuran IndoPak by QuranWBW (v2.100) by Ayman Siddiqui.</p>
-            <p><strong>Notice:</strong> Complete 435 PUA glyph mappings for South Asian Nastaleeq calligraphic ligatures. Commercial use permissions initiated by Acme One.</p>
+            <p><strong>Font:</strong> AlQuran IndoPak by QuranWBW (v2.100).</p>
+            <p><strong>Author:</strong> Ayman Siddiqui (QuranWBW).</p>
           </div>
 
-          <div class="about-card">
+          <div class="about-card" dir="ltr">
             <h4>4. Full Ayah Translations (QuranEnc)</h4>
             <p><strong>Urdu:</strong> Maulana Muhammad Junagarhi (urdu_junagarhi), verified by King Fahd Glorious Quran Printing Complex.</p>
             <p><strong>English:</strong> Saheeh International (english_saheeh).</p>

@@ -13,14 +13,14 @@ SURAHS_DIR = os.path.join(DATA_DIR, "surahs")
 
 FEATURED_COORDINATES = [
     {"surah": 1, "ayah": 1, "themeEn": "The Opening", "themeUr": "فاتحۃ الکتاب"},
-    {"surah": 2, "ayah": 255, "themeEn": "Ayat al-Kursi", "themeUr": "آیت الکرسی"},
-    {"surah": 2, "ayah": 286, "themeEn": "Allah does not burden a soul beyond capacity", "themeUr": "اللہ کسی جان پر بوجھ نہیں ڈالتا"},
+    {"surah": 2, "ayah": 153, "themeEn": "Allah is with the patient", "themeUr": "اللہ صبر کرنے والوں کے ساتھ ہے"},
+    {"surah": 2, "ayah": 201, "themeEn": "Supplication for goodness in both worlds", "themeUr": "دنیا اور آخرت کی بھلائی کی دعا"},
     {"surah": 3, "ayah": 139, "themeEn": "Do not lose heart nor fall into despair", "themeUr": "نہ ہمت ہارو اور نہ غمگین ہو"},
     {"surah": 13, "ayah": 28, "themeEn": "In the remembrance of Allah hearts find rest", "themeUr": "اللہ کی یاد سے دلوں کو اطمینان ملتا ہے"},
-    {"surah": 24, "ayah": 35, "themeEn": "Allah is the Light of the heavens and the earth", "themeUr": "اللہ آسمانوں اور زمین کا نور ہے"},
     {"surah": 55, "ayah": 13, "themeEn": "Which of the favors of your Lord will you deny?", "themeUr": "تم اپنے رب کی کن کن نعمتوں کو جھٹلاؤ گے؟"},
     {"surah": 65, "ayah": 3, "themeEn": "Whoever relies upon Allah, He is sufficient", "themeUr": "جو اللہ پر بھروسہ کرے وہ اس کے لیے کافی ہے"},
     {"surah": 94, "ayah": 5, "themeEn": "Indeed, with hardship comes ease", "themeUr": "بے شک تنگی کے ساتھ آسانی ہے"},
+    {"surah": 94, "ayah": 6, "themeEn": "Indeed, with hardship comes ease", "themeUr": "یقیناً تنگی کے ساتھ آسانی ہے"},
     {"surah": 112, "ayah": 1, "themeEn": "Say, He is Allah, [who is] One", "themeUr": "کہہ دیجیے کہ وہ اللہ ایک ہے"}
 ]
 

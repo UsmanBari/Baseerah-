@@ -1,6 +1,7 @@
 /* Baseerah — Idle Activity Detector for Kiosk */
 import { state } from "./state.js";
 import { router } from "./router.js";
+import { audioManager } from "./audio.js";
 
 let idleTimer = null;
 
@@ -15,14 +16,22 @@ export const Idle = {
 
   reset() {
     clearTimeout(idleTimer);
-    const timeoutSeconds = state.settings.idleSeconds || 60;
+    const timeoutSeconds = (state.settings && state.settings.idleSeconds !== undefined && state.settings.idleSeconds !== null)
+      ? state.settings.idleSeconds
+      : 60;
     if (timeoutSeconds <= 0) {
-      return; // Disabled in admin settings
+      return; // Disabled in admin settings or tests
     }
 
     idleTimer = setTimeout(() => {
       // If we are already on attract screen, do nothing
       if (router.getCurrentScreen() === "attract") return;
+
+      // Stop any active recitation audio on idle return
+      audioManager.stop();
+
+      // Reset session preferences (mushaf translations default to ON)
+      state.resetSession();
 
       // Reset to home or attract screen
       router.navigate("attract");

@@ -1,0 +1,2872 @@
+{
+  "1:1:1": {
+    "text": "بِسْمِ",
+    "segmented": true,
+    "prefix": "بِ",
+    "stem": "سْمِ",
+    "suffix": "",
+    "stem_clean": "سم",
+    "legend": {
+      "en": "بِ = with / by · سْمِ = In the name",
+      "ur": "بِ = ساتھ / سے · سْمِ = ساتھ نام"
+    }
+  },
+  "1:1:2": {
+    "text": "اللّٰهِ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اللّٰهِ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "1:1:3": {
+    "text": "الرَّحْمٰنِ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'رحمان'"
+  },
+  "1:1:4": {
+    "text": "الرَّحِیْمِ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "رَّحِیْمِ",
+    "suffix": "",
+    "stem_clean": "رحيم",
+    "legend": {
+      "en": "ال = the · رَّحِیْمِ = the Most Merciful",
+      "ur": "ال = خاص / وہ · رَّحِیْمِ = بار بار رحم فرمانے والا ہے"
+    }
+  },
+  "1:2:1": {
+    "text": "اَلْحَمْدُ",
+    "segmented": true,
+    "prefix": "اَلْ",
+    "stem": "حَمْدُ",
+    "suffix": "",
+    "stem_clean": "حمد",
+    "legend": {
+      "en": "اَلْ = the · حَمْدُ = All praises and thanks",
+      "ur": "اَلْ = خاص / وہ · حَمْدُ = سب تعریف"
+    }
+  },
+  "1:2:2": {
+    "text": "لِلّٰهِ",
+    "segmented": true,
+    "prefix": "لِ",
+    "stem": "لّٰهِ",
+    "suffix": "",
+    "stem_clean": "له",
+    "legend": {
+      "en": "لِ = for / to · لّٰهِ = be to Allah",
+      "ur": "لِ = کے لیے · لّٰهِ = اللہ کے لیے ہے"
+    }
+  },
+  "1:2:3": {
+    "text": "رَبِّ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "رَبِّ",
+    "suffix": "",
+    "stem_clean": "رب",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "1:2:4": {
+    "text": "الْعٰلَمِیْنَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'عالمين'"
+  },
+  "1:3:1": {
+    "text": "الرَّحْمٰنِ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'رحمان'"
+  },
+  "1:3:2": {
+    "text": "الرَّحِیْمِ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "رَّحِیْمِ",
+    "suffix": "",
+    "stem_clean": "رحيم",
+    "legend": {
+      "en": "ال = the · رَّحِیْمِ = the Most Merciful",
+      "ur": "ال = خاص / وہ · رَّحِیْمِ = بار بار رحم فرمانے والا ہے"
+    }
+  },
+  "1:4:1": {
+    "text": "مٰلِكِ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'مالك'"
+  },
+  "1:4:2": {
+    "text": "یَوْمِ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَوْمِ",
+    "suffix": "",
+    "stem_clean": "يوم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "1:4:3": {
+    "text": "الدِّیْنِ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "دِّیْنِ",
+    "suffix": "",
+    "stem_clean": "دين",
+    "legend": {
+      "en": "ال = the · دِّیْنِ = of the Judgment",
+      "ur": "ال = خاص / وہ · دِّیْنِ = بدلے کے"
+    }
+  },
+  "1:5:1": {
+    "text": "اِیَّاكَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِیَّاكَ",
+    "suffix": "",
+    "stem_clean": "اياك",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "1:5:2": {
+    "text": "نَعْبُدُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "نَعْبُدُ",
+    "suffix": "",
+    "stem_clean": "نعبد",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "1:5:3": {
+    "text": "وَاِیَّاكَ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "اِیَّاكَ",
+    "suffix": "",
+    "stem_clean": "اياك",
+    "legend": {
+      "en": "وَ = and · اِیَّاكَ = and You Alone",
+      "ur": "وَ = اور · اِیَّاكَ = اور صرف تجھ سے"
+    }
+  },
+  "1:5:4": {
+    "text": "نَسْتَعِیْنُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "نَسْتَعِیْنُ",
+    "suffix": "",
+    "stem_clean": "نستعين",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "1:6:1": {
+    "text": "اِهْدِنَا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِهْدِ",
+    "suffix": "نَا",
+    "stem_clean": "اهد",
+    "legend": {
+      "en": "اِهْدِ = Guide us · نَا = us / our",
+      "ur": "اِهْدِ = دکھا ہم کو · نَا = ہمارا / ہمیں"
+    }
+  },
+  "1:6:2": {
+    "text": "الصِّرَاطَ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "صِّرَاطَ",
+    "suffix": "",
+    "stem_clean": "صراط",
+    "legend": {
+      "en": "ال = the · صِّرَاطَ = to the path",
+      "ur": "ال = خاص / وہ · صِّرَاطَ = راستہ"
+    }
+  },
+  "1:6:3": {
+    "text": "الْمُسْتَقِیْمَ",
+    "segmented": true,
+    "prefix": "الْ",
+    "stem": "مُسْتَقِیْمَ",
+    "suffix": "",
+    "stem_clean": "مستقيم",
+    "legend": {
+      "en": "الْ = the · مُسْتَقِیْمَ = the straight",
+      "ur": "الْ = خاص / وہ · مُسْتَقِیْمَ = سیدھا"
+    }
+  },
+  "1:7:1": {
+    "text": "صِرَاطَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "صِرَاطَ",
+    "suffix": "",
+    "stem_clean": "صراط",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "1:7:2": {
+    "text": "الَّذِیْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "الَّذِیْنَ",
+    "suffix": "",
+    "stem_clean": "الذين",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "1:7:3": {
+    "text": "اَنْعَمْتَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَنْعَمْ",
+    "suffix": "تَ",
+    "stem_clean": "انعم",
+    "legend": {
+      "en": "اَنْعَمْ = You have bestowed Your Favors",
+      "ur": "اَنْعَمْ = انعام کیا تو نے"
+    }
+  },
+  "1:7:4": {
+    "text": "عَلَیْهِمْ ۙ۬ۦ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَلَیْ",
+    "suffix": "هِمْ ۙ۬ۦ",
+    "stem_clean": "علي",
+    "legend": {
+      "en": "عَلَیْ = on them · هِمْ ۙ۬ۦ = them / their",
+      "ur": "عَلَیْ = اوپر ان کے · هِمْ ۙ۬ۦ = ان کا / انہیں"
+    }
+  },
+  "1:7:5": {
+    "text": "غَیْرِ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "غَیْرِ",
+    "suffix": "",
+    "stem_clean": "غير",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "1:7:6": {
+    "text": "الْمَغْضُوْبِ",
+    "segmented": true,
+    "prefix": "الْ",
+    "stem": "مَغْضُوْبِ",
+    "suffix": "",
+    "stem_clean": "مغضوب",
+    "legend": {
+      "en": "الْ = the · مَغْضُوْبِ = those who earned Your wrath",
+      "ur": "الْ = خاص / وہ · مَغْضُوْبِ = غضب کیا گیا"
+    }
+  },
+  "1:7:7": {
+    "text": "عَلَیْهِمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَلَیْ",
+    "suffix": "هِمْ",
+    "stem_clean": "علي",
+    "legend": {
+      "en": "عَلَیْ = on themselves · هِمْ = them / their",
+      "ur": "عَلَیْ = اوپر ان کے · هِمْ = ان کا / انہیں"
+    }
+  },
+  "1:7:8": {
+    "text": "وَلَا",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "لَا",
+    "suffix": "",
+    "stem_clean": "لا",
+    "legend": {
+      "en": "وَ = and · لَا = and not",
+      "ur": "وَ = اور · لَا = اور نہ"
+    }
+  },
+  "1:7:9": {
+    "text": "الضَّآلِّیْنَ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "ضَّآلِّیْنَ",
+    "suffix": "",
+    "stem_clean": "ضالين",
+    "legend": {
+      "en": "ال = the · ضَّآلِّیْنَ = of those who go astray",
+      "ur": "ال = خاص / وہ · ضَّآلِّیْنَ = ان لوگوں کا جو گمراہ ہیں / گم کردہ راہ ہیں"
+    }
+  },
+  "2:1:1": {
+    "text": "الٓمّٓ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "الٓمّٓ",
+    "suffix": "",
+    "stem_clean": "الم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:2:1": {
+    "text": "ذٰلِكَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ذالك'"
+  },
+  "2:2:2": {
+    "text": "الْكِتٰبُ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'كتاب'"
+  },
+  "2:2:3": {
+    "text": "لَا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "لَا",
+    "suffix": "",
+    "stem_clean": "لا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:2:4": {
+    "text": "رَیْبَ ۛۖۚ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "رَیْبَ ۛۖۚ",
+    "suffix": "",
+    "stem_clean": "ريب",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:2:5": {
+    "text": "فِیْهِ ۛۚ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "فِیْ",
+    "suffix": "هِ ۛۚ",
+    "stem_clean": "في",
+    "legend": {
+      "en": "فِیْ = in it · هِ ۛۚ = him / his / it",
+      "ur": "فِیْ = جس  میں · هِ ۛۚ = اس کا / اسے"
+    }
+  },
+  "2:2:6": {
+    "text": "هُدًی",
+    "segmented": true,
+    "prefix": "",
+    "stem": "هُدًی",
+    "suffix": "",
+    "stem_clean": "هدى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:2:7": {
+    "text": "لِّلْمُتَّقِیْنَ",
+    "segmented": true,
+    "prefix": "لِّلْ",
+    "stem": "مُتَّقِیْنَ",
+    "suffix": "",
+    "stem_clean": "متقين",
+    "legend": {
+      "en": "مُتَّقِیْنَ = for the God-conscious",
+      "ur": "مُتَّقِیْنَ = واسطے ان کے جو متقی ہیں"
+    }
+  },
+  "2:3:1": {
+    "text": "الَّذِیْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "الَّذِیْنَ",
+    "suffix": "",
+    "stem_clean": "الذين",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:3:2": {
+    "text": "یُؤْمِنُوْنَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'يومن'"
+  },
+  "2:3:3": {
+    "text": "بِالْغَیْبِ",
+    "segmented": true,
+    "prefix": "بِالْ",
+    "stem": "غَیْبِ",
+    "suffix": "",
+    "stem_clean": "غيب",
+    "legend": {
+      "en": "غَیْبِ = in the unseen",
+      "ur": "غَیْبِ = غیب پر"
+    }
+  },
+  "2:3:4": {
+    "text": "وَیُقِیْمُوْنَ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "یُقِیْمُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يقيم",
+    "legend": {
+      "en": "وَ = and · یُقِیْمُ = and establish",
+      "ur": "وَ = اور · یُقِیْمُ = اور وہ قائم کرتے ہیں"
+    }
+  },
+  "2:3:5": {
+    "text": "الصَّلٰوةَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'صلواة'"
+  },
+  "2:3:6": {
+    "text": "وَمِمَّا",
+    "segmented": false,
+    "reason": "matches=2 for stem 'م'"
+  },
+  "2:3:7": {
+    "text": "رَزَقْنٰهُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "رَزَقْ",
+    "suffix": "نٰهُمْ",
+    "stem_clean": "رزق",
+    "legend": {
+      "en": "رَزَقْ = We have provided them",
+      "ur": "رَزَقْ = رزق دیا ہم نے ان کو"
+    }
+  },
+  "2:3:8": {
+    "text": "یُنْفِقُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یُنْفِقُ",
+    "suffix": "وْنَ",
+    "stem_clean": "ينفق",
+    "legend": {
+      "en": "یُنْفِقُ = they spend",
+      "ur": "یُنْفِقُ = وہ خرچ کرتے ہیں"
+    }
+  },
+  "2:4:1": {
+    "text": "وَالَّذِیْنَ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "الَّذِیْنَ",
+    "suffix": "",
+    "stem_clean": "الذين",
+    "legend": {
+      "en": "وَ = and · الَّذِیْنَ = And those who",
+      "ur": "وَ = اور · الَّذِیْنَ = اور وہ لوگ"
+    }
+  },
+  "2:4:2": {
+    "text": "یُؤْمِنُوْنَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'يومن'"
+  },
+  "2:4:3": {
+    "text": "بِمَاۤ",
+    "segmented": true,
+    "prefix": "بِ",
+    "stem": "مَاۤ",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "بِ = with / by · مَاۤ = in what",
+      "ur": "بِ = ساتھ / سے · مَاۤ = ساتھ اس کے جو"
+    }
+  },
+  "2:4:4": {
+    "text": "اُنْزِلَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اُنْزِلَ",
+    "suffix": "",
+    "stem_clean": "انزل",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:4:5": {
+    "text": "اِلَیْكَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِلَیْ",
+    "suffix": "كَ",
+    "stem_clean": "الي",
+    "legend": {
+      "en": "اِلَیْ = to you · كَ = you / your",
+      "ur": "اِلَیْ = طرف آپ کے · كَ = تیرا / تجھے"
+    }
+  },
+  "2:4:6": {
+    "text": "وَمَاۤ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "مَاۤ",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "وَ = and · مَاۤ = and what",
+      "ur": "وَ = اور · مَاۤ = اور جو"
+    }
+  },
+  "2:4:7": {
+    "text": "اُنْزِلَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اُنْزِلَ",
+    "suffix": "",
+    "stem_clean": "انزل",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:4:8": {
+    "text": "مِنْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مِنْ",
+    "suffix": "",
+    "stem_clean": "من",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:4:9": {
+    "text": "قَبْلِكَ ۚ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قَبْلِ",
+    "suffix": "كَ ۚ",
+    "stem_clean": "قبل",
+    "legend": {
+      "en": "قَبْلِ = before you · كَ ۚ = you / your",
+      "ur": "قَبْلِ = آپ سے پہلے · كَ ۚ = تیرا / تجھے"
+    }
+  },
+  "2:4:10": {
+    "text": "وَبِالْاٰخِرَةِ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءاخرة'"
+  },
+  "2:4:11": {
+    "text": "هُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "هُمْ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:4:12": {
+    "text": "یُوْقِنُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یُوْقِنُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يوقن",
+    "legend": {
+      "en": "یُوْقِنُ = firmly believe",
+      "ur": "یُوْقِنُ = وہ یقین رکھتے ہیں"
+    }
+  },
+  "2:5:1": {
+    "text": "اُولٰٓىِٕكَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'اولايك'"
+  },
+  "2:5:2": {
+    "text": "عَلٰی",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَلٰی",
+    "suffix": "",
+    "stem_clean": "على",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:5:3": {
+    "text": "هُدًی",
+    "segmented": true,
+    "prefix": "",
+    "stem": "هُدًی",
+    "suffix": "",
+    "stem_clean": "هدى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:5:4": {
+    "text": "مِّنْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مِّنْ",
+    "suffix": "",
+    "stem_clean": "من",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:5:5": {
+    "text": "رَّبِّهِمْ ۗ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "رَّبِّ",
+    "suffix": "هِمْ ۗ",
+    "stem_clean": "رب",
+    "legend": {
+      "en": "رَّبِّ = their Lord · هِمْ ۗ = them / their",
+      "ur": "رَّبِّ = اپنے رب کی طرف سے · هِمْ ۗ = ان کا / انہیں"
+    }
+  },
+  "2:5:6": {
+    "text": "وَاُولٰٓىِٕكَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'اولايك'"
+  },
+  "2:5:7": {
+    "text": "هُمُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "هُمُ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:5:8": {
+    "text": "الْمُفْلِحُوْنَ",
+    "segmented": true,
+    "prefix": "الْ",
+    "stem": "مُفْلِحُوْنَ",
+    "suffix": "",
+    "stem_clean": "مفلحون",
+    "legend": {
+      "en": "الْ = the · مُفْلِحُوْنَ = are the successful ones",
+      "ur": "الْ = خاص / وہ · مُفْلِحُوْنَ = جو فلاح پانے والے ہیں"
+    }
+  },
+  "2:6:1": {
+    "text": "اِنَّ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِنَّ",
+    "suffix": "",
+    "stem_clean": "ان",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:6:2": {
+    "text": "الَّذِیْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "الَّذِیْنَ",
+    "suffix": "",
+    "stem_clean": "الذين",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:6:3": {
+    "text": "كَفَرُوْا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "كَفَرُ",
+    "suffix": "وْا",
+    "stem_clean": "كفر",
+    "legend": {
+      "en": "كَفَرُ = disbelieved",
+      "ur": "كَفَرُ = جنہوں نے کفر کیا"
+    }
+  },
+  "2:6:4": {
+    "text": "سَوَآءٌ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "سَوَآءٌ",
+    "suffix": "",
+    "stem_clean": "سواء",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:6:5": {
+    "text": "عَلَیْهِمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَلَیْ",
+    "suffix": "هِمْ",
+    "stem_clean": "علي",
+    "legend": {
+      "en": "عَلَیْ = to them · هِمْ = them / their",
+      "ur": "عَلَیْ = اوپر ان کے · هِمْ = ان کا / انہیں"
+    }
+  },
+  "2:6:6": {
+    "text": "ءَاَنْذَرْتَهُمْ",
+    "segmented": true,
+    "prefix": "ءَ",
+    "stem": "اَنْذَرْ",
+    "suffix": "تَهُمْ",
+    "stem_clean": "انذر",
+    "legend": {
+      "en": "اَنْذَرْ = whether you warn them",
+      "ur": "اَنْذَرْ = تم ڈراؤ ان کو"
+    }
+  },
+  "2:6:7": {
+    "text": "اَمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَمْ",
+    "suffix": "",
+    "stem_clean": "ام",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:6:8": {
+    "text": "لَمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "لَمْ",
+    "suffix": "",
+    "stem_clean": "لم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:6:9": {
+    "text": "تُنْذِرْهُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "تُنْذِرْ",
+    "suffix": "هُمْ",
+    "stem_clean": "تنذر",
+    "legend": {
+      "en": "تُنْذِرْ = you warn them · هُمْ = them / their",
+      "ur": "تُنْذِرْ = تم  ڈراؤ انکو · هُمْ = ان کا / انہیں"
+    }
+  },
+  "2:6:10": {
+    "text": "لَا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "لَا",
+    "suffix": "",
+    "stem_clean": "لا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:6:11": {
+    "text": "یُؤْمِنُوْنَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'يومن'"
+  },
+  "2:7:1": {
+    "text": "خَتَمَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "خَتَمَ",
+    "suffix": "",
+    "stem_clean": "ختم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:7:2": {
+    "text": "اللّٰهُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اللّٰهُ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:7:3": {
+    "text": "عَلٰی",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَلٰی",
+    "suffix": "",
+    "stem_clean": "على",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:7:4": {
+    "text": "قُلُوْبِهِمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قُلُوْبِ",
+    "suffix": "هِمْ",
+    "stem_clean": "قلوب",
+    "legend": {
+      "en": "قُلُوْبِ = their hearts · هِمْ = them / their",
+      "ur": "قُلُوْبِ = ان کے دلوں کے · هِمْ = ان کا / انہیں"
+    }
+  },
+  "2:7:5": {
+    "text": "وَعَلٰی",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "عَلٰی",
+    "suffix": "",
+    "stem_clean": "على",
+    "legend": {
+      "en": "وَ = and · عَلٰی = and on",
+      "ur": "وَ = اور · عَلٰی = اور اوپر"
+    }
+  },
+  "2:7:6": {
+    "text": "سَمْعِهِمْ ؕ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "سَمْعِ",
+    "suffix": "هِمْ ؕ",
+    "stem_clean": "سمع",
+    "legend": {
+      "en": "سَمْعِ = their hearing · هِمْ ؕ = them / their",
+      "ur": "سَمْعِ = ان کے کانوں کے · هِمْ ؕ = ان کا / انہیں"
+    }
+  },
+  "2:7:7": {
+    "text": "وَعَلٰۤی",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "عَلٰۤی",
+    "suffix": "",
+    "stem_clean": "على",
+    "legend": {
+      "en": "وَ = and · عَلٰۤی = and on",
+      "ur": "وَ = اور · عَلٰۤی = اور اوپر"
+    }
+  },
+  "2:7:8": {
+    "text": "اَبْصَارِهِمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَبْصَارِ",
+    "suffix": "هِمْ",
+    "stem_clean": "ابصار",
+    "legend": {
+      "en": "اَبْصَارِ = their vision · هِمْ = them / their",
+      "ur": "اَبْصَارِ = ان کی آنکھوں کے · هِمْ = ان کا / انہیں"
+    }
+  },
+  "2:7:9": {
+    "text": "غِشَاوَةٌ ؗ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "غِشَاوَةٌ ؗ",
+    "suffix": "",
+    "stem_clean": "غشاوة",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:7:10": {
+    "text": "وَّلَهُمْ",
+    "segmented": true,
+    "prefix": "وَّلَ",
+    "stem": "هُمْ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "هُمْ = And for them",
+      "ur": "هُمْ = ان کے لئے"
+    }
+  },
+  "2:7:11": {
+    "text": "عَذَابٌ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَذَابٌ",
+    "suffix": "",
+    "stem_clean": "عذاب",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:7:12": {
+    "text": "عَظِیْمٌ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَظِیْمٌ",
+    "suffix": "",
+    "stem_clean": "عظيم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:8:1": {
+    "text": "وَمِنَ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "مِنَ",
+    "suffix": "",
+    "stem_clean": "من",
+    "legend": {
+      "en": "وَ = and · مِنَ = And of",
+      "ur": "وَ = اور · مِنَ = اور بعض"
+    }
+  },
+  "2:8:2": {
+    "text": "النَّاسِ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "نَّاسِ",
+    "suffix": "",
+    "stem_clean": "ناس",
+    "legend": {
+      "en": "ال = the · نَّاسِ = the people",
+      "ur": "ال = خاص / وہ · نَّاسِ = لوگ ہیں"
+    }
+  },
+  "2:8:3": {
+    "text": "مَنْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مَنْ",
+    "suffix": "",
+    "stem_clean": "من",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:8:4": {
+    "text": "یَّقُوْلُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَّقُوْلُ",
+    "suffix": "",
+    "stem_clean": "يقول",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:8:5": {
+    "text": "اٰمَنَّا",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءام'"
+  },
+  "2:8:6": {
+    "text": "بِاللّٰهِ",
+    "segmented": true,
+    "prefix": "بِ",
+    "stem": "اللّٰهِ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "بِ = with / by · اللّٰهِ = in Allah",
+      "ur": "بِ = ساتھ / سے · اللّٰهِ = اللہ پر"
+    }
+  },
+  "2:8:7": {
+    "text": "وَبِالْیَوْمِ",
+    "segmented": true,
+    "prefix": "وَبِالْ",
+    "stem": "یَوْمِ",
+    "suffix": "",
+    "stem_clean": "يوم",
+    "legend": {
+      "en": "یَوْمِ = and in the Day",
+      "ur": "یَوْمِ = اور یوم"
+    }
+  },
+  "2:8:8": {
+    "text": "الْاٰخِرِ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءاخر'"
+  },
+  "2:8:9": {
+    "text": "وَمَا",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "مَا",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "وَ = and · مَا = but not",
+      "ur": "وَ = اور · مَا = اور نہیں"
+    }
+  },
+  "2:8:10": {
+    "text": "هُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "هُمْ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:8:11": {
+    "text": "بِمُؤْمِنِیْنَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'مومنين'"
+  },
+  "2:9:1": {
+    "text": "یُخٰدِعُوْنَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'يخادع'"
+  },
+  "2:9:2": {
+    "text": "اللّٰهَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اللّٰهَ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:9:3": {
+    "text": "وَالَّذِیْنَ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "الَّذِیْنَ",
+    "suffix": "",
+    "stem_clean": "الذين",
+    "legend": {
+      "en": "وَ = and · الَّذِیْنَ = and those who",
+      "ur": "وَ = اور · الَّذِیْنَ = اور ان لوگوں کو"
+    }
+  },
+  "2:9:4": {
+    "text": "اٰمَنُوْا ۚ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءامن'"
+  },
+  "2:9:5": {
+    "text": "وَمَا",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "مَا",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "وَ = and · مَا = and not",
+      "ur": "وَ = اور · مَا = اور نہیں"
+    }
+  },
+  "2:9:6": {
+    "text": "یَخْدَعُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَخْدَعُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يخدع",
+    "legend": {
+      "en": "یَخْدَعُ = they deceive",
+      "ur": "یَخْدَعُ = وہ دھوکہ دیتے"
+    }
+  },
+  "2:9:7": {
+    "text": "اِلَّاۤ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِلَّاۤ",
+    "suffix": "",
+    "stem_clean": "الا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:9:8": {
+    "text": "اَنْفُسَهُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَنْفُسَ",
+    "suffix": "هُمْ",
+    "stem_clean": "انفس",
+    "legend": {
+      "en": "اَنْفُسَ = themselves · هُمْ = them / their",
+      "ur": "اَنْفُسَ = اپنے نفسوں کو · هُمْ = ان کا / انہیں"
+    }
+  },
+  "2:9:9": {
+    "text": "وَمَا",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "مَا",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "وَ = and · مَا = and not",
+      "ur": "وَ = اور · مَا = اور نہیں"
+    }
+  },
+  "2:9:10": {
+    "text": "یَشْعُرُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَشْعُرُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يشعر",
+    "legend": {
+      "en": "یَشْعُرُ = they realize it",
+      "ur": "یَشْعُرُ = وہ شعور رکھتے"
+    }
+  },
+  "2:10:1": {
+    "text": "فِیْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "فِیْ",
+    "suffix": "",
+    "stem_clean": "فى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:10:2": {
+    "text": "قُلُوْبِهِمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قُلُوْبِ",
+    "suffix": "هِمْ",
+    "stem_clean": "قلوب",
+    "legend": {
+      "en": "قُلُوْبِ = their hearts · هِمْ = them / their",
+      "ur": "قُلُوْبِ = ان کے دلوں · هِمْ = ان کا / انہیں"
+    }
+  },
+  "2:10:3": {
+    "text": "مَّرَضٌ ۙ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مَّرَضٌ ۙ",
+    "suffix": "",
+    "stem_clean": "مرض",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:10:4": {
+    "text": "فَزَادَهُمُ",
+    "segmented": true,
+    "prefix": "فَ",
+    "stem": "زَادَ",
+    "suffix": "هُمُ",
+    "stem_clean": "زاد",
+    "legend": {
+      "en": "فَ = so / then · زَادَ = so has increased them · هُمُ = them / their",
+      "ur": "فَ = پس / تو · زَادَ = پس زیادہ کیا ان کو / بڑھایا ان کو · هُمُ = ان کا / انہیں"
+    }
+  },
+  "2:10:5": {
+    "text": "اللّٰهُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اللّٰهُ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:10:6": {
+    "text": "مَرَضًا ۚ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مَرَضًا ۚ",
+    "suffix": "",
+    "stem_clean": "مرضا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:10:7": {
+    "text": "وَلَهُمْ",
+    "segmented": true,
+    "prefix": "وَلَ",
+    "stem": "هُمْ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "هُمْ = and for them",
+      "ur": "هُمْ = اور ان کے لئے"
+    }
+  },
+  "2:10:8": {
+    "text": "عَذَابٌ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَذَابٌ",
+    "suffix": "",
+    "stem_clean": "عذاب",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:10:9": {
+    "text": "اَلِیْمٌ ۙ۬۟ ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَلِیْمٌ ۙ۬۟ ",
+    "suffix": "",
+    "stem_clean": "اليم",
+    "legend": {
+      "en": "اَلِیْمٌ ۙ۬۟  = painful",
+      "ur": "اَلِیْمٌ ۙ۬۟  = درد ناک / المناک"
+    }
+  },
+  "2:10:10": {
+    "text": "بِمَا",
+    "segmented": true,
+    "prefix": "بِ",
+    "stem": "مَا",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "بِ = with / by · مَا = because",
+      "ur": "بِ = ساتھ / سے · مَا = بوجہ اس کے جو"
+    }
+  },
+  "2:10:11": {
+    "text": "كَانُوْا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "كَانُ",
+    "suffix": "وْا",
+    "stem_clean": "كان",
+    "legend": {
+      "en": "كَانُ = they used to",
+      "ur": "كَانُ = تھے وہ"
+    }
+  },
+  "2:10:12": {
+    "text": "یَكْذِبُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَكْذِبُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يكذب",
+    "legend": {
+      "en": "یَكْذِبُ = they lie",
+      "ur": "یَكْذِبُ = جھوٹ بولتے"
+    }
+  },
+  "2:11:1": {
+    "text": "وَاِذَا",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "اِذَا",
+    "suffix": "",
+    "stem_clean": "اذا",
+    "legend": {
+      "en": "وَ = and · اِذَا = And when",
+      "ur": "وَ = اور · اِذَا = اور جب"
+    }
+  },
+  "2:11:2": {
+    "text": "قِیْلَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قِیْلَ",
+    "suffix": "",
+    "stem_clean": "قيل",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:11:3": {
+    "text": "لَهُمْ",
+    "segmented": true,
+    "prefix": "لَ",
+    "stem": "هُمْ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "لَ = for / to · هُمْ = to them",
+      "ur": "لَ = کے لیے · هُمْ = ان کو"
+    }
+  },
+  "2:11:4": {
+    "text": "لَا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "لَا",
+    "suffix": "",
+    "stem_clean": "لا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:11:5": {
+    "text": "تُفْسِدُوْا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "تُفْسِدُ",
+    "suffix": "وْا",
+    "stem_clean": "تفسد",
+    "legend": {
+      "en": "تُفْسِدُ = spread corruption",
+      "ur": "تُفْسِدُ = تم فساد کرو"
+    }
+  },
+  "2:11:6": {
+    "text": "فِی",
+    "segmented": true,
+    "prefix": "",
+    "stem": "فِی",
+    "suffix": "",
+    "stem_clean": "فى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:11:7": {
+    "text": "الْاَرْضِ ۙ",
+    "segmented": true,
+    "prefix": "الْ",
+    "stem": "اَرْضِ ۙ",
+    "suffix": "",
+    "stem_clean": "ارض",
+    "legend": {
+      "en": "الْ = the · اَرْضِ ۙ = the earth",
+      "ur": "الْ = خاص / وہ · اَرْضِ ۙ = زمین"
+    }
+  },
+  "2:11:8": {
+    "text": "قَالُوْۤا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قَالُ",
+    "suffix": "وْۤا",
+    "stem_clean": "قال",
+    "legend": {
+      "en": "قَالُ = they say",
+      "ur": "قَالُ = وہ کہتے ہیں"
+    }
+  },
+  "2:11:9": {
+    "text": "اِنَّمَا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِنَّ",
+    "suffix": "مَا",
+    "stem_clean": "ان",
+    "legend": {
+      "en": "اِنَّ = Only",
+      "ur": "اِنَّ = بیشک"
+    }
+  },
+  "2:11:10": {
+    "text": "نَحْنُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "نَحْنُ",
+    "suffix": "",
+    "stem_clean": "نحن",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:11:11": {
+    "text": "مُصْلِحُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مُصْلِحُوْنَ",
+    "suffix": "",
+    "stem_clean": "مصلحون",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:12:1": {
+    "text": "اَلَاۤ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَلَاۤ",
+    "suffix": "",
+    "stem_clean": "الا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:12:2": {
+    "text": "اِنَّهُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِنَّ",
+    "suffix": "هُمْ",
+    "stem_clean": "ان",
+    "legend": {
+      "en": "اِنَّ = indeed they · هُمْ = them / their",
+      "ur": "اِنَّ = بیشک وہ · هُمْ = ان کا / انہیں"
+    }
+  },
+  "2:12:3": {
+    "text": "هُمُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "هُمُ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:12:4": {
+    "text": "الْمُفْسِدُوْنَ",
+    "segmented": true,
+    "prefix": "الْ",
+    "stem": "مُفْسِدُوْنَ",
+    "suffix": "",
+    "stem_clean": "مفسدون",
+    "legend": {
+      "en": "الْ = the · مُفْسِدُوْنَ = are the ones who spread corruption",
+      "ur": "الْ = خاص / وہ · مُفْسِدُوْنَ = جو فساد کرنے والے ہیں"
+    }
+  },
+  "2:12:5": {
+    "text": "وَلٰكِنْ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'لاكن'"
+  },
+  "2:12:6": {
+    "text": "لَّا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "لَّا",
+    "suffix": "",
+    "stem_clean": "لا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:12:7": {
+    "text": "یَشْعُرُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَشْعُرُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يشعر",
+    "legend": {
+      "en": "یَشْعُرُ = they realize it",
+      "ur": "یَشْعُرُ = وہ شعور رکھتے ہیں"
+    }
+  },
+  "2:13:1": {
+    "text": "وَاِذَا",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "اِذَا",
+    "suffix": "",
+    "stem_clean": "اذا",
+    "legend": {
+      "en": "وَ = and · اِذَا = And when",
+      "ur": "وَ = اور · اِذَا = اور جب"
+    }
+  },
+  "2:13:2": {
+    "text": "قِیْلَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قِیْلَ",
+    "suffix": "",
+    "stem_clean": "قيل",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:13:3": {
+    "text": "لَهُمْ",
+    "segmented": true,
+    "prefix": "لَ",
+    "stem": "هُمْ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "لَ = for / to · هُمْ = to them",
+      "ur": "لَ = کے لیے · هُمْ = واسطے ان کے"
+    }
+  },
+  "2:13:4": {
+    "text": "اٰمِنُوْا",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءامن'"
+  },
+  "2:13:5": {
+    "text": "كَمَاۤ",
+    "segmented": true,
+    "prefix": "كَ",
+    "stem": "مَاۤ",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "كَ = like / as · مَاۤ = as",
+      "ur": "كَ = جیسے / مانند · مَاۤ = جیسا کہ"
+    }
+  },
+  "2:13:6": {
+    "text": "اٰمَنَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءامن'"
+  },
+  "2:13:7": {
+    "text": "النَّاسُ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "نَّاسُ",
+    "suffix": "",
+    "stem_clean": "ناس",
+    "legend": {
+      "en": "ال = the · نَّاسُ = the people",
+      "ur": "ال = خاص / وہ · نَّاسُ = لوگ"
+    }
+  },
+  "2:13:8": {
+    "text": "قَالُوْۤا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قَالُ",
+    "suffix": "وْۤا",
+    "stem_clean": "قال",
+    "legend": {
+      "en": "قَالُ = they say",
+      "ur": "قَالُ = وہ کہتے ہیں"
+    }
+  },
+  "2:13:9": {
+    "text": "اَنُؤْمِنُ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'نومن'"
+  },
+  "2:13:10": {
+    "text": "كَمَاۤ",
+    "segmented": true,
+    "prefix": "كَ",
+    "stem": "مَاۤ",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "كَ = like / as · مَاۤ = as",
+      "ur": "كَ = جیسے / مانند · مَاۤ = جیسا کہ"
+    }
+  },
+  "2:13:11": {
+    "text": "اٰمَنَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءامن'"
+  },
+  "2:13:12": {
+    "text": "السُّفَهَآءُ ؕ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "سُّفَهَآءُ ؕ",
+    "suffix": "",
+    "stem_clean": "سفهاء",
+    "legend": {
+      "en": "ال = the · سُّفَهَآءُ ؕ = the fools",
+      "ur": "ال = خاص / وہ · سُّفَهَآءُ ؕ = جو بیوقوف ہیں"
+    }
+  },
+  "2:13:13": {
+    "text": "اَلَاۤ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَلَاۤ",
+    "suffix": "",
+    "stem_clean": "الا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:13:14": {
+    "text": "اِنَّهُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِنَّ",
+    "suffix": "هُمْ",
+    "stem_clean": "ان",
+    "legend": {
+      "en": "اِنَّ = certainly they · هُمْ = them / their",
+      "ur": "اِنَّ = بیشک وہ · هُمْ = ان کا / انہیں"
+    }
+  },
+  "2:13:15": {
+    "text": "هُمُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "هُمُ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:13:16": {
+    "text": "السُّفَهَآءُ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "سُّفَهَآءُ",
+    "suffix": "",
+    "stem_clean": "سفهاء",
+    "legend": {
+      "en": "ال = the · سُّفَهَآءُ = are the fools",
+      "ur": "ال = خاص / وہ · سُّفَهَآءُ = جو بیوقوف ہیں"
+    }
+  },
+  "2:13:17": {
+    "text": "وَلٰكِنْ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'لاكن'"
+  },
+  "2:13:18": {
+    "text": "لَّا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "لَّا",
+    "suffix": "",
+    "stem_clean": "لا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:13:19": {
+    "text": "یَعْلَمُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَعْلَمُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يعلم",
+    "legend": {
+      "en": "یَعْلَمُ = they know",
+      "ur": "یَعْلَمُ = وہ علم رکھتے"
+    }
+  },
+  "2:14:1": {
+    "text": "وَاِذَا",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "اِذَا",
+    "suffix": "",
+    "stem_clean": "اذا",
+    "legend": {
+      "en": "وَ = and · اِذَا = And when",
+      "ur": "وَ = اور · اِذَا = اور جب"
+    }
+  },
+  "2:14:2": {
+    "text": "لَقُوا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "لَقُ",
+    "suffix": "وا",
+    "stem_clean": "لق",
+    "legend": {
+      "en": "لَقُ = they meet",
+      "ur": "لَقُ = ملاقات کرتے ہیں"
+    }
+  },
+  "2:14:3": {
+    "text": "الَّذِیْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "الَّذِیْنَ",
+    "suffix": "",
+    "stem_clean": "الذين",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:14:4": {
+    "text": "اٰمَنُوْا",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءامن'"
+  },
+  "2:14:5": {
+    "text": "قَالُوْۤا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قَالُ",
+    "suffix": "وْۤا",
+    "stem_clean": "قال",
+    "legend": {
+      "en": "قَالُ = they say",
+      "ur": "قَالُ = وہ کہتے ہیں"
+    }
+  },
+  "2:14:6": {
+    "text": "اٰمَنَّا ۖۚ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءام'"
+  },
+  "2:14:7": {
+    "text": "وَاِذَا",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "اِذَا",
+    "suffix": "",
+    "stem_clean": "اذا",
+    "legend": {
+      "en": "وَ = and · اِذَا = But when",
+      "ur": "وَ = اور · اِذَا = اورجب"
+    }
+  },
+  "2:14:8": {
+    "text": "خَلَوْا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "خَلَ",
+    "suffix": "وْا",
+    "stem_clean": "خل",
+    "legend": {
+      "en": "خَلَ = they are alone",
+      "ur": "خَلَ = وہ اکیلے ہوتے ہیں"
+    }
+  },
+  "2:14:9": {
+    "text": "اِلٰی",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِلٰی",
+    "suffix": "",
+    "stem_clean": "الى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:14:10": {
+    "text": "شَیٰطِیْنِهِمْ ۙ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'شياطين'"
+  },
+  "2:14:11": {
+    "text": "قَالُوْۤا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قَالُ",
+    "suffix": "وْۤا",
+    "stem_clean": "قال",
+    "legend": {
+      "en": "قَالُ = they say",
+      "ur": "قَالُ = وہ کہتے ہیں"
+    }
+  },
+  "2:14:12": {
+    "text": "اِنَّا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِنَّ",
+    "suffix": "ا",
+    "stem_clean": "ان",
+    "legend": {
+      "en": "اِنَّ = Indeed, we",
+      "ur": "اِنَّ = بیشک ہم"
+    }
+  },
+  "2:14:13": {
+    "text": "مَعَكُمْ ۙ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مَعَ",
+    "suffix": "كُمْ ۙ",
+    "stem_clean": "مع",
+    "legend": {
+      "en": "مَعَ = are with you · كُمْ ۙ = you (all) / your",
+      "ur": "مَعَ = تمہارے ساتھ ہیں · كُمْ ۙ = تمہارا / تمہیں"
+    }
+  },
+  "2:14:14": {
+    "text": "اِنَّمَا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِنَّ",
+    "suffix": "مَا",
+    "stem_clean": "ان",
+    "legend": {
+      "en": "اِنَّ = only",
+      "ur": "اِنَّ = بیشک"
+    }
+  },
+  "2:14:15": {
+    "text": "نَحْنُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "نَحْنُ",
+    "suffix": "",
+    "stem_clean": "نحن",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:14:16": {
+    "text": "مُسْتَهْزِءُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مُسْتَهْزِءُوْنَ",
+    "suffix": "",
+    "stem_clean": "مستهزءون",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:15:1": {
+    "text": "اَللّٰهُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَللّٰهُ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:15:2": {
+    "text": "یَسْتَهْزِئُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَسْتَهْزِئُ",
+    "suffix": "",
+    "stem_clean": "يستهزي",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:15:3": {
+    "text": "بِهِمْ",
+    "segmented": true,
+    "prefix": "بِ",
+    "stem": "هِمْ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "بِ = with / by · هِمْ = at them",
+      "ur": "بِ = ساتھ / سے · هِمْ = ساتھ ان کے"
+    }
+  },
+  "2:15:4": {
+    "text": "وَیَمُدُّهُمْ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "یَمُدُّ",
+    "suffix": "هُمْ",
+    "stem_clean": "يمد",
+    "legend": {
+      "en": "وَ = and · یَمُدُّ = and prolongs them · هُمْ = them / their",
+      "ur": "وَ = اور · یَمُدُّ = اور وہ ڈھیل دے رہا ہے ان کو · هُمْ = ان کا / انہیں"
+    }
+  },
+  "2:15:5": {
+    "text": "فِیْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "فِیْ",
+    "suffix": "",
+    "stem_clean": "فى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:15:6": {
+    "text": "طُغْیَانِهِمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "طُغْیَانِ",
+    "suffix": "هِمْ",
+    "stem_clean": "طغيان",
+    "legend": {
+      "en": "طُغْیَانِ = their transgression · هِمْ = them / their",
+      "ur": "طُغْیَانِ = سرکشی میں · هِمْ = ان کا / انہیں"
+    }
+  },
+  "2:15:7": {
+    "text": "یَعْمَهُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَعْمَهُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يعمه",
+    "legend": {
+      "en": "یَعْمَهُ = they wander blindly",
+      "ur": "یَعْمَهُ = وہ بھٹک رہے ہیں/ اندھے بنے پھرتے ہیں"
+    }
+  },
+  "2:16:1": {
+    "text": "اُولٰٓىِٕكَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'اولايك'"
+  },
+  "2:16:2": {
+    "text": "الَّذِیْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "الَّذِیْنَ",
+    "suffix": "",
+    "stem_clean": "الذين",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:16:3": {
+    "text": "اشْتَرَوُا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اشْتَرَ",
+    "suffix": "وُا",
+    "stem_clean": "اشتر",
+    "legend": {
+      "en": "اشْتَرَ = bought",
+      "ur": "اشْتَرَ = جنہوں نے خرید لی"
+    }
+  },
+  "2:16:4": {
+    "text": "الضَّلٰلَةَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ضلالة'"
+  },
+  "2:16:5": {
+    "text": "بِالْهُدٰی ۪",
+    "segmented": true,
+    "prefix": "بِالْ",
+    "stem": "هُدٰی ۪",
+    "suffix": "",
+    "stem_clean": "هدى",
+    "legend": {
+      "en": "هُدٰی ۪ = for the guidance",
+      "ur": "هُدٰی ۪ = بدلے ہدایت کے"
+    }
+  },
+  "2:16:6": {
+    "text": "فَمَا",
+    "segmented": true,
+    "prefix": "فَ",
+    "stem": "مَا",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "فَ = so / then · مَا = So not",
+      "ur": "فَ = پس / تو · مَا = تو نہ"
+    }
+  },
+  "2:16:7": {
+    "text": "رَبِحَتْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "رَبِحَتْ",
+    "suffix": "",
+    "stem_clean": "ربحت",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:16:8": {
+    "text": "تِّجَارَتُهُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "تِّجَارَتُ",
+    "suffix": "هُمْ",
+    "stem_clean": "تجارت",
+    "legend": {
+      "en": "تِّجَارَتُ = their commerce · هُمْ = them / their",
+      "ur": "تِّجَارَتُ = تجارت ان کی نے · هُمْ = ان کا / انہیں"
+    }
+  },
+  "2:16:9": {
+    "text": "وَمَا",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "مَا",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "وَ = and · مَا = and not",
+      "ur": "وَ = اور · مَا = اور نہ"
+    }
+  },
+  "2:16:10": {
+    "text": "كَانُوْا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "كَانُ",
+    "suffix": "وْا",
+    "stem_clean": "كان",
+    "legend": {
+      "en": "كَانُ = were they",
+      "ur": "كَانُ = تھے وہ"
+    }
+  },
+  "2:16:11": {
+    "text": "مُهْتَدِیْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مُهْتَدِیْنَ",
+    "suffix": "",
+    "stem_clean": "مهتدين",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:1": {
+    "text": "مَثَلُهُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مَثَلُ",
+    "suffix": "هُمْ",
+    "stem_clean": "مثل",
+    "legend": {
+      "en": "مَثَلُ = Their example · هُمْ = them / their",
+      "ur": "مَثَلُ = مثال ان کی · هُمْ = ان کا / انہیں"
+    }
+  },
+  "2:17:2": {
+    "text": "كَمَثَلِ",
+    "segmented": true,
+    "prefix": "كَ",
+    "stem": "مَثَلِ",
+    "suffix": "",
+    "stem_clean": "مثل",
+    "legend": {
+      "en": "كَ = like / as · مَثَلِ = is like the example",
+      "ur": "كَ = جیسے / مانند · مَثَلِ = جیسے مثال کی"
+    }
+  },
+  "2:17:3": {
+    "text": "الَّذِی",
+    "segmented": true,
+    "prefix": "",
+    "stem": "الَّذِی",
+    "suffix": "",
+    "stem_clean": "الذى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:4": {
+    "text": "اسْتَوْقَدَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اسْتَوْقَدَ",
+    "suffix": "",
+    "stem_clean": "استوقد",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:5": {
+    "text": "نَارًا ۚ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "نَارًا ۚ",
+    "suffix": "",
+    "stem_clean": "نارا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:6": {
+    "text": "فَلَمَّاۤ",
+    "segmented": true,
+    "prefix": "فَ",
+    "stem": "لَمَّاۤ",
+    "suffix": "",
+    "stem_clean": "لما",
+    "legend": {
+      "en": "فَ = so / then · لَمَّاۤ = then, when",
+      "ur": "فَ = پس / تو · لَمَّاۤ = پھر جب"
+    }
+  },
+  "2:17:7": {
+    "text": "اَضَآءَتْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَضَآءَتْ",
+    "suffix": "",
+    "stem_clean": "اضاءت",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:8": {
+    "text": "مَا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مَا",
+    "suffix": "",
+    "stem_clean": "ما",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:9": {
+    "text": "حَوْلَهٗ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "حَوْلَ",
+    "suffix": "هٗ",
+    "stem_clean": "حول",
+    "legend": {
+      "en": "حَوْلَ = was around him · هٗ = him / his / it",
+      "ur": "حَوْلَ = ماحول · هٗ = اس کا / اسے"
+    }
+  },
+  "2:17:10": {
+    "text": "ذَهَبَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "ذَهَبَ",
+    "suffix": "",
+    "stem_clean": "ذهب",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:11": {
+    "text": "اللّٰهُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اللّٰهُ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:12": {
+    "text": "بِنُوْرِهِمْ",
+    "segmented": true,
+    "prefix": "بِ",
+    "stem": "نُوْرِ",
+    "suffix": "هِمْ",
+    "stem_clean": "نور",
+    "legend": {
+      "en": "بِ = with / by · نُوْرِ = their light · هِمْ = them / their",
+      "ur": "بِ = ساتھ / سے · نُوْرِ = نور ان کا · هِمْ = ان کا / انہیں"
+    }
+  },
+  "2:17:13": {
+    "text": "وَتَرَكَهُمْ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "تَرَكَ",
+    "suffix": "هُمْ",
+    "stem_clean": "ترك",
+    "legend": {
+      "en": "وَ = and · تَرَكَ = and left them · هُمْ = them / their",
+      "ur": "وَ = اور · تَرَكَ = اورچھوڑ دیا ان کو · هُمْ = ان کا / انہیں"
+    }
+  },
+  "2:17:14": {
+    "text": "فِیْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "فِیْ",
+    "suffix": "",
+    "stem_clean": "فى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:15": {
+    "text": "ظُلُمٰتٍ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ظلمات'"
+  },
+  "2:17:16": {
+    "text": "لَّا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "لَّا",
+    "suffix": "",
+    "stem_clean": "لا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:17:17": {
+    "text": "یُبْصِرُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یُبْصِرُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يبصر",
+    "legend": {
+      "en": "یُبْصِرُ = do they see",
+      "ur": "یُبْصِرُ = وہ دیکھ پاتے"
+    }
+  },
+  "2:18:1": {
+    "text": "صُمٌّۢ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "صُمٌّ",
+    "suffix": "ۢ",
+    "stem_clean": "صم",
+    "legend": {
+      "en": "صُمٌّ = Deaf",
+      "ur": "صُمٌّ = بہرے ہیں"
+    }
+  },
+  "2:18:2": {
+    "text": "بُكْمٌ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "بُكْمٌ",
+    "suffix": "",
+    "stem_clean": "بكم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:18:3": {
+    "text": "عُمْیٌ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عُمْیٌ",
+    "suffix": "",
+    "stem_clean": "عمى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:18:4": {
+    "text": "فَهُمْ",
+    "segmented": true,
+    "prefix": "فَ",
+    "stem": "هُمْ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "فَ = so / then · هُمْ = so they",
+      "ur": "فَ = پس / تو · هُمْ = تو وہ"
+    }
+  },
+  "2:18:5": {
+    "text": "لَا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "لَا",
+    "suffix": "",
+    "stem_clean": "لا",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:18:6": {
+    "text": "یَرْجِعُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَرْجِعُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يرجع",
+    "legend": {
+      "en": "یَرْجِعُ = they will not return",
+      "ur": "یَرْجِعُ = وہ پلیٹیں گے / وہ لوٹیں گے"
+    }
+  },
+  "2:19:1": {
+    "text": "اَوْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَوْ",
+    "suffix": "",
+    "stem_clean": "او",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:19:2": {
+    "text": "كَصَیِّبٍ",
+    "segmented": true,
+    "prefix": "كَ",
+    "stem": "صَیِّبٍ",
+    "suffix": "",
+    "stem_clean": "صيب",
+    "legend": {
+      "en": "كَ = like / as · صَیِّبٍ = like a rainstorm",
+      "ur": "كَ = جیسے / مانند · صَیِّبٍ = جیسے مثال ہے زور دار پیش کی"
+    }
+  },
+  "2:19:3": {
+    "text": "مِّنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مِّنَ",
+    "suffix": "",
+    "stem_clean": "من",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:19:4": {
+    "text": "السَّمَآءِ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "سَّمَآءِ",
+    "suffix": "",
+    "stem_clean": "سماء",
+    "legend": {
+      "en": "ال = the · سَّمَآءِ = the sky",
+      "ur": "ال = خاص / وہ · سَّمَآءِ = آسمان"
+    }
+  },
+  "2:19:5": {
+    "text": "فِیْهِ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "فِیْ",
+    "suffix": "هِ",
+    "stem_clean": "في",
+    "legend": {
+      "en": "فِیْ = in it are · هِ = him / his / it",
+      "ur": "فِیْ = اس میں · هِ = اس کا / اسے"
+    }
+  },
+  "2:19:6": {
+    "text": "ظُلُمٰتٌ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ظلمات'"
+  },
+  "2:19:7": {
+    "text": "وَّرَعْدٌ",
+    "segmented": true,
+    "prefix": "وَّ",
+    "stem": "رَعْدٌ",
+    "suffix": "",
+    "stem_clean": "رعد",
+    "legend": {
+      "en": "وَّ = and · رَعْدٌ = and thunder",
+      "ur": "وَّ = اور · رَعْدٌ = کڑک"
+    }
+  },
+  "2:19:8": {
+    "text": "وَّبَرْقٌ ۚ",
+    "segmented": true,
+    "prefix": "وَّ",
+    "stem": "بَرْقٌ ۚ",
+    "suffix": "",
+    "stem_clean": "برق",
+    "legend": {
+      "en": "وَّ = and · بَرْقٌ ۚ = and lightning",
+      "ur": "وَّ = اور · بَرْقٌ ۚ = بجلی ہے"
+    }
+  },
+  "2:19:9": {
+    "text": "یَجْعَلُوْنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَجْعَلُ",
+    "suffix": "وْنَ",
+    "stem_clean": "يجعل",
+    "legend": {
+      "en": "یَجْعَلُ = They put",
+      "ur": "یَجْعَلُ = وہ ڈال لیتے ہیں"
+    }
+  },
+  "2:19:10": {
+    "text": "اَصَابِعَهُمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَصَابِعَ",
+    "suffix": "هُمْ",
+    "stem_clean": "اصابع",
+    "legend": {
+      "en": "اَصَابِعَ = their fingers · هُمْ = them / their",
+      "ur": "اَصَابِعَ = انگلیاں اپنی · هُمْ = ان کا / انہیں"
+    }
+  },
+  "2:19:11": {
+    "text": "فِیْۤ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "فِیْۤ",
+    "suffix": "",
+    "stem_clean": "فى",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:19:12": {
+    "text": "اٰذَانِهِمْ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'ءاذان'"
+  },
+  "2:19:13": {
+    "text": "مِّنَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مِّنَ",
+    "suffix": "",
+    "stem_clean": "من",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:19:14": {
+    "text": "الصَّوَاعِقِ",
+    "segmented": true,
+    "prefix": "ال",
+    "stem": "صَّوَاعِقِ",
+    "suffix": "",
+    "stem_clean": "صواعق",
+    "legend": {
+      "en": "ال = the · صَّوَاعِقِ = the thunderclaps",
+      "ur": "ال = خاص / وہ · صَّوَاعِقِ = بجلی کی کڑک"
+    }
+  },
+  "2:19:15": {
+    "text": "حَذَرَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "حَذَرَ",
+    "suffix": "",
+    "stem_clean": "حذر",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:19:16": {
+    "text": "الْمَوْتِ ؕ",
+    "segmented": true,
+    "prefix": "الْ",
+    "stem": "مَوْتِ ؕ",
+    "suffix": "",
+    "stem_clean": "موت",
+    "legend": {
+      "en": "الْ = the · مَوْتِ ؕ = the death",
+      "ur": "الْ = خاص / وہ · مَوْتِ ؕ = موت سے"
+    }
+  },
+  "2:19:17": {
+    "text": "وَاللّٰهُ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "اللّٰهُ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "وَ = and · اللّٰهُ = And Allah",
+      "ur": "وَ = اور · اللّٰهُ = اور اللہ تعالیٰ"
+    }
+  },
+  "2:19:18": {
+    "text": "مُحِیْطٌ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مُحِیْطٌ",
+    "suffix": "",
+    "stem_clean": "محيط",
+    "legend": {
+      "en": "مُحِیْطٌ = is the One Who encompasses",
+      "ur": "مُحِیْطٌ = احاطہ کیے ہوئے ہے"
+    }
+  },
+  "2:19:19": {
+    "text": "بِالْكٰفِرِیْنَ",
+    "segmented": false,
+    "reason": "matches=0 for stem 'كافرين'"
+  },
+  "2:20:1": {
+    "text": "یَكَادُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَكَادُ",
+    "suffix": "",
+    "stem_clean": "يكاد",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:2": {
+    "text": "الْبَرْقُ",
+    "segmented": true,
+    "prefix": "الْ",
+    "stem": "بَرْقُ",
+    "suffix": "",
+    "stem_clean": "برق",
+    "legend": {
+      "en": "الْ = the · بَرْقُ = the lightning",
+      "ur": "الْ = خاص / وہ · بَرْقُ = بجلی"
+    }
+  },
+  "2:20:3": {
+    "text": "یَخْطَفُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "یَخْطَفُ",
+    "suffix": "",
+    "stem_clean": "يخطف",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:4": {
+    "text": "اَبْصَارَهُمْ ؕ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَبْصَارَ",
+    "suffix": "هُمْ ؕ",
+    "stem_clean": "ابصار",
+    "legend": {
+      "en": "اَبْصَارَ = their sight · هُمْ ؕ = them / their",
+      "ur": "اَبْصَارَ = نگاہیں ان کی · هُمْ ؕ = ان کا / انہیں"
+    }
+  },
+  "2:20:5": {
+    "text": "كُلَّمَاۤ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "كُلَّمَاۤ",
+    "suffix": "",
+    "stem_clean": "كلما",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:6": {
+    "text": "اَضَآءَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَضَآءَ",
+    "suffix": "",
+    "stem_clean": "اضاء",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:7": {
+    "text": "لَهُمْ",
+    "segmented": true,
+    "prefix": "لَ",
+    "stem": "هُمْ",
+    "suffix": "",
+    "stem_clean": "هم",
+    "legend": {
+      "en": "لَ = for / to · هُمْ = for them",
+      "ur": "لَ = کے لیے · هُمْ = ان کے لئے"
+    }
+  },
+  "2:20:8": {
+    "text": "مَّشَوْا",
+    "segmented": true,
+    "prefix": "",
+    "stem": "مَّشَ",
+    "suffix": "وْا",
+    "stem_clean": "مش",
+    "legend": {
+      "en": "مَّشَ = they walk",
+      "ur": "مَّشَ = وہ چل پڑے"
+    }
+  },
+  "2:20:9": {
+    "text": "فِیْهِ ۙۗ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "فِیْ",
+    "suffix": "هِ ۙۗ",
+    "stem_clean": "في",
+    "legend": {
+      "en": "فِیْ = in it · هِ ۙۗ = him / his / it",
+      "ur": "فِیْ = اس میں · هِ ۙۗ = اس کا / اسے"
+    }
+  },
+  "2:20:10": {
+    "text": "وَاِذَاۤ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "اِذَاۤ",
+    "suffix": "",
+    "stem_clean": "اذا",
+    "legend": {
+      "en": "وَ = and · اِذَاۤ = and when",
+      "ur": "وَ = اور · اِذَاۤ = اور جب"
+    }
+  },
+  "2:20:11": {
+    "text": "اَظْلَمَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اَظْلَمَ",
+    "suffix": "",
+    "stem_clean": "اظلم",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:12": {
+    "text": "عَلَیْهِمْ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَلَیْ",
+    "suffix": "هِمْ",
+    "stem_clean": "علي",
+    "legend": {
+      "en": "عَلَیْ = on them · هِمْ = them / their",
+      "ur": "عَلَیْ = اوپر ان کے · هِمْ = ان کا / انہیں"
+    }
+  },
+  "2:20:13": {
+    "text": "قَامُوْا ؕ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قَامُ",
+    "suffix": "وْا ؕ",
+    "stem_clean": "قام",
+    "legend": {
+      "en": "قَامُ = they stand still",
+      "ur": "قَامُ = وہ کھڑے ہوگئے"
+    }
+  },
+  "2:20:14": {
+    "text": "وَلَوْ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "لَوْ",
+    "suffix": "",
+    "stem_clean": "لو",
+    "legend": {
+      "en": "وَ = and · لَوْ = And if",
+      "ur": "وَ = اور · لَوْ = اوراگر"
+    }
+  },
+  "2:20:15": {
+    "text": "شَآءَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "شَآءَ",
+    "suffix": "",
+    "stem_clean": "شاء",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:16": {
+    "text": "اللّٰهُ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اللّٰهُ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:17": {
+    "text": "لَذَهَبَ",
+    "segmented": true,
+    "prefix": "لَ",
+    "stem": "ذَهَبَ",
+    "suffix": "",
+    "stem_clean": "ذهب",
+    "legend": {
+      "en": "لَ = for / to · ذَهَبَ = He would certainly have taken away",
+      "ur": "لَ = کے لیے · ذَهَبَ = ضرور لے جائے"
+    }
+  },
+  "2:20:18": {
+    "text": "بِسَمْعِهِمْ",
+    "segmented": true,
+    "prefix": "بِ",
+    "stem": "سَمْعِ",
+    "suffix": "هِمْ",
+    "stem_clean": "سمع",
+    "legend": {
+      "en": "بِ = with / by · سَمْعِ = their hearing · هِمْ = them / their",
+      "ur": "بِ = ساتھ / سے · سَمْعِ = سماعت ان کی · هِمْ = ان کا / انہیں"
+    }
+  },
+  "2:20:19": {
+    "text": "وَاَبْصَارِهِمْ ؕ",
+    "segmented": true,
+    "prefix": "وَ",
+    "stem": "اَبْصَارِ",
+    "suffix": "هِمْ ؕ",
+    "stem_clean": "ابصار",
+    "legend": {
+      "en": "وَ = and · اَبْصَارِ = and their sight · هِمْ ؕ = them / their",
+      "ur": "وَ = اور · اَبْصَارِ = اورنگاہیں ان کی · هِمْ ؕ = ان کا / انہیں"
+    }
+  },
+  "2:20:20": {
+    "text": "اِنَّ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اِنَّ",
+    "suffix": "",
+    "stem_clean": "ان",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:21": {
+    "text": "اللّٰهَ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "اللّٰهَ",
+    "suffix": "",
+    "stem_clean": "الله",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:22": {
+    "text": "عَلٰی",
+    "segmented": true,
+    "prefix": "",
+    "stem": "عَلٰی",
+    "suffix": "",
+    "stem_clean": "على",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:23": {
+    "text": "كُلِّ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "كُلِّ",
+    "suffix": "",
+    "stem_clean": "كل",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:24": {
+    "text": "شَیْءٍ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "شَیْءٍ",
+    "suffix": "",
+    "stem_clean": "شىء",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  },
+  "2:20:25": {
+    "text": "قَدِیْرٌ",
+    "segmented": true,
+    "prefix": "",
+    "stem": "قَدِیْرٌ",
+    "suffix": "",
+    "stem_clean": "قدير",
+    "legend": {
+      "en": "",
+      "ur": ""
+    }
+  }
+}

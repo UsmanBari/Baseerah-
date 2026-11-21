@@ -8,6 +8,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اَلْهٰىكُمُ التَّكَاثُرُ ۟ۙ",
       "ur": "زیادتی کی چاہت نے تمہیں غافل کردیا.[1]",
       "en": "Competition in [worldly] increase diverts you",
+      "footnotesUr": "[1] أَلْهَى يُلْهِي، کے معنی ہیں، غافل کر دینا۔ تَكَاثُرٌ، زیادتی کی خواہش۔ یہ عام ہے۔ مال، اولاد، اعوان وانصار اور خاندان وقبیلہ وغیرہ، سب کو شامل ہے۔ ہر وہ چیز، جس کی کثرت انسان کو محبوب ہو اور کثرت کے حصول کی کوشش وخواہش اسے اللہ کے احکام اور آخرت سے غافل کر دے۔ یہاں اللہ تعالیٰ انسان کی اسی کمزوری کو بیان کر رہا ہے، جس میں انسانوں کی اکثریت ہر دور میں مبتلا رہی ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اَلْهٰىكُمُ",
@@ -26,6 +28,8 @@ window.BASEERAH_SURAH = {
       "arFull": "حَتّٰی زُرْتُمُ الْمَقَابِرَ ۟ؕ",
       "ur": "یہاں تک کہ تم قبرستان جا پہنچے.[1]",
       "en": "Until you visit the graveyards.[1980]",
+      "footnotesUr": "[1] اس کا مطلب ہے کہ حصول کثرت کے لئے محنت کرتے کرتے، تمہیں موت آگئی، اور تم قبروں میں جا پہنچے۔",
+      "footnotesEn": "[1980] i.e., remain in them temporarily, meaning until the Day of Resurrection.",
       "words": [
         {
           "ar": "حَتّٰی",
@@ -49,6 +53,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّا سَوْفَ تَعْلَمُوْنَ ۟ۙ",
       "ur": "ہرگز نہیں[1] تم عنقریب معلوم کر لو گے.",
       "en": "No! You are going to know.",
+      "footnotesUr": "[1] یعنی تم جس تکاثر وتفاخر میں ہو، یہ صحیح نہیں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "كَلَّا",
@@ -72,6 +78,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُوْنَ ۟ؕ",
       "ur": "ہرگز نہیں پھر تمہیں جلد علم ہو جائے گا.[1]",
       "en": "Then, no! You are going to know.",
+      "footnotesUr": "[1] اس کا انجام عنقریب تم جان لو گے، یہ بطور تاکید دو مرتبہ فرمایا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -100,6 +108,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّا لَوْ تَعْلَمُوْنَ عِلْمَ الْیَقِیْنِ ۟ؕ",
       "ur": "ہرگز نہیں اگر تم یقینی طور پر جان لو.[1]",
       "en": "No! If you only knew with knowledge of certainty...[1981]",
+      "footnotesUr": "[1] اس کا جواب محذوف ہے۔ مطلب ہے کہ اگر تم اس سے غفلت کا انجام اس طرح یقینی طور پر جان لو، جس طرح دنیا کی کسی دیکھی بھالی چیز کا تمہیں یقین ہوتا ہے تو تم یقیناً اس تکاثر وتفاخر میں مبتلا نہ ہو۔",
+      "footnotesEn": "[1981] The conclusion of this verse is estimated to be \"...you would not have been distracted from preparing for the Hereafter.\"",
       "words": [
         {
           "ar": "كَلَّا",
@@ -133,6 +143,8 @@ window.BASEERAH_SURAH = {
       "arFull": "لَتَرَوُنَّ الْجَحِیْمَ ۟ۙ",
       "ur": "تو بیشک تم جہنم دیکھ لو گے.[1]",
       "en": "You will surely see the Hellfire.",
+      "footnotesUr": "[1] یہ قسم محذوف کا جواب ہے یعنی اللہ کی قسم تم جہنم ضرور دیکھو گے یعنی اس کی سزا بھگتو گے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "لَتَرَوُنَّ",
@@ -151,6 +163,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ لَتَرَوُنَّهَا عَیْنَ الْیَقِیْنِ ۟ۙ",
       "ur": "اور تم اسے یقین کی آنکھ سے دیکھ لو گے.[1]",
       "en": "Then you will surely see it with the eye of certainty.[1982]",
+      "footnotesUr": "[1] پہلا دیکھنا دور سے ہوگا، یہ دیکھنا قریب سے ہوگا، اسی لئے اسے عَيْنُ الْيَقِينِ (جس کا یقین مشاہدۂ عینی سے حاصل ہو) کہا گیا۔",
+      "footnotesEn": "[1982] i.e., with actual eyesight.",
       "words": [
         {
           "ar": "ثُمَّ",
@@ -179,6 +193,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ لَتُسْـَٔلُنَّ یَوْمَىِٕذٍ عَنِ النَّعِیْمِ ۟۠",
       "ur": "پھر اس دن تم سے ضرور بالضرور نعمتوں کا سوال ہوگا.[1]",
       "en": "Then you will surely be asked that Day about pleasure.[1983]",
+      "footnotesUr": "[1] یہ سوال ان نعمتوں کے بارے میں ہوگا، جو اللہ نے دنیا میں عطا کی ہوں گی۔ جیسے آنکھ، کان، دل، دماغ، امن وصحت، مال ودولت اور اولاد وغیرہ۔ بعض کہتے ہیں، یہ سوال صرف کافروں سے ہوگا۔ بعض کہتے ہیں، ہر ایک سے ہی ہوگا کیوں کہ محض سوال مستلزم عذاب نہیں۔ جنہوں نے ان نعمتوں کا استعمال اللہ کی ہدایت کے مطابق کیا ہوگا، وہ سوال کے باوجود عذاب سے محفوظ رہیں گے ، اور جنہوں نے کفران نعمت کا ارتکاب کیا ہوگا، وہ دھر لیے جائیں گے۔",
+      "footnotesEn": "[1983] i.e., the comforts of worldly life and whether you were grateful to Allāh for His blessings.",
       "words": [
         {
           "ar": "ثُمَّ",

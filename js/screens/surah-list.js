@@ -1,7 +1,8 @@
-/* Baseerah — Surahs & Juz List Screen */
+/* Baseerah — Surahs & Juz List Screen (Baseerah v2 Redesign) */
 import { state } from "../core/state.js";
 import { t, toUrduDigits } from "../core/i18n.js";
 import { router } from "../core/router.js";
+import { UIComponents } from "../ui/components.js";
 
 let activeTab = "surahs"; // "surahs" | "juz"
 let searchQuery = "";
@@ -16,36 +17,42 @@ export function renderSurahListScreen(container, params = []) {
   const juzList = window.BASEERAH_JUZ || [];
 
   container.innerHTML = `
-    <div class="screen active screen-surahs" dir="${isUr ? "rtl" : "ltr"}">
-      <header class="surah-list-header">
+    <div class="screen active screen-surahs screen-surahs-v2" dir="${isUr ? "rtl" : "ltr"}">
+      <header class="surah-list-header-emerald">
         <div class="header-left">
-          <button type="button" class="btn-icon btn-back" data-nav="home" aria-label="${t("home", state.lang)}">
+          <button type="button" class="btn-header-back" data-nav="home" aria-label="${t("home", state.lang)}">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
               ${isUr ? '<polyline points="9 18 15 12 9 6"/>' : '<polyline points="15 18 9 12 15 6"/>'}
             </svg>
             <span>${t("home", state.lang)}</span>
           </button>
           <div class="header-title-box">
-            <h2>${activeTab === "surahs" ? t("surahListTitle", state.lang) : t("juzListTitle", state.lang)}</h2>
-            <p class="muted">${activeTab === "surahs" ? t("surahListSub", state.lang) : t("juzListSub", state.lang)}</p>
+            <h2 class="list-heading-gold">${activeTab === "surahs" ? t("surahListTitle", state.lang) : t("juzListTitle", state.lang)}</h2>
+            <p class="list-sub-light">${activeTab === "surahs" ? t("surahListSub", state.lang) : t("juzListSub", state.lang)}</p>
           </div>
         </div>
 
         <div class="list-controls">
-          <div class="list-tabs" role="tablist">
+          <div class="v2-tab-pill-group" role="tablist">
             <button type="button" class="tab-btn ${activeTab === "surahs" ? "active" : ""}" data-tab="surahs">
-              ${t("surahs", state.lang)} (${isUr ? toUrduDigits(114) : 114})
+              ${t("surahs", state.lang)} (${isUr ? `<span class="urdu-num">${toUrduDigits(114)}</span>` : 114})
             </button>
             <button type="button" class="tab-btn ${activeTab === "juz" ? "active" : ""}" data-tab="juz">
-              ${t("juz", state.lang)} (${isUr ? toUrduDigits(30) : 30})
+              ${t("juz", state.lang)} (${isUr ? `<span class="urdu-num">${toUrduDigits(30)}</span>` : 30})
             </button>
           </div>
         </div>
       </header>
 
       <div class="list-search-bar">
-        <input type="text" id="surah-search-input" class="search-input" placeholder="${t("searchPlaceholder", state.lang)}" value="${searchQuery}" autocomplete="off">
-        ${searchQuery ? '<button type="button" id="clear-search-btn" class="search-clear-btn">✕</button>' : ""}
+        <div class="search-input-wrap">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" id="surah-search-input" class="search-input" placeholder="${t("searchPlaceholder", state.lang)}" value="${searchQuery}" autocomplete="off">
+          ${searchQuery ? '<button type="button" id="clear-search-btn" class="search-clear-btn" aria-label="Clear search">✕</button>' : ""}
+        </div>
       </div>
 
       <div class="list-content-container">
@@ -117,16 +124,21 @@ function renderSurahGrid(surahs, query, isUr) {
 
   return `
     <div class="surah-grid">
-      ${filtered.map((s) => `
-        <button type="button" class="surah-card" data-surah="${s.number}" data-ayah="1">
-          <div class="surah-card-badge">${isUr ? toUrduDigits(s.number) : s.number}</div>
-          <div class="surah-card-info">
-            <span class="surah-card-en">${s.nameEn}</span>
-            <span class="surah-card-meta">${isUr ? toUrduDigits(s.ayahCount) + " آیات" : s.ayahCount + " Ayahs"}</span>
-          </div>
-          <div class="surah-card-ar" lang="ar" dir="rtl">${s.nameAr}</div>
-        </button>
-      `).join("")}
+      ${filtered.map((s) => {
+        const isActive = state.nav.surah === s.number;
+        return `
+          <button type="button" class="surah-card-v2 ${isActive ? 'surah-card-active' : ''}" data-surah="${s.number}" data-ayah="1">
+            <div class="surah-card-medallion">
+              ${UIComponents.getAyahMedallionSvg(s.number, 44)}
+            </div>
+            <div class="surah-card-info">
+              <span class="surah-card-en">${s.nameEn}</span>
+              <span class="surah-card-meta">${isUr ? `<span class="urdu-num">${toUrduDigits(s.ayahCount)}</span> آیات` : s.ayahCount + " Ayahs"}</span>
+            </div>
+            <div class="surah-card-ar" lang="ar" dir="rtl">${s.nameAr}</div>
+          </button>
+        `;
+      }).join("")}
     </div>
   `;
 }
@@ -135,13 +147,15 @@ function renderJuzGrid(juzList, isUr) {
   return `
     <div class="juz-grid">
       ${juzList.map((j) => `
-        <button type="button" class="juz-card" data-surah="${j.start.surah}" data-ayah="${j.start.ayah}">
-          <div class="juz-card-badge">${isUr ? toUrduDigits(j.number) : j.number}</div>
+        <button type="button" class="juz-card-v2" data-surah="${j.start.surah}" data-ayah="${j.start.ayah}">
+          <div class="juz-card-medallion">
+            ${UIComponents.getAyahMedallionSvg(j.number, 44)}
+          </div>
           <div class="juz-card-info">
             <span class="juz-card-en">${j.nameEn}</span>
-            <span class="juz-card-meta">${isUr ? `سورت ${toUrduDigits(j.start.surah)}:${toUrduDigits(j.start.ayah)} سے` : `Surah ${j.start.surah}:${j.start.ayah} onward`}</span>
+            <span class="juz-card-meta">${isUr ? `سورت <span class="urdu-num">${toUrduDigits(j.start.surah)}</span>:<span class="urdu-num">${toUrduDigits(j.start.ayah)}</span> سے` : `Surah ${j.start.surah}:${j.start.ayah} onward`}</span>
           </div>
-          <div class="juz-card-ur" lang="ur" dir="rtl">${j.nameUr ? j.nameUr : `پارہ ${toUrduDigits(j.number)}`}</div>
+          <div class="juz-card-ur" lang="ur" dir="rtl">${j.nameUr ? j.nameUr : `پارہ <span class="urdu-num">${toUrduDigits(j.number)}</span>`}</div>
         </button>
       `).join("")}
     </div>

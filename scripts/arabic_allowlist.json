@@ -146,15 +146,6 @@
     }
   },
   "js/core/audio.js": {
-    "احترامِ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "مسجد": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "موڈ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
     "آواز": {
       "reason": "UI label / layout metadata in Urdu language"
     },
@@ -162,6 +153,15 @@
       "reason": "UI label / layout metadata in Urdu language"
     },
     "ہے": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "احترامِ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "مسجد": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "موڈ": {
       "reason": "UI label / layout metadata in Urdu language"
     }
   },
@@ -194,6 +194,9 @@
       "reason": "UI label / layout metadata in Urdu language"
     },
     "اسناد": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اردو": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "بصیرت": {
@@ -251,9 +254,6 @@
       "reason": "UI label / layout metadata in Urdu language"
     },
     "لفظ،": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "اردو": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "انگریزی": {
@@ -328,6 +328,93 @@
     "مسلسل": {
       "reason": "UI label / layout metadata in Urdu language"
     },
+    "ترجمہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "دکھائیں": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "چھپائیں": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "صفحات": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "دیکھیں": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "الفاظ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "مکمل": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ترتیبات": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "رنگ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "بند": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "خط": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کشیدہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "رنگین": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "طریقہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "معانی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "وقف": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "آواز": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ہے": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "احترامِ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "مسجد": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "موڈ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "گولڈ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "سابقہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ال،": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "لِ،": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "بِ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "سبز": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "لاحقہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ـهُمْ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
     "آیت": {
       "reason": "UI label / layout metadata in Urdu language"
     },
@@ -350,12 +437,6 @@
       "reason": "UI label / layout metadata in Urdu language"
     },
     "کسی": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "مکمل": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "ترجمہ": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "مولانا": {
@@ -383,12 +464,6 @@
       "reason": "UI label / layout metadata in Urdu language"
     },
     "تفصیل": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "بند": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "طریقہ": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "وضو": {
@@ -442,9 +517,6 @@
     "ایڈمن": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "ترتیبات": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
     "پن": {
       "reason": "UI label / layout metadata in Urdu language"
     },
@@ -466,15 +538,6 @@
     "مسترد۔": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "احترامِ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "مسجد": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "موڈ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
     "خاموشی": {
       "reason": "UI label / layout metadata in Urdu language"
     },
@@ -488,9 +551,6 @@
       "reason": "UI label / layout metadata in Urdu language"
     },
     "رکھتا": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "ہے": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "واپسی": {
@@ -571,6 +631,27 @@
     "۱": {
       "reason": "UI label / layout metadata in Urdu language"
     },
+    "دونوں": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "فہمِ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ساتھ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "خوش": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "آمدید": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "وضاحتی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "حاشیہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
     "۰": {
       "reason": "UI label / layout metadata in Urdu language"
     },
@@ -596,6 +677,17 @@
       "reason": "UI label / layout metadata in Urdu language"
     },
     "۹": {
+      "reason": "UI label / layout metadata in Urdu language"
+    }
+  },
+  "js/core/morphology.js": {
+    "لِلّٰهِ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اللّٰهِ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "لله": {
       "reason": "UI label / layout metadata in Urdu language"
     }
   },
@@ -1107,87 +1199,126 @@
     }
   },
   "js/screens/home.js": {
-    "اردو": {
-      "reason": "UI label / layout metadata in Urdu language"
-    }
-  },
-  "js/screens/namaz.js": {
-    "مسودہ": {
+    "الفاتحة": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "باقاعدہ": {
+    "فاتحۃ": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "مستند": {
+    "الکتاب": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "عالم": {
+    "شروع": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "دین": {
+    "کرتا": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "کی": {
+    "ہوں": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "تصدیق": {
+    "اللہ": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "تک": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "زیرِ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "التواء": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "ہے": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "نماز": {
+    "تعالیٰ": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "کے": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "اذکار": {
+    "نام": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "سے": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "جو": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "بڑا": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "مہربان": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "نہایت": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "رحم": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "والا": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ہے۔": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "بصيرة": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "پورا": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "پڑھنے": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "لیے": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "چھوئیں": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اردو": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "بِسْمِ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ساتھ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اللّٰهِ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "جامع": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "رہنما": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "۱۱۴": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "سورتیں": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "۳۰": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "پارے": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "سورت": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "اور": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "دعاؤں": {
+    "آیت": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "شرعی": {
+    "نمبر": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "مراجعت": {
+    "درج": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "جاری": {
+    "کریں": {
       "reason": "UI label / layout metadata in Urdu language"
-    },
-    "متن": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "بعد": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "شامل": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "ہوگا": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "کا": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "جائزہ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "باقی": {
+    }
+  },
+  "js/screens/namaz.js": {
+    "نماز": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "وقت": {
@@ -1205,11 +1336,56 @@
     "عربی": {
       "reason": "UI label / layout metadata in Urdu language"
     },
+    "متن": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اور": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
     "ترجمہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "باقاعدہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "شرعی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "تصدیق": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کے": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "بعد": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "شامل": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ہوگا": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "عالم": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "دین": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کا": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "جائزہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "باقی": {
       "reason": "UI label / layout metadata in Urdu language"
     }
   },
   "js/screens/quran.js": {
+    "بصيرة": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
     "قرآنِ": {
       "reason": "UI label / layout metadata in Urdu language"
     },
@@ -1243,25 +1419,10 @@
     "ہوئی": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "آیت": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
     "اگلی": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "احترامِ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "مسجد": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "موڈ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "تلاوت": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "سنیں": {
+    "آیت": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "پچھلی": {
@@ -1270,19 +1431,13 @@
     "اردو": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "معنی": {
+    "آیات": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "ترجمہ": {
+    "پر": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "مولانا": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "محمد": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "جوناگڑھی": {
+    "جائیں": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "ڈیٹا": {
@@ -1303,7 +1458,7 @@
     "نمبر": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "کے": {
+    "فائل": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "ڈیجیٹل": {
@@ -1312,70 +1467,52 @@
     "دستخط": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "تصدیق": {
+    "تبدیل": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "ناکام": {
+    "شدہ": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "گئی": {
+    "پایا": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "ہے۔": {
+    "گیا۔": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "قرآنی": {
+    "قرآن": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "متن": {
+    "حرمت": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "خاطر": {
+    "اور": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "یہ": {
+    "کے": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "لیے": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کیوسک": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "نے": {
       "reason": "UI label / layout metadata in Urdu language"
     },
     "اس": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "وقت": {
+    "کو": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "تک": {
+    "روک": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "ظاہر": {
+    "دیا": {
       "reason": "UI label / layout metadata in Urdu language"
     },
-    "نہیں": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "جا": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "سکتی": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "جب": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "کہ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "مستند": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "فائل": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "بحال": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "نہ": {
-      "reason": "UI label / layout metadata in Urdu language"
-    },
-    "جائے۔": {
+    "ہے۔": {
       "reason": "UI label / layout metadata in Urdu language"
     }
   },
@@ -1506,6 +1643,48 @@
       "reason": "UI label / layout metadata in Urdu language"
     },
     "جوناگڑھی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "حاشیہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "نمبر": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کوئی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اضافی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "تشریح": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "موجود": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "نہیں۔": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ماخذ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "تفسیر": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "و": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "حواشی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "مجمع": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "الملک": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "فہد": {
       "reason": "UI label / layout metadata in Urdu language"
     }
   },
@@ -2152,6 +2331,101 @@
       "reason": "UI label / layout metadata in Urdu language"
     },
     "اسناد": {
+      "reason": "UI label / layout metadata in Urdu language"
+    }
+  },
+  "review-morphology.html": {
+    "قرآنی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "بصارت": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "الفاظ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "رنگین": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "صرفی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "ساخت": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "سابقہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اصل": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کلمہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "لاحقہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "نمونہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کارڈز": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "لفظ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "بہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "موازنہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "سورۃ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "الفاتحہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اور": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "البقرۃ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "آیت": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اردو": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "معنی": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "رسم": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "الخط": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "انداز": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "اول": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "خط": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کشیدہ": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "دوم": {
+      "reason": "UI label / layout metadata in Urdu language"
+    },
+    "کلمات": {
       "reason": "UI label / layout metadata in Urdu language"
     }
   },

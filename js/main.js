@@ -12,6 +12,19 @@ import { renderAttractScreen } from "./screens/attract.js";
 
 // Register Service Worker for PWA & 100% Offline Kiosk Operation
 if ("serviceWorker" in navigator && window.location.protocol.startsWith("http")) {
+  let hadController = !!navigator.serviceWorker.controller;
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!hadController) {
+      hadController = true;
+      return;
+    }
+    if (refreshing) return;
+    refreshing = true;
+    console.info("New ServiceWorker activated and claimed clients — refreshing page.");
+    window.location.reload();
+  });
+
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("./sw.js").then(
       (reg) => {
@@ -34,11 +47,16 @@ router.register("about", renderAboutScreen);
 router.register("admin", renderAdminScreen);
 router.register("attract", renderAttractScreen);
 
+// Expose state and router for tests
+if (typeof window !== "undefined") {
+  window.baseerahState = state;
+  window.baseerahRouter = router;
+}
+
 // Apply stored kiosk preferences
 function applyPreferences() {
   document.body.classList.toggle("high-contrast", !!state.highContrast);
-  document.body.className = document.body.className.replace(/\bscale-\w+/g, "").trim();
-  document.body.classList.add(`scale-${state.fontScale || "normal"}`);
+  state.applyFontScale();
   document.documentElement.lang = state.lang;
   document.documentElement.dir = state.lang === "ur" ? "rtl" : "ltr";
 }
@@ -53,6 +71,17 @@ document.addEventListener("gesturestart", (e) => e.preventDefault());
 
 // Initialize Idle Timer
 Idle.init();
+
+// Ensure offline fonts are loaded
+if (document.fonts) {
+  Promise.all([
+    document.fonts.load('1em "AlQuran IndoPak"'),
+    document.fonts.load('1em "Noto Naskh Arabic"'),
+    document.fonts.load('1em "Noto Nastaliq Urdu"')
+  ]).then(() => {
+    document.documentElement.classList.add("fonts-ready");
+  });
+}
 
 // Boot application
 applyPreferences();

@@ -8,6 +8,8 @@ window.BASEERAH_SURAH = {
       "arFull": "لَاۤ اُقْسِمُ بِیَوْمِ الْقِیٰمَةِ ۟ۙ",
       "ur": "میں قسم کھاتا ہوں قیامت کے دن کی.[1]",
       "en": "I swear by the Day of Resurrection",
+      "footnotesUr": "[1] لا اقسم میں لا زائد ہے جو عربی زبان کا ایک اسلوب ہے جیسے ”مَا مَنَعَكَ أَلَّا تَسْجُدَ“ (الاعراف: 12) اور ”لِئَلَّا يَعْلَمَ أَهْلُ الْكِتَابِ“ (الحدید: 29) اور دیگر بہت سے مقامات میں ہے بعض کہتے ہیں کہ قسم سے پہلے کفار کے کلام کا رد ہے وہ کہتے تھے مرنے کے بعد کوئی زندگی نہیں۔لا کے زیعے سے کہا گیا ، جس طرح کہتے ہو معاملہ اس طرح نہیں ہے میں قیامت کے دن کی قسم کھاتا ہوں، قیامت کے دن کی قسم کھانے کا مقصد اس کی اہمیت اور عظمت کو واضح کرنا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "لَاۤ",
@@ -36,6 +38,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَلَاۤ اُقْسِمُ بِالنَّفْسِ اللَّوَّامَةِ ۟ؕ",
       "ur": "اور قسم کھاتا ہوں اس نفس کی جو ملامت کرنے واﻻ ہو.[1]",
       "en": "And I swear by the reproaching soul[1800] [to the certainty of resurrection].",
+      "footnotesUr": "[1] یعنی بھلائی پر بھی کرتا ہے کہ زیادہ کیوں نہیں کی۔ اور برائی پر بھی، کہ اس سے باز کیوں نہیں آتا؟ دنیا میں بھی جن کے ضمیر بیدار ہوتے ہیں ان کے نفس انہیں ملامت کرتے ہیں، تاہم آخرت میں تو سب کے ہی نفس ملامت کریں گے۔",
+      "footnotesEn": "[1800] i.e., that of the believer, which blames him when he falls into sin or error.",
       "words": [
         {
           "ar": "وَلَاۤ",
@@ -64,6 +68,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اَیَحْسَبُ الْاِنْسَانُ اَلَّنْ نَّجْمَعَ عِظَامَهٗ ۟ؕ",
       "ur": "کیا انسان یہ خیال کرتا ہے کہ ہم اس کی ہڈیاں جمع کریں گے ہی نہیں.[1]",
       "en": "Does man think that We will not assemble his bones?",
+      "footnotesUr": "[1] یہ جواب قسم ہے انسان سے مراد یہاں کافر اور بےدین انسان ہے جو قیامت کو نہیں مانتا۔ اس کا گمان غلط ہے، اللہ تعالٰی یقینا انسانوں کے اجزا کو جمع فرمائے گا یہاں ہڈیوں کا بطور خاص ذکر ہے، اس لیئے کہ ہڈیاں ہی پیدائش کا اصل ڈھانچہ اور قالب ہیں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اَیَحْسَبُ",
@@ -97,6 +103,8 @@ window.BASEERAH_SURAH = {
       "arFull": "بَلٰى قٰدِرِیْنَ عَلٰۤی اَنْ نُّسَوِّیَ بَنَانَهٗ ۟",
       "ur": "ہاں ضرور کریں گے ہم تو قادر ہیں کہ اس کی پور پور تک درست کردیں.[1]",
       "en": "Yes. [We are] Able [even] to proportion his fingertips.",
+      "footnotesUr": "[1] بَنَان (پور پور) جوڑوں، ناخن، لطیف رگوں اور باریک ہڈیوں پر مشتمل ہوتے ہیں۔ جب یہ باریک اور لطیف چیزیں ہم بالکل صحیح صحیح جوڑ دیں گے تو بڑے حصے کو جوڑ دینا ہمارے لئے کیا مشکل ہوگا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "بَلٰى",
@@ -135,6 +143,8 @@ window.BASEERAH_SURAH = {
       "arFull": "بَلْ یُرِیْدُ الْاِنْسَانُ لِیَفْجُرَ اَمَامَهٗ ۟ۚ",
       "ur": "بلکہ انسان تو چاہتا ہے کہ آگے آگے نافرمانیاں کرتا جائے.[1]",
       "en": "But man desires to continue in sin.[1801]",
+      "footnotesUr": "[1] یعنی اس امید پر نافرمانی اور حق کا انکار کرتا ہے کہ کون سی قیامت آنی ہے۔",
+      "footnotesEn": "[1801] Literally, \"to sin ahead of him.\" This refers to the disbeliever, who denies the Day of Account.",
       "words": [
         {
           "ar": "بَلْ",
@@ -168,6 +178,8 @@ window.BASEERAH_SURAH = {
       "arFull": "یَسْـَٔلُ اَیَّانَ یَوْمُ الْقِیٰمَةِ ۟ؕ",
       "ur": "پوچھتا ہے کہ قیامت کا دن کب آئے گا.[1]",
       "en": "He asks, \"When is the Day of Resurrection?\"",
+      "footnotesUr": "[1] یہ سوال اس لئے نہیں کرتا کہ گناہوں سے تائب ہو جائے، بلکہ قیامت کو ناممکن الو قوع سمجھتے ہوئے پوچھتا ہے۔ اسی لیے فسق وفجور سے باز نہیں آتا۔ تاہم اگلی ٓآیت میں اللہ تعالٰی قیامت کے آنے کا وقت بیان فرما رہاہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "یَسْـَٔلُ",
@@ -196,6 +208,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَاِذَا بَرِقَ الْبَصَرُ ۟ۙ",
       "ur": "پس جس وقت کہ نگاه پتھرا جائے گی.[1]",
       "en": "So when vision is dazzled",
+      "footnotesUr": "[1] دہشت اور حیرانی سے برق ،تحیر و اندھش جیسے موت کے وقت عام طور پر ہوتا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَاِذَا",
@@ -219,6 +233,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَخَسَفَ الْقَمَرُ ۟ۙ",
       "ur": "اور چاند بے نور ہو جائے گا.[1]",
       "en": "And the moon darkens",
+      "footnotesUr": "[1] جب چاند کو گرہن لگ جاتا ہے تو اس وقت بھی وہ بےنور ہو جاتا ہے۔ لیکن جو علامات قیامت میں سے ہے، جب ہوگا تو اس کے بعد اس میں روشنی نہیں آئے گی۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَخَسَفَ",
@@ -237,6 +253,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَجُمِعَ الشَّمْسُ وَالْقَمَرُ ۟ۙ",
       "ur": "اور سورج اور چاند جمع کردیئے جائیں گے.[1]",
       "en": "And the sun and the moon are joined,",
+      "footnotesUr": "[1] یعنی بےنوری میں۔ مطلب ہے کہ چاند کی طرح سورج کی روشنی بھی ختم ہو جائے گی۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَجُمِعَ",
@@ -260,6 +278,8 @@ window.BASEERAH_SURAH = {
       "arFull": "یَقُوْلُ الْاِنْسَانُ یَوْمَىِٕذٍ اَیْنَ الْمَفَرُّ ۟ۚ",
       "ur": "اس دن انسان کہے گا کہ آج بھاگنے کی جگہ کہاں ہے؟[1]",
       "en": "Man will say on that Day, \"Where is the [place of] escape?\"",
+      "footnotesUr": "[1] یعنی جب یہ واقعات ظہور پذیر ہونگے تو پھر اللہ سے یا جہنم کے عذاب سے راہ فرار ڈھونڈے گا، لیکن اس وقت راہ فرار کہاں ہوگی؟",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "یَقُوْلُ",
@@ -293,6 +313,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّا لَا وَزَرَ ۟ؕ",
       "ur": "نہیں نہیں کوئی پناہ گاه نہیں.[1]",
       "en": "No! There is no refuge.",
+      "footnotesUr": "[1] وَزَرَ پہاڑ یا قعلے کو کہتے ہیں جہاں انسان پناہ حاصل کرلے۔ وہاں ایسی کوئی پناہ گاہ نہیں ہوگی۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "كَلَّا",
@@ -316,6 +338,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِلٰى رَبِّكَ یَوْمَىِٕذِ لْمُسْتَقَرُّ ۟ؕ",
       "ur": "آج تو تیرے پروردگار کی طرف ہی قرار گاه ہے.[1]",
       "en": "To your Lord, that Day, is the [place of] permanence.",
+      "footnotesUr": "[1] جہاں وہ بندوں کے درمیان فیصلے فرمائے گا۔ یہ ممکن نہیں ہوگا کہ کوئی اللہ کی اس عدالت سے چھپ جائے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِلٰى",
@@ -344,6 +368,8 @@ window.BASEERAH_SURAH = {
       "arFull": "یُنَبَّؤُا الْاِنْسَانُ یَوْمَىِٕذٍۭ بِمَا قَدَّمَ وَاَخَّرَ ۟ؕ",
       "ur": "آج انسان کو اس کے آگے بھیجے ہوئے اور پیچھے چھوڑے ہوئے سے آگاه کیا جائے گا.[1]",
       "en": "Man will be informed that Day of what he sent ahead[1802] and kept back.[1803]",
+      "footnotesUr": "[1] یعنی اس کے تمام اعمال سے آگاہ کیا جائے گا قدیم ہو یا جدید، اول ہو یا آخر چھوٹا ہو یا بڑا۔ ”وَوَجَدُوا مَا عَمِلُوا حَاضِرًا“ (الکھف:49)",
+      "footnotesEn": "[1802] i.e., his deeds, which await him in the Hereafter.\n[1803] i.e., that which he did not do or which he delayed.",
       "words": [
         {
           "ar": "یُنَبَّؤُا",
@@ -382,6 +408,8 @@ window.BASEERAH_SURAH = {
       "arFull": "بَلِ الْاِنْسَانُ عَلٰی نَفْسِهٖ بَصِیْرَةٌ ۟ۙ",
       "ur": "بلکہ انسان خود اپنے اوپر آپ حجت ہے.[1]",
       "en": "Rather, man, against himself, will be a witness,[1804]",
+      "footnotesUr": "[1] یعنی اس کے اپنے ہاتھ، پاؤں، زبان اور دیگر اعضاء گواہی دیں گے، یا یہ مطلب ہے کہ انسان اپنے عیوب خود جانتا ہے۔",
+      "footnotesEn": "[1804] As described in 36:65 and 41:20-23.",
       "words": [
         {
           "ar": "بَلِ",
@@ -415,6 +443,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَّلَوْ اَلْقٰى مَعَاذِیْرَهٗ ۟ؕ",
       "ur": "اگر چہ کتنے ہی بہانے پیش کرے.[1]",
       "en": "Even if he presents his excuses.",
+      "footnotesUr": "[1] یعنی لڑے جھگڑے، ایک سے ایک بہانہ کرے، لیکن ایسا کرنا نہ اس کے لئے مفید ہے اور نہ وہ اپنے ضمیر کو مطمئن کر سکتا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَّلَوْ",
@@ -438,6 +468,8 @@ window.BASEERAH_SURAH = {
       "arFull": "لَا تُحَرِّكْ بِهٖ لِسَانَكَ لِتَعْجَلَ بِهٖ ۟ؕ",
       "ur": "(اے نبی) آپ قرآن کو جلدی (یاد کرنے) کے لیے اپنی زبان کو حرکت[1] نہ دیں.",
       "en": "Move not your tongue with it, [O Muḥammad], to hasten with it [i.e., recitation of the Qur’ān].",
+      "footnotesUr": "[1] حضرت جبرائیل (عليه السلام) جب وحی لے کر آتے نبی (صلى الله عليه وسلم) بھی ان کے ساتھ جلدی سے پڑھتے جاتے کہ کہیں کوئی لفظ بھول نہ جائے۔ اللہ نے اپنے فرشتے کے ساتھ ساتھ اس طرح پڑھنے سے منع فرمایا۔ (صحیح بخاری' تفسہر سورۃ القیامہ) یہ مضمون پہلے بھی گزر چکا ہے ”وَلَا تَعْجَلْ بِالْقُرْآنِ مِنْ قَبْلِ أَنْ يُقْضَى إِلَيْكَ وَحْيُهُ“ (سورۃ طٰہٰ:114) چنانچہ اس حکم کے بعد آپ خاموشی سے سنتے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "لَا",
@@ -476,6 +508,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِنَّ عَلَیْنَا جَمْعَهٗ وَقُرْاٰنَهٗ ۟ۚۖ",
       "ur": "اس کا جمع کرنا اور (آپ کی زبان سے) پڑھنا ہمارے ذمہ ہے.[1]",
       "en": "Indeed, upon Us is its collection [in your heart] and [to make possible] its recitation.",
+      "footnotesUr": "[1] یعنی آپ کے سینے میں اس کا جمع کر دینا اور آپ کی زبان پر اس کی قرأت کو جاری کر دینا ہماری ذمہ داری ہے۔ تاکہ اس کا کوئی حصہ آپ کی یاداشت سے نہ نکلے اور آپ کے ذہن سے محو نہ ہو۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِنَّ",
@@ -504,6 +538,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَاِذَا قَرَاْنٰهُ فَاتَّبِعْ قُرْاٰنَهٗ ۟ۚ",
       "ur": "ہم جب اسے پڑھ[1] لیں تو آپ اس کے پڑھنے کی پیروی کریں.[2]",
       "en": "So when We have recited it [through Gabriel], then follow its recitation.",
+      "footnotesUr": "[1] یعنی فرشتے کے ذریعے سے جب ہم اس کی قرأت آپ پوری کرلیں۔\n[2] یعنی اس کے شرائع و احکام لوگوں کو پڑھ کر سنائیں اور ان کی پیروی بھی کریں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَاِذَا",
@@ -532,6 +568,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ اِنَّ عَلَیْنَا بَیَانَهٗ ۟ؕ",
       "ur": "پھر اس کا واضح کر دینا ہمارے ذمہ ہے.[1]",
       "en": "Then upon Us is its clarification [to you].",
+      "footnotesUr": "[1] یعنی اس کے مشکل مقامات کی تشریح اور حلال وحرام کی توضیح یہ بھی ہمارے ذمے ہے اس کا صاف مطلب ہے کہ نبی (صلى الله عليه وسلم) نے قرآن کے مجملات کی توضیح جو تخصیص بیان فرمائی ہے جسے حدیث کہاجاتا ہے یہ بھی اللہ کی طرف سے ہی الہام اور سمجھائی ہوئی باتیں ہیں اس لیے انہیں بھی قرآن کی طرح ماننا ضروری ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -560,6 +598,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّا بَلْ تُحِبُّوْنَ الْعَاجِلَةَ ۟ۙ",
       "ur": "نہیں نہیں تم جلدی ملنے والی (دنیا) کی محبت رکھتے ہو.",
       "en": "No! But you [i.e., mankind] love the immediate",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "كَلَّا",
@@ -588,6 +628,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَتَذَرُوْنَ الْاٰخِرَةَ ۟ؕ",
       "ur": "اور آخرت کو چھوڑ بیٹھے ہو.[1]",
       "en": "And leave [i.e., neglect] the Hereafter.",
+      "footnotesUr": "[1] یعنی یوم قیامت کو جھٹلانا اور حق سے اعراض، اسلئے ہے کہ تم نے دنیا کی زندگی کو ہی سب کچھ سمجھ رکھا ہے اور آخرت تمہیں بالکل فراموش ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَتَذَرُوْنَ",
@@ -606,6 +648,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وُجُوْهٌ یَّوْمَىِٕذٍ نَّاضِرَةٌ ۟ۙ",
       "ur": "اس روز بہت سے چہرے تروتازه اور بارونق ہوں گے.",
       "en": "[Some] faces, that Day, will be radiant,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وُجُوْهٌ",
@@ -629,6 +673,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِلٰى رَبِّهَا نَاظِرَةٌ ۟ۚ",
       "ur": "اپنے رب کی طرف دیکھتے ہوں گے.[1]",
       "en": "Looking at their Lord.[1805]",
+      "footnotesUr": "[1] یہ اہل ایمان کے چہرے ہونگے جو اپنے حسن انجام کی وجہ سے مطمئن، مسرور اور منور ہونگے۔ مذید دیدار الٰہی سے بھی لطف اندوز ہونگیں۔ جیسا کہ صحیح حدیث سے ثابت ہے اور اہل سنت کا متفقہ عقیدہ ہے۔",
+      "footnotesEn": "[1805] The people of Paradise will actually see their Creator in the Hereafter.",
       "words": [
         {
           "ar": "اِلٰى",
@@ -652,6 +698,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَوُجُوْهٌ یَّوْمَىِٕذٍۭ بَاسِرَةٌ ۟ۙ",
       "ur": "اور کتنے چہرے اس دن (بد رونق اور) اداس ہوں گے.[1]",
       "en": "And [some] faces, that Day, will be contorted,",
+      "footnotesUr": "[1] یہ کافروں کے چہرے ہونگے سیاہ اور بےرونق۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَوُجُوْهٌ",
@@ -675,6 +723,8 @@ window.BASEERAH_SURAH = {
       "arFull": "تَظُنُّ اَنْ یُّفْعَلَ بِهَا فَاقِرَةٌ ۟ؕ",
       "ur": "سمجھتے ہوں گے کہ ان کے ساتھ کمر توڑ دینے واﻻ معاملہ[1] کیا جائے گا.",
       "en": "Expecting that there will be done to them [something] backbreaking.",
+      "footnotesUr": "[1] اور وہ یہی ہے کہ جہنم میں ان کو پھینک دیا جائے گا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "تَظُنُّ",
@@ -708,6 +758,8 @@ window.BASEERAH_SURAH = {
       "arFull": "كَلَّاۤ اِذَا بَلَغَتِ التَّرَاقِیَ ۟ۙ",
       "ur": "نہیں نہیں[1] جب روح ہنسلی تک[2] پہنچے گی.",
       "en": "No! When it [i.e., the soul] has reached the collar bones[1806]",
+      "footnotesUr": "[1] یعنی یہ ممکن نہیں کہ کافر قیامت پر ایمان لے آئیں۔\n[2] تراقی، ترقوہ کی جمع ہے ۔یہ گردن کے قریب، سینے اور کندھے کے درمیان ایک ہڈی ہے، یعنی جب موت آئے گی آہنی پنجہ تمہیں اپنی گرفت میں لے لے گا۔",
+      "footnotesEn": "[1806] At the time it is about to leave the body when one is on the verge of death.",
       "words": [
         {
           "ar": "كَلَّاۤ",
@@ -736,6 +788,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَقِیْلَ مَنْ ٚ رَاقٍ ۟ۙ",
       "ur": "اور کہا جائے گا کہ کوئی جھاڑ پھونک[1] کرنے واﻻ ہے؟",
       "en": "And it is said, \"Who will cure [him]?\"",
+      "footnotesUr": "[1] یعنی حاضرین میں سے کوئی ہے جو جھاڑ پھونک کے ذریعہ سے تمہیں موت کے پنجے سے چھڑا لے۔ بعض نے اس کا ترجمہ یہ بھی کیا ہے کہ اس کی روح کون لے کر چڑھے گا ملائکہ رحمت یا ملائکہ عذاب؟ اس صورت میں یہ قول فرشتوں کا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَقِیْلَ",
@@ -759,6 +813,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَّظَنَّ اَنَّهُ الْفِرَاقُ ۟ۙ",
       "ur": "اور جان لیا اس نے کہ یہ وقت جدائی ہے.[1]",
       "en": "And he [i.e., the dying one] is certain that it is the [time of] separation",
+      "footnotesUr": "[1] یعنی وہ شخص یقین کر لے گا جس کی روح ہنسلی تک پہنچ گئی ہے کہ اب، مال، اولاد اور دنیا کی ہرچیز سے جدائی کا مرحلہ آگیا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَّظَنَّ",
@@ -782,6 +838,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالْتَفَّتِ السَّاقُ بِالسَّاقِ ۟ۙ",
       "ur": "اور پنڈلی سے پنڈلی لپٹ جائے گی.[1]",
       "en": "And the leg is wound about the leg,[1807]",
+      "footnotesUr": "[1] اس سے یا تو موت کے وقت پنڈلی کا پنڈلی کے ساتھ مل جانا مراد ہے یا پے درپے تکلیفیں، بہت سے مفسرین نے دوسرے معنی کئے ہیں۔ (فتح القدیر)",
+      "footnotesEn": "[1807] From the difficulties the person faces at death or his sudden awareness of the realities of both this world and the Hereafter. It may also refer to his shrouding after death.",
       "words": [
         {
           "ar": "وَالْتَفَّتِ",
@@ -805,6 +863,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِلٰى رَبِّكَ یَوْمَىِٕذِ لْمَسَاقُ ۟ؕ۠",
       "ur": "آج تیرے پروردگار کی طرف چلنا ہے.",
       "en": "To your Lord, that Day, will be the procession.[1808]",
+      "footnotesUr": null,
+      "footnotesEn": "[1808] Literally, \"driving\" or \"herding\" or \"the place to which one is driven.\"",
       "words": [
         {
           "ar": "اِلٰى",
@@ -833,6 +893,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَلَا صَدَّقَ وَلَا صَلّٰى ۟ۙ",
       "ur": "اس نے نہ تو تصدیق کی نہ نماز ادا کی.[1]",
       "en": "And he [i.e., the disbeliever] had not believed, nor had he prayed.",
+      "footnotesUr": "[1] یعنی اس انسان نے رسول اور قرآن کی تصدیق کی اور نہ نماز پڑھی یعنی اللہ کی عبادت نہیں کی۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَلَا",
@@ -861,6 +923,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَلٰكِنْ كَذَّبَ وَتَوَلّٰى ۟ۙ",
       "ur": "بلکہ جھٹلایا اور روگردانی کی.[1]",
       "en": "But [instead], he denied and turned away.",
+      "footnotesUr": "[1] یعنی رسول کو جھٹلایا اور ایمان و اطاعت سے روگردانی کی۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَلٰكِنْ",
@@ -884,6 +948,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ ذَهَبَ اِلٰۤی اَهْلِهٖ یَتَمَطّٰى ۟ؕ",
       "ur": "پھر اپنے گھر والوں کے پاس اتراتا ہوا گیا.[1]",
       "en": "And then he went to his people, swaggering [in pride].",
+      "footnotesUr": "[1] یَتَمَطَّیٰ اتراتا اور اکڑاتا ہوا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -917,6 +983,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اَوْلٰى لَكَ فَاَوْلٰى ۟ۙ",
       "ur": "افسوس ہے تجھ پر حسرت ہے تجھ پر.",
       "en": "Woe to you, and woe!",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اَوْلٰى",
@@ -940,6 +1008,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ اَوْلٰى لَكَ فَاَوْلٰى ۟ؕ",
       "ur": "وائے ہے اور خرابی ہے تیرے لیے.[1]",
       "en": "Then woe to you, and woe!",
+      "footnotesUr": "[1] یہ کلمہ وعید سے کہا جاتا ہے کہ اس کی اصل ہے، اللہ تجھے ایسی چیز سے دو چار کرے جسے تو ناپسند کرے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -968,6 +1038,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اَیَحْسَبُ الْاِنْسَانُ اَنْ یُّتْرَكَ سُدًی ۟ؕ",
       "ur": "کیا انسان یہ سمجھتا ہے کہ اسے بیکار چھوڑ دیا جائے گا.[1]",
       "en": "Does man think that he will be left neglected?[1809]",
+      "footnotesUr": "[1] یعنی اس کو کسی چیز کا حکم دیا جائے گا، نہ کسی چیز سے منع کیا جائے گا، نہ اس کا محاسبہ ہوگا۔ یا اس کی قبر میں ہمیشہ کے لئے چھوڑ دیا جائے گا، وہاں سے اسے دوبارہ زندہ نہیں کیا جائے گا۔",
+      "footnotesEn": "[1809] i.e., to no end, without responsibility, or without being returned to the Creator for judgement.",
       "words": [
         {
           "ar": "اَیَحْسَبُ",
@@ -1001,6 +1073,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اَلَمْ یَكُ نُطْفَةً مِّنْ مَّنِیٍّ یُّمْنٰى ۟ۙ",
       "ur": "کیا وه ایک گاڑھے پانی کا قطره نہ تھا جو ٹپکایا گیا تھا؟",
       "en": "Had he not been a sperm from semen emitted?",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اَلَمْ",
@@ -1039,6 +1113,8 @@ window.BASEERAH_SURAH = {
       "arFull": "ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوّٰى ۟ۙ",
       "ur": "پھر وه لہو کا لوتھڑا ہوگیا پھر اللہ نے اسے پیدا کیا اور درست بنا دیا.[1]",
       "en": "Then he was a clinging clot, and [Allāh] created [his form] and proportioned [him]",
+      "footnotesUr": "[1] فَسَوَّیٰ، یعنی اسے ٹھیک ٹھاک کیا اور اس کی تکمیل کی اور اس میں روح پھونکی۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "ثُمَّ",
@@ -1072,6 +1148,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَجَعَلَ مِنْهُ الزَّوْجَیْنِ الذَّكَرَ وَالْاُ ۟ؕ",
       "ur": "پھر اس سے جوڑے یعنی نر وماده بنائے.",
       "en": "And made of him two mates, the male and the female.",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَجَعَلَ",
@@ -1105,6 +1183,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اَلَیْسَ ذٰلِكَ بِقٰدِرٍ عَلٰۤی اَنْ یُّحْیِ الْمَوْتٰى ۟۠",
       "ur": "کیا (اللہ تعالیٰ) اس (امر) پر قادر نہیں کہ مردے کو زنده کردے.[1]",
       "en": "Is not that [Creator] Able to give life to the dead?",
+      "footnotesUr": "[1] یعنی جواللہ انسان کو اس طرح مختلف اطوار سے گزار کر پیدا فرماتا ہے کیا مرنے کے بعد دوبارہ اسے زندہ کرنے پر قادر نہیں ہے؟",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اَلَیْسَ",

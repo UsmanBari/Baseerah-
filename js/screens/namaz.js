@@ -70,15 +70,18 @@ export async function renderNamazScreen(container, params = []) {
         </div>
       </header>
 
-      <!-- Scholar Review Warning Banner -->
-      <div class="scholar-review-banner" role="alert">
-        <span class="banner-icon">⚠️</span>
-        <span class="banner-text">
-          ${isUr 
-            ? "مسودہ — باقاعدہ مستند عالم دین کی تصدیق تک زیرِ التواء ہے (نماز کے اذکار اور دعاؤں کی شرعی مراجعت جاری ہے)"
-            : "Draft — pending formal review and approval by qualified Islamic scholars. Steps and supplications under verification."
-          }
-        </span>
+      <!-- Scholar Review Notice (Calm, Dignified Soft Card) -->
+      <div class="scholar-review-card scholar-review-banner" role="note">
+        <svg class="scholar-hourglass-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 22h14"/>
+          <path d="M5 2h14"/>
+          <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/>
+          <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/>
+        </svg>
+        <div class="scholar-card-text">
+          <span class="scholar-title">${t("draftNotice", state.lang)}</span>
+          <span class="scholar-desc">${t("draftDisclaimer", state.lang)}</span>
+        </div>
       </div>
 
       <main class="namaz-main-content">
@@ -126,10 +129,10 @@ function renderStepsTab(isUr) {
       <div class="namaz-steps-rail">
         ${steps.map((s, idx) => `
           <button type="button" class="rail-step-btn ${idx === selectedStepIndex ? "active" : ""}" data-step-idx="${idx}">
-            <span class="rail-num">${isUr ? toUrduDigits(idx + 1) : idx + 1}</span>
+            <span class="rail-num urdu-num">${isUr ? toUrduDigits(idx + 1) : idx + 1}</span>
             <div class="rail-labels">
               <span class="rail-ur" lang="ur">${s.ur}</span>
-              <span class="rail-en">${s.en}</span>
+              <span class="rail-en" dir="ltr">${s.en}</span>
             </div>
           </button>
         `).join("")}
@@ -142,16 +145,16 @@ function renderStepsTab(isUr) {
             ${renderSilhouetteSvg(currentStep.posture || "standing")}
           </div>
           <div class="step-title-block">
-            <span class="step-tag">${t("step", state.lang)} ${isUr ? toUrduDigits(selectedStepIndex + 1) : selectedStepIndex + 1}</span>
+            <span class="step-tag">${t("step", state.lang)} <span class="urdu-num">${isUr ? toUrduDigits(selectedStepIndex + 1) : selectedStepIndex + 1}</span></span>
             <h3 class="step-name-ur" lang="ur">${currentStep.ur}</h3>
-            <h4 class="step-name-en">${currentStep.en}</h4>
+            <h4 class="step-name-en" dir="ltr">${currentStep.en}</h4>
           </div>
         </div>
 
         <div class="detail-section">
           <h4 class="detail-section-title">${t("howToPerform", state.lang)}</h4>
           <p class="detail-text-ur" lang="ur">${currentStep.howUr || ""}</p>
-          <p class="detail-text-en">${currentStep.how || ""}</p>
+          <p class="detail-text-en" dir="ltr">${currentStep.how || ""}</p>
         </div>
 
         <div class="detail-section">
@@ -161,8 +164,13 @@ function renderStepsTab(isUr) {
             <p class="detail-ar-trans" lang="ur" dir="rtl">${currentStep.arUr || ""}</p>
           ` : `
             <div class="pending-scholar-box">
-              <span class="pending-icon">⏳</span>
-              <span class="pending-text">${isUr ? "متن باقاعدہ شرعی تصدیق کے بعد شامل ہوگا (عالم دین کا جائزہ باقی)" : "Text coming after scholar review"}</span>
+              <svg class="pending-hourglass-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 22h14"/>
+                <path d="M5 2h14"/>
+                <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/>
+                <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/>
+              </svg>
+              <span class="pending-text">${t("draftDisclaimer", state.lang)}</span>
             </div>
           `}
         </div>
@@ -177,11 +185,11 @@ function renderWuduTab(isUr) {
     <div class="wudu-grid">
       ${steps.map((w) => `
         <div class="wudu-card">
-          <div class="wudu-step-badge">${isUr ? toUrduDigits(w.id) : w.id}</div>
+          <div class="wudu-step-badge urdu-num">${isUr ? toUrduDigits(w.id) : w.id}</div>
           <h4 class="wudu-title-ur" lang="ur">${w.titleUr}</h4>
-          <h5 class="wudu-title-en">${w.titleEn}</h5>
+          <h5 class="wudu-title-en" dir="ltr">${w.titleEn}</h5>
           <p class="wudu-instruction-ur" lang="ur">${w.instructionUr}</p>
-          <p class="wudu-instruction-en">${w.instructionEn}</p>
+          <p class="wudu-instruction-en" dir="ltr">${w.instructionEn}</p>
         </div>
       `).join("")}
     </div>
@@ -210,11 +218,11 @@ function renderRakatsTab(isUr) {
                 <td>
                   <div class="rakat-breakdown-tags">
                     ${p.rakats.map((r) => `
-                      <span class="rakat-tag">${isUr ? `${toUrduDigits(r.count)} ${r.typeUr}` : `${r.count} ${r.typeEn}`}</span>
+                      <span class="rakat-tag"><span class="urdu-num">${isUr ? toUrduDigits(r.count) : r.count}</span> ${isUr ? r.typeUr : r.typeEn}</span>
                     `).join(" ")}
                   </div>
                 </td>
-                <td><span class="total-rakat-badge">${isUr ? toUrduDigits(p.total) : p.total}</span></td>
+                <td><span class="total-rakat-badge urdu-num">${isUr ? toUrduDigits(p.total) : p.total}</span></td>
               </tr>
             `).join("")}
           </tbody>
@@ -232,7 +240,7 @@ function renderDuasTab(isUr) {
         <div class="dua-card" dir="${isUr ? "rtl" : "ltr"}">
           <div class="dua-header">
             <h4 class="dua-title-ur" lang="ur">${d.nameUr}</h4>
-            <span class="dua-title-en">${d.nameEn}</span>
+            <span class="dua-title-en" dir="ltr">${d.nameEn}</span>
           </div>
           ${d.ar ? `
             <div class="dua-arabic" lang="ar" dir="rtl">${d.ar}</div>
@@ -271,80 +279,98 @@ function renderSilhouetteSvg(posture) {
   switch (posture) {
     case "takbeer":
       return `
-        <svg viewBox="0 0 100 120" width="80" height="96" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="50" cy="22" r="10"/>
-          <line x1="50" y1="32" x2="50" y2="80"/>
-          <!-- Raised hands -->
-          <path d="M 32 30 L 32 45 L 50 48 L 68 45 L 68 30"/>
-          <!-- Legs -->
-          <line x1="42" y1="80" x2="42" y2="115"/>
-          <line x1="58" y1="80" x2="58" y2="115"/>
+        <svg viewBox="0 0 100 120" width="80" height="96" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <!-- Head -->
+          <circle cx="50" cy="20" r="8"/>
+          <!-- Torso -->
+          <line x1="50" y1="28" x2="50" y2="76"/>
+          <!-- Raised arms (Takbeer hands up to ears) -->
+          <path d="M 30 26 C 30 38, 42 46, 50 48 C 58 46, 70 38, 70 26"/>
+          <!-- Palms near ears -->
+          <line x1="28" y1="22" x2="32" y2="28"/>
+          <line x1="72" y1="22" x2="68" y2="28"/>
+          <!-- Legs & Feet -->
+          <line x1="43" y1="76" x2="43" y2="114"/>
+          <line x1="57" y1="76" x2="57" y2="114"/>
+          <line x1="39" y1="114" x2="47" y2="114"/>
+          <line x1="53" y1="114" x2="61" y2="114"/>
         </svg>
       `;
     case "ruku":
       return `
-        <svg viewBox="0 0 120 100" width="96" height="80" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <!-- Head & horizontal back -->
-          <circle cx="28" cy="45" r="9"/>
-          <line x1="37" y1="45" x2="78" y2="45"/>
-          <!-- Hands on knees -->
-          <line x1="48" y1="45" x2="72" y2="70"/>
-          <!-- Standing legs -->
-          <line x1="78" y1="45" x2="78" y2="95"/>
-          <line x1="86" y1="45" x2="86" y2="95"/>
+        <svg viewBox="0 0 120 100" width="96" height="80" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <!-- Head -->
+          <circle cx="26" cy="42" r="7.5"/>
+          <!-- Horizontal Spine -->
+          <line x1="34" y1="42" x2="78" y2="42"/>
+          <!-- Arms holding knees -->
+          <path d="M 46 42 L 68 70"/>
+          <!-- Standing Legs -->
+          <line x1="78" y1="42" x2="78" y2="94"/>
+          <line x1="84" y1="42" x2="84" y2="94"/>
+          <!-- Feet on ground -->
+          <line x1="74" y1="94" x2="88" y2="94"/>
         </svg>
       `;
     case "sajdah":
       return `
-        <svg viewBox="0 0 120 80" width="96" height="64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <!-- Prostrate head on ground -->
-          <circle cx="24" cy="62" r="8"/>
-          <!-- Back arched down -->
-          <path d="M 28 62 C 45 35, 75 35, 85 55 L 85 70"/>
-          <!-- Hands on ground -->
-          <line x1="35" y1="68" x2="48" y2="68"/>
+        <svg viewBox="0 0 120 80" width="96" height="64" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <!-- Head on ground -->
+          <circle cx="22" cy="63" r="7"/>
+          <!-- Smooth arched back down to prostration -->
+          <path d="M 27 61 C 44 32, 70 32, 82 52 L 82 68"/>
+          <!-- Hands placed flat on ground beside head -->
+          <line x1="32" y1="69" x2="44" y2="69"/>
+          <!-- Knees and feet on floor -->
+          <path d="M 82 68 L 92 69"/>
           <!-- Ground line -->
-          <line x1="10" y1="72" x2="110" y2="72" stroke-dasharray="2 2"/>
+          <line x1="8" y1="70" x2="112" y2="70" stroke-dasharray="2 3" opacity="0.6"/>
         </svg>
       `;
     case "jalsah":
       return `
-        <svg viewBox="0 0 100 100" width="80" height="80" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="50" cy="25" r="9"/>
-          <!-- Torso sitting -->
-          <line x1="50" y1="34" x2="50" y2="68"/>
-          <!-- Hands on thighs -->
-          <path d="M 50 45 L 35 62 L 65 62"/>
-          <!-- Folded legs sitting on ground -->
-          <path d="M 40 68 L 30 85 L 75 85"/>
+        <svg viewBox="0 0 100 100" width="80" height="80" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <!-- Head -->
+          <circle cx="48" cy="22" r="7.5"/>
+          <!-- Torso sitting erect -->
+          <line x1="48" y1="30" x2="48" y2="64"/>
+          <!-- Hands resting on thighs -->
+          <path d="M 48 42 L 34 58 L 62 58"/>
+          <!-- Folded legs on floor -->
+          <path d="M 38 64 L 28 80 L 74 80"/>
           <!-- Ground line -->
-          <line x1="15" y1="88" x2="85" y2="88" stroke-dasharray="2 2"/>
+          <line x1="14" y1="82" x2="86" y2="82" stroke-dasharray="2 3" opacity="0.6"/>
         </svg>
       `;
     case "salam":
       return `
-        <svg viewBox="0 0 100 100" width="80" height="80" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <svg viewBox="0 0 100 100" width="80" height="80" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <!-- Head turned right -->
-          <circle cx="56" cy="25" r="9"/>
-          <path d="M 50 34 L 50 68"/>
-          <path d="M 50 45 L 35 62 L 65 62"/>
-          <path d="M 40 68 L 30 85 L 75 85"/>
-          <!-- Direction arrow -->
-          <path d="M 68 25 L 82 25 M 78 20 L 83 25 L 78 30"/>
+          <circle cx="56" cy="22" r="7.5"/>
+          <line x1="48" y1="30" x2="48" y2="64"/>
+          <path d="M 48 42 L 34 58 L 62 58"/>
+          <path d="M 38 64 L 28 80 L 74 80"/>
+          <!-- Gentle direction turn curve -->
+          <path d="M 68 20 C 74 18, 80 22, 82 26 M 78 26 L 83 27 L 82 22"/>
+          <line x1="14" y1="82" x2="86" y2="82" stroke-dasharray="2 3" opacity="0.6"/>
         </svg>
       `;
     case "standing":
     case "qiyam":
     default:
       return `
-        <svg viewBox="0 0 100 120" width="80" height="96" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="50" cy="22" r="10"/>
-          <line x1="50" y1="32" x2="50" y2="80"/>
-          <!-- Hands folded on chest / below navel -->
-          <path d="M 38 48 Q 50 54 62 48"/>
-          <!-- Legs -->
-          <line x1="44" y1="80" x2="44" y2="115"/>
-          <line x1="56" y1="80" x2="56" y2="115"/>
+        <svg viewBox="0 0 100 120" width="80" height="96" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <!-- Head -->
+          <circle cx="50" cy="20" r="8"/>
+          <!-- Spine -->
+          <line x1="50" y1="28" x2="50" y2="76"/>
+          <!-- Hands folded over chest / below navel -->
+          <path d="M 36 44 C 42 50, 58 50, 64 44"/>
+          <!-- Legs & Feet -->
+          <line x1="44" y1="76" x2="44" y2="114"/>
+          <line x1="56" y1="76" x2="56" y2="114"/>
+          <line x1="40" y1="114" x2="48" y2="114"/>
+          <line x1="52" y1="114" x2="60" y2="114"/>
         </svg>
       `;
   }

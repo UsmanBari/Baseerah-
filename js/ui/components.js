@@ -30,11 +30,11 @@ export const UIComponents = {
           <div class="keypad-inputs">
             <div class="keypad-field ${activeField === "surah" ? "active" : ""}" data-field="surah">
               <span class="field-label">${t("surahNumber", state.lang)}</span>
-              <span class="field-val">${isUr ? toUrduDigits(surahVal) : surahVal}</span>
+              <span class="field-val urdu-num">${isUr ? toUrduDigits(surahVal) : surahVal}</span>
             </div>
             <div class="keypad-field ${activeField === "ayah" ? "active" : ""}" data-field="ayah">
-              <span class="field-label">${t("ayahNumber", state.lang)} (1–${isUr ? toUrduDigits(maxAyahs) : maxAyahs})</span>
-              <span class="field-val">${isUr ? toUrduDigits(ayahVal) : ayahVal}</span>
+              <span class="field-label">${t("ayahNumber", state.lang)} (1–${isUr ? `<span class="urdu-num">${toUrduDigits(maxAyahs)}</span>` : maxAyahs})</span>
+              <span class="field-val urdu-num">${isUr ? toUrduDigits(ayahVal) : ayahVal}</span>
             </div>
           </div>
           <div class="touch-keypad">
@@ -322,7 +322,7 @@ export const UIComponents = {
         <div class="bottom-sheet-header">
           <div class="sheet-title-box">
             <span class="sheet-surah-ar" lang="ar">${surahNameAr}</span>
-            <span class="sheet-ayah-badge">${isUr ? "آیت " + toUrduDigits(ayahData.number) : "Ayah " + ayahData.number}</span>
+            <span class="sheet-ayah-badge">${isUr ? `آیت <span class="urdu-num">${toUrduDigits(ayahData.number)}</span>` : "Ayah " + ayahData.number}</span>
           </div>
           <button type="button" class="btn-close" aria-label="${t("close", state.lang)}">✕</button>
         </div>
@@ -357,6 +357,247 @@ export const UIComponents = {
     });
 
     document.body.appendChild(sheet);
+  },
+
+  /**
+   * Generates an authentic 8-point Islamic star (Khatim) medallion SVG
+   * Displays the ayah number inside in Urdu numerals
+   */
+  getAyahMedallionSvg(ayahNumber, size = 48) {
+    const urduNum = toUrduDigits(ayahNumber);
+    return `
+      <span class="ayah-medallion-badge" aria-label="Ayah ${ayahNumber}">
+        <svg class="ayah-medallion-svg" width="${size}" height="${size}" viewBox="0 0 48 48" fill="none">
+          <g fill="#FFFDF7" stroke="#C99A2E" stroke-width="1.8">
+            <rect x="9" y="9" width="30" height="30" rx="3" />
+            <rect x="9" y="9" width="30" height="30" rx="3" transform="rotate(45 24 24)" />
+          </g>
+          <circle cx="24" cy="24" r="13.5" fill="#FAF6EC" stroke="#D9B45A" stroke-width="1.2"/>
+          <text x="24" y="29" text-anchor="middle" font-family="'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'AlQuran IndoPak', serif" font-size="15" font-weight="700" fill="#0B4A3B">${urduNum}</text>
+        </svg>
+      </span>
+    `;
+  },
+
+  /**
+   * Displays scholarly QuranEnc footnote in a bottom sheet
+   */
+  showFootnoteBottomSheet({ footnoteNum, footnoteText, lang = "ur", surahNum, ayahNum }) {
+    const isUr = lang === "ur";
+    const sheet = document.createElement("div");
+    sheet.className = "bottom-sheet-overlay active";
+    sheet.setAttribute("role", "dialog");
+    sheet.setAttribute("aria-modal", "true");
+
+    sheet.innerHTML = `
+      <div class="bottom-sheet footnote-sheet">
+        <div class="bottom-sheet-handle"></div>
+        <div class="bottom-sheet-header">
+          <div class="sheet-title-box">
+            <span class="sheet-surah-ar">${isUr ? `حاشیہ نمبر [<span class="urdu-num">${toUrduDigits(footnoteNum)}</span>]` : `Footnote [${footnoteNum}]`}</span>
+            <span class="sheet-ayah-badge">${isUr ? `آیت <span class="urdu-num">${toUrduDigits(surahNum)}</span>:<span class="urdu-num">${toUrduDigits(ayahNum)}</span>` : `Ayah ${surahNum}:${ayahNum}`}</span>
+          </div>
+          <button type="button" class="btn-close" aria-label="${t("close", lang)}">✕</button>
+        </div>
+        <div class="bottom-sheet-content">
+          <div class="footnote-body ${isUr ? 'ur' : 'en'}" lang="${isUr ? 'ur' : 'en'}" dir="${isUr ? 'rtl' : 'ltr'}">
+            <p class="footnote-text" lang="${isUr ? 'ur' : 'en'}" dir="${isUr ? 'rtl' : 'ltr'}">${footnoteText || (isUr ? "کوئی اضافی تشریح موجود نہیں۔" : "No additional footnote text.")}</p>
+          </div>
+          <div class="footnote-source-tag">
+            <span lang="${isUr ? 'ur' : 'en'}" dir="${isUr ? 'rtl' : 'ltr'}">${isUr ? "ماخذ: تفسیر و حواشی مجمع الملک فہد / QuranEnc" : "Source: King Fahd Complex / QuranEnc"}</span>
+          </div>
+        </div>
+      </div>
+    `;
+
+    const close = () => {
+      if (sheet.parentNode) sheet.parentNode.removeChild(sheet);
+    };
+
+    sheet.querySelector(".btn-close").addEventListener("click", close);
+    sheet.addEventListener("click", (e) => {
+      if (e.target === sheet) close();
+    });
+
+    document.body.appendChild(sheet);
+  },
+
+  showTranslationBottomSheet({ title, text, lang = "ur", surahNum, ayahNum }) {
+    const isUr = lang === "ur";
+    const sheet = document.createElement("div");
+    sheet.className = "bottom-sheet-overlay active";
+    sheet.setAttribute("role", "dialog");
+    sheet.setAttribute("aria-modal", "true");
+
+    sheet.innerHTML = `
+      <div class="bottom-sheet translation-sheet" dir="${isUr ? 'rtl' : 'ltr'}">
+        <div class="bottom-sheet-handle"></div>
+        <div class="bottom-sheet-header">
+          <div class="sheet-title-box">
+            <span class="sheet-surah-ar" lang="${lang}">${title}</span>
+            <span class="sheet-ayah-badge">${isUr ? `آیت <span class="urdu-num">${toUrduDigits(surahNum)}</span>:<span class="urdu-num">${toUrduDigits(ayahNum)}</span>` : `Ayah ${surahNum}:${ayahNum}`}</span>
+          </div>
+          <button type="button" class="btn-close" aria-label="${t("close", lang)}">✕</button>
+        </div>
+        <div class="bottom-sheet-content">
+          <div class="translation-sheet-body ${isUr ? 'trans-text-ur' : 'trans-text-en'}" lang="${lang}" dir="${isUr ? 'rtl' : 'ltr'}">
+            <p style="font-size: 20px; line-height: ${isUr ? '2.1' : '1.7'}; margin: 0; color: var(--color-ink);">${text}</p>
+          </div>
+        </div>
+      </div>
+    `;
+
+    const close = () => {
+      if (sheet.parentNode) sheet.parentNode.removeChild(sheet);
+    };
+
+    sheet.querySelector(".btn-close").addEventListener("click", close);
+    sheet.addEventListener("click", (e) => {
+      if (e.target === sheet) close();
+    });
+
+    document.body.appendChild(sheet);
+  },
+
+  showQuranSettingsBottomSheet({ onChange }) {
+    const isUr = state.lang === "ur";
+    const sheet = document.createElement("div");
+    sheet.className = "bottom-sheet-overlay active";
+    sheet.setAttribute("role", "dialog");
+    sheet.setAttribute("aria-modal", "true");
+
+    sheet.innerHTML = `
+      <div class="bottom-sheet quran-settings-sheet" dir="${isUr ? 'rtl' : 'ltr'}">
+        <div class="bottom-sheet-handle"></div>
+        <div class="bottom-sheet-header">
+          <div class="sheet-title-box">
+            <span class="sheet-surah-ar" lang="${state.lang}">${t("displaySettings", state.lang)}</span>
+          </div>
+          <button type="button" class="btn-close" aria-label="${t("close", state.lang)}">✕</button>
+        </div>
+        <div class="bottom-sheet-content quran-settings-content">
+          <div class="settings-sheet-section">
+            <span class="settings-section-title">${t("readingModeLabel", state.lang)}</span>
+            <div class="mode-pill-toggle" role="group" aria-label="${t("readingModeLabel", state.lang)}">
+              <button type="button" class="mode-pill-btn ${state.readingMode === 'wbw' ? 'active' : ''}" data-sheet-mode="wbw">${t("readingModeWbw", state.lang)}</button>
+              <button type="button" class="mode-pill-btn ${state.readingMode === 'mushaf' ? 'active' : ''}" data-sheet-mode="mushaf">${t("readingModeMushaf", state.lang)}</button>
+            </div>
+          </div>
+
+          <div class="settings-sheet-section">
+            <span class="settings-section-title">${t("meaningLabel", state.lang)}</span>
+            <div class="meaning-toggle-group" role="group" aria-label="${t("meaningLabel", state.lang)}">
+              <button type="button" class="meaning-btn ${state.meaningDisplay === 'both' ? 'active' : ''}" data-sheet-meaning="both">${t("meaningToggleBoth", state.lang)}</button>
+              <button type="button" class="meaning-btn ${state.meaningDisplay === 'ur' ? 'active' : ''}" data-sheet-meaning="ur">${t("meaningToggleUrdu", state.lang)}</button>
+              <button type="button" class="meaning-btn ${state.meaningDisplay === 'en' ? 'active' : ''}" data-sheet-meaning="en">${t("meaningToggleEnglish", state.lang)}</button>
+            </div>
+          </div>
+
+          <div class="settings-sheet-section">
+            <span class="settings-section-title">${t("morphologyLabel", state.lang)}</span>
+            <div class="mode-pill-toggle" role="group" aria-label="${t("morphologyLabel", state.lang)}">
+              <button type="button" class="mode-pill-btn ${!state.settings.showMorphology ? 'active' : ''}" data-sheet-morph="off">${t("morphologyOff", state.lang)}</button>
+              <button type="button" class="mode-pill-btn ${state.settings.showMorphology && (state.settings.morphologyStyle || 'underline') === 'underline' ? 'active' : ''}" data-sheet-morph="underline">${t("morphStyleUnderline", state.lang)}</button>
+              <button type="button" class="mode-pill-btn ${state.settings.showMorphology && state.settings.morphologyStyle === 'tint' ? 'active' : ''}" data-sheet-morph="tint">${t("morphStyleTint", state.lang)}</button>
+            </div>
+          </div>
+
+          <div class="settings-sheet-section">
+            <span class="settings-section-title">${t("fontSizeLabel", state.lang)}</span>
+            <div class="sheet-font-scaler-box" id="sheet-scaler-box"></div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    const close = () => {
+      if (sheet.parentNode) sheet.parentNode.removeChild(sheet);
+    };
+
+    sheet.querySelector(".btn-close").addEventListener("click", close);
+    sheet.addEventListener("click", (e) => {
+      if (e.target === sheet) close();
+    });
+
+    // Wire reading mode
+    sheet.querySelectorAll("[data-sheet-mode]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const m = btn.getAttribute("data-sheet-mode");
+        state.readingMode = m;
+        sheet.querySelectorAll("[data-sheet-mode]").forEach((b) => b.classList.toggle("active", b === btn));
+        if (typeof onChange === "function") onChange();
+      });
+    });
+
+    // Wire meaning mode
+    sheet.querySelectorAll("[data-sheet-meaning]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const m = btn.getAttribute("data-sheet-meaning");
+        state.meaningDisplay = m;
+        sheet.querySelectorAll("[data-sheet-meaning]").forEach((b) => b.classList.toggle("active", b === btn));
+        if (typeof onChange === "function") onChange();
+      });
+    });
+
+    // Wire morphology mode
+    sheet.querySelectorAll("[data-sheet-morph]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const val = btn.getAttribute("data-sheet-morph");
+        if (val === "off") {
+          state.settings.showMorphology = false;
+        } else {
+          state.settings.showMorphology = true;
+          state.settings.morphologyStyle = val; // "underline" or "tint"
+        }
+        Storage.saveSettings(state.settings);
+        sheet.querySelectorAll("[data-sheet-morph]").forEach((b) => b.classList.toggle("active", b === btn));
+        if (typeof onChange === "function") onChange();
+      });
+    });
+
+    // Render font scaler
+    const scalerBox = sheet.querySelector("#sheet-scaler-box");
+    if (scalerBox) {
+      UIComponents.renderFontScalerPills(scalerBox, () => {
+        if (typeof onChange === "function") onChange();
+      });
+    }
+
+    document.body.appendChild(sheet);
+  },
+
+  /**
+   * Renders 5-step font scaler [A− | A+]
+   */
+  renderFontScalerPills(container, onChange) {
+    const render = () => {
+      const currentLevel = state.fontScaleLevel;
+      container.innerHTML = `
+        <div class="font-scaler-group" role="group" aria-label="${t("fontSizeLabel", state.lang)}">
+          <button type="button" class="btn-scaler-step btn-scaler-minus ${currentLevel <= 1 ? 'disabled' : ''}" aria-label="Decrease text size">A−</button>
+          <span class="scaler-level-indicator">${currentLevel}/5</span>
+          <button type="button" class="btn-scaler-step btn-scaler-plus ${currentLevel >= 5 ? 'disabled' : ''}" aria-label="Increase text size">A+</button>
+        </div>
+      `;
+
+      container.querySelector(".btn-scaler-minus").addEventListener("click", () => {
+        if (state.fontScaleLevel > 1) {
+          state.fontScaleLevel -= 1;
+          render();
+          if (onChange) onChange(state.fontScaleLevel);
+        }
+      });
+
+      container.querySelector(".btn-scaler-plus").addEventListener("click", () => {
+        if (state.fontScaleLevel < 5) {
+          state.fontScaleLevel += 1;
+          render();
+          if (onChange) onChange(state.fontScaleLevel);
+        }
+      });
+    };
+
+    render();
   },
 
   /**

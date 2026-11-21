@@ -8,6 +8,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِذَا السَّمَآءُ انْشَقَّتْ ۟ۙ",
       "ur": "جب آسمان پھٹ جائے گا.[1]",
       "en": "When the sky has split [open]",
+      "footnotesUr": "[1] یعنی جب قیامت برپا ہوگی۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِذَا",
@@ -31,6 +33,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَاَذِنَتْ لِرَبِّهَا وَحُقَّتْ ۟ۙ",
       "ur": "اور اپنے رب کے حکم پر کان لگائے گا[1] اور اسی کے ﻻئق وه ہے.[2]",
       "en": "And has listened [i.e., responded][1888] to its Lord and was obligated [to do so]",
+      "footnotesUr": "[1] یعنی اللہ اس کوپھٹنے کا جو حکم دے گا، اسے سنے گا اور اطاعت کرے گا۔\n[2] یعنی اس کے یہی لائق ہے کہ سنے اور اطاعت کرے، اس لئے کہ وہ سب پرغالب ہے اور سب اس کے ماتحت ہیں، اس کے حکم سے سرتابی کرنے کی کس کو مجال ہو سکتی ہے ؟",
+      "footnotesEn": "[1888] It will have heard Allāh's command and will have inclined immediately to compliance and willing obedience.",
       "words": [
         {
           "ar": "وَاَذِنَتْ",
@@ -54,6 +58,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَاِذَا الْاَرْضُ مُدَّتْ ۟ؕ",
       "ur": "اور جب زمین (کھینچ کر) پھیلا دی جائے گی.[1]",
       "en": "And when the earth has been extended[1889]",
+      "footnotesUr": "[1] یعنی اس کے طول وعرض میں مزید وسعت کر دی جائےگی۔ یا یہ مطلب ہے کہ اس پر جو پہاڑ وغیرہ ہیں، سب کو ریزہ ریزہ کر کے زمین کو صاف اور ہموار کرکے بچھا دیا جائے گا۔ اس میں کوئی اونچ نیچ نہیں رہے گی۔",
+      "footnotesEn": "[1889] i.e., stretched flat and spread out.",
       "words": [
         {
           "ar": "وَاِذَا",
@@ -77,6 +83,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَاَلْقَتْ مَا فِیْهَا وَتَخَلَّتْ ۟ۙ",
       "ur": "اور اس میں جو ہے اسے وه اگل دے گی اور خالی ہو جائے گی.[1]",
       "en": "And has cast out that within it[1890] and relinquished [it]",
+      "footnotesUr": "[1] یعنی اس میں جو مردے دفن ہیں، سب زندہ ہو کر باہر نکل آئیں گے جو خزانے اس کے بطن میں موجود ہیں، وہ انہیں ظاہر کر دے گی، اور خود بالکل خالی ہو جائے گی۔",
+      "footnotesEn": "[1890] Of the dead and all else buried therein.",
       "words": [
         {
           "ar": "وَاَلْقَتْ",
@@ -105,6 +113,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَاَذِنَتْ لِرَبِّهَا وَحُقَّتْ ۟ؕ",
       "ur": "اور اپنے رب کے حکم پر کان لگائے گی[1] اور اسی کے ﻻئق وه ہے.",
       "en": "And has listened [i.e., responded] to its Lord and was obligated [to do so] –",
+      "footnotesUr": "[1] یعنی القا اور تخلی کا جو حکم اسے دیا جائے گا، وہ اس کے مطابق عمل کرے گی ۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَاَذِنَتْ",
@@ -128,6 +138,8 @@ window.BASEERAH_SURAH = {
       "arFull": "یٰۤاَیُّهَا الْاِنْسَانُ اِنَّكَ كَادِحٌ اِلٰی رَبِّكَ كَدْحًا فَمُلٰقِیْهِ ۟ۚ",
       "ur": "اے انسان! تو اپنے رب سے ملنے تک یہ کوشش اور تمام کام اور محنتیں کرکے اس سے ملاقات کرنے واﻻ ہے.[1]",
       "en": "O mankind, indeed you are laboring toward your Lord with [great] exertion[1891] and will meet it.[1892]",
+      "footnotesUr": "[1] یہاں انسان بطور جنس کے ہے جس میں مومن اور کافر دونوں شامل ہیں۔ کدح،سخت محنت کو کہتے ہیں، وہ محنت خیر کے کاموں کے لئے ہو یا شر کےلئے۔ مطلب یہ ہے کہ جب مذکورہ چیزیں ظہور پذیر ہوں گی یعنی قیامت آجائے گی تو اے انسان تو نے جو بھی، اچھا یا برا عمل کیا ہوگا، وہ تو اپنے سامنے پالے گا اور اسی کے مطابق تجھے اچھی یا بری جزا بھی ملے گی۔ آگے اس کی مزید تفصیل ووضاحت ہے۔",
+      "footnotesEn": "[1891] i.e., striving throughout your life until you meet your Lord, hastening toward death.\n[1892] i.e., you will find all that you intended and accomplished awaiting you in the Hereafter. Another meaning is \"And will meet Him [i.e., your Lord]\" and be recompensed in full by Him.",
       "words": [
         {
           "ar": "یٰۤاَیُّهَا",
@@ -176,6 +188,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَاَمَّا مَنْ اُوْتِیَ كِتٰبَهٗ بِیَمِیْنِهٖ ۟ۙ",
       "ur": "تو (اس وقت) جس شخص کے داہنے ہاتھ میں اعمال نامہ دیا جائے گا.",
       "en": "Then as for he who is given his record in his right hand,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَاَمَّا",
@@ -209,6 +223,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَسَوْفَ یُحَاسَبُ حِسَابًا یَّسِیْرًا ۟ۙ",
       "ur": "اس کا حساب تو بڑی آسانی سے لیا جائے گا.[1]",
       "en": "He will be judged with an easy account",
+      "footnotesUr": "[1] آسان حساب یہ ہے کہ مومن کا اعمال نامہ پیش ہوگا۔ اس کی غلطیاں بھی اس کے سامنے لائی جائیں گی، پھر اللہ تعالیٰ اپنی رحمت اور فضل وکرم سے انہیں معاف فرما دے گا۔ حضرت عائشہ (رضی الله عنها) فرماتی ہیں کہ رسول اللہ (صلى الله عليه وسلم) نے فرمایا ”جس کا حساب لیا گیا وہ ہلاک ہوگیا“۔ میں نے کہا اے اللہ کے رسول! اللہ مجھے آپ پر قربان کرے کیا اللہ تعالیٰ نے یہ نہیں فرمایا، جس کے دائیں ہاتھ میں نامہ اعمال دیا گیا، اس کا حساب آسان ہوگا۔ مطلب حضرت عائشہ (رضی الله عنها) کا یہ تھا کہ اس آیت کی رو سے حساب تو مومن کا بھی ہوگا لیکن وہ ہلاکت سےدوچار نہیں ہوگا۔ آپ (صلى الله عليه وسلم) نے وضاحت فرمائی ”یہ تو پیشی ہے“۔ یعنی مومن کے ساتھ معاملہ حساب کا نہیں ہوگا، ایک سرسری سی پیشی ہوگی مومن رب کے سامنے پیش کیے جائیں گے، جس کا مناقشہ ہوا یعنی پوچھ گچھ ہوئی وہ مارا گیا۔ ( صحيح البخاري، تفسير سورة انشقاق ) ایک اور روایت میں حضرت عائشہ (رضی الله عنها) فرماتی ہیں۔ نبی (صلى الله عليه وسلم) اپنی بعض نماز میں یہ دعا پڑھتے تھے۔ ”اللَّهُمَّ حَاسِبْنِي حِسَابًا يَسِيرًا“ (اے اللہ میرا حساب آسان فرمانا) نماز سے فراغت کے بعد میں نے پوچھا، حسابا یسیرا ”آسان حساب“ کا کیا مطلب ہے ؟ آپ (صلى الله عليه وسلم) نے فرمایا، اللہ تعالیٰ اس کا اعمال نامہ دیکھے گا اور پھر اسے معاف فرما دے گا۔۔۔ ( مسند احمد،6 / 48 ) ۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَسَوْفَ",
@@ -237,6 +253,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَّیَنْقَلِبُ اِلٰۤی اَهْلِهٖ مَسْرُوْرًا ۟ؕ",
       "ur": "اور وه اپنے اہل کی طرف ہنسی خوشی لوٹ آئے گا.[1]",
       "en": "And return to his people in happiness.",
+      "footnotesUr": "[1] یعنی جو اس کے گھر والوں میں سے جنتی ہوں گے۔ یا اس سے مراد وہ حورعین اور ولدان ہیں جو جنتیوں کو ملیں گے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَّیَنْقَلِبُ",
@@ -265,6 +283,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَاَمَّا مَنْ اُوْتِیَ كِتٰبَهٗ وَرَآءَ ظَهْرِهٖ ۟ۙ",
       "ur": "ہاں جس شخص کا اعمال نامہ اس کی پیٹھ کے پیچھے سے دیا جائے گا.",
       "en": "But as for he who is given his record behind his back,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَاَمَّا",
@@ -303,6 +323,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَسَوْفَ یَدْعُوْا ثُبُوْرًا ۟ۙ",
       "ur": "تو وه موت کو بلانے لگے گا.[1]",
       "en": "He will cry out for destruction",
+      "footnotesUr": "[1] ثُبُورًا ہلاکت، خسارہ۔ یعنی وہ چیخے گا، پکارے گا، واویلا کرے گا کہ میں تو مارا گیا، ہلاک ہوگیا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَسَوْفَ",
@@ -326,6 +348,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَّیَصْلٰی سَعِیْرًا ۟ؕ",
       "ur": "اور بھڑکتی ہوئی جہنم میں داخل ہوگا.",
       "en": "And [enter to] burn in a Blaze.",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَّیَصْلٰی",
@@ -344,6 +368,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِنَّهٗ كَانَ فِیْۤ اَهْلِهٖ مَسْرُوْرًا ۟ؕ",
       "ur": "یہ شخص اپنے متعلقین میں (دنیا میں) خوش تھا.[1]",
       "en": "Indeed, he had [once] been among his people in happiness;",
+      "footnotesUr": "[1] یعنی دنیا میں اپنی خواہشات میں مگن اور اپنے گھر والوں کےدرمیان بڑا خوش تھا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِنَّهٗ",
@@ -377,6 +403,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِنَّهٗ ظَنَّ اَنْ لَّنْ یَّحُوْرَ ۟ۚۛ",
       "ur": "اس کا خیال تھا کہ اللہ کی طرف لوٹ کر ہی نہ جائے گا.[1]",
       "en": "Indeed, he had thought he would never return [to Allāh].",
+      "footnotesUr": "[1] یہ اس کے خوش ہونے کی علت ہے۔ یعنی آخرت پر اس کا عقیدہ ہی نہیں تھا ۔ حور کےمعنی ہیں، لوٹنا۔ جس طرح نبی (صلى الله عليه وسلم) کی دعا ہے اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْحَورِ بَعْدَ الْكَورِ(صحيح مسلم، الحج، باب ما يقول إذا ركب إلى سفر الحج وغيره، ترمذي، ابن ماجه ) مسلم میں بعد الكون ہے۔ مطلب ہے، اس بات سے میں پناہ مانگتا ہوں کہ ایمان کے بعد کفر، اطاعت کے بعد معصیت یاخیر کے بعد شر کی طرف لوٹوں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِنَّهٗ",
@@ -410,6 +438,8 @@ window.BASEERAH_SURAH = {
       "arFull": "بَلٰۤی ۛۚ اِنَّ رَبَّهٗ كَانَ بِهٖ بَصِیْرًا ۟ؕ",
       "ur": "کیوں نہیں[1] ، حاﻻنکہ اس کا رب اسے بخوبی دیکھ رہا تھا.[2]",
       "en": "But yes! Indeed, his Lord was ever, of him, Seeing.",
+      "footnotesUr": "[1] ایک ترجمہ اس کا یہ بھی ہے کہ یہ کیسے ہو سکتا ہے کہ یہ نہ لوٹے اور دوبارہ زندہ نہ ہو، یا بَلَى، کیوں نہیں، یہ ضرور اپنے رب کی طرف لوٹے گا۔\n[2] یعنی اس سے اس کا کوئی عمل مخفی نہیں تھا۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "بَلٰۤی ۛۚ",
@@ -448,6 +478,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَلَاۤ اُقْسِمُ بِالشَّفَقِ ۟ۙ",
       "ur": "مجھے شفق کی قسم[1] ! اور رات کی!",
       "en": "So I swear by the twilight glow",
+      "footnotesUr": "[1] شَفَقٌ، اس سرخی کو کہتے ہیں جو سورج غروب ہونے کے بعد آسمان پر ظاہر ہوتی ہے اور عشا کا وقت شروع ہونے تک رہتی ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَلَاۤ",
@@ -471,6 +503,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالَّیْلِ وَمَا وَسَقَ ۟ۙ",
       "ur": "اور اس کی جمع کرده[1] چیزوں کی قسم.",
       "en": "And [by] the night and what it envelops",
+      "footnotesUr": "[1] اندھیرا ہوتے ہی ہر چیز اپنےماویٰ اور مسکن کی طرف جمع اور سمٹ آتی ہے یعنی رات کا اندھیرا جن چیزوں کو اپنے دامن میں سمیٹ لیتا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالَّیْلِ",
@@ -494,6 +528,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَالْقَمَرِ اِذَا اتَّسَقَ ۟ۙ",
       "ur": "اور چاند کی جب کہ وه کامل ہو جاتا ہے.[1]",
       "en": "And [by] the moon when it becomes full",
+      "footnotesUr": "[1] إِذَا اتَّسَقَ کے معنی ہیں، جب وہ مکمل ہو جائے جیسے وہ تیرھویں کی رات سے سولھویں تاریخ کی رات تک رہتا ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَالْقَمَرِ",
@@ -517,6 +553,8 @@ window.BASEERAH_SURAH = {
       "arFull": "لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ ۟ؕ",
       "ur": "یقیناً تم ایک حالت سے دوسری حالت پر پہنچو گے.[1]",
       "en": "[That] you will surely embark upon [i.e., experience] state after state.[1893]",
+      "footnotesUr": "[1] طَبَقٌ کے اصل معنی شدت کے ہیں۔ یہاں مراد وہ شدائد ہیں جو قیامت والے دن واقع ہوں گے۔ یعنی اس روز ایک سے بڑھ کر ایک حالت طاری ہوگی۔ (فتح الباري ، تفسير سورة انشقاق) یہ جواب قسم ہے۔",
+      "footnotesEn": "[1893] i.e., various stages, both in this life and in the Hereafter.",
       "words": [
         {
           "ar": "لَتَرْكَبُنَّ",
@@ -545,6 +583,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَمَا لَهُمْ لَا یُؤْمِنُوْنَ ۟ۙ",
       "ur": "انہیں کیا ہو گیا کہ ایمان نہیں ﻻتے.",
       "en": "So what is [the matter] with them [that] they do not believe,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَمَا",
@@ -573,6 +613,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَاِذَا قُرِئَ عَلَیْهِمُ الْقُرْاٰنُ لَا یَسْجُدُوْنَ ۟",
       "ur": "اور جب ان کے پاس قرآن پڑھا جاتا ہے تو سجده نہیں کرتے.[1]",
       "en": "And when the Qur’ān is recited to them, they do not prostrate [to Allāh]?",
+      "footnotesUr": "[1] احادیث سے یہاں نبی (صلى الله عليه وسلم) اور صحابہ کرام کا سجدہ کرنا ثابت ہے۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَاِذَا",
@@ -611,6 +653,8 @@ window.BASEERAH_SURAH = {
       "arFull": "بَلِ الَّذِیْنَ كَفَرُوْا یُكَذِّبُوْنَ ۟ؗۖ",
       "ur": "بلکہ جنہوں نے کفر کیا وه جھٹلا رہے ہیں.[1]",
       "en": "But those who have disbelieved deny,",
+      "footnotesUr": "[1] یعنی ایمان لانے کےبجائے جھٹلاتے ہیں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "بَلِ",
@@ -639,6 +683,8 @@ window.BASEERAH_SURAH = {
       "arFull": "وَاللّٰهُ اَعْلَمُ بِمَا یُوْعُوْنَ ۟ؗۖ",
       "ur": "اور اللہ تعالیٰ خوب جانتا ہے جو کچھ یہ دلوں میں رکھتے ہیں.[1]",
       "en": "And Allāh is most knowing of what they keep within themselves.",
+      "footnotesUr": "[1] یعنی تکذیب، یاجو افعال وہ چھپ کر کرتے ہیں۔",
+      "footnotesEn": null,
       "words": [
         {
           "ar": "وَاللّٰهُ",
@@ -667,6 +713,8 @@ window.BASEERAH_SURAH = {
       "arFull": "فَبَشِّرْهُمْ بِعَذَابٍ اَلِیْمٍ ۟ۙ",
       "ur": "انہیں المناک عذابوں کی خوشخبری سنا دو.",
       "en": "So give them tidings of a painful punishment,",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "فَبَشِّرْهُمْ",
@@ -690,6 +738,8 @@ window.BASEERAH_SURAH = {
       "arFull": "اِلَّا الَّذِیْنَ اٰمَنُوْا وَعَمِلُوا الصّٰلِحٰتِ لَهُمْ اَجْرٌ غَیْرُ مَمْنُوْنٍ ۟۠",
       "ur": "ہاں ایمان والوں اور نیک اعمال والوں کو بے شمار اور نہ ختم ہونے واﻻ اجر ہے.",
       "en": "Except for those who believe and do righteous deeds. For them is a reward uninterrupted.",
+      "footnotesUr": null,
+      "footnotesEn": null,
       "words": [
         {
           "ar": "اِلَّا",

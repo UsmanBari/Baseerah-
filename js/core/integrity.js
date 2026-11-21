@@ -20,22 +20,25 @@ export const Integrity = {
 
   async computeSha256(str) {
     if (!window.crypto || !window.crypto.subtle) {
-      // Fallback in insecure contexts
       return null;
     }
-    const encoder = new TextEncoder();
-    const data = encoder.encode(str);
-    const hashBuffer = await crypto.subtle.digest("SHA-256", data);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
-    return hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
+    try {
+      const encoder = new TextEncoder();
+      const data = encoder.encode(str);
+      const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      return hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
+    } catch (err) {
+      console.warn("crypto.subtle.digest error:", err);
+      return null;
+    }
   },
 
   async verifySurahFile(surahNumber, rawFileText) {
     const manifest = await this.loadManifest();
     if (!manifest) {
-      // If manifest could not be read, treat with extreme caution
-      console.warn("Integrity manifest unavailable; skipping strict verification.");
-      return { valid: true, warning: "manifest_missing" };
+      console.warn("Integrity manifest unavailable; verification unavailable.");
+      return { valid: true, warning: "verification unavailable" };
     }
 
     const padded = String(surahNumber).padStart(3, "0");
@@ -43,27 +46,25 @@ export const Integrity = {
     const expectedHash = manifest[expectedKey];
 
     if (!expectedHash) {
-      return { valid: false, reason: "key_missing_in_manifest" };
+      return { valid: false, reason: "key_missing_in_manifest", expected: "N/A", actual: "verification unavailable" };
     }
 
-    const computed = await this.computeSha256(rawFileText);
+    // Normalize CRLF -> LF BEFORE computing the single canonical hash
+    const normalizedText = (rawFileText || "").replace(/\r\n/g, "\n");
+    const computed = await this.computeSha256(normalizedText);
+
     if (!computed) {
-      return { valid: true, warning: "subtle_crypto_unavailable" };
+      // SubtleCrypto failed or unavailable: do not treat as corruption
+      console.warn("Integrity hashing unavailable; skipping strict blocking.");
+      return { valid: true, warning: "verification unavailable" };
     }
 
-    // Normalizing Windows CRLF vs Unix LF if file was transferred
+    // Compare only this one hash
     if (computed === expectedHash) {
       return { valid: true };
     }
 
-    // Check with LF normalized
-    const normalizedText = rawFileText.replace(/\r\n/g, "\n");
-    const normalizedComputed = await this.computeSha256(normalizedText);
-    if (normalizedComputed === expectedHash) {
-      return { valid: true };
-    }
-
     console.error(`INTEGRITY CORRUPTION DETECTED in Surah ${surahNumber}! Expected ${expectedHash}, got ${computed}`);
-    return { valid: false, reason: "sha256_mismatch", expected: expectedHash, got: computed };
+    return { valid: false, reason: "sha256_mismatch", expected: expectedHash, actual: computed };
   }
 };

@@ -106,11 +106,9 @@ def normalize_indopak_for_comparison(text):
     return " ".join(text.split())
 
 def compute_sha256(filepath):
-    h = hashlib.sha256()
     with open(filepath, "rb") as f:
-        while chunk := f.read(65536):
-            h.update(chunk)
-    return h.hexdigest()
+        content = f.read().replace(b"\r\n", b"\n")
+    return hashlib.sha256(content).hexdigest()
 
 def main():
     parser = argparse.ArgumentParser(description="Baseerah Quran Data Builder")
@@ -246,12 +244,18 @@ def main():
         with open(os.path.join(qenc_ur_dir, fn), "r", encoding="utf-8") as f:
             data = json.load(f)
             for item in data.get("result", []):
-                qenc_ur[(int(item["sura"]), int(item["aya"]))] = item["translation"].strip()
+                qenc_ur[(int(item["sura"]), int(item["aya"]))] = {
+                    "translation": item["translation"].strip(),
+                    "footnotes": item.get("footnotes", "").strip()
+                }
 
         with open(os.path.join(qenc_en_dir, fn), "r", encoding="utf-8") as f:
             data = json.load(f)
             for item in data.get("result", []):
-                qenc_en[(int(item["sura"]), int(item["aya"]))] = item["translation"].strip()
+                qenc_en[(int(item["sura"]), int(item["aya"]))] = {
+                    "translation": item["translation"].strip(),
+                    "footnotes": item.get("footnotes", "").strip()
+                }
 
     # Load Known Exceptions
     known_ex_path = os.path.join(SCRIPTS_DIR, "known_exceptions.json")
@@ -303,8 +307,8 @@ def main():
     # Check 2: Every ayah has non-empty ur and en full translations
     empty_trans = []
     for sa in tanzil_ayahs:
-        u = qenc_ur.get(sa)
-        e = qenc_en.get(sa)
+        u = qenc_ur.get(sa, {}).get("translation")
+        e = qenc_en.get(sa, {}).get("translation")
         if not u:
             empty_trans.append((sa, "ur"))
         if not e:
@@ -427,8 +431,12 @@ def main():
         for a in range(1, expected_ayahs + 1):
             sa = (s, a)
             ar_full = s89[f"{s}:{a}"]["text"]
-            ur_full = qenc_ur[sa]
-            en_full = qenc_en[sa]
+            ur_entry = qenc_ur[sa]
+            en_entry = qenc_en[sa]
+            ur_full = ur_entry["translation"]
+            en_full = en_entry["translation"]
+            ur_fn = ur_entry["footnotes"] or None
+            en_fn = en_entry["footnotes"] or None
 
             words_59 = by_ayah_59[sa]
             words_56 = by_ayah_56[sa]
@@ -466,6 +474,8 @@ def main():
                 "arFull": ar_full,
                 "ur": ur_full,
                 "en": en_full,
+                "footnotesUr": ur_fn,
+                "footnotesEn": en_fn,
                 "words": ayah_words_shipped
             })
 
@@ -506,7 +516,7 @@ def main():
         filename = f"{s:03d}.js"
         filepath = os.path.join(SURAHS_DIR, filename)
         js_content = f"window.BASEERAH_SURAH = {json.dumps(surah_data, ensure_ascii=False, indent=2)};\n"
-        with open(filepath, "w", encoding="utf-8") as f:
+        with open(filepath, "w", encoding="utf-8", newline="\n") as f:
             f.write(js_content)
     print(f"  Wrote 114 surah files to {SURAHS_DIR}")
 
@@ -516,7 +526,7 @@ def main():
         f"window.BASEERAH_BISMILLAH = {json.dumps(bismillah_ar, ensure_ascii=False)};\n"
         f"window.BASEERAH_INDEX = {json.dumps(index_entries, ensure_ascii=False, indent=2)};\n"
     )
-    with open(index_path, "w", encoding="utf-8") as f:
+    with open(index_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(index_js)
     print(f"  Wrote index file (with verified Bismillah) to {index_path}")
 
@@ -549,14 +559,14 @@ def main():
             item["source"] = "Tanzil Project (CC BY 3.0) quran-data.xml"
 
         juz_path = os.path.join(DATA_DIR, "juz.js")
-        with open(juz_path, "w", encoding="utf-8") as f:
+        with open(juz_path, "w", encoding="utf-8", newline="\n") as f:
             f.write("/* Generated from Tanzil Project (CC BY 3.0) metadata/quran-data.xml */\n")
             f.write("window.BASEERAH_JUZ = " + json.dumps(t_juzs, ensure_ascii=False, indent=2) + ";\n")
         print(f"  Wrote validated Juz dataset (30 contiguous juzs) to {juz_path}")
 
     # 4. data/build_report.json
     report_path = os.path.join(DATA_DIR, "build_report.json")
-    with open(report_path, "w", encoding="utf-8") as f:
+    with open(report_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
     print(f"  Wrote build report to {report_path}")
 
@@ -571,9 +581,18 @@ def main():
                 manifest[rel_path] = compute_sha256(full_path)
 
     manifest_path = os.path.join(DATA_DIR, "manifest.sha256.json")
-    with open(manifest_path, "w", encoding="utf-8") as f:
+    with open(manifest_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(manifest, f, indent=2)
     print(f"  Wrote integrity manifest ({len(manifest)} files) to {manifest_path}")
+
+    # 5. Update Service Worker cache version with git commit hash
+    try:
+        import sys
+        sys.path.insert(0, SCRIPTS_DIR)
+        from update_sw_version import update_sw
+        update_sw()
+    except Exception as e:
+        print(f"  Note: Service Worker cache version update skipped: {e}")
 
     print("\nBUILD SUCCESSFUL! All checks passed.")
 

@@ -1,6 +1,7 @@
 /* Baseerah — Hash-Based Kiosk Router */
 import { Storage } from "./storage.js";
 import { state } from "./state.js";
+import { audioManager } from "./audio.js";
 
 class Router {
   constructor() {
@@ -43,10 +44,17 @@ class Router {
     // Update state
     state.updateNav({ screen });
 
+    if (screen !== "quran") {
+      audioManager.stop();
+    }
+
     const handler = this.routes.get(screen) || this.routes.get("home");
     const appEl = document.getElementById("app-container");
     if (handler && appEl) {
       handler(appEl, params);
+      window.scrollTo(0, 0);
+      if (document.documentElement) document.documentElement.scrollTop = 0;
+      if (document.body) document.body.scrollTop = 0;
     }
   }
 }
