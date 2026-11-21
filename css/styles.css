@@ -2822,7 +2822,170 @@ button:focus-visible {
   color: var(--color-ink);
 }
 
+/* BASEERAH TOAST */
+.baseerah-toast {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(11, 74, 59, 0.95);
+  color: #FFF;
+  border: 1.5px solid var(--color-gold-star);
+  border-radius: var(--radius-pill);
+  padding: 10px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+  animation: toastFadeIn 200ms ease-out forwards;
+}
+
+.baseerah-toast.fade-out {
+  opacity: 0;
+  transform: translateX(-50%) translateY(-10px);
+  transition: all 400ms ease-out;
+}
+
+@keyframes toastFadeIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* AUDIO RECITER CONTROLS */
+.audio-controls-pill {
+  display: inline-flex;
+  align-items: center;
+  background: var(--color-reading-surface);
+  border: 1.5px solid var(--color-gold-border);
+  border-radius: var(--radius-pill);
+  padding: 3px 6px;
+  gap: 4px;
+}
+
+.btn-audio-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--color-primary);
+  color: var(--color-text-white);
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 120ms ease-out;
+}
+
+.btn-audio-play:active {
+  transform: scale(0.94);
+}
+
+.btn-audio-play.playing {
+  background: #A67C1E;
+  box-shadow: 0 0 12px rgba(233, 199, 123, 0.6);
+}
+
+.btn-audio-speed, .btn-audio-repeat {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-primary-text);
+  cursor: pointer;
+}
+
+.btn-audio-repeat.active {
+  background: rgba(11, 74, 59, 0.15);
+  border-color: var(--color-gold-border);
+  color: var(--color-primary);
+}
+
+/* MOBILE AUDIO ACTIONS */
+.mobile-header-actions {
+  display: none;
+}
+
+.btn-mobile-audio-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  background: rgba(233, 199, 123, 0.2);
+  border: 1.5px solid var(--color-gold-line);
+  color: var(--color-gold-star);
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform var(--transition-press);
+}
+
+.btn-mobile-audio-play:active {
+  transform: scale(0.92);
+}
+
+.btn-mobile-audio-play.playing {
+  background: var(--color-gold-star);
+  color: var(--color-primary-dark);
+}
+
+/* SYNCHRONIZED WORD HIGHLIGHT */
+.wbw-interlinear-tile.audio-active-word {
+  border-color: var(--color-gold-star) !important;
+  background: #FFFDF5 !important;
+  box-shadow: 0 0 0 2.5px var(--color-gold-star), 0 4px 16px rgba(166, 124, 30, 0.3) !important;
+  transform: translateY(-2px) scale(1.03);
+  transition: all 120ms ease-out;
+}
+
+.wbw-interlinear-tile.audio-active-word .tile-ar {
+  color: #0B4A3B !important;
+}
+
+/* MUSHAF AUDIO PLAY BUTTON */
+.btn-mushaf-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(11, 74, 59, 0.08);
+  border: 1px solid var(--color-gold-border);
+  color: var(--color-primary);
+  cursor: pointer;
+  margin-inline-end: 6px;
+  vertical-align: middle;
+  font-size: 11px;
+  transition: all 120ms ease-out;
+}
+
+.btn-mushaf-play:active {
+  transform: scale(0.9);
+}
+
+.btn-mushaf-play.playing {
+  background: var(--color-gold-star);
+  color: var(--color-primary-dark);
+}
+
+.mushaf-ayah-block.audio-active-block {
+  background: rgba(233, 199, 123, 0.12) !important;
+  border-radius: var(--radius-card);
+}
+
 @media (max-width: 767px) {
+  .mobile-header-actions {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 8px;
+  }
   /* Prevent horizontal scroll */
   html, body {
     overflow-x: hidden !important;

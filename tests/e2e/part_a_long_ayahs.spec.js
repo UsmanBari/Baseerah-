@@ -13,7 +13,7 @@ test.describe("Part A: Long Ayahs Word Wrapping, No Overflow, and Translation Re
     await page.screenshot({ path: fullPath });
     try {
       fs.copyFileSync(fullPath, path.join(artifactDir, filename));
-    } catch (e) {}
+    } catch (e) { }
   };
 
   const targetAyahs = [

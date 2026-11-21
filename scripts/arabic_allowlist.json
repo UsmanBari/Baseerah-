@@ -169,6 +169,12 @@
     }
   },
   "js/core/i18n.js": {
+    "وقف": {
+      "reason": "Audio pause label in i18n"
+    },
+    "آواز": {
+      "reason": "Audio mute notice in i18n"
+    },
     "دیکھیں": {
       "reason": "UI label for viewing modes in i18n"
     },

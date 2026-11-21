@@ -4,6 +4,7 @@ import { t, toUrduDigits } from "../core/i18n.js";
 import { router } from "../core/router.js";
 import { UIComponents } from "../ui/components.js";
 import { Integrity } from "../core/integrity.js";
+import { audioManager } from "../core/audio.js";
 
 let selectedWordIndex = null;
 
@@ -232,6 +233,16 @@ export async function renderQuranScreen(container, params = []) {
         </div>
 
         <div class="header-right-group quran-toolbar-group">
+          <!-- Audio Recitation Controls -->
+          <div class="audio-controls-pill" role="group" aria-label="Audio Controls">
+            <button type="button" class="btn-audio-play" id="btn-audio-play" aria-label="${t("playAyah", state.lang)}">
+              <span class="audio-icon-play">▶</span>
+              <span class="audio-play-label">${t("playAyah", state.lang)}</span>
+            </button>
+            <button type="button" class="btn-audio-speed" id="btn-audio-speed" aria-label="Audio Speed">1×</button>
+            <button type="button" class="btn-audio-repeat" id="btn-audio-repeat" aria-label="Repeat Ayah">🔁</button>
+          </div>
+
           <!-- Reading Mode Switch (WBW / Mushaf) -->
           <div class="mode-pill-toggle mode-toggle" role="group" aria-label="Reading Mode">
             <button type="button" class="mode-pill-btn mode-btn active" data-mode="wbw">${t("readingModeWbw", state.lang)}</button>
@@ -249,12 +260,15 @@ export async function renderQuranScreen(container, params = []) {
           <div class="font-scaler-container" id="font-scaler-box"></div>
         </div>
 
-        <!-- Mobile Overflow "⋯" Button -->
-        <button type="button" class="btn-quran-overflow" id="btn-quran-overflow" aria-label="${t("displaySettings", state.lang)}">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="1.5"/><circle cx="5" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
-          </svg>
-        </button>
+        <!-- Mobile Header Actions (Play + Overflow Settings) -->
+        <div class="mobile-header-actions">
+          <button type="button" class="btn-mobile-audio-play" id="btn-mobile-audio-play" aria-label="${t("playAyah", state.lang)}">▶</button>
+          <button type="button" class="btn-quran-overflow" id="btn-quran-overflow" aria-label="${t("displaySettings", state.lang)}">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="1.5"/><circle cx="5" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </div>
       </header>
 
       <!-- AYAH CHIPS ROW (Horizontally scrolling, auto-centered) -->
@@ -544,7 +558,7 @@ export async function renderQuranScreen(container, params = []) {
     });
   });
 
-  // Tap Word Tile -> Highlight
+  // Tap Word Tile -> Highlight and play word pronunciation!
   container.querySelectorAll(".wbw-interlinear-tile").forEach((tile) => {
     tile.addEventListener("click", () => {
       const idx = parseInt(tile.getAttribute("data-word-idx"), 10);
@@ -554,6 +568,12 @@ export async function renderQuranScreen(container, params = []) {
       } else {
         selectedWordIndex = idx;
         container.querySelectorAll(".wbw-interlinear-tile").forEach((t) => t.classList.toggle("selected", t === tile));
+      }
+
+      // Play authentic single word pronunciation audio
+      const wordRes = audioManager.playWord(sNum, aNum, idx);
+      if (wordRes && !wordRes.played && wordRes.reason === "mosque_mute_active") {
+        UIComponents.showToast(isUr ? wordRes.messageUr : wordRes.messageEn);
       }
     });
   });
@@ -625,6 +645,71 @@ export async function renderQuranScreen(container, params = []) {
       });
     });
   }
+
+  // Wire Audio Recitation Controls
+  const playBtns = container.querySelectorAll("#btn-audio-play, #btn-mobile-audio-play");
+  const speedBtn = container.querySelector("#btn-audio-speed");
+  const repeatBtn = container.querySelector("#btn-audio-repeat");
+
+  const updatePlayUI = (isPlaying) => {
+    playBtns.forEach((btn) => {
+      btn.classList.toggle("playing", isPlaying);
+      const icon = btn.querySelector(".audio-icon-play");
+      const label = btn.querySelector(".audio-play-label");
+      if (icon) icon.textContent = isPlaying ? "⏸" : "▶";
+      else if (btn.id === "btn-mobile-audio-play") btn.textContent = isPlaying ? "⏸" : "▶";
+      if (label) label.textContent = isPlaying ? t("pauseAyah", state.lang) : t("playAyah", state.lang);
+    });
+  };
+
+  playBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      if (audioManager.isMuted()) {
+        UIComponents.showToast(t("mosqueMutedNotice", state.lang));
+        return;
+      }
+
+      audioManager.togglePlay(sNum, aNum, {
+        words: currentAyahObj.words || [],
+        onWordHighlight: (idx) => {
+          container.querySelectorAll(".wbw-interlinear-tile").forEach((tile) => {
+            const tIdx = parseInt(tile.getAttribute("data-word-idx"), 10);
+            const isActive = tIdx === idx;
+            tile.classList.toggle("audio-active-word", isActive);
+          });
+        },
+        onStateChange: ({ isPlaying }) => {
+          updatePlayUI(isPlaying);
+        },
+        onEnded: () => {
+          updatePlayUI(false);
+          if (audioManager.isAutoPlay() && !audioManager.isRepeat()) {
+            if (aNum < totalAyahs) {
+              router.navigate(`quran/${sNum}/${aNum + 1}`);
+            }
+          }
+        }
+      });
+    });
+  });
+
+  if (speedBtn) {
+    speedBtn.addEventListener("click", () => {
+      const curRate = audioManager.getPlaybackRate();
+      const newRate = curRate === 1.0 ? 0.75 : 1.0;
+      audioManager.setPlaybackRate(newRate);
+      speedBtn.textContent = `${newRate}×`;
+    });
+  }
+
+  if (repeatBtn) {
+    repeatBtn.addEventListener("click", () => {
+      const isRep = !audioManager.isRepeat();
+      audioManager.setRepeat(isRep);
+      repeatBtn.classList.toggle("active", isRep);
+    });
+  }
 }
 
 /**
@@ -656,7 +741,7 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
       <div class="mushaf-ayah-block mushaf-ayah-span" data-ayah-num="${a.number}" id="mushaf-ayah-${a.number}">
         <div class="mushaf-ayah-arabic-row" lang="ar" dir="rtl" role="button" tabindex="0" aria-label="${t("readingModeWbw", state.lang)}">
           <span class="mushaf-ar-text">${cleanArabic(a.arFull)}</span>
-          <span class="mushaf-medallion-box">${medallion}</span>
+          <span class="mushaf-medallion-box"><button type="button" class="btn-mushaf-play" data-play-ayah="${a.number}" aria-label="Play Ayah ${a.number}">▶</button>${medallion}</span>
         </div>
         ${showTranslation ? `
           <div class="mushaf-ayah-translation-card">
@@ -704,6 +789,16 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
         </div>
 
         <div class="header-right-group quran-toolbar-group">
+          <!-- Audio Recitation Controls -->
+          <div class="audio-controls-pill" role="group" aria-label="Audio Controls">
+            <button type="button" class="btn-audio-play" id="btn-audio-play" aria-label="${t("playAyah", state.lang)}">
+              <span class="audio-icon-play">▶</span>
+              <span class="audio-play-label">${t("playAyah", state.lang)}</span>
+            </button>
+            <button type="button" class="btn-audio-speed" id="btn-audio-speed" aria-label="Audio Speed">1×</button>
+            <button type="button" class="btn-audio-repeat" id="btn-audio-repeat" aria-label="Repeat Ayah">🔁</button>
+          </div>
+
           <!-- Reading Mode Switch (WBW / Mushaf) -->
           <div class="mode-pill-toggle mode-toggle" role="group" aria-label="Reading Mode">
             <button type="button" class="mode-pill-btn mode-btn" data-mode="wbw">${t("readingModeWbw", state.lang)}</button>
@@ -732,12 +827,15 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
           <div class="font-scaler-container" id="font-scaler-box"></div>
         </div>
 
-        <!-- Mobile Overflow "⋯" Button -->
-        <button type="button" class="btn-quran-overflow" id="btn-quran-overflow" aria-label="${t("displaySettings", state.lang)}">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="1.5"/><circle cx="5" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
-          </svg>
-        </button>
+        <!-- Mobile Header Actions (Play + Overflow Settings) -->
+        <div class="mobile-header-actions">
+          <button type="button" class="btn-mobile-audio-play" id="btn-mobile-audio-play" aria-label="${t("playAyah", state.lang)}">▶</button>
+          <button type="button" class="btn-quran-overflow" id="btn-quran-overflow" aria-label="${t("displaySettings", state.lang)}">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="1.5"/><circle cx="5" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </div>
       </header>
 
       <main class="mushaf-reading-viewport">
@@ -862,6 +960,96 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
           renderQuranScreen(container, [sNum, aNum]);
         }
       });
+    });
+  }
+
+  // Wire Mushaf Individual Ayah Play Buttons
+  container.querySelectorAll(".btn-mushaf-play").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const ayahToPlay = parseInt(btn.getAttribute("data-play-ayah"), 10);
+      if (audioManager.isMuted()) {
+        UIComponents.showToast(t("mosqueMutedNotice", state.lang));
+        return;
+      }
+
+      const ayahBlock = container.querySelector(`#mushaf-ayah-${ayahToPlay}`);
+      const isAlreadyPlaying = btn.classList.contains("playing");
+
+      if (isAlreadyPlaying) {
+        audioManager.pause();
+        btn.textContent = "▶";
+        btn.classList.remove("playing");
+        if (ayahBlock) ayahBlock.classList.remove("audio-active-block");
+        return;
+      }
+
+      container.querySelectorAll(".mushaf-ayah-block").forEach((b) => b.classList.remove("audio-active-block"));
+      container.querySelectorAll(".btn-mushaf-play").forEach((b) => {
+        b.textContent = "▶";
+        b.classList.remove("playing");
+      });
+
+      if (ayahBlock) ayahBlock.classList.add("audio-active-block");
+      btn.textContent = "⏸";
+      btn.classList.add("playing");
+
+      audioManager.playAyah(sNum, ayahToPlay, {
+        onEnded: () => {
+          btn.textContent = "▶";
+          btn.classList.remove("playing");
+          if (ayahBlock) ayahBlock.classList.remove("audio-active-block");
+        },
+        onStateChange: ({ isPlaying }) => {
+          if (!isPlaying) {
+            btn.textContent = "▶";
+            btn.classList.remove("playing");
+            if (ayahBlock) ayahBlock.classList.remove("audio-active-block");
+          }
+        }
+      });
+    });
+  });
+
+  // Wire Mushaf Header Audio Play/Pause Buttons
+  const mushafPlayBtns = container.querySelectorAll("#btn-audio-play, #btn-mobile-audio-play");
+  const mushafSpeedBtn = container.querySelector("#btn-audio-speed");
+  const mushafRepeatBtn = container.querySelector("#btn-audio-repeat");
+
+  mushafPlayBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      if (audioManager.isMuted()) {
+        UIComponents.showToast(t("mosqueMutedNotice", state.lang));
+        return;
+      }
+      audioManager.togglePlay(sNum, aNum, {
+        onStateChange: ({ isPlaying }) => {
+          mushafPlayBtns.forEach((b) => {
+            b.classList.toggle("playing", isPlaying);
+            const icon = b.querySelector(".audio-icon-play");
+            if (icon) icon.textContent = isPlaying ? "⏸" : "▶";
+            else if (b.id === "btn-mobile-audio-play") b.textContent = isPlaying ? "⏸" : "▶";
+          });
+        }
+      });
+    });
+  });
+
+  if (mushafSpeedBtn) {
+    mushafSpeedBtn.addEventListener("click", () => {
+      const curRate = audioManager.getPlaybackRate();
+      const newRate = curRate === 1.0 ? 0.75 : 1.0;
+      audioManager.setPlaybackRate(newRate);
+      mushafSpeedBtn.textContent = `${newRate}×`;
+    });
+  }
+
+  if (mushafRepeatBtn) {
+    mushafRepeatBtn.addEventListener("click", () => {
+      const isRep = !audioManager.isRepeat();
+      audioManager.setRepeat(isRep);
+      mushafRepeatBtn.classList.toggle("active", isRep);
     });
   }
 
