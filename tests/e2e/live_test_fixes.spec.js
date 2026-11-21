@@ -25,8 +25,8 @@ test.describe("Live Test of f645c09 - 3 Bug Fixes Verification", () => {
     console.log(`Saved screenshot: ${filename}`);
   };
 
-  test("1. Audio Playback: Default mute=false, real click plays audio & highlights words, word tap plays, mute toast verified", async ({ page }) => {
-    // 1A. Verify Mosque Mute Toast when mute is true
+  test("1. Audio Playback & Mute Toast: Toast bottom-centre never covering header or arrows, real click plays audio", async ({ page }) => {
+    // 1A. Verify Mosque Mute Toast position & content when mute is true
     await page.goto("/index.html#quran/1/2");
     await page.waitForSelector("#btn-audio-play");
 
@@ -34,6 +34,7 @@ test.describe("Live Test of f645c09 - 3 Bug Fixes Verification", () => {
     await page.evaluate(() => {
       const s = JSON.parse(localStorage.getItem("baseerah_settings") || "{}");
       s.mosqueMute = true;
+      s.settingsVersion = 2;
       localStorage.setItem("baseerah_settings", JSON.stringify(s));
       if (window.state && window.state.settings) window.state.settings.mosqueMute = true;
     });
@@ -42,10 +43,53 @@ test.describe("Live Test of f645c09 - 3 Bug Fixes Verification", () => {
 
     // Real user click with locator.click()
     await page.locator("#btn-audio-play").click();
-    const toast = page.locator(".baseerah-toast, .toast, [role='alert'], .toast-notification").first();
+    const toast = page.locator(".baseerah-toast").first();
     await expect(toast).toBeVisible({ timeout: 4000 });
     const toastText = await toast.textContent();
     expect(toastText).toMatch(/احترامِ مسجد موڈ|Mosque Respect Mode|آواز بند ہے/);
+
+    // Verify Toast is positioned at bottom-centre, NEVER covering header or arrows
+    const toastPos = await page.evaluate(() => {
+      const t = document.querySelector(".baseerah-toast");
+      const header = document.querySelector(".quran-header-emerald");
+      const leftArrow = document.querySelector(".nav-arrow-left");
+      const rightArrow = document.querySelector(".nav-arrow-right");
+
+      const tRect = t.getBoundingClientRect();
+      const hRect = header ? header.getBoundingClientRect() : null;
+      const lRect = leftArrow ? leftArrow.getBoundingClientRect() : null;
+      const rRect = rightArrow ? rightArrow.getBoundingClientRect() : null;
+
+      const vpHeight = window.innerHeight;
+      const vpWidth = window.innerWidth;
+
+      // Toast is in lower third of screen (bottom-centre)
+      const isAtBottom = tRect.top > vpHeight * 0.6;
+      // Horizontally centred
+      const isCentred = Math.abs((tRect.left + tRect.right) / 2 - vpWidth / 2) < 20;
+
+      // Never covers header
+      const coversHeader = hRect ? !(tRect.bottom < hRect.top || tRect.top > hRect.bottom) : false;
+
+      // Never covers arrows
+      const coversLeftArrow = lRect ? !(tRect.bottom < lRect.top || tRect.top > lRect.bottom || tRect.right < lRect.left || tRect.left > lRect.right) : false;
+      const coversRightArrow = rRect ? !(tRect.bottom < rRect.top || tRect.top > rRect.bottom || tRect.right < rRect.left || tRect.left > rRect.right) : false;
+
+      return {
+        isAtBottom,
+        isCentred,
+        coversHeader,
+        coversLeftArrow,
+        coversRightArrow,
+        tRect,
+      };
+    });
+
+    expect(toastPos.isAtBottom).toBe(true);
+    expect(toastPos.isCentred).toBe(true);
+    expect(toastPos.coversHeader).toBe(false);
+    expect(toastPos.coversLeftArrow).toBe(false);
+    expect(toastPos.coversRightArrow).toBe(false);
 
     // 1B. Reset to default (mute = false)
     await page.evaluate(() => {
@@ -115,6 +159,65 @@ test.describe("Live Test of f645c09 - 3 Bug Fixes Verification", () => {
     });
     expect(wordAudioState.hasWordAudio).toBe(true);
     expect(wordAudioState.currentTime).toBeGreaterThan(0);
+  });
+
+  test("1B. Settings Migration: preload localStorage with {'mosqueMute': true} and no version -> after load, pressing play plays audio", async ({ page }) => {
+    // Preload localStorage with returning visitor's old settings BEFORE scripts run
+    await page.addInitScript(() => {
+      localStorage.setItem("baseerah_settings", JSON.stringify({
+        mosqueMute: true,
+        fontScaleLevel: 4,
+        meaningDisplay: "ur"
+      }));
+    });
+
+    // Load Quran screen as returning visitor
+    await page.goto("/index.html#quran/1/2");
+    await page.waitForSelector("#btn-audio-play");
+
+    // Verify localStorage migration
+    const storageCheck = await page.evaluate(() => {
+      const raw = localStorage.getItem("baseerah_settings");
+      const parsed = JSON.parse(raw || "{}");
+      return {
+        mosqueMute: parsed.mosqueMute,
+        settingsVersion: parsed.settingsVersion,
+        fontScaleLevel: parsed.fontScaleLevel,
+        meaningDisplay: parsed.meaningDisplay,
+        stateMute: window.state ? window.state.mosqueMute : null,
+      };
+    });
+
+    // mosqueMute must be reset to false
+    expect(storageCheck.mosqueMute).toBe(false);
+    expect(storageCheck.stateMute).toBe(false);
+    // settingsVersion must be 2
+    expect(storageCheck.settingsVersion).toBe(2);
+    // Other settings must be preserved
+    expect(storageCheck.fontScaleLevel).toBe(4);
+    expect(storageCheck.meaningDisplay).toBe("ur");
+
+    // Track .mp3 requests
+    const mp3Requests = [];
+    page.on("request", (req) => {
+      if (req.url().includes(".mp3")) {
+        mp3Requests.push(req.url());
+      }
+    });
+
+    // Real click on play button -> audio must play immediately, NOT show mute toast!
+    await page.locator("#btn-audio-play").click();
+    await page.waitForTimeout(3000);
+
+    const isPlaying = await page.evaluate(() => {
+      const audio = window.audioManager ? window.audioManager.currentAudio : null;
+      return audio && !audio.paused && audio.currentTime > 0;
+    });
+    expect(isPlaying).toBe(true);
+    expect(mp3Requests.some((url) => url.includes("001002.mp3"))).toBe(true);
+
+    // Clean up
+    await page.locator("#btn-audio-play").click();
   });
 
   test("2. Desktop Arrows Viewport Bounds & Non-Overlap at 1280x800, 1422x650, 1918x904, 2560x1440 (UR & EN UI)", async ({ page }) => {

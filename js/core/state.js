@@ -171,3 +171,6 @@ class AppState {
 }
 
 export const state = new AppState();
+if (typeof window !== "undefined") {
+  window.state = state;
+}

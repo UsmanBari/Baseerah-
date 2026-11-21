@@ -6,6 +6,7 @@ const STORAGE_KEYS = {
 };
 
 const DEFAULT_SETTINGS = {
+  settingsVersion: 2,
   idleSeconds: 60,
   attractSeconds: 60,
   lang: "ur",
@@ -24,9 +25,23 @@ export const Storage = {
   getSettings() {
     try {
       const raw = localStorage.getItem(STORAGE_KEYS.SETTINGS);
-      if (!raw) return { ...DEFAULT_SETTINGS };
+      if (!raw) {
+        const defaults = { ...DEFAULT_SETTINGS };
+        this.saveSettings(defaults);
+        return defaults;
+      }
       const parsed = JSON.parse(raw);
       delete parsed.mushafShowTranslation;
+
+      // Settings migration (v2):
+      // If settingsVersion is missing or < 2, reset mosqueMute to false and set settingsVersion = 2
+      const currentVersion = typeof parsed.settingsVersion === "number" ? parsed.settingsVersion : 0;
+      if (currentVersion < 2) {
+        parsed.mosqueMute = false;
+        parsed.settingsVersion = 2;
+        this.saveSettings({ ...DEFAULT_SETTINGS, ...parsed });
+      }
+
       return { ...DEFAULT_SETTINGS, ...parsed };
     } catch (e) {
       console.warn("Storage.getSettings failed, returning defaults:", e);
