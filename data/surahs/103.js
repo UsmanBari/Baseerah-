@@ -14,9 +14,11 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَالْعَصْرِ",
           "ur": "قسم ہے زمانے کی",
-          "en": "By the time"
+          "en": "By the time",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْعَصْرِ"
         }
-      ]
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْعَصْرِ"
     },
     {
       "number": 2,
@@ -29,24 +31,29 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اِنَّ",
           "ur": "بیشک",
-          "en": "Indeed"
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "الْاِنْسَانَ",
           "ur": "تمام انسان",
-          "en": "mankind"
+          "en": "mankind",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نَ"
         },
         {
           "ar": "لَفِیْ",
           "ur": "البتہ میں",
-          "en": "(is) surely, in"
+          "en": "(is) surely, in",
+          "arTajweed": "لَفِى"
         },
         {
           "ar": "خُسْرٍ",
           "ur": "نقصان میں ہیں/ خسارے میں ہیں",
-          "en": "loss"
+          "en": "loss",
+          "arTajweed": "خُسْرٍ"
         }
-      ]
+      ],
+      "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نَ لَفِى خُسْرٍ"
     },
     {
       "number": 3,
@@ -59,49 +66,59 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اِلَّا",
           "ur": "سوائے",
-          "en": "Except"
+          "en": "Except",
+          "arTajweed": "إِلَّا"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "ان لوگوں کے",
-          "en": "those who"
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "اٰمَنُوْا",
           "ur": "جو ایمان لائے",
-          "en": "believe"
+          "en": "believe",
+          "arTajweed": "ءَامَنُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "وَعَمِلُوا",
           "ur": "اور انہوں نے ے کام کئے",
-          "en": "and do"
+          "en": "and do",
+          "arTajweed": "وَعَمِلُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "الصّٰلِحٰتِ",
           "ur": "اچھے",
-          "en": "righteous deeds"
+          "en": "righteous deeds",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّ<span class=\"tj-madda-normal\">ٰ</span>لِحَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
         },
         {
           "ar": "وَتَوَاصَوْا",
           "ur": "اور ایک دوسرے کو  تلقین کی",
-          "en": "and enjoin (each other)"
+          "en": "and enjoin (each other)",
+          "arTajweed": "وَتَوَاصَوْ<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "بِالْحَقِّ ۙ۬",
           "ur": "حق کی",
-          "en": "to the truth"
+          "en": "to the truth",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْحَقِّ"
         },
         {
           "ar": "وَتَوَاصَوْا",
           "ur": "اور ایک دوسرے کو  تلقین کی",
-          "en": "and enjoin (each other)"
+          "en": "and enjoin (each other)",
+          "arTajweed": "وَتَوَاصَوْ<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "بِالصَّبْرِ",
           "ur": "صبر کی",
-          "en": "to [the] patience"
+          "en": "to [the] patience",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّ<span class=\"tj-qalaqah\">بْ</span>رِ"
         }
-      ]
+      ],
+      "arTajweed": "إِلَّا <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ ءَامَنُو<span class=\"tj-slnt\">ا۟</span> وَعَمِلُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّ<span class=\"tj-madda-normal\">ٰ</span>لِحَ<span class=\"tj-madda-normal\">ٰ</span>تِ وَتَوَاصَوْ<span class=\"tj-slnt\">ا۟</span> بِ<span class=\"tj-ham-wasl\">ٱ</span>لْحَقِّ وَتَوَاصَوْ<span class=\"tj-slnt\">ا۟</span> بِ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّ<span class=\"tj-qalaqah\">بْ</span>رِ"
     }
   ]
 };

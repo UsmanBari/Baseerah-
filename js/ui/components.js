@@ -503,6 +503,14 @@ export const UIComponents = {
           </div>
 
           <div class="settings-sheet-section">
+            <span class="settings-section-title">${t("tajweedToggle", state.lang)} <span class="tj-beta-tag">BETA</span></span>
+            <div class="mode-pill-toggle" role="group" aria-label="${t("tajweedToggle", state.lang)}">
+              <button type="button" class="mode-pill-btn ${!state.settings.showTajweed ? 'active' : ''}" data-sheet-tajweed="off">${t("morphologyOff", state.lang)}</button>
+              <button type="button" class="mode-pill-btn ${state.settings.showTajweed ? 'active' : ''}" data-sheet-tajweed="on">${t("tajweedToggle", state.lang)}</button>
+            </div>
+          </div>
+
+          <div class="settings-sheet-section">
             <span class="settings-section-title">${t("fontSizeLabel", state.lang)}</span>
             <div class="sheet-font-scaler-box" id="sheet-scaler-box"></div>
           </div>
@@ -551,6 +559,17 @@ export const UIComponents = {
         }
         Storage.saveSettings(state.settings);
         sheet.querySelectorAll("[data-sheet-morph]").forEach((b) => b.classList.toggle("active", b === btn));
+        if (typeof onChange === "function") onChange();
+      });
+    });
+
+    // Wire Tajweed mode
+    sheet.querySelectorAll("[data-sheet-tajweed]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const val = btn.getAttribute("data-sheet-tajweed");
+        state.settings.showTajweed = val === "on";
+        Storage.saveSettings(state.settings);
+        sheet.querySelectorAll("[data-sheet-tajweed]").forEach((b) => b.classList.toggle("active", b === btn));
         if (typeof onChange === "function") onChange();
       });
     });

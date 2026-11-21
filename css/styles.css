@@ -19,6 +19,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Amiri Quran";
+  src: url("../fonts/amiri-quran.ttf") format("truetype");
+  font-display: swap;
+}
+
 /* ==========================================================================
    GLOBAL TYPOGRAPHY RULES
    ========================================================================== */
@@ -3408,3 +3414,100 @@ button:focus-visible {
     flex-shrink: 0;
   }
 }
+
+/* ==========================================================================
+   TAJWEED COLOUR CODING (Dar al-Maarifah Standard)
+   ========================================================================== */
+.tajweed-mode .tile-ar,
+.tajweed-mode .mushaf-ar-text,
+.tajweed-mode .quran-arabic {
+  font-family: var(--font-amiri) !important;
+}
+
+.tj-madda-necessary { color: var(--tj-madd-necessary) !important; font-weight: bold; }
+.tj-madda-obligatory { color: var(--tj-madd-obligatory) !important; font-weight: bold; }
+.tj-madda-permissible { color: var(--tj-madd-permissible) !important; }
+.tj-madda-normal { color: var(--tj-madd-normal) !important; }
+.tj-ghunnah { color: var(--tj-ghunnah) !important; font-weight: bold; }
+.tj-idgham-ghunnah { color: var(--tj-idgham-ghunnah) !important; }
+.tj-idgham-shafawi { color: var(--tj-idgham-shafawi) !important; }
+.tj-ikhafa { color: var(--tj-ikhafa) !important; }
+.tj-ikhafa-shafawi { color: var(--tj-ikhafa-shafawi) !important; }
+.tj-iqlab { color: var(--tj-iqlab) !important; font-weight: bold; }
+.tj-qalaqah { color: var(--tj-qalaqah) !important; font-weight: bold; }
+.tj-tafkheem { color: var(--tj-tafkheem) !important; }
+.tj-ham-wasl { color: var(--tj-silent) !important; }
+.tj-laam-shamsiyah { color: var(--tj-silent) !important; }
+.tj-slnt { color: var(--tj-silent) !important; }
+.tj-idgham-wo-ghunnah { color: var(--tj-silent) !important; }
+.tj-idgham-mutajanisayn { color: #78909C !important; }
+.tj-idgham-mutaqaribayn { color: #78909C !important; }
+
+/* Tajweed Toolbar Toggle Button */
+.btn-tajweed-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 38px;
+  padding: 0 12px;
+  border-radius: var(--radius-pill, 9999px);
+  border: 1px solid var(--color-gold-cream, #A77B16);
+  background: var(--color-reading-surface, #FFFDF7);
+  color: var(--color-gold-cream, #A77B16);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  white-space: nowrap;
+}
+.btn-tajweed-toggle:hover {
+  background: var(--color-gold-tint, #FDF9EE);
+}
+.btn-tajweed-toggle.active {
+  background: #A30000;
+  color: #FFFFFF;
+  border-color: #A30000;
+}
+.tj-beta-tag {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #E9C77B;
+  color: #073328;
+  font-weight: 700;
+}
+.btn-tajweed-toggle.active .tj-beta-tag {
+  background: #FFFFFF;
+  color: #A30000;
+}
+
+/* Tajweed Legend Bar */
+.tajweed-toolbar-legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 8px 16px;
+  background: var(--color-reading-surface, #FFFDF7);
+  border-bottom: 1px solid var(--color-parchment-border, #E6DCC4);
+  font-size: 12px;
+  font-weight: 600;
+}
+.tj-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.tj-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.tj-swatch.madd { background: var(--tj-madd-obligatory, #C62828); }
+.tj-swatch.ghunnah { background: var(--tj-ghunnah, #169200); }
+.tj-swatch.qalaqah { background: var(--tj-qalaqah, #0288D1); }
+.tj-swatch.silent { background: var(--tj-silent, #8E8E93); }
+

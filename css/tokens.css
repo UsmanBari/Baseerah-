@@ -36,9 +36,25 @@
   --color-morph-stem: var(--color-ink); /* Ink stem (14:1 contrast on reading surface) */
   --color-morph-suffix: #0E5A47;     /* Emerald suffix (6.8:1 contrast on reading surface) */
 
+  /* Tajweed Color Coding Tokens (Dar al-Maarifah Standard) */
+  --tj-madd-necessary: #A30000;      /* 6 counts (Dark Red) */
+  --tj-madd-obligatory: #C62828;     /* 4-5 counts (Red) */
+  --tj-madd-permissible: #E65100;    /* 2-4-6 counts (Orange) */
+  --tj-madd-normal: #C47D00;         /* 2 counts (Amber/Warm Gold) */
+  --tj-ghunnah: #169200;             /* Ghunnah (Green) */
+  --tj-idgham-ghunnah: #2E7D32;      /* Idgham with Ghunnah (Emerald) */
+  --tj-idgham-shafawi: #388E3C;      /* Idgham Shafawi (Medium Green) */
+  --tj-ikhafa: #00796B;              /* Ikhfa (Forest/Teal Green) */
+  --tj-ikhafa-shafawi: #00695C;      /* Ikhfa Shafawi (Dark Teal) */
+  --tj-iqlab: #558B2F;               /* Iqlab (Olive Green) */
+  --tj-qalaqah: #0288D1;             /* Qalqalah (Cyan / Sky Blue) */
+  --tj-tafkheem: #0D47A1;            /* Heavy letters (Navy Blue) */
+  --tj-silent: #8E8E93;              /* Silent letters, Hamzatul Wasl, Lam Shamsiyyah (Grey) */
+
   /* Fonts */
   --font-arabic: 'AlQuran IndoPak', serif;
   --font-quran: 'AlQuran IndoPak', serif;
+  --font-amiri: 'Amiri Quran', 'Noto Naskh Arabic', serif;
   --font-ur: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
   --font-urdu: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
   --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;

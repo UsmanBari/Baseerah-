@@ -143,6 +143,16 @@ class AppState {
     this.notify();
   }
 
+  get showTajweed() {
+    return this.settings.showTajweed === true;
+  }
+
+  set showTajweed(val) {
+    this.settings.showTajweed = !!val;
+    Storage.saveSettings(this.settings);
+    this.notify();
+  }
+
   updateSettings(patch) {
     this.settings = { ...this.settings, ...patch };
     Storage.saveSettings(this.settings);

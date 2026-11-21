@@ -14,29 +14,35 @@ window.BASEERAH_SURAH = {
         {
           "ar": "تَبَّتْ",
           "ur": "ٹوٹ گئے",
-          "en": "Perish"
+          "en": "Perish",
+          "arTajweed": "تَبَّتْ"
         },
         {
           "ar": "یَدَاۤ",
           "ur": "دونوں ہاتھ",
-          "en": "(the) hands"
+          "en": "(the) hands",
+          "arTajweed": "يَدَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اَبِیْ",
           "ur": "ابو",
-          "en": "(of) Abu"
+          "en": "(of) Abu",
+          "arTajweed": "أَبِى"
         },
         {
           "ar": "لَهَبٍ",
           "ur": "لہب کے",
-          "en": "Lahab"
+          "en": "Lahab",
+          "arTajweed": "لَهَب<span class=\"tj-idgham-ghunnah\">ٍ</span>"
         },
         {
           "ar": "وَّتَبَّ",
           "ur": "اور وہ ہلاک ہوا",
-          "en": "and perish he"
+          "en": "and perish he",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>تَ<span class=\"tj-qalaqah\">ب</span>َّ"
         }
-      ]
+      ],
+      "arTajweed": "تَبَّتْ يَدَ<span class=\"tj-madda-permissible\">آ</span> أَبِى لَهَب<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>تَ<span class=\"tj-qalaqah\">ب</span>َّ"
     },
     {
       "number": 2,
@@ -49,34 +55,41 @@ window.BASEERAH_SURAH = {
         {
           "ar": "مَاۤ",
           "ur": "نہ",
-          "en": "Not"
+          "en": "Not",
+          "arTajweed": "مَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اَغْنٰی",
           "ur": "کام آیا",
-          "en": "(will) avail"
+          "en": "(will) avail",
+          "arTajweed": "أَغْنَىٰ"
         },
         {
           "ar": "عَنْهُ",
           "ur": "اس کو",
-          "en": "him"
+          "en": "him",
+          "arTajweed": "عَنْهُ"
         },
         {
           "ar": "مَالُهٗ",
           "ur": "اس کا مال",
-          "en": "his wealth"
+          "en": "his wealth",
+          "arTajweed": "مَالُهُ<span class=\"tj-madda-normal\">ۥ</span>"
         },
         {
           "ar": "وَمَا",
           "ur": "اور جو",
-          "en": "and what"
+          "en": "and what",
+          "arTajweed": "وَمَا"
         },
         {
           "ar": "كَسَبَ",
           "ur": "اس نے کمایا",
-          "en": "he earned"
+          "en": "he earned",
+          "arTajweed": "كَسَ<span class=\"tj-qalaqah\">ب</span>َ"
         }
-      ]
+      ],
+      "arTajweed": "مَ<span class=\"tj-madda-permissible\">آ</span> أَغْنَىٰ عَنْهُ مَالُهُ<span class=\"tj-madda-normal\">ۥ</span> وَمَا كَسَ<span class=\"tj-qalaqah\">ب</span>َ"
     },
     {
       "number": 3,
@@ -89,24 +102,29 @@ window.BASEERAH_SURAH = {
         {
           "ar": "سَیَصْلٰی",
           "ur": "عنقریب وہ داخل ہوگا",
-          "en": "He will be burnt"
+          "en": "He will be burnt",
+          "arTajweed": "سَيَصْلَىٰ"
         },
         {
           "ar": "نَارًا",
           "ur": "آگ میں",
-          "en": "(in) a Fire"
+          "en": "(in) a Fire",
+          "arTajweed": "نَار<span class=\"tj-ikhafa\">ًا</span>"
         },
         {
           "ar": "ذَاتَ",
           "ur": "والی",
-          "en": "of"
+          "en": "of",
+          "arTajweed": "<span class=\"tj-ikhafa\">ذَ</span>اتَ"
         },
         {
           "ar": "لَهَبٍ",
           "ur": "شعلے (والی)",
-          "en": "Blazing Flames"
+          "en": "Blazing Flames",
+          "arTajweed": "لَهَ<span class=\"tj-qalaqah\">ب</span>ٍ"
         }
-      ]
+      ],
+      "arTajweed": "سَيَصْلَىٰ نَار<span class=\"tj-ikhafa\">ًا ذَ</span>اتَ لَهَ<span class=\"tj-qalaqah\">ب</span>ٍ"
     },
     {
       "number": 4,
@@ -119,19 +137,23 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَّامْرَاَتُهٗ ؕ",
           "ur": "اور اس کی بیوی",
-          "en": "And his wife"
+          "en": "And his wife",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>مْرَأَتُهُ<span class=\"tj-madda-normal\">ۥ</span>"
         },
         {
           "ar": "حَمَّالَةَ",
           "ur": "اٹھانے والی",
-          "en": "(the) carrier"
+          "en": "(the) carrier",
+          "arTajweed": "حَ<span class=\"tj-ghunnah\">مَّ</span>الَةَ"
         },
         {
           "ar": "الْحَطَبِ",
           "ur": "لکڑی کے گٹھے کو",
-          "en": "(of) firewood"
+          "en": "(of) firewood",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْحَطَ<span class=\"tj-qalaqah\">ب</span>ِ"
         }
-      ]
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>مْرَأَتُهُ<span class=\"tj-madda-normal\">ۥ</span> حَ<span class=\"tj-ghunnah\">مَّ</span>الَةَ <span class=\"tj-ham-wasl\">ٱ</span>لْحَطَ<span class=\"tj-qalaqah\">ب</span>ِ"
     },
     {
       "number": 5,
@@ -144,29 +166,35 @@ window.BASEERAH_SURAH = {
         {
           "ar": "فِیْ",
           "ur": "میں",
-          "en": "In"
+          "en": "In",
+          "arTajweed": "فِى"
         },
         {
           "ar": "جِیْدِهَا",
           "ur": "اس کی گردن میں ہوگی",
-          "en": "her neck"
+          "en": "her neck",
+          "arTajweed": "جِيدِهَا"
         },
         {
           "ar": "حَبْلٌ",
           "ur": "رسی",
-          "en": "(will be) a rope"
+          "en": "(will be) a rope",
+          "arTajweed": "حَ<span class=\"tj-qalaqah\">بْ</span>ل<span class=\"tj-idgham-ghunnah\">ٌ</span>"
         },
         {
           "ar": "مِّنْ",
           "ur": "کی",
-          "en": "of"
+          "en": "of",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-idgham-ghunnah\">ن</span>"
         },
         {
           "ar": "مَّسَدٍ",
           "ur": "مونجھ کی",
-          "en": "palm-fiber"
+          "en": "palm-fiber",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>سَ<span class=\"tj-qalaqah\">د</span>ٍۭ"
         }
-      ]
+      ],
+      "arTajweed": "فِى جِيدِهَا حَ<span class=\"tj-qalaqah\">بْ</span>ل<span class=\"tj-idgham-ghunnah\">ٌ مِّ</span><span class=\"tj-idgham-ghunnah\">ن مَّ</span>سَ<span class=\"tj-qalaqah\">د</span>ٍۭ"
     }
   ]
 };

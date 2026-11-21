@@ -14,94 +14,113 @@ window.BASEERAH_SURAH = {
         {
           "ar": "قَدْ",
           "ur": "تحقیق",
-          "en": "Indeed"
+          "en": "Indeed",
+          "arTajweed": "قَ<span class=\"tj-qalaqah\">دْ</span>"
         },
         {
           "ar": "سَمِعَ",
           "ur": "سن لی",
-          "en": "Allah has heard"
+          "en": "Allah has heard",
+          "arTajweed": "سَمِعَ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ نے",
-          "en": "Allah has heard"
+          "en": "Allah has heard",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "قَوْلَ",
           "ur": "بات",
-          "en": "(the) speech"
+          "en": "(the) speech",
+          "arTajweed": "قَوْلَ"
         },
         {
           "ar": "الَّتِیْ",
           "ur": "اس عورت کی",
-          "en": "(of one) who"
+          "en": "(of one) who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّتِى"
         },
         {
           "ar": "تُجَادِلُكَ",
           "ur": "جو جھگڑ رہی تھی تجھ سے",
-          "en": "disputes with you"
+          "en": "disputes with you",
+          "arTajweed": "تُجَ<span class=\"tj-madda-normal\">ٰ</span>دِلُكَ"
         },
         {
           "ar": "فِیْ",
           "ur": "بارے میں",
-          "en": "concerning"
+          "en": "concerning",
+          "arTajweed": "فِى"
         },
         {
           "ar": "زَوْجِهَا",
           "ur": "اپنے شوہر کے",
-          "en": "her husband"
+          "en": "her husband",
+          "arTajweed": "زَوْجِهَا"
         },
         {
           "ar": "وَتَشْتَكِیْۤ",
           "ur": "اور شکایت کررہی تھی",
-          "en": "and she directs her complaint"
+          "en": "and she directs her complaint",
+          "arTajweed": "وَتَشْتَكِ<span class=\"tj-madda-permissible\">ىٓ</span>"
         },
         {
           "ar": "اِلَی",
           "ur": "سے",
-          "en": "to"
+          "en": "to",
+          "arTajweed": "إِلَى"
         },
         {
           "ar": "اللّٰهِ ۖۗ",
           "ur": "اللہ (سے)",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "وَاللّٰهُ",
           "ur": "اور اللہ",
-          "en": "And Allah"
+          "en": "And Allah",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "یَسْمَعُ",
           "ur": "سن رہا تھا",
-          "en": "hears"
+          "en": "hears",
+          "arTajweed": "يَسْمَعُ"
         },
         {
           "ar": "تَحَاوُرَكُمَا ؕ",
           "ur": "تم دونوں کی گفتگو کو",
-          "en": "(the) dialogue of both of you"
+          "en": "(the) dialogue of both of you",
+          "arTajweed": "تَحَاوُرَكُمَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اِنَّ",
           "ur": "بیشک",
-          "en": "Indeed"
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ تعالیٰ",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "سَمِیْعٌ",
           "ur": "سننے والا ہے",
-          "en": "(is) All-Hearer"
+          "en": "(is) All-Hearer",
+          "arTajweed": "سَمِيع<span class=\"tj-iqlab\">ٌۢ</span>"
         },
         {
           "ar": "بَصِیْرٌ",
           "ur": "دیکھنے والا ہے",
-          "en": "All-Seer"
+          "en": "All-Seer",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َصِ<span class=\"tj-madda-permissible\">ي</span>رٌ"
         }
-      ]
+      ],
+      "arTajweed": "قَ<span class=\"tj-qalaqah\">دْ</span> سَمِعَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ قَوْلَ <span class=\"tj-ham-wasl\">ٱ</span>لَّتِى تُجَ<span class=\"tj-madda-normal\">ٰ</span>دِلُكَ فِى زَوْجِهَا وَتَشْتَكِ<span class=\"tj-madda-permissible\">ىٓ</span> إِلَى <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ وَ<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ يَسْمَعُ تَحَاوُرَكُمَ<span class=\"tj-madda-permissible\">آ</span> إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ سَمِيع<span class=\"tj-iqlab\">ٌۢ ب</span>َصِ<span class=\"tj-madda-permissible\">ي</span>رٌ"
     },
     {
       "number": 2,
@@ -114,119 +133,143 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اَلَّذِیْنَ",
           "ur": "وہ لوگ",
-          "en": "Those who"
+          "en": "Those who",
+          "arTajweed": "ٱلَّذِينَ"
         },
         {
           "ar": "یُظٰهِرُوْنَ",
           "ur": "جو ظہار کرتے ہیں",
-          "en": "pronounce zihar"
+          "en": "pronounce zihar",
+          "arTajweed": "يُظَ<span class=\"tj-madda-normal\">ٰ</span>هِرُونَ"
         },
         {
           "ar": "مِنْكُمْ",
           "ur": "تم میں سے",
-          "en": "among you"
+          "en": "among you",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">نكُ</span><span class=\"tj-idgham-shafawi\">م</span>"
         },
         {
           "ar": "مِّنْ",
           "ur": "سے",
-          "en": "[from]"
+          "en": "[from]",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مِّ</span><span class=\"tj-idgham-ghunnah\">ن</span>"
         },
         {
           "ar": "نِّسَآىِٕهِمْ",
           "ur": "اپنی بیویوں (سے)",
-          "en": "(to) their wives"
+          "en": "(to) their wives",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نِّ</span>سَ<span class=\"tj-madda-obligatory\">آ</span>ئِهِ<span class=\"tj-idgham-shafawi\">م</span>"
         },
         {
           "ar": "مَّا",
           "ur": "نہیں",
-          "en": "not"
+          "en": "not",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مَّ</span>ا"
         },
         {
           "ar": "هُنَّ",
           "ur": "وہ",
-          "en": "they"
+          "en": "they",
+          "arTajweed": "هُ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "اُمَّهٰتِهِمْ ؕ",
           "ur": "ان کی مائیں",
-          "en": "(are) their mothers"
+          "en": "(are) their mothers",
+          "arTajweed": "أُ<span class=\"tj-ghunnah\">مَّ</span>هَ<span class=\"tj-madda-normal\">ٰ</span>تِهِمْ"
         },
         {
           "ar": "اِنْ",
           "ur": "نہیں",
-          "en": "Not"
+          "en": "Not",
+          "arTajweed": "إِنْ"
         },
         {
           "ar": "اُمَّهٰتُهُمْ",
           "ur": "ان کی مائیں",
-          "en": "(are) their mothers"
+          "en": "(are) their mothers",
+          "arTajweed": "أُ<span class=\"tj-ghunnah\">مَّ</span>هَ<span class=\"tj-madda-normal\">ٰ</span>تُهُمْ"
         },
         {
           "ar": "اِلَّا",
           "ur": "مگر",
-          "en": "except"
+          "en": "except",
+          "arTajweed": "إِلَّا"
         },
         {
           "ar": "الّٰٓـِٔیْ",
           "ur": "وہ (عورتیں) جنہوں نے",
-          "en": "those who"
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّ<span class=\"tj-madda-obligatory\">ٰٓ</span>ـِٔى"
         },
         {
           "ar": "وَلَدْنَهُمْ ؕ",
           "ur": "جنم دیا ان کو",
-          "en": "gave them birth"
+          "en": "gave them birth",
+          "arTajweed": "وَلَ<span class=\"tj-qalaqah\">دْ</span>نَهُمْ"
         },
         {
           "ar": "وَاِنَّهُمْ",
           "ur": "اور بیشک وہ",
-          "en": "And indeed, they"
+          "en": "And indeed, they",
+          "arTajweed": "وَإِ<span class=\"tj-ghunnah\">نَّ</span>هُمْ"
         },
         {
           "ar": "لَیَقُوْلُوْنَ",
           "ur": "البتہ وہ کہتے ہیں",
-          "en": "surely say"
+          "en": "surely say",
+          "arTajweed": "لَيَقُولُونَ"
         },
         {
           "ar": "مُنْكَرًا",
           "ur": "منکر۔ ناپسندیدہ",
-          "en": "an evil"
+          "en": "an evil",
+          "arTajweed": "مُ<span class=\"tj-ikhafa\">نكَ</span>ر<span class=\"tj-idgham-ghunnah\">ًا</span>"
         },
         {
           "ar": "مِّنَ",
           "ur": "سے",
-          "en": "[of]"
+          "en": "[of]",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span>نَ"
         },
         {
           "ar": "الْقَوْلِ",
           "ur": "بات میں (سے)",
-          "en": "[the] word"
+          "en": "[the] word",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقَوْلِ"
         },
         {
           "ar": "وَزُوْرًا ؕ",
           "ur": "اور جھوٹ",
-          "en": "and a lie"
+          "en": "and a lie",
+          "arTajweed": "وَزُور<span class=\"tj-idgham-ghunnah\">ًا</span>"
         },
         {
           "ar": "وَاِنَّ",
           "ur": "اور بیشک",
-          "en": "But indeed"
+          "en": "But indeed",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>إِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ تعالیٰ",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "لَعَفُوٌّ",
           "ur": "البتہ معاف کرنے والا ہے",
-          "en": "(is) surely, Oft-Pardoning"
+          "en": "(is) surely, Oft-Pardoning",
+          "arTajweed": "لَعَفُوٌّ"
         },
         {
           "ar": "غَفُوْرٌ",
           "ur": "بخشش فرمانے والا ہے",
-          "en": "Oft-Forgiving"
+          "en": "Oft-Forgiving",
+          "arTajweed": "غَفُ<span class=\"tj-madda-permissible\">و</span>رٌ"
         }
-      ]
+      ],
+      "arTajweed": "ٱلَّذِينَ يُظَ<span class=\"tj-madda-normal\">ٰ</span>هِرُونَ مِ<span class=\"tj-ikhafa\">نكُ</span><span class=\"tj-idgham-shafawi\">م مِّ</span><span class=\"tj-idgham-ghunnah\">ن نِّ</span>سَ<span class=\"tj-madda-obligatory\">آ</span>ئِهِ<span class=\"tj-idgham-shafawi\">م مَّ</span>ا هُ<span class=\"tj-ghunnah\">نَّ</span> أُ<span class=\"tj-ghunnah\">مَّ</span>هَ<span class=\"tj-madda-normal\">ٰ</span>تِهِمْ إِنْ أُ<span class=\"tj-ghunnah\">مَّ</span>هَ<span class=\"tj-madda-normal\">ٰ</span>تُهُمْ إِلَّا <span class=\"tj-ham-wasl\">ٱ</span>لَّ<span class=\"tj-madda-obligatory\">ٰٓ</span>ـِٔى وَلَ<span class=\"tj-qalaqah\">دْ</span>نَهُمْ وَإِ<span class=\"tj-ghunnah\">نَّ</span>هُمْ لَيَقُولُونَ مُ<span class=\"tj-ikhafa\">نكَ</span>ر<span class=\"tj-idgham-ghunnah\">ًا مِّ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span>لْقَوْلِ وَزُور<span class=\"tj-idgham-ghunnah\">ًا وَ</span>إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ لَعَفُوٌّ غَفُ<span class=\"tj-madda-permissible\">و</span>رٌ"
     },
     {
       "number": 3,
@@ -239,109 +282,131 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَالَّذِیْنَ",
           "ur": "اور وہ لوگ",
-          "en": "And those who"
+          "en": "And those who",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "یُظٰهِرُوْنَ",
           "ur": "جو ظہار کرتے ہیں",
-          "en": "pronounce zihar"
+          "en": "pronounce zihar",
+          "arTajweed": "يُظَ<span class=\"tj-madda-normal\">ٰ</span>هِرُونَ"
         },
         {
           "ar": "مِنْ",
           "ur": "سے",
-          "en": "[from]"
+          "en": "[from]",
+          "arTajweed": "مِ<span class=\"tj-idgham-ghunnah\">ن</span>"
         },
         {
           "ar": "نِّسَآىِٕهِمْ",
           "ur": "اپنی بیویوں (سے)",
-          "en": "(to) their wives"
+          "en": "(to) their wives",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نِّ</span>سَ<span class=\"tj-madda-obligatory\">آ</span>ئِهِمْ"
         },
         {
           "ar": "ثُمَّ",
           "ur": "پھر",
-          "en": "then"
+          "en": "then",
+          "arTajweed": "ثُ<span class=\"tj-ghunnah\">مَّ</span>"
         },
         {
           "ar": "یَعُوْدُوْنَ",
           "ur": "وہ لوٹنا چاہتے ہوں",
-          "en": "go back"
+          "en": "go back",
+          "arTajweed": "يَعُودُونَ"
         },
         {
           "ar": "لِمَا",
           "ur": "واسطے اس کے جو",
-          "en": "on what"
+          "en": "on what",
+          "arTajweed": "لِمَا"
         },
         {
           "ar": "قَالُوْا",
           "ur": "انہوں نے کہا",
-          "en": "they said"
+          "en": "they said",
+          "arTajweed": "قَالُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "فَتَحْرِیْرُ",
           "ur": "پس آزاد کرنا ہے",
-          "en": "then freeing"
+          "en": "then freeing",
+          "arTajweed": "فَتَحْرِيرُ"
         },
         {
           "ar": "رَقَبَةٍ",
           "ur": "ایک گردن کا",
-          "en": "(of) a slave"
+          "en": "(of) a slave",
+          "arTajweed": "رَقَبَة<span class=\"tj-idgham-ghunnah\">ٍ</span>"
         },
         {
           "ar": "مِّنْ",
           "ur": "سے",
-          "en": "before"
+          "en": "before",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-ikhafa\">ن</span>"
         },
         {
           "ar": "قَبْلِ",
           "ur": "اس سے قبل",
-          "en": "before"
+          "en": "before",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span><span class=\"tj-qalaqah\">بْ</span>لِ"
         },
         {
           "ar": "اَنْ",
           "ur": "وہ",
-          "en": "[that]"
+          "en": "[that]",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
         },
         {
           "ar": "یَّتَمَآسَّا ؕ",
           "ur": "ایک دوسرے کو چھوئیں",
-          "en": "they touch each other"
+          "en": "they touch each other",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>تَمَ<span class=\"tj-madda-necessary\">آ</span>سَّا"
         },
         {
           "ar": "ذٰلِكُمْ",
           "ur": "یہ بات",
-          "en": "That"
+          "en": "That",
+          "arTajweed": "ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكُمْ"
         },
         {
           "ar": "تُوْعَظُوْنَ",
           "ur": "تم نصیحت کیے جاتے ہو",
-          "en": "you are admonished"
+          "en": "you are admonished",
+          "arTajweed": "تُوعَظُونَ"
         },
         {
           "ar": "بِهٖ ؕ",
           "ur": "ساتھ اس کے",
-          "en": "to it"
+          "en": "to it",
+          "arTajweed": "بِهِ<span class=\"tj-madda-normal\">ۦ</span>"
         },
         {
           "ar": "وَاللّٰهُ",
           "ur": "اور اللہ تعالیٰ",
-          "en": "And Allah"
+          "en": "And Allah",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "بِمَا",
           "ur": "ساتھ اس کے جو",
-          "en": "of what"
+          "en": "of what",
+          "arTajweed": "بِمَا"
         },
         {
           "ar": "تَعْمَلُوْنَ",
           "ur": "تم عمل کرتے ہو",
-          "en": "you do"
+          "en": "you do",
+          "arTajweed": "تَعْمَلُونَ"
         },
         {
           "ar": "خَبِیْرٌ",
           "ur": "باخبر ہے",
-          "en": "(is) All-Aware"
+          "en": "(is) All-Aware",
+          "arTajweed": "خَبِ<span class=\"tj-madda-permissible\">ي</span>رٌ"
         }
-      ]
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ يُظَ<span class=\"tj-madda-normal\">ٰ</span>هِرُونَ مِ<span class=\"tj-idgham-ghunnah\">ن نِّ</span>سَ<span class=\"tj-madda-obligatory\">آ</span>ئِهِمْ ثُ<span class=\"tj-ghunnah\">مَّ</span> يَعُودُونَ لِمَا قَالُو<span class=\"tj-slnt\">ا۟</span> فَتَحْرِيرُ رَقَبَة<span class=\"tj-idgham-ghunnah\">ٍ مِّ</span><span class=\"tj-ikhafa\">ن قَ</span><span class=\"tj-qalaqah\">بْ</span>لِ أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>تَمَ<span class=\"tj-madda-necessary\">آ</span>سَّا ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكُمْ تُوعَظُونَ بِهِ<span class=\"tj-madda-normal\">ۦ</span> وَ<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ بِمَا تَعْمَلُونَ خَبِ<span class=\"tj-madda-permissible\">ي</span>رٌ"
     },
     {
       "number": 4,
@@ -354,134 +419,161 @@ window.BASEERAH_SURAH = {
         {
           "ar": "فَمَنْ",
           "ur": "تو جو کوئی",
-          "en": "Then whoever"
+          "en": "Then whoever",
+          "arTajweed": "فَمَ<span class=\"tj-idgham-wo-ghunnah\">ن</span>"
         },
         {
           "ar": "لَّمْ",
           "ur": "نہ",
-          "en": "(does) not"
+          "en": "(does) not",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>مْ"
         },
         {
           "ar": "یَجِدْ",
           "ur": "پائے",
-          "en": "find"
+          "en": "find",
+          "arTajweed": "يَجِ<span class=\"tj-qalaqah\">دْ</span>"
         },
         {
           "ar": "فَصِیَامُ",
           "ur": "تو روزے رکھے",
-          "en": "then fasting"
+          "en": "then fasting",
+          "arTajweed": "فَصِيَامُ"
         },
         {
           "ar": "شَهْرَیْنِ",
           "ur": "دو مہینوں کے",
-          "en": "(for) two months"
+          "en": "(for) two months",
+          "arTajweed": "شَهْرَيْنِ"
         },
         {
           "ar": "مُتَتَابِعَیْنِ",
           "ur": "مسلسل۔ پے درپے",
-          "en": "consecutively"
+          "en": "consecutively",
+          "arTajweed": "مُتَتَابِعَيْنِ"
         },
         {
           "ar": "مِنْ",
           "ur": "سے",
-          "en": "before"
+          "en": "before",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
         },
         {
           "ar": "قَبْلِ",
           "ur": "اس سے پہلے",
-          "en": "before"
+          "en": "before",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span><span class=\"tj-qalaqah\">بْ</span>لِ"
         },
         {
           "ar": "اَنْ",
           "ur": "کہ",
-          "en": "[that]"
+          "en": "[that]",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
         },
         {
           "ar": "یَّتَمَآسَّا ۚ",
           "ur": "وہ ایک دوسرے کو چھوئیں",
-          "en": "they both touch each other"
+          "en": "they both touch each other",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>تَمَ<span class=\"tj-madda-necessary\">آ</span>سَّا"
         },
         {
           "ar": "فَمَنْ",
           "ur": "تو جو کوئی",
-          "en": "But (he) who"
+          "en": "But (he) who",
+          "arTajweed": "فَمَ<span class=\"tj-idgham-wo-ghunnah\">ن</span>"
         },
         {
           "ar": "لَّمْ",
           "ur": "نہ",
-          "en": "not"
+          "en": "not",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>مْ"
         },
         {
           "ar": "یَسْتَطِعْ",
           "ur": "استطاعت رکھتا ہو",
-          "en": "is able"
+          "en": "is able",
+          "arTajweed": "يَسْتَطِعْ"
         },
         {
           "ar": "فَاِطْعَامُ",
           "ur": "تو کھانا کھلانا ہے",
-          "en": "then (the) feeding"
+          "en": "then (the) feeding",
+          "arTajweed": "فَإِ<span class=\"tj-qalaqah\">طْ</span>عَامُ"
         },
         {
           "ar": "سِتِّیْنَ",
           "ur": "ساٹھ",
-          "en": "(of) sixty"
+          "en": "(of) sixty",
+          "arTajweed": "سِتِّينَ"
         },
         {
           "ar": "مِسْكِیْنًا ؕ",
           "ur": "مسکینوں کا",
-          "en": "needy one(s)"
+          "en": "needy one(s)",
+          "arTajweed": "مِسْكِين<span class=\"tj-ikhafa\">ًا</span>"
         },
         {
           "ar": "ذٰلِكَ",
           "ur": "یہ",
-          "en": "That"
+          "en": "That",
+          "arTajweed": "<span class=\"tj-ikhafa\">ذَ</span><span class=\"tj-madda-normal\">ٰ</span>لِكَ"
         },
         {
           "ar": "لِتُؤْمِنُوْا",
           "ur": "تاکہ تم ایمان لاؤ",
-          "en": "so that you may believe"
+          "en": "so that you may believe",
+          "arTajweed": "لِتُؤْمِنُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "بِاللّٰهِ",
           "ur": "اللہ پر",
-          "en": "in Allah"
+          "en": "in Allah",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "وَرَسُوْلِهٖ ؕ",
           "ur": "اور اس کے رسول پر",
-          "en": "and His Messenger"
+          "en": "and His Messenger",
+          "arTajweed": "وَرَسُولِهِ<span class=\"tj-madda-normal\">ۦ</span>"
         },
         {
           "ar": "وَتِلْكَ",
           "ur": "اور یہ",
-          "en": "and these"
+          "en": "and these",
+          "arTajweed": "وَتِلْكَ"
         },
         {
           "ar": "حُدُوْدُ",
           "ur": "حدود ہیں",
-          "en": "(are the) limits"
+          "en": "(are the) limits",
+          "arTajweed": "حُدُودُ"
         },
         {
           "ar": "اللّٰهِ ؕ",
           "ur": "اللہ کی",
-          "en": "(of) Allah"
+          "en": "(of) Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "وَلِلْكٰفِرِیْنَ",
           "ur": "اور کافروں کے لیے",
-          "en": "and for the disbelievers"
+          "en": "and for the disbelievers",
+          "arTajweed": "وَلِلْكَ<span class=\"tj-madda-normal\">ٰ</span>فِرِينَ"
         },
         {
           "ar": "عَذَابٌ",
           "ur": "عذاب ہے",
-          "en": "(is) a punishment"
+          "en": "(is) a punishment",
+          "arTajweed": "عَذَابٌ"
         },
         {
           "ar": "اَلِیْمٌ",
           "ur": "دردناک",
-          "en": "painful"
+          "en": "painful",
+          "arTajweed": "أَلِ<span class=\"tj-madda-permissible\">ي</span>مٌ"
         }
-      ]
+      ],
+      "arTajweed": "فَمَ<span class=\"tj-idgham-wo-ghunnah\">ن لَّ</span>مْ يَجِ<span class=\"tj-qalaqah\">دْ</span> فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ مِ<span class=\"tj-ikhafa\">ن قَ</span><span class=\"tj-qalaqah\">بْ</span>لِ أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>تَمَ<span class=\"tj-madda-necessary\">آ</span>سَّا فَمَ<span class=\"tj-idgham-wo-ghunnah\">ن لَّ</span>مْ يَسْتَطِعْ فَإِ<span class=\"tj-qalaqah\">طْ</span>عَامُ سِتِّينَ مِسْكِين<span class=\"tj-ikhafa\">ًا ذَ</span><span class=\"tj-madda-normal\">ٰ</span>لِكَ لِتُؤْمِنُو<span class=\"tj-slnt\">ا۟</span> بِ<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ وَرَسُولِهِ<span class=\"tj-madda-normal\">ۦ</span> وَتِلْكَ حُدُودُ <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ وَلِلْكَ<span class=\"tj-madda-normal\">ٰ</span>فِرِينَ عَذَابٌ أَلِ<span class=\"tj-madda-permissible\">ي</span>مٌ"
     },
     {
       "number": 5,
@@ -494,94 +586,113 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اِنَّ",
           "ur": "بیشک",
-          "en": "Indeed"
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "وہ لوگ",
-          "en": "those who"
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "یُحَآدُّوْنَ",
           "ur": "جو مخالفت کرتے ہیں",
-          "en": "oppose"
+          "en": "oppose",
+          "arTajweed": "يُحَ<span class=\"tj-madda-necessary\">آ</span>دُّونَ"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ تعالیٰ کی",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "وَرَسُوْلَهٗ",
           "ur": "اور اس کے رسول کی",
-          "en": "and His Messenger"
+          "en": "and His Messenger",
+          "arTajweed": "وَرَسُولَهُ<span class=\"tj-madda-normal\">ۥ</span>"
         },
         {
           "ar": "كُبِتُوْا",
           "ur": "ذلیل کیے گئے",
-          "en": "(will) be disgraced"
+          "en": "(will) be disgraced",
+          "arTajweed": "كُبِتُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "كَمَا",
           "ur": "جیسا کہ",
-          "en": "as"
+          "en": "as",
+          "arTajweed": "كَمَا"
         },
         {
           "ar": "كُبِتَ",
           "ur": "ذلیل کیے گئے تھے",
-          "en": "were disgraced"
+          "en": "were disgraced",
+          "arTajweed": "كُبِتَ"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "وہ لوگ",
-          "en": "those"
+          "en": "those",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "مِنْ",
           "ur": "سے",
-          "en": "before them"
+          "en": "before them",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
         },
         {
           "ar": "قَبْلِهِمْ",
           "ur": "جو ان سے پہلے تھے",
-          "en": "before them"
+          "en": "before them",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span><span class=\"tj-qalaqah\">بْ</span>لِهِمْ"
         },
         {
           "ar": "وَقَدْ",
           "ur": "اور تحقیق",
-          "en": "And certainly"
+          "en": "And certainly",
+          "arTajweed": "وَقَ<span class=\"tj-qalaqah\">دْ</span>"
         },
         {
           "ar": "اَنْزَلْنَاۤ",
           "ur": "نازل کیا ہم نے",
-          "en": "We have sent down"
+          "en": "We have sent down",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">نزَ</span>لْنَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اٰیٰتٍ",
           "ur": "آیات",
-          "en": "Verses"
+          "en": "Verses",
+          "arTajweed": "ءَايَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-iqlab\">ٍۭ</span>"
         },
         {
           "ar": "بَیِّنٰتٍ ؕ",
           "ur": "روشن ۔ واضح",
-          "en": "clear"
+          "en": "clear",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َيِّنَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-idgham-ghunnah\">ٍ</span>"
         },
         {
           "ar": "وَلِلْكٰفِرِیْنَ",
           "ur": "اور کافروں کے لیے",
-          "en": "And for the disbelievers"
+          "en": "And for the disbelievers",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>لِلْكَ<span class=\"tj-madda-normal\">ٰ</span>فِرِينَ"
         },
         {
           "ar": "عَذَابٌ",
           "ur": "عذاب ہے",
-          "en": "(is) a punishment"
+          "en": "(is) a punishment",
+          "arTajweed": "عَذَاب<span class=\"tj-idgham-ghunnah\">ٌ</span>"
         },
         {
           "ar": "مُّهِیْنٌ",
           "ur": "رسوا کرنے والا",
-          "en": "humiliating"
+          "en": "humiliating",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مُّ</span>هِ<span class=\"tj-madda-permissible\">ي</span>نٌ"
         }
-      ]
+      ],
+      "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ يُحَ<span class=\"tj-madda-necessary\">آ</span>دُّونَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ وَرَسُولَهُ<span class=\"tj-madda-normal\">ۥ</span> كُبِتُو<span class=\"tj-slnt\">ا۟</span> كَمَا كُبِتَ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ مِ<span class=\"tj-ikhafa\">ن قَ</span><span class=\"tj-qalaqah\">بْ</span>لِهِمْ وَقَ<span class=\"tj-qalaqah\">دْ</span> أَ<span class=\"tj-ikhafa\">نزَ</span>لْنَ<span class=\"tj-madda-permissible\">آ</span> ءَايَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-iqlab\">ٍۭ ب</span>َيِّنَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>لِلْكَ<span class=\"tj-madda-normal\">ٰ</span>فِرِينَ عَذَاب<span class=\"tj-idgham-ghunnah\">ٌ مُّ</span>هِ<span class=\"tj-madda-permissible\">ي</span>نٌ"
     },
     {
       "number": 6,
@@ -594,79 +705,95 @@ window.BASEERAH_SURAH = {
         {
           "ar": "یَوْمَ",
           "ur": "جس دن",
-          "en": "(On the) Day"
+          "en": "(On the) Day",
+          "arTajweed": "يَوْمَ"
         },
         {
           "ar": "یَبْعَثُهُمُ",
           "ur": "اٹھائے گا ان کو",
-          "en": "(when) Allah will raise them"
+          "en": "(when) Allah will raise them",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">بْ</span>عَثُهُمُ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ",
-          "en": "(when) Allah will raise them"
+          "en": "(when) Allah will raise them",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "جَمِیْعًا",
           "ur": "سب کو",
-          "en": "all"
+          "en": "all",
+          "arTajweed": "جَمِيع<span class=\"tj-ikhafa\">ًا</span>"
         },
         {
           "ar": "فَیُنَبِّئُهُمْ",
           "ur": "پھر وہ آگاہ کرے گا ان کو",
-          "en": "and inform them"
+          "en": "and inform them",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>يُنَبِّئُهُ<span class=\"tj-ikhafa-shafawi\">م</span>"
         },
         {
           "ar": "بِمَا",
           "ur": "ساتھ اس کے جو",
-          "en": "of what"
+          "en": "of what",
+          "arTajweed": "<span class=\"tj-ikhafa-shafawi\">بِ</span>مَا"
         },
         {
           "ar": "عَمِلُوْا ؕ",
           "ur": "انہوں نے عمل کیے",
-          "en": "they did"
+          "en": "they did",
+          "arTajweed": "عَمِلُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "اَحْصٰىهُ",
           "ur": "گن رکھا ہے اس کو",
-          "en": "Allah has recorded it"
+          "en": "Allah has recorded it",
+          "arTajweed": "أَحْصَى<span class=\"tj-madda-normal\">ٰ</span>هُ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ نے",
-          "en": "Allah has recorded it"
+          "en": "Allah has recorded it",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "وَنَسُوْهُ ؕ",
           "ur": "اور وہ بھول چکے ہیں اس کو",
-          "en": "while they forgot it"
+          "en": "while they forgot it",
+          "arTajweed": "وَنَسُوهُ"
         },
         {
           "ar": "وَاللّٰهُ",
           "ur": "اور اللہ تعالیٰ",
-          "en": "And Allah"
+          "en": "And Allah",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "عَلٰی",
           "ur": "پر",
-          "en": "(is) over"
+          "en": "(is) over",
+          "arTajweed": "عَلَىٰ"
         },
         {
           "ar": "كُلِّ",
           "ur": "ہر",
-          "en": "all"
+          "en": "all",
+          "arTajweed": "كُلِّ"
         },
         {
           "ar": "شَیْءٍ",
           "ur": "چیز (پر)",
-          "en": "things"
+          "en": "things",
+          "arTajweed": "شَىْء<span class=\"tj-ikhafa\">ٍ</span>"
         },
         {
           "ar": "شَهِیْدٌ",
           "ur": "گواہ",
-          "en": "a Witness"
+          "en": "a Witness",
+          "arTajweed": "<span class=\"tj-ikhafa\">شَ</span>هِ<span class=\"tj-madda-permissible\">ي</span><span class=\"tj-qalaqah\">د</span>ٌ"
         }
-      ]
+      ],
+      "arTajweed": "يَوْمَ يَ<span class=\"tj-qalaqah\">بْ</span>عَثُهُمُ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ جَمِيع<span class=\"tj-ikhafa\">ًا فَ</span>يُنَبِّئُهُ<span class=\"tj-ikhafa-shafawi\">م بِ</span>مَا عَمِلُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> أَحْصَى<span class=\"tj-madda-normal\">ٰ</span>هُ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ وَنَسُوهُ وَ<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ عَلَىٰ كُلِّ شَىْء<span class=\"tj-ikhafa\">ٍ شَ</span>هِ<span class=\"tj-madda-permissible\">ي</span><span class=\"tj-qalaqah\">د</span>ٌ"
     },
     {
       "number": 7,
@@ -679,239 +806,287 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اَلَمْ",
           "ur": "کیا  نہیں",
-          "en": "Do not"
+          "en": "Do not",
+          "arTajweed": "أَلَمْ"
         },
         {
           "ar": "تَرَ",
           "ur": "تم نے دیکھا",
-          "en": "you see"
+          "en": "you see",
+          "arTajweed": "تَرَ"
         },
         {
           "ar": "اَنَّ",
           "ur": "بیشک",
-          "en": "that"
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ تعالیٰ",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "یَعْلَمُ",
           "ur": "جانتا ہے",
-          "en": "knows"
+          "en": "knows",
+          "arTajweed": "يَعْلَمُ"
         },
         {
           "ar": "مَا",
           "ur": "جو کچھ",
-          "en": "whatever"
+          "en": "whatever",
+          "arTajweed": "مَا"
         },
         {
           "ar": "فِی",
           "ur": "میں",
-          "en": "(is) in"
+          "en": "(is) in",
+          "arTajweed": "فِى"
         },
         {
           "ar": "السَّمٰوٰتِ",
           "ur": "آسمانوں میں ہے",
-          "en": "the heavens"
+          "en": "the heavens",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
         },
         {
           "ar": "وَمَا",
           "ur": "اور جو کچھ",
-          "en": "and whatever"
+          "en": "and whatever",
+          "arTajweed": "وَمَا"
         },
         {
           "ar": "فِی",
           "ur": "میں",
-          "en": "(is) in"
+          "en": "(is) in",
+          "arTajweed": "فِى"
         },
         {
           "ar": "الْاَرْضِ ؕ",
           "ur": "زمین میں ہے",
-          "en": "the earth"
+          "en": "the earth",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
         },
         {
           "ar": "مَا",
           "ur": "نہیں",
-          "en": "Not"
+          "en": "Not",
+          "arTajweed": "مَا"
         },
         {
           "ar": "یَكُوْنُ",
           "ur": "ہوتا",
-          "en": "there is"
+          "en": "there is",
+          "arTajweed": "يَكُونُ"
         },
         {
           "ar": "مِنْ",
           "ur": "سے",
-          "en": "any"
+          "en": "any",
+          "arTajweed": "مِ<span class=\"tj-idgham-ghunnah\">ن</span>"
         },
         {
           "ar": "نَّجْوٰی",
           "ur": "سرگوشی میں (سے)",
-          "en": "secret counsel"
+          "en": "secret counsel",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نَّ</span><span class=\"tj-qalaqah\">جْ</span>وَىٰ"
         },
         {
           "ar": "ثَلٰثَةٍ",
           "ur": "تین کی",
-          "en": "(of) three"
+          "en": "(of) three",
+          "arTajweed": "ثَلَ<span class=\"tj-madda-normal\">ٰ</span>ثَةٍ"
         },
         {
           "ar": "اِلَّا",
           "ur": "مگر",
-          "en": "but"
+          "en": "but",
+          "arTajweed": "إِلَّا"
         },
         {
           "ar": "هُوَ",
           "ur": "وہ",
-          "en": "He (is)"
+          "en": "He (is)",
+          "arTajweed": "هُوَ"
         },
         {
           "ar": "رَابِعُهُمْ",
           "ur": "چوتھا ہے ان کا",
-          "en": "(the) fourth of them"
+          "en": "(the) fourth of them",
+          "arTajweed": "رَابِعُهُمْ"
         },
         {
           "ar": "وَلَا",
           "ur": "اور نہ",
-          "en": "and not"
+          "en": "and not",
+          "arTajweed": "وَلَا"
         },
         {
           "ar": "خَمْسَةٍ",
           "ur": "پانچ کی",
-          "en": "five"
+          "en": "five",
+          "arTajweed": "خَمْسَةٍ"
         },
         {
           "ar": "اِلَّا",
           "ur": "مگر",
-          "en": "but"
+          "en": "but",
+          "arTajweed": "إِلَّا"
         },
         {
           "ar": "هُوَ",
           "ur": "وہ",
-          "en": "He (is)"
+          "en": "He (is)",
+          "arTajweed": "هُوَ"
         },
         {
           "ar": "سَادِسُهُمْ",
           "ur": "چھٹا ہے ان کا",
-          "en": "(the) sixth of them"
+          "en": "(the) sixth of them",
+          "arTajweed": "سَادِسُهُمْ"
         },
         {
           "ar": "وَلَاۤ",
           "ur": "اور نہ",
-          "en": "and not"
+          "en": "and not",
+          "arTajweed": "وَلَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اَدْنٰی",
           "ur": "کم تر",
-          "en": "less"
+          "en": "less",
+          "arTajweed": "أَ<span class=\"tj-qalaqah\">دْ</span>نَىٰ"
         },
         {
           "ar": "مِنْ",
           "ur": "سے",
-          "en": "than"
+          "en": "than",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
         },
         {
           "ar": "ذٰلِكَ",
           "ur": "اس سے",
-          "en": "that"
+          "en": "that",
+          "arTajweed": "<span class=\"tj-ikhafa\">ذَ</span><span class=\"tj-madda-normal\">ٰ</span>لِكَ"
         },
         {
           "ar": "وَلَاۤ",
           "ur": "اور نہ",
-          "en": "and not"
+          "en": "and not",
+          "arTajweed": "وَلَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اَكْثَرَ",
           "ur": "زیادہ",
-          "en": "more"
+          "en": "more",
+          "arTajweed": "أَكْثَرَ"
         },
         {
           "ar": "اِلَّا",
           "ur": "مگر",
-          "en": "but"
+          "en": "but",
+          "arTajweed": "إِلَّا"
         },
         {
           "ar": "هُوَ",
           "ur": "وہ",
-          "en": "He"
+          "en": "He",
+          "arTajweed": "هُوَ"
         },
         {
           "ar": "مَعَهُمْ",
           "ur": "ان کے ساتھ ہے",
-          "en": "(is) with them"
+          "en": "(is) with them",
+          "arTajweed": "مَعَهُمْ"
         },
         {
           "ar": "اَیْنَ",
           "ur": "جہاں",
-          "en": "wherever"
+          "en": "wherever",
+          "arTajweed": "أَيْنَ"
         },
         {
           "ar": "مَا",
           "ur": "کہیں",
-          "en": "wherever"
+          "en": "wherever",
+          "arTajweed": "مَا"
         },
         {
           "ar": "كَانُوْا ۚ",
           "ur": "وہ ہوں",
-          "en": "they are"
+          "en": "they are",
+          "arTajweed": "كَانُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "ثُمَّ",
           "ur": "پھر",
-          "en": "Then"
+          "en": "Then",
+          "arTajweed": "ثُ<span class=\"tj-ghunnah\">مَّ</span>"
         },
         {
           "ar": "یُنَبِّئُهُمْ",
           "ur": "وہ آگاہ کرے گا ان کو",
-          "en": "He will inform them"
+          "en": "He will inform them",
+          "arTajweed": "يُنَبِّئُهُ<span class=\"tj-ikhafa-shafawi\">م</span>"
         },
         {
           "ar": "بِمَا",
           "ur": "ساتھ اس کے جو",
-          "en": "of what"
+          "en": "of what",
+          "arTajweed": "<span class=\"tj-ikhafa-shafawi\">بِ</span>مَا"
         },
         {
           "ar": "عَمِلُوْا",
           "ur": "انہوں نے عمل کیے",
-          "en": "they did"
+          "en": "they did",
+          "arTajweed": "عَمِلُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "یَوْمَ",
           "ur": "دن",
-          "en": "(on the) Day"
+          "en": "(on the) Day",
+          "arTajweed": "يَوْمَ"
         },
         {
           "ar": "الْقِیٰمَةِ ؕ",
           "ur": "قیامت کے",
-          "en": "(of) the Resurrection"
+          "en": "(of) the Resurrection",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ"
         },
         {
           "ar": "اِنَّ",
           "ur": "بیشک",
-          "en": "Indeed"
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ تعالیٰ",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "بِكُلِّ",
           "ur": "ساتھ ہر",
-          "en": "of every"
+          "en": "of every",
+          "arTajweed": "بِكُلِّ"
         },
         {
           "ar": "شَیْءٍ",
           "ur": "چیز کے",
-          "en": "thing"
+          "en": "thing",
+          "arTajweed": "شَىْءٍ"
         },
         {
           "ar": "عَلِیْمٌ",
           "ur": "جاننے والا",
-          "en": "(is) All-Knower"
+          "en": "(is) All-Knower",
+          "arTajweed": "عَلِ<span class=\"tj-madda-permissible\">ي</span>مٌ"
         }
-      ]
+      ],
+      "arTajweed": "أَلَمْ تَرَ أَ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ يَعْلَمُ مَا فِى <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ وَمَا فِى <span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ مَا يَكُونُ مِ<span class=\"tj-idgham-ghunnah\">ن نَّ</span><span class=\"tj-qalaqah\">جْ</span>وَىٰ ثَلَ<span class=\"tj-madda-normal\">ٰ</span>ثَةٍ إِلَّا هُوَ رَابِعُهُمْ وَلَا خَمْسَةٍ إِلَّا هُوَ سَادِسُهُمْ وَلَ<span class=\"tj-madda-permissible\">آ</span> أَ<span class=\"tj-qalaqah\">دْ</span>نَىٰ مِ<span class=\"tj-ikhafa\">ن ذَ</span><span class=\"tj-madda-normal\">ٰ</span>لِكَ وَلَ<span class=\"tj-madda-permissible\">آ</span> أَكْثَرَ إِلَّا هُوَ مَعَهُمْ أَيْنَ مَا كَانُو<span class=\"tj-slnt\">ا۟</span> ثُ<span class=\"tj-ghunnah\">مَّ</span> يُنَبِّئُهُ<span class=\"tj-ikhafa-shafawi\">م بِ</span>مَا عَمِلُو<span class=\"tj-slnt\">ا۟</span> يَوْمَ <span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ بِكُلِّ شَىْءٍ عَلِ<span class=\"tj-madda-permissible\">ي</span>مٌ"
     },
     {
       "number": 8,
@@ -924,194 +1099,233 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اَلَمْ",
           "ur": "کیا نہیں",
-          "en": "Do not"
+          "en": "Do not",
+          "arTajweed": "أَلَمْ"
         },
         {
           "ar": "تَرَ",
           "ur": "تم نے دیکھا",
-          "en": "you see"
+          "en": "you see",
+          "arTajweed": "تَرَ"
         },
         {
           "ar": "اِلَی",
           "ur": "طرف",
-          "en": "[to]"
+          "en": "[to]",
+          "arTajweed": "إِلَى"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "ان لوگوں کی (طرف)",
-          "en": "those who"
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "نُهُوْا",
           "ur": "جو روکے گئے",
-          "en": "were forbidden"
+          "en": "were forbidden",
+          "arTajweed": "نُهُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "عَنِ",
           "ur": "سے",
-          "en": "from"
+          "en": "from",
+          "arTajweed": "عَنِ"
         },
         {
           "ar": "النَّجْوٰی",
           "ur": "سرگوشی (سے)",
-          "en": "secret counsels"
+          "en": "secret counsels",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-qalaqah\">جْ</span>وَىٰ"
         },
         {
           "ar": "ثُمَّ",
           "ur": "پھر",
-          "en": "then"
+          "en": "then",
+          "arTajweed": "ثُ<span class=\"tj-ghunnah\">مَّ</span>"
         },
         {
           "ar": "یَعُوْدُوْنَ",
           "ur": "وہ لوٹتے ہیں",
-          "en": "they return"
+          "en": "they return",
+          "arTajweed": "يَعُودُونَ"
         },
         {
           "ar": "لِمَا",
           "ur": "واسطے اس کے جو",
-          "en": "to what"
+          "en": "to what",
+          "arTajweed": "لِمَا"
         },
         {
           "ar": "نُهُوْا",
           "ur": "وہ روکے گئے تھے",
-          "en": "they were forbidden"
+          "en": "they were forbidden",
+          "arTajweed": "نُهُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "عَنْهُ",
           "ur": "جس سے",
-          "en": "from [it]"
+          "en": "from [it]",
+          "arTajweed": "عَنْهُ"
         },
         {
           "ar": "وَیَتَنٰجَوْنَ",
           "ur": "اور وہ ایک دوسرے سے سرگوشیاں کرتے ہیں",
-          "en": "and they hold secret counsels"
+          "en": "and they hold secret counsels",
+          "arTajweed": "وَيَتَنَ<span class=\"tj-madda-normal\">ٰ</span>جَوْنَ"
         },
         {
           "ar": "بِالْاِثْمِ",
           "ur": "ساتھ گناہ کے",
-          "en": "for sin"
+          "en": "for sin",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْإِثْمِ"
         },
         {
           "ar": "وَالْعُدْوَانِ",
           "ur": "اور زیادتی کے",
-          "en": "and aggression"
+          "en": "and aggression",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْعُ<span class=\"tj-qalaqah\">دْ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>نِ"
         },
         {
           "ar": "وَمَعْصِیَتِ",
           "ur": "نافرمانی کے",
-          "en": "and disobedience"
+          "en": "and disobedience",
+          "arTajweed": "وَمَعْصِيَتِ"
         },
         {
           "ar": "الرَّسُوْلِ ؗ",
           "ur": "رسول (صلی اللہ علیہ وآلہ وسلم) کی",
-          "en": "(to) the Messenger"
+          "en": "(to) the Messenger",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّسُولِ"
         },
         {
           "ar": "وَاِذَا",
           "ur": "اور جب",
-          "en": "And when"
+          "en": "And when",
+          "arTajweed": "وَإِذَا"
         },
         {
           "ar": "جَآءُوْكَ",
           "ur": "وہ آتے ہیں تیرے پاس",
-          "en": "they come to you"
+          "en": "they come to you",
+          "arTajweed": "جَ<span class=\"tj-madda-obligatory\">آ</span>ءُوكَ"
         },
         {
           "ar": "حَیَّوْكَ",
           "ur": "وہ سلام کرتے ہیں تجھ کو",
-          "en": "they greet you"
+          "en": "they greet you",
+          "arTajweed": "حَيَّوْكَ"
         },
         {
           "ar": "بِمَا",
           "ur": "ساتھ اس کے جو",
-          "en": "with what"
+          "en": "with what",
+          "arTajweed": "بِمَا"
         },
         {
           "ar": "لَمْ",
           "ur": "نہیں",
-          "en": "not"
+          "en": "not",
+          "arTajweed": "لَمْ"
         },
         {
           "ar": "یُحَیِّكَ",
           "ur": "سلام کیا تجھ کو",
-          "en": "greets you"
+          "en": "greets you",
+          "arTajweed": "يُحَيِّكَ"
         },
         {
           "ar": "بِهِ",
           "ur": "ساتھ اس کے",
-          "en": "therewith"
+          "en": "therewith",
+          "arTajweed": "بِهِ"
         },
         {
           "ar": "اللّٰهُ ۙ",
           "ur": "اللہ نے",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "وَیَقُوْلُوْنَ",
           "ur": "اور وہ کہتے ہیں",
-          "en": "and they say"
+          "en": "and they say",
+          "arTajweed": "وَيَقُولُونَ"
         },
         {
           "ar": "فِیْۤ",
           "ur": "میں",
-          "en": "among"
+          "en": "among",
+          "arTajweed": "فِ<span class=\"tj-madda-permissible\">ىٓ</span>"
         },
         {
           "ar": "اَنْفُسِهِمْ",
           "ur": "اپنے نفسوں میں",
-          "en": "themselves"
+          "en": "themselves",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">نفُ</span>سِهِمْ"
         },
         {
           "ar": "لَوْلَا",
           "ur": "کیوں نہیں",
-          "en": "Why (does) not"
+          "en": "Why (does) not",
+          "arTajweed": "لَوْلَا"
         },
         {
           "ar": "یُعَذِّبُنَا",
           "ur": "عذاب دیتا ہم کو",
-          "en": "Allah punish us"
+          "en": "Allah punish us",
+          "arTajweed": "يُعَذِّبُنَا"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ",
-          "en": "Allah punish us"
+          "en": "Allah punish us",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "بِمَا",
           "ur": "بوجہ اس کے جو",
-          "en": "for what"
+          "en": "for what",
+          "arTajweed": "بِمَا"
         },
         {
           "ar": "نَقُوْلُ ؕ",
           "ur": "ہم کہتے ہیں",
-          "en": "we say"
+          "en": "we say",
+          "arTajweed": "نَقُولُ"
         },
         {
           "ar": "حَسْبُهُمْ",
           "ur": "کافی ہے ان کو",
-          "en": "Sufficient (for) them"
+          "en": "Sufficient (for) them",
+          "arTajweed": "حَسْبُهُمْ"
         },
         {
           "ar": "جَهَنَّمُ ۚ",
           "ur": "جہنم",
-          "en": "(is) Hell"
+          "en": "(is) Hell",
+          "arTajweed": "جَهَ<span class=\"tj-ghunnah\">نَّ</span>مُ"
         },
         {
           "ar": "یَصْلَوْنَهَا ۚ",
           "ur": "وہ جلیں گے اس میں",
-          "en": "they will burn in it"
+          "en": "they will burn in it",
+          "arTajweed": "يَصْلَوْنَهَا"
         },
         {
           "ar": "فَبِئْسَ",
           "ur": "پس بدترین",
-          "en": "and worst is"
+          "en": "and worst is",
+          "arTajweed": "فَبِئْسَ"
         },
         {
           "ar": "الْمَصِیْرُ",
           "ur": "ٹھکانہ ہے",
-          "en": "the destination"
+          "en": "the destination",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَصِ<span class=\"tj-madda-permissible\">ي</span>رُ"
         }
-      ]
+      ],
+      "arTajweed": "أَلَمْ تَرَ إِلَى <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ نُهُو<span class=\"tj-slnt\">ا۟</span> عَنِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-qalaqah\">جْ</span>وَىٰ ثُ<span class=\"tj-ghunnah\">مَّ</span> يَعُودُونَ لِمَا نُهُو<span class=\"tj-slnt\">ا۟</span> عَنْهُ وَيَتَنَ<span class=\"tj-madda-normal\">ٰ</span>جَوْنَ بِ<span class=\"tj-ham-wasl\">ٱ</span>لْإِثْمِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْعُ<span class=\"tj-qalaqah\">دْ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>نِ وَمَعْصِيَتِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّسُولِ وَإِذَا جَ<span class=\"tj-madda-obligatory\">آ</span>ءُوكَ حَيَّوْكَ بِمَا لَمْ يُحَيِّكَ بِهِ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ وَيَقُولُونَ فِ<span class=\"tj-madda-permissible\">ىٓ</span> أَ<span class=\"tj-ikhafa\">نفُ</span>سِهِمْ لَوْلَا يُعَذِّبُنَا <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ بِمَا نَقُولُ حَسْبُهُمْ جَهَ<span class=\"tj-ghunnah\">نَّ</span>مُ يَصْلَوْنَهَا فَبِئْسَ <span class=\"tj-ham-wasl\">ٱ</span>لْمَصِ<span class=\"tj-madda-permissible\">ي</span>رُ"
     },
     {
       "number": 9,
@@ -1124,99 +1338,119 @@ window.BASEERAH_SURAH = {
         {
           "ar": "یٰۤاَیُّهَا",
           "ur": "اے",
-          "en": "O you"
+          "en": "O you",
+          "arTajweed": "يَ<span class=\"tj-madda-permissible\">ٰٓ</span>أَيُّهَا"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "لوگو",
-          "en": "those who(believe)"
+          "en": "those who(believe)",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "اٰمَنُوْۤا",
           "ur": "جو ایمان لائے ہو",
-          "en": "believe"
+          "en": "believe",
+          "arTajweed": "ءَامَنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "اِذَا",
           "ur": "جب",
-          "en": "When"
+          "en": "When",
+          "arTajweed": "إِذَا"
         },
         {
           "ar": "تَنَاجَیْتُمْ",
           "ur": "تم سرگوشیاں کرو۔ پوشیدہ بات کرو",
-          "en": "you hold secret counsel"
+          "en": "you hold secret counsel",
+          "arTajweed": "تَنَ<span class=\"tj-madda-normal\">ٰ</span>جَيْتُمْ"
         },
         {
           "ar": "فَلَا",
           "ur": "پس نہ",
-          "en": "then (do) not"
+          "en": "then (do) not",
+          "arTajweed": "فَلَا"
         },
         {
           "ar": "تَتَنَاجَوْا",
           "ur": "تم سرگوشیاں کرو",
-          "en": "hold secret counsel"
+          "en": "hold secret counsel",
+          "arTajweed": "تَتَنَ<span class=\"tj-madda-normal\">ٰ</span>جَوْ<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "بِالْاِثْمِ",
           "ur": "ساتھ گناہ کے",
-          "en": "for sin"
+          "en": "for sin",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْإِثْمِ"
         },
         {
           "ar": "وَالْعُدْوَانِ",
           "ur": "اور زیادتی کے",
-          "en": "and aggression"
+          "en": "and aggression",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْعُ<span class=\"tj-qalaqah\">دْ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>نِ"
         },
         {
           "ar": "وَمَعْصِیَتِ",
           "ur": "اور نافرمانی",
-          "en": "and disobedience"
+          "en": "and disobedience",
+          "arTajweed": "وَمَعْصِيَتِ"
         },
         {
           "ar": "الرَّسُوْلِ",
           "ur": "رسول اللہ (صلی اللہ علیہ وآلہ وسلم)",
-          "en": "(to) the Messenger"
+          "en": "(to) the Messenger",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّسُولِ"
         },
         {
           "ar": "وَتَنَاجَوْا",
           "ur": "اور پوشیدہ بات کرو",
-          "en": "but hold secret counsel"
+          "en": "but hold secret counsel",
+          "arTajweed": "وَتَنَ<span class=\"tj-madda-normal\">ٰ</span>جَوْ<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "بِالْبِرِّ",
           "ur": "ساتھ نیکی کے",
-          "en": "for righteousness"
+          "en": "for righteousness",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْبِرِّ"
         },
         {
           "ar": "وَالتَّقْوٰی ؕ",
           "ur": "اور تقوی کے",
-          "en": "and piety"
+          "en": "and piety",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>تَّ<span class=\"tj-qalaqah\">قْ</span>وَىٰ"
         },
         {
           "ar": "وَاتَّقُوا",
           "ur": "اور ڈرو",
-          "en": "And fear"
+          "en": "And fear",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>تَّقُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ سے",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "الَّذِیْۤ",
           "ur": "وہ ذات",
-          "en": "the One Who"
+          "en": "the One Who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِ<span class=\"tj-madda-permissible\">ىٓ</span>"
         },
         {
           "ar": "اِلَیْهِ",
           "ur": "اس کی طرف",
-          "en": "to Him"
+          "en": "to Him",
+          "arTajweed": "إِلَيْهِ"
         },
         {
           "ar": "تُحْشَرُوْنَ",
           "ur": "تم اکٹھے کیے جاؤ گے",
-          "en": "you will be gathered"
+          "en": "you will be gathered",
+          "arTajweed": "تُحْشَرُ<span class=\"tj-madda-permissible\">و</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "يَ<span class=\"tj-madda-permissible\">ٰٓ</span>أَيُّهَا <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ ءَامَنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> إِذَا تَنَ<span class=\"tj-madda-normal\">ٰ</span>جَيْتُمْ فَلَا تَتَنَ<span class=\"tj-madda-normal\">ٰ</span>جَوْ<span class=\"tj-slnt\">ا۟</span> بِ<span class=\"tj-ham-wasl\">ٱ</span>لْإِثْمِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْعُ<span class=\"tj-qalaqah\">دْ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>نِ وَمَعْصِيَتِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّسُولِ وَتَنَ<span class=\"tj-madda-normal\">ٰ</span>جَوْ<span class=\"tj-slnt\">ا۟</span> بِ<span class=\"tj-ham-wasl\">ٱ</span>لْبِرِّ وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>تَّ<span class=\"tj-qalaqah\">قْ</span>وَىٰ وَ<span class=\"tj-ham-wasl\">ٱ</span>تَّقُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِ<span class=\"tj-madda-permissible\">ىٓ</span> إِلَيْهِ تُحْشَرُ<span class=\"tj-madda-permissible\">و</span>نَ"
     },
     {
       "number": 10,
@@ -1229,89 +1463,107 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اِنَّمَا",
           "ur": "بیشک",
-          "en": "Only"
+          "en": "Only",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>مَا"
         },
         {
           "ar": "النَّجْوٰی",
           "ur": "سرگوشی",
-          "en": "the secret counsels"
+          "en": "the secret counsels",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-qalaqah\">جْ</span>وَىٰ"
         },
         {
           "ar": "مِنَ",
           "ur": "سے",
-          "en": "(are) from"
+          "en": "(are) from",
+          "arTajweed": "مِنَ"
         },
         {
           "ar": "الشَّیْطٰنِ",
           "ur": "شیطان کی طرف (سے)",
-          "en": "the Shaitaan"
+          "en": "the Shaitaan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نِ"
         },
         {
           "ar": "لِیَحْزُنَ",
           "ur": "تاکہ غمگین ہوں",
-          "en": "that he may grieve"
+          "en": "that he may grieve",
+          "arTajweed": "لِيَحْزُنَ"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "وہ لوگ",
-          "en": "those who"
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "اٰمَنُوْا",
           "ur": "جو ایمان لائے",
-          "en": "believe"
+          "en": "believe",
+          "arTajweed": "ءَامَنُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "وَلَیْسَ",
           "ur": "حالانکہ نہیں",
-          "en": "but not"
+          "en": "but not",
+          "arTajweed": "وَلَيْسَ"
         },
         {
           "ar": "بِضَآرِّهِمْ",
           "ur": "ضرر دینے والی ان کو",
-          "en": "he (can) harm them"
+          "en": "he (can) harm them",
+          "arTajweed": "بِضَ<span class=\"tj-madda-necessary\">آ</span>رِّهِمْ"
         },
         {
           "ar": "شَیْـًٔا",
           "ur": "کچھ بھی۔ کوئی چیز بھی",
-          "en": "(in) anything"
+          "en": "(in) anything",
+          "arTajweed": "شَيْـًٔا"
         },
         {
           "ar": "اِلَّا",
           "ur": "مگر",
-          "en": "except"
+          "en": "except",
+          "arTajweed": "إِلَّا"
         },
         {
           "ar": "بِاِذْنِ",
           "ur": "اذن سے",
-          "en": "by Allah's permission"
+          "en": "by Allah's permission",
+          "arTajweed": "بِإِذْنِ"
         },
         {
           "ar": "اللّٰهِ ؕ",
           "ur": "اللہ کے",
-          "en": "by Allah's permission"
+          "en": "by Allah's permission",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "وَعَلَی",
           "ur": "اور پر",
-          "en": "And upon"
+          "en": "And upon",
+          "arTajweed": "وَعَلَى"
         },
         {
           "ar": "اللّٰهِ",
           "ur": "اللہ (پر)",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "فَلْیَتَوَكَّلِ",
           "ur": "کہ توکل کریں",
-          "en": "let put (their) trust"
+          "en": "let put (their) trust",
+          "arTajweed": "فَلْيَتَوَكَّلِ"
         },
         {
           "ar": "الْمُؤْمِنُوْنَ",
           "ur": "مومن",
-          "en": "the believers"
+          "en": "the believers",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُؤْمِنُ<span class=\"tj-madda-permissible\">و</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>مَا <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-qalaqah\">جْ</span>وَىٰ مِنَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نِ لِيَحْزُنَ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ ءَامَنُو<span class=\"tj-slnt\">ا۟</span> وَلَيْسَ بِضَ<span class=\"tj-madda-necessary\">آ</span>رِّهِمْ شَيْـًٔا إِلَّا بِإِذْنِ <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ وَعَلَى <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ فَلْيَتَوَكَّلِ <span class=\"tj-ham-wasl\">ٱ</span>لْمُؤْمِنُ<span class=\"tj-madda-permissible\">و</span>نَ"
     },
     {
       "number": 11,
@@ -1324,154 +1576,185 @@ window.BASEERAH_SURAH = {
         {
           "ar": "یٰۤاَیُّهَا",
           "ur": "اے",
-          "en": "O you"
+          "en": "O you",
+          "arTajweed": "يَ<span class=\"tj-madda-permissible\">ٰٓ</span>أَيُّهَا"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "لوگو",
-          "en": "those who(believe)"
+          "en": "those who(believe)",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "اٰمَنُوْۤا",
           "ur": "جو ایمان لائے ہو",
-          "en": "believe"
+          "en": "believe",
+          "arTajweed": "ءَامَنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "اِذَا",
           "ur": "جب",
-          "en": "When"
+          "en": "When",
+          "arTajweed": "إِذَا"
         },
         {
           "ar": "قِیْلَ",
           "ur": "کہا جائے",
-          "en": "it is said"
+          "en": "it is said",
+          "arTajweed": "قِيلَ"
         },
         {
           "ar": "لَكُمْ",
           "ur": "تم سے",
-          "en": "to you"
+          "en": "to you",
+          "arTajweed": "لَكُمْ"
         },
         {
           "ar": "تَفَسَّحُوْا",
           "ur": "جگہ پیدا کرو۔ کشادگی پیدا کرو",
-          "en": "Make room"
+          "en": "Make room",
+          "arTajweed": "تَفَسَّحُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "فِی",
           "ur": "میں",
-          "en": "in"
+          "en": "in",
+          "arTajweed": "فِى"
         },
         {
           "ar": "الْمَجٰلِسِ",
           "ur": "مجلسوں (میں)",
-          "en": "the assemblies"
+          "en": "the assemblies",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَجَ<span class=\"tj-madda-normal\">ٰ</span>لِسِ"
         },
         {
           "ar": "فَافْسَحُوْا",
           "ur": "تو کشادگی پیدا کرو",
-          "en": "then make room"
+          "en": "then make room",
+          "arTajweed": "فَ<span class=\"tj-ham-wasl\">ٱ</span>فْسَحُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "یَفْسَحِ",
           "ur": "کشادگی پیدا کردے گا",
-          "en": "Allah will make room"
+          "en": "Allah will make room",
+          "arTajweed": "يَفْسَحِ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ",
-          "en": "Allah will make room"
+          "en": "Allah will make room",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "لَكُمْ ۚ",
           "ur": "تمہارے لیے",
-          "en": "for you"
+          "en": "for you",
+          "arTajweed": "لَكُمْ"
         },
         {
           "ar": "وَاِذَا",
           "ur": "اور جب",
-          "en": "And when"
+          "en": "And when",
+          "arTajweed": "وَإِذَا"
         },
         {
           "ar": "قِیْلَ",
           "ur": "کہا جائے",
-          "en": "it is said"
+          "en": "it is said",
+          "arTajweed": "قِيلَ"
         },
         {
           "ar": "انْشُزُوْا",
           "ur": "اٹھ جاؤ",
-          "en": "Rise up"
+          "en": "Rise up",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-ikhafa\">نشُ</span>زُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "فَانْشُزُوْا",
           "ur": "تو اٹھ جایا کرو",
-          "en": "then rise up"
+          "en": "then rise up",
+          "arTajweed": "فَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-ikhafa\">نشُ</span>زُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "یَرْفَعِ",
           "ur": "بلند کرتا ہے",
-          "en": "Allah will raise"
+          "en": "Allah will raise",
+          "arTajweed": "يَرْفَعِ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ",
-          "en": "Allah will raise"
+          "en": "Allah will raise",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "ان لوگوں کو",
-          "en": "those who"
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "اٰمَنُوْا",
           "ur": "جو ایمان لائے",
-          "en": "believe"
+          "en": "believe",
+          "arTajweed": "ءَامَنُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "مِنْكُمْ ۙ",
           "ur": "تم میں سے",
-          "en": "among you"
+          "en": "among you",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">نكُ</span>مْ"
         },
         {
           "ar": "وَالَّذِیْنَ",
           "ur": "اور وہ لوگ",
-          "en": "and those who"
+          "en": "and those who",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "اُوْتُوا",
           "ur": "جو دیے گئے",
-          "en": "were given"
+          "en": "were given",
+          "arTajweed": "أُوتُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "الْعِلْمَ",
           "ur": "علم",
-          "en": "the knowledge"
+          "en": "the knowledge",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْعِلْمَ"
         },
         {
           "ar": "دَرَجٰتٍ ؕ",
           "ur": "درجوں میں",
-          "en": "(in) degrees"
+          "en": "(in) degrees",
+          "arTajweed": "دَرَجَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-idgham-ghunnah\">ٍ</span>"
         },
         {
           "ar": "وَاللّٰهُ",
           "ur": "اور اللہ",
-          "en": "And Allah"
+          "en": "And Allah",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span><span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "بِمَا",
           "ur": "ساتھ اس کے جو",
-          "en": "of what"
+          "en": "of what",
+          "arTajweed": "بِمَا"
         },
         {
           "ar": "تَعْمَلُوْنَ",
           "ur": "تم عمل کرتے ہو",
-          "en": "you do"
+          "en": "you do",
+          "arTajweed": "تَعْمَلُونَ"
         },
         {
           "ar": "خَبِیْرٌ",
           "ur": "باخبر ہے",
-          "en": "(is) All-Aware"
+          "en": "(is) All-Aware",
+          "arTajweed": "خَبِ<span class=\"tj-madda-permissible\">ي</span>رٌ"
         }
-      ]
+      ],
+      "arTajweed": "يَ<span class=\"tj-madda-permissible\">ٰٓ</span>أَيُّهَا <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ ءَامَنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> إِذَا قِيلَ لَكُمْ تَفَسَّحُو<span class=\"tj-slnt\">ا۟</span> فِى <span class=\"tj-ham-wasl\">ٱ</span>لْمَجَ<span class=\"tj-madda-normal\">ٰ</span>لِسِ فَ<span class=\"tj-ham-wasl\">ٱ</span>فْسَحُو<span class=\"tj-slnt\">ا۟</span> يَفْسَحِ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ لَكُمْ وَإِذَا قِيلَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-ikhafa\">نشُ</span>زُو<span class=\"tj-slnt\">ا۟</span> فَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-ikhafa\">نشُ</span>زُو<span class=\"tj-slnt\">ا۟</span> يَرْفَعِ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ ءَامَنُو<span class=\"tj-slnt\">ا۟</span> مِ<span class=\"tj-ikhafa\">نكُ</span>مْ وَ<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ أُوتُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>لْعِلْمَ دَرَجَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-idgham-ghunnah\">ٍ وَ</span><span class=\"tj-ham-wasl\">ٱ</span>للَّهُ بِمَا تَعْمَلُونَ خَبِ<span class=\"tj-madda-permissible\">ي</span>رٌ"
     },
     {
       "number": 12,
@@ -1484,114 +1767,137 @@ window.BASEERAH_SURAH = {
         {
           "ar": "یٰۤاَیُّهَا",
           "ur": "اے",
-          "en": "O you"
+          "en": "O you",
+          "arTajweed": "يَ<span class=\"tj-madda-permissible\">ٰٓ</span>أَيُّهَا"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "لوگو !",
-          "en": "those who(believe)"
+          "en": "those who(believe)",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "اٰمَنُوْۤا",
           "ur": "جو ایمان لائے ہو",
-          "en": "believe"
+          "en": "believe",
+          "arTajweed": "ءَامَنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "اِذَا",
           "ur": "جب",
-          "en": "When"
+          "en": "When",
+          "arTajweed": "إِذَا"
         },
         {
           "ar": "نَاجَیْتُمُ",
           "ur": "سرگوشی کرو تم",
-          "en": "you privately consult"
+          "en": "you privately consult",
+          "arTajweed": "نَ<span class=\"tj-madda-normal\">ٰ</span>جَيْتُمُ"
         },
         {
           "ar": "الرَّسُوْلَ",
           "ur": "رسول سے",
-          "en": "the Messenger"
+          "en": "the Messenger",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّسُولَ"
         },
         {
           "ar": "فَقَدِّمُوْا",
           "ur": "تو پیش کرو",
-          "en": "then offer"
+          "en": "then offer",
+          "arTajweed": "فَقَدِّمُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "بَیْنَ",
           "ur": null,
-          "en": "before"
+          "en": "before",
+          "arTajweed": "بَيْنَ"
         },
         {
           "ar": "یَدَیْ",
           "ur": "پہلے",
-          "en": "before"
+          "en": "before",
+          "arTajweed": "يَدَىْ"
         },
         {
           "ar": "نَجْوٰىكُمْ",
           "ur": "اپنی سرگوشی کے",
-          "en": "your private consultation"
+          "en": "your private consultation",
+          "arTajweed": "نَ<span class=\"tj-qalaqah\">جْ</span>وَى<span class=\"tj-madda-normal\">ٰ</span>كُمْ"
         },
         {
           "ar": "صَدَقَةً ؕ",
           "ur": "صدقہ",
-          "en": "charity"
+          "en": "charity",
+          "arTajweed": "صَدَقَة<span class=\"tj-ikhafa\">ً</span>"
         },
         {
           "ar": "ذٰلِكَ",
           "ur": "یہ بات",
-          "en": "That"
+          "en": "That",
+          "arTajweed": "<span class=\"tj-ikhafa\">ذَ</span><span class=\"tj-madda-normal\">ٰ</span>لِكَ"
         },
         {
           "ar": "خَیْرٌ",
           "ur": "بہتر ہے",
-          "en": "(is) better"
+          "en": "(is) better",
+          "arTajweed": "خَيْر<span class=\"tj-idgham-wo-ghunnah\">ٌ</span>"
         },
         {
           "ar": "لَّكُمْ",
           "ur": "تمہارے لیے",
-          "en": "for you"
+          "en": "for you",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>كُمْ"
         },
         {
           "ar": "وَاَطْهَرُ ؕ",
           "ur": "اور زیادہ پاکیزہ ہے",
-          "en": "and purer"
+          "en": "and purer",
+          "arTajweed": "وَأَ<span class=\"tj-qalaqah\">طْ</span>هَرُ"
         },
         {
           "ar": "فَاِنْ",
           "ur": "پھر اگر",
-          "en": "But if"
+          "en": "But if",
+          "arTajweed": "فَإِ<span class=\"tj-idgham-wo-ghunnah\">ن</span>"
         },
         {
           "ar": "لَّمْ",
           "ur": "نہ",
-          "en": "not"
+          "en": "not",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>مْ"
         },
         {
           "ar": "تَجِدُوْا",
           "ur": "تم پاؤ",
-          "en": "you find"
+          "en": "you find",
+          "arTajweed": "تَجِدُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "فَاِنَّ",
           "ur": "تو بیشک",
-          "en": "then indeed"
+          "en": "then indeed",
+          "arTajweed": "فَإِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ تعالیٰ",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "غَفُوْرٌ",
           "ur": "غفور",
-          "en": "(is) Oft-Forgiving"
+          "en": "(is) Oft-Forgiving",
+          "arTajweed": "غَفُور<span class=\"tj-idgham-wo-ghunnah\">ٌ</span>"
         },
         {
           "ar": "رَّحِیْمٌ",
           "ur": "رحیم ہے",
-          "en": "Most Merciful"
+          "en": "Most Merciful",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">رَّ</span>حِ<span class=\"tj-madda-permissible\">ي</span>مٌ"
         }
-      ]
+      ],
+      "arTajweed": "يَ<span class=\"tj-madda-permissible\">ٰٓ</span>أَيُّهَا <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ ءَامَنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> إِذَا نَ<span class=\"tj-madda-normal\">ٰ</span>جَيْتُمُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّسُولَ فَقَدِّمُو<span class=\"tj-slnt\">ا۟</span> بَيْنَ يَدَىْ نَ<span class=\"tj-qalaqah\">جْ</span>وَى<span class=\"tj-madda-normal\">ٰ</span>كُمْ صَدَقَة<span class=\"tj-ikhafa\">ً ذَ</span><span class=\"tj-madda-normal\">ٰ</span>لِكَ خَيْر<span class=\"tj-idgham-wo-ghunnah\">ٌ لَّ</span>كُمْ وَأَ<span class=\"tj-qalaqah\">طْ</span>هَرُ فَإِ<span class=\"tj-idgham-wo-ghunnah\">ن لَّ</span>مْ تَجِدُو<span class=\"tj-slnt\">ا۟</span> فَإِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ غَفُور<span class=\"tj-idgham-wo-ghunnah\">ٌ رَّ</span>حِ<span class=\"tj-madda-permissible\">ي</span>مٌ"
     },
     {
       "number": 13,
@@ -1604,124 +1910,149 @@ window.BASEERAH_SURAH = {
         {
           "ar": "ءَاَشْفَقْتُمْ",
           "ur": "کیا ڈر گئے تم",
-          "en": "Are you afraid"
+          "en": "Are you afraid",
+          "arTajweed": "ءَأَشْفَ<span class=\"tj-qalaqah\">قْ</span>تُمْ"
         },
         {
           "ar": "اَنْ",
           "ur": "کہ",
-          "en": "to"
+          "en": "to",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">ن</span>"
         },
         {
           "ar": "تُقَدِّمُوْا",
           "ur": "تم آگے بھیجو۔ پیش کرو",
-          "en": "offer"
+          "en": "offer",
+          "arTajweed": "<span class=\"tj-ikhafa\">تُ</span>قَدِّمُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "بَیْنَ",
           "ur": null,
-          "en": "before"
+          "en": "before",
+          "arTajweed": "بَيْنَ"
         },
         {
           "ar": "یَدَیْ",
           "ur": "پہلے",
-          "en": "before"
+          "en": "before",
+          "arTajweed": "يَدَىْ"
         },
         {
           "ar": "نَجْوٰىكُمْ",
           "ur": "اپنی سرگوشیوں سے",
-          "en": "your private consultation"
+          "en": "your private consultation",
+          "arTajweed": "نَ<span class=\"tj-qalaqah\">جْ</span>وَى<span class=\"tj-madda-normal\">ٰ</span>كُمْ"
         },
         {
           "ar": "صَدَقٰتٍ ؕ",
           "ur": "صدقات",
-          "en": "charities"
+          "en": "charities",
+          "arTajweed": "صَدَقَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-ikhafa\">ٍ</span>"
         },
         {
           "ar": "فَاِذْ",
           "ur": "پھر جب",
-          "en": "Then when"
+          "en": "Then when",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>إِذْ"
         },
         {
           "ar": "لَمْ",
           "ur": "نہ",
-          "en": "you do not"
+          "en": "you do not",
+          "arTajweed": "لَمْ"
         },
         {
           "ar": "تَفْعَلُوْا",
           "ur": "تم کرو",
-          "en": "you do not"
+          "en": "you do not",
+          "arTajweed": "تَفْعَلُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "وَتَابَ",
           "ur": "اور مہربان ہو",
-          "en": "and Allah has forgiven"
+          "en": "and Allah has forgiven",
+          "arTajweed": "وَتَابَ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ",
-          "en": "and Allah has forgiven"
+          "en": "and Allah has forgiven",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "عَلَیْكُمْ",
           "ur": "تم پر",
-          "en": "you"
+          "en": "you",
+          "arTajweed": "عَلَيْكُمْ"
         },
         {
           "ar": "فَاَقِیْمُوا",
           "ur": "تو قائم کرو",
-          "en": "then establish"
+          "en": "then establish",
+          "arTajweed": "فَأَقِيمُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "الصَّلٰوةَ",
           "ur": "نماز",
-          "en": "the prayer"
+          "en": "the prayer",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّلَ<span class=\"tj-slnt\">و</span><span class=\"tj-madda-normal\">ٰ</span>ةَ"
         },
         {
           "ar": "وَاٰتُوا",
           "ur": "اور ادا کرو",
-          "en": "and give"
+          "en": "and give",
+          "arTajweed": "وَءَاتُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "الزَّكٰوةَ",
           "ur": "زکوۃ",
-          "en": "the zakah"
+          "en": "the zakah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>زَّكَ<span class=\"tj-slnt\">و</span><span class=\"tj-madda-normal\">ٰ</span>ةَ"
         },
         {
           "ar": "وَاَطِیْعُوا",
           "ur": "اور اطاعت کرو",
-          "en": "and obey"
+          "en": "and obey",
+          "arTajweed": "وَأَطِيعُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ کی",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "وَرَسُوْلَهٗ ؕ",
           "ur": "اور اس کے رسول کی",
-          "en": "and His Messenger"
+          "en": "and His Messenger",
+          "arTajweed": "وَرَسُولَهُ<span class=\"tj-madda-normal\">ۥ</span>"
         },
         {
           "ar": "وَاللّٰهُ",
           "ur": "اور اللہ تعالیٰ",
-          "en": "And Allah"
+          "en": "And Allah",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "خَبِیْرٌ",
           "ur": "باخبر ہے",
-          "en": "(is) All-Aware"
+          "en": "(is) All-Aware",
+          "arTajweed": "خَبِير<span class=\"tj-iqlab\">ٌۢ</span>"
         },
         {
           "ar": "بِمَا",
           "ur": "ساتھ اس کے جو",
-          "en": "of what"
+          "en": "of what",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>ِمَا"
         },
         {
           "ar": "تَعْمَلُوْنَ",
           "ur": "تم عمل کرتے ہو",
-          "en": "you do"
+          "en": "you do",
+          "arTajweed": "تَعْمَلُ<span class=\"tj-madda-permissible\">و</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "ءَأَشْفَ<span class=\"tj-qalaqah\">قْ</span>تُمْ أَ<span class=\"tj-ikhafa\">ن تُ</span>قَدِّمُو<span class=\"tj-slnt\">ا۟</span> بَيْنَ يَدَىْ نَ<span class=\"tj-qalaqah\">جْ</span>وَى<span class=\"tj-madda-normal\">ٰ</span>كُمْ صَدَقَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-ikhafa\">ٍ فَ</span>إِذْ لَمْ تَفْعَلُو<span class=\"tj-slnt\">ا۟</span> وَتَابَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ عَلَيْكُمْ فَأَقِيمُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّلَ<span class=\"tj-slnt\">و</span><span class=\"tj-madda-normal\">ٰ</span>ةَ وَءَاتُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>زَّكَ<span class=\"tj-slnt\">و</span><span class=\"tj-madda-normal\">ٰ</span>ةَ وَأَطِيعُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ وَرَسُولَهُ<span class=\"tj-madda-normal\">ۥ</span> وَ<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ خَبِير<span class=\"tj-iqlab\">ٌۢ ب</span>ِمَا تَعْمَلُ<span class=\"tj-madda-permissible\">و</span>نَ"
     },
     {
       "number": 14,
@@ -1734,99 +2065,119 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اَلَمْ",
           "ur": "کیا  نہیں",
-          "en": "Do not"
+          "en": "Do not",
+          "arTajweed": "أَلَمْ"
         },
         {
           "ar": "تَرَ",
           "ur": "تم نے دیکھا",
-          "en": "you see"
+          "en": "you see",
+          "arTajweed": "تَرَ"
         },
         {
           "ar": "اِلَی",
           "ur": "طرف",
-          "en": "[to]"
+          "en": "[to]",
+          "arTajweed": "إِلَى"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "ان لوگوں کے",
-          "en": "those who"
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "تَوَلَّوْا",
           "ur": "جنہوں نے دوست بنایا",
-          "en": "take as allies"
+          "en": "take as allies",
+          "arTajweed": "تَوَلَّوْ<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "قَوْمًا",
           "ur": "ایک قوم کو",
-          "en": "a people"
+          "en": "a people",
+          "arTajweed": "قَوْمًا"
         },
         {
           "ar": "غَضِبَ",
           "ur": "غضب ناک ہو",
-          "en": "wrath"
+          "en": "wrath",
+          "arTajweed": "غَضِبَ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ",
-          "en": "(of) Allah"
+          "en": "(of) Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "عَلَیْهِمْ ؕ",
           "ur": "ان پر",
-          "en": "(is) upon them"
+          "en": "(is) upon them",
+          "arTajweed": "عَلَيْهِ<span class=\"tj-idgham-shafawi\">م</span>"
         },
         {
           "ar": "مَا",
           "ur": "نہیں",
-          "en": "They (are) not"
+          "en": "They (are) not",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مَّ</span>ا"
         },
         {
           "ar": "هُمْ",
           "ur": "وہ",
-          "en": "They (are) not"
+          "en": "They (are) not",
+          "arTajweed": "هُ<span class=\"tj-idgham-shafawi\">م</span>"
         },
         {
           "ar": "مِّنْكُمْ",
           "ur": "تم میں سے",
-          "en": "of you"
+          "en": "of you",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مِّ</span><span class=\"tj-ikhafa\">نكُ</span>مْ"
         },
         {
           "ar": "وَلَا",
           "ur": "اور نہ",
-          "en": "and not"
+          "en": "and not",
+          "arTajweed": "وَلَا"
         },
         {
           "ar": "مِنْهُمْ ۙ",
           "ur": "ان میں سے",
-          "en": "of them"
+          "en": "of them",
+          "arTajweed": "مِنْهُمْ"
         },
         {
           "ar": "وَیَحْلِفُوْنَ",
           "ur": "اور وہ قسمیں کھاتے ہیں",
-          "en": "and they swear"
+          "en": "and they swear",
+          "arTajweed": "وَيَحْلِفُونَ"
         },
         {
           "ar": "عَلَی",
           "ur": "پر",
-          "en": "to"
+          "en": "to",
+          "arTajweed": "عَلَى"
         },
         {
           "ar": "الْكَذِبِ",
           "ur": "جھوٹ (پر)",
-          "en": "the lie"
+          "en": "the lie",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْكَذِبِ"
         },
         {
           "ar": "وَهُمْ",
           "ur": "اور وہ",
-          "en": "while they"
+          "en": "while they",
+          "arTajweed": "وَهُمْ"
         },
         {
           "ar": "یَعْلَمُوْنَ",
           "ur": "جانتے ہیں",
-          "en": "know"
+          "en": "know",
+          "arTajweed": "يَعْلَمُ<span class=\"tj-madda-permissible\">و</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "أَلَمْ تَرَ إِلَى <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ تَوَلَّوْ<span class=\"tj-slnt\">ا۟</span> قَوْمًا غَضِبَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ عَلَيْهِ<span class=\"tj-idgham-shafawi\">م مَّ</span>ا هُ<span class=\"tj-idgham-shafawi\">م مِّ</span><span class=\"tj-ikhafa\">نكُ</span>مْ وَلَا مِنْهُمْ وَيَحْلِفُونَ عَلَى <span class=\"tj-ham-wasl\">ٱ</span>لْكَذِبِ وَهُمْ يَعْلَمُ<span class=\"tj-madda-permissible\">و</span>نَ"
     },
     {
       "number": 15,
@@ -1839,54 +2190,65 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اَعَدَّ",
           "ur": "تیار کیا",
-          "en": "Allah has prepared"
+          "en": "Allah has prepared",
+          "arTajweed": "أَعَدَّ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ نے",
-          "en": "Allah has prepared"
+          "en": "Allah has prepared",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "لَهُمْ",
           "ur": "ان کے لیے",
-          "en": "for them"
+          "en": "for them",
+          "arTajweed": "لَهُمْ"
         },
         {
           "ar": "عَذَابًا",
           "ur": "عذاب",
-          "en": "a punishment"
+          "en": "a punishment",
+          "arTajweed": "عَذَاب<span class=\"tj-ikhafa\">ًا</span>"
         },
         {
           "ar": "شَدِیْدًا ؕ",
           "ur": "شدید۔ سخت",
-          "en": "severe"
+          "en": "severe",
+          "arTajweed": "<span class=\"tj-ikhafa\">شَ</span>دِيدًا"
         },
         {
           "ar": "اِنَّهُمْ",
           "ur": "بیشک وہ",
-          "en": "Indeed, [they]"
+          "en": "Indeed, [they]",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُمْ"
         },
         {
           "ar": "سَآءَ",
           "ur": "برا ہے",
-          "en": "evil is"
+          "en": "evil is",
+          "arTajweed": "سَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
         },
         {
           "ar": "مَا",
           "ur": "جو کچھ",
-          "en": "what"
+          "en": "what",
+          "arTajweed": "مَا"
         },
         {
           "ar": "كَانُوْا",
           "ur": "وہ ہیں",
-          "en": "they used to"
+          "en": "they used to",
+          "arTajweed": "كَانُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "یَعْمَلُوْنَ",
           "ur": "وہ عمل کرتے",
-          "en": "do"
+          "en": "do",
+          "arTajweed": "يَعْمَلُ<span class=\"tj-madda-permissible\">و</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "أَعَدَّ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ لَهُمْ عَذَاب<span class=\"tj-ikhafa\">ًا شَ</span>دِيدًا إِ<span class=\"tj-ghunnah\">نَّ</span>هُمْ سَ<span class=\"tj-madda-obligatory\">آ</span>ءَ مَا كَانُو<span class=\"tj-slnt\">ا۟</span> يَعْمَلُ<span class=\"tj-madda-permissible\">و</span>نَ"
     },
     {
       "number": 16,
@@ -1899,54 +2261,65 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اِتَّخَذُوْۤا",
           "ur": "انہوں نے بنا لیا",
-          "en": "They have taken"
+          "en": "They have taken",
+          "arTajweed": "ٱتَّخَذُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "اَیْمَانَهُمْ",
           "ur": "اپنی قسموں کو",
-          "en": "their oaths"
+          "en": "their oaths",
+          "arTajweed": "أَيْمَ<span class=\"tj-madda-normal\">ٰ</span>نَهُمْ"
         },
         {
           "ar": "جُنَّةً",
           "ur": "ڈھال",
-          "en": "(as) a cover"
+          "en": "(as) a cover",
+          "arTajweed": "جُ<span class=\"tj-ghunnah\">نَّ</span>ة<span class=\"tj-ikhafa\">ً</span>"
         },
         {
           "ar": "فَصَدُّوْا",
           "ur": "تو انہوں نے روک دیا",
-          "en": "so they hinder"
+          "en": "so they hinder",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>صَدُّو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "عَنْ",
           "ur": "سے",
-          "en": "from"
+          "en": "from",
+          "arTajweed": "عَ<span class=\"tj-ikhafa\">ن</span>"
         },
         {
           "ar": "سَبِیْلِ",
           "ur": "راستے (سے)",
-          "en": "(the) way of Allah"
+          "en": "(the) way of Allah",
+          "arTajweed": "<span class=\"tj-ikhafa\">سَ</span>بِيلِ"
         },
         {
           "ar": "اللّٰهِ",
           "ur": "اللہ کے",
-          "en": "(the) way of Allah"
+          "en": "(the) way of Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "فَلَهُمْ",
           "ur": "تو ان کے لیے",
-          "en": "so for them"
+          "en": "so for them",
+          "arTajweed": "فَلَهُمْ"
         },
         {
           "ar": "عَذَابٌ",
           "ur": "عذاب ہے",
-          "en": "(is) a punishment"
+          "en": "(is) a punishment",
+          "arTajweed": "عَذَاب<span class=\"tj-idgham-ghunnah\">ٌ</span>"
         },
         {
           "ar": "مُّهِیْنٌ",
           "ur": "رسوا کرنے والا",
-          "en": "humiliating"
+          "en": "humiliating",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مُّ</span>هِ<span class=\"tj-madda-permissible\">ي</span>نٌ"
         }
-      ]
+      ],
+      "arTajweed": "ٱتَّخَذُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> أَيْمَ<span class=\"tj-madda-normal\">ٰ</span>نَهُمْ جُ<span class=\"tj-ghunnah\">نَّ</span>ة<span class=\"tj-ikhafa\">ً فَ</span>صَدُّو<span class=\"tj-slnt\">ا۟</span> عَ<span class=\"tj-ikhafa\">ن سَ</span>بِيلِ <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ فَلَهُمْ عَذَاب<span class=\"tj-idgham-ghunnah\">ٌ مُّ</span>هِ<span class=\"tj-madda-permissible\">ي</span>نٌ"
     },
     {
       "number": 17,
@@ -1959,79 +2332,95 @@ window.BASEERAH_SURAH = {
         {
           "ar": "لَنْ",
           "ur": "ہرگز نہ",
-          "en": "Never"
+          "en": "Never",
+          "arTajweed": "لَّ<span class=\"tj-ikhafa\">ن</span>"
         },
         {
           "ar": "تُغْنِیَ",
           "ur": "کام  آئیں گے",
-          "en": "will avail"
+          "en": "will avail",
+          "arTajweed": "<span class=\"tj-ikhafa\">تُ</span>غْنِىَ"
         },
         {
           "ar": "عَنْهُمْ",
           "ur": "ان کو",
-          "en": "them"
+          "en": "them",
+          "arTajweed": "عَنْهُمْ"
         },
         {
           "ar": "اَمْوَالُهُمْ",
           "ur": "ان کے مال",
-          "en": "their wealth"
+          "en": "their wealth",
+          "arTajweed": "أَمْوَ<span class=\"tj-madda-normal\">ٰ</span>لُهُمْ"
         },
         {
           "ar": "وَلَاۤ",
           "ur": "اور نہ",
-          "en": "and not"
+          "en": "and not",
+          "arTajweed": "وَلَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اَوْلَادُهُمْ",
           "ur": "ان کی اولاد",
-          "en": "their children"
+          "en": "their children",
+          "arTajweed": "أَوْلَ<span class=\"tj-madda-normal\">ٰ</span>دُهُ<span class=\"tj-idgham-shafawi\">م</span>"
         },
         {
           "ar": "مِّنَ",
           "ur": "سے",
-          "en": "against"
+          "en": "against",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مِّ</span>نَ"
         },
         {
           "ar": "اللّٰهِ",
           "ur": "اللہ (سے)",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "شَیْـًٔا ؕ",
           "ur": "کچھ بھی",
-          "en": "(in) anything"
+          "en": "(in) anything",
+          "arTajweed": "شَيْـًٔا"
         },
         {
           "ar": "اُولٰٓىِٕكَ",
           "ur": "یہی لوگ",
-          "en": "Those"
+          "en": "Those",
+          "arTajweed": "أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ"
         },
         {
           "ar": "اَصْحٰبُ",
           "ur": "ساتھی ہیں",
-          "en": "(will be) companions"
+          "en": "(will be) companions",
+          "arTajweed": "أَصْحَ<span class=\"tj-madda-normal\">ٰ</span>بُ"
         },
         {
           "ar": "النَّارِ ؕ",
           "ur": "آگ کے",
-          "en": "(of) the Fire"
+          "en": "(of) the Fire",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>ارِ"
         },
         {
           "ar": "هُمْ",
           "ur": "وہ",
-          "en": "they"
+          "en": "they",
+          "arTajweed": "هُمْ"
         },
         {
           "ar": "فِیْهَا",
           "ur": "اس میں",
-          "en": "in it"
+          "en": "in it",
+          "arTajweed": "فِيهَا"
         },
         {
           "ar": "خٰلِدُوْنَ",
           "ur": "ہمیشہ رہنے والے ہیں",
-          "en": "will abide forever"
+          "en": "will abide forever",
+          "arTajweed": "خَ<span class=\"tj-madda-normal\">ٰ</span>لِدُ<span class=\"tj-madda-permissible\">و</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "لَّ<span class=\"tj-ikhafa\">ن تُ</span>غْنِىَ عَنْهُمْ أَمْوَ<span class=\"tj-madda-normal\">ٰ</span>لُهُمْ وَلَ<span class=\"tj-madda-permissible\">آ</span> أَوْلَ<span class=\"tj-madda-normal\">ٰ</span>دُهُ<span class=\"tj-idgham-shafawi\">م مِّ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ شَيْـًٔا أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ أَصْحَ<span class=\"tj-madda-normal\">ٰ</span>بُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>ارِ هُمْ فِيهَا خَ<span class=\"tj-madda-normal\">ٰ</span>لِدُ<span class=\"tj-madda-permissible\">و</span>نَ"
     },
     {
       "number": 18,
@@ -2044,89 +2433,107 @@ window.BASEERAH_SURAH = {
         {
           "ar": "یَوْمَ",
           "ur": "جس دن",
-          "en": "(On the) Day"
+          "en": "(On the) Day",
+          "arTajweed": "يَوْمَ"
         },
         {
           "ar": "یَبْعَثُهُمُ",
           "ur": "اٹھائے گا ان کو",
-          "en": "Allah will raise them"
+          "en": "Allah will raise them",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">بْ</span>عَثُهُمُ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ",
-          "en": "Allah will raise them"
+          "en": "Allah will raise them",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "جَمِیْعًا",
           "ur": "سب کے سب کو",
-          "en": "all"
+          "en": "all",
+          "arTajweed": "جَمِيع<span class=\"tj-ikhafa\">ًا</span>"
         },
         {
           "ar": "فَیَحْلِفُوْنَ",
           "ur": "پھر وہ قسمیں کھائیں گے",
-          "en": "then they will swear"
+          "en": "then they will swear",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>يَحْلِفُونَ"
         },
         {
           "ar": "لَهٗ",
           "ur": "اس کے لیے",
-          "en": "to Him"
+          "en": "to Him",
+          "arTajweed": "لَهُ<span class=\"tj-madda-normal\">ۥ</span>"
         },
         {
           "ar": "كَمَا",
           "ur": "جیسا کہ",
-          "en": "as"
+          "en": "as",
+          "arTajweed": "كَمَا"
         },
         {
           "ar": "یَحْلِفُوْنَ",
           "ur": "وہ قسمیں کھاتے ہیں",
-          "en": "they swear"
+          "en": "they swear",
+          "arTajweed": "يَحْلِفُونَ"
         },
         {
           "ar": "لَكُمْ",
           "ur": "تمہارے لیے",
-          "en": "to you"
+          "en": "to you",
+          "arTajweed": "لَكُمْ"
         },
         {
           "ar": "وَیَحْسَبُوْنَ",
           "ur": "اور وہ سمجھتے ہیں",
-          "en": "And they think"
+          "en": "And they think",
+          "arTajweed": "وَيَحْسَبُونَ"
         },
         {
           "ar": "اَنَّهُمْ",
           "ur": "بیشک وہ",
-          "en": "that they"
+          "en": "that they",
+          "arTajweed": "أَ<span class=\"tj-ghunnah\">نَّ</span>هُمْ"
         },
         {
           "ar": "عَلٰی",
           "ur": "اوپر",
-          "en": "(are) on"
+          "en": "(are) on",
+          "arTajweed": "عَلَىٰ"
         },
         {
           "ar": "شَیْءٍ ؕ",
           "ur": "ایک چیز کے ہیں",
-          "en": "something"
+          "en": "something",
+          "arTajweed": "شَىْءٍ"
         },
         {
           "ar": "اَلَاۤ",
           "ur": "خبردار",
-          "en": "No doubt"
+          "en": "No doubt",
+          "arTajweed": "أَلَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اِنَّهُمْ",
           "ur": "بیشک وہ",
-          "en": "Indeed, they"
+          "en": "Indeed, they",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُمْ"
         },
         {
           "ar": "هُمُ",
           "ur": "وہی",
-          "en": "[they]"
+          "en": "[they]",
+          "arTajweed": "هُمُ"
         },
         {
           "ar": "الْكٰذِبُوْنَ",
           "ur": "جھوٹے ہیں",
-          "en": "(are) the liars"
+          "en": "(are) the liars",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْكَ<span class=\"tj-madda-normal\">ٰ</span>ذِبُ<span class=\"tj-madda-permissible\">و</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "يَوْمَ يَ<span class=\"tj-qalaqah\">بْ</span>عَثُهُمُ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ جَمِيع<span class=\"tj-ikhafa\">ًا فَ</span>يَحْلِفُونَ لَهُ<span class=\"tj-madda-normal\">ۥ</span> كَمَا يَحْلِفُونَ لَكُمْ وَيَحْسَبُونَ أَ<span class=\"tj-ghunnah\">نَّ</span>هُمْ عَلَىٰ شَىْءٍ أَلَ<span class=\"tj-madda-permissible\">آ</span> إِ<span class=\"tj-ghunnah\">نَّ</span>هُمْ هُمُ <span class=\"tj-ham-wasl\">ٱ</span>لْكَ<span class=\"tj-madda-normal\">ٰ</span>ذِبُ<span class=\"tj-madda-permissible\">و</span>نَ"
     },
     {
       "number": 19,
@@ -2139,79 +2546,95 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اِسْتَحْوَذَ",
           "ur": "غالب آگیا۔ گھیر لیا۔ احاطہ کرلیا",
-          "en": "Has overcome"
+          "en": "Has overcome",
+          "arTajweed": "ٱسْتَحْوَذَ"
         },
         {
           "ar": "عَلَیْهِمُ",
           "ur": "ان پر",
-          "en": "them"
+          "en": "them",
+          "arTajweed": "عَلَيْهِمُ"
         },
         {
           "ar": "الشَّیْطٰنُ",
           "ur": "شیطان نے",
-          "en": "the Shaitaan"
+          "en": "the Shaitaan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نُ"
         },
         {
           "ar": "فَاَنْسٰىهُمْ",
           "ur": "تو اس نے بھلا دیا ان کو",
-          "en": "so he made them forget"
+          "en": "so he made them forget",
+          "arTajweed": "فَأَ<span class=\"tj-ikhafa\">نسَ</span>ى<span class=\"tj-madda-normal\">ٰ</span>هُمْ"
         },
         {
           "ar": "ذِكْرَ",
           "ur": "ذکر",
-          "en": "(the) remembrance"
+          "en": "(the) remembrance",
+          "arTajweed": "ذِكْرَ"
         },
         {
           "ar": "اللّٰهِ ؕ",
           "ur": "اللہ کا",
-          "en": "(of) Allah"
+          "en": "(of) Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "اُولٰٓىِٕكَ",
           "ur": "یہی لوگ",
-          "en": "Those"
+          "en": "Those",
+          "arTajweed": "أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ"
         },
         {
           "ar": "حِزْبُ",
           "ur": "گروہ ہیں",
-          "en": "(are the) party"
+          "en": "(are the) party",
+          "arTajweed": "حِزْبُ"
         },
         {
           "ar": "الشَّیْطٰنِ ؕ",
           "ur": "شیطان کا",
-          "en": "(of) the Shaitaan"
+          "en": "(of) the Shaitaan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نِ"
         },
         {
           "ar": "اَلَاۤ",
           "ur": "خبردار",
-          "en": "No doubt"
+          "en": "No doubt",
+          "arTajweed": "أَلَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اِنَّ",
           "ur": "بیشک",
-          "en": "Indeed"
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "حِزْبَ",
           "ur": "گروہ",
-          "en": "(the) party"
+          "en": "(the) party",
+          "arTajweed": "حِزْبَ"
         },
         {
           "ar": "الشَّیْطٰنِ",
           "ur": "شیطان کا",
-          "en": "(of) the Shaitaan"
+          "en": "(of) the Shaitaan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نِ"
         },
         {
           "ar": "هُمُ",
           "ur": "وہ",
-          "en": "they"
+          "en": "they",
+          "arTajweed": "هُمُ"
         },
         {
           "ar": "الْخٰسِرُوْنَ",
           "ur": "خسارہ پانے والے ہیں",
-          "en": "(will be) the losers"
+          "en": "(will be) the losers",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْخَ<span class=\"tj-madda-normal\">ٰ</span>سِرُ<span class=\"tj-madda-permissible\">و</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "ٱسْتَحْوَذَ عَلَيْهِمُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نُ فَأَ<span class=\"tj-ikhafa\">نسَ</span>ى<span class=\"tj-madda-normal\">ٰ</span>هُمْ ذِكْرَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ حِزْبُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نِ أَلَ<span class=\"tj-madda-permissible\">آ</span> إِ<span class=\"tj-ghunnah\">نَّ</span> حِزْبَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نِ هُمُ <span class=\"tj-ham-wasl\">ٱ</span>لْخَ<span class=\"tj-madda-normal\">ٰ</span>سِرُ<span class=\"tj-madda-permissible\">و</span>نَ"
     },
     {
       "number": 20,
@@ -2224,44 +2647,53 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اِنَّ",
           "ur": "بیشک",
-          "en": "Indeed"
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "الَّذِیْنَ",
           "ur": "وہ لوگ",
-          "en": "those who"
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
         },
         {
           "ar": "یُحَآدُّوْنَ",
           "ur": "جو مقابلہ کرتے ہیں",
-          "en": "oppose"
+          "en": "oppose",
+          "arTajweed": "يُحَ<span class=\"tj-madda-necessary\">آ</span>دُّونَ"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ کا",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "وَرَسُوْلَهٗۤ",
           "ur": "اور اس کے رسول کا",
-          "en": "and His Messenger"
+          "en": "and His Messenger",
+          "arTajweed": "وَرَسُولَهُ<span class=\"tj-madda-permissible\">ۥٓ</span>"
         },
         {
           "ar": "اُولٰٓىِٕكَ",
           "ur": "یہی لوگ",
-          "en": "those"
+          "en": "those",
+          "arTajweed": "أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ"
         },
         {
           "ar": "فِی",
           "ur": "میں",
-          "en": "(will be) among"
+          "en": "(will be) among",
+          "arTajweed": "فِى"
         },
         {
           "ar": "الْاَذَلِّیْنَ",
           "ur": "سب سے ذلیل ترین (مخلوق) میں سے ہیں",
-          "en": "the most humiliated"
+          "en": "the most humiliated",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَذَلِّ<span class=\"tj-madda-permissible\">ي</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ يُحَ<span class=\"tj-madda-necessary\">آ</span>دُّونَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ وَرَسُولَهُ<span class=\"tj-madda-permissible\">ۥٓ</span> أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْأَذَلِّ<span class=\"tj-madda-permissible\">ي</span>نَ"
     },
     {
       "number": 21,
@@ -2274,49 +2706,59 @@ window.BASEERAH_SURAH = {
         {
           "ar": "كَتَبَ",
           "ur": "لکھ دیا",
-          "en": "Allah has decreed"
+          "en": "Allah has decreed",
+          "arTajweed": "كَتَبَ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ نے",
-          "en": "Allah has decreed"
+          "en": "Allah has decreed",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "لَاَغْلِبَنَّ",
           "ur": "البتہ میں ضرور غالب آؤں گا",
-          "en": "Surely, I will overcome"
+          "en": "Surely, I will overcome",
+          "arTajweed": "لَأَغْلِبَ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "اَنَا",
           "ur": "میں",
-          "en": "I"
+          "en": "I",
+          "arTajweed": "أَنَا۠"
         },
         {
           "ar": "وَرُسُلِیْ ؕ",
           "ur": "اور میرے رسول",
-          "en": "and My Messengers"
+          "en": "and My Messengers",
+          "arTajweed": "وَرُسُلِ<span class=\"tj-madda-permissible\">ىٓ</span>"
         },
         {
           "ar": "اِنَّ",
           "ur": "بیشک",
-          "en": "Indeed"
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ تعالیٰ",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "قَوِیٌّ",
           "ur": "قوت والا",
-          "en": "(is) All-Strong"
+          "en": "(is) All-Strong",
+          "arTajweed": "قَوِىٌّ"
         },
         {
           "ar": "عَزِیْزٌ",
           "ur": "زبردست ہے",
-          "en": "All-Mighty"
+          "en": "All-Mighty",
+          "arTajweed": "عَزِ<span class=\"tj-madda-permissible\">ي</span>زٌ"
         }
-      ]
+      ],
+      "arTajweed": "كَتَبَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ لَأَغْلِبَ<span class=\"tj-ghunnah\">نَّ</span> أَنَا۠ وَرُسُلِ<span class=\"tj-madda-permissible\">ىٓ</span> إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ قَوِىٌّ عَزِ<span class=\"tj-madda-permissible\">ي</span>زٌ"
     },
     {
       "number": 22,
@@ -2329,259 +2771,311 @@ window.BASEERAH_SURAH = {
         {
           "ar": "لَا",
           "ur": "نہ",
-          "en": "You will not find"
+          "en": "You will not find",
+          "arTajweed": "لَّا"
         },
         {
           "ar": "تَجِدُ",
           "ur": "تم پاؤ گے",
-          "en": "You will not find"
+          "en": "You will not find",
+          "arTajweed": "تَجِدُ"
         },
         {
           "ar": "قَوْمًا",
           "ur": "ایک قوم کو",
-          "en": "a people"
+          "en": "a people",
+          "arTajweed": "قَوْم<span class=\"tj-idgham-ghunnah\">ًا</span>"
         },
         {
           "ar": "یُّؤْمِنُوْنَ",
           "ur": "جو ایمان رکھتی ہو",
-          "en": "who believe"
+          "en": "who believe",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يُ</span>ؤْمِنُونَ"
         },
         {
           "ar": "بِاللّٰهِ",
           "ur": "اللہ پر",
-          "en": "in Allah"
+          "en": "in Allah",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "وَالْیَوْمِ",
           "ur": "اور یوم",
-          "en": "and the Day"
+          "en": "and the Day",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْيَوْمِ"
         },
         {
           "ar": "الْاٰخِرِ",
           "ur": "آخرت پر",
-          "en": "the Last"
+          "en": "the Last",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرِ"
         },
         {
           "ar": "یُوَآدُّوْنَ",
           "ur": "وہ محبت رکھتے ہوں",
-          "en": "loving"
+          "en": "loving",
+          "arTajweed": "يُوَ<span class=\"tj-madda-necessary\">آ</span>دُّونَ"
         },
         {
           "ar": "مَنْ",
           "ur": "اس سےجس نے",
-          "en": "(those) who"
+          "en": "(those) who",
+          "arTajweed": "مَنْ"
         },
         {
           "ar": "حَآدَّ",
           "ur": "مخالفت کی",
-          "en": "oppose"
+          "en": "oppose",
+          "arTajweed": "حَ<span class=\"tj-madda-necessary\">آ</span>دَّ"
         },
         {
           "ar": "اللّٰهَ",
           "ur": "اللہ کی",
-          "en": "Allah"
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
         },
         {
           "ar": "وَرَسُوْلَهٗ",
           "ur": "اور اس کے رسول کی",
-          "en": "and His Messenger"
+          "en": "and His Messenger",
+          "arTajweed": "وَرَسُولَهُ<span class=\"tj-madda-normal\">ۥ</span>"
         },
         {
           "ar": "وَلَوْ",
           "ur": "اور اگرچہ",
-          "en": "even if"
+          "en": "even if",
+          "arTajweed": "وَلَوْ"
         },
         {
           "ar": "كَانُوْۤا",
           "ur": "ہوں وہ",
-          "en": "they were"
+          "en": "they were",
+          "arTajweed": "كَانُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "اٰبَآءَهُمْ",
           "ur": "ان کے آباؤ اجداد",
-          "en": "their fathers"
+          "en": "their fathers",
+          "arTajweed": "ءَابَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُمْ"
         },
         {
           "ar": "اَوْ",
           "ur": "یا",
-          "en": "or"
+          "en": "or",
+          "arTajweed": "أَوْ"
         },
         {
           "ar": "اَبْنَآءَهُمْ",
           "ur": "ان کے بیٹے",
-          "en": "their sons"
+          "en": "their sons",
+          "arTajweed": "أَ<span class=\"tj-qalaqah\">بْ</span>نَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُمْ"
         },
         {
           "ar": "اَوْ",
           "ur": "یا",
-          "en": "or"
+          "en": "or",
+          "arTajweed": "أَوْ"
         },
         {
           "ar": "اِخْوَانَهُمْ",
           "ur": "ان کے بھائی",
-          "en": "their brothers"
+          "en": "their brothers",
+          "arTajweed": "إِخْوَ<span class=\"tj-madda-normal\">ٰ</span>نَهُمْ"
         },
         {
           "ar": "اَوْ",
           "ur": "یا",
-          "en": "or"
+          "en": "or",
+          "arTajweed": "أَوْ"
         },
         {
           "ar": "عَشِیْرَتَهُمْ ؕ",
           "ur": "ان کے اہل خاندان",
-          "en": "their kindred"
+          "en": "their kindred",
+          "arTajweed": "عَشِيرَتَهُمْ"
         },
         {
           "ar": "اُولٰٓىِٕكَ",
           "ur": "یہی لوگ",
-          "en": "Those"
+          "en": "Those",
+          "arTajweed": "أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ"
         },
         {
           "ar": "كَتَبَ",
           "ur": "اس نے واضح کردیا۔ لکھ دیا",
-          "en": "He has decreed"
+          "en": "He has decreed",
+          "arTajweed": "كَتَبَ"
         },
         {
           "ar": "فِیْ",
           "ur": "میں",
-          "en": "within"
+          "en": "within",
+          "arTajweed": "فِى"
         },
         {
           "ar": "قُلُوْبِهِمُ",
           "ur": "ان کے دلوں (میں )",
-          "en": "their hearts"
+          "en": "their hearts",
+          "arTajweed": "قُلُوبِهِمُ"
         },
         {
           "ar": "الْاِیْمَانَ",
           "ur": "ایمان",
-          "en": "faith"
+          "en": "faith",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِيمَ<span class=\"tj-madda-normal\">ٰ</span>نَ"
         },
         {
           "ar": "وَاَیَّدَهُمْ",
           "ur": "اور تائید کی ان کی",
-          "en": "and supported them"
+          "en": "and supported them",
+          "arTajweed": "وَأَيَّدَهُ<span class=\"tj-ikhafa-shafawi\">م</span>"
         },
         {
           "ar": "بِرُوْحٍ",
           "ur": "ساتھ ایک روح کے",
-          "en": "with a spirit"
+          "en": "with a spirit",
+          "arTajweed": "<span class=\"tj-ikhafa-shafawi\">بِ</span>رُوح<span class=\"tj-idgham-ghunnah\">ٍ</span>"
         },
         {
           "ar": "مِّنْهُ ؕ",
           "ur": "اس سے",
-          "en": "from Him"
+          "en": "from Him",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span>نْهُ"
         },
         {
           "ar": "وَیُدْخِلُهُمْ",
           "ur": "اور وہ داخل کرے گا ان کو",
-          "en": "And He will admit them"
+          "en": "And He will admit them",
+          "arTajweed": "وَيُ<span class=\"tj-qalaqah\">دْ</span>خِلُهُمْ"
         },
         {
           "ar": "جَنّٰتٍ",
           "ur": "باغوں میں",
-          "en": "(to) Gardens"
+          "en": "(to) Gardens",
+          "arTajweed": "جَ<span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-ikhafa\">ٍ</span>"
         },
         {
           "ar": "تَجْرِیْ",
           "ur": "بہتی ہیں",
-          "en": "flow"
+          "en": "flow",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span><span class=\"tj-qalaqah\">جْ</span>رِى"
         },
         {
           "ar": "مِنْ",
           "ur": "سے",
-          "en": "from"
+          "en": "from",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
         },
         {
           "ar": "تَحْتِهَا",
           "ur": "ان کے نیچے (سے)",
-          "en": "underneath it"
+          "en": "underneath it",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span>حْتِهَا"
         },
         {
           "ar": "الْاَنْهٰرُ",
           "ur": "نہریں",
-          "en": "the rivers"
+          "en": "the rivers",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَنْهَ<span class=\"tj-madda-normal\">ٰ</span>رُ"
         },
         {
           "ar": "خٰلِدِیْنَ",
           "ur": "ہمیشہ رہنے والے ہیں",
-          "en": "will abide forever"
+          "en": "will abide forever",
+          "arTajweed": "خَ<span class=\"tj-madda-normal\">ٰ</span>لِدِينَ"
         },
         {
           "ar": "فِیْهَا ؕ",
           "ur": "ان میں",
-          "en": "in it"
+          "en": "in it",
+          "arTajweed": "فِيهَا"
         },
         {
           "ar": "رَضِیَ",
           "ur": "راضی ہوگیا",
-          "en": "Allah is pleased"
+          "en": "Allah is pleased",
+          "arTajweed": "رَضِىَ"
         },
         {
           "ar": "اللّٰهُ",
           "ur": "اللہ",
-          "en": "Allah is pleased"
+          "en": "Allah is pleased",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
         },
         {
           "ar": "عَنْهُمْ",
           "ur": "ان سے",
-          "en": "with them"
+          "en": "with them",
+          "arTajweed": "عَنْهُمْ"
         },
         {
           "ar": "وَرَضُوْا",
           "ur": "اور وہ راضی ہوگئے",
-          "en": "and they are pleased"
+          "en": "and they are pleased",
+          "arTajweed": "وَرَضُو<span class=\"tj-slnt\">ا۟</span>"
         },
         {
           "ar": "عَنْهُ ؕ",
           "ur": "اس سے",
-          "en": "with Him"
+          "en": "with Him",
+          "arTajweed": "عَنْهُ"
         },
         {
           "ar": "اُولٰٓىِٕكَ",
           "ur": "یہی لوگ",
-          "en": "Those"
+          "en": "Those",
+          "arTajweed": "أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ"
         },
         {
           "ar": "حِزْبُ",
           "ur": "گروہ ہیں",
-          "en": "(are the) party"
+          "en": "(are the) party",
+          "arTajweed": "حِزْبُ"
         },
         {
           "ar": "اللّٰهِ ؕ",
           "ur": "اللہ کا",
-          "en": "(of) Allah"
+          "en": "(of) Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "اَلَاۤ",
           "ur": "سنو",
-          "en": "No doubt"
+          "en": "No doubt",
+          "arTajweed": "أَلَ<span class=\"tj-madda-permissible\">آ</span>"
         },
         {
           "ar": "اِنَّ",
           "ur": "بیشک",
-          "en": "Indeed"
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
         },
         {
           "ar": "حِزْبَ",
           "ur": "گروہ",
-          "en": "(the) party"
+          "en": "(the) party",
+          "arTajweed": "حِزْبَ"
         },
         {
           "ar": "اللّٰهِ",
           "ur": "اللہ کا",
-          "en": "(of) Allah"
+          "en": "(of) Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
         },
         {
           "ar": "هُمُ",
           "ur": "وہی ہیں",
-          "en": "they"
+          "en": "they",
+          "arTajweed": "هُمُ"
         },
         {
           "ar": "الْمُفْلِحُوْنَ",
           "ur": "جو فلاح پانے والے ہیں",
-          "en": "(are) the successful ones"
+          "en": "(are) the successful ones",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُفْلِحُ<span class=\"tj-madda-permissible\">و</span>نَ"
         }
-      ]
+      ],
+      "arTajweed": "لَّا تَجِدُ قَوْم<span class=\"tj-idgham-ghunnah\">ًا يُ</span>ؤْمِنُونَ بِ<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْيَوْمِ <span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرِ يُوَ<span class=\"tj-madda-necessary\">آ</span>دُّونَ مَنْ حَ<span class=\"tj-madda-necessary\">آ</span>دَّ <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ وَرَسُولَهُ<span class=\"tj-madda-normal\">ۥ</span> وَلَوْ كَانُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> ءَابَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُمْ أَوْ أَ<span class=\"tj-qalaqah\">بْ</span>نَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُمْ أَوْ إِخْوَ<span class=\"tj-madda-normal\">ٰ</span>نَهُمْ أَوْ عَشِيرَتَهُمْ أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ كَتَبَ فِى قُلُوبِهِمُ <span class=\"tj-ham-wasl\">ٱ</span>لْإِيمَ<span class=\"tj-madda-normal\">ٰ</span>نَ وَأَيَّدَهُ<span class=\"tj-ikhafa-shafawi\">م بِ</span>رُوح<span class=\"tj-idgham-ghunnah\">ٍ مِّ</span>نْهُ وَيُ<span class=\"tj-qalaqah\">دْ</span>خِلُهُمْ جَ<span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-ikhafa\">ٍ تَ</span><span class=\"tj-qalaqah\">جْ</span>رِى مِ<span class=\"tj-ikhafa\">ن تَ</span>حْتِهَا <span class=\"tj-ham-wasl\">ٱ</span>لْأَنْهَ<span class=\"tj-madda-normal\">ٰ</span>رُ خَ<span class=\"tj-madda-normal\">ٰ</span>لِدِينَ فِيهَا رَضِىَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ عَنْهُمْ وَرَضُو<span class=\"tj-slnt\">ا۟</span> عَنْهُ أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ حِزْبُ <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ أَلَ<span class=\"tj-madda-permissible\">آ</span> إِ<span class=\"tj-ghunnah\">نَّ</span> حِزْبَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ هُمُ <span class=\"tj-ham-wasl\">ٱ</span>لْمُفْلِحُ<span class=\"tj-madda-permissible\">و</span>نَ"
     }
   ]
 };

@@ -14,9 +14,11 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَالضُّحٰی",
           "ur": "قسم ہے روز روشن کی",
-          "en": "By the morning brightness"
+          "en": "By the morning brightness",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ضُّحَىٰ"
         }
-      ]
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ضُّحَىٰ"
     },
     {
       "number": 2,
@@ -29,19 +31,23 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَالَّیْلِ",
           "ur": "اور رات کی",
-          "en": "And the night"
+          "en": "And the night",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لَّيْلِ"
         },
         {
           "ar": "اِذَا",
           "ur": "جب",
-          "en": "when"
+          "en": "when",
+          "arTajweed": "إِذَا"
         },
         {
           "ar": "سَجٰی",
           "ur": "وہ ڈھانپ لے",
-          "en": "it covers with darkness"
+          "en": "it covers with darkness",
+          "arTajweed": "سَجَىٰ"
         }
-      ]
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لَّيْلِ إِذَا سَجَىٰ"
     },
     {
       "number": 3,
@@ -54,29 +60,35 @@ window.BASEERAH_SURAH = {
         {
           "ar": "مَا",
           "ur": "نہیں",
-          "en": "Not"
+          "en": "Not",
+          "arTajweed": "مَا"
         },
         {
           "ar": "وَدَّعَكَ",
           "ur": "چھوڑا تجھ کو",
-          "en": "has forsaken you"
+          "en": "has forsaken you",
+          "arTajweed": "وَدَّعَكَ"
         },
         {
           "ar": "رَبُّكَ",
           "ur": "تیرے رب نے",
-          "en": "your Lord"
+          "en": "your Lord",
+          "arTajweed": "رَبُّكَ"
         },
         {
           "ar": "وَمَا",
           "ur": "اور نہ",
-          "en": "and not"
+          "en": "and not",
+          "arTajweed": "وَمَا"
         },
         {
           "ar": "قَلٰی",
           "ur": "وہ ناراض ہوا",
-          "en": "He is displeased"
+          "en": "He is displeased",
+          "arTajweed": "قَلَىٰ"
         }
-      ]
+      ],
+      "arTajweed": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ"
     },
     {
       "number": 4,
@@ -89,29 +101,35 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَلَلْاٰخِرَةُ",
           "ur": "اور البتہ آخرت/ انجام",
-          "en": "And surely the Hereafter"
+          "en": "And surely the Hereafter",
+          "arTajweed": "وَلَلْءَاخِرَةُ"
         },
         {
           "ar": "خَیْرٌ",
           "ur": "بہتر ہے",
-          "en": "(is) better"
+          "en": "(is) better",
+          "arTajweed": "خَيْر<span class=\"tj-idgham-wo-ghunnah\">ٌ</span>"
         },
         {
           "ar": "لَّكَ",
           "ur": "تیرے لئے",
-          "en": "for you"
+          "en": "for you",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>كَ"
         },
         {
           "ar": "مِنَ",
           "ur": "سے",
-          "en": "than"
+          "en": "than",
+          "arTajweed": "مِنَ"
         },
         {
           "ar": "الْاُوْلٰی",
           "ur": "آغاز سے/ ابتداء سے",
-          "en": "the first"
+          "en": "the first",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأُولَىٰ"
         }
-      ]
+      ],
+      "arTajweed": "وَلَلْءَاخِرَةُ خَيْر<span class=\"tj-idgham-wo-ghunnah\">ٌ لَّ</span>كَ مِنَ <span class=\"tj-ham-wasl\">ٱ</span>لْأُولَىٰ"
     },
     {
       "number": 5,
@@ -124,24 +142,29 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَلَسَوْفَ",
           "ur": "اور البتہ عنقریب",
-          "en": "And soon"
+          "en": "And soon",
+          "arTajweed": "وَلَسَوْفَ"
         },
         {
           "ar": "یُعْطِیْكَ",
           "ur": "عطا کرے گا تجھ کو",
-          "en": "will give you"
+          "en": "will give you",
+          "arTajweed": "يُعْطِيكَ"
         },
         {
           "ar": "رَبُّكَ",
           "ur": "تیرا رب",
-          "en": "your Lord"
+          "en": "your Lord",
+          "arTajweed": "رَبُّكَ"
         },
         {
           "ar": "فَتَرْضٰی",
           "ur": "تو تو راضی ہوجائے گا/ خوش ہوجائے گا",
-          "en": "then you will be satisfied"
+          "en": "then you will be satisfied",
+          "arTajweed": "فَتَرْضَىٰٓ"
         }
-      ]
+      ],
+      "arTajweed": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ"
     },
     {
       "number": 6,
@@ -154,24 +177,29 @@ window.BASEERAH_SURAH = {
         {
           "ar": "اَلَمْ",
           "ur": "کیا نہیں",
-          "en": "Did not"
+          "en": "Did not",
+          "arTajweed": "أَلَمْ"
         },
         {
           "ar": "یَجِدْكَ",
           "ur": "پایا تجھ کو",
-          "en": "He find you"
+          "en": "He find you",
+          "arTajweed": "يَجِ<span class=\"tj-qalaqah\">دْ</span>كَ"
         },
         {
           "ar": "یَتِیْمًا",
           "ur": "یتیم",
-          "en": "an orphan"
+          "en": "an orphan",
+          "arTajweed": "يَتِيم<span class=\"tj-ikhafa\">ًا</span>"
         },
         {
           "ar": "فَاٰوٰی",
           "ur": "پھر اس نے ٹھکانہ فراہم کیا",
-          "en": "and give shelter"
+          "en": "and give shelter",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>ـَٔاوَىٰ"
         }
-      ]
+      ],
+      "arTajweed": "أَلَمْ يَجِ<span class=\"tj-qalaqah\">دْ</span>كَ يَتِيم<span class=\"tj-ikhafa\">ًا فَ</span>ـَٔاوَىٰ"
     },
     {
       "number": 7,
@@ -184,19 +212,23 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَوَجَدَكَ",
           "ur": "اور پایا تجھ کو",
-          "en": "And He found you"
+          "en": "And He found you",
+          "arTajweed": "وَوَجَدَكَ"
         },
         {
           "ar": "ضَآلًّا",
           "ur": "راہ بھولا",
-          "en": "lost"
+          "en": "lost",
+          "arTajweed": "ضَ<span class=\"tj-madda-necessary\">آ</span>لّ<span class=\"tj-ikhafa\">ًا</span>"
         },
         {
           "ar": "فَهَدٰی",
           "ur": "تو اس نے ہدایت بخشی/ رہنمائی کی",
-          "en": "so He guided"
+          "en": "so He guided",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>هَدَىٰ"
         }
-      ]
+      ],
+      "arTajweed": "وَوَجَدَكَ ضَ<span class=\"tj-madda-necessary\">آ</span>لّ<span class=\"tj-ikhafa\">ًا فَ</span>هَدَىٰ"
     },
     {
       "number": 8,
@@ -209,19 +241,23 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَوَجَدَكَ",
           "ur": "اور پایا تجھ کو",
-          "en": "And He found you"
+          "en": "And He found you",
+          "arTajweed": "وَوَجَدَكَ"
         },
         {
           "ar": "عَآىِٕلًا",
           "ur": "مفلس",
-          "en": "in need"
+          "en": "in need",
+          "arTajweed": "عَ<span class=\"tj-madda-obligatory\">آ</span>ئِل<span class=\"tj-ikhafa\">ًا</span>"
         },
         {
           "ar": "فَاَغْنٰی",
           "ur": "تو اس نے غنی کردیا",
-          "en": "so He made self-sufficient"
+          "en": "so He made self-sufficient",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>أَغْنَىٰ"
         }
-      ]
+      ],
+      "arTajweed": "وَوَجَدَكَ عَ<span class=\"tj-madda-obligatory\">آ</span>ئِل<span class=\"tj-ikhafa\">ًا فَ</span>أَغْنَىٰ"
     },
     {
       "number": 9,
@@ -234,24 +270,29 @@ window.BASEERAH_SURAH = {
         {
           "ar": "فَاَمَّا",
           "ur": "تو رہا",
-          "en": "So as for"
+          "en": "So as for",
+          "arTajweed": "فَأَ<span class=\"tj-ghunnah\">مَّ</span>ا"
         },
         {
           "ar": "الْیَتِیْمَ",
           "ur": "یتیم",
-          "en": "the orphan"
+          "en": "the orphan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْيَتِيمَ"
         },
         {
           "ar": "فَلَا",
           "ur": "پس نہ",
-          "en": "then (do) not"
+          "en": "then (do) not",
+          "arTajweed": "فَلَا"
         },
         {
           "ar": "تَقْهَرْ",
           "ur": "سختی کر",
-          "en": "oppress"
+          "en": "oppress",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">قْ</span>هَرْ"
         }
-      ]
+      ],
+      "arTajweed": "فَأَ<span class=\"tj-ghunnah\">مَّ</span>ا <span class=\"tj-ham-wasl\">ٱ</span>لْيَتِيمَ فَلَا تَ<span class=\"tj-qalaqah\">قْ</span>هَرْ"
     },
     {
       "number": 10,
@@ -264,24 +305,29 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَاَمَّا",
           "ur": "اور رہا",
-          "en": "And as for"
+          "en": "And as for",
+          "arTajweed": "وَأَ<span class=\"tj-ghunnah\">مَّ</span>ا"
         },
         {
           "ar": "السَّآىِٕلَ",
           "ur": "سوالی",
-          "en": "one who asks"
+          "en": "one who asks",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّ<span class=\"tj-madda-obligatory\">آ</span>ئِلَ"
         },
         {
           "ar": "فَلَا",
           "ur": "پس نہ",
-          "en": "then (do) not"
+          "en": "then (do) not",
+          "arTajweed": "فَلَا"
         },
         {
           "ar": "تَنْهَرْ",
           "ur": "جھڑکو",
-          "en": "repel"
+          "en": "repel",
+          "arTajweed": "تَنْهَرْ"
         }
-      ]
+      ],
+      "arTajweed": "وَأَ<span class=\"tj-ghunnah\">مَّ</span>ا <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّ<span class=\"tj-madda-obligatory\">آ</span>ئِلَ فَلَا تَنْهَرْ"
     },
     {
       "number": 11,
@@ -294,24 +340,29 @@ window.BASEERAH_SURAH = {
         {
           "ar": "وَاَمَّا",
           "ur": "اور رہی",
-          "en": "But as for"
+          "en": "But as for",
+          "arTajweed": "وَأَ<span class=\"tj-ghunnah\">مَّ</span>ا"
         },
         {
           "ar": "بِنِعْمَةِ",
           "ur": "نعمت",
-          "en": "(the) Favor"
+          "en": "(the) Favor",
+          "arTajweed": "بِنِعْمَةِ"
         },
         {
           "ar": "رَبِّكَ",
           "ur": "اپنے رب کی",
-          "en": "(of) your Lord"
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكَ"
         },
         {
           "ar": "فَحَدِّثْ",
           "ur": "پس بیان کرو",
-          "en": "narrate"
+          "en": "narrate",
+          "arTajweed": "فَحَدِّثْ"
         }
-      ]
+      ],
+      "arTajweed": "وَأَ<span class=\"tj-ghunnah\">مَّ</span>ا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ"
     }
   ]
 };

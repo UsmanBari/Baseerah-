@@ -130,6 +130,7 @@ export async function renderQuranScreen(container, params = []) {
   const wordOffset = isPaged ? state.wbwPage * pageSize : 0;
   const isMorphActive = state.settings.showMorphology === true;
   const morphStyle = state.settings.morphologyStyle || "underline";
+  const isTajweedActive = state.settings.showTajweed === true;
 
   const wordsHtml = displayedWords.map((w, i) => {
     const idx = wordOffset + i;
@@ -137,10 +138,10 @@ export async function renderQuranScreen(container, params = []) {
     const loc = `${sNum}:${aNum}:${idx + 1}`;
     const morph = (window.BASEERAH_MORPHOLOGY && window.BASEERAH_MORPHOLOGY[loc]) || null;
 
-    let arHtml = renderArabicWordHtml(w.ar, morph, isMorphActive, morphStyle);
+    let arHtml = isTajweedActive ? (w.arTajweed || w.ar) : renderArabicWordHtml(w.ar, morph, isMorphActive, morphStyle);
     let legendHtml = "";
 
-    if (isMorphActive && morph && morph.segmented) {
+    if (isMorphActive && !isTajweedActive && morph && morph.segmented) {
       const legendText = isUr ? (morph.legend?.ur || morph.legend?.en) : (morph.legend?.en || morph.legend?.ur);
       if (legendText) {
         legendHtml = `<div class="wbw-morph-legend" dir="${isUr ? 'rtl' : 'ltr'}">${legendText}</div>`;
@@ -148,7 +149,7 @@ export async function renderQuranScreen(container, params = []) {
     }
 
     return `
-      <div class="wbw-interlinear-tile wbw-word-tile ${isSelected ? 'selected' : ''}" data-word-idx="${idx}" role="button" tabindex="0">
+      <div class="wbw-interlinear-tile wbw-word-tile ${isSelected ? 'selected' : ''} ${isTajweedActive ? 'tajweed-active' : ''}" data-word-idx="${idx}" role="button" tabindex="0">
         <span class="tile-ar" lang="ar" dir="rtl">${arHtml}</span>
         <div class="tile-gold-divider"></div>
         <span class="tile-ur" lang="ur" dir="rtl">${w.ur || "—"}</span>
@@ -230,7 +231,7 @@ export async function renderQuranScreen(container, params = []) {
   }
 
   container.innerHTML = `
-    <div class="screen active screen-quran-v2 meaning-${meaningMode}" dir="${isUr ? "rtl" : "ltr"}">
+    <div class="screen active screen-quran-v2 meaning-${meaningMode} ${isTajweedActive ? "tajweed-mode" : ""}" dir="${isUr ? "rtl" : "ltr"}">
       
       <!-- TOP ACTION BAR (Emerald + Star Pattern) -->
       <header class="quran-header-emerald">
@@ -287,6 +288,12 @@ export async function renderQuranScreen(container, params = []) {
             ` : ""}
           </div>
 
+          <!-- Tajweed Toggle Button -->
+          <button type="button" class="btn-tajweed-toggle ${isTajweedActive ? "active" : ""}" id="btn-toggle-tajweed" aria-pressed="${isTajweedActive}" aria-label="${t("tajweedToggle", state.lang)}">
+            <span>${t("tajweedToggle", state.lang)}</span>
+            <span class="tj-beta-tag">BETA</span>
+          </button>
+
           <!-- 5-Step Text Scaler [A− | A+] -->
           <div class="font-scaler-container" id="font-scaler-box"></div>
         </div>
@@ -302,11 +309,21 @@ export async function renderQuranScreen(container, params = []) {
         </div>
       </header>
 
-      ${isMorphActive ? `
+      ${isMorphActive && !isTajweedActive ? `
       <!-- Toolbar Morphology Legend Banner (Under toolbar when colours are active) -->
       <div class="morphology-toolbar-legend" id="morphology-toolbar-legend" role="note" aria-label="Morphology Legend">
         <span class="morph-legend-item prefix">${t("morphLegendPrefix", state.lang)}</span>
         <span class="morph-legend-item suffix">${t("morphLegendSuffix", state.lang)}</span>
+      </div>
+      ` : ""}
+
+      ${isTajweedActive ? `
+      <!-- Toolbar Tajweed Legend Banner -->
+      <div class="tajweed-toolbar-legend" id="tajweed-toolbar-legend" role="note" aria-label="Tajweed Legend">
+        <span class="tj-legend-item"><span class="tj-swatch madd"></span>${t("tajweedLegendMadd", state.lang)}</span>
+        <span class="tj-legend-item"><span class="tj-swatch ghunnah"></span>${t("tajweedLegendGhunnah", state.lang)}</span>
+        <span class="tj-legend-item"><span class="tj-swatch qalaqah"></span>${t("tajweedLegendQalqalah", state.lang)}</span>
+        <span class="tj-legend-item"><span class="tj-swatch silent"></span>${t("tajweedLegendSilent", state.lang)}</span>
       </div>
       ` : ""}
 
@@ -695,6 +712,16 @@ export async function renderQuranScreen(container, params = []) {
     });
   }
 
+  // Wire Tajweed Mode Toggle
+  const tajweedToggleBtn = container.querySelector("#btn-toggle-tajweed");
+  if (tajweedToggleBtn) {
+    tajweedToggleBtn.addEventListener("click", () => {
+      state.settings.showTajweed = !state.settings.showTajweed;
+      Storage.saveSettings(state.settings);
+      renderQuranScreen(container, [sNum, aNum]);
+    });
+  }
+
   container.querySelectorAll(".morph-style-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       const style = btn.getAttribute("data-morph-style");
@@ -784,6 +811,7 @@ export async function renderQuranScreen(container, params = []) {
 function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
   const showTranslation = state.mushafShowTranslation;
   const meaningMode = state.meaningDisplay; // "both" | "ur" | "en"
+  const isTajweedActive = state.settings.showTajweed === true;
 
   const cleanArabic = (rawAr) => {
     if (!rawAr) return "";
@@ -802,11 +830,12 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
     const urHtml = renderTransWithFootnotes(a.ur, "ur");
     const enHtml = renderTransWithFootnotes(a.en, "en");
     const medallion = UIComponents.getAyahMedallionSvg(a.number, 36);
+    const arText = isTajweedActive ? (a.arTajweed || cleanArabic(a.arFull)) : cleanArabic(a.arFull);
 
     return `
       <div class="mushaf-ayah-block mushaf-ayah-span" data-ayah-num="${a.number}" id="mushaf-ayah-${a.number}">
         <div class="mushaf-ayah-arabic-row" lang="ar" dir="rtl" role="button" tabindex="0" aria-label="${t("readingModeWbw", state.lang)}">
-          <span class="mushaf-ar-text">${cleanArabic(a.arFull)}</span>
+          <span class="mushaf-ar-text ${isTajweedActive ? "tajweed-active" : ""}">${arText}</span>
           <span class="mushaf-medallion-box"><button type="button" class="btn-mushaf-play" data-play-ayah="${a.number}" aria-label="Play Ayah ${a.number}">▶</button>${medallion}</span>
         </div>
         ${showTranslation ? `
@@ -839,7 +868,7 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
   ` : "";
 
   container.innerHTML = `
-    <div class="screen active screen-quran-v2 screen-mushaf-v2 meaning-${meaningMode}" dir="${isUr ? "rtl" : "ltr"}">
+    <div class="screen active screen-quran-v2 screen-mushaf-v2 meaning-${meaningMode} ${isTajweedActive ? "tajweed-mode" : ""}" dir="${isUr ? "rtl" : "ltr"}">
       <header class="quran-header-emerald">
         <div class="header-left-group">
           <button type="button" class="btn-header-back" data-nav="surahs" aria-label="${t("surahs", state.lang)}">
@@ -871,6 +900,12 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
             <button type="button" class="mode-pill-btn mode-btn active" data-mode="mushaf">${t("readingModeMushaf", state.lang)}</button>
           </div>
 
+          <!-- Tajweed Toggle Button -->
+          <button type="button" class="btn-tajweed-toggle ${isTajweedActive ? "active" : ""}" id="btn-toggle-mushaf-tajweed" aria-pressed="${isTajweedActive}" aria-label="${t("tajweedToggle", state.lang)}">
+            <span>${t("tajweedToggle", state.lang)}</span>
+            <span class="tj-beta-tag">BETA</span>
+          </button>
+
           <!-- Translation Toggle (Show translation on/off) -->
           <button type="button" class="mushaf-toggle-trans-btn ${showTranslation ? 'active' : ''}" id="btn-toggle-mushaf-trans" aria-pressed="${showTranslation}">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -894,6 +929,25 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
         </div>
 
         <!-- Mobile Header Actions (Play + Overflow Settings) -->
+        <div class="mobile-header-actions">
+          <button type="button" class="btn-mobile-audio-play" id="btn-mobile-audio-play" aria-label="${t("playAyah", state.lang)}">▶</button>
+          <button type="button" class="btn-quran-overflow" id="btn-quran-overflow" aria-label="${t("displaySettings", state.lang)}">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="1.5"/><circle cx="5" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      ${isTajweedActive ? `
+      <!-- Toolbar Tajweed Legend Banner -->
+      <div class="tajweed-toolbar-legend" id="tajweed-toolbar-legend" role="note" aria-label="Tajweed Legend">
+        <span class="tj-legend-item"><span class="tj-swatch madd"></span>${t("tajweedLegendMadd", state.lang)}</span>
+        <span class="tj-legend-item"><span class="tj-swatch ghunnah"></span>${t("tajweedLegendGhunnah", state.lang)}</span>
+        <span class="tj-legend-item"><span class="tj-swatch qalaqah"></span>${t("tajweedLegendQalqalah", state.lang)}</span>
+        <span class="tj-legend-item"><span class="tj-swatch silent"></span>${t("tajweedLegendSilent", state.lang)}</span>
+      </div>
+      ` : ""}
         <div class="mobile-header-actions">
           <button type="button" class="btn-mobile-audio-play" id="btn-mobile-audio-play" aria-label="${t("playAyah", state.lang)}">▶</button>
           <button type="button" class="btn-quran-overflow" id="btn-quran-overflow" aria-label="${t("displaySettings", state.lang)}">
@@ -951,6 +1005,16 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
   if (transToggleBtn) {
     transToggleBtn.addEventListener("click", () => {
       state.mushafShowTranslation = !state.mushafShowTranslation;
+      renderQuranScreen(container, [sNum, aNum]);
+    });
+  }
+
+  // Tajweed visibility toggle in Mushaf
+  const mushafTajweedBtn = container.querySelector("#btn-toggle-mushaf-tajweed");
+  if (mushafTajweedBtn) {
+    mushafTajweedBtn.addEventListener("click", () => {
+      state.settings.showTajweed = !state.settings.showTajweed;
+      Storage.saveSettings(state.settings);
       renderQuranScreen(container, [sNum, aNum]);
     });
   }

@@ -1,5 +1,5 @@
 /* Baseerah — Offline Service Worker (Kiosk PWA) */
-const CACHE_NAME = "baseerah-v1.0.0-c5d5b3b";
+const CACHE_NAME = "baseerah-v1.0.0-v3-tajweed";
 
 const PRECACHE_ASSETS = [
   "./",
@@ -11,6 +11,7 @@ const PRECACHE_ASSETS = [
   "./fonts/indopak-nastaleeq-qul.ttf",
   "./fonts/noto-naskh-arabic.ttf",
   "./fonts/noto-nastaliq-urdu.ttf",
+  "./fonts/amiri-quran.ttf",
   "./data/index.js",
   "./data/manifest.sha256.json",
   "./data/featured_ayahs.json",

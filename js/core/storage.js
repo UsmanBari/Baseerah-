@@ -18,7 +18,8 @@ const DEFAULT_SETTINGS = {
   readingMode: "wbw", // "wbw" | "mushaf"
   translationDisplay: "both", // "both" | "ur" | "en"
   showMorphology: false, // automatic morphology color coding spike
-  morphologyStyle: "underline" // "underline" (Style A) | "tint" (Style B)
+  morphologyStyle: "underline", // "underline" (Style A) | "tint" (Style B)
+  showTajweed: false // Tajweed colour-coding (Dar al-Maarifah standard, Uthmani script)
 };
 
 export const Storage = {
