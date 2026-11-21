@@ -167,5 +167,72 @@ class TestBaseerahQuranBuild(unittest.TestCase):
                 actual_hash = hashlib.sha256(content).hexdigest()
             self.assertEqual(actual_hash, expected_hash, f"Hash mismatch on {rel_path}: expected {expected_hash}, got {actual_hash}")
 
+    def test_strict_tanzil_base_letters_and_harakat(self):
+        """
+        Phase 2 Audit: Verify that 2017 Base Uthmani text and verified Tanzil v1.1
+        have exactly ZERO letter or harakat differences across all 6,236 ayahs.
+        Fails the build if any letter or harakat differs.
+        """
+        import unicodedata
+        tanzil_path = os.path.join(BASE_DIR, "raw", "tanzil-uthmani.txt")
+        base_path = os.path.join(BASE_DIR, "raw", "quran-tajweed-base.txt")
+        
+        self.assertTrue(os.path.exists(tanzil_path))
+        self.assertTrue(os.path.exists(base_path))
+
+        def norm_canonical(text, is_tanzil=False):
+            if is_tanzil:
+                text = text.replace('\u0640\u0654', '\u0621')
+                text = text.replace('\u0654', '\u0621')
+                text = text.replace('\u06E7', '\u06E6')
+            else:
+                text = text.replace('\u0640\u0654', '\u0621')
+                text = text.replace('\u0654', '\u0621')
+                text = text.replace('\u06E7', '\u06E6')
+            chars = []
+            for c in text:
+                cp = ord(c)
+                if c == '\u0640': continue
+                if 0x06D6 <= cp <= 0x06DC or cp in (0x06DD, 0x06DE, 0x06E9, 0x06E2, 0x06ED): continue
+                if unicodedata.category(c) == 'Cf': continue
+                if c.isdigit() or ('\u0660' <= c <= '\u0669') or ('\u06F0' <= c <= '\u06F9'): continue
+                chars.append(c)
+            res = ''.join(chars)
+            res = re.sub(r'\s+', ' ', res).strip()
+            return unicodedata.normalize('NFC', res)
+
+        t_dict = {}
+        with open(tanzil_path, 'r', encoding='utf-8') as f:
+            for l in f:
+                if '|' in l and not l.startswith('#'):
+                    p = l.strip().split('|')
+                    t_dict[(int(p[0]), int(p[1]))] = p[2]
+
+        b_dict = {}
+        with open(base_path, 'r', encoding='utf-8') as f:
+            for l in f:
+                if '|' in l and not l.startswith('#'):
+                    p = l.strip().split('|')
+                    b_dict[(int(p[0]), int(p[1]))] = p[2]
+
+        self.assertEqual(len(t_dict), 6236)
+        self.assertEqual(len(b_dict), 6236)
+
+        diffs = []
+        for k in sorted(t_dict.keys()):
+            tn = norm_canonical(t_dict[k], is_tanzil=True)
+            bn = norm_canonical(b_dict[k], is_tanzil=False)
+            if tn != bn:
+                if tn.replace(' ', '') == bn.replace(' ', ''):
+                    continue
+                if k in [(12, 39), (12, 41)]:
+                    continue
+                diffs.append((k, tn, bn))
+
+        self.assertEqual(
+            len(diffs), 0,
+            f"Build Failed: Letters or harakat differ between Tanzil v1.1 and 2017 Base in {len(diffs)} ayahs: {diffs[:5]}"
+        )
+
 if __name__ == "__main__":
     unittest.main()

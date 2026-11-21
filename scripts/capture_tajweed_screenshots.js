@@ -153,6 +153,8 @@ async function capture() {
   await page.goto(`http://localhost:${PORT}/review-tajweed.html`, { waitUntil: 'networkidle' });
   await take('review_tajweed_overview_1280x800.png');
   await take('review_tajweed_legend_zoom.png', '.legend-card');
+  await take('review_tajweed_qari_decision_zoom.png', '#qari-decision');
+  await take('review_tajweed_qari_words_zoom.png', '.qari-words-grid');
   await take('review_tajweed_ayah_1_7_zoom.png', '#ayah-1-7');
   await take('review_tajweed_ayah_2_255_zoom.png', '#ayah-2-255');
 
