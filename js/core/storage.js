@@ -23,7 +23,9 @@ export const Storage = {
     try {
       const raw = localStorage.getItem(STORAGE_KEYS.SETTINGS);
       if (!raw) return { ...DEFAULT_SETTINGS };
-      return { ...DEFAULT_SETTINGS, ...JSON.parse(raw) };
+      const parsed = JSON.parse(raw);
+      delete parsed.mushafShowTranslation;
+      return { ...DEFAULT_SETTINGS, ...parsed };
     } catch (e) {
       console.warn("Storage.getSettings failed, returning defaults:", e);
       return { ...DEFAULT_SETTINGS };

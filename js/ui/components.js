@@ -400,11 +400,11 @@ export const UIComponents = {
           <button type="button" class="btn-close" aria-label="${t("close", lang)}">✕</button>
         </div>
         <div class="bottom-sheet-content">
-          <div class="footnote-body ${isUr ? 'ur' : 'en'}" dir="${isUr ? 'rtl' : 'ltr'}">
-            <p class="footnote-text">${footnoteText || (isUr ? "کوئی اضافی تشریح موجود نہیں۔" : "No additional footnote text.")}</p>
+          <div class="footnote-body ${isUr ? 'ur' : 'en'}" lang="${isUr ? 'ur' : 'en'}" dir="${isUr ? 'rtl' : 'ltr'}">
+            <p class="footnote-text" lang="${isUr ? 'ur' : 'en'}" dir="${isUr ? 'rtl' : 'ltr'}">${footnoteText || (isUr ? "کوئی اضافی تشریح موجود نہیں۔" : "No additional footnote text.")}</p>
           </div>
           <div class="footnote-source-tag">
-            <span>${isUr ? "ماخذ: تفسیر و حواشی مجمع الملک فہد / QuranEnc" : "Source: King Fahd Complex / QuranEnc"}</span>
+            <span lang="${isUr ? 'ur' : 'en'}" dir="${isUr ? 'rtl' : 'ltr'}">${isUr ? "ماخذ: تفسیر و حواشی مجمع الملک فہد / QuranEnc" : "Source: King Fahd Complex / QuranEnc"}</span>
           </div>
         </div>
       </div>

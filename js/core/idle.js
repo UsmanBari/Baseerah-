@@ -24,6 +24,9 @@ export const Idle = {
       // If we are already on attract screen, do nothing
       if (router.getCurrentScreen() === "attract") return;
 
+      // Reset session preferences (mushaf translations default to ON)
+      state.resetSession();
+
       // Reset to home or attract screen
       router.navigate("attract");
     }, timeoutSeconds * 1000);

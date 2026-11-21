@@ -475,4 +475,93 @@ test.describe("Baseerah — Viewports & Live Stress Test Fixes", () => {
       }
     }
   });
+
+  test("Item 9: Translation fonts follow content language and WBW arrows direction in both UI languages", async ({ page }) => {
+    // Test in both UI languages
+    for (const uiLang of ["ur", "en"]) {
+      await page.goto("/index.html#home");
+      await page.evaluate(() => sessionStorage.clear());
+      await page.click(`.lang-btn[data-lang="${uiLang}"]`);
+      await page.goto("/index.html#quran/1/1");
+      await page.waitForSelector(".screen-quran-v2");
+      const isMushaf = await page.$(".mushaf-ayah-block");
+      if (isMushaf) {
+        await page.click(".mode-btn[data-mode='wbw']");
+        await page.waitForTimeout(200);
+      }
+      await page.waitForSelector(".wbw-interlinear-tile");
+
+      // Verify WBW translation cards font-family
+      const urTransFont = await page.evaluate(() => {
+        const el = document.querySelector(".trans-card-ur .trans-body-text");
+        return el ? window.getComputedStyle(el).fontFamily : "";
+      });
+      const enTransFont = await page.evaluate(() => {
+        const el = document.querySelector(".trans-card-en .trans-body-text");
+        return el ? window.getComputedStyle(el).fontFamily : "";
+      });
+
+      expect(urTransFont).toContain("Noto Nastaliq");
+      expect(enTransFont).toContain("Inter");
+
+      // Verify WBW arrow button positions and chevrons
+      const leftBtnBox = await page.locator(".nav-arrow-left").boundingBox();
+      const rightBtnBox = await page.locator(".nav-arrow-right").boundingBox();
+      expect(leftBtnBox).not.toBeNull();
+      expect(rightBtnBox).not.toBeNull();
+      if (leftBtnBox && rightBtnBox) {
+        expect(leftBtnBox.x).toBeLessThan(rightBtnBox.x);
+      }
+
+      if (uiLang === "ur") {
+        // In Urdu RTL: Left is Next (points left), Right is Prev (points right)
+        await expect(page.locator(".nav-arrow-left")).toHaveAttribute("id", "btn-next-ayah");
+        await expect(page.locator(".nav-arrow-right")).toHaveAttribute("id", "btn-prev-ayah");
+      } else {
+        // In English LTR: Left is Prev (points left), Right is Next (points right)
+        await expect(page.locator(".nav-arrow-left")).toHaveAttribute("id", "btn-prev-ayah");
+        await expect(page.locator(".nav-arrow-right")).toHaveAttribute("id", "btn-next-ayah");
+      }
+
+      // Check Mushaf mode
+      await page.click(".mode-btn[data-mode='mushaf']");
+      await page.waitForSelector(".mushaf-ayah-block");
+
+      // Verify Mushaf translation fonts
+      const mushafUrFont = await page.evaluate(() => {
+        const el = document.querySelector(".mushaf-trans-ur");
+        return el ? window.getComputedStyle(el).fontFamily : "";
+      });
+      const mushafEnFont = await page.evaluate(() => {
+        const el = document.querySelector(".mushaf-trans-en");
+        return el ? window.getComputedStyle(el).fontFamily : "";
+      });
+
+      expect(mushafUrFont).toContain("Noto Nastaliq");
+      expect(mushafEnFont).toContain("Inter");
+
+      // Verify Mushaf translation toggle button
+      const toggleBtn = page.locator("#btn-toggle-mushaf-trans");
+      await expect(toggleBtn).toBeVisible();
+      await expect(toggleBtn).toHaveClass(/active/);
+
+      // Verify label when active
+      const activeText = await toggleBtn.innerText();
+      if (uiLang === "ur") {
+        expect(activeText).toContain("چھپائیں");
+      } else {
+        expect(activeText).toContain("Hide");
+      }
+
+      // Click to toggle off
+      await toggleBtn.click();
+      await expect(toggleBtn).not.toHaveClass(/active/);
+      const inactiveText = await toggleBtn.innerText();
+      if (uiLang === "ur") {
+        expect(inactiveText).toContain("دکھائیں");
+      } else {
+        expect(inactiveText).toContain("Show");
+      }
+    }
+  });
 });

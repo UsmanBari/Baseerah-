@@ -115,10 +115,10 @@ export async function renderQuranScreen(container, params = []) {
     const isSelected = selectedWordIndex === idx;
     return `
       <div class="wbw-interlinear-tile wbw-word-tile ${isSelected ? 'selected' : ''}" data-word-idx="${idx}" role="button" tabindex="0">
-        <span class="tile-ar" lang="ar">${w.ar}</span>
+        <span class="tile-ar" lang="ar" dir="rtl">${w.ar}</span>
         <div class="tile-gold-divider"></div>
-        <span class="tile-ur" lang="ur">${w.ur || "—"}</span>
-        <span class="tile-en">${w.en || "—"}</span>
+        <span class="tile-ur" lang="ur" dir="rtl">${w.ur || "—"}</span>
+        <span class="tile-en" lang="en" dir="ltr">${w.en || "—"}</span>
       </div>
     `;
   }).join("");
@@ -251,19 +251,19 @@ export async function renderQuranScreen(container, params = []) {
         <!-- TWO SIDE-BY-SIDE FULL TRANSLATION CARDS -->
         <div class="translations-duo-grid">
           <!-- English Translation (Left, LTR) -->
-          <div class="trans-duo-card trans-card-en" dir="ltr">
+          <div class="trans-duo-card trans-card-en" lang="en" dir="ltr">
             <div class="trans-duo-header">
-              <span class="trans-translator-tag" dir="ltr">${t("translatorEnglish", state.lang)}</span>
+              <span class="trans-translator-tag translator-tag-en" lang="en" dir="ltr">${t("translatorEnglish", state.lang)}</span>
             </div>
-            <p class="trans-body-text" dir="ltr">${enHtml}</p>
+            <p class="trans-body-text trans-text-en" lang="en" dir="ltr">${enHtml}</p>
           </div>
 
           <!-- Urdu Translation (Right, RTL) -->
-          <div class="trans-duo-card trans-card-ur" dir="rtl">
+          <div class="trans-duo-card trans-card-ur" lang="ur" dir="rtl">
             <div class="trans-duo-header">
-              <span class="trans-translator-tag" lang="ur">${t("translatorUrdu", state.lang)}</span>
+              <span class="trans-translator-tag translator-tag-ur" lang="ur" dir="rtl">${t("translatorUrdu", state.lang)}</span>
             </div>
-            <p class="trans-body-text" lang="ur">${urHtml}</p>
+            <p class="trans-body-text trans-text-ur" lang="ur" dir="rtl">${urHtml}</p>
           </div>
         </div>
       </main>
@@ -391,12 +391,10 @@ export async function renderQuranScreen(container, params = []) {
         if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.4) {
           if (dx < 0) {
             // Swiped Left
-            if (isUr) navigateNext();
-            else navigatePrev();
+            navigateNext();
           } else {
             // Swiped Right
-            if (isUr) navigatePrev();
-            else navigateNext();
+            navigatePrev();
           }
         }
       }
@@ -534,7 +532,9 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
 
   const translatorBarHtml = showTranslation ? `
     <div class="mushaf-translator-bar">
-      <span class="mushaf-translator-tag">${t("translatorUrdu", state.lang)} · ${t("translatorEnglish", state.lang)}</span>
+      <span class="mushaf-translator-tag translator-tag-ur" lang="ur" dir="rtl">${t("translatorUrdu", state.lang)}</span>
+      <span class="mushaf-translator-sep"> · </span>
+      <span class="mushaf-translator-tag translator-tag-en" lang="en" dir="ltr">${t("translatorEnglish", state.lang)}</span>
     </div>
   ` : "";
 
@@ -563,11 +563,11 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
 
           <!-- Translation Toggle (Show translation on/off) -->
           <button type="button" class="mushaf-toggle-trans-btn ${showTranslation ? 'active' : ''}" id="btn-toggle-mushaf-trans" aria-pressed="${showTranslation}">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/>
               <circle cx="12" cy="12" r="3"/>
             </svg>
-            <span>${t("showTranslation", state.lang)}</span>
+            <span>${showTranslation ? t("hideTranslation", state.lang) : t("showTranslation", state.lang)}</span>
           </button>
 
           <!-- Meaning Toggle: [Both | اردو | English] (Visible when showTranslation is true) -->
@@ -697,6 +697,20 @@ function renderMushafView(container, surahData, sNum, aNum, totalAyahs, isUr) {
       });
     });
   }
+
+  // Scroll to current ayah on entering/switching to mushaf view
+  setTimeout(() => {
+    const viewport = container.querySelector(".mushaf-reading-viewport");
+    if (aNum === 1) {
+      if (viewport) viewport.scrollTop = 0;
+      else window.scrollTo(0, 0);
+    } else {
+      const targetAyahEl = container.querySelector(`#mushaf-ayah-${aNum}`);
+      if (targetAyahEl) {
+        targetAyahEl.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+  }, 60);
 }
 
 function showIntegrityError(container, sNum, verifyRes) {
@@ -708,8 +722,8 @@ function showIntegrityError(container, sNum, verifyRes) {
       <h2>${isUr ? "ڈیٹا کی حفاظت کا انتباہ!" : "Data Integrity Verification Failed!"}</h2>
       <p class="error-desc">
         ${isUr
-          ? `سورت نمبر <span class="urdu-num">${toUrduDigits(sNum)}</span> کی فائل کا ڈیجیٹل دستخط (SHA-256) تبدیل شدہ پایا گیا۔`
-          : `Surah ${sNum} cryptographic checksum mismatch against the signed manifest.`}
+      ? `سورت نمبر <span class="urdu-num">${toUrduDigits(sNum)}</span> کی فائل کا ڈیجیٹل دستخط (SHA-256) تبدیل شدہ پایا گیا۔`
+      : `Surah ${sNum} cryptographic checksum mismatch against the signed manifest.`}
       </p>
       <div class="error-details">
         <div><span>Expected:</span> <code>${verifyRes.expected || "N/A"}</code></div>

@@ -30,6 +30,7 @@ test.describe("Capture Premium Screenshots", () => {
 
       // === URDU UI ===
       await page.goto("/index.html#home");
+      await page.evaluate(() => sessionStorage.clear());
       await page.waitForSelector("#brand-logo");
       await page.click('.lang-btn[data-lang="ur"]');
       await page.waitForTimeout(300);

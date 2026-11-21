@@ -113,13 +113,24 @@ class AppState {
   }
 
   get mushafShowTranslation() {
-    return this.settings.mushafShowTranslation !== false; // on by default
+    try {
+      const sess = sessionStorage.getItem("baseerah_mushaf_show_trans");
+      if (sess !== null) return sess === "true";
+    } catch (e) {}
+    return true; // on by default
   }
 
   set mushafShowTranslation(val) {
-    this.settings.mushafShowTranslation = !!val;
-    Storage.saveSettings(this.settings);
+    try {
+      sessionStorage.setItem("baseerah_mushaf_show_trans", val ? "true" : "false");
+    } catch (e) {}
     this.notify();
+  }
+
+  resetSession() {
+    try {
+      sessionStorage.removeItem("baseerah_mushaf_show_trans");
+    } catch (e) {}
   }
 
   get translationDisplay() {
