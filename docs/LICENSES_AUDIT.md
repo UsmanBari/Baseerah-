@@ -1,9 +1,9 @@
 # Baseerah (بصيرة) — Commercial License & Content Asset Audit
 
-**Document Version:** 1.1.0  
-**Audit Date:** 2026-11-20  
+**Document Version:** 1.2.0  
+**Audit Date:** 2026-11-21  
 **Auditor:** Baseerah Engineering (Acme One)  
-**Verification Standard:** Verbatim quotes verified from live publisher endpoints on 2026-11-20. Any source that could not be verified or lacks explicit commercial terms is marked **UNKNOWN**.
+**Verification Standard:** Verbatim quotes verified from live publisher endpoints on 2026-11-20 and 2026-11-21. Any source that could not be verified or lacks explicit commercial terms is marked **UNKNOWN**.
 
 ---
 
@@ -24,6 +24,10 @@
 | **Mishary Rashid Alafasy Ayah Recitation** (`everyayah.com / verses.quran.com`) | Sheikh Mishary Rashid Alafasy / EveryAyah / Quran.com | Authentic human Murattal recitation audio streaming for verses. Freely distributed for Islamic study and non-commercial public listening. | **UNKNOWN** | **YES** | [everyayah.com/data/Alafasy_128kbps/](https://everyayah.com/data/Alafasy_128kbps/) & [quran.com](https://quran.com) (2026-11-21) | Commercial hardware bundling unverified. Permission inquiry drafted for client (`04_alafasy_recitation_permission.md`). |
 | **Quran.com Word-by-Word Audio** (`audio.qurancdn.com/wbw`) | Quran.com Project | Discrete human recitation syllables and pronunciations for individual Quranic words. | **UNKNOWN** | **YES** | [audio.qurancdn.com/wbw/](https://audio.qurancdn.com/wbw/) (2026-11-21) | Commercial kiosk bundling unverified. Covered under Quran.com API inquiry. |
 | **QUL Morphology Word Stem (Resource 77)** (`raw/qul-morphology-77.sqlite`) | Tarteel AI QUL (Quranic Universal Library) | QUL Morphology Resource 77: Word stems and lemmas. Dedicated commercial redistribution license page unconfirmed on QUL platform. | **UNKNOWN** | **YES** | [qul.tarteel.ai/resources/morphology/77](https://qul.tarteel.ai/resources/morphology/77) (2026-11-21) | Commercial bundling rights unverified. Marked UNKNOWN until confirmed. Note: corpus.quran.com explicitly rejected due to its non-commercial terms. Covered under Tarteel inquiry. |
+| **QUL QPC Hafs Script - With Tajweed (Resource 58 & 87)** | King Fahd Complex (KFGQPC) / Tarteel AI QUL | QUL License tab: *"We don’t have copyright information for this resource."* Uses King Fahd Complex glyph database / OpenType COLRv1. | **UNKNOWN** | **YES** | [qul.tarteel.ai/resources/quran-script/58](https://qul.tarteel.ai/resources/quran-script/58) (2026-11-21) | Commercial status unconfirmed. Font requires multi-page glyph system. |
+| **QUL V4 Glyphs With Tajweed (Resource 47)** | Quran Foundation / Tarteel AI QUL | QUL License tab: *"We don’t have copyright information for this resource."* 604 per-page PUA glyph fonts. | **UNKNOWN** | **YES** | [qul.tarteel.ai/resources/quran-script/47](https://qul.tarteel.ai/resources/quran-script/47) (2026-11-21) | Incompatible with Baseerah word-by-word offline kiosk architecture. |
+| **Quran.com API `text_uthmani_tajweed` / `cpfair/quran-tajweed`** | Quran Foundation & Chris Fair (cpfair) | Annotation data: Creative Commons Attribution 4.0 International (CC BY 4.0). Base text Tanzil CC BY 3.0. | **YES (with attribution, confirm API terms)** | **YES** | [api.quran.com](https://api.quran.com) & [github.com/cpfair/quran-tajweed](https://github.com/cpfair/quran-tajweed) (2026-11-21) | **RECOMMENDED SOURCE**. Requires commercial clarity notice to Quran Foundation (`05_qurancom_tajweed_permission.md`). |
+| **Indo-Pak Printed Tajweed Datasets (Taj Company, etc.)** | Taj Company Ltd, Tanzeem-e-Islami, Qudratullah | Proprietary printed lithographs / raster scans. No open digital tagged text exists. | **NO (Proprietary)** | **NO** | [tajcompany.com.pk](https://tajcompany.com.pk) (2026-11-21) | Not viable for text-based word-by-word digital kiosk. |
 
 ---
 
@@ -32,3 +36,5 @@
 1. **Font Permission (`01_quranwbw_font_permission.md`):** Permission requested by Usman Bari on 2026-11-20, awaiting reply.
 2. **QUL Script Data Permission (`02_tarteel_qul_commercial_permission.md`):** Submitted to Tarteel AI team.
 3. **QuranEnc Terms Notice (`03_quranenc_commercial_clarification.md`):** Submitted to QuranEnc management.
+4. **Recitation Audio Inquiry (`04_alafasy_recitation_permission.md`):** Drafted for Sheikh Mishary Rashid Alafasy / EveryAyah.
+5. **Quran.com Tajweed & WBW Audio Permission (`05_qurancom_tajweed_permission.md`):** Drafted for Quran Foundation / Quran.com leadership.
