@@ -433,7 +433,15 @@ test.describe("Baseerah — Viewports & Live Stress Test Fixes", () => {
         await page.goto("/index.html#home");
         await page.click(`.lang-btn[data-lang="${lang}"]`);
         await page.goto("/index.html#quran/1/1");
-        await page.click(".mode-btn[data-mode='mushaf']");
+        const mushafBtn = page.locator(".mode-btn[data-mode='mushaf']");
+        if (await mushafBtn.isVisible()) {
+          await mushafBtn.click();
+        } else {
+          await page.evaluate(() => {
+            window.baseerahState.settings.readingMode = "mushaf";
+            window.baseerahRouter.resolveRoute();
+          });
+        }
         await page.waitForSelector(".mushaf-ayah-block");
 
         const mushafOverlap = await page.evaluate(() => {

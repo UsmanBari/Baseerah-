@@ -43,7 +43,15 @@ test.describe("Capture Premium Screenshots", () => {
       await page.waitForSelector(".screen-quran-v2");
       const isMushafUr = await page.$(".mushaf-ayah-block");
       if (isMushafUr) {
-        await page.click(".mode-btn[data-mode='wbw']");
+        const wbwBtn = page.locator(".mode-btn[data-mode='wbw']");
+        if (await wbwBtn.isVisible()) {
+          await wbwBtn.click();
+        } else {
+          await page.evaluate(() => {
+            window.baseerahState.settings.readingMode = "wbw";
+            window.baseerahRouter.resolveRoute();
+          });
+        }
         await page.waitForTimeout(300);
       }
       await page.waitForSelector(".wbw-interlinear-tile");
@@ -51,7 +59,15 @@ test.describe("Capture Premium Screenshots", () => {
       await saveScreenshot(`quran_wbw_ur_${vp.name}.png`);
 
       // 3. Quran Mushaf Mode
-      await page.click(".mode-btn[data-mode='mushaf']");
+      const mushafUrBtn = page.locator(".mode-btn[data-mode='mushaf']");
+      if (await mushafUrBtn.isVisible()) {
+        await mushafUrBtn.click();
+      } else {
+        await page.evaluate(() => {
+          window.baseerahState.settings.readingMode = "mushaf";
+          window.baseerahRouter.resolveRoute();
+        });
+      }
       await page.waitForSelector(".mushaf-ayah-block");
       await page.waitForTimeout(300);
       await saveScreenshot(`quran_mushaf_ur_${vp.name}.png`);
@@ -82,7 +98,15 @@ test.describe("Capture Premium Screenshots", () => {
       await page.waitForSelector(".screen-quran-v2");
       const isMushafEn = await page.$(".mushaf-ayah-block");
       if (isMushafEn) {
-        await page.click(".mode-btn[data-mode='wbw']");
+        const wbwBtn = page.locator(".mode-btn[data-mode='wbw']");
+        if (await wbwBtn.isVisible()) {
+          await wbwBtn.click();
+        } else {
+          await page.evaluate(() => {
+            window.baseerahState.settings.readingMode = "wbw";
+            window.baseerahRouter.resolveRoute();
+          });
+        }
         await page.waitForTimeout(300);
       }
       await page.waitForSelector(".wbw-interlinear-tile");
@@ -90,7 +114,15 @@ test.describe("Capture Premium Screenshots", () => {
       await saveScreenshot(`quran_wbw_en_${vp.name}.png`);
 
       // 3. Quran Mushaf Mode
-      await page.click(".mode-btn[data-mode='mushaf']");
+      const mushafEnBtn = page.locator(".mode-btn[data-mode='mushaf']");
+      if (await mushafEnBtn.isVisible()) {
+        await mushafEnBtn.click();
+      } else {
+        await page.evaluate(() => {
+          window.baseerahState.settings.readingMode = "mushaf";
+          window.baseerahRouter.resolveRoute();
+        });
+      }
       await page.waitForSelector(".mushaf-ayah-block");
       await page.waitForTimeout(300);
       await saveScreenshot(`quran_mushaf_en_${vp.name}.png`);
