@@ -1099,18 +1099,21 @@ button:focus-visible {
   min-width: 0;
   max-width: 100%;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
   position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
   direction: ltr !important;
+  box-sizing: border-box;
   overflow: hidden;
 }
 
 .nav-arrow-btn {
-  width: 60px;
-  height: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   background: var(--color-primary);
   color: var(--color-text-white);
@@ -1122,10 +1125,16 @@ button:focus-visible {
   flex-shrink: 0;
   cursor: pointer;
   transition: transform var(--transition-press), opacity var(--transition-fast), background var(--transition-fast);
-  z-index: 5;
+  z-index: 10;
+}
+.nav-arrow-btn.nav-arrow-left {
+  left: 16px;
+}
+.nav-arrow-btn.nav-arrow-right {
+  right: 16px;
 }
 .nav-arrow-btn:active {
-  transform: scale(0.94);
+  transform: translateY(-50%) scale(0.94);
 }
 .nav-arrow-btn:focus-visible {
   outline: 2.5px solid var(--color-gold-border);
@@ -1150,7 +1159,8 @@ button:focus-visible {
   border: 1.5px solid var(--color-parchment-border);
   border-radius: var(--radius-card);
   box-shadow: var(--shadow-level-1);
-  padding: var(--space-3) var(--space-4);
+  padding: var(--space-3) 88px;
+  box-sizing: border-box;
   overflow-y: auto;
   overflow-x: hidden;
   display: flex;
@@ -1160,7 +1170,6 @@ button:focus-visible {
   position: relative;
   transition: transform 180ms ease-out, opacity 180ms ease-out;
   scroll-behavior: smooth;
-  box-sizing: border-box;
 }
 
 .interlinear-reading-card.has-scroll-fade {
@@ -1284,12 +1293,16 @@ button:focus-visible {
   color: var(--color-ink);
   white-space: nowrap;
   max-width: 100%;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 12px;
+  margin-bottom: 2px;
 }
 .tile-gold-divider {
   width: 28px;
   height: 2px;
   background: var(--color-gold-line);
-  margin: 6px auto;
+  margin: 10px auto 6px auto;
   border-radius: 1px;
 }
 .tile-ur {
@@ -1323,12 +1336,6 @@ button:focus-visible {
 /* ==========================================================================
    Morphology Color Coding Spike (Readability Rules: Style A Underline vs Style B Tint)
    ========================================================================== */
-.tile-ar {
-  position: relative;
-  display: inline-block;
-}
-
-/* Style A: Underline (Default) - Pure ink letters, 3px rounded bar under prefix/suffix */
 .morph-style-underline .tile-ar,
 .morph-style-underline .tile-ar .morph-seg {
   color: var(--color-ink) !important;
@@ -1347,9 +1354,11 @@ button:focus-visible {
 
 .morph-bar {
   position: absolute;
-  height: 3px;
-  border-radius: 1.5px;
+  height: 4px;
+  border-radius: 2px;
   pointer-events: none;
+  opacity: 1 !important;
+  bottom: 2px;
 }
 
 .morph-bar.morph-bar-prefix {
@@ -1457,6 +1466,44 @@ button:focus-visible {
   background: var(--color-surface, #FFFFFF);
   color: var(--color-primary, #0B4A3B);
   box-shadow: 0 1px 2px rgba(11, 74, 59, 0.12);
+}
+
+/* Toolbar Morphology Legend Banner (Under toolbar when colours are active) */
+.morphology-toolbar-legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 6px 20px;
+  background: var(--color-parchment-deep, #EDE8D8);
+  border-bottom: 1.5px solid var(--color-parchment-border, #D5CCA8);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-ink, #1D2B26);
+  flex-shrink: 0;
+  z-index: 4;
+}
+
+[dir="rtl"] .morphology-toolbar-legend,
+.morphology-toolbar-legend:lang(ur) {
+  font-family: var(--font-ur, 'Noto Nastaliq Urdu', serif);
+  font-size: 14px;
+  line-height: var(--lh-ur, 2.0);
+}
+
+.morph-legend-item {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.morph-legend-item.prefix {
+  color: var(--color-morph-prefix, #A77B16);
+}
+
+.morph-legend-item.suffix {
+  color: var(--color-morph-suffix, #0E5A47);
 }
 
 /* Meaning display toggles */

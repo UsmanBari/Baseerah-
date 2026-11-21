@@ -132,8 +132,8 @@ export function layoutUnderlineBars(container) {
         bar.className = `morph-bar morph-bar-${segType}`;
         bar.style.left = `${Math.round(r.left - arRect.left)}px`;
         bar.style.width = `${Math.round(r.width)}px`;
-        // Position 3px bar immediately below glyph box baseline
-        bar.style.top = `${Math.round(r.bottom - arRect.top - 4)}px`;
+        // Position 4px bar directly under glyphs, 2px above bottom of tile-ar
+        bar.style.bottom = "2px";
         overlay.appendChild(bar);
       }
     });

@@ -43,8 +43,8 @@ class AudioManager {
       return {
         played: false,
         reason: "mosque_mute_active",
-        messageUr: "احترامِ مسجد موڈ: آواز بند ہے",
-        messageEn: "Mosque Respect Mode is active: Audio muted"
+        messageUr: "آواز بند ہے — احترامِ مسجد موڈ",
+        messageEn: "Audio is muted — Mosque Respect Mode"
       };
     }
 
@@ -60,7 +60,6 @@ class AudioManager {
 
     const audio = new Audio();
     audio.playbackRate = this.playbackRate;
-    audio.crossOrigin = "anonymous";
     this.currentAudio = audio;
 
     const tryNextUrl = () => {
@@ -167,8 +166,8 @@ class AudioManager {
       return {
         played: false,
         reason: "mosque_mute_active",
-        messageUr: "احترامِ مسجد موڈ: آواز بند ہے",
-        messageEn: "Mosque Respect Mode is active: Audio muted"
+        messageUr: "آواز بند ہے — احترامِ مسجد موڈ",
+        messageEn: "Audio is muted — Mosque Respect Mode"
       };
     }
 
@@ -180,7 +179,6 @@ class AudioManager {
     const url = this.getWordAudioUrl(surahNumber, ayahNumber, wordIndex);
     const audio = new Audio(url);
     audio.playbackRate = this.playbackRate;
-    audio.crossOrigin = "anonymous";
     this.currentWordAudio = audio;
 
     audio.play().catch((err) => {
@@ -252,3 +250,6 @@ class AudioManager {
 }
 
 export const audioManager = new AudioManager();
+if (typeof window !== "undefined") {
+  window.audioManager = audioManager;
+}

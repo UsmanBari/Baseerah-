@@ -13,7 +13,7 @@ const DEFAULT_SETTINGS = {
   fontScaleLevel: 3,   // 1 to 5 (3 is normal 1.0x)
   meaningDisplay: "both", // "both" | "ur" | "en"
   highContrast: false,
-  mosqueMute: true,
+  mosqueMute: false, // Default is false (mute is an admin opt-in per mosque)
   readingMode: "wbw", // "wbw" | "mushaf"
   translationDisplay: "both", // "both" | "ur" | "en"
   showMorphology: false, // automatic morphology color coding spike
@@ -73,7 +73,7 @@ export const Storage = {
   clearAnalytics() {
     try {
       localStorage.removeItem(STORAGE_KEYS.ANALYTICS);
-    } catch (e) {}
+    } catch (e) { }
   },
 
   exportAnalyticsCSV() {

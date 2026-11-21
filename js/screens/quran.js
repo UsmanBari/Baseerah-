@@ -302,6 +302,14 @@ export async function renderQuranScreen(container, params = []) {
         </div>
       </header>
 
+      ${isMorphActive ? `
+      <!-- Toolbar Morphology Legend Banner (Under toolbar when colours are active) -->
+      <div class="morphology-toolbar-legend" id="morphology-toolbar-legend" role="note" aria-label="Morphology Legend">
+        <span class="morph-legend-item prefix">${t("morphLegendPrefix", state.lang)}</span>
+        <span class="morph-legend-item suffix">${t("morphLegendSuffix", state.lang)}</span>
+      </div>
+      ` : ""}
+
       <!-- AYAH CHIPS ROW (Horizontally scrolling, auto-centered) -->
       <nav class="ayah-chips-bar" id="ayah-chips-bar" aria-label="Ayah Navigation">
         <div class="chips-scroll-track" id="chips-scroll-track">
