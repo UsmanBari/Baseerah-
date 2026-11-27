@@ -1,0 +1,78 @@
+{
+  "status": "draft",
+  "reviewed_by": "pending-scholar-review",
+  "notice": "مسودہ — باقاعدہ مستند عالم دین کی تصدیق تک زیرِ التواء ہے",
+  "noticeEn": "Draft — pending formal review and approval by qualified Islamic scholars",
+  "duas": [
+    {
+      "id": "thana",
+      "nameUr": "ثناء (تکبیر کے بعد)",
+      "nameEn": "Thana (Opening Supplication)",
+      "ar": null,
+      "ur": null,
+      "en": "Opening supplication praised by scholar consensus.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "ruku_tasbeeh",
+      "nameUr": "رکوع کی تسبیح",
+      "nameEn": "Tasbeeh in Ruku",
+      "ar": null,
+      "ur": null,
+      "en": "Tasbeeh in bowing posture.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "qawmah",
+      "nameUr": "قومہ (رکوع سے اٹھتے وقت)",
+      "nameEn": "Rising from Ruku (Qawmah)",
+      "ar": null,
+      "ur": null,
+      "en": "Praise upon rising from bowing.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "sajdah_tasbeeh",
+      "nameUr": "سجدے کی تسبیح",
+      "nameEn": "Tasbeeh in Sajdah",
+      "ar": null,
+      "ur": null,
+      "en": "Tasbeeh in prostration.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "tashahhud",
+      "nameUr": "التحیات (تشہد)",
+      "nameEn": "Tashahhud (Attahiyyat)",
+      "ar": null,
+      "ur": null,
+      "en": "Sitting supplication and testimony.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "durood",
+      "nameUr": "درودِ ابراہیمی",
+      "nameEn": "Durood-e-Ibrahimi",
+      "ar": null,
+      "ur": null,
+      "en": "Salutations upon the Prophet (PBUH) and Ibrahim (AS).",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    },
+    {
+      "id": "dua_masura",
+      "nameUr": "دعا بعد درود (دعا ماسورہ)",
+      "nameEn": "Supplication after Durood",
+      "ar": null,
+      "ur": null,
+      "en": "Closing supplication before Salam.",
+      "pending_text": "To be provided by scholar",
+      "provenance": "placeholder"
+    }
+  ]
+}

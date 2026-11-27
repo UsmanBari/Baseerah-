@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Full bleed background for Android adaptive/maskable icons (no rounded corners) -->
+  <rect width="512" height="512" fill="#0E5A47"/>
+  <!-- Centered artwork scaled to 78% to strictly fit inside the 80% safe zone circle (radius 204.8px) -->
+  <g transform="translate(256, 256) scale(0.78) translate(-256, -256)">
+    <circle cx="256" cy="256" r="210" fill="none" stroke="#D4AF37" stroke-width="6" opacity="0.6"/>
+    <path d="M256 100 C 310 100, 360 135, 380 185 C 320 180, 260 220, 245 285 C 240 310, 245 335, 255 355 C 210 345, 175 305, 175 256 C 175 170, 211 100, 256 100 Z" fill="#E9C77B"/>
+    <polygon points="340,140 350,165 375,165 355,180 363,205 340,190 317,205 325,180 305,165 330,165" fill="#FFFFFF"/>
+    <path d="M140 370 C 200 340, 245 345, 256 360 C 267 345, 312 340, 372 370 L 372 390 C 312 360, 267 365, 256 380 C 245 365, 200 360, 140 390 Z" fill="#D4AF37"/>
+  </g>
+</svg>

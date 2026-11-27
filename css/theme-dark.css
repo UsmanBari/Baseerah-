@@ -1,0 +1,534 @@
+/* Baseerah — Dark theme
+ * A calm, neutral dark: near-black surfaces with a slight green tint,
+ * soft white text, one emerald accent. Gold is kept only for small
+ * accents (ayah medallions, the logo) — never for card borders.
+ * Loaded after styles.css and phone.css.
+ */
+
+body.theme-dark,
+body[data-theme="dark"] {
+  color-scheme: dark;
+
+  --color-parchment: #0D1311;          /* app background */
+  --color-reading-surface: #151C19;    /* cards */
+  --color-parchment-border: #24302B;   /* hairlines */
+  --color-tile-selected: #1C2924;
+  --color-chip-read: #1B3A2F;
+
+  --color-ink: #E7ECEA;
+  --color-text-muted: #A2AFA9;
+  --color-text-faint: #7C8983;
+  --color-text-white: #FFFFFF;
+
+  --color-primary: #17614D;            /* buttons, active pills */
+  --color-primary-dark: #0B2A22;
+  --color-primary-light: #1E7A61;
+  --color-primary-text: #6AD3AA;       /* accent text on dark */
+  --color-primary-tint: #16302A;
+
+  --color-gold: #E4C886;
+  --color-gold-line: #2C3833;          /* former gold dividers become hairlines */
+  --color-gold-border: #C9A75E;        /* medallions + focus ring */
+  --color-gold-cream: #DDBF7A;         /* gold text on dark */
+  --color-gold-tint: #1E2622;
+
+  --color-danger: #FF8A80;
+  --color-danger-bg: #3A1D1B;
+  --color-success: #6AD3AA;
+
+  --color-morph-prefix: #E0BE73;
+  --color-morph-suffix: #FF8A80;
+
+  --surface-2: #1A2320;                /* sheets, elevated */
+  --surface-3: #212B27;                /* inputs, chips */
+  --shadow-level-1: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-level-2: 0 6px 18px rgba(0, 0, 0, 0.4);
+  --pattern-star: none;
+
+  background: var(--color-parchment) !important;
+  color: var(--color-ink);
+}
+html[data-theme="dark"] { color-scheme: dark; background: #0D1311; }
+html[data-theme="light"], html[data-theme="sepia"] { color-scheme: light; }
+
+/* ---------- Generic surfaces ---------- */
+body.theme-dark .screen { background: var(--color-parchment); }
+body.theme-dark :focus-visible { outline-color: var(--color-gold-border) !important; }
+
+/* Cards: one surface colour, hairline border, no gold */
+body.theme-dark .home-v2-tile,
+body.theme-dark .prayer-times-home-card,
+body.theme-dark .surah-list-item,
+body.theme-dark .sor-row,
+body.theme-dark .mushaf-ayah-block,
+body.theme-dark .wbw-ayah-card,
+body.theme-dark .settings-group-card,
+body.theme-dark .storage-usage-row,
+body.theme-dark .bookmarks-modal-card,
+body.theme-dark .ayah-moment-card {
+  background: var(--color-reading-surface) !important;
+  border-color: var(--color-parchment-border) !important;
+  box-shadow: none !important;
+}
+
+/* ---------- Home ---------- */
+body.theme-dark .hero-panel-emerald {
+  background: linear-gradient(160deg, #123B31 0%, #0E2A23 70%, #0D1311 100%) !important;
+  border-bottom: 1px solid var(--color-parchment-border) !important;
+}
+body.theme-dark .hero-panel-emerald::before,
+body.theme-dark .hero-panel-emerald::after { opacity: 0.35; }
+body.theme-dark .hero-tagline { color: rgba(231, 236, 234, 0.72) !important; }
+body.theme-dark .hero-next-prayer {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+body.theme-dark .hnp-label { color: var(--color-primary-text) !important; }
+
+body.theme-dark .btn-continue-reading {
+  background: var(--color-reading-surface) !important;
+  border: 1px solid var(--color-parchment-border) !important;
+}
+body.theme-dark .continue-reading-badge,
+body.theme-dark .continue-reading-label { color: var(--color-primary-text) !important; }
+body.theme-dark .continue-reading-title,
+body.theme-dark .continue-reading-surah { color: var(--color-ink) !important; }
+
+body.theme-dark .prayer-header { border-color: var(--color-parchment-border) !important; }
+body.theme-dark .prayer-city-name { color: var(--color-ink) !important; }
+body.theme-dark .btn-location-geo {
+  background: transparent !important;
+  border: 1px solid var(--color-parchment-border) !important;
+  color: var(--color-ink) !important;
+}
+body.theme-dark .prayer-time-item {
+  background: var(--surface-3) !important;
+  border: 1px solid transparent !important;
+}
+body.theme-dark .prayer-time-item .pt-name { color: var(--color-text-muted) !important; }
+body.theme-dark .prayer-time-item .pt-time { color: var(--color-ink) !important; }
+body.theme-dark .prayer-time-item .pt-name-ur { color: var(--color-text-faint) !important; }
+body.theme-dark .prayer-time-item.is-next {
+  background: var(--color-primary) !important;
+  border-color: var(--color-primary-light) !important;
+}
+body.theme-dark .prayer-time-item.is-next .pt-name,
+body.theme-dark .prayer-time-item.is-next .pt-time { color: #fff !important; }
+body.theme-dark .prayer-time-item.is-next .pt-name-ur { color: rgba(255, 255, 255, 0.8) !important; }
+body.theme-dark .prayer-time-item.is-current:not(.is-next) { border-color: var(--color-primary) !important; }
+
+/* Icon badges: quiet tinted squares */
+body.theme-dark .tile-icon-badge,
+body.theme-dark .gold-badge,
+body.theme-dark .subtile-icon {
+  background: var(--color-primary-tint) !important;
+  border: 1px solid transparent !important;
+  color: var(--color-primary-text) !important;
+}
+body.theme-dark .subtile-icon svg,
+body.theme-dark .tile-icon-badge svg { stroke: currentColor !important; color: var(--color-primary-text) !important; }
+
+body.theme-dark .tile-title,
+body.theme-dark .subtile-text h4 { color: var(--color-ink) !important; }
+body.theme-dark .tile-desc,
+body.theme-dark .subtile-hint { color: var(--color-text-muted) !important; }
+body.theme-dark .tile-title .bi-ur,
+body.theme-dark .subtile-text h4 .bi-ur { color: var(--color-primary-text) !important; }
+
+/* Learn Namaz: the one highlighted card — emerald, no gold outline */
+body.theme-dark .tile-namaz-emerald {
+  background: linear-gradient(135deg, #17614D 0%, #114A3B 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background-image: linear-gradient(135deg, #17614D 0%, #114A3B 100%) !important;
+}
+body.theme-dark .tile-namaz-emerald .tile-icon-badge {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #fff !important;
+}
+body.theme-dark .tile-namaz-emerald .tile-icon-badge svg { color: #fff !important; }
+body.theme-dark .tile-title-gold { color: #fff !important; }
+body.theme-dark .tile-namaz-emerald .tile-desc,
+body.theme-dark .tile-namaz-emerald p { color: rgba(255, 255, 255, 0.82) !important; }
+
+body.theme-dark .azan-prompt-card {
+  background: var(--color-reading-surface) !important;
+  border-color: var(--color-parchment-border) !important;
+  box-shadow: none !important;
+}
+body.theme-dark .azan-prompt-icon { background: var(--color-primary-tint) !important; color: var(--color-primary-text) !important; }
+body.theme-dark .azan-prompt-on { background: var(--color-primary) !important; }
+
+/* Footer link pill */
+body.theme-dark .home-footer-link,
+body.theme-dark .btn-about-link,
+body.theme-dark .about-sources-btn {
+  background: transparent !important;
+  border-color: var(--color-parchment-border) !important;
+  color: var(--color-text-muted) !important;
+}
+
+/* ---------- Headers (surah list, reader, namaz) ---------- */
+body.theme-dark .quran-header-emerald,
+body.theme-dark .screen-header,
+body.theme-dark .list-header-emerald,
+body.theme-dark .namaz-header {
+  background: #10261F !important;
+  background-image: none !important;
+  border-bottom: 1px solid var(--color-parchment-border) !important;
+}
+
+/* ---------- Surah list ---------- */
+body.theme-dark .sor-num,
+body.theme-dark .surah-number-badge {
+  background: var(--color-primary-tint) !important;
+  color: var(--color-primary-text) !important;
+  border-color: transparent !important;
+}
+body.theme-dark .search-input,
+body.theme-dark input[type="search"],
+body.theme-dark input[type="text"],
+body.theme-dark input[type="number"],
+body.theme-dark select {
+  background: var(--surface-3) !important;
+  color: var(--color-ink) !important;
+  border-color: var(--color-parchment-border) !important;
+}
+body.theme-dark ::placeholder { color: var(--color-text-faint) !important; }
+
+/* ---------- Reader ---------- */
+body.theme-dark .mushaf-surah-banner,
+body.theme-dark .surah-banner {
+  background: linear-gradient(135deg, #143E33 0%, #0F2C24 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+body.theme-dark .mushaf-translator-bar,
+body.theme-dark .translator-bar {
+  background: var(--color-reading-surface) !important;
+  border-color: var(--color-parchment-border) !important;
+  color: var(--color-text-muted) !important;
+}
+body.theme-dark .mushaf-ayah-translation-card,
+body.theme-dark .trans-card,
+body.theme-dark .translation-card {
+  background: var(--surface-2) !important;
+  border-color: var(--color-parchment-border) !important;
+}
+body.theme-dark .mushaf-trans-ur,
+body.theme-dark .trans-card-ur { color: var(--color-ink) !important; }
+body.theme-dark .mushaf-trans-en,
+body.theme-dark .trans-card-en { color: #C9D2CE !important; }
+body.theme-dark .mushaf-ayah-translation-card sup,
+body.theme-dark sup.footnote,
+body.theme-dark .footnote-ref { color: var(--color-gold-cream) !important; }
+body.theme-dark .mushaf-ayah-key,
+body.theme-dark .ayah-key-chip {
+  background: var(--color-primary-tint) !important;
+  color: var(--color-primary-text) !important;
+}
+body.theme-dark .mushaf-ar-text,
+body.theme-dark .wbw-arabic,
+body.theme-dark .word-arabic { color: #F1F4F2 !important; }
+body.theme-dark .wbw-interlinear-tile { background: transparent !important; }
+body.theme-dark .wbw-interlinear-tile.selected,
+body.theme-dark .wbw-interlinear-tile.active { background: var(--color-tile-selected) !important; }
+
+body.theme-dark .phone-mode-switch.mode-pill-toggle { background: var(--surface-3) !important; }
+body.theme-dark .phone-mode-switch.mode-pill-toggle .mode-pill-btn { color: var(--color-text-muted) !important; }
+body.theme-dark .phone-mode-switch.mode-pill-toggle .mode-pill-btn.active { background: var(--color-primary) !important; color: #fff !important; }
+
+body.theme-dark .reader-footer-bar,
+body.theme-dark .quran-footer-nav,
+body.theme-dark .floating-nav-bar {
+  background: rgba(13, 19, 17, 0.92) !important;
+  border-color: var(--color-parchment-border) !important;
+}
+body.theme-dark .quran-mini-player {
+  background: var(--surface-2) !important;
+  border-color: var(--color-parchment-border) !important;
+  color: var(--color-ink) !important;
+}
+
+/* ---------- Bottom sheets & dialogs ---------- */
+body.theme-dark .bottom-sheet,
+body.theme-dark .modal-card,
+body.theme-dark .dialog-card,
+body.theme-dark .keypad-dialog {
+  background: var(--surface-2) !important;
+  color: var(--color-ink) !important;
+  border-color: var(--color-parchment-border) !important;
+}
+body.theme-dark .bottom-sheet-handle { background: var(--color-parchment-border) !important; }
+body.theme-dark .settings-group-header { color: var(--color-primary-text) !important; border-color: var(--color-parchment-border) !important; }
+body.theme-dark .settings-section-title { color: var(--color-ink) !important; }
+body.theme-dark .mode-pill-toggle,
+body.theme-dark .segmented-control { background: var(--surface-3) !important; border-color: var(--color-parchment-border) !important; }
+body.theme-dark .mode-pill-btn,
+body.theme-dark .meaning-btn { color: var(--color-text-muted) !important; background: transparent !important; }
+body.theme-dark .mode-pill-btn.active,
+body.theme-dark .meaning-btn.active,
+body.theme-dark .quran-settings-sheet .mode-pill-btn.active,
+body.theme-dark .quran-settings-sheet .meaning-btn.active {
+  background: var(--color-primary) !important;
+  color: #fff !important;
+  border-color: var(--color-primary) !important;
+}
+body.theme-dark .btn-sheet-link,
+body.theme-dark .tj-legend-link-btn {
+  background: var(--surface-3) !important;
+  color: var(--color-ink) !important;
+  border-color: var(--color-parchment-border) !important;
+}
+body.theme-dark .btn-sheet-link-inline,
+body.theme-dark .location-city-name,
+body.theme-dark .settings-group-card span:not([class*="tj-"]):not(.bi-ur) { color: inherit; }
+body.theme-dark .btn-sheet-link-inline { color: var(--color-primary-text) !important; }
+body.theme-dark .location-city-name { color: var(--color-ink) !important; }
+body.theme-dark .notif-help-line {
+  background: var(--color-danger-bg) !important;
+  color: #FFB4AB !important;
+  border-color: rgba(255, 138, 128, 0.25) !important;
+}
+body.theme-dark .btn-close {
+  background: var(--surface-3) !important;
+  color: var(--color-ink) !important;
+  border-color: var(--color-parchment-border) !important;
+}
+body.theme-dark .bottom-sheet-overlay { background: rgba(0, 0, 0, 0.6) !important; }
+
+/* ---------- Namaz ---------- */
+body.theme-dark .namaz-steps-rail,
+body.theme-dark .namaz-step-card,
+body.theme-dark .rakat-card,
+body.theme-dark .dua-card,
+body.theme-dark .wudu-step-card,
+body.theme-dark .namaz-overview-card {
+  background: var(--color-reading-surface) !important;
+  border-color: var(--color-parchment-border) !important;
+  box-shadow: none !important;
+}
+
+/* ---------- Toasts ---------- */
+body.theme-dark .toast { background: #E7ECEA !important; color: #0D1311 !important; }
+
+/* Text that used the deep primary green: lift to the light accent in dark */
+body.theme-dark .btn-audio-play,
+body.theme-dark .btn-download-audio,
+body.theme-dark .btn-icon,
+body.theme-dark .btn-location-geo,
+body.theme-dark .btn-location-geo-sm,
+body.theme-dark .btn-mini-play.playing,
+body.theme-dark .btn-mobile-audio-play.playing,
+body.theme-dark .btn-mobile-download-audio.downloaded,
+body.theme-dark .btn-mushaf-play,
+body.theme-dark .btn-mushaf-play.playing,
+body.theme-dark .btn-persist-storage,
+body.theme-dark .btn-sheet-link-inline,
+body.theme-dark .location-city-name,
+body.theme-dark .mini-ar,
+body.theme-dark .mini-player-title,
+body.theme-dark .moment-arabic,
+body.theme-dark .morph-style-btn.active,
+body.theme-dark .mushaf-bismillah,
+body.theme-dark .notfound-badge,
+body.theme-dark .pt-time,
+body.theme-dark .quran-header-emerald .lang-pill-btn.active,
+body.theme-dark .quran-header-emerald .mode-pill-btn.active,
+body.theme-dark .reciter-bitrate,
+body.theme-dark .scholar-title,
+body.theme-dark .settings-group-header,
+body.theme-dark .stepper-val,
+body.theme-dark .tj-legend-more-btn,
+body.theme-dark .tj-legend-rule-title {
+  color: var(--color-primary-text) !important;
+}
+
+/* ---------- Less gold in dark: headings white, accents emerald ---------- */
+body.theme-dark .about-header h2,
+body.theme-dark .admin-header h2,
+body.theme-dark .list-heading-gold,
+body.theme-dark .namaz-header .header-title-box h2,
+body.theme-dark .screen-namaz .header-title-box h2,
+body.theme-dark .surah-name-gold,
+body.theme-dark .tile-title-gold,
+body.theme-dark .detail-section-title { color: #F3F6F5 !important; }
+body.theme-dark .list-heading-gold .bi-ur,
+body.theme-dark .screen-namaz .header-title-box h2 .bi-ur,
+body.theme-dark .tile-title-gold .bi-ur { color: var(--color-primary-text) !important; }
+
+body.theme-dark .continue-reading-arrow,
+body.theme-dark .hdl-dot,
+body.theme-dark .moment-label,
+body.theme-dark .moment-hint,
+body.theme-dark .step-tag,
+body.theme-dark .rail-num,
+body.theme-dark .rail-step-btn.active .rail-num,
+body.theme-dark .wudu-step-badge,
+body.theme-dark .total-rakat-badge,
+body.theme-dark .segmented-control button.active,
+body.theme-dark .lang-pill-btn.active,
+body.theme-dark .scaler-level-indicator,
+body.theme-dark .trans-translator-tag,
+body.theme-dark .rakats-table th,
+body.theme-dark .chip-current { color: var(--color-primary-text) !important; }
+
+/* Gold borders → neutral hairlines; selected/active → emerald */
+body.theme-dark .btn-download-audio,
+body.theme-dark .btn-hifz-toggle,
+body.theme-dark .btn-mushaf-play,
+body.theme-dark .btn-resume-follow,
+body.theme-dark .btn-sheet-download-audio,
+body.theme-dark .btn-step-nav,
+body.theme-dark .btn-stepper-step,
+body.theme-dark .btn-wbw-mode-toggle,
+body.theme-dark .detail-arabic-box,
+body.theme-dark .dua-arabic,
+body.theme-dark .error-boundary-card,
+body.theme-dark .footer-nav-btn,
+body.theme-dark .mini-player-reciter-btn,
+body.theme-dark .modal-card,
+body.theme-dark .notfound-card,
+body.theme-dark .posture-silhouette-box,
+body.theme-dark .text-size-segmented-pill,
+body.theme-dark .about-card,
+body.theme-dark .admin-card { border-color: var(--color-parchment-border) !important; }
+body.theme-dark .about-card,
+body.theme-dark .admin-card,
+body.theme-dark .detail-arabic-box,
+body.theme-dark .dua-arabic { background: var(--color-reading-surface) !important; box-shadow: none !important; }
+
+body.theme-dark .footer-nav-btn,
+body.theme-dark .btn-step-nav { background: var(--surface-2) !important; color: var(--color-ink) !important; }
+body.theme-dark .footer-nav-btn:disabled,
+body.theme-dark .btn-step-nav:disabled { color: var(--color-text-faint) !important; opacity: 0.6; }
+
+body.theme-dark .surah-card-v2.surah-card-active,
+body.theme-dark .rail-step-btn.active,
+body.theme-dark .chip-current,
+body.theme-dark .mushaf-ayah-block.active-highlight,
+body.theme-dark .wbw-interlinear-tile.selected { border-color: var(--color-primary-text) !important; }
+body.theme-dark .surah-card-v2 { background: var(--color-reading-surface) !important; border-color: var(--color-parchment-border) !important; box-shadow: none !important; }
+
+body.theme-dark .about-header,
+body.theme-dark .admin-header,
+body.theme-dark .namaz-header,
+body.theme-dark .surah-list-header,
+body.theme-dark .list-header,
+body.theme-dark .quran-header-emerald {
+  background: #10261F !important;
+  background-image: none !important;
+  border-bottom: 1px solid var(--color-parchment-border) !important;
+}
+body.theme-dark .btn-primary { background: var(--color-primary) !important; color: #fff !important; border-color: var(--color-primary) !important; }
+body.theme-dark .btn-mobile-audio-play,
+body.theme-dark .btn-quran-overflow,
+body.theme-dark .mobile-header-actions button {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
+  color: #fff !important;
+}
+body.theme-dark .btn-mobile-audio-play.playing { background: var(--color-primary) !important; }
+body.theme-dark .quran-header-emerald .header-title-box h2,
+body.theme-dark .quran-header-emerald .surah-title-ar,
+body.theme-dark .quran-header-emerald [lang="ar"] { color: #F3F6F5 !important; }
+body.theme-dark .rail-step-btn.active { background: var(--color-primary-tint) !important; }
+body.theme-dark .rail-step-btn { background: var(--color-reading-surface) !important; border-color: var(--color-parchment-border) !important; }
+body.theme-dark .wudu-title-en, body.theme-dark .wudu-step-title, body.theme-dark .wudu-card h3, body.theme-dark .wudu-card h4 { color: var(--color-ink) !important; }
+body.theme-dark .wudu-card { background: var(--color-reading-surface) !important; border-color: var(--color-parchment-border) !important; }
+body.theme-dark .quran-header-emerald .mode-pill-btn.active,
+body.theme-dark .quran-header-emerald .mode-btn.active { background: var(--color-primary) !important; color: #fff !important; }
+body.theme-dark .settings-page-header { background: #10261F !important; background-image: none !important; border-bottom: 1px solid var(--color-parchment-border); }
+body.theme-dark .screen-settings { background: var(--color-parchment) !important; }
+
+/* ---------- Dark polish v2: depth, glow-free elevation, refined accents ---------- */
+body.theme-dark,
+body[data-theme="dark"] {
+  --color-parchment: #0A0F0D;
+  --color-reading-surface: #121917;
+  --surface-2: #172019;
+  --surface-2: #18211E;
+  --surface-3: #1F2926;
+  --color-parchment-border: #222D29;
+  --color-primary: #1A7059;
+  --color-primary-light: #23866B;
+  --color-primary-text: #5ED6A8;
+  --color-primary-tint: #14302A;
+  --color-ink: #EDF2F0;
+  --color-text-muted: #A9B6B0;
+}
+html[data-theme="dark"] { background: #0A0F0D; }
+body.theme-dark .home-v2-tile,
+body.theme-dark .prayer-times-home-card,
+body.theme-dark .settings-group-card,
+body.theme-dark .surah-card-v2,
+body.theme-dark .mushaf-ayah-block,
+body.theme-dark .wudu-card,
+body.theme-dark .rakats-table-card,
+body.theme-dark .steps-overview-row,
+body.theme-dark .about-card,
+body.theme-dark .btn-continue-reading {
+  background: linear-gradient(180deg, #141C19 0%, #111816 100%) !important;
+  border: 1px solid #212C28 !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035), 0 1px 2px rgba(0, 0, 0, 0.4) !important;
+}
+body.theme-dark .hero-panel-emerald {
+  background:
+    radial-gradient(120% 90% at 0% 0%, rgba(46, 160, 120, 0.22) 0%, rgba(46, 160, 120, 0) 55%),
+    linear-gradient(170deg, #113A2F 0%, #0C2620 60%, #0A0F0D 100%) !important;
+}
+body.theme-dark .tile-namaz-emerald {
+  background: linear-gradient(135deg, #1D7A60 0%, #135643 55%, #0F4536 100%) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 8px 24px rgba(10, 60, 45, 0.35) !important;
+}
+body.theme-dark .prayer-time-item.is-next {
+  background: linear-gradient(180deg, #23866B 0%, #1A6B55 100%) !important;
+  box-shadow: 0 4px 14px rgba(26, 112, 89, 0.35) !important;
+}
+body.theme-dark .tile-icon-badge,
+body.theme-dark .subtile-icon { background: rgba(94, 214, 168, 0.1) !important; }
+body.theme-dark .quran-header-emerald,
+body.theme-dark .settings-page-header,
+body.theme-dark .namaz-header,
+body.theme-dark .about-header,
+body.theme-dark .list-header-emerald,
+body.theme-dark .screen-namaz > header,
+body.theme-dark .screen-surahs-v2 > header {
+  background: linear-gradient(180deg, #0F2A23 0%, #0D211C 100%) !important;
+  background-image: linear-gradient(180deg, #0F2A23 0%, #0D211C 100%) !important;
+}
+body.theme-dark .mushaf-trans-en,
+body.theme-dark .trans-card-en,
+body.theme-dark .tile-desc,
+body.theme-dark .subtile-hint { color: #B4C0BB !important; }
+body.theme-dark .reminder-row, body.theme-dark .notif-test-section { border-color: var(--color-parchment-border) !important; }
+body.theme-dark #notif-test-status.is-error { color: #FFB4AB !important; }
+body.theme-dark .offline-progress { background: var(--surface-3) !important; }
+body.theme-dark .rec-card { background: linear-gradient(180deg, #141C19 0%, #111816 100%) !important; border-color: #212C28 !important; }
+body.theme-dark .rec-note { background: var(--surface-3) !important; }
+body.theme-dark .rec-ar { color: #F1F4F2 !important; }
+body.theme-dark .rec-en { color: #B4C0BB !important; }
+body.theme-dark .word-sheet-ar { color: #F1F4F2 !important; }
+body.theme-dark .btn-word-wbw { color: var(--color-ink) !important; border-color: var(--color-parchment-border) !important; }
+body.theme-dark .screen-learn { background: var(--color-parchment) !important; }
+body.theme-dark .learn-stats, body.theme-dark .flashcard, body.theme-dark .learn-done, body.theme-dark .learn-saved li, body.theme-dark .learn-common-list li {
+  background: linear-gradient(180deg, #141C19 0%, #111816 100%) !important; border-color: #212C28 !important; box-shadow: none !important;
+}
+body.theme-dark .flash-ar, body.theme-dark .lc-ar { color: #F1F4F2 !important; }
+body.theme-dark .learn-bar { background: var(--surface-3) !important; }
+body.theme-dark .btn-flash-again { color: var(--color-ink) !important; border-color: var(--color-parchment-border) !important; }
+body.theme-dark .share-opt { background: var(--surface-3) !important; border-color: var(--color-parchment-border) !important; }
+body.theme-dark .home-tool, body.theme-dark .plan-card, body.theme-dark .tasbeeh-chip:not(.active) {
+  background: linear-gradient(180deg, #141C19 0%, #111816 100%) !important; border-color: #212C28 !important;
+}
+body.theme-dark .screen-plan, body.theme-dark .screen-qibla, body.theme-dark .screen-tasbeeh { background: var(--color-parchment) !important; }
+body.theme-dark .plan-choice, body.theme-dark .plan-today { background: var(--surface-3) !important; border-color: var(--color-parchment-border) !important; }
+body.theme-dark .pwd-bar, body.theme-dark .plan-bar, body.theme-dark .plan-today-meter, body.theme-dark .tr-track { background: var(--surface-3) !important; stroke: var(--surface-3) !important; }
+body.theme-dark .plan-badge.behind { background: #3A2614 !important; color: #F4B47A !important; }
+body.theme-dark .qibla-dial { background: radial-gradient(circle at 50% 50%, #18211E 58%, #0F1513 59%, #18211E 100%) !important; border-color: #26312D !important; }
+body.theme-dark .qibla-center { box-shadow: 0 0 0 4px #18211E !important; }
+body.theme-dark .tasbeeh-tap { background: radial-gradient(circle at 50% 35%, #1D2724, #111816) !important; box-shadow: 0 14px 34px rgba(0,0,0,0.5) !important; }
+body.theme-dark .tasbeeh-ar { color: #F1F4F2 !important; }
+body.theme-dark .tasbeeh-targets { background: var(--surface-3) !important; }
+body.theme-dark .screen-quran-v2 .mushaf-ayah-block.audio-active-block {
+  background: linear-gradient(180deg, #16302A 0%, #122520 100%) !important;
+  box-shadow: 0 0 0 2px rgba(94, 214, 168, 0.55), 0 10px 26px rgba(0, 0, 0, 0.45) !important;
+}

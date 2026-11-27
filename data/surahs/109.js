@@ -1,0 +1,229 @@
+window.BASEERAH_SURAH = {
+  "number": 109,
+  "nameAr": "الكافرون",
+  "nameEn": "Al-Kafirun",
+  "ayahs": [
+    {
+      "number": 1,
+      "arFull": "قُلْ یٰۤاَیُّهَا الْكٰفِرُوْنَ ۟ۙ",
+      "ur": "آپ کہہ دیجئے کہ اے کافرو![1]",
+      "en": "Say, \"O disbelievers,",
+      "footnotesUr": "[1] الْكَافِرُونَ میں الف لام جنس کے لئے ہے۔ لیکن یہاں بطور خاص صرف ان کافروں سے خطاب ہے جن کی بابت اللہ کو علم تھا کہ ان کا خاتمہ کفر وشرک پر ہوگا۔ کیوں کہ اس سورت کے نزول کے بعد کئی مشرک مسلمان ہوئے اور انہوں نے اللہ کی عبادت کی۔ ( فتح القدیر ) ۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلْ"
+        },
+        {
+          "ar": "یٰۤاَیُّهَا",
+          "ur": "اے",
+          "en": "O",
+          "arTajweed": "يَ<span class=\"tj-madda-permissible\">ٰٓ</span>أَيُّهَا"
+        },
+        {
+          "ar": "الْكٰفِرُوْنَ",
+          "ur": "کافرو",
+          "en": "disbelievers",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْكَ<span class=\"tj-madda-normal\">ٰ</span>فِرُ<span class=\"tj-madda-permissible\">و</span>نَ"
+        }
+      ],
+      "arTajweed": "قُلْ يَ<span class=\"tj-madda-permissible\">ٰٓ</span>أَيُّهَا <span class=\"tj-ham-wasl\">ٱ</span>لْكَ<span class=\"tj-madda-normal\">ٰ</span>فِرُ<span class=\"tj-madda-permissible\">و</span>نَ"
+    },
+    {
+      "number": 2,
+      "arFull": "لَاۤ اَعْبُدُ مَا تَعْبُدُوْنَ ۟ۙ",
+      "ur": "نہ میں عبادت کرتا ہوں اس کی جس کی تم عبادت کرتے ہو.",
+      "en": "I do not worship what you worship.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "لَاۤ",
+          "ur": "نہیں",
+          "en": "Not",
+          "arTajweed": "لَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَعْبُدُ",
+          "ur": "میں عبادت کرتا",
+          "en": "I worship",
+          "arTajweed": "أَعْبُدُ"
+        },
+        {
+          "ar": "مَا",
+          "ur": "جس کی",
+          "en": "what",
+          "arTajweed": "مَا"
+        },
+        {
+          "ar": "تَعْبُدُوْنَ",
+          "ur": "تم عبادت کرتے ہو",
+          "en": "you worship",
+          "arTajweed": "تَعْبُدُ<span class=\"tj-madda-permissible\">و</span>نَ"
+        }
+      ],
+      "arTajweed": "لَ<span class=\"tj-madda-permissible\">آ</span> أَعْبُدُ مَا تَعْبُدُ<span class=\"tj-madda-permissible\">و</span>نَ"
+    },
+    {
+      "number": 3,
+      "arFull": "وَلَاۤ اَنْتُمْ عٰبِدُوْنَ مَاۤ اَعْبُدُ ۟ۚ",
+      "ur": "نہ تم عبادت کرنے والے ہو اس کی جس کی میں عبادت کرتا ہوں.",
+      "en": "Nor are you worshippers of what I worship.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَاۤ",
+          "ur": "اور نہ",
+          "en": "And not",
+          "arTajweed": "وَلَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنْتُمْ",
+          "ur": "تم",
+          "en": "you",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">نتُ</span>مْ"
+        },
+        {
+          "ar": "عٰبِدُوْنَ",
+          "ur": "عبادت کرنے والے ہو",
+          "en": "(are) worshippers",
+          "arTajweed": "عَ<span class=\"tj-madda-normal\">ٰ</span>بِدُونَ"
+        },
+        {
+          "ar": "مَاۤ",
+          "ur": "جس کی",
+          "en": "(of) what",
+          "arTajweed": "مَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَعْبُدُ",
+          "ur": "میں عبادت کرتا ہوں",
+          "en": "I worship",
+          "arTajweed": "أَعْبُ<span class=\"tj-qalaqah\">د</span>ُ"
+        }
+      ],
+      "arTajweed": "وَلَ<span class=\"tj-madda-permissible\">آ</span> أَ<span class=\"tj-ikhafa\">نتُ</span>مْ عَ<span class=\"tj-madda-normal\">ٰ</span>بِدُونَ مَ<span class=\"tj-madda-permissible\">آ</span> أَعْبُ<span class=\"tj-qalaqah\">د</span>ُ"
+    },
+    {
+      "number": 4,
+      "arFull": "وَلَاۤ اَنَا عَابِدٌ مَّا عَبَدْتُّمْ ۟ۙ",
+      "ur": "اور نہ میں عبادت کروں گا جس کی تم عبادت کرتے ہو.",
+      "en": "Nor will I be a worshipper of what you worship.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَاۤ",
+          "ur": "اور نہ",
+          "en": "And not",
+          "arTajweed": "وَلَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنَا",
+          "ur": "میں",
+          "en": "I am",
+          "arTajweed": "أَنَا۠"
+        },
+        {
+          "ar": "عَابِدٌ",
+          "ur": "عبادت کرنے والا ہوں",
+          "en": "a worshipper",
+          "arTajweed": "عَابِد<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "مَّا",
+          "ur": "جس کی",
+          "en": "(of) what",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>ا"
+        },
+        {
+          "ar": "عَبَدْتُّمْ",
+          "ur": "تم نے عبادت کی",
+          "en": "you worship",
+          "arTajweed": "عَبَ<span class=\"tj-idghaam_mutajanisayn\">د</span>تُّمْ"
+        }
+      ],
+      "arTajweed": "وَلَ<span class=\"tj-madda-permissible\">آ</span> أَنَا۠ عَابِد<span class=\"tj-idgham-ghunnah\">ٌ مَّ</span>ا عَبَ<span class=\"tj-idghaam_mutajanisayn\">د</span>تُّمْ"
+    },
+    {
+      "number": 5,
+      "arFull": "وَلَاۤ اَنْتُمْ عٰبِدُوْنَ مَاۤ اَعْبُدُ ۟ؕ",
+      "ur": "اور نہ تم اس کی عبادت کرنے والے ہو جس کی میں عبادت کر رہا ہوں.[1]",
+      "en": "Nor will you be worshippers of what I worship.",
+      "footnotesUr": "[1] بعض نے پہلی آیت کو حال کے اوردوسری کو استقبال کے مفہوم میں لیا ہے، لیکن امام شوکانی نے کہا ہے کہ ان تکلفات کی ضرورت نہیں ہے۔ تاکید کے لئے تکرار، عربی زبان کا عام اسلوب ہے، جسے قرآن کریم میں کئی جگہ اختیار کیا گیا ہے۔ جیسے سورۂ رحمٰن، سورۂ مرسلات میں ہے۔ اسی طرح یہاں بھی تاکید کے لئے یہ جملہ دہرایا گیا ہے۔ مقصد یہ ہے کہ یہ کبھی ممکن نہیں کہ میں توحید کا راستہ چھوڑ کر شرک کا راستہ اختیار کر لوں، جیسا کہ تم چاہتے ہو۔ اور اگر اللہ نے تمہاری قسمت میں ہدایت نہیں لکھی ہے، تو تم بھی اس توحید اور عبادت الٰہی سے محروم ہی رہو گے۔ یہ بات اس وقت فرمائی گئی، جب کفار نے یہ تجویز پیش کی کہ ایک سال ہم آپ (صلى الله عليه وسلم) کے معبود کی اور ایک سال آپ (صلى الله عليه وسلم) ہمارے معبودوں کی عبادت کریں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَاۤ",
+          "ur": "اور نہ",
+          "en": "And not",
+          "arTajweed": "وَلَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنْتُمْ",
+          "ur": "تم",
+          "en": "you",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">نتُ</span>مْ"
+        },
+        {
+          "ar": "عٰبِدُوْنَ",
+          "ur": "عبادت کرنے والے ہو",
+          "en": "(are) worshippers",
+          "arTajweed": "عَ<span class=\"tj-madda-normal\">ٰ</span>بِدُونَ"
+        },
+        {
+          "ar": "مَاۤ",
+          "ur": "جس کی",
+          "en": "(of) what",
+          "arTajweed": "مَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَعْبُدُ",
+          "ur": "میں عبادت کرتا ہوں",
+          "en": "I worship",
+          "arTajweed": "أَعْبُ<span class=\"tj-qalaqah\">د</span>ُ"
+        }
+      ],
+      "arTajweed": "وَلَ<span class=\"tj-madda-permissible\">آ</span> أَ<span class=\"tj-ikhafa\">نتُ</span>مْ عَ<span class=\"tj-madda-normal\">ٰ</span>بِدُونَ مَ<span class=\"tj-madda-permissible\">آ</span> أَعْبُ<span class=\"tj-qalaqah\">د</span>ُ"
+    },
+    {
+      "number": 6,
+      "arFull": "لَكُمْ دِیْنُكُمْ وَلِیَ دِیْنِ ۟۠",
+      "ur": "تمہارے لئے تمہارا دین ہے اور میرے لئے میرا دین ہے.[1]",
+      "en": "For you is your religion, and for me is my religion.\"",
+      "footnotesUr": "[1] یعنی اگر تم اپنے دین پر راضی ہو اور اسے چھوڑنے کے لئے تیار نہیں ہو، تو میں اپنے دین پر راضی ہوں، میں اسے کیوں چھوڑ وں؟ «لَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ» (القصص:55) ۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "لَكُمْ",
+          "ur": "تمہارے لئے",
+          "en": "For you",
+          "arTajweed": "لَكُمْ"
+        },
+        {
+          "ar": "دِیْنُكُمْ",
+          "ur": "تمہارا دین ہے",
+          "en": "(is) your religion",
+          "arTajweed": "دِينُكُمْ"
+        },
+        {
+          "ar": "وَلِیَ",
+          "ur": "اور میرے لئے",
+          "en": "and for me",
+          "arTajweed": "وَلِىَ"
+        },
+        {
+          "ar": "دِیْنِ",
+          "ur": "میرا دین ہے",
+          "en": "(is) my religion",
+          "arTajweed": "دِ<span class=\"tj-madda-permissible\">ي</span>نِ"
+        }
+      ],
+      "arTajweed": "لَكُمْ دِينُكُمْ وَلِىَ دِ<span class=\"tj-madda-permissible\">ي</span>نِ"
+    }
+  ]
+};

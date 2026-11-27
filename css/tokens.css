@@ -1,0 +1,281 @@
+/* Baseerah — Design System Tokens (Baseerah v2 Redesign) */
+
+:root {
+  /* Color Palette — Deep Mosque Emerald & Warm Gold */
+  --color-primary: #0B4A3B;          /* Rich deep mosque green */
+  --color-primary-text: #0E5A47;     /* High-contrast emerald text on cream */
+  --color-primary-dark: #073328;
+  --color-primary-light: #126350;
+  --color-primary-tint: #E8F3EE;
+
+  --color-gold: #E9C77B;             /* Warm gold text/accent on emerald (7.2:1 contrast) */
+  --color-gold-line: #D9B45A;        /* Gold divider lines */
+  --color-gold-border: #C99A2E;      /* Selected tile border / medallion stroke */
+  --color-gold-cream: #8E6508;       /* Gold text on cream surfaces (5.1:1 contrast on reading surface) */
+  --color-gold-tint: #FDF9EE;
+
+  /* Surfaces & Parchment */
+  --color-parchment: #F5F0E3;        /* Main background */
+  --color-reading-surface: #FFFDF7;  /* Reading surface & active cards */
+  --color-parchment-border: #E6DCC4; /* Subtle card & section borders */
+  --color-tile-selected: #FBF3DC;    /* Selected word tile fill */
+  --color-chip-read: #D4E7DC;        /* Completed ayah chip */
+
+  /* Ink & Typography */
+  --color-ink: #1D2B26;              /* Dark green-black, softer than pure black */
+  --color-text-muted: #5C6B65;       /* Muted secondary text (4.9:1 contrast on reading surface) */
+  --color-text-faint: #8B9892;
+  --color-text-white: #FFFFFF;
+
+  --color-danger: #B3261E;
+  --color-danger-bg: #F9DEDC;
+  --color-success: #1E7E34;
+
+  /* Morphology Color Coding Tokens (Spike) */
+  --color-morph-prefix: #8E6508;     /* Gold prefix (5.1:1 contrast on reading surface) */
+  --color-morph-stem: var(--color-ink); /* Ink stem (14:1 contrast on reading surface) */
+  --color-morph-suffix: #B3261E;     /* Red ending (6.4:1 contrast on reading surface) */
+
+  /* Tajweed Color Coding Tokens (Dar al-Maarifah Standard) */
+  --tj-madd-necessary: #A30000;      /* 6 counts (Dark Red) */
+  --tj-madd-obligatory: #C62828;     /* 4-5 counts (Red) */
+  --tj-madd-permissible: #E65100;    /* 2-4-6 counts (Orange) */
+  --tj-madd-normal: #C47D00;         /* 2 counts (Amber/Warm Gold) */
+  --tj-ghunnah: #169200;             /* Ghunnah (Green) */
+  --tj-idgham-ghunnah: #2E7D32;      /* Idgham with Ghunnah (Emerald) */
+  --tj-idgham-shafawi: #388E3C;      /* Idgham Shafawi (Medium Green) */
+  --tj-ikhafa: #00796B;              /* Ikhfa (Forest/Teal Green) */
+  --tj-ikhafa-shafawi: #00695C;      /* Ikhfa Shafawi (Dark Teal) */
+  --tj-iqlab: #558B2F;               /* Iqlab (Olive Green) */
+  --tj-qalaqah: #0288D1;             /* Qalqalah (Cyan / Sky Blue) */
+  --tj-tafkheem: #0D47A1;            /* Heavy letters (Navy Blue) */
+  --tj-silent: #8E8E93;              /* Silent letters, Hamzatul Wasl, Lam Shamsiyyah (Grey) */
+
+  /* Fonts */
+  --font-arabic: 'AlQuran IndoPak', serif;
+  --font-quran: 'AlQuran IndoPak', serif;
+  --font-amiri: 'Amiri Quran', 'Noto Naskh Arabic', serif;
+  --font-ur: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  --font-urdu: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-english: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --lh-ur: 2.0;
+  --lh-en: 1.6;
+
+  /* 8px Spacing Grid */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+
+  /* Shapes & Component Radius Scale (12 / 20 / 28) */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-card: 28px;
+  --radius-card-lg: 28px;
+  --radius-tile: 20px;
+  --radius-pill: 9999px;
+
+  /* Type Scale per Script Tokens */
+  /* English (Inter) */
+  --font-display-en-size: 40px;
+  --font-display-en-lh: 48px;
+  --font-display-en-weight: 600;
+
+  --font-title-en-size: 24px;
+  --font-title-en-lh: 32px;
+  --font-title-en-weight: 600;
+
+  --font-body-en-size: 17px;
+  --font-body-en-lh: 26px;
+
+  --font-caption-en-size: 13px;
+  --font-caption-en-lh: 18px;
+  --font-caption-en-weight: 500;
+  --font-caption-en-ls: 0.02em;
+
+  /* Urdu (Nastaliq) — Independent Line Heights (never inherits Latin lh) */
+  --font-display-ur-size: 40px;
+  --font-display-ur-lh: 1.9;
+
+  --font-title-ur-size: 26px;
+  --font-title-ur-lh: 1.9;
+
+  --font-body-ur-size: 19px;
+  --font-body-ur-lh: 2.0;
+
+  --font-caption-ur-size: 15px;
+  --font-caption-ur-lh: 1.9;
+
+  /* Quran (Indo-Pak) */
+  --font-title-ar-size: 34px;
+  --font-title-ar-lh: 1.6;
+
+  --font-quran-tile-size: 46px;
+  --font-quran-tile-lh: 1.55;
+
+  /* Touch Sizing & Kiosk Dimensions */
+  --touch-target-min: 56px;
+  --btn-pill-height: 60px;
+
+  /* Soft Emerald-Tinted Elevation Shadows (2 Levels Only) */
+  --shadow-level-1: 0 4px 16px rgba(11, 74, 59, 0.08);
+  --shadow-level-2: 0 12px 36px rgba(11, 74, 59, 0.16);
+
+  --shadow-sm: var(--shadow-level-1);
+  --shadow-tile: var(--shadow-level-1);
+  --shadow-tile-selected: 0 6px 18px rgba(201, 154, 46, 0.22);
+  --shadow-card: var(--shadow-level-1);
+  --shadow-hero: var(--shadow-level-2);
+  --shadow-modal: var(--shadow-level-2);
+
+  /* 8-Point Islamic Star Pattern (Inline SVG Data URI for Emerald Surfaces) */
+  --pattern-star: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill='none' stroke='%23E9C77B' stroke-opacity='0.12' stroke-width='1'%3E%3Crect x='15' y='15' width='30' height='30' rx='1'/%3E%3Crect x='15' y='15' width='30' height='30' rx='1' transform='rotate(45 30 30)'/%3E%3Ccircle cx='30' cy='30' r='5'/%3E%3C/g%3E%3C/svg%3E");
+
+  /* 5-Step Font Scaler Multiplier & Text Scale Variable (S:0.85, M:1.0, L:1.15, XL:1.30) */
+  --scale-factor: 1.0;
+  --text-scale: 1.0;
+
+  /* Fluid Typography Scale (using clamp() and --text-scale variable) */
+  /* Arabic ayah: clamp(1.5rem, 1.1rem + 2.2vw, 2.6rem), line-height ~2 */
+  --font-ar-ayah: calc(clamp(1.5rem, 1.1rem + 2.2vw, 2.6rem) * var(--text-scale));
+  --lh-ar-ayah: 2.0;
+
+  /* Word-by-word Arabic: clamp(1.25rem, 0.9rem + 1.8vw, 2rem) */
+  --font-wbw-ar: calc(clamp(1.25rem, 0.9rem + 1.8vw, 2.0rem) * var(--text-scale));
+  --lh-wbw-ar: 1.6;
+
+  /* Word-by-word meaning: clamp(0.75rem, 0.65rem + 0.5vw, 1rem) */
+  --font-wbw-meaning: calc(clamp(0.75rem, 0.65rem + 0.5vw, 1.0rem) * var(--text-scale));
+  --lh-wbw-meaning: 1.4;
+
+  /* Urdu translation: clamp(1rem, 0.9rem + 0.6vw, 1.35rem) */
+  --font-trans-ur: calc(clamp(1.0rem, 0.9rem + 0.6vw, 1.35rem) * var(--text-scale));
+  --lh-trans-ur: 2.0;
+
+  /* English translation: clamp(0.95rem, 0.85rem + 0.4vw, 1.15rem) */
+  --font-trans-en: calc(clamp(0.95rem, 0.85rem + 0.4vw, 1.15rem) * var(--text-scale));
+  --lh-trans-en: 1.6;
+
+  /* Default Typography Sizes (multiplied by --text-scale / --scale-factor) */
+  --arabic-word-size: var(--font-wbw-ar);
+  --arabic-full-size: var(--font-ar-ayah);
+  --urdu-meaning-size: var(--font-wbw-meaning);
+  --en-meaning-size: var(--font-wbw-meaning);
+  --trans-text-size: var(--font-trans-ur);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-press: 180ms ease-out;
+}
+
+/* User Text Size Classes (S / M / L / XL) */
+body.text-size-s, :root[data-text-size="S"] { --text-scale: 0.85; --scale-factor: 0.85; }
+body.text-size-m, :root[data-text-size="M"] { --text-scale: 1.00; --scale-factor: 1.00; }
+body.text-size-l, :root[data-text-size="L"] { --text-scale: 1.15; --scale-factor: 1.15; }
+body.text-size-xl, :root[data-text-size="XL"] { --text-scale: 1.30; --scale-factor: 1.30; }
+
+/* 5-Step Text Scaling Classes (Backward compatibility) */
+body.scale-step-1 { --scale-factor: 0.85; --text-scale: 0.85; }
+body.scale-step-2 { --scale-factor: 0.92; --text-scale: 0.92; }
+body.scale-step-3 { --scale-factor: 1.00; --text-scale: 1.00; }
+body.scale-step-4 { --scale-factor: 1.15; --text-scale: 1.15; }
+body.scale-step-5 { --scale-factor: 1.30; --text-scale: 1.30; }
+
+/* Legacy aliases for backward compatibility */
+body.scale-normal { --scale-factor: 1.00; --text-scale: 1.00; }
+body.scale-large { --scale-factor: 1.15; --text-scale: 1.15; }
+body.scale-xlarge { --scale-factor: 1.30; --text-scale: 1.30; }
+
+/* High-Contrast Mode for Accessibility */
+body.high-contrast {
+  --color-parchment: #000000;
+  --color-reading-surface: #121212;
+  --color-parchment-border: #444444;
+  --color-tile-selected: #24221A;
+  --color-ink: #FFFFFF;
+  --color-text-muted: #DDDDDD;
+  --color-primary: #073328;
+  --color-primary-text: #2ECC71;
+  --color-gold: #FFD700;
+  --color-gold-border: #FFD700;
+}
+
+/* Dark / Night Mode Theme */
+body.theme-dark, [data-theme="dark"] {
+  --color-parchment: #121215;
+  --color-reading-surface: #1E1E24;
+  --color-parchment-border: #2D2D36;
+  --color-tile-selected: #2E2A20;
+  --color-ink: #F3F4F6;
+  --color-text-muted: #9CA3AF;
+  --color-text-faint: #6B7280;
+  --color-primary: #073328;
+  --color-primary-text: #34D399;
+  --color-gold: #FCD34D;
+  --color-gold-cream: #FBBF24;
+  --color-gold-border: #F59E0B;
+
+  /* Tajweed Colors in Dark Mode (Lightened hues with >= 4.5:1 contrast vs #1E1E24) */
+  --tj-madd-necessary: #F87171;
+  --tj-madd-obligatory: #EF4444;
+  --tj-madd-permissible: #FB923C;
+  --tj-madd-normal: #FBBF24;
+  --tj-ghunnah: #4ADE80;
+  --tj-idgham-ghunnah: #34D399;
+  --tj-idgham-shafawi: #2DD4BF;
+  --tj-ikhafa: #2DD4BF;
+  --tj-ikhafa-shafawi: #67E8F9;
+  --tj-iqlab: #A3E635;
+  --tj-qalaqah: #38BDF8;
+  --tj-tafkheem: #60A5FA;
+  --tj-silent: #9CA3AF;
+}
+
+/* Sepia Reading Theme */
+body.theme-sepia, [data-theme="sepia"] {
+  --color-parchment: #F4ECD8;
+  --color-reading-surface: #FBF6E9;
+  --color-parchment-border: #DFD3B9;
+  --color-tile-selected: #EDE0C2;
+  --color-ink: #3C2F1D;
+  --color-text-muted: #6E5C49;
+  --color-text-faint: #968370;
+  --color-primary: #1B4D3E;
+  --color-primary-text: #1B4D3E;
+  --color-gold: #C28B14;
+  --color-gold-cream: #8E6508;
+  --color-gold-border: #B8860B;
+}
+
+/* Light is the default on first install. Dark only when chosen in Settings (or "System" on a dark phone). */
+
+/* Kiosk Interaction Discipline */
+html, body {
+  touch-action: pan-y;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Alias tokens used by components. Declared on body (not :root) so they
+   resolve against the active theme's values. */
+body {
+  --color-surface: var(--color-reading-surface);
+  --color-border: var(--color-parchment-border);
+  --color-muted: var(--color-text-muted);
+  --color-text: var(--color-ink);
+  --color-ink-muted: var(--color-text-muted);
+  --color-parchment-deep: color-mix(in srgb, var(--color-parchment) 88%, var(--color-ink) 6%);
+  --color-gold-star: var(--color-gold);
+  --color-gold-text: var(--color-gold-cream);
+  --color-gold-bg: var(--color-gold-tint);
+  --color-gold-pale: var(--color-gold-tint);
+  --color-gold-button: var(--color-gold-border);
+  --color-primary-cream: var(--color-primary-tint);
+}

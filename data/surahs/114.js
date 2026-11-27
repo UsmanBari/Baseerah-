@@ -1,0 +1,193 @@
+window.BASEERAH_SURAH = {
+  "number": 114,
+  "nameAr": "الناس",
+  "nameEn": "An-Nas",
+  "ayahs": [
+    {
+      "number": 1,
+      "arFull": "قُلْ اَعُوْذُ بِرَبِّ النَّاسِ ۟ۙ",
+      "ur": "آپ کہہ دیجئے! کہ میں لوگوں کے پروردگار کی پناه میں آتا ہوں.[1]",
+      "en": "Say, \"I seek refuge in the Lord of mankind,",
+      "footnotesUr": "[1] رَبٌّ ( پروردگار ) کا مطلب ہے جو ابتدا سے ہی، جب کہ انسان ابھی ماں کے پیش میں ہی ہوتا ہے، اس کی تدبیر واصلاح کرتا ہے، حتیٰ کہ وہ بالغ عاقل ہو جاتا ہے۔ پھر وہ یہ تدبیر چند مخصوص افراد کے لئے نہیں، بلکہ، تمام انسانوں کے لئے کرتا ہے اور تمام انسانوں کے لئے ہی نہیں، بلکہ اپنی تمام مخلوقات کے لئے کرتا ہے، یہاں صرف انسانوں کا ذکر انسان کے اس شرف وفضل کے اظہار کے لئے ہے جو تمام مخلوقات پر اس کو حاصل ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلْ"
+        },
+        {
+          "ar": "اَعُوْذُ",
+          "ur": "میں پناہ چاہتا ہوں",
+          "en": "I seek refuge",
+          "arTajweed": "أَعُوذُ"
+        },
+        {
+          "ar": "بِرَبِّ",
+          "ur": "رب کی",
+          "en": "in (the) Lord",
+          "arTajweed": "بِرَبِّ"
+        },
+        {
+          "ar": "النَّاسِ",
+          "ur": "انسانوں کے",
+          "en": "(of) mankind",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+        }
+      ],
+      "arTajweed": "قُلْ أَعُوذُ بِرَبِّ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+    },
+    {
+      "number": 2,
+      "arFull": "مَلِكِ النَّاسِ ۟ۙ",
+      "ur": "لوگوں کے مالک کی[1] (اور).",
+      "en": "The Sovereign of mankind,",
+      "footnotesUr": "[1] جوذات، تمام انسانوں کی پرورش اور نگہداشت کرنے والی ہے، وہی اس لائق ہے کہ کائنات کی حکمرانی اور بادشاہی بھی اس کے پاس ہو۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "مَلِكِ",
+          "ur": "بادشاہ",
+          "en": "(The) King",
+          "arTajweed": "مَلِكِ"
+        },
+        {
+          "ar": "النَّاسِ",
+          "ur": "انسانوں کے",
+          "en": "(of) mankind",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+        }
+      ],
+      "arTajweed": "مَلِكِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+    },
+    {
+      "number": 3,
+      "arFull": "اِلٰهِ النَّاسِ ۟ۙ",
+      "ur": "لوگوں کے معبود کی (پناه میں).[1]",
+      "en": "The God of mankind,",
+      "footnotesUr": "[1] اور جو تمام کائنات کا پروردگار ہو، پوری کائنات پر اسی کی بادشاہی ہو، وہی ذات اس بات کی مستحق ہے کہ اس کی عبادت کی جائے اور وہی تمام لوگوں کا معبود ہو۔ چنانچہ میں اسی عظیم وبرتر ہستی کی پناہ حاصل کرتا ہوں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اِلٰهِ",
+          "ur": "الٰہ کی/معبود کی",
+          "en": "(The) God",
+          "arTajweed": "إِلَ<span class=\"tj-madda-normal\">ٰ</span>هِ"
+        },
+        {
+          "ar": "النَّاسِ",
+          "ur": "انسانوں کے",
+          "en": "(of) mankind",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+        }
+      ],
+      "arTajweed": "إِلَ<span class=\"tj-madda-normal\">ٰ</span>هِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+    },
+    {
+      "number": 4,
+      "arFull": "مِنْ شَرِّ الْوَسْوَاسِ ۙ۬ الْخَنَّاسِ ۟",
+      "ur": "وسوسہ ڈالنے والے پیچھے ہٹ جانے والے کے شر سے.[1]",
+      "en": "From the evil of the retreating whisperer[2016] -",
+      "footnotesUr": "[1] الْوَسْوَاسُ، بعض کے نزدیک اسم فاعل الْمُوَسْوِسُ کے معنی میں ہے اوربعض کےنزدیک یہ ذِي الْوَسْوَاسِ ہے۔ وسوسہ، مخفی آواز کو کہتے ہیں۔ شیطان بھی نہایت غیر محسوس طریقوں سے انسان کے دل میں بری باتیں ڈال دیتا ہے، اسی کو وسوسہ کہا جاتا ہے۔ الْخَنَّاسِ، ( کھسک جانے والایہ ) شیطان کی صفت ہے۔ جب اللہ کا ذکر کیا جائے تو یہ کھسک جاتا ہے اور اللہ کی یاد سے غفلت برتی جائے تو دل پر چھا جاتا ہے۔",
+      "footnotesEn": "[2016] i.e., a devil who makes evil suggestions to man but disappears when one remembers Allāh.",
+      "words": [
+        {
+          "ar": "مِنْ",
+          "ur": "سے",
+          "en": "From",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "شَرِّ",
+          "ur": "شر",
+          "en": "(the) evil",
+          "arTajweed": "<span class=\"tj-ikhafa\">شَ</span>رِّ"
+        },
+        {
+          "ar": "الْوَسْوَاسِ ۙ۬",
+          "ur": "وسوسہ ڈالنے والے",
+          "en": "(of) the whisperer",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْوَسْوَاسِ"
+        },
+        {
+          "ar": "الْخَنَّاسِ",
+          "ur": "بار بار پلٹ کر آنے والے کے",
+          "en": "the one who withdraws",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْخَ<span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+        }
+      ],
+      "arTajweed": "مِ<span class=\"tj-ikhafa\">ن شَ</span>رِّ <span class=\"tj-ham-wasl\">ٱ</span>لْوَسْوَاسِ <span class=\"tj-ham-wasl\">ٱ</span>لْخَ<span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+    },
+    {
+      "number": 5,
+      "arFull": "الَّذِیْ یُوَسْوِسُ فِیْ صُدُوْرِ النَّاسِ ۟ۙ",
+      "ur": "جو لوگوں کے سینوں میں وسوسہ ڈالتا ہے.",
+      "en": "Who whispers [evil] into the breasts of mankind -",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "الَّذِیْ",
+          "ur": "وہ جو",
+          "en": "The one who",
+          "arTajweed": "ٱلَّذِى"
+        },
+        {
+          "ar": "یُوَسْوِسُ",
+          "ur": "وسوسہ ڈالتا ہے",
+          "en": "whispers",
+          "arTajweed": "يُوَسْوِسُ"
+        },
+        {
+          "ar": "فِیْ",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "صُدُوْرِ",
+          "ur": "سینوں",
+          "en": "(the) breasts",
+          "arTajweed": "صُدُورِ"
+        },
+        {
+          "ar": "النَّاسِ",
+          "ur": "انسانوں کے",
+          "en": "(of) mankind",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+        }
+      ],
+      "arTajweed": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+    },
+    {
+      "number": 6,
+      "arFull": "مِنَ الْجِنَّةِ وَالنَّاسِ ۟۠",
+      "ur": "(خواه) وه جن میں سے ہو یا انسان میں سے.[1]",
+      "en": "From among the jinn and mankind.\"[2017]",
+      "footnotesUr": "[1] یہ وسوسہ ڈالنے والوں کی دو قسمیں ہیں۔ شیاطین الجن کو تو اللہ تعالیٰ نے انسانوں کو گمراہ کرنے کی قدرت دی ہے۔ علاوہ ازیں ہر انسان کے ساتھ ایک شیطان اس کا ساتھی ہوتا ہے جو اس کو گمراہ کرتا رہتا ہے۔ چنانچہ حدیث میں آتا ہے کہ جب نبی (صلى الله عليه وسلم) نے یہ بات فرمائی تو صحابہ (رضي الله عنهم) نے پوچھا کہ یا رسول اللہ ! کیا وہ آپ کے ساتھ بھی ہے؟ آپ (صلى الله عليه وسلم) نے فرمایا، ہاں ! میرے ساتھ بھی ہے، لیکن اللہ نے اس پر میری مدد فرمائی ہے، اور وہ میرا مطیع ہو گیا ہے۔ مجھے خیر کے علاوہ کسی بات کا حکم نہیں دیتا۔ ( صحيح مسلم، كتاب صفة القيامة، باب تحريش الشيطان وبعثه سراياه لفتنة الناس) اسی طرح حدیث میں آتا ہے کہ نبی (صلى الله عليه وسلم) اعتکاف فرما تھے کہ آپ (صلى الله عليه وسلم) کی زوجہ مطہرہ حضرت صفیہ (رضی الله عنها) آپ (صلى الله عليه وسلم) سے ملنےکے لئے آئیں۔ رات کا وقت تھا، آپ (صلى الله عليه وسلم) انہیں چھوڑنے کےلئے ان کے ساتھ گئے۔ راستے میں دو انصاری صحابی وہاں سے گزرے، تو آپ (صلى الله عليه وسلم) نے انہیں بلاکر فرمایا کہ یہ میری اہلیہ، صفیہ بنت حیی، ہیں۔ انہوں نے عرض کیا، یارسول اللہ (صلى الله عليه وسلم) آپ کی بابت ہمیں کیا بدگمانی ہو سکتی تھی؟ آپ (صلى الله عليه وسلم) نے فرمایا یہ تو ٹھیک ہے، لیکن شیطان انسان کی رگوں میں خون کی طرح دوڑتا ہے۔ مجھے خطرہ محسوس ہوا کہ کہیں وہ تمہارے دلوں میں کچھ شبہ نہ ڈال دے۔ ( صحيح بخاري، كتاب الأحكام، والشهادة، تكون عند الحاكم في ولاية القضاء) ۔\nدوسرے شیطان، انسانوں میں سےہوتے ہیں جو ناصح، مشفق کے روپ میں انسانوں کو گمراہی کی ترغیب دیتے ہیں۔ بعض کہتے ہیں کہ شیطان جن کو گمراہ کرتا ہے یہ ان کی دو قسمیں ہیں، یعنی شیطان انسانوں کو بھی گمراہ کرتا ہے اور جنات کو بھی۔ صرف انسانون کا ذکر تغلیب کے طور پر ہے، ورنہ جنات بھی شیطان کے وسوسوں سے گمراہ ہونے والوں میں شامل ہیں اور بعض کہتے ہیں کہ جنوں پر بھی قرآن میں رجال کا لفظ بولا گیا ہے۔ (سورۃ الجن: 6) اس لئے وہ بھی ناس کا مصداق ہیں ۔",
+      "footnotesEn": "[2017] Evil prompters may be from men as well as from jinn.",
+      "words": [
+        {
+          "ar": "مِنَ",
+          "ur": "سے",
+          "en": "From",
+          "arTajweed": "مِنَ"
+        },
+        {
+          "ar": "الْجِنَّةِ",
+          "ur": "جنوں میں",
+          "en": "the jinn",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْجِ<span class=\"tj-ghunnah\">نَّ</span>ةِ"
+        },
+        {
+          "ar": "وَالنَّاسِ",
+          "ur": "اور انسانوں میں",
+          "en": "and men",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+        }
+      ],
+      "arTajweed": "مِنَ <span class=\"tj-ham-wasl\">ٱ</span>لْجِ<span class=\"tj-ghunnah\">نَّ</span>ةِ وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>سِ"
+    }
+  ]
+};

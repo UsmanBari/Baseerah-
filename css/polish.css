@@ -1,0 +1,123 @@
+/* Baseerah — Interaction polish
+ * Rules from Emil Kowalski's design-engineering skills (MIT):
+ * strong ease-out curves, press feedback on everything tappable, no sticky
+ * hover on touch, sheets that slide in, 16px inputs, reduced-motion support.
+ * Loaded after phone.css, before theme-dark.css.
+ */
+
+:root {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+/* ---------- Tappable things: exact properties, fast, strong ease-out ---------- */
+button,
+[role="button"],
+a,
+.home-v2-tile,
+.btn-continue-reading,
+.surah-card-v2,
+.steps-overview-row,
+.rail-step-btn,
+.mode-pill-btn,
+.meaning-btn,
+.prayer-time-item,
+.wudu-card {
+  transition-property: transform, background-color, border-color, color, box-shadow, opacity !important;
+  transition-duration: 160ms !important;
+  transition-timing-function: var(--ease-out) !important;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Press feedback: the UI should feel like it heard the tap */
+button:not(:disabled):active,
+[role="button"]:active,
+.mode-pill-btn:active,
+.meaning-btn:active { transform: scale(0.97) !important; }
+
+/* Big cards move less — a subtle press, not a bounce */
+.home-v2-tile:active,
+.btn-continue-reading:active,
+.surah-card-v2:active,
+.steps-overview-row:active,
+.rail-step-btn:active,
+.azan-prompt-card button:active { transform: scale(0.985) !important; }
+
+/* Long ayah rows are tap targets too, but should barely move */
+.mushaf-ayah-arabic-row:active { transform: none !important; opacity: 0.85; }
+
+/* ---------- No stuck hover on phones ---------- */
+@media (hover: none), (pointer: coarse) {
+  .home-v2-tile:hover,
+  .btn-continue-reading:hover,
+  .surah-card-v2:hover,
+  .steps-overview-row:hover,
+  .rail-step-btn:hover,
+  .wudu-card:hover,
+  .reciter-option-card:hover,
+  button:hover,
+  a:hover { transform: none; }
+}
+
+/* ---------- Sheets & dialogs: slide / scale in instead of popping ---------- */
+.bottom-sheet-overlay,
+.modal-overlay {
+  transition: opacity 200ms var(--ease-out);
+}
+.bottom-sheet {
+  transition: transform 420ms var(--ease-drawer);
+}
+.modal-card,
+.bookmarks-modal-card,
+.keypad-dialog {
+  transition: transform 220ms var(--ease-out), opacity 220ms var(--ease-out);
+}
+@starting-style {
+  .bottom-sheet-overlay.active,
+  .modal-overlay { opacity: 0; }
+  .bottom-sheet-overlay.active .bottom-sheet { transform: translateY(100%); }
+  .modal-overlay .modal-card,
+  .modal-overlay .bookmarks-modal-card,
+  .modal-overlay .keypad-dialog { transform: scale(0.96); opacity: 0; }
+}
+
+/* ---------- Screen change: a quick, quiet fade-up ---------- */
+.app-container > .screen.active {
+  animation: baseerah-screen-in 220ms var(--ease-out);
+}
+@keyframes baseerah-screen-in {
+  from { opacity: 0; transform: translateY(6px); }
+}
+/* Sticky reader header must not be inside a transformed box after the animation */
+.app-container > .screen.active { animation-fill-mode: none; }
+
+/* ---------- Mobile-native details ---------- */
+.search-input,
+.admin-input,
+.admin-input-time,
+#input-city-name,
+#input-lat,
+#input-lng,
+.sheet-select,
+select,
+textarea { font-size: max(16px, 1em) !important; } /* below 16px phones zoom into the field */
+
+html { overscroll-behavior-y: none; }
+.screen-settings,
+.screen-home-v2 { min-height: 100dvh; }
+
+/* Smoother text everywhere */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
+
+/* Numbers that update (countdown, times) shouldn't jiggle */
+.pt-time, .hnp-time, .hero-next-prayer, .step-progress-count, .stepper-val { font-variant-numeric: tabular-nums; }
+
+/* ---------- Reduced motion: keep fades, drop movement ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .app-container > .screen.active { animation: baseerah-fade-only 160ms ease; }
+  @keyframes baseerah-fade-only { from { opacity: 0; } }
+  .bottom-sheet { transition: opacity 160ms ease; }
+  button:active, [role="button"]:active, .home-v2-tile:active, .surah-card-v2:active { transform: none !important; }
+}

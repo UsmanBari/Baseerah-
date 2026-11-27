@@ -1,0 +1,10564 @@
+window.BASEERAH_SURAH = {
+  "number": 17,
+  "nameAr": "الإسراء",
+  "nameEn": "Al-Isra",
+  "ayahs": [
+    {
+      "number": 1,
+      "arFull": "سُبْحٰنَ الَّذِیْۤ اَسْرٰی بِعَبْدِهٖ لَیْلًا مِّنَ الْمَسْجِدِ الْحَرَامِ اِلَی الْمَسْجِدِ الْاَقْصَا الَّذِیْ بٰرَكْنَا حَوْلَهٗ لِنُرِیَهٗ مِنْ اٰیٰتِنَا ؕ اِنَّهٗ هُوَ السَّمِیْعُ الْبَصِیْرُ ۟",
+      "ur": "پاک ہے[1] وه اللہ تعالیٰ جو اپنے بندے[2] کو رات ہی رات میں مسجد حرام سے مسجد اقصیٰ[3] تک لے گیا جس کے آس پاس ہم نے برکت دے[4] رکھی ہے، اس لئے کہ ہم اسے اپنی قدرت کے بعض نمونے دکھائیں[5]، یقیناً اللہ تعالیٰ ہی خوب سننے دیکھنے واﻻ ہے.",
+      "en": "Exalted[722] is He who took His Servant [i.e., Prophet Muḥammad (ﷺ)] by night from al-Masjid al-Ḥarām to al-Masjid al-Aqṣā,[723] whose surroundings We have blessed, to show him of Our signs. Indeed, He is the Hearing,[724] the Seeing.[725]",
+      "footnotesUr": "[1] سُبْحَانَ, سَبَحَ يَسْبَحُ کا مصدر ہے۔ معنی ہیں أُنَزِّهُ اللهَ تَنْزِيهًا یعنی میں اللہ کی ہر نقص سے تنزیہ اور براءت کرتا ہوں۔ عام طور پر اس کا استعمال ایسے موقع پر ہوتا ہے جب کسی عظیم الشان واقعے کا ذکر ہو۔ مطلب یہ ہوتا ہے کہ لوگوں کے نزدیک ظاہری اسباب کے اعتبار سے یہ واقعہ کتنا محال ہو، اللہ کے لئے مشکل نہیں، اس لئے کہ وہ اسباب کا پابند نہیں، وہ لفظ كُنْ سے پلک جھپکنے میں جو چاہے کر سکتا ہے۔ اسباب تو انسانوں کے لئے ہیں۔ اللہ تعالٰی ان پابندیوں اور کوتاہیوں سے پاک ہے۔\n[2] إِسْرَاءٌ کے معنی ہوتے ہیں، رات کو لے جانا۔ آگے لَيْلا اس لیے ذکر کیا گیا تاکہ رات کی قلت واضح ہو جائے۔ یعنی رات ایک حصے یا تھوڑے سے حصے میں۔ یعنی چالیس راتوں کا دور دراز کا سفر، پوری رات میں بھی نہیں بلکہ رات کے ایک قلیل حصے میں طے ہوا۔\n[3] أَقْصَى ٰ دور کو کہتے ہیں بیت المقدس، جو القدس یا ایلیاء (قدیم نام) شہر میں اور فلسطین میں واقع ہے، مکے سے القدس تک مسافت ”40“ دن کی ہے، اس اعتبار سے مسجد حرام کے مقابلے میں بیت المقدس کو مسجد اقصٰی (دور کی مسجد) کہا گیا ہے۔\n[4] یہ علاقہ قدرتی نہروں اور پھلوں کی کثرت اور انبیاء کا مسکن و مدفن ہونے کے لحاظ سے ممتاز ہے، اس لئے اسے بابرکت قرار دیا گیا ہے۔\n[5] یہ اس سیر کا مقصد ہے تاکہ ہم اپنے بندے کو عجائبات اور آیات کبریٰ دکھائیں۔ جن میں سے ایک آیت اور معجزہ یہ سفر بھی ہے کہ اتنا لمبا سفر رات کے ایک قلیل حصے میں ہو گیا نبی کریم (صلى الله عليه وسلم) کو جو معراج ہوئی یعنی آسمانوں پر لے جایا گیا، وہاں مختلف آسمانوں پر انبیاء (عليهم السلام) سے ملاقاتیں ہوئیں اور سدرۃ المنتہٰی پر، جو عرش سے نیچے ساتویں آسمان پر ہے، اللہ تعالٰی نے وحی کے ذریعے سے نماز اور دیگر بعض چیزیں عطا کیں۔ جس کی تفصیلات صحیح احادیث میں بیان ہوئی ہیں اور صحابہ و تابعین سے لے کر آج تک امت کے اکثر علماء فقہاء اس بات کے قائل چلے آرہے ہیں کہ یہ معراج بِجَسَدِهِ الْعُنْصُرِيِّ‌ حالت بیداری میں ہوئی ہے۔ یہ خواب یا روحانی سیر اور مشاہدہ نہیں ہے، بلکہ عینی مشاہدہ ہے جو اللہ نے اپنی قدرت کاملہ سے اپنے پیغمبر کو کرایا ہے۔ اس معراج کے دو حصے ہیں۔ پہلا حصہ اسراء کہلاتا ہے، جس کا ذکر یہاں کیا گیا ہے اور جو مسجد حرام سے مسجد اقصیٰ تک کے سفر کا نام ہے، یہاں پہنچنے کے بعد نبی (صلى الله عليه وسلم) نے تمام انبیاء کی امامت فرمائی۔ بیت المقدس سے پھر آپ کو آسمانوں پر لے جایا گیا، یہ سفر کا دوسرا حصہ ہے جسے معراج کہا جاتا ہے۔ اس کا تذکرہ سورہ نجم میں کیا گیا ہے اور باقی تفصیلات احادیث میں بیان کی گئی ہیں۔ عام طور پر اس پورے سفر کو ”معراج“ سے ہی تعبیر کیا جاتا ہے۔ معراج سیڑھی کو کہتے ہیں یہ نبی (صلى الله عليه وسلم) کی زبان مبارک سے نکلے ہوئے الفاظ عُرِجَ بِي إِلَى السَّمَاءِ (مجھے آسمان پر لے جایا یا چڑھایا گیا) سے ماخوذ ہے۔ کیونکہ اس سفر کا یہ دوسرا حصہ پہلے سے بھی زیادہ اہم اور عظیم الشان ہے، اس لئے معراج کا لفظ ہی زیادہ مشہور ہو گیا۔ اس کی تاریخ میں اختلاف ہے۔ تاہم اس میں اتفاق ہے کہ یہ ہجرت سے قبل کا واقعہ ہے۔ بعض کہتے ہیں ایک سال قبل اور بعض کہتے ہیں کئی سال قبل یہ واقعہ پیش آیا۔ اسی طرح مہینے اور اس کی تاریخ میں اختلاف ہے۔ کوئی ربیع الاول کی 17 یا 27، کوئی رجب کی 27 اور بعض کوئی اور مہینہ اس کی تاریخ بتلاتے ہیں۔ (فتح القدیر)",
+      "footnotesEn": "[722] Above any imperfection or failure to do as He wills.\n[723] In Jerusalem.\n[724] Who hears every sound, distinguishes every voice, understands every word, and accepts and responds to supplications.\n[725] Who sees and understands all things apparent and unapparent, visible and invisible.",
+      "words": [
+        {
+          "ar": "سُبْحٰنَ",
+          "ur": "پاک ہے",
+          "en": "Exalted",
+          "arTajweed": "سُ<span class=\"tj-qalaqah\">بْ</span>حَ<span class=\"tj-madda-normal\">ٰ</span>نَ"
+        },
+        {
+          "ar": "الَّذِیْۤ",
+          "ur": "وہ ذات",
+          "en": "(is) the One Who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اَسْرٰی",
+          "ur": "جو لے گیا",
+          "en": "took",
+          "arTajweed": "أَسْرَىٰ"
+        },
+        {
+          "ar": "بِعَبْدِهٖ",
+          "ur": "اپنے بندے کو",
+          "en": "His servant",
+          "arTajweed": "بِعَ<span class=\"tj-qalaqah\">بْ</span>دِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "لَیْلًا",
+          "ur": "رات کے وقت",
+          "en": "(by) night",
+          "arTajweed": "لَيْل<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مِّنَ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span>نَ"
+        },
+        {
+          "ar": "الْمَسْجِدِ",
+          "ur": "مسجد",
+          "en": "Al-Masjid Al-Haraam",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَسْجِدِ"
+        },
+        {
+          "ar": "الْحَرَامِ",
+          "ur": "حرام",
+          "en": "Al-Masjid Al-Haraam",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْحَرَامِ"
+        },
+        {
+          "ar": "اِلَی",
+          "ur": "طرف",
+          "en": "to",
+          "arTajweed": "إِلَى"
+        },
+        {
+          "ar": "الْمَسْجِدِ",
+          "ur": "مسجد",
+          "en": "Al-Masjid Al-Aqsa",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَسْجِدِ"
+        },
+        {
+          "ar": "الْاَقْصَا",
+          "ur": "اقصی کی",
+          "en": "Al-Masjid Al-Aqsa",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَ<span class=\"tj-qalaqah\">قْ</span>صَا"
+        },
+        {
+          "ar": "الَّذِیْ",
+          "ur": "وہ جو",
+          "en": "which",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِى"
+        },
+        {
+          "ar": "بٰرَكْنَا",
+          "ur": "برکت دی ہم نے",
+          "en": "We blessed",
+          "arTajweed": "بَ<span class=\"tj-madda-normal\">ٰ</span>رَكْنَا"
+        },
+        {
+          "ar": "حَوْلَهٗ",
+          "ur": "اس کے آس پاس کو",
+          "en": "its surroundings",
+          "arTajweed": "حَوْلَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "لِنُرِیَهٗ",
+          "ur": "تاکہ ہم دکھائیں اس کو",
+          "en": "that We may show him",
+          "arTajweed": "لِنُرِيَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "سے",
+          "en": "of",
+          "arTajweed": "مِنْ"
+        },
+        {
+          "ar": "اٰیٰتِنَا ؕ",
+          "ur": "اپنی آیات میں (سے)",
+          "en": "Our Signs",
+          "arTajweed": "ءَايَ<span class=\"tj-madda-normal\">ٰ</span>تِنَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اِنَّهٗ",
+          "ur": "بیشک وہ",
+          "en": "Indeed He",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "هُوَ",
+          "ur": "وہ",
+          "en": "He",
+          "arTajweed": "هُوَ"
+        },
+        {
+          "ar": "السَّمِیْعُ",
+          "ur": "سننے والا ہے،",
+          "en": "(is) the All-Hearer",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمِيعُ"
+        },
+        {
+          "ar": "الْبَصِیْرُ",
+          "ur": "دیکھنے والا ہے",
+          "en": "the All-Seer",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَصِ<span class=\"tj-madda-permissible\">ي</span>رُ"
+        }
+      ],
+      "arTajweed": "سُ<span class=\"tj-qalaqah\">بْ</span>حَ<span class=\"tj-madda-normal\">ٰ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِ<span class=\"tj-madda-permissible\">ىٓ</span> أَسْرَىٰ بِعَ<span class=\"tj-qalaqah\">بْ</span>دِهِ<span class=\"tj-madda-normal\">ۦ</span> لَيْل<span class=\"tj-idgham-ghunnah\">ًا مِّ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span>لْمَسْجِدِ <span class=\"tj-ham-wasl\">ٱ</span>لْحَرَامِ إِلَى <span class=\"tj-ham-wasl\">ٱ</span>لْمَسْجِدِ <span class=\"tj-ham-wasl\">ٱ</span>لْأَ<span class=\"tj-qalaqah\">قْ</span>صَا <span class=\"tj-ham-wasl\">ٱ</span>لَّذِى بَ<span class=\"tj-madda-normal\">ٰ</span>رَكْنَا حَوْلَهُ<span class=\"tj-madda-normal\">ۥ</span> لِنُرِيَهُ<span class=\"tj-madda-normal\">ۥ</span> مِنْ ءَايَ<span class=\"tj-madda-normal\">ٰ</span>تِنَ<span class=\"tj-madda-permissible\">آ</span> إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> هُوَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمِيعُ <span class=\"tj-ham-wasl\">ٱ</span>لْبَصِ<span class=\"tj-madda-permissible\">ي</span>رُ"
+    },
+    {
+      "number": 2,
+      "arFull": "وَاٰتَیْنَا مُوْسَی الْكِتٰبَ وَجَعَلْنٰهُ هُدًی لِّبَنِیْۤ اِسْرَآءِیْلَ اَلَّا تَتَّخِذُوْا مِنْ دُوْنِیْ وَكِیْلًا ۟ؕ",
+      "ur": "ہم نے موسیٰ کو کتاب دی اور اسے بنی اسرائیل کے لئے ہدایت بنا دیا کہ تم میرے سوا کسی کو اپنا کارساز نہ بنانا.",
+      "en": "And We gave Moses the Scripture and made it a guidance for the Children of Israel that you not take other than Me as Disposer of affairs,[726]",
+      "footnotesUr": null,
+      "footnotesEn": "[726] i.e., trust in Allāh, knowing that He (subḥānahu wa taʿālā) is responsible for every occurrence.",
+      "words": [
+        {
+          "ar": "وَاٰتَیْنَا",
+          "ur": "اور دی ہم نے",
+          "en": "And We gave",
+          "arTajweed": "وَءَاتَيْنَا"
+        },
+        {
+          "ar": "مُوْسَی",
+          "ur": "موسیٰ کو",
+          "en": "Musa",
+          "arTajweed": "مُوسَى"
+        },
+        {
+          "ar": "الْكِتٰبَ",
+          "ur": "کتاب",
+          "en": "the Book",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْكِتَ<span class=\"tj-madda-normal\">ٰ</span>بَ"
+        },
+        {
+          "ar": "وَجَعَلْنٰهُ",
+          "ur": "اور بنایا ہم نے اس کو",
+          "en": "and made it",
+          "arTajweed": "وَجَعَلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ"
+        },
+        {
+          "ar": "هُدًی",
+          "ur": "ہدایت کا ذریعہ",
+          "en": "a guidance",
+          "arTajweed": "هُد<span class=\"tj-idgham-wo-ghunnah\">ًى</span>"
+        },
+        {
+          "ar": "لِّبَنِیْۤ",
+          "ur": "بنی",
+          "en": "for the Children",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لِّ</span>بَنِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اِسْرَآءِیْلَ",
+          "ur": "اسرائیل کے لئے",
+          "en": "(of) Israel",
+          "arTajweed": "إِسْرَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ءِيلَ"
+        },
+        {
+          "ar": "اَلَّا",
+          "ur": "کہ نہ",
+          "en": "That not",
+          "arTajweed": "أَلَّا"
+        },
+        {
+          "ar": "تَتَّخِذُوْا",
+          "ur": "تم بناؤ",
+          "en": "you take",
+          "arTajweed": "تَتَّخِذُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "سے",
+          "en": "other than Me",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "دُوْنِیْ",
+          "ur": "میرے سوا",
+          "en": "other than Me",
+          "arTajweed": "<span class=\"tj-ikhafa\">دُ</span>ونِى"
+        },
+        {
+          "ar": "وَكِیْلًا",
+          "ur": "کار ساز",
+          "en": "(as) a Disposer of affairs",
+          "arTajweed": "وَكِيلًا"
+        }
+      ],
+      "arTajweed": "وَءَاتَيْنَا مُوسَى <span class=\"tj-ham-wasl\">ٱ</span>لْكِتَ<span class=\"tj-madda-normal\">ٰ</span>بَ وَجَعَلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ هُد<span class=\"tj-idgham-wo-ghunnah\">ًى لِّ</span>بَنِ<span class=\"tj-madda-permissible\">ىٓ</span> إِسْرَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ءِيلَ أَلَّا تَتَّخِذُو<span class=\"tj-slnt\">ا۟</span> مِ<span class=\"tj-ikhafa\">ن دُ</span>ونِى وَكِيلًا"
+    },
+    {
+      "number": 3,
+      "arFull": "ذُرِّیَّةَ مَنْ حَمَلْنَا مَعَ نُوْحٍ ؕ اِنَّهٗ كَانَ عَبْدًا شَكُوْرًا ۟",
+      "ur": "اے ان لوگوں کی اوﻻد! جنہیں ہم نے نوح کے ساتھ سوار کردیا تھا، وه ہمارا بڑا ہی شکرگزار بنده تھا.[1]",
+      "en": "O descendants of those We carried [in the ship] with Noah. Indeed, he was a grateful servant.",
+      "footnotesUr": "[1] طوفان نوح (عليه السلام) کے بعد نسل انسانی نوح (عليه السلام) کے ان بیٹوں کی نسل سے ہے جو کشتیئ نوح (عليه السلام) میں سوار ہوئے تھے اور طوفان سے بچ گئے تھے۔ اس لئے بنو اسرائیل کو خطاب کر کے کہا گیا کہ تمہارا باپ، نوح علیہ السلام، اللہ کا بہت شکر گزار بندہ تھا۔ تم بھی اپنے باپ کی طرح شکر گزاری کا راستہ اختیار کرو اور ہم نے جو محمد (صلى الله عليه وسلم) کو رسول بنا کر بھیجا ہے، ان کا انکار کر کے کفران نعمت مت کرو۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "ذُرِّیَّةَ",
+          "ur": "اولاد ہو",
+          "en": "Offsprings",
+          "arTajweed": "ذُرِّيَّةَ"
+        },
+        {
+          "ar": "مَنْ",
+          "ur": "جن کو",
+          "en": "(of one) who",
+          "arTajweed": "مَنْ"
+        },
+        {
+          "ar": "حَمَلْنَا",
+          "ur": "سوار کیا ہم نے",
+          "en": "We carried",
+          "arTajweed": "حَمَلْنَا"
+        },
+        {
+          "ar": "مَعَ",
+          "ur": "ساتھ",
+          "en": "with",
+          "arTajweed": "مَعَ"
+        },
+        {
+          "ar": "نُوْحٍ ؕ",
+          "ur": "نو ح کے",
+          "en": "Nuh",
+          "arTajweed": "نُوحٍ"
+        },
+        {
+          "ar": "اِنَّهٗ",
+          "ur": "بیشک",
+          "en": "Indeed, he",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "وہ تھا",
+          "en": "was",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "عَبْدًا",
+          "ur": "بندہ",
+          "en": "a servant",
+          "arTajweed": "عَ<span class=\"tj-qalaqah\">بْ</span>د<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "شَكُوْرًا",
+          "ur": "شکرگزار",
+          "en": "grateful",
+          "arTajweed": "<span class=\"tj-ikhafa\">شَ</span>كُورًا"
+        }
+      ],
+      "arTajweed": "ذُرِّيَّةَ مَنْ حَمَلْنَا مَعَ نُوحٍ إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> كَانَ عَ<span class=\"tj-qalaqah\">بْ</span>د<span class=\"tj-ikhafa\">ًا شَ</span>كُورًا"
+    },
+    {
+      "number": 4,
+      "arFull": "وَقَضَیْنَاۤ اِلٰی بَنِیْۤ اِسْرَآءِیْلَ فِی الْكِتٰبِ لَتُفْسِدُنَّ فِی الْاَرْضِ مَرَّتَیْنِ وَلَتَعْلُنَّ عُلُوًّا كَبِیْرًا ۟",
+      "ur": "ہم نے بنی اسرائیل کے لئے ان کی کتاب میں صاف فیصلہ کردیا تھا کہ تم زمین میں دوبار فساد برپا کرو گے اور تم بڑی زبردست زیادتیاں کرو گے.",
+      "en": "And We conveyed[727] to the Children of Israel in the Scripture that, \"You will surely cause corruption on the earth twice, and you will surely reach [a degree of] great haughtiness.\"",
+      "footnotesUr": null,
+      "footnotesEn": "[727] Foretold out of divine knowledge of what they would do.",
+      "words": [
+        {
+          "ar": "وَقَضَیْنَاۤ",
+          "ur": "اور اطلاع دی ہم نے/ آگاہ کردیا ہم نے",
+          "en": "And We decreed",
+          "arTajweed": "وَقَضَيْنَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اِلٰی",
+          "ur": "کو",
+          "en": "for",
+          "arTajweed": "إِلَىٰ"
+        },
+        {
+          "ar": "بَنِیْۤ",
+          "ur": "بنی",
+          "en": "(the) Children",
+          "arTajweed": "بَنِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اِسْرَآءِیْلَ",
+          "ur": "اسرائیل",
+          "en": "(of) Israel",
+          "arTajweed": "إِسْرَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ءِيلَ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْكِتٰبِ",
+          "ur": "کتاب (میں)",
+          "en": "the Book",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْكِتَ<span class=\"tj-madda-normal\">ٰ</span>بِ"
+        },
+        {
+          "ar": "لَتُفْسِدُنَّ",
+          "ur": "البتہ تم ضرور فساد کرو گے",
+          "en": "Surely you will cause corruption",
+          "arTajweed": "لَتُفْسِدُ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْاَرْضِ",
+          "ur": "زمین",
+          "en": "the earth",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "مَرَّتَیْنِ",
+          "ur": "دو بار",
+          "en": "twice",
+          "arTajweed": "مَرَّتَيْنِ"
+        },
+        {
+          "ar": "وَلَتَعْلُنَّ",
+          "ur": "اور البتہ تم ضرور بلدنی پکڑو گے",
+          "en": "and surely you will reach",
+          "arTajweed": "وَلَتَعْلُ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "عُلُوًّا",
+          "ur": "بلندی",
+          "en": "haughtiness",
+          "arTajweed": "عُلُوّ<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "كَبِیْرًا",
+          "ur": "بڑی",
+          "en": "great",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>بِيرًا"
+        }
+      ],
+      "arTajweed": "وَقَضَيْنَ<span class=\"tj-madda-permissible\">آ</span> إِلَىٰ بَنِ<span class=\"tj-madda-permissible\">ىٓ</span> إِسْرَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ءِيلَ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْكِتَ<span class=\"tj-madda-normal\">ٰ</span>بِ لَتُفْسِدُ<span class=\"tj-ghunnah\">نَّ</span> فِى <span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ مَرَّتَيْنِ وَلَتَعْلُ<span class=\"tj-ghunnah\">نَّ</span> عُلُوّ<span class=\"tj-ikhafa\">ًا كَ</span>بِيرًا"
+    },
+    {
+      "number": 5,
+      "arFull": "فَاِذَا جَآءَ وَعْدُ اُوْلٰىهُمَا بَعَثْنَا عَلَیْكُمْ عِبَادًا لَّنَاۤ اُولِیْ بَاْسٍ شَدِیْدٍ فَجَاسُوْا خِلٰلَ الدِّیَارِؕ وَكَانَ وَعْدًا مَّفْعُوْلًا ۟",
+      "ur": "ان دونوں وعدوں میں سے پہلے کے آتے ہی ہم نے تمہارے مقابلہ پر اپنے بندے بھیج دیئے جو بڑے ہی لڑاکے تھے۔ پس وه تمہارے گھروں کے اندر تک پھیل گئے اور اللہ کا یہ وعده پورا ہونا ہی تھا.[1]",
+      "en": "So when the [time of] promise came for the first of them,[728] We sent against you servants of Ours - those of great military might, and they probed [even] into the homes,[729] and it was a promise fulfilled.",
+      "footnotesUr": "[1] یہ اشارہ ہے اس ذلت اور تباہی کی طرف جو بابل کے فرمان روا بخت نصر کے ہاتھوں، حضرت مسیح (عليه السلام) سے تقریبًا چھ سو سال قبل، یہودیوں پر یروشلم میں نازل ہوئی۔ اس نے بے دریغ یہودیوں کو قتل کیا اور ایک بڑی تعداد کو غلام بنا لیا اور یہ اس وقت ہوا جب انہوں نے اللہ کے نبی حضرت شعیب (عليه السلام) کو قتل کیا یا حضرت ارمیا (عليه السلام) کو قید کیا اور تورات کے احکام کی خلاف ورزی اور معصیات کا ارتکاب کر کے فساد فی الارض کے مجرم بنے۔ بعض کہتے ہیں کہ بخت نصر کے بجائے جالوت کو اللہ تعالٰی نے بطور سزا ان پر مسلط کیا، جس نے ان پر ظلم و ستم کے پہاڑ توڑے۔ حتیٰ کہ طالوت کی قیادت میں حضرت داود (عليه السلام) نے جالوت کو قتل کیا۔",
+      "footnotesEn": "[728] i.e., the promised punishment for the first of their two transgressions.\n[729] Violating their sanctity, to kill and plunder.",
+      "words": [
+        {
+          "ar": "فَاِذَا",
+          "ur": "پھر جب",
+          "en": "So when",
+          "arTajweed": "فَإِذَا"
+        },
+        {
+          "ar": "جَآءَ",
+          "ur": "آگیا",
+          "en": "came",
+          "arTajweed": "جَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
+        },
+        {
+          "ar": "وَعْدُ",
+          "ur": "وعدہ",
+          "en": "(the) promise",
+          "arTajweed": "وَعْدُ"
+        },
+        {
+          "ar": "اُوْلٰىهُمَا",
+          "ur": "ان دونوں میں سے پہلا",
+          "en": "(for) the first of the two",
+          "arTajweed": "أُولَى<span class=\"tj-madda-normal\">ٰ</span>هُمَا"
+        },
+        {
+          "ar": "بَعَثْنَا",
+          "ur": "بھیجا ہم نے",
+          "en": "We raised",
+          "arTajweed": "بَعَثْنَا"
+        },
+        {
+          "ar": "عَلَیْكُمْ",
+          "ur": "تم پر",
+          "en": "against you",
+          "arTajweed": "عَلَيْكُمْ"
+        },
+        {
+          "ar": "عِبَادًا",
+          "ur": "بندوں",
+          "en": "servants",
+          "arTajweed": "عِبَاد<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "لَّنَاۤ",
+          "ur": "اپنے   کو",
+          "en": "of Ours",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>نَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اُولِیْ",
+          "ur": "زور والے",
+          "en": "those of great military might",
+          "arTajweed": "أُ<span class=\"tj-slnt\">و۟</span>لِى"
+        },
+        {
+          "ar": "بَاْسٍ",
+          "ur": null,
+          "en": "those of great military might",
+          "arTajweed": "بَأْس<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "شَدِیْدٍ",
+          "ur": "سخت",
+          "en": "those of great military might",
+          "arTajweed": "<span class=\"tj-ikhafa\">شَ</span>دِيد<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "فَجَاسُوْا",
+          "ur": "تو وہ گھس گئے",
+          "en": "and they entered",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>جَاسُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "خِلٰلَ",
+          "ur": "اندر",
+          "en": "the inner most part",
+          "arTajweed": "خِلَ<span class=\"tj-madda-normal\">ٰ</span>لَ"
+        },
+        {
+          "ar": "الدِّیَارِؕ",
+          "ur": "گھروں کے",
+          "en": "(of) the homes",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>دِّيَارِ"
+        },
+        {
+          "ar": "وَكَانَ",
+          "ur": "اور تھا",
+          "en": "and (it) was",
+          "arTajweed": "وَكَانَ"
+        },
+        {
+          "ar": "وَعْدًا",
+          "ur": "ایک وعدہ",
+          "en": "a promise",
+          "arTajweed": "وَعْد<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّفْعُوْلًا",
+          "ur": "پورا ہونے والا",
+          "en": "fulfilled",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>فْعُولًا"
+        }
+      ],
+      "arTajweed": "فَإِذَا جَ<span class=\"tj-madda-obligatory\">آ</span>ءَ وَعْدُ أُولَى<span class=\"tj-madda-normal\">ٰ</span>هُمَا بَعَثْنَا عَلَيْكُمْ عِبَاد<span class=\"tj-idgham-wo-ghunnah\">ًا لَّ</span>نَ<span class=\"tj-madda-permissible\">آ</span> أُ<span class=\"tj-slnt\">و۟</span>لِى بَأْس<span class=\"tj-ikhafa\">ٍ شَ</span>دِيد<span class=\"tj-ikhafa\">ٍ فَ</span>جَاسُو<span class=\"tj-slnt\">ا۟</span> خِلَ<span class=\"tj-madda-normal\">ٰ</span>لَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>دِّيَارِ وَكَانَ وَعْد<span class=\"tj-idgham-ghunnah\">ًا مَّ</span>فْعُولًا"
+    },
+    {
+      "number": 6,
+      "arFull": "ثُمَّ رَدَدْنَا لَكُمُ الْكَرَّةَ عَلَیْهِمْ وَاَمْدَدْنٰكُمْ بِاَمْوَالٍ وَّبَنِیْنَ وَجَعَلْنٰكُمْ اَكْثَرَ نَفِیْرًا ۟",
+      "ur": "پھر ہم نے ان پر تمہارا غلبہ دے کر تمہارے دن پھیرے اور مال اور اوﻻد سے تمہاری مدد کی اور تمہیں بڑے جتھے واﻻ بنا دیا.[1]",
+      "en": "Then We gave back to you a return victory over them. And We reinforced you with wealth and sons and made you more numerous in manpower.",
+      "footnotesUr": "[1] یعنی بخت نصر یا جالوت کے قتل کے بعد ہم نے تمہیں پھر مال اور دولت، بیٹوں اور جاہ حشمت سے نوازا، جب کہ یہ ساری چیزیں تم سے چھن چکی تھیں۔ اور تمہیں پھر زیادہ جتھے والا اور طاقتور بنا دیا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "ثُمَّ",
+          "ur": "پھر",
+          "en": "Then",
+          "arTajweed": "ثُ<span class=\"tj-ghunnah\">مَّ</span>"
+        },
+        {
+          "ar": "رَدَدْنَا",
+          "ur": "لوٹائی ہم نے",
+          "en": "We gave back",
+          "arTajweed": "رَدَ<span class=\"tj-qalaqah\">دْ</span>نَا"
+        },
+        {
+          "ar": "لَكُمُ",
+          "ur": "تمہارے لئے",
+          "en": "to you",
+          "arTajweed": "لَكُمُ"
+        },
+        {
+          "ar": "الْكَرَّةَ",
+          "ur": "ایک مرتبہ واپسی",
+          "en": "the return victory",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْكَرَّةَ"
+        },
+        {
+          "ar": "عَلَیْهِمْ",
+          "ur": "ان پر",
+          "en": "over them",
+          "arTajweed": "عَلَيْهِمْ"
+        },
+        {
+          "ar": "وَاَمْدَدْنٰكُمْ",
+          "ur": "اور مدد دی ہم نے تم کو",
+          "en": "And We reinforced you",
+          "arTajweed": "وَأَمْدَ<span class=\"tj-qalaqah\">دْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>كُ<span class=\"tj-ikhafa-shafawi\">م</span>"
+        },
+        {
+          "ar": "بِاَمْوَالٍ",
+          "ur": "ساتھ مالوں کے",
+          "en": "with the wealth",
+          "arTajweed": "<span class=\"tj-ikhafa-shafawi\">بِ</span>أَمْوَ<span class=\"tj-madda-normal\">ٰ</span>ل<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّبَنِیْنَ",
+          "ur": "اور بیٹوں کے",
+          "en": "and sons",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>بَنِينَ"
+        },
+        {
+          "ar": "وَجَعَلْنٰكُمْ",
+          "ur": "اور کردیا ہم نے تم کو",
+          "en": "and made you",
+          "arTajweed": "وَجَعَلْنَ<span class=\"tj-madda-normal\">ٰ</span>كُمْ"
+        },
+        {
+          "ar": "اَكْثَرَ",
+          "ur": "زیادہ کثیر",
+          "en": "more",
+          "arTajweed": "أَكْثَرَ"
+        },
+        {
+          "ar": "نَفِیْرًا",
+          "ur": "نفری میں",
+          "en": "numerous",
+          "arTajweed": "نَفِيرًا"
+        }
+      ],
+      "arTajweed": "ثُ<span class=\"tj-ghunnah\">مَّ</span> رَدَ<span class=\"tj-qalaqah\">دْ</span>نَا لَكُمُ <span class=\"tj-ham-wasl\">ٱ</span>لْكَرَّةَ عَلَيْهِمْ وَأَمْدَ<span class=\"tj-qalaqah\">دْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>كُ<span class=\"tj-ikhafa-shafawi\">م بِ</span>أَمْوَ<span class=\"tj-madda-normal\">ٰ</span>ل<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>بَنِينَ وَجَعَلْنَ<span class=\"tj-madda-normal\">ٰ</span>كُمْ أَكْثَرَ نَفِيرًا"
+    },
+    {
+      "number": 7,
+      "arFull": "اِنْ اَحْسَنْتُمْ اَحْسَنْتُمْ لِاَنْفُسِكُمْ ۫ وَاِنْ اَسَاْتُمْ فَلَهَا ؕ فَاِذَا جَآءَ وَعْدُ الْاٰخِرَةِ لِیَسُوْٓءٗا وُجُوْهَكُمْ وَلِیَدْخُلُوا الْمَسْجِدَ كَمَا دَخَلُوْهُ اَوَّلَ مَرَّةٍ وَّلِیُتَبِّرُوْا مَا عَلَوْا تَتْبِیْرًا ۟",
+      "ur": "اگر تم نے اچھے کام کئے تو خود اپنے ہی فائده کے لئے، اور اگر تم نے برائیاں کیں تو بھی اپنے ہی لئے، پھر جب دوسرے وعدے کا وقت آیا (تو ہم نے دوسرے بندوں کو بھیج دیا تاکہ) وه تمہارے چہرے بگاڑ دیں اور پہلی دفعہ کی طرح پھر اسی مسجد میں گھس جائیں۔ اور جس جس چیز پر قابو پائیں توڑ پھوڑ کر جڑ سے اکھاڑ دیں.[1]",
+      "en": "[And said], \"If you do good, you do good for yourselves; and if you do evil, [you do it] to them [i.e., yourselves].\" Then when the final [i.e., second] promise came, [We sent your enemies] to sadden your faces and to enter the masjid [i.e., the temple in Jerusalem], as they entered it the first time, and to destroy what they had taken over with [total] destruction.",
+      "footnotesUr": "[1] یہ دوسری مرتبہ انہوں نے فساد برپا کیا کہ حضرت زکریا (عليه السلام) کو قتل کر دیا اور حضرت عیسیٰ (عليه السلام) کو بھی قتل کرنے کے درپے رہے، جنہیں اللہ تعالٰی نے زندہ آسمان پر اٹھا کر ان سے بچا لیا۔ اس کے نتیجے میں پھر رومی بادشاہ ٹیٹس کو اللہ نے ان پر مسلط کر دیا، اس نے یروشلم پر حملہ کر کے ان کے کشتے کے پشتے لگا دیئے اور بہت سوں کو قیدی بنا لیا، ان کے اموال لوٹ لئے، مذہبی صحیفوں کو پاؤں تلے روندا اور بیت المقدس اور ہیکل سلیمانی کو غارت کیا اور انہیں ہمیشہ کے لئے بیت المقدس سے جلا وطن کر دیا۔ اور یوں ان کی ذلت و رسوائی کا خوب خوب سامان کیا۔ یہ تباہی 70ء میں ان پر آئی۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اِنْ",
+          "ur": "اگر",
+          "en": "If",
+          "arTajweed": "إِنْ"
+        },
+        {
+          "ar": "اَحْسَنْتُمْ",
+          "ur": "بھلائی کرو گے تم",
+          "en": "you do good",
+          "arTajweed": "أَحْسَ<span class=\"tj-ikhafa\">نتُ</span>مْ"
+        },
+        {
+          "ar": "اَحْسَنْتُمْ",
+          "ur": "بھلائی کرو گے تم",
+          "en": "you do good",
+          "arTajweed": "أَحْسَ<span class=\"tj-ikhafa\">نتُ</span>مْ"
+        },
+        {
+          "ar": "لِاَنْفُسِكُمْ ۫",
+          "ur": "اپنے نفسوں کے لئے",
+          "en": "for yourselves",
+          "arTajweed": "لِأَ<span class=\"tj-ikhafa\">نفُ</span>سِكُمْ"
+        },
+        {
+          "ar": "وَاِنْ",
+          "ur": "اور اگر",
+          "en": "and if",
+          "arTajweed": "وَإِنْ"
+        },
+        {
+          "ar": "اَسَاْتُمْ",
+          "ur": "برا کیا تم نے",
+          "en": "you do evil",
+          "arTajweed": "أَسَأْتُمْ"
+        },
+        {
+          "ar": "فَلَهَا ؕ",
+          "ur": "تو اسی کے لئے ہے",
+          "en": "then it is for it",
+          "arTajweed": "فَلَهَا"
+        },
+        {
+          "ar": "فَاِذَا",
+          "ur": "پھر جب",
+          "en": "So when",
+          "arTajweed": "فَإِذَا"
+        },
+        {
+          "ar": "جَآءَ",
+          "ur": "آگیا",
+          "en": "came",
+          "arTajweed": "جَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
+        },
+        {
+          "ar": "وَعْدُ",
+          "ur": "وعدہ",
+          "en": "promise",
+          "arTajweed": "وَعْدُ"
+        },
+        {
+          "ar": "الْاٰخِرَةِ",
+          "ur": "دوسرا",
+          "en": "the last",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ"
+        },
+        {
+          "ar": "لِیَسُوْٓءٗا",
+          "ur": "تاکہ بگاڑ دیں",
+          "en": "to sadden",
+          "arTajweed": "لِيَسُ<span class=\"tj-madda-normal\">ۥ</span>ٓـُٔو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "وُجُوْهَكُمْ",
+          "ur": "تمہارے چہروں کو",
+          "en": "your faces",
+          "arTajweed": "وُجُوهَكُمْ"
+        },
+        {
+          "ar": "وَلِیَدْخُلُوا",
+          "ur": "اور تاکہ وہ داخل ہوں",
+          "en": "and to enter",
+          "arTajweed": "وَلِيَ<span class=\"tj-qalaqah\">دْ</span>خُلُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الْمَسْجِدَ",
+          "ur": "مسجد میں",
+          "en": "the Masjid",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَسْجِدَ"
+        },
+        {
+          "ar": "كَمَا",
+          "ur": "جیسا کہ",
+          "en": "just as",
+          "arTajweed": "كَمَا"
+        },
+        {
+          "ar": "دَخَلُوْهُ",
+          "ur": "وہ داخل ہوئے اس میں",
+          "en": "they (had) entered it",
+          "arTajweed": "دَخَلُوهُ"
+        },
+        {
+          "ar": "اَوَّلَ",
+          "ur": "پہلی",
+          "en": "first",
+          "arTajweed": "أَوَّلَ"
+        },
+        {
+          "ar": "مَرَّةٍ",
+          "ur": "بار",
+          "en": "time",
+          "arTajweed": "مَرَّة<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّلِیُتَبِّرُوْا",
+          "ur": "اور تاکہ وہ تباہ کردیں",
+          "en": "and to destroy",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>لِيُتَبِّرُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "مَا",
+          "ur": "جس پر",
+          "en": "what",
+          "arTajweed": "مَا"
+        },
+        {
+          "ar": "عَلَوْا",
+          "ur": "غالب آئیں",
+          "en": "they had conquered",
+          "arTajweed": "عَلَوْ<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "تَتْبِیْرًا",
+          "ur": "تباہ کرنا",
+          "en": "(with) destruction",
+          "arTajweed": "تَتْبِيرًا"
+        }
+      ],
+      "arTajweed": "إِنْ أَحْسَ<span class=\"tj-ikhafa\">نتُ</span>مْ أَحْسَ<span class=\"tj-ikhafa\">نتُ</span>مْ لِأَ<span class=\"tj-ikhafa\">نفُ</span>سِكُمْ وَإِنْ أَسَأْتُمْ فَلَهَا فَإِذَا جَ<span class=\"tj-madda-obligatory\">آ</span>ءَ وَعْدُ <span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ لِيَسُ<span class=\"tj-madda-normal\">ۥ</span>ٓـُٔو<span class=\"tj-slnt\">ا۟</span> وُجُوهَكُمْ وَلِيَ<span class=\"tj-qalaqah\">دْ</span>خُلُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>لْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّة<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>لِيُتَبِّرُو<span class=\"tj-slnt\">ا۟</span> مَا عَلَوْ<span class=\"tj-slnt\">ا۟</span> تَتْبِيرًا"
+    },
+    {
+      "number": 8,
+      "arFull": "عَسٰی رَبُّكُمْ اَنْ یَّرْحَمَكُمْ ۚ وَاِنْ عُدْتُّمْ عُدْنَا ۘ وَجَعَلْنَا جَهَنَّمَ لِلْكٰفِرِیْنَ حَصِیْرًا ۟",
+      "ur": "امید ہے کہ تمہارا رب تم پر رحم کرے۔ ہاں اگر تم پھر بھی وہی کرنے لگے تو ہم بھی دوباره ایسا ہی کریں[1] گے اور ہم نے منکروں کا قید خانہ جہنم کو بنا رکھا ہے.[2]",
+      "en": "[Then Allāh said], \"It is expected, [if you repent], that your Lord will have mercy upon you. But if you return [to sin], We will return [to punishment]. And We have made Hell, for the disbelievers, a prison-bed.\"",
+      "footnotesUr": "[1] یہ انہیں تنبیہ کی کہ اگر تم نے اصلاح کر لی تو اللہ کی رحمت کے مستحق ہو گے۔ جس کا مطلب دنیا وآخرت کی سرخ روئی اور کامیابی ہے اور اگر دوبارہ اللہ کی نافرمانی کا راستہ اختیار کر کے تم نے فساد فی الارض کا ارتکاب کیا تو ہم پھر تمہیں اسی طرح ذلت و رسوائی سے دو چار کر دیں گے۔ جیسے اس سے قبل دو مرتبہ ہم تمہارے ساتھ یہ معاملہ کر چکے ہیں چنانچہ ایسا ہی ہوا یہ یہود اپنی حرکتوں سے باز نہیں آئے اور وہی کردار رسالت محمدیہ کے بارے میں دہرایا جو رسالت موسوی اور رسالت عیسوی میں ادا کر چکے تھے جس کے نتیجے میں یہ یہودی تیسری مرتبہ مسلمانوں کے ہاتھوں ذلیل وخوار ہوئے اور بصد رسوائی انہیں مدینے اور خیبر سے نکلنا پڑا۔\n[2] یعنی اس دنیا کی رسوائی کے بعد آخرت میں جہنم کی سزا اور اس کا عذاب الگ ہے جو وہاں انہیں بھگتنا ہو گا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "عَسٰی",
+          "ur": "امید ہے",
+          "en": "(It) may be",
+          "arTajweed": "عَسَىٰ"
+        },
+        {
+          "ar": "رَبُّكُمْ",
+          "ur": "رب تمہارا",
+          "en": "that your Lord",
+          "arTajweed": "رَبُّكُمْ"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "that your Lord",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّرْحَمَكُمْ ۚ",
+          "ur": "رحم کرے تم پر",
+          "en": "(may) have mercy upon you",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>رْحَمَكُمْ"
+        },
+        {
+          "ar": "وَاِنْ",
+          "ur": "اور اگر",
+          "en": "But if",
+          "arTajweed": "وَإِنْ"
+        },
+        {
+          "ar": "عُدْتُّمْ",
+          "ur": "لوٹو گے تم",
+          "en": "you return",
+          "arTajweed": "عُ<span class=\"tj-idghaam_mutajanisayn\">د</span>تُّمْ"
+        },
+        {
+          "ar": "عُدْنَا ۘ",
+          "ur": "لوٹیں گے ہم",
+          "en": "We will return",
+          "arTajweed": "عُ<span class=\"tj-qalaqah\">دْ</span>نَا"
+        },
+        {
+          "ar": "وَجَعَلْنَا",
+          "ur": "اور بنایا ہم نے",
+          "en": "And We have made",
+          "arTajweed": "وَجَعَلْنَا"
+        },
+        {
+          "ar": "جَهَنَّمَ",
+          "ur": "جہنم کو",
+          "en": "Hell",
+          "arTajweed": "جَهَ<span class=\"tj-ghunnah\">نَّ</span>مَ"
+        },
+        {
+          "ar": "لِلْكٰفِرِیْنَ",
+          "ur": "کافروں کے لئے",
+          "en": "for the disbelievers",
+          "arTajweed": "لِلْكَ<span class=\"tj-madda-normal\">ٰ</span>فِرِينَ"
+        },
+        {
+          "ar": "حَصِیْرًا",
+          "ur": "قید خانہ",
+          "en": "a prison-bed",
+          "arTajweed": "حَصِيرًا"
+        }
+      ],
+      "arTajweed": "عَسَىٰ رَبُّكُمْ أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>رْحَمَكُمْ وَإِنْ عُ<span class=\"tj-idghaam_mutajanisayn\">د</span>تُّمْ عُ<span class=\"tj-qalaqah\">دْ</span>نَا وَجَعَلْنَا جَهَ<span class=\"tj-ghunnah\">نَّ</span>مَ لِلْكَ<span class=\"tj-madda-normal\">ٰ</span>فِرِينَ حَصِيرًا"
+    },
+    {
+      "number": 9,
+      "arFull": "اِنَّ هٰذَا الْقُرْاٰنَ یَهْدِیْ لِلَّتِیْ هِیَ اَقْوَمُ وَیُبَشِّرُ الْمُؤْمِنِیْنَ الَّذِیْنَ یَعْمَلُوْنَ الصّٰلِحٰتِ اَنَّ لَهُمْ اَجْرًا كَبِیْرًا ۟ۙ",
+      "ur": "یقیناً یہ قرآن وه راستہ دکھاتا ہے جو بہت ہی سیدھا ہے اور ایمان والوں کو جو نیک اعمال کرتے ہیں اس بات کی خوشخبری دیتا ہے کہ ان کے لئے بہت بڑا اجر ہے.",
+      "en": "Indeed, this Qur’ān guides to that which is most suitable and gives good tidings to the believers who do righteous deeds that they will have a great reward",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "هٰذَا",
+          "ur": "یہ",
+          "en": "this",
+          "arTajweed": "هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا"
+        },
+        {
+          "ar": "الْقُرْاٰنَ",
+          "ur": "قرآن",
+          "en": "the Quran",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانَ"
+        },
+        {
+          "ar": "یَهْدِیْ",
+          "ur": "راہ نمائی کرتا ہے",
+          "en": "guides",
+          "arTajweed": "يَهْدِى"
+        },
+        {
+          "ar": "لِلَّتِیْ",
+          "ur": "اس چیز کے لئے",
+          "en": "to that",
+          "arTajweed": "لِلَّتِى"
+        },
+        {
+          "ar": "هِیَ",
+          "ur": "وہ جو",
+          "en": "which",
+          "arTajweed": "هِىَ"
+        },
+        {
+          "ar": "اَقْوَمُ",
+          "ur": "سب سے زیادہ درست ہے",
+          "en": "(is) most straight",
+          "arTajweed": "أَ<span class=\"tj-qalaqah\">قْ</span>وَمُ"
+        },
+        {
+          "ar": "وَیُبَشِّرُ",
+          "ur": "اور خوش خبری دیتا ہے",
+          "en": "and gives glad tidings",
+          "arTajweed": "وَيُبَشِّرُ"
+        },
+        {
+          "ar": "الْمُؤْمِنِیْنَ",
+          "ur": "ان اہل ایمان کو",
+          "en": "to the believers",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُؤْمِنِينَ"
+        },
+        {
+          "ar": "الَّذِیْنَ",
+          "ur": "وہ لوگ جو",
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
+        },
+        {
+          "ar": "یَعْمَلُوْنَ",
+          "ur": "عمل کرتے ہیں",
+          "en": "do",
+          "arTajweed": "يَعْمَلُونَ"
+        },
+        {
+          "ar": "الصّٰلِحٰتِ",
+          "ur": "اچھے",
+          "en": "the righteous deeds",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّ<span class=\"tj-madda-normal\">ٰ</span>لِحَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
+        },
+        {
+          "ar": "اَنَّ",
+          "ur": "بیشک",
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "لَهُمْ",
+          "ur": "ان کے لئے",
+          "en": "for them",
+          "arTajweed": "لَهُمْ"
+        },
+        {
+          "ar": "اَجْرًا",
+          "ur": "اجر ہے",
+          "en": "(is) a reward",
+          "arTajweed": "أَ<span class=\"tj-qalaqah\">جْ</span>ر<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "كَبِیْرًا",
+          "ur": "بڑا",
+          "en": "great",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>بِيرًا"
+        }
+      ],
+      "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span> هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَ<span class=\"tj-qalaqah\">قْ</span>وَمُ وَيُبَشِّرُ <span class=\"tj-ham-wasl\">ٱ</span>لْمُؤْمِنِينَ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ يَعْمَلُونَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّ<span class=\"tj-madda-normal\">ٰ</span>لِحَ<span class=\"tj-madda-normal\">ٰ</span>تِ أَ<span class=\"tj-ghunnah\">نَّ</span> لَهُمْ أَ<span class=\"tj-qalaqah\">جْ</span>ر<span class=\"tj-ikhafa\">ًا كَ</span>بِيرًا"
+    },
+    {
+      "number": 10,
+      "arFull": "وَّاَنَّ الَّذِیْنَ لَا یُؤْمِنُوْنَ بِالْاٰخِرَةِ اَعْتَدْنَا لَهُمْ عَذَابًا اَلِیْمًا ۟۠",
+      "ur": "اور یہ کہ جو لوگ آخرت پر یقین نہیں رکھتے ان کے لئے ہم نے دردناک عذاب تیار کر رکھا ہے.",
+      "en": "And that those who do not believe in the Hereafter - We have prepared for them a painful punishment.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَّاَنَّ",
+          "ur": "اور بیشک",
+          "en": "And that",
+          "arTajweed": "وَأَ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "الَّذِیْنَ",
+          "ur": "وہ لوگ",
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
+        },
+        {
+          "ar": "لَا",
+          "ur": "نہیں",
+          "en": "(do) not",
+          "arTajweed": "لَا"
+        },
+        {
+          "ar": "یُؤْمِنُوْنَ",
+          "ur": "جو ایمان لاتے",
+          "en": "believe",
+          "arTajweed": "يُؤْمِنُونَ"
+        },
+        {
+          "ar": "بِالْاٰخِرَةِ",
+          "ur": "آخرت پر",
+          "en": "in the Hereafter",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ"
+        },
+        {
+          "ar": "اَعْتَدْنَا",
+          "ur": "تیار کیا ہم نے",
+          "en": "We have prepared",
+          "arTajweed": "أَعْتَ<span class=\"tj-qalaqah\">دْ</span>نَا"
+        },
+        {
+          "ar": "لَهُمْ",
+          "ur": "ان کے لئے",
+          "en": "for them",
+          "arTajweed": "لَهُمْ"
+        },
+        {
+          "ar": "عَذَابًا",
+          "ur": "عذاب",
+          "en": "a punishment",
+          "arTajweed": "عَذَابًا"
+        },
+        {
+          "ar": "اَلِیْمًا",
+          "ur": "درد ناک",
+          "en": "painful",
+          "arTajweed": "أَلِيمًا"
+        }
+      ],
+      "arTajweed": "وَأَ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ لَا يُؤْمِنُونَ بِ<span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ أَعْتَ<span class=\"tj-qalaqah\">دْ</span>نَا لَهُمْ عَذَابًا أَلِيمًا"
+    },
+    {
+      "number": 11,
+      "arFull": "وَیَدْعُ الْاِنْسَانُ بِالشَّرِّ دُعَآءَهٗ بِالْخَیْرِ ؕ وَكَانَ الْاِنْسَانُ عَجُوْلًا ۟",
+      "ur": "اور انسان برائی کی دعائیں مانگنے لگتا ہے بالکل اس کی اپنی بھلائی کی دعا کی طرح، انسان ہے ہی بڑا جلد باز.[1]",
+      "en": "And man supplicates for evil [when angry] as he supplicates for good, and man is ever hasty.[730]",
+      "footnotesUr": "[1] انسان چونکہ جلد باز اور بے حوصلہ ہے اس لیے جب اسے تکلیف پہنچتی ہے تو اپنی ہلاکت کے لیے اسی طرح بد دعا کرتا ہے جس طرح بھلائی کے لیے اپنے رب سے دعائیں کرتا ہے یہ تو رب کا فضل و کرم ہے کہ وہ اس کی بد دعاؤں کو قبول نہیں کرتا یہی مضمون سورۂ یونس آیت 11 میں گزر چکا ہے۔",
+      "footnotesEn": "[730] i.e., impatient, emotional, and acting without forethought.",
+      "words": [
+        {
+          "ar": "وَیَدْعُ",
+          "ur": "اور مانگتا ہے/ دعا کرتا ہے",
+          "en": "And prays",
+          "arTajweed": "وَيَ<span class=\"tj-qalaqah\">دْ</span>عُ"
+        },
+        {
+          "ar": "الْاِنْسَانُ",
+          "ur": "انسان",
+          "en": "the man",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نُ"
+        },
+        {
+          "ar": "بِالشَّرِّ",
+          "ur": "شر کی",
+          "en": "for evil",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّرِّ"
+        },
+        {
+          "ar": "دُعَآءَهٗ",
+          "ur": "دعا اپنی",
+          "en": "(as) he prays",
+          "arTajweed": "دُعَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "بِالْخَیْرِ ؕ",
+          "ur": "بدلے بھلائی کے",
+          "en": "for the good",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْخَيْرِ"
+        },
+        {
+          "ar": "وَكَانَ",
+          "ur": "اور ہے",
+          "en": "And is",
+          "arTajweed": "وَكَانَ"
+        },
+        {
+          "ar": "الْاِنْسَانُ",
+          "ur": "انسان",
+          "en": "the man",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نُ"
+        },
+        {
+          "ar": "عَجُوْلًا",
+          "ur": "جلد باز",
+          "en": "ever hasty",
+          "arTajweed": "عَجُولًا"
+        }
+      ],
+      "arTajweed": "وَيَ<span class=\"tj-qalaqah\">دْ</span>عُ <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نُ بِ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّرِّ دُعَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُ<span class=\"tj-madda-normal\">ۥ</span> بِ<span class=\"tj-ham-wasl\">ٱ</span>لْخَيْرِ وَكَانَ <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نُ عَجُولًا"
+    },
+    {
+      "number": 12,
+      "arFull": "وَجَعَلْنَا الَّیْلَ وَالنَّهَارَ اٰیَتَیْنِ فَمَحَوْنَاۤ اٰیَةَ الَّیْلِ وَجَعَلْنَاۤ اٰیَةَ النَّهَارِ مُبْصِرَةً لِّتَبْتَغُوْا فَضْلًا مِّنْ رَّبِّكُمْ وَلِتَعْلَمُوْا عَدَدَ السِّنِیْنَ وَالْحِسَابَ ؕ وَكُلَّ شَیْءٍ فَصَّلْنٰهُ تَفْصِیْلًا ۟",
+      "ur": "ہم نے رات اور دن کو اپنی قدرت کی نشانیاں بنائی ہیں، رات کی نشانی کو تو ہم نے بےنور کردیا ہے اور دن کی نشانی کو روشن بنایا ہے تاکہ تم اپنے رب کا فضل تلاش کر سکو اور اس لئے بھی کہ برسوں کا شمار اور حساب معلوم کرسکو[1] اور ہر ہر چیز کو ہم نے خوب تفصیل سے بیان فرما دیا ہے.[2]",
+      "en": "And We have made the night and day two signs, and We erased the sign of the night and made the sign of the day visible[731] that you may seek bounty from your Lord and may know the number of years and the account [of time]. And everything We have set out in detail.",
+      "footnotesUr": "[1] یعنی رات کو بے نور یعنی تاریک کر دیا تاکہ تم آرام کر سکو اور تمہاری دن بھر کی تھکاوٹ دور ہو جائے اور دن کو روشن بنایا تاکہ کسب معاش کے ذریعے سے تم رب کا فضل تلاش کرو۔ علاوہ ازیں رات اور دن کا دوسرا فائدہ یہ ہے کہ اس طرح ہفتوں، مہینوں اور برسوں کا شمار اور حساب تم کر سکو، اس حساب کے بھی بیشمار فوائد ہیں۔ اگر رات کے بعد دن اور دن کے بعد رات نہ آتی بلکہ ہمیشہ رات ہی رات یا دن ہی دن رہتا تو تمہیں آرام اور سکون کا یا کاروبار کرنے کا موقع نہ ملتا اور اسی طرح مہینوں اور سالوں کا حساب بھی ممکن نہ رہتا۔\n[2] یعنی انسان کے لئے دین اور دنیا کی ضروری باتیں سب کھول کر ہم نے بیان کر دی ہیں تاکہ ان سے انسان فائدہ اٹھائیں، اپنی دنیا سنواریں اور آخرت کی بھی فکر اور اس کے لئے تیاری کریں۔",
+      "footnotesEn": "[731] Or \"giving sight.\"",
+      "words": [
+        {
+          "ar": "وَجَعَلْنَا",
+          "ur": "اور بنایا ہم نے",
+          "en": "And We have made",
+          "arTajweed": "وَجَعَلْنَا"
+        },
+        {
+          "ar": "الَّیْلَ",
+          "ur": "رات کو",
+          "en": "the night",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّيْلَ"
+        },
+        {
+          "ar": "وَالنَّهَارَ",
+          "ur": "اور دن کو",
+          "en": "and the day",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>هَارَ"
+        },
+        {
+          "ar": "اٰیَتَیْنِ",
+          "ur": "دو نشانیاں",
+          "en": "(as) two signs",
+          "arTajweed": "ءَايَتَيْنِ"
+        },
+        {
+          "ar": "فَمَحَوْنَاۤ",
+          "ur": "تو مٹادی ہم نے",
+          "en": "Then We erased",
+          "arTajweed": "فَمَحَوْنَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اٰیَةَ",
+          "ur": "نشانی",
+          "en": "(the) sign",
+          "arTajweed": "ءَايَةَ"
+        },
+        {
+          "ar": "الَّیْلِ",
+          "ur": "رات کی",
+          "en": "(of) the night",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّيْلِ"
+        },
+        {
+          "ar": "وَجَعَلْنَاۤ",
+          "ur": "اور بنایا ہم نے",
+          "en": "and We made",
+          "arTajweed": "وَجَعَلْنَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اٰیَةَ",
+          "ur": "نشانی کو",
+          "en": "(the) sign",
+          "arTajweed": "ءَايَةَ"
+        },
+        {
+          "ar": "النَّهَارِ",
+          "ur": "دن کی",
+          "en": "(of) the day",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>هَارِ"
+        },
+        {
+          "ar": "مُبْصِرَةً",
+          "ur": "دیکھنے والا/ روشن",
+          "en": "visible",
+          "arTajweed": "مُ<span class=\"tj-qalaqah\">بْ</span>صِرَة<span class=\"tj-idgham-wo-ghunnah\">ً</span>"
+        },
+        {
+          "ar": "لِّتَبْتَغُوْا",
+          "ur": "تاکہ تم تلاش کرو",
+          "en": "that you may seek",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لِّ</span>تَ<span class=\"tj-qalaqah\">بْ</span>تَغُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "فَضْلًا",
+          "ur": "فضل",
+          "en": "bounty",
+          "arTajweed": "فَضْل<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": "طرف سے",
+          "en": "from",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-idgham-wo-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "رَّبِّكُمْ",
+          "ur": "اپنے رب کی",
+          "en": "your Lord",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">رَّ</span>بِّكُمْ"
+        },
+        {
+          "ar": "وَلِتَعْلَمُوْا",
+          "ur": "اور تاکہ تم جان لو",
+          "en": "and that you may know",
+          "arTajweed": "وَلِتَعْلَمُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "عَدَدَ",
+          "ur": "گنتی",
+          "en": "(the) number",
+          "arTajweed": "عَدَدَ"
+        },
+        {
+          "ar": "السِّنِیْنَ",
+          "ur": "سالوں کی",
+          "en": "(of) the years",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سِّنِينَ"
+        },
+        {
+          "ar": "وَالْحِسَابَ ؕ",
+          "ur": "اور حساب",
+          "en": "and the account",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْحِسَابَ"
+        },
+        {
+          "ar": "وَكُلَّ",
+          "ur": "اور ہر",
+          "en": "And every",
+          "arTajweed": "وَكُلَّ"
+        },
+        {
+          "ar": "شَیْءٍ",
+          "ur": "چیز کو",
+          "en": "thing",
+          "arTajweed": "شَىْء<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "فَصَّلْنٰهُ",
+          "ur": "کھول کر بیان کیا ہم نے اس کو",
+          "en": "We have explained it",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>صَّلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ"
+        },
+        {
+          "ar": "تَفْصِیْلًا",
+          "ur": "کھول کر بیان کرنا",
+          "en": "(in) detail",
+          "arTajweed": "تَفْصِيلًا"
+        }
+      ],
+      "arTajweed": "وَجَعَلْنَا <span class=\"tj-ham-wasl\">ٱ</span>لَّيْلَ وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>هَارَ ءَايَتَيْنِ فَمَحَوْنَ<span class=\"tj-madda-permissible\">آ</span> ءَايَةَ <span class=\"tj-ham-wasl\">ٱ</span>لَّيْلِ وَجَعَلْنَ<span class=\"tj-madda-permissible\">آ</span> ءَايَةَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>هَارِ مُ<span class=\"tj-qalaqah\">بْ</span>صِرَة<span class=\"tj-idgham-wo-ghunnah\">ً لِّ</span>تَ<span class=\"tj-qalaqah\">بْ</span>تَغُو<span class=\"tj-slnt\">ا۟</span> فَضْل<span class=\"tj-idgham-ghunnah\">ًا مِّ</span><span class=\"tj-idgham-wo-ghunnah\">ن رَّ</span>بِّكُمْ وَلِتَعْلَمُو<span class=\"tj-slnt\">ا۟</span> عَدَدَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سِّنِينَ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْحِسَابَ وَكُلَّ شَىْء<span class=\"tj-ikhafa\">ٍ فَ</span>صَّلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ تَفْصِيلًا"
+    },
+    {
+      "number": 13,
+      "arFull": "وَكُلَّ اِنْسَانٍ اَلْزَمْنٰهُ طٰٓىِٕرَهٗ فِیْ عُنُقِهٖ ؕ وَنُخْرِجُ لَهٗ یَوْمَ الْقِیٰمَةِ كِتٰبًا یَّلْقٰىهُ مَنْشُوْرًا ۟",
+      "ur": "ہم نے ہر انسان کی برائی بھلائی کو اس کے گلے لگا دیا ہے[1] اور بروز قیامت ہم اس کے سامنے اس کا نامہٴ اعمال نکالیں گے جسے وه اپنے اوپر کھلا ہوا پالے گا.",
+      "en": "And [for] every person We have imposed his fate upon his neck,[732] and We will produce for him on the Day of Resurrection a record which he will encounter spread open.",
+      "footnotesUr": "[1] طَائِرٌ کے معنی پرندے کے ہیں اور عُنُقٌ کے معنی گردن کے۔ امام ابن کثیر نے طائر سے مراد انسان کے عمل کے لئے ہیں۔ فِي عُنُقِهِ کا مطلب ہے اس کے اچھے یا برے عمل، جس پر اس کو اچھی یا بری جزا دی جائے گی، گلے کے ہار کی طرح اس کے ساتھ ہوں گے۔ یعنی اس کا ہر عمل لکھا جا رہا ہے، اللہ کے ہاں اس کا پورا ریکارڈ محفوظ ہو گا۔ قیامت والے دن اس کے مطابق اس کا فیصلہ کیا جائے گا۔ اور امام شوکانی نے طائر سے مراد انسان کی قسمت لی ہے، جو اللہ تعالٰی نے اپنے علم کے مطابق پہلے سے لکھ دی ہے، جسے سعادت مند اور اللہ کا مطیع ہونا تھا وہ اللہ کو معلوم تھا اور جسے نافرمان ہونا تھا، وہ بھی اس کے علم میں تھا، یہی قسمت (سعادت مندی یا بد بختی) ہر انسان کے ساتھ گلے کے ہار کی طرح چمٹی ہوئی ہو گی۔ اسی کے مطابق اس کے عمل ہوں گے اور قیامت والے دن اسی کے مطابق فیصلے ہوں گے۔",
+      "footnotesEn": "[732] i.e., after having instructed him, We have made him responsible for his own destiny.",
+      "words": [
+        {
+          "ar": "وَكُلَّ",
+          "ur": "اور ہر",
+          "en": "And (for) every",
+          "arTajweed": "وَكُلَّ"
+        },
+        {
+          "ar": "اِنْسَانٍ",
+          "ur": "انسان",
+          "en": "man",
+          "arTajweed": "إِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نٍ"
+        },
+        {
+          "ar": "اَلْزَمْنٰهُ",
+          "ur": "چمٹا دیا/ لگا دیا/ لازم کردیا ہم نے اس کو",
+          "en": "We have fastened to him",
+          "arTajweed": "أَلْزَمْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ"
+        },
+        {
+          "ar": "طٰٓىِٕرَهٗ",
+          "ur": "اس کا شگون",
+          "en": "his fate",
+          "arTajweed": "طَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِرَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "فِیْ",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "عُنُقِهٖ ؕ",
+          "ur": "اس کی گردن",
+          "en": "his neck",
+          "arTajweed": "عُنُقِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "وَنُخْرِجُ",
+          "ur": "اور ہم نکالیں گے",
+          "en": "and We will bring forth",
+          "arTajweed": "وَنُخْرِجُ"
+        },
+        {
+          "ar": "لَهٗ",
+          "ur": "اس کے لئے",
+          "en": "for him",
+          "arTajweed": "لَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "یَوْمَ",
+          "ur": "دن",
+          "en": "(on the) Day",
+          "arTajweed": "يَوْمَ"
+        },
+        {
+          "ar": "الْقِیٰمَةِ",
+          "ur": "قیامت کے",
+          "en": "(of) the Resurrection",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ"
+        },
+        {
+          "ar": "كِتٰبًا",
+          "ur": "ایک کتاب",
+          "en": "a record",
+          "arTajweed": "كِتَ<span class=\"tj-madda-normal\">ٰ</span>ب<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "یَّلْقٰىهُ",
+          "ur": "وہ پائے گا اس کو",
+          "en": "which he will find",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>لْقَى<span class=\"tj-madda-normal\">ٰ</span>هُ"
+        },
+        {
+          "ar": "مَنْشُوْرًا",
+          "ur": "نشر کیا ہوا",
+          "en": "wide open",
+          "arTajweed": "مَ<span class=\"tj-ikhafa\">نشُ</span>ورًا"
+        }
+      ],
+      "arTajweed": "وَكُلَّ إِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نٍ أَلْزَمْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ طَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِرَهُ<span class=\"tj-madda-normal\">ۥ</span> فِى عُنُقِهِ<span class=\"tj-madda-normal\">ۦ</span> وَنُخْرِجُ لَهُ<span class=\"tj-madda-normal\">ۥ</span> يَوْمَ <span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ كِتَ<span class=\"tj-madda-normal\">ٰ</span>ب<span class=\"tj-idgham-ghunnah\">ًا يَ</span>لْقَى<span class=\"tj-madda-normal\">ٰ</span>هُ مَ<span class=\"tj-ikhafa\">نشُ</span>ورًا"
+    },
+    {
+      "number": 14,
+      "arFull": "اِقْرَاْ كِتٰبَكَ ؕ كَفٰی بِنَفْسِكَ الْیَوْمَ عَلَیْكَ حَسِیْبًا ۟ؕ",
+      "ur": "لے! خود ہی اپنی کتاب آپ پڑھ لے۔ آج تو تو آپ ہی اپنا خود حساب لینے کو کافی ہے.",
+      "en": "[It will be said], \"Read your record. Sufficient is yourself against you this Day as accountant.\"",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اِقْرَاْ",
+          "ur": "پڑھو",
+          "en": "Read",
+          "arTajweed": "ٱ<span class=\"tj-qalaqah\">قْ</span>رَأْ"
+        },
+        {
+          "ar": "كِتٰبَكَ ؕ",
+          "ur": "اپنی کتاب کو",
+          "en": "your record",
+          "arTajweed": "كِتَ<span class=\"tj-madda-normal\">ٰ</span>بَكَ"
+        },
+        {
+          "ar": "كَفٰی",
+          "ur": "کافی ہے",
+          "en": "Sufficient",
+          "arTajweed": "كَفَىٰ"
+        },
+        {
+          "ar": "بِنَفْسِكَ",
+          "ur": "ساتھ تیرے نفس کے",
+          "en": "(is) yourself",
+          "arTajweed": "بِنَفْسِكَ"
+        },
+        {
+          "ar": "الْیَوْمَ",
+          "ur": "آج",
+          "en": "today",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْيَوْمَ"
+        },
+        {
+          "ar": "عَلَیْكَ",
+          "ur": "تیرے خلاف",
+          "en": "against you",
+          "arTajweed": "عَلَيْكَ"
+        },
+        {
+          "ar": "حَسِیْبًا",
+          "ur": "حساب لینے والا",
+          "en": "(as) accountant",
+          "arTajweed": "حَسِيبًا"
+        }
+      ],
+      "arTajweed": "ٱ<span class=\"tj-qalaqah\">قْ</span>رَأْ كِتَ<span class=\"tj-madda-normal\">ٰ</span>بَكَ كَفَىٰ بِنَفْسِكَ <span class=\"tj-ham-wasl\">ٱ</span>لْيَوْمَ عَلَيْكَ حَسِيبًا"
+    },
+    {
+      "number": 15,
+      "arFull": "مَنِ اهْتَدٰی فَاِنَّمَا یَهْتَدِیْ لِنَفْسِهٖ ۚ وَمَنْ ضَلَّ فَاِنَّمَا یَضِلُّ عَلَیْهَا ؕ وَلَا تَزِرُ وَازِرَةٌ وِّزْرَ اُخْرٰی ؕ وَمَا كُنَّا مُعَذِّبِیْنَ حَتّٰی نَبْعَثَ رَسُوْلًا ۟",
+      "ur": "جو راه راست حاصل کرلے وه خود اپنے ہی بھلے کے لئے راه یافتہ ہوتا ہے اور جو بھٹک جائے اس کا بوجھ اسی کے اوپر ہے، کوئی بوجھ واﻻ کسی اور کا بوجھ اپنے اوپر نہ ﻻدے گا[1] اور ہماری سنت نہیں کہ رسول بھیجنے سے پہلے ہی عذاب کرنے لگیں.[2]",
+      "en": "Whoever is guided is only guided for [the benefit of] his soul. And whoever errs only errs against it. And no bearer of burdens will bear the burden of another. And never would We punish until We sent a messenger.",
+      "footnotesUr": "[1] البتہ جو ضال (گمراہ) مُضل (گمراہ کرنے والے) بھی ہوں گے، انہیں اپنی گمراہی کے بوجھ کے ساتھ، ان کے گناہوں کا بار بھی (بغیر ان کے گناہوں میں کمی کیے) اٹھانا پڑے گا جو ان کی کوششوں سے گمراہ ہوئے ہوں گے، جیسا کہ قرآن کے دوسرے مقامات اور احادیث میں واضح ہے۔ یہ دراصل ان کے اپنے ہی گناہوں کا بھار ہوگا جو دوسروں کو گمراہ کر کے انہوں نے کمایا ہوگا۔\n[2] بعض مفسرین نے اس سے صرف دنیوی عذاب مراد لیا ہے۔ یعنی آخرت کے عذاب سے مستثنٰی نہیں ہوں گے، لیکن قرآن کریم کے دوسرے مقامات سے واضح ہے کہ اللہ تعالٰی لوگوں سے پوچھے گا کہ تمہارے پاس میرے رسول نہیں آئے تھے؟ جس پر اثبات میں جواب دیں گے، جس سے معلوم ہوتا ہے کہ ارسال رسل اور انزال کتب کے بغیر وہ کسی کو عذاب نہیں دے گا۔ تاہم اس کا فیصلہ کہ کس قوم یا فرد تک اس کا پیغام نہیں پہنچا، قیامت والے دن وہ خود ہی فرمائے گا، وہاں یقینا کسی کے ساتھ ظلم نہیں ہو گا۔ اسی طرح بہرا پاگل فاترالعقل اور زمانہ فترت یعنی دو نبیوں کے درمیانی زمانے میں فوت ہونے والے لوگوں کا مسئلہ ہے ان کی بابت بعض روایات میں آتا ہے کہ قیامت والے دن اللہ تعالٰی ان کی طرف فرشتے بھیجے گا اور وہ انہیں کہیں گے کہ جہنم میں داخل ہو جاؤ اگر وہ اللہ کے اس حکم کو مان کر جہنم میں داخل ہو جائیں گے تو جہنم ان کے لیے گل وگلزار بن جائے گی بصورت دیگر انہیں گھسیٹ کر جہنم میں پھینک دیا جائے گا۔ (مسند أحمد، ج 4، ص 24، وابن حبان، ج 9، ص 226۔ علامہ البانی نے صحيح الجامع الصغير (نمبر 881) میں اسے ذکر کیا ہے) چھوٹے بچوں کی بابت اختلاف ہے مسلمانوں کے بچے تو جنت میں ہی جائیں گے البتہ کفار و مشرکین کے بچوں میں اختلاف ہے کوئی توقف کا کوئی جنت میں جانے کا اور کوئی جہنم میں جانے کا قائل ہے، امام ابن کثیر نے کہا ہے کہ میدان محشر میں ان کا امتحان لیا جائے گا جو اللہ کے حکم کی اطاعت اختیار کرے گا وہ جنت میں اور جو نافرمانی کرے گا جہنم میں جائے گا امام ابن کثیر نے اسی قول کو ترجیح دی ہے اور کہا ہے کہ اس سے متضاد روایات میں تطبیق بھی ہو جاتی ہے۔ تفصیل کے لیے (تفسیر ابن کثیر ملاحظہ کیجئے)۔ مگر صحیح بخاری کی روایت سے معلوم ہوتا ہے کہ مشرکین کے بچے بھی جنت میں جائیں گے۔ دیکھئے صحیح بخاری (3: 251، 12: 348) مع الفتح",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "مَنِ",
+          "ur": "جس نے",
+          "en": "Whoever",
+          "arTajweed": "مَّنِ"
+        },
+        {
+          "ar": "اهْتَدٰی",
+          "ur": "ہدایت پائی",
+          "en": "(is) guided",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>هْتَدَىٰ"
+        },
+        {
+          "ar": "فَاِنَّمَا",
+          "ur": "تو بیشک",
+          "en": "then only",
+          "arTajweed": "فَإِ<span class=\"tj-ghunnah\">نَّ</span>مَا"
+        },
+        {
+          "ar": "یَهْتَدِیْ",
+          "ur": "ہدایت پاتا ہے",
+          "en": "he is guided",
+          "arTajweed": "يَهْتَدِى"
+        },
+        {
+          "ar": "لِنَفْسِهٖ ۚ",
+          "ur": "اپنے نفس کے لئے",
+          "en": "for his soul",
+          "arTajweed": "لِنَفْسِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "وَمَنْ",
+          "ur": "اور جو",
+          "en": "And whoever",
+          "arTajweed": "وَمَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "ضَلَّ",
+          "ur": "گمراہ ہوا/ بھٹکا",
+          "en": "goes astray",
+          "arTajweed": "<span class=\"tj-ikhafa\">ضَ</span>لَّ"
+        },
+        {
+          "ar": "فَاِنَّمَا",
+          "ur": "تو بیشک",
+          "en": "then only",
+          "arTajweed": "فَإِ<span class=\"tj-ghunnah\">نَّ</span>مَا"
+        },
+        {
+          "ar": "یَضِلُّ",
+          "ur": "بھٹکتا ہے",
+          "en": "he goes astray",
+          "arTajweed": "يَضِلُّ"
+        },
+        {
+          "ar": "عَلَیْهَا ؕ",
+          "ur": "اس کے خلاف/ اپنے اوپر",
+          "en": "against it",
+          "arTajweed": "عَلَيْهَا"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَزِرُ",
+          "ur": "بوجھ اٹھائے گا",
+          "en": "will bear",
+          "arTajweed": "تَزِرُ"
+        },
+        {
+          "ar": "وَازِرَةٌ",
+          "ur": "کوئی بوجھ اٹھانے والا",
+          "en": "a bearer of burden",
+          "arTajweed": "وَازِرَة<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "وِّزْرَ",
+          "ur": "بوجھ",
+          "en": "burden",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وِ</span>زْرَ"
+        },
+        {
+          "ar": "اُخْرٰی ؕ",
+          "ur": "دوسرے کا",
+          "en": "(of) another",
+          "arTajweed": "أُخْرَىٰ"
+        },
+        {
+          "ar": "وَمَا",
+          "ur": "اور نہیں",
+          "en": "And not",
+          "arTajweed": "وَمَا"
+        },
+        {
+          "ar": "كُنَّا",
+          "ur": "ہیں ہم",
+          "en": "We",
+          "arTajweed": "كُ<span class=\"tj-ghunnah\">نَّ</span>ا"
+        },
+        {
+          "ar": "مُعَذِّبِیْنَ",
+          "ur": "عذاب دینے والے",
+          "en": "are to punish",
+          "arTajweed": "مُعَذِّبِينَ"
+        },
+        {
+          "ar": "حَتّٰی",
+          "ur": "یہاں تک کہ",
+          "en": "until",
+          "arTajweed": "حَتَّىٰ"
+        },
+        {
+          "ar": "نَبْعَثَ",
+          "ur": "ہم بھیجیں",
+          "en": "We have sent",
+          "arTajweed": "نَ<span class=\"tj-qalaqah\">بْ</span>عَثَ"
+        },
+        {
+          "ar": "رَسُوْلًا",
+          "ur": "ایک رسول کو",
+          "en": "a Messenger",
+          "arTajweed": "رَسُولًا"
+        }
+      ],
+      "arTajweed": "مَّنِ <span class=\"tj-ham-wasl\">ٱ</span>هْتَدَىٰ فَإِ<span class=\"tj-ghunnah\">نَّ</span>مَا يَهْتَدِى لِنَفْسِهِ<span class=\"tj-madda-normal\">ۦ</span> وَمَ<span class=\"tj-ikhafa\">ن ضَ</span>لَّ فَإِ<span class=\"tj-ghunnah\">نَّ</span>مَا يَضِلُّ عَلَيْهَا وَلَا تَزِرُ وَازِرَة<span class=\"tj-idgham-ghunnah\">ٌ وِ</span>زْرَ أُخْرَىٰ وَمَا كُ<span class=\"tj-ghunnah\">نَّ</span>ا مُعَذِّبِينَ حَتَّىٰ نَ<span class=\"tj-qalaqah\">بْ</span>عَثَ رَسُولًا"
+    },
+    {
+      "number": 16,
+      "arFull": "وَاِذَاۤ اَرَدْنَاۤ اَنْ نُّهْلِكَ قَرْیَةً اَمَرْنَا مُتْرَفِیْهَا فَفَسَقُوْا فِیْهَا فَحَقَّ عَلَیْهَا الْقَوْلُ فَدَمَّرْنٰهَا تَدْمِیْرًا ۟",
+      "ur": "اور جب ہم کسی بستی کی ہلاکت کا اراده کرلیتے ہیں تو وہاں کے خوشحال لوگوں کو (کچھ) حکم دیتے ہیں اور وه اس بستی میں کھلی نافرمانی کرنے لگتے ہیں تو ان پر (عذاب کی) بات ﺛابت ہوجاتی ہے پھر ہم اسے تباه وبرباد کردیتے ہیں.[1]",
+      "en": "And when We intend to destroy a city, We command its affluent[733] but they defiantly disobey therein; so the word [i.e., deserved decree] comes into effect upon it, and We destroy it with [complete] destruction.",
+      "footnotesUr": "[1] اس میں وہ اصول بتلایا گیا ہے جس کی روح سے قوموں کی ہلاکت کا فیصلہ کیا جاتا ہے اور یہ کہ ان کا خوش حال طبقہ اللہ کے حکموں کی نافرمانی شروع کر دیتا ہے اور انہی کی تقلید پھر دوسرے لوگ کرتے ہیں، یوں اس قوم میں اللہ کی نافرمانی عام ہو جاتی ہے اور وہ مستحق عذاب قرار پا جاتی ہے۔",
+      "footnotesEn": "[733] To obey Allāh.",
+      "words": [
+        {
+          "ar": "وَاِذَاۤ",
+          "ur": "اور جب",
+          "en": "And when",
+          "arTajweed": "وَإِذَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَرَدْنَاۤ",
+          "ur": "ارادہ کرتے ہیں ہم",
+          "en": "We intend",
+          "arTajweed": "أَرَ<span class=\"tj-qalaqah\">دْ</span>نَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "نُّهْلِكَ",
+          "ur": "ہم ہلاک کردیں",
+          "en": "We destroy",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نُّ</span>هْلِكَ"
+        },
+        {
+          "ar": "قَرْیَةً",
+          "ur": "کسی بستی کو",
+          "en": "a town",
+          "arTajweed": "قَرْيَةً"
+        },
+        {
+          "ar": "اَمَرْنَا",
+          "ur": "حکم دیتے ہیں ہم",
+          "en": "We order",
+          "arTajweed": "أَمَرْنَا"
+        },
+        {
+          "ar": "مُتْرَفِیْهَا",
+          "ur": "اس کے خوش حال طبقے کو",
+          "en": "its wealthy people",
+          "arTajweed": "مُتْرَفِيهَا"
+        },
+        {
+          "ar": "فَفَسَقُوْا",
+          "ur": "تو وہ نافرمانی کرتے ہیں",
+          "en": "but they defiantly disobey",
+          "arTajweed": "فَفَسَقُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "فِیْهَا",
+          "ur": "اس میں",
+          "en": "therein",
+          "arTajweed": "فِيهَا"
+        },
+        {
+          "ar": "فَحَقَّ",
+          "ur": "تو سچ ہوجاتی ہے",
+          "en": "so (is) proved true",
+          "arTajweed": "فَحَقَّ"
+        },
+        {
+          "ar": "عَلَیْهَا",
+          "ur": "اس پر",
+          "en": "against it",
+          "arTajweed": "عَلَيْهَا"
+        },
+        {
+          "ar": "الْقَوْلُ",
+          "ur": "بات",
+          "en": "the word",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقَوْلُ"
+        },
+        {
+          "ar": "فَدَمَّرْنٰهَا",
+          "ur": "تو تباہ کردیتے ہیں ہم",
+          "en": "and We destroy it",
+          "arTajweed": "فَدَ<span class=\"tj-ghunnah\">مَّ</span>رْنَ<span class=\"tj-madda-normal\">ٰ</span>هَا"
+        },
+        {
+          "ar": "تَدْمِیْرًا",
+          "ur": "اس کو تباہ کرنا",
+          "en": "(with) destruction",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">دْ</span>مِيرًا"
+        }
+      ],
+      "arTajweed": "وَإِذَ<span class=\"tj-madda-permissible\">آ</span> أَرَ<span class=\"tj-qalaqah\">دْ</span>نَ<span class=\"tj-madda-permissible\">آ</span> أَ<span class=\"tj-idgham-ghunnah\">ن نُّ</span>هْلِكَ قَرْيَةً أَمَرْنَا مُتْرَفِيهَا فَفَسَقُو<span class=\"tj-slnt\">ا۟</span> فِيهَا فَحَقَّ عَلَيْهَا <span class=\"tj-ham-wasl\">ٱ</span>لْقَوْلُ فَدَ<span class=\"tj-ghunnah\">مَّ</span>رْنَ<span class=\"tj-madda-normal\">ٰ</span>هَا تَ<span class=\"tj-qalaqah\">دْ</span>مِيرًا"
+    },
+    {
+      "number": 17,
+      "arFull": "وَكَمْ اَهْلَكْنَا مِنَ الْقُرُوْنِ مِنْ بَعْدِ نُوْحٍ ؕ وَكَفٰی بِرَبِّكَ بِذُنُوْبِ عِبَادِهٖ خَبِیْرًا بَصِیْرًا ۟",
+      "ur": "ہم نے نوح کے بعد بھی بہت سی قومیں ہلاک کیں[1] اور تیرا رب اپنے بندوں کے گناہوں سے کافی خبردار اور خوب دیکھنے بھالنے واﻻ ہے.",
+      "en": "And how many have We destroyed from the generations after Noah. And sufficient is your Lord, concerning the sins of His servants, as Aware and Seeing.",
+      "footnotesUr": "[1] وہ بھی اسی اصول ہلاکت کے تحت ہی ہلاک ہوئیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَكَمْ",
+          "ur": "اور کتنی ہی",
+          "en": "And how many",
+          "arTajweed": "وَكَمْ"
+        },
+        {
+          "ar": "اَهْلَكْنَا",
+          "ur": "ہلاک کیں ہم نے",
+          "en": "We destroyed",
+          "arTajweed": "أَهْلَكْنَا"
+        },
+        {
+          "ar": "مِنَ",
+          "ur": "میں سے",
+          "en": "from",
+          "arTajweed": "مِنَ"
+        },
+        {
+          "ar": "الْقُرُوْنِ",
+          "ur": "بستیوں",
+          "en": "the generations",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرُونِ"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "کے",
+          "en": "after",
+          "arTajweed": "مِن<span class=\"tj-iqlab\">ۢ</span>"
+        },
+        {
+          "ar": "بَعْدِ",
+          "ur": "بعد",
+          "en": "after",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َعْدِ"
+        },
+        {
+          "ar": "نُوْحٍ ؕ",
+          "ur": "نوح",
+          "en": "Nuh",
+          "arTajweed": "نُوح<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَكَفٰی",
+          "ur": "اور کافی ہے",
+          "en": "And sufficient",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>كَفَىٰ"
+        },
+        {
+          "ar": "بِرَبِّكَ",
+          "ur": "تیرا رب",
+          "en": "(is) your Lord",
+          "arTajweed": "بِرَبِّكَ"
+        },
+        {
+          "ar": "بِذُنُوْبِ",
+          "ur": "گناہوں کی",
+          "en": "concerning the sins",
+          "arTajweed": "بِذُنُوبِ"
+        },
+        {
+          "ar": "عِبَادِهٖ",
+          "ur": "اپنے بندوں کے",
+          "en": "(of) His servants",
+          "arTajweed": "عِبَادِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "خَبِیْرًا",
+          "ur": "خبر رکھنے والا",
+          "en": "All-Aware",
+          "arTajweed": "خَبِير<span class=\"tj-iqlab\">ًۢا</span>"
+        },
+        {
+          "ar": "بَصِیْرًا",
+          "ur": "دیکھنے والا",
+          "en": "All-Seer",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َصِيرًا"
+        }
+      ],
+      "arTajweed": "وَكَمْ أَهْلَكْنَا مِنَ <span class=\"tj-ham-wasl\">ٱ</span>لْقُرُونِ مِن<span class=\"tj-iqlab\">ۢ ب</span>َعْدِ نُوح<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>كَفَىٰ بِرَبِّكَ بِذُنُوبِ عِبَادِهِ<span class=\"tj-madda-normal\">ۦ</span> خَبِير<span class=\"tj-iqlab\">ًۢا ب</span>َصِيرًا"
+    },
+    {
+      "number": 18,
+      "arFull": "مَنْ كَانَ یُرِیْدُ الْعَاجِلَةَ عَجَّلْنَا لَهٗ فِیْهَا مَا نَشَآءُ لِمَنْ نُّرِیْدُ ثُمَّ جَعَلْنَا لَهٗ جَهَنَّمَ ۚ یَصْلٰىهَا مَذْمُوْمًا مَّدْحُوْرًا ۟",
+      "ur": "جس کا اراده صرف اس جلدی والی دنیا (فوری فائده) کا ہی ہو اسے ہم یہاں جس قدر جس کے لئے چاہیں سردست دیتے ہیں بالﺂخر اس کے لئے ہم جہنم مقرر کردیتے ہیں جہاں وه برے حالوں دھتکارا ہوا داخل ہوگا.[1]",
+      "en": "Whoever should desire the immediate[734] - We hasten for him from it what We will to whom We intend. Then We have made for him Hell, which he will [enter to] burn, censured and banished.",
+      "footnotesUr": "[1] یعنی دنیا کے ہر طالب کو دنیا نہیں ملتی، صرف اسی کو ملتی ہے جس کو ہم چاہیں، پھر اس کو بھی اتنی دنیا نہیں جتنی وہ چاہتا ہے بلکہ اتنی ہی ملتی ہے جتنی ہم اس کے لئے فیصلہ کریں۔ لیکن اس دنیا طلبی کا نتیجہ جہنم کا دائمی عذاب اور اس کی رسوائی ہے۔",
+      "footnotesEn": "[734] i.e., worldly gratifications.",
+      "words": [
+        {
+          "ar": "مَنْ",
+          "ur": "جو کوئی",
+          "en": "Whoever",
+          "arTajweed": "مَّ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "should",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>انَ"
+        },
+        {
+          "ar": "یُرِیْدُ",
+          "ur": "ارادہ رکھتا ہے",
+          "en": "desire",
+          "arTajweed": "يُرِيدُ"
+        },
+        {
+          "ar": "الْعَاجِلَةَ",
+          "ur": "جلدی ملنے والی چیز کا",
+          "en": "the immediate",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْعَاجِلَةَ"
+        },
+        {
+          "ar": "عَجَّلْنَا",
+          "ur": "جلدی دیتے ہیں ہم",
+          "en": "We hasten",
+          "arTajweed": "عَجَّلْنَا"
+        },
+        {
+          "ar": "لَهٗ",
+          "ur": "اس کے لئے",
+          "en": "for him",
+          "arTajweed": "لَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "فِیْهَا",
+          "ur": "اس میں",
+          "en": "in it",
+          "arTajweed": "فِيهَا"
+        },
+        {
+          "ar": "مَا",
+          "ur": "جو",
+          "en": "what",
+          "arTajweed": "مَا"
+        },
+        {
+          "ar": "نَشَآءُ",
+          "ur": "ہم چاہتے ہیں",
+          "en": "We will",
+          "arTajweed": "نَشَ<span class=\"tj-madda-obligatory\">آ</span>ءُ"
+        },
+        {
+          "ar": "لِمَنْ",
+          "ur": "جس کے لئے",
+          "en": "to whom",
+          "arTajweed": "لِمَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "نُّرِیْدُ",
+          "ur": "ہم چاہتے ہیں",
+          "en": "We intend",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نُّ</span>رِيدُ"
+        },
+        {
+          "ar": "ثُمَّ",
+          "ur": "پھر",
+          "en": "Then",
+          "arTajweed": "ثُ<span class=\"tj-ghunnah\">مَّ</span>"
+        },
+        {
+          "ar": "جَعَلْنَا",
+          "ur": "مقرر کردیتے ہیں ہم",
+          "en": "We have made",
+          "arTajweed": "جَعَلْنَا"
+        },
+        {
+          "ar": "لَهٗ",
+          "ur": "اس کے لئے",
+          "en": "for him",
+          "arTajweed": "لَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "جَهَنَّمَ ۚ",
+          "ur": "جہنم کو",
+          "en": "Hell",
+          "arTajweed": "جَهَ<span class=\"tj-ghunnah\">نَّ</span>مَ"
+        },
+        {
+          "ar": "یَصْلٰىهَا",
+          "ur": "تاپے گا اس کو",
+          "en": "he will burn",
+          "arTajweed": "يَصْلَى<span class=\"tj-madda-normal\">ٰ</span>هَا"
+        },
+        {
+          "ar": "مَذْمُوْمًا",
+          "ur": "ملامت زدہ",
+          "en": "disgraced",
+          "arTajweed": "مَذْمُوم<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّدْحُوْرًا",
+          "ur": "رحمت سے دور رکھا ہوا",
+          "en": "rejected",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span><span class=\"tj-qalaqah\">دْ</span>حُورًا"
+        }
+      ],
+      "arTajweed": "مَّ<span class=\"tj-ikhafa\">ن كَ</span>انَ يُرِيدُ <span class=\"tj-ham-wasl\">ٱ</span>لْعَاجِلَةَ عَجَّلْنَا لَهُ<span class=\"tj-madda-normal\">ۥ</span> فِيهَا مَا نَشَ<span class=\"tj-madda-obligatory\">آ</span>ءُ لِمَ<span class=\"tj-idgham-ghunnah\">ن نُّ</span>رِيدُ ثُ<span class=\"tj-ghunnah\">مَّ</span> جَعَلْنَا لَهُ<span class=\"tj-madda-normal\">ۥ</span> جَهَ<span class=\"tj-ghunnah\">نَّ</span>مَ يَصْلَى<span class=\"tj-madda-normal\">ٰ</span>هَا مَذْمُوم<span class=\"tj-idgham-ghunnah\">ًا مَّ</span><span class=\"tj-qalaqah\">دْ</span>حُورًا"
+    },
+    {
+      "number": 19,
+      "arFull": "وَمَنْ اَرَادَ الْاٰخِرَةَ وَسَعٰی لَهَا سَعْیَهَا وَهُوَ مُؤْمِنٌ فَاُولٰٓىِٕكَ كَانَ سَعْیُهُمْ مَّشْكُوْرًا ۟",
+      "ur": "اور جس کا اراده آخرت کا ہو اور جیسی کوشش اس کے لئے ہونی چاہیئے، وه کرتا بھی ہو اور وه باایمان بھی ہو، پس یہی لوگ ہیں جن کی کوشش کی اللہ کے ہاں پوری قدردانی کی جائے گی.[1]",
+      "en": "But whoever desires the Hereafter and exerts the effort due to it while he is a believer - it is those whose effort is ever appreciated [by Allāh].",
+      "footnotesUr": "[1] اللہ تعالٰی کے ہاں قدر دانی کے لئے تین چیزیں یہاں بیان کی گئی ہیں: (1)۔ ارادہ آخرت، یعنی اخلاص اور اللہ کی رضا جوئی، (2)۔ ایسی کوشش جو اس کے لائق ہو، یعنی سنت کے مطابق، (3)۔ ایمان کیونکہ اس کے بغیر تو کوئی عمل بھی قابل التفات نہیں۔ یعنی قبولیت عمل کے لئے ایمان کے ساتھ اخلاص اور سنت نبوی کے مطابق ہونا ضروری ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَمَنْ",
+          "ur": "اور جو",
+          "en": "And whoever",
+          "arTajweed": "وَمَنْ"
+        },
+        {
+          "ar": "اَرَادَ",
+          "ur": "چاہتا ہے",
+          "en": "desires",
+          "arTajweed": "أَرَادَ"
+        },
+        {
+          "ar": "الْاٰخِرَةَ",
+          "ur": "آخرت کو",
+          "en": "the Hereafter",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةَ"
+        },
+        {
+          "ar": "وَسَعٰی",
+          "ur": "اور کوشش کرے",
+          "en": "and exerts",
+          "arTajweed": "وَسَعَىٰ"
+        },
+        {
+          "ar": "لَهَا",
+          "ur": "اس کے لئے",
+          "en": "for it",
+          "arTajweed": "لَهَا"
+        },
+        {
+          "ar": "سَعْیَهَا",
+          "ur": "کوشش اس کی",
+          "en": "the effort",
+          "arTajweed": "سَعْيَهَا"
+        },
+        {
+          "ar": "وَهُوَ",
+          "ur": "اور وہ",
+          "en": "while he",
+          "arTajweed": "وَهُوَ"
+        },
+        {
+          "ar": "مُؤْمِنٌ",
+          "ur": "مومن ہو",
+          "en": "(is) a believer",
+          "arTajweed": "مُؤْمِن<span class=\"tj-ikhafa\">ٌ</span>"
+        },
+        {
+          "ar": "فَاُولٰٓىِٕكَ",
+          "ur": "تو یہی لوگ",
+          "en": "then those",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "[are]",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "سَعْیُهُمْ",
+          "ur": "ان کی کوشش",
+          "en": "their effort",
+          "arTajweed": "سَعْيُهُ<span class=\"tj-idgham-shafawi\">م</span>"
+        },
+        {
+          "ar": "مَّشْكُوْرًا",
+          "ur": "قابل قدر",
+          "en": "(is) appreciated",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مَّ</span>شْكُورًا"
+        }
+      ],
+      "arTajweed": "وَمَنْ أَرَادَ <span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةَ وَسَعَىٰ لَهَا سَعْيَهَا وَهُوَ مُؤْمِن<span class=\"tj-ikhafa\">ٌ فَ</span>أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ كَانَ سَعْيُهُ<span class=\"tj-idgham-shafawi\">م مَّ</span>شْكُورًا"
+    },
+    {
+      "number": 20,
+      "arFull": "كُلًّا نُّمِدُّ هٰۤؤُلَآءِ وَهٰۤؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ ؕ وَمَا كَانَ عَطَآءُ رَبِّكَ مَحْظُوْرًا ۟",
+      "ur": "ہر ایک کو ہم بہم پہنچائے جاتے ہیں انہیں بھی اور ا نہیں بھی تیرے پروردگار کے انعامات میں سے۔ تیرے پروردگار کی بخشش رکی ہوئی نہیں ہے.[1]",
+      "en": "To each [category] We extend - to these and to those - from the gift of your Lord. And never has the gift of your Lord been restricted.",
+      "footnotesUr": "[1] یعنی دنیا کا رزق اور اس کی آسائشیں ہم بلا تفریق مومن اور کافر، طالب دنیا اور طالب آخرت سب کو دیتے ہیں۔ اللہ کی نعمتیں کسی سے بھی روکی نہیں جاتیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "كُلًّا",
+          "ur": "ہر ایک کو",
+          "en": "(To) each",
+          "arTajweed": "كُلّ<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "نُّمِدُّ",
+          "ur": "ہم مدد دیتے ہیں",
+          "en": "We extend",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نُّ</span>مِدُّ"
+        },
+        {
+          "ar": "هٰۤؤُلَآءِ",
+          "ur": "ان لوگوں کو",
+          "en": "(to) these",
+          "arTajweed": "هَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ؤُلَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "وَهٰۤؤُلَآءِ",
+          "ur": "اور ان لوگوں کو",
+          "en": "and (to) these",
+          "arTajweed": "وَهَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ؤُلَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "میں سے",
+          "en": "from",
+          "arTajweed": "مِنْ"
+        },
+        {
+          "ar": "عَطَآءِ",
+          "ur": "بخشش",
+          "en": "(the) gift",
+          "arTajweed": "عَطَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكَ ؕ",
+          "ur": "تیرے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكَ"
+        },
+        {
+          "ar": "وَمَا",
+          "ur": "اور نہیں ہے",
+          "en": "And not",
+          "arTajweed": "وَمَا"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": null,
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "عَطَآءُ",
+          "ur": "بخشش",
+          "en": "(the) gift",
+          "arTajweed": "عَطَ<span class=\"tj-madda-obligatory\">آ</span>ءُ"
+        },
+        {
+          "ar": "رَبِّكَ",
+          "ur": "تیرے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكَ"
+        },
+        {
+          "ar": "مَحْظُوْرًا",
+          "ur": "رد کی گئی",
+          "en": "restricted",
+          "arTajweed": "مَحْظُورًا"
+        }
+      ],
+      "arTajweed": "كُلّ<span class=\"tj-idgham-ghunnah\">ًا نُّ</span>مِدُّ هَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ؤُلَ<span class=\"tj-madda-obligatory\">آ</span>ءِ وَهَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ؤُلَ<span class=\"tj-madda-obligatory\">آ</span>ءِ مِنْ عَطَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكَ وَمَا كَانَ عَطَ<span class=\"tj-madda-obligatory\">آ</span>ءُ رَبِّكَ مَحْظُورًا"
+    },
+    {
+      "number": 21,
+      "arFull": "اُنْظُرْ كَیْفَ فَضَّلْنَا بَعْضَهُمْ عَلٰی بَعْضٍ ؕ وَلَلْاٰخِرَةُ اَكْبَرُ دَرَجٰتٍ وَّاَكْبَرُ تَفْضِیْلًا ۟",
+      "ur": "دیکھ لے کہ ان میں ایک کو ایک پر ہم نے کس طرح فضیلت دے رکھی ہے اور آخرت تو درجوں میں اور بھی بڑھ کر ہے اور فضیلت کے اعتبار سے بھی بہت بڑی ہے.[1]",
+      "en": "Look how We have favored [in provision] some of them over others. But the Hereafter is greater in degrees [of difference] and greater in distinction.",
+      "footnotesUr": "[1] تاہم دنیا کی چیزیں کسی کو کم، کسی کو زیادہ ملتی ہیں، اللہ تعالٰی اپنی حکمت و مصلحت کے مطابق یہ روزی تقسیم فرماتا ہے۔ تاہم آخرت میں درجات کا یہ تفاضل زیادہ واضح اور نمایاں ہوگا اور وہ اس طرح کہ اہل ایمان جنت میں اور اہل کفر جہنم میں جائیں گے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اُنْظُرْ",
+          "ur": "دیکھو",
+          "en": "See",
+          "arTajweed": "ٱ<span class=\"tj-ikhafa\">نظُ</span>رْ"
+        },
+        {
+          "ar": "كَیْفَ",
+          "ur": "کس طرح",
+          "en": "how",
+          "arTajweed": "كَيْفَ"
+        },
+        {
+          "ar": "فَضَّلْنَا",
+          "ur": "فضیلت دی ہم نے",
+          "en": "We preferred",
+          "arTajweed": "فَضَّلْنَا"
+        },
+        {
+          "ar": "بَعْضَهُمْ",
+          "ur": "ان میں سے بعض کو",
+          "en": "some of them",
+          "arTajweed": "بَعْضَهُمْ"
+        },
+        {
+          "ar": "عَلٰی",
+          "ur": "اوپر",
+          "en": "over",
+          "arTajweed": "عَلَىٰ"
+        },
+        {
+          "ar": "بَعْضٍ ؕ",
+          "ur": "بعض کو",
+          "en": "others",
+          "arTajweed": "بَعْض<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَلَلْاٰخِرَةُ",
+          "ur": "اور البتہ آخرت",
+          "en": "And surely the Hereafter",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>لَلْءَاخِرَةُ"
+        },
+        {
+          "ar": "اَكْبَرُ",
+          "ur": "زیادہ بڑی ہے",
+          "en": "(is) greater",
+          "arTajweed": "أَكْبَرُ"
+        },
+        {
+          "ar": "دَرَجٰتٍ",
+          "ur": "درجات کے اعتبار سے",
+          "en": "(in) degrees",
+          "arTajweed": "دَرَجَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّاَكْبَرُ",
+          "ur": "اور زیادہ بڑی ہے",
+          "en": "and greater",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>أَكْبَرُ"
+        },
+        {
+          "ar": "تَفْضِیْلًا",
+          "ur": "فضیلت میں",
+          "en": "(in) excellence",
+          "arTajweed": "تَفْضِيلًا"
+        }
+      ],
+      "arTajweed": "ٱ<span class=\"tj-ikhafa\">نظُ</span>رْ كَيْفَ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْض<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>لَلْءَاخِرَةُ أَكْبَرُ دَرَجَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>أَكْبَرُ تَفْضِيلًا"
+    },
+    {
+      "number": 22,
+      "arFull": "لَا تَجْعَلْ مَعَ اللّٰهِ اِلٰهًا اٰخَرَ فَتَقْعُدَ مَذْمُوْمًا مَّخْذُوْلًا ۟۠",
+      "ur": "اللہ کے ساتھ کسی اور کو معبود نہ ٹھہرا کہ آخرش تو برے حالوں بےکس ہو کر بیٹھ رہے گا.",
+      "en": "Do not make [as equal] with Allāh another deity and [thereby] become censured and forsaken.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "لَا",
+          "ur": "نہ",
+          "en": "(Do) not",
+          "arTajweed": "لَّا"
+        },
+        {
+          "ar": "تَجْعَلْ",
+          "ur": "تو بنا",
+          "en": "make",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">جْ</span>عَلْ"
+        },
+        {
+          "ar": "مَعَ",
+          "ur": "ساتھ",
+          "en": "with",
+          "arTajweed": "مَعَ"
+        },
+        {
+          "ar": "اللّٰهِ",
+          "ur": "اللہ کے",
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
+        },
+        {
+          "ar": "اِلٰهًا",
+          "ur": "کوئی الٰہ",
+          "en": "god",
+          "arTajweed": "إِلَ<span class=\"tj-madda-normal\">ٰ</span>هًا"
+        },
+        {
+          "ar": "اٰخَرَ",
+          "ur": "دوسرا",
+          "en": "another",
+          "arTajweed": "ءَاخَرَ"
+        },
+        {
+          "ar": "فَتَقْعُدَ",
+          "ur": "تو تو بیٹھا رہ جائے گا",
+          "en": "lest you will sit",
+          "arTajweed": "فَتَ<span class=\"tj-qalaqah\">قْ</span>عُدَ"
+        },
+        {
+          "ar": "مَذْمُوْمًا",
+          "ur": "ملامت زدہ",
+          "en": "disgraced",
+          "arTajweed": "مَذْمُوم<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّخْذُوْلًا",
+          "ur": "بےیارو مددگار ہوکر",
+          "en": "forsaken",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>خْذُولًا"
+        }
+      ],
+      "arTajweed": "لَّا تَ<span class=\"tj-qalaqah\">جْ</span>عَلْ مَعَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ إِلَ<span class=\"tj-madda-normal\">ٰ</span>هًا ءَاخَرَ فَتَ<span class=\"tj-qalaqah\">قْ</span>عُدَ مَذْمُوم<span class=\"tj-idgham-ghunnah\">ًا مَّ</span>خْذُولًا"
+    },
+    {
+      "number": 23,
+      "arFull": "وَقَضٰی رَبُّكَ اَلَّا تَعْبُدُوْۤا اِلَّاۤ اِیَّاهُ وَبِالْوَالِدَیْنِ اِحْسَانًا ؕ اِمَّا یَبْلُغَنَّ عِنْدَكَ الْكِبَرَ اَحَدُهُمَاۤ اَوْ كِلٰهُمَا فَلَا تَقُلْ لَّهُمَاۤ اُفٍّ وَّلَا تَنْهَرْهُمَا وَقُلْ لَّهُمَا قَوْلًا كَرِیْمًا ۟",
+      "ur": "اور تیرا پروردگار صاف صاف حکم دے چکا ہے کہ تم اس کے سوا کسی اور کی عبادت نہ کرنا اور ماں باپ کے ساتھ احسان کرنا۔ اگر تیری موجودگی میں ان میں سے ایک یا یہ دونوں بڑھاپے کو پہنچ جائیں تو ان کے آگے اف تک نہ کہنا، نہ انہیں ڈانٹ ڈپٹ کرنا بلکہ ان کے ساتھ ادب و احترام سے بات چیت کرنا.[1] s",
+      "en": "And your Lord has decreed that you worship not except Him, and to parents, good treatment. Whether one or both of them reach old age [while] with you, say not to them [so much as], \"uff,\"[735] and do not repel them but speak to them a noble word.",
+      "footnotesUr": "[1] اس آیت میں اللہ تبارک و تعالٰی نے اپنی عبادت کے بعد دوسرے نمبر پر والدین کے ساتھ حسن سلوک کا حکم دیا ہے، جس سے والدین کی اطاعت، ان کی خدمت اور ان کے ادب و احترام کی اہمیت واضح ہے۔ گویا ربوبیت الٰہی کے تقاضوں کے ساتھ اطاعت والدین کے تقاضوں کی ادائیگی بھی ضروری ہے۔ احادیث میں بھی اس کی اہمیت اور تاکید کو خوب واضح کر دیا گیا ہے، پھر بڑھاپے میں بطور خاص ان کے سامنے ”ہوں“ تک کہنے اور ان کو ڈانٹنے ڈپٹنے سے منع کیا ہے، کیونکہ بڑھاپے میں والدین تو کمزور، بے بس اور لا چار ہوجاتے ہیں، جب کہ اولاد جوان اور وسائل معاش پر قابض و متصرف ہوتی ہے۔ علاوہ ازیں جوانی کے دیوانے جذبات اور بڑھاپے کے سرد و گرم چشیدہ تجربات میں تصادم ہوتا ہے۔ ان حالات میں والدین کے ادب و احترام کے تقاضوں کو ملحوظ رکھنا بہت ہی مشکل مرحلہ ہوتا ہے۔ تاہم اللہ کے ہاں سرخ رو وہی ہوگا جو ان تقاضوں کو ملحوظ رکھے گا۔",
+      "footnotesEn": "[735] An expression of disapproval or irritation.",
+      "words": [
+        {
+          "ar": "وَقَضٰی",
+          "ur": "اور فیصلہ کردیا ہے",
+          "en": "And has decreed",
+          "arTajweed": "وَقَضَىٰ"
+        },
+        {
+          "ar": "رَبُّكَ",
+          "ur": "تیرے رب نے",
+          "en": "your Lord",
+          "arTajweed": "رَبُّكَ"
+        },
+        {
+          "ar": "اَلَّا",
+          "ur": "کہ نہ",
+          "en": "that (do) not",
+          "arTajweed": "أَلَّا"
+        },
+        {
+          "ar": "تَعْبُدُوْۤا",
+          "ur": "تم عبادت کرو",
+          "en": "worship",
+          "arTajweed": "تَعْبُدُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اِلَّاۤ",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اِیَّاهُ",
+          "ur": "اسی کی",
+          "en": "Him Alone",
+          "arTajweed": "إِيَّاهُ"
+        },
+        {
+          "ar": "وَبِالْوَالِدَیْنِ",
+          "ur": "اور والدین کے ساتھ",
+          "en": "and to the parents",
+          "arTajweed": "وَبِ<span class=\"tj-ham-wasl\">ٱ</span>لْوَ<span class=\"tj-madda-normal\">ٰ</span>لِدَيْنِ"
+        },
+        {
+          "ar": "اِحْسَانًا ؕ",
+          "ur": "احسان کرو",
+          "en": "(be) good",
+          "arTajweed": "إِحْسَ<span class=\"tj-madda-normal\">ٰ</span>نًا"
+        },
+        {
+          "ar": "اِمَّا",
+          "ur": "اگر و ہ",
+          "en": "Whether",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">مَّ</span>ا"
+        },
+        {
+          "ar": "یَبْلُغَنَّ",
+          "ur": "پہنچیں",
+          "en": "reach",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">بْ</span>لُغَ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "عِنْدَكَ",
+          "ur": "تیرے پاس",
+          "en": "with you",
+          "arTajweed": "عِ<span class=\"tj-ikhafa\">ندَ</span>كَ"
+        },
+        {
+          "ar": "الْكِبَرَ",
+          "ur": "بڑی عمر کو/ بڑھاپے کو",
+          "en": "the old age",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْكِبَرَ"
+        },
+        {
+          "ar": "اَحَدُهُمَاۤ",
+          "ur": "ان دونوں میں سے ایک",
+          "en": "one of them",
+          "arTajweed": "أَحَدُهُمَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "كِلٰهُمَا",
+          "ur": "وہ دونوں",
+          "en": "both of them",
+          "arTajweed": "كِلَاهُمَا"
+        },
+        {
+          "ar": "فَلَا",
+          "ur": "تو نہ",
+          "en": "then (do) not",
+          "arTajweed": "فَلَا"
+        },
+        {
+          "ar": "تَقُلْ",
+          "ur": "کہنا",
+          "en": "say",
+          "arTajweed": "تَقُل"
+        },
+        {
+          "ar": "لَّهُمَاۤ",
+          "ur": "ان دونوں کے لئے",
+          "en": "to both of them",
+          "arTajweed": "لَّهُمَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اُفٍّ",
+          "ur": "ا ف",
+          "en": "a word of disrespect",
+          "arTajweed": "أُفّ<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّلَا",
+          "ur": "اور نہ",
+          "en": "and (do) not",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>لَا"
+        },
+        {
+          "ar": "تَنْهَرْهُمَا",
+          "ur": "جھڑکنا ان کو",
+          "en": "repel them",
+          "arTajweed": "تَنْهَرْهُمَا"
+        },
+        {
+          "ar": "وَقُلْ",
+          "ur": "اور کہنا",
+          "en": "but speak",
+          "arTajweed": "وَقُل"
+        },
+        {
+          "ar": "لَّهُمَا",
+          "ur": "ان کو",
+          "en": "to them",
+          "arTajweed": "لَّهُمَا"
+        },
+        {
+          "ar": "قَوْلًا",
+          "ur": "بات",
+          "en": "a word",
+          "arTajweed": "قَوْل<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "كَرِیْمًا",
+          "ur": "عزت والی/ احترام والی",
+          "en": "noble",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>رِيمًا"
+        }
+      ],
+      "arTajweed": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> إِلَّ<span class=\"tj-madda-permissible\">آ</span> إِيَّاهُ وَبِ<span class=\"tj-ham-wasl\">ٱ</span>لْوَ<span class=\"tj-madda-normal\">ٰ</span>لِدَيْنِ إِحْسَ<span class=\"tj-madda-normal\">ٰ</span>نًا إِ<span class=\"tj-ghunnah\">مَّ</span>ا يَ<span class=\"tj-qalaqah\">بْ</span>لُغَ<span class=\"tj-ghunnah\">نَّ</span> عِ<span class=\"tj-ikhafa\">ندَ</span>كَ <span class=\"tj-ham-wasl\">ٱ</span>لْكِبَرَ أَحَدُهُمَ<span class=\"tj-madda-permissible\">آ</span> أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَ<span class=\"tj-madda-permissible\">آ</span> أُفّ<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>لَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْل<span class=\"tj-ikhafa\">ًا كَ</span>رِيمًا"
+    },
+    {
+      "number": 24,
+      "arFull": "وَاخْفِضْ لَهُمَا جَنَاحَ الذُّلِّ مِنَ الرَّحْمَةِ وَقُلْ رَّبِّ ارْحَمْهُمَا كَمَا رَبَّیٰنِیْ صَغِیْرًا ۟ؕ",
+      "ur": "اور عاجزی اور محبت کے ساتھ ان کے سامنے تواضع کا بازو پست رکھے رکھنا[1] اور دعا کرتے رہنا کہ اے میرے پروردگار! ان پر ویسا ہی رحم کر جیسا انہوں نے میرے بچپن میں میری پرورش کی ہے.",
+      "en": "And lower to them the wing of humility out of mercy and say, \"My Lord, have mercy upon them as they brought me up [when I was] small.\"",
+      "footnotesUr": "[1] پرندہ جب اپنے بچوں کو اپنے سایۂ شفقت میں لیتا ہے تو ان کے لئے اپنے بازو پست کر دیتا ہے، یعنی تو بھی والدین کے ساتھ اسی طرح اچھا اور پُرشفقت معاملہ کرنا اور ان کی اسی طرح کفالت کر جس طرح انہوں نے بچپن میں تیری کی۔ یا یہ معنی ہیں کہ جب پرندہ اڑنے اور بلند ہونے کا ارادہ کرتا ہے تو اپنے بازو پھیلا لیتا ہے اور جب نیچے اترتا ہے تو بازؤں کو پست کر لیتا ہے۔ اس اعتبار سے بازوؤں کے پست کرنے کے معنی، والدین کے سامنے تواضع اور عاجزی کا اظہار کرنے کے ہوں گے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَاخْفِضْ",
+          "ur": "اور جھکاؤ/ جھکائے رکھنا",
+          "en": "And lower",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>خْفِضْ"
+        },
+        {
+          "ar": "لَهُمَا",
+          "ur": "ان دونوں کے لئے",
+          "en": "to them",
+          "arTajweed": "لَهُمَا"
+        },
+        {
+          "ar": "جَنَاحَ",
+          "ur": "بازو",
+          "en": "(the) wing",
+          "arTajweed": "جَنَاحَ"
+        },
+        {
+          "ar": "الذُّلِّ",
+          "ur": "ذلت کا/ عاجزی کا",
+          "en": "(of) humility",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ذُّلِّ"
+        },
+        {
+          "ar": "مِنَ",
+          "ur": "سے",
+          "en": "(out) of",
+          "arTajweed": "مِنَ"
+        },
+        {
+          "ar": "الرَّحْمَةِ",
+          "ur": "رحمت",
+          "en": "[the] mercy",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّحْمَةِ"
+        },
+        {
+          "ar": "وَقُلْ",
+          "ur": "اور کہو",
+          "en": "and say",
+          "arTajweed": "وَقُ<span class=\"tj-idghaam_mutaqaribayn\">ل</span>"
+        },
+        {
+          "ar": "رَّبِّ",
+          "ur": "اے میرے رب",
+          "en": "My Lord",
+          "arTajweed": "رَّبِّ"
+        },
+        {
+          "ar": "ارْحَمْهُمَا",
+          "ur": "رحم کیجئے ان دونوں پر",
+          "en": "Have mercy on both of them",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>رْحَمْهُمَا"
+        },
+        {
+          "ar": "كَمَا",
+          "ur": "جیسا کہ",
+          "en": "as",
+          "arTajweed": "كَمَا"
+        },
+        {
+          "ar": "رَبَّیٰنِیْ",
+          "ur": "ان دونوں نے پالا مجھ کو",
+          "en": "they brought me up",
+          "arTajweed": "رَبَّيَانِى"
+        },
+        {
+          "ar": "صَغِیْرًا",
+          "ur": "بچپن میں/ چھوٹے ہوتے",
+          "en": "(when I was) small",
+          "arTajweed": "صَغِيرًا"
+        }
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>خْفِضْ لَهُمَا جَنَاحَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ذُّلِّ مِنَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّحْمَةِ وَقُ<span class=\"tj-idghaam_mutaqaribayn\">ل</span> رَّبِّ <span class=\"tj-ham-wasl\">ٱ</span>رْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا"
+    },
+    {
+      "number": 25,
+      "arFull": "رَبُّكُمْ اَعْلَمُ بِمَا فِیْ نُفُوْسِكُمْ ؕ اِنْ تَكُوْنُوْا صٰلِحِیْنَ فَاِنَّهٗ كَانَ لِلْاَوَّابِیْنَ غَفُوْرًا ۟",
+      "ur": "جو کچھ تمہارے دلوں میں ہے اسے تمہارا رب بخوبی جانتا ہے اگر تم نیک ہو تو وه تو رجوع کرنے والوں کو بخشنے واﻻ ہے.",
+      "en": "Your Lord is most knowing of what is within yourselves. If you should be righteous [in intention] - then indeed He is ever, to the often returning [to Him], Forgiving.[736]",
+      "footnotesUr": null,
+      "footnotesEn": "[736] For those who intend righteousness, hastening to repent from sins and errors committed through human weakness, Allāh (subḥānahu wa taʿālā) promises forgiveness.",
+      "words": [
+        {
+          "ar": "رَبُّكُمْ",
+          "ur": "رب تمہارا",
+          "en": "Your Lord",
+          "arTajweed": "رَّبُّكُمْ"
+        },
+        {
+          "ar": "اَعْلَمُ",
+          "ur": "زیادہ جانتا ہے",
+          "en": "(is) most knowing",
+          "arTajweed": "أَعْلَمُ"
+        },
+        {
+          "ar": "بِمَا",
+          "ur": "ساتھ اس کے جو",
+          "en": "of what",
+          "arTajweed": "بِمَا"
+        },
+        {
+          "ar": "فِیْ",
+          "ur": "میں ہے",
+          "en": "(is) in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "نُفُوْسِكُمْ ؕ",
+          "ur": "تمہارے نفسوں",
+          "en": "yourselves",
+          "arTajweed": "نُفُوسِكُمْ"
+        },
+        {
+          "ar": "اِنْ",
+          "ur": "اگر",
+          "en": "If",
+          "arTajweed": "إِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "تَكُوْنُوْا",
+          "ur": "تم ہوگے",
+          "en": "you are",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span>كُونُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "صٰلِحِیْنَ",
+          "ur": "نیک",
+          "en": "righteous",
+          "arTajweed": "صَ<span class=\"tj-madda-normal\">ٰ</span>لِحِينَ"
+        },
+        {
+          "ar": "فَاِنَّهٗ",
+          "ur": "تو یقیناً وہ",
+          "en": "then indeed, He",
+          "arTajweed": "فَإِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "لِلْاَوَّابِیْنَ",
+          "ur": "رجوع کرنے والوں کے لئے",
+          "en": "to those who often turn (to Him)",
+          "arTajweed": "لِلْأَوَّ<span class=\"tj-madda-normal\">ٰ</span>بِينَ"
+        },
+        {
+          "ar": "غَفُوْرًا",
+          "ur": "بخشش فرمانے والا",
+          "en": "Most Forgiving",
+          "arTajweed": "غَفُورًا"
+        }
+      ],
+      "arTajweed": "رَّبُّكُمْ أَعْلَمُ بِمَا فِى نُفُوسِكُمْ إِ<span class=\"tj-ikhafa\">ن تَ</span>كُونُو<span class=\"tj-slnt\">ا۟</span> صَ<span class=\"tj-madda-normal\">ٰ</span>لِحِينَ فَإِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> كَانَ لِلْأَوَّ<span class=\"tj-madda-normal\">ٰ</span>بِينَ غَفُورًا"
+    },
+    {
+      "number": 26,
+      "arFull": "وَاٰتِ ذَا الْقُرْبٰی حَقَّهٗ وَالْمِسْكِیْنَ وَابْنَ السَّبِیْلِ وَلَا تُبَذِّرْ تَبْذِیْرًا ۟",
+      "ur": "اور رشتے داروں کا اور مسکینوں اور مسافروں کا حق ادا کرتے رہو[1] اور اسراف اور بیجا خرچ سے بچو.",
+      "en": "And give the relative his right, and [also] the poor and the traveler, and do not spend wastefully.[737]",
+      "footnotesUr": "[1] قرآن کریم کے ان الفاظ سے معلوم ہوا کہ غریب رشتہ داروں، مساکین اور ضرورت مند مسافروں کی امداد کر کے، ان پر احسان نہیں جتلانا چاہیے کیونکہ یہ ان پر احسان نہیں ہے، بلکہ مال کا وہ حق ہے جو اللہ تبارک و تعالٰی نے اصحاب مال کے مالوں میں مذکورہ ضرورت مندوں کا رکھا ہے، اگر صاحب مال یہ حق ادا نہیں کرے گا تو عند اللہ مجرم ہوگا۔ گویا یہ حق کی ادائیگی ہے، نہ کہ کسی پر احسان ۔علاوہ ازیں رشتے داروں کے پہلے ذکر سے ان کی اولیت اور اہمیت بھی واضح ہوتی ہے۔ رشتے داروں کے حقوق کی ادائیگی اور ان کے ساتھ حسن سلوک کو، صلہ رحمی کہا جاتا ہے، جس کی اسلام میں بڑی تاکید ہے۔",
+      "footnotesEn": "[737] i.e., on that which is unlawful or in disobedience to Allāh.",
+      "words": [
+        {
+          "ar": "وَاٰتِ",
+          "ur": "اور دو",
+          "en": "And give",
+          "arTajweed": "وَءَاتِ"
+        },
+        {
+          "ar": "ذَا",
+          "ur": null,
+          "en": "the relatives",
+          "arTajweed": "ذَا"
+        },
+        {
+          "ar": "الْقُرْبٰی",
+          "ur": "رشتہ داروں کو",
+          "en": "the relatives",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْبَىٰ"
+        },
+        {
+          "ar": "حَقَّهٗ",
+          "ur": "حق ان کا",
+          "en": "his right",
+          "arTajweed": "حَقَّهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "وَالْمِسْكِیْنَ",
+          "ur": "اور مسکین کو",
+          "en": "and the needy",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْمِسْكِينَ"
+        },
+        {
+          "ar": "وَابْنَ",
+          "ur": "اور مسافر کو",
+          "en": "and the wayfarer",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">بْ</span>نَ"
+        },
+        {
+          "ar": "السَّبِیْلِ",
+          "ur": "اور مسافر کو",
+          "en": "and the wayfarer",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّبِيلِ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "and (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تُبَذِّرْ",
+          "ur": "تو بےجا خرچ کر",
+          "en": "spend",
+          "arTajweed": "تُبَذِّرْ"
+        },
+        {
+          "ar": "تَبْذِیْرًا",
+          "ur": "ٓ بےجا خرچ کرنا",
+          "en": "wastefully",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">بْ</span>ذِيرًا"
+        }
+      ],
+      "arTajweed": "وَءَاتِ ذَا <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْبَىٰ حَقَّهُ<span class=\"tj-madda-normal\">ۥ</span> وَ<span class=\"tj-ham-wasl\">ٱ</span>لْمِسْكِينَ وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">بْ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّبِيلِ وَلَا تُبَذِّرْ تَ<span class=\"tj-qalaqah\">بْ</span>ذِيرًا"
+    },
+    {
+      "number": 27,
+      "arFull": "اِنَّ الْمُبَذِّرِیْنَ كَانُوْۤا اِخْوَانَ الشَّیٰطِیْنِ ؕ وَكَانَ الشَّیْطٰنُ لِرَبِّهٖ كَفُوْرًا ۟",
+      "ur": "بیجا خرچ کرنے والے شیطانوں کے بھائی ہیں۔ اور شیطان اپنے پروردگار کا بڑا ہی ناشکرا ہے.[1]",
+      "en": "Indeed, the wasteful are brothers of the devils, and ever has Satan been to his Lord ungrateful.",
+      "footnotesUr": "[1] تَبْذِيرٌ کی اصل بذر (بیج) ہے، جس طرح زمین میں بیج ڈالتے ہوئے یہ نہیں دیکھا جاتا کہ یہ صحیح جگہ پر پڑ رہا ہے یا اس سے ادھر اُدھر، بلکہ کسان بیج ڈالے چلا جاتا ہے۔ تَبْذِيرٌ (فضول خرچی) بھی یہی ہے کہ انسان اپنا مال بیج کی طرح اڑاتا پھرے اور خرچ کرنے میں حد شرع سے تجاوز کرے اور بعض کہتے ہیں کہ تبذیر کے معنی ناجائز امور میں خرچ کرنا ہیں چاہے تھوڑا ہی ہو۔ ہمارے خیال میں دونوں ہی صورتیں تبذیر میں آجاتی ہیں۔ اور یہ اتنا برا عمل ہے کی اس کے مرتکب کو شیطان سے مماثلت تامہ ہے اور شیطان کی مماثلت سے بچنا، چاہے وہ کسی ایک ہی خصلت میں ہو، انسان کے لئے واجب ہے، پھر شیطان کو كَفُورٌ (بہت ناشکرا) کہہ کر مزید بچنے کی تاکید کر دی ہے اگر شیطان کی مشابہت اختیار کرو گے تو تم بھی اس کی طرح كَفُورٌ قرار دئیے جاؤ گے۔ (فتح القدیر)",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "الْمُبَذِّرِیْنَ",
+          "ur": "فضول خرچ لوگ",
+          "en": "the spendthrifts",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُبَذِّرِينَ"
+        },
+        {
+          "ar": "كَانُوْۤا",
+          "ur": "ہیں",
+          "en": "are",
+          "arTajweed": "كَانُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اِخْوَانَ",
+          "ur": "بھائی",
+          "en": "brothers",
+          "arTajweed": "إِخْوَ<span class=\"tj-madda-normal\">ٰ</span>نَ"
+        },
+        {
+          "ar": "الشَّیٰطِیْنِ ؕ",
+          "ur": "شیطانوں کے",
+          "en": "(of) the devils",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيَ<span class=\"tj-madda-normal\">ٰ</span>طِينِ"
+        },
+        {
+          "ar": "وَكَانَ",
+          "ur": "اور ہے",
+          "en": "And is",
+          "arTajweed": "وَكَانَ"
+        },
+        {
+          "ar": "الشَّیْطٰنُ",
+          "ur": "شیطان",
+          "en": "the Shaitaan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نُ"
+        },
+        {
+          "ar": "لِرَبِّهٖ",
+          "ur": "اپنے رب کے لئے",
+          "en": "to his Lord",
+          "arTajweed": "لِرَبِّهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "كَفُوْرًا",
+          "ur": "ناشکرا",
+          "en": "ungrateful",
+          "arTajweed": "كَفُورًا"
+        }
+      ],
+      "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>لْمُبَذِّرِينَ كَانُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> إِخْوَ<span class=\"tj-madda-normal\">ٰ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيَ<span class=\"tj-madda-normal\">ٰ</span>طِينِ وَكَانَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نُ لِرَبِّهِ<span class=\"tj-madda-normal\">ۦ</span> كَفُورًا"
+    },
+    {
+      "number": 28,
+      "arFull": "وَاِمَّا تُعْرِضَنَّ عَنْهُمُ ابْتِغَآءَ رَحْمَةٍ مِّنْ رَّبِّكَ تَرْجُوْهَا فَقُلْ لَّهُمْ قَوْلًا مَّیْسُوْرًا ۟",
+      "ur": "اور اگر تجھے ان سے منھ پھیر لینا پڑے اپنے رب کی اس رحمت کی جستجو میں، جس کی تو امید رکھتا ہے تو بھی تجھے چاہیئے کہ عمدگی اور نرمی سے انہیں سمجھا دے.[1]",
+      "en": "And if you [must] turn away from them [i.e., the needy] awaiting mercy from your Lord which you expect,[738] then speak to them a gentle word.",
+      "footnotesUr": "[1] یعنی مالی استطاعت کے فقدان کی وجہ سے، جس کے دور ہونے کی اور کشائش رزق کی تو اپنے رب سے امید رکھتا ہے۔ اگر تجھے غریب رشتے داروں، مسکینوں اور ضرورت مندوں سے اعراض کرنا یعنی اظہار معذرت کرنا پڑے تو نرمی اور عمدگی کے ساتھ معذرت کر، یعنی جواب بھی دیا جائے تو نرمی اور پیار و محبت کے لہجے میں نہ کہ ترشی اور بد اخلاقی کے ساتھ، جیسا کہ عام طور پر لوگ ضرورت مندوں اور غریبوں کے ساتھ کرتے ہیں۔",
+      "footnotesEn": "[738] i.e., if you have not the means to give them at present.",
+      "words": [
+        {
+          "ar": "وَاِمَّا",
+          "ur": "اور اگر",
+          "en": "And if",
+          "arTajweed": "وَإِ<span class=\"tj-ghunnah\">مَّ</span>ا"
+        },
+        {
+          "ar": "تُعْرِضَنَّ",
+          "ur": "تم اعراض ہو تو",
+          "en": "you turn away",
+          "arTajweed": "تُعْرِضَ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "عَنْهُمُ",
+          "ur": "ان سے",
+          "en": "from them",
+          "arTajweed": "عَنْهُمُ"
+        },
+        {
+          "ar": "ابْتِغَآءَ",
+          "ur": "چاہنے کو",
+          "en": "seeking",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">بْ</span>تِغَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
+        },
+        {
+          "ar": "رَحْمَةٍ",
+          "ur": "رحمت",
+          "en": "mercy",
+          "arTajweed": "رَحْمَة<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": "طرف سے",
+          "en": "from",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-idgham-wo-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "رَّبِّكَ",
+          "ur": "اپنے رب کی",
+          "en": "your Lord",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">رَّ</span>بِّكَ"
+        },
+        {
+          "ar": "تَرْجُوْهَا",
+          "ur": "تم امید رکھتے ہو اس کی",
+          "en": "which you expect",
+          "arTajweed": "تَرْجُوهَا"
+        },
+        {
+          "ar": "فَقُلْ",
+          "ur": "تو کہو",
+          "en": "then say",
+          "arTajweed": "فَقُل"
+        },
+        {
+          "ar": "لَّهُمْ",
+          "ur": "ان سے",
+          "en": "to them",
+          "arTajweed": "لَّهُمْ"
+        },
+        {
+          "ar": "قَوْلًا",
+          "ur": "بات",
+          "en": "a word",
+          "arTajweed": "قَوْل<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّیْسُوْرًا",
+          "ur": "نرمی والی/ عمدگی کے ساتھ",
+          "en": "gentle",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>يْسُورًا"
+        }
+      ],
+      "arTajweed": "وَإِ<span class=\"tj-ghunnah\">مَّ</span>ا تُعْرِضَ<span class=\"tj-ghunnah\">نَّ</span> عَنْهُمُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">بْ</span>تِغَ<span class=\"tj-madda-obligatory\">آ</span>ءَ رَحْمَة<span class=\"tj-idgham-ghunnah\">ٍ مِّ</span><span class=\"tj-idgham-wo-ghunnah\">ن رَّ</span>بِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْل<span class=\"tj-idgham-ghunnah\">ًا مَّ</span>يْسُورًا"
+    },
+    {
+      "number": 29,
+      "arFull": "وَلَا تَجْعَلْ یَدَكَ مَغْلُوْلَةً اِلٰی عُنُقِكَ وَلَا تَبْسُطْهَا كُلَّ الْبَسْطِ فَتَقْعُدَ مَلُوْمًا مَّحْسُوْرًا ۟",
+      "ur": "اپنا ہاتھ اپنی گردن سے بندھا ہوا نہ رکھ اور نہ اسے بالکل ہی کھول دے کہ پھر ملامت کیا ہوا درمانده بیٹھ جائے.[1]",
+      "en": "And do not make your hand [as] chained to your neck[739] or extend it completely[740] and [thereby] become blamed and insolvent.",
+      "footnotesUr": "[1] گزشتہ آیت میں انکار کرنے کا ادب بیان فرمایا اب انفاق کا ادب بیان کیا جا رہا ہے اور وہ یہ ہے کہ انسان بخل کرے کہ اپنی اور اپنے اہل و عیال کی ضروریات پر بھی خرچ نہ کرے اور نہ فضول خرچی ہی کرے کہ اپنی وسعت اور گنجائش دیکھے بغیر ہی بےدریغ خرچ کرتا رہے۔ بخل کا نتیجہ یہ ہوگا کہ انسان، قابل ملامت و ندمت قرار پائے گا اور فضول خرچی کے نتیجے میں محسور (تھکا ہارا اور پچھتانے والا) محسور اس جانور کو کہتے ہیں جو چل چل کر تھک چکا اور چلنے سے عاجز ہو چکا ہو۔ فضول خرچی کرنے والا بھی بالآخر خالی ہاتھ ہو کر بیٹھ جاتا ہے۔ اپنے ہاتھ کو اپنی گردن سے بندھا ہوا نہ رکھ، یہ کنایہ ہے بخل سے اور ”نہ اسے بالکل ہی کھول دے“ یہ کنایہ ہے فضول خرچی سے۔ مَلُومًا مَّحْسُورًا لَفُّ نَشْرٍ مُرَتَّبٌ ہے، یعنی ملوم بخل کا اور محسور فضول خرچی کا نتیجہ ہے۔",
+      "footnotesEn": "[739] i.e., refusing to spend.\n[740] i.e., being extravagant.",
+      "words": [
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَجْعَلْ",
+          "ur": "تو رکھ",
+          "en": "make",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">جْ</span>عَلْ"
+        },
+        {
+          "ar": "یَدَكَ",
+          "ur": "اپنا ہاتھ",
+          "en": "your hand",
+          "arTajweed": "يَدَكَ"
+        },
+        {
+          "ar": "مَغْلُوْلَةً",
+          "ur": "بندھا ہوا",
+          "en": "chained",
+          "arTajweed": "مَغْلُولَةً"
+        },
+        {
+          "ar": "اِلٰی",
+          "ur": "کی طرف",
+          "en": "to",
+          "arTajweed": "إِلَىٰ"
+        },
+        {
+          "ar": "عُنُقِكَ",
+          "ur": "اپنی گردن",
+          "en": "your neck",
+          "arTajweed": "عُنُقِكَ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "and not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَبْسُطْهَا",
+          "ur": "تو پھیلادے اس کو",
+          "en": "extend it",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">بْ</span>سُ<span class=\"tj-qalaqah\">طْ</span>هَا"
+        },
+        {
+          "ar": "كُلَّ",
+          "ur": "پورا",
+          "en": "(to its) utmost",
+          "arTajweed": "كُلَّ"
+        },
+        {
+          "ar": "الْبَسْطِ",
+          "ur": "ہر طرح پھیلا دینا",
+          "en": "reach",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَسْطِ"
+        },
+        {
+          "ar": "فَتَقْعُدَ",
+          "ur": "تو بیٹھ جائے گا",
+          "en": "so that you sit",
+          "arTajweed": "فَتَ<span class=\"tj-qalaqah\">قْ</span>عُدَ"
+        },
+        {
+          "ar": "مَلُوْمًا",
+          "ur": "ملامت زدہ",
+          "en": "blameworthy",
+          "arTajweed": "مَلُوم<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّحْسُوْرًا",
+          "ur": "حسرت زدہ",
+          "en": "insolvent",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>حْسُورًا"
+        }
+      ],
+      "arTajweed": "وَلَا تَ<span class=\"tj-qalaqah\">جْ</span>عَلْ يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ وَلَا تَ<span class=\"tj-qalaqah\">بْ</span>سُ<span class=\"tj-qalaqah\">طْ</span>هَا كُلَّ <span class=\"tj-ham-wasl\">ٱ</span>لْبَسْطِ فَتَ<span class=\"tj-qalaqah\">قْ</span>عُدَ مَلُوم<span class=\"tj-idgham-ghunnah\">ًا مَّ</span>حْسُورًا"
+    },
+    {
+      "number": 30,
+      "arFull": "اِنَّ رَبَّكَ یَبْسُطُ الرِّزْقَ لِمَنْ یَّشَآءُ وَیَقْدِرُ ؕ اِنَّهٗ كَانَ بِعِبَادِهٖ خَبِیْرًا بَصِیْرًا ۟۠",
+      "ur": "یقیناً تیرا رب جس کے لئے چاہے روزی کشاده کردیتا ہے اور جس کے لئے چاہے تنگ[1] ۔ یقیناً وه اپنے بندوں سے باخبر اور خوب دیکھنے واﻻ ہے.",
+      "en": "Indeed, your Lord extends provision for whom He wills and restricts [it]. Indeed He is ever, concerning His servants, Aware and Seeing.",
+      "footnotesUr": "[1] اس میں اہل ایمان کے لئے تسلی ہے کہ ان کے پاس وسائل رزق کی فروانی نہیں ہے، تو اس کا مطلب یہ نہیں ہے اللہ کے ہاں ان کا مقام نہیں ہے بلکہ یہ رزق کی وسعت یا کمی، اس کا تعلق اللہ کی حکمت و مصلحت سے ہے جسے صرف وہی جانتا ہے۔ وہ اپنے دشمنوں کو قارون بنا دے اور اپنوں کو اتنا ہی دے کہ جس سے یہ مشکل وہ اپنا گذارہ کر سکیں۔ یہ اس کی مشیت ہے۔ جس کو وہ زیادہ دے، وہ اس کا محبوب نہیں، اور وہ قوت لا یموت کا مالک اس کا مبغوض نہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "رَبَّكَ",
+          "ur": "رب تیرا",
+          "en": "your Lord",
+          "arTajweed": "رَبَّكَ"
+        },
+        {
+          "ar": "یَبْسُطُ",
+          "ur": "پھیلاتا ہے",
+          "en": "extends",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">بْ</span>سُطُ"
+        },
+        {
+          "ar": "الرِّزْقَ",
+          "ur": "رزق کو",
+          "en": "the provision",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رِّزْقَ"
+        },
+        {
+          "ar": "لِمَنْ",
+          "ur": "جس کے لئے",
+          "en": "for whom",
+          "arTajweed": "لِمَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّشَآءُ",
+          "ur": "وہ چاہتا ہے",
+          "en": "He wills",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>شَ<span class=\"tj-madda-obligatory\">آ</span>ءُ"
+        },
+        {
+          "ar": "وَیَقْدِرُ ؕ",
+          "ur": "اور تنگ کردیتا ہے",
+          "en": "and straitens",
+          "arTajweed": "وَيَ<span class=\"tj-qalaqah\">قْ</span>دِرُ"
+        },
+        {
+          "ar": "اِنَّهٗ",
+          "ur": "بیشک وہ",
+          "en": "Indeed, He",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "بِعِبَادِهٖ",
+          "ur": "اپنے بندوں کے ساتھ",
+          "en": "of His slaves",
+          "arTajweed": "بِعِبَادِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "خَبِیْرًا",
+          "ur": "خبر رکھنے والا،",
+          "en": "All-Aware",
+          "arTajweed": "خَبِير<span class=\"tj-iqlab\">ًۢا</span>"
+        },
+        {
+          "ar": "بَصِیْرًا",
+          "ur": "دیکھنے والا",
+          "en": "All-Seer",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َصِيرًا"
+        }
+      ],
+      "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span> رَبَّكَ يَ<span class=\"tj-qalaqah\">بْ</span>سُطُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رِّزْقَ لِمَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>شَ<span class=\"tj-madda-obligatory\">آ</span>ءُ وَيَ<span class=\"tj-qalaqah\">قْ</span>دِرُ إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> كَانَ بِعِبَادِهِ<span class=\"tj-madda-normal\">ۦ</span> خَبِير<span class=\"tj-iqlab\">ًۢا ب</span>َصِيرًا"
+    },
+    {
+      "number": 31,
+      "arFull": "وَلَا تَقْتُلُوْۤا اَوْلَادَكُمْ خَشْیَةَ اِمْلَاقٍ ؕ نَحْنُ نَرْزُقُهُمْ وَاِیَّاكُمْ ؕ اِنَّ قَتْلَهُمْ كَانَ خِطْاً كَبِیْرًا ۟",
+      "ur": "اور مفلسی کے خوف سے اپنی اوﻻد کو نہ مار ڈالو، ان کو اور تم کو ہم ہی روزی دیتے ہیں۔ یقیناً ان کا قتل کرنا کبیره گناه ہے.[1]",
+      "en": "And do not kill your children for fear of poverty. We provide for them and for you. Indeed, their killing is ever a great sin.",
+      "footnotesUr": "[1] یہ آیت سورۃ الا نعام 151 میں بھی گزر چکی ہے، حدیث میں آتا ہے کہ نبی (صلى الله عليه وسلم) نے شرک کے بعد جس گناہ کو سب سے بڑا قرار دیا وہ یہی ہے کہ «أَنْ تَقْتُلَ وَلَدَكَ خَشْيَةَ أَنْ يَطْعَمَ مَعَكَ» ۔ (صحيح بخاري- تفسير سورة البقرة، وكتاب الأدب، مسلم، كتاب التوحيد، باب فلا تجعلوا لله أندادا) ”کہ تو اپنی اولاد اس ڈر سے قتل کردے کہ وہ تیرے ساتھ کھائے گی“۔ آج کل قتل اولاد کا گناہ عظیم طریقے سے خاندانی منصوبہ بندی کے حسین عنوان سے پوری دنیا میں ہو رہا ہے اور مرد حضرات ”بہتر تعلیم و تربیت“ کے نام پر اور خواتین اپنے ”حسن“ کو برقرار رکھنے کے لئے اس جرم کا عام ارتکاب کر رہی ہیں۔ أَعَاذَنَا اللهُ مِنْهُ۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَقْتُلُوْۤا",
+          "ur": "تم قتل کرو",
+          "en": "kill",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">قْ</span>تُلُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اَوْلَادَكُمْ",
+          "ur": "اپنی اولاد کو",
+          "en": "your children",
+          "arTajweed": "أَوْلَ<span class=\"tj-madda-normal\">ٰ</span>دَكُمْ"
+        },
+        {
+          "ar": "خَشْیَةَ",
+          "ur": "خوف سے",
+          "en": "(for) fear",
+          "arTajweed": "خَشْيَةَ"
+        },
+        {
+          "ar": "اِمْلَاقٍ ؕ",
+          "ur": "مفلسی کے",
+          "en": "(of) poverty",
+          "arTajweed": "إِمْلَ<span class=\"tj-madda-normal\">ٰ</span>ق<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "نَحْنُ",
+          "ur": "ہم",
+          "en": "We",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نَّ</span>حْنُ"
+        },
+        {
+          "ar": "نَرْزُقُهُمْ",
+          "ur": "ہم رزق دیتے ہیں ان کو",
+          "en": "(We) provide for them",
+          "arTajweed": "نَرْزُقُهُمْ"
+        },
+        {
+          "ar": "وَاِیَّاكُمْ ؕ",
+          "ur": "اور تم کو (بھی)",
+          "en": "and for you",
+          "arTajweed": "وَإِيَّاكُمْ"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "قَتْلَهُمْ",
+          "ur": "ان کا قتل کرنا",
+          "en": "their killing",
+          "arTajweed": "قَتْلَهُمْ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "خِطْاً",
+          "ur": "خطا",
+          "en": "a sin",
+          "arTajweed": "خِ<span class=\"tj-qalaqah\">طْ</span>ـٔ<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "كَبِیْرًا",
+          "ur": "بہت بڑی",
+          "en": "great",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>بِيرًا"
+        }
+      ],
+      "arTajweed": "وَلَا تَ<span class=\"tj-qalaqah\">قْ</span>تُلُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> أَوْلَ<span class=\"tj-madda-normal\">ٰ</span>دَكُمْ خَشْيَةَ إِمْلَ<span class=\"tj-madda-normal\">ٰ</span>ق<span class=\"tj-idgham-ghunnah\">ٍ نَّ</span>حْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ إِ<span class=\"tj-ghunnah\">نَّ</span> قَتْلَهُمْ كَانَ خِ<span class=\"tj-qalaqah\">طْ</span>ـٔ<span class=\"tj-ikhafa\">ًا كَ</span>بِيرًا"
+    },
+    {
+      "number": 32,
+      "arFull": "وَلَا تَقْرَبُوا الزِّنٰۤی اِنَّهٗ كَانَ فَاحِشَةً ؕ وَسَآءَ سَبِیْلًا ۟",
+      "ur": "خبردار زنا کے قریب بھی نہ پھٹکنا کیوں کہ وه بڑی بےحیائی ہے اور بہت ہی بری راه ہے.[1]",
+      "en": "And do not approach unlawful sexual intercourse.[741] Indeed, it is ever an immorality and is evil as a way.",
+      "footnotesUr": "[1] اسلام میں زنا چونکہ بہت بڑا جرم ہے، اتنا بڑا کہ کوئی شادی شدہ مرد یا عورت اس کا ارتکاب کر لے تو اسے اسلامی معاشرے میں زندہ رہنے کا ہی حق نہیں ہے۔ پھر اسے تلوار کے ایک وار سے مار دینا ہی کافی نہیں ہے بلکہ حکم ہے کہ پتھر مار مار کر اس کی زندگی کا خاتمہ کیا جائے تاکہ معاشرے میں نشان عبرت بن جائے۔ اس لئے یہاں فرمایا کہ زنا کے قریب مت جاؤ، یعنی اس کے دواعی و اسباب سے بھی بچ کر رہو، مثلًا غیر محرم عورت کو دیکھنا، ان سے اختلاط، کلام کی راہیں پیدا کرنا، اسی طرح عورتوں کا بے پردہ اور بن سنور کر گھروں سے باہر نکلنا، وغیرہ ان تمام امور سے پرہیز ضروری ہے تاکہ اس بےحیائی سے بچا جا سکے۔",
+      "footnotesEn": "[741] i.e., avoid all situations that might possibly lead to it.",
+      "words": [
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَقْرَبُوا",
+          "ur": "تم قریب جاؤ",
+          "en": "go near",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">قْ</span>رَبُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الزِّنٰۤی",
+          "ur": "زنا کے",
+          "en": "adultery",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>زِّنَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اِنَّهٗ",
+          "ur": "کیونکہ وہ",
+          "en": "Indeed, it",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "فَاحِشَةً ؕ",
+          "ur": "بےحیائی",
+          "en": "an immorality",
+          "arTajweed": "فَ<span class=\"tj-madda-normal\">ٰ</span>حِشَة<span class=\"tj-idgham-ghunnah\">ً</span>"
+        },
+        {
+          "ar": "وَسَآءَ",
+          "ur": "اور برا",
+          "en": "and (an) evil",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>سَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
+        },
+        {
+          "ar": "سَبِیْلًا",
+          "ur": "راستہ",
+          "en": "way",
+          "arTajweed": "سَبِيلًا"
+        }
+      ],
+      "arTajweed": "وَلَا تَ<span class=\"tj-qalaqah\">قْ</span>رَبُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>زِّنَ<span class=\"tj-madda-permissible\">ىٰٓ</span> إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> كَانَ فَ<span class=\"tj-madda-normal\">ٰ</span>حِشَة<span class=\"tj-idgham-ghunnah\">ً وَ</span>سَ<span class=\"tj-madda-obligatory\">آ</span>ءَ سَبِيلًا"
+    },
+    {
+      "number": 33,
+      "arFull": "وَلَا تَقْتُلُوا النَّفْسَ الَّتِیْ حَرَّمَ اللّٰهُ اِلَّا بِالْحَقِّ ؕ وَمَنْ قُتِلَ مَظْلُوْمًا فَقَدْ جَعَلْنَا لِوَلِیِّهٖ سُلْطٰنًا فَلَا یُسْرِفْ فِّی الْقَتْلِ ؕ اِنَّهٗ كَانَ مَنْصُوْرًا ۟",
+      "ur": "اور کسی جان کو جس کا مارنا اللہ نے حرام کردیا ہے ہرگز ناحق قتل نہ کرنا[1] اور جو شخص مظلوم ہونے کی صورت میں مار ڈاﻻ جائے ہم نے اس کے وارث کو طاقت دے رکھی ہے پس اسے چاہیئے کہ مار ڈالنے میں زیادتی نہ کرے بےشک وه مدد کیا گیا ہے.[2]",
+      "en": "And do not kill the soul [i.e., person] which Allāh has forbidden, except by right.[742] And whoever is killed unjustly - We have given his heir authority,[743] but let him not exceed limits in [the matter of] taking life. Indeed, he has been supported [by the law].",
+      "footnotesUr": "[1] حق کے ساتھ قتل کرنے کا مطلب قصاص میں قتل کرنا ہے، جس کو انسانی معاشرے کی زندگی اور امن و سکون کا باعث قرار دیا گیا ہے۔ اسی طرح شادی شدہ زانی اور مرتد کو قتل کرنے کا حکم ہے۔\n[2] یعنی مقتول کے وارثوں کو یہ حق یا غلبہ یا طاقت دی گئی ہے کہ وہ قاتل کو حاکم وقت کے شرعی فیصلہ کے بعد قصاص میں قتل کر دیں یا اس سے دیت لے لیں یا معاف کر دیں اور اگر قصاص ہی لینا ہے تو اس میں زیادتی نہ کریں کہ ایک کے بدلے میں دو یا تین چار کو مار دیں، یا اس کا مثلہ کر کے یا عذاب دے کر ماریں، مقتول کا وارث، مدد دیا گیا ہے، یعنی امرا وحکام کو اس کی مدد کرنے کی تاکید کی گئی ہے، اس لئے اس پر اللہ کا شکر ادا کرنا چاہیے نہ یہ کہ زیادتی کا ارتکاب کر کے اللہ کی ناشکری کرے۔",
+      "footnotesEn": "[742] i.e., through legal justice or during jihād.\n[743] Grounds for legal action.",
+      "words": [
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَقْتُلُوا",
+          "ur": "تم قتل کرو",
+          "en": "kill",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">قْ</span>تُلُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "النَّفْسَ",
+          "ur": "کسی جان کو",
+          "en": "the soul",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>فْسَ"
+        },
+        {
+          "ar": "الَّتِیْ",
+          "ur": "وہ جو",
+          "en": "which",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّتِى"
+        },
+        {
+          "ar": "حَرَّمَ",
+          "ur": "حرام کی",
+          "en": "Allah has forbidden",
+          "arTajweed": "حَرَّمَ"
+        },
+        {
+          "ar": "اللّٰهُ",
+          "ur": "اللہ نے",
+          "en": "Allah has forbidden",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "بِالْحَقِّ ؕ",
+          "ur": "حق کے ساتھ",
+          "en": "by right",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْحَقِّ"
+        },
+        {
+          "ar": "وَمَنْ",
+          "ur": "اور جو",
+          "en": "And whoever",
+          "arTajweed": "وَمَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "قُتِلَ",
+          "ur": "قتل کیا گیا",
+          "en": "(is) killed",
+          "arTajweed": "<span class=\"tj-ikhafa\">قُ</span>تِلَ"
+        },
+        {
+          "ar": "مَظْلُوْمًا",
+          "ur": "ظلم کے ساتھ",
+          "en": "wrongfully",
+          "arTajweed": "مَظْلُوم<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "فَقَدْ",
+          "ur": "تو تحقیق",
+          "en": "verily",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>قَ<span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "جَعَلْنَا",
+          "ur": "بنایا ہم نے",
+          "en": "We have made",
+          "arTajweed": "جَعَلْنَا"
+        },
+        {
+          "ar": "لِوَلِیِّهٖ",
+          "ur": "اس کے ولی کے لئے",
+          "en": "for his heir",
+          "arTajweed": "لِوَلِيِّهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "سُلْطٰنًا",
+          "ur": "حق/ قوت",
+          "en": "an authority",
+          "arTajweed": "سُلْطَ<span class=\"tj-madda-normal\">ٰ</span>ن<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "فَلَا",
+          "ur": "تو نہ",
+          "en": "but not",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>لَا"
+        },
+        {
+          "ar": "یُسْرِفْ",
+          "ur": "وہ زیادتی کرے/ حد سے بڑھے",
+          "en": "he should exceed",
+          "arTajweed": "يُسْرِف"
+        },
+        {
+          "ar": "فِّی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِّى"
+        },
+        {
+          "ar": "الْقَتْلِ ؕ",
+          "ur": "قتل کرنے",
+          "en": "the killing",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقَتْلِ"
+        },
+        {
+          "ar": "اِنَّهٗ",
+          "ur": "بیشک وہ",
+          "en": "Indeed, he",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "مَنْصُوْرًا",
+          "ur": "مدد کیا ہوا",
+          "en": "helped",
+          "arTajweed": "مَ<span class=\"tj-ikhafa\">نصُ</span>ورًا"
+        }
+      ],
+      "arTajweed": "وَلَا تَ<span class=\"tj-qalaqah\">قْ</span>تُلُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>فْسَ <span class=\"tj-ham-wasl\">ٱ</span>لَّتِى حَرَّمَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ إِلَّا بِ<span class=\"tj-ham-wasl\">ٱ</span>لْحَقِّ وَمَ<span class=\"tj-ikhafa\">ن قُ</span>تِلَ مَظْلُوم<span class=\"tj-ikhafa\">ًا فَ</span>قَ<span class=\"tj-qalaqah\">دْ</span> جَعَلْنَا لِوَلِيِّهِ<span class=\"tj-madda-normal\">ۦ</span> سُلْطَ<span class=\"tj-madda-normal\">ٰ</span>ن<span class=\"tj-ikhafa\">ًا فَ</span>لَا يُسْرِف فِّى <span class=\"tj-ham-wasl\">ٱ</span>لْقَتْلِ إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> كَانَ مَ<span class=\"tj-ikhafa\">نصُ</span>ورًا"
+    },
+    {
+      "number": 34,
+      "arFull": "وَلَا تَقْرَبُوْا مَالَ الْیَتِیْمِ اِلَّا بِالَّتِیْ هِیَ اَحْسَنُ حَتّٰی یَبْلُغَ اَشُدَّهٗ ۪ وَاَوْفُوْا بِالْعَهْدِ ۚ اِنَّ الْعَهْدَ كَانَ مَسْـُٔوْلًا ۟",
+      "ur": "اور یتیم کے مال کے قریب بھی نہ جاؤ بجز اس طریقہ کے جو بہت ہی بہتر ہو، یہاں تک کہ وه اپنی بلوغت کو پہنچ جائے[1] اور وعدے پورے کرو کیونکہ قول وقرار کی باز پرس ہونے والی ہے.[2]",
+      "en": "And do not approach the property of an orphan, except in the way that is best,[744] until he reaches maturity. And fulfill [every] commitment. Indeed, the commitment is ever [that about which one will be] questioned.",
+      "footnotesUr": "[1] کسی کی جان کو ناجائز طریقے سے ضائع کرنے کی ممانعت کے بعد، اتلاف مال (مال کے ضائع کرنے) سے روکا جا رہا ہے اور اس میں یتیم کا مال سب سے زیادہ اہم ہے، اس لئے فرمایا کہ یتیم کے بالغ ہونے تک اس کے مال کو ایسے طریقے سے استعمال کرو، جس میں اس کا فائدہ ہو۔ یہ نہ ہو کہ سوچے سمجھے بغیر ایسے کاروبار میں لگا دو کہ وہ ضائع یا خسارے سے دو چار ہو جائے۔ یا عمرِ شعور سے پہلے تم اسے اڑا ڈالو۔\n[2] عہد سے وہ میثاق بھی مراد ہے جو اللہ اور اس کے بندے کے درمیان ہے اور وہ بھی جو انسان آپس میں ایک دوسرے سے کرتے ہیں۔ دونوں قسم کے عہدوں کا پورا کرنا ضروری ہے اور نقص عہد کی صورت میں باز پرس ہوگی۔",
+      "footnotesEn": "[744] i.e., to improve or increase it.",
+      "words": [
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَقْرَبُوْا",
+          "ur": "تم قریب جاؤ",
+          "en": "come near",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">قْ</span>رَبُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "مَالَ",
+          "ur": "مال کے",
+          "en": "(the) wealth",
+          "arTajweed": "مَالَ"
+        },
+        {
+          "ar": "الْیَتِیْمِ",
+          "ur": "یتیم کے",
+          "en": "(of) the orphan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْيَتِيمِ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "بِالَّتِیْ",
+          "ur": "ساتھ اس طریقے کے",
+          "en": "with what",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لَّتِى"
+        },
+        {
+          "ar": "هِیَ",
+          "ur": "وہ",
+          "en": "[it] is",
+          "arTajweed": "هِىَ"
+        },
+        {
+          "ar": "اَحْسَنُ",
+          "ur": "زیادہ اچھا ہے",
+          "en": "best",
+          "arTajweed": "أَحْسَنُ"
+        },
+        {
+          "ar": "حَتّٰی",
+          "ur": "یہاں تک کہ",
+          "en": "until",
+          "arTajweed": "حَتَّىٰ"
+        },
+        {
+          "ar": "یَبْلُغَ",
+          "ur": "وہ پہنچ جائے",
+          "en": "he reaches",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">بْ</span>لُغَ"
+        },
+        {
+          "ar": "اَشُدَّهٗ ۪",
+          "ur": "اپنی جوانی کو",
+          "en": "his maturity",
+          "arTajweed": "أَشُدَّهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "وَاَوْفُوْا",
+          "ur": "اور پورا کرو",
+          "en": "And fulfil",
+          "arTajweed": "وَأَوْفُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "بِالْعَهْدِ ۚ",
+          "ur": "عہد کو",
+          "en": "the covenant",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْعَهْدِ"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "کیونکہ",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "الْعَهْدَ",
+          "ur": "عہد",
+          "en": "the covenant",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْعَهْدَ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "will be",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "مَسْـُٔوْلًا",
+          "ur": "پوچھا جانے والا",
+          "en": "questioned",
+          "arTajweed": "مَسْـُٔولًا"
+        }
+      ],
+      "arTajweed": "وَلَا تَ<span class=\"tj-qalaqah\">قْ</span>رَبُو<span class=\"tj-slnt\">ا۟</span> مَالَ <span class=\"tj-ham-wasl\">ٱ</span>لْيَتِيمِ إِلَّا بِ<span class=\"tj-ham-wasl\">ٱ</span>لَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَ<span class=\"tj-qalaqah\">بْ</span>لُغَ أَشُدَّهُ<span class=\"tj-madda-normal\">ۥ</span> وَأَوْفُو<span class=\"tj-slnt\">ا۟</span> بِ<span class=\"tj-ham-wasl\">ٱ</span>لْعَهْدِ إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>لْعَهْدَ كَانَ مَسْـُٔولًا"
+    },
+    {
+      "number": 35,
+      "arFull": "وَاَوْفُوا الْكَیْلَ اِذَا كِلْتُمْ وَزِنُوْا بِالْقِسْطَاسِ الْمُسْتَقِیْمِ ؕ ذٰلِكَ خَیْرٌ وَّاَحْسَنُ تَاْوِیْلًا ۟",
+      "ur": "اور جب ناپنے لگو تو بھر پور پیمانے سے ناپو اور سیدھی ترازو سے توﻻ کرو۔ یہی بہتر ہے[1] اور انجام کے لحاظ سے بھی بہت اچھا ہے.",
+      "en": "And give full measure when you measure, and weigh with an even [i.e., honest] balance. That is the best [way] and best in result.",
+      "footnotesUr": "[1] اجر و ثواب کے لحاظ سے بہتر ہے، علاوہ ازیں لوگوں کے اندر اعتماد پیدا کرنے میں ناپ تول میں دیانت داری مفید ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَاَوْفُوا",
+          "ur": "اور پورا کرو",
+          "en": "And give full",
+          "arTajweed": "وَأَوْفُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الْكَیْلَ",
+          "ur": "ناپ",
+          "en": "[the] measure",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْكَيْلَ"
+        },
+        {
+          "ar": "اِذَا",
+          "ur": "جب",
+          "en": "when",
+          "arTajweed": "إِذَا"
+        },
+        {
+          "ar": "كِلْتُمْ",
+          "ur": "ناپو تم",
+          "en": "you measure",
+          "arTajweed": "كِلْتُمْ"
+        },
+        {
+          "ar": "وَزِنُوْا",
+          "ur": "اور تولو",
+          "en": "and weigh",
+          "arTajweed": "وَزِنُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "بِالْقِسْطَاسِ",
+          "ur": "ساتھ ترازو کے",
+          "en": "with the balance",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْقِسْطَاسِ"
+        },
+        {
+          "ar": "الْمُسْتَقِیْمِ ؕ",
+          "ur": "سیدھی/ درست",
+          "en": "the straight",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُسْتَقِيمِ"
+        },
+        {
+          "ar": "ذٰلِكَ",
+          "ur": "یہ",
+          "en": "That",
+          "arTajweed": "ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ"
+        },
+        {
+          "ar": "خَیْرٌ",
+          "ur": "بہتر ہے",
+          "en": "(is) good",
+          "arTajweed": "خَيْر<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "وَّاَحْسَنُ",
+          "ur": "اور زیادہ اچھا ہے",
+          "en": "and best",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>أَحْسَنُ"
+        },
+        {
+          "ar": "تَاْوِیْلًا",
+          "ur": "انجام کے اعتبار سے",
+          "en": "(in) result",
+          "arTajweed": "تَأْوِيلًا"
+        }
+      ],
+      "arTajweed": "وَأَوْفُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>لْكَيْلَ إِذَا كِلْتُمْ وَزِنُو<span class=\"tj-slnt\">ا۟</span> بِ<span class=\"tj-ham-wasl\">ٱ</span>لْقِسْطَاسِ <span class=\"tj-ham-wasl\">ٱ</span>لْمُسْتَقِيمِ ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ خَيْر<span class=\"tj-idgham-ghunnah\">ٌ وَ</span>أَحْسَنُ تَأْوِيلًا"
+    },
+    {
+      "number": 36,
+      "arFull": "وَلَا تَقْفُ مَا لَیْسَ لَكَ بِهٖ عِلْمٌ ؕ اِنَّ السَّمْعَ وَالْبَصَرَ وَالْفُؤَادَ كُلُّ اُولٰٓىِٕكَ كَانَ عَنْهُ مَسْـُٔوْلًا ۟",
+      "ur": "جس بات کی تجھے خبر ہی نہ ہو اس کے پیچھے مت پڑ[1] ۔ کیونکہ کان اور آنکھ اور دل ان میں سے ہر ایک سے پوچھ گچھ کی جانے والی ہے.[2]",
+      "en": "And do not pursue[745] that of which you have no knowledge. Indeed, the hearing, the sight and the heart - about all those [one] will be questioned.",
+      "footnotesUr": "[1] قَفَا يَقْفُوکے معنی ہیں پیچھے لگنا، یعنی جس چیز کا علم نہیں، اس کے پیچھے مت لگو، یعنی بدگمانی مت کرو، کسی کی ٹوہ میں مت رہو، اسی طرح جس چیز کا علم نہیں، اس پر عمل مت کرو۔\n[2] یعنی جس چیز کے پیچھے تم پڑو گے اس کے متعلق کان سے سوال ہوگا کہ کیا اس نے سنا تھا، آنکھ سے سوال ہوگا کیا اس نے دیکھا تھا اور دل سے سوال ہوگا کیا اس نے جانا تھا؟ کیونکہ یہی تینوں علم کا ذریعہ ہیں۔ یعنی ان اعضا کو اللہ تعالٰی قیامت والے دن قوت گویائی عطا فرمائے گا اور ان سے پوچھا جائیگا۔",
+      "footnotesEn": "[745] i.e., do not assume and do not say.",
+      "words": [
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَقْفُ",
+          "ur": "پیچھے پڑو",
+          "en": "pursue",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">قْ</span>فُ"
+        },
+        {
+          "ar": "مَا",
+          "ur": "جو",
+          "en": "what",
+          "arTajweed": "مَا"
+        },
+        {
+          "ar": "لَیْسَ",
+          "ur": "نہیں",
+          "en": "not",
+          "arTajweed": "لَيْسَ"
+        },
+        {
+          "ar": "لَكَ",
+          "ur": "تیرے لئے",
+          "en": "you have",
+          "arTajweed": "لَكَ"
+        },
+        {
+          "ar": "بِهٖ",
+          "ur": "اس کا کوئی",
+          "en": "of it",
+          "arTajweed": "بِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "عِلْمٌ ؕ",
+          "ur": "علم",
+          "en": "any knowledge",
+          "arTajweed": "عِلْمٌ"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "السَّمْعَ",
+          "ur": "کان",
+          "en": "the hearing",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمْعَ"
+        },
+        {
+          "ar": "وَالْبَصَرَ",
+          "ur": "اور آنکھ",
+          "en": "and the sight",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْبَصَرَ"
+        },
+        {
+          "ar": "وَالْفُؤَادَ",
+          "ur": "اور دل",
+          "en": "and the heart",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْفُؤَادَ"
+        },
+        {
+          "ar": "كُلُّ",
+          "ur": "یہ سب",
+          "en": "all",
+          "arTajweed": "كُلُّ"
+        },
+        {
+          "ar": "اُولٰٓىِٕكَ",
+          "ur": null,
+          "en": "those",
+          "arTajweed": "أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "will be",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "عَنْهُ",
+          "ur": "ان کے بارے میں",
+          "en": "[about it]",
+          "arTajweed": "عَنْهُ"
+        },
+        {
+          "ar": "مَسْـُٔوْلًا",
+          "ur": "سوال کیا جانے والا",
+          "en": "questioned",
+          "arTajweed": "مَسْـُٔولًا"
+        }
+      ],
+      "arTajweed": "وَلَا تَ<span class=\"tj-qalaqah\">قْ</span>فُ مَا لَيْسَ لَكَ بِهِ<span class=\"tj-madda-normal\">ۦ</span> عِلْمٌ إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمْعَ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْبَصَرَ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْفُؤَادَ كُلُّ أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ كَانَ عَنْهُ مَسْـُٔولًا"
+    },
+    {
+      "number": 37,
+      "arFull": "وَلَا تَمْشِ فِی الْاَرْضِ مَرَحًا ۚ اِنَّكَ لَنْ تَخْرِقَ الْاَرْضَ وَلَنْ تَبْلُغَ الْجِبَالَ طُوْلًا ۟",
+      "ur": "اور زمین میں اکڑ کر نہ چل کہ نہ تو زمین کو پھاڑ سکتا ہے اور نہ لمبائی میں پہاڑوں کو پہنچ سکتا ہے.[1]",
+      "en": "And do not walk upon the earth exultantly. Indeed, you will never tear the earth [apart], and you will never reach the mountains in height.[746]",
+      "footnotesUr": "[1] اترا کر اور اکڑ کر چلنا، اللہ کو سخت ناپسند ہے۔ قارون کو اسی بنا پر اس کے گھر اور خزانوں سمیت زمین میں دھنسا دیا گیا (القصص:81) حدیث میں آتا ہے ”ایک شخص دو چادریں پہنے اکڑ کر چل رہا تھا کہ اس کو زمین میں دھنسا دیا گیا اور وہ قیامت تک دھنستا چلا جائے گا“۔ (صحيح مسلم، كتاب اللباس، باب تحريم التبختر في المشي مع إعجابه بثيابه) اللہ تعالٰی کو تواضع اور عاجزی پسند ہے۔",
+      "footnotesEn": "[746] Man, for all his arrogance, is yet a weak and small creature.",
+      "words": [
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَمْشِ",
+          "ur": "تم چلو",
+          "en": "walk",
+          "arTajweed": "تَمْشِ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْاَرْضِ",
+          "ur": "زمین (میں)",
+          "en": "the earth",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "مَرَحًا ۚ",
+          "ur": "اکڑ کر",
+          "en": "(with) insolence",
+          "arTajweed": "مَرَحًا"
+        },
+        {
+          "ar": "اِنَّكَ",
+          "ur": "کیونکہ تم",
+          "en": "Indeed, you",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>كَ"
+        },
+        {
+          "ar": "لَنْ",
+          "ur": "ہرگز  نہیں",
+          "en": "will never",
+          "arTajweed": "لَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "تَخْرِقَ",
+          "ur": "پھاڑ سکتے",
+          "en": "tear",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span>خْرِقَ"
+        },
+        {
+          "ar": "الْاَرْضَ",
+          "ur": "زمین کو",
+          "en": "the earth",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضَ"
+        },
+        {
+          "ar": "وَلَنْ",
+          "ur": "اور ہرگز نہیں",
+          "en": "and will never",
+          "arTajweed": "وَلَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "تَبْلُغَ",
+          "ur": "پہنچ سکتے",
+          "en": "reach",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span><span class=\"tj-qalaqah\">بْ</span>لُغَ"
+        },
+        {
+          "ar": "الْجِبَالَ",
+          "ur": "پہاڑوں کو",
+          "en": "the mountains",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْجِبَالَ"
+        },
+        {
+          "ar": "طُوْلًا",
+          "ur": "اونچائی میں/ بلندی میں/ لمبائی میں",
+          "en": "(in) height",
+          "arTajweed": "طُولًا"
+        }
+      ],
+      "arTajweed": "وَلَا تَمْشِ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ مَرَحًا إِ<span class=\"tj-ghunnah\">نَّ</span>كَ لَ<span class=\"tj-ikhafa\">ن تَ</span>خْرِقَ <span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضَ وَلَ<span class=\"tj-ikhafa\">ن تَ</span><span class=\"tj-qalaqah\">بْ</span>لُغَ <span class=\"tj-ham-wasl\">ٱ</span>لْجِبَالَ طُولًا"
+    },
+    {
+      "number": 38,
+      "arFull": "كُلُّ ذٰلِكَ كَانَ سَیِّئُهٗ عِنْدَ رَبِّكَ مَكْرُوْهًا ۟",
+      "ur": "ان سب کاموں کی برائی تیرے رب کے نزدیک (سخت) ناپسند ہے.[1]",
+      "en": "All that [i.e., the aforementioned] - its evil is ever, in the sight of your Lord, detested.",
+      "footnotesUr": "[1] یعنی جو باتیں مذکور ہوئیں، ان میں جو بھی بری ہیں، جن سے منع کیا گیا، وہ ناپسندیدہ ہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "كُلُّ",
+          "ur": "یہ سب",
+          "en": "All",
+          "arTajweed": "كُلُّ"
+        },
+        {
+          "ar": "ذٰلِكَ",
+          "ur": null,
+          "en": "that",
+          "arTajweed": "ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "سَیِّئُهٗ",
+          "ur": "اس کی برائی",
+          "en": "[its] evil",
+          "arTajweed": "سَيِّئُهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "عِنْدَ",
+          "ur": "نزدیک",
+          "en": "near",
+          "arTajweed": "عِ<span class=\"tj-ikhafa\">ندَ</span>"
+        },
+        {
+          "ar": "رَبِّكَ",
+          "ur": "تیرے رب کے",
+          "en": "your Lord",
+          "arTajweed": "رَبِّكَ"
+        },
+        {
+          "ar": "مَكْرُوْهًا",
+          "ur": "مکروہ/ ناپسندیدہ",
+          "en": "hateful",
+          "arTajweed": "مَكْرُوهًا"
+        }
+      ],
+      "arTajweed": "كُلُّ ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ كَانَ سَيِّئُهُ<span class=\"tj-madda-normal\">ۥ</span> عِ<span class=\"tj-ikhafa\">ندَ</span> رَبِّكَ مَكْرُوهًا"
+    },
+    {
+      "number": 39,
+      "arFull": "ذٰلِكَ مِمَّاۤ اَوْحٰۤی اِلَیْكَ رَبُّكَ مِنَ الْحِكْمَةِ ؕ وَلَا تَجْعَلْ مَعَ اللّٰهِ اِلٰهًا اٰخَرَ فَتُلْقٰی فِیْ جَهَنَّمَ مَلُوْمًا مَّدْحُوْرًا ۟",
+      "ur": "یہ بھی منجملہ اس وحی کے ہے جو تیری جانب تیرے رب نے حکمت سے اتاری ہے تو اللہ کے ساتھ کسی اور کو معبود نہ بنانا کہ ملامت خورده اور راندہٴ درگاه ہو کر دوزخ میں ڈال دیا جائے.",
+      "en": "That is from what your Lord has revealed to you, [O Muḥammad], of wisdom. And, [O mankind], do not make [as equal] with Allāh another deity, lest you be thrown into Hell, blamed and banished.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "ذٰلِكَ",
+          "ur": "یہ",
+          "en": "That",
+          "arTajweed": "ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ"
+        },
+        {
+          "ar": "مِمَّاۤ",
+          "ur": "اس میں سے ہے",
+          "en": "(is) from what",
+          "arTajweed": "مِ<span class=\"tj-ghunnah\">مَّ</span><span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَوْحٰۤی",
+          "ur": "جو وحی کی",
+          "en": "(was) revealed",
+          "arTajweed": "أَوْحَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اِلَیْكَ",
+          "ur": "تیری طرف",
+          "en": "to you",
+          "arTajweed": "إِلَيْكَ"
+        },
+        {
+          "ar": "رَبُّكَ",
+          "ur": "تیرے رب",
+          "en": "(from) your Lord",
+          "arTajweed": "رَبُّكَ"
+        },
+        {
+          "ar": "مِنَ",
+          "ur": "میں سے",
+          "en": "of",
+          "arTajweed": "مِنَ"
+        },
+        {
+          "ar": "الْحِكْمَةِ ؕ",
+          "ur": "حکمت",
+          "en": "the wisdom",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْحِكْمَةِ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَجْعَلْ",
+          "ur": "تو بنا",
+          "en": "make",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">جْ</span>عَلْ"
+        },
+        {
+          "ar": "مَعَ",
+          "ur": "ساتھ",
+          "en": "with",
+          "arTajweed": "مَعَ"
+        },
+        {
+          "ar": "اللّٰهِ",
+          "ur": "اللہ کے",
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
+        },
+        {
+          "ar": "اِلٰهًا",
+          "ur": "الٰہ",
+          "en": "god",
+          "arTajweed": "إِلَ<span class=\"tj-madda-normal\">ٰ</span>هًا"
+        },
+        {
+          "ar": "اٰخَرَ",
+          "ur": "کوئی دوسرا",
+          "en": "other",
+          "arTajweed": "ءَاخَرَ"
+        },
+        {
+          "ar": "فَتُلْقٰی",
+          "ur": "تو تو ڈال دیا جائے گا",
+          "en": "lest you should be thrown",
+          "arTajweed": "فَتُلْقَىٰ"
+        },
+        {
+          "ar": "فِیْ",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "جَهَنَّمَ",
+          "ur": "جہنم",
+          "en": "Hell",
+          "arTajweed": "جَهَ<span class=\"tj-ghunnah\">نَّ</span>مَ"
+        },
+        {
+          "ar": "مَلُوْمًا",
+          "ur": "ملامت کیا ہوا",
+          "en": "blameworthy",
+          "arTajweed": "مَلُوم<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّدْحُوْرًا",
+          "ur": "رحمت سے دور",
+          "en": "abandoned",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span><span class=\"tj-qalaqah\">دْ</span>حُورًا"
+        }
+      ],
+      "arTajweed": "ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ مِ<span class=\"tj-ghunnah\">مَّ</span><span class=\"tj-madda-permissible\">آ</span> أَوْحَ<span class=\"tj-madda-permissible\">ىٰٓ</span> إِلَيْكَ رَبُّكَ مِنَ <span class=\"tj-ham-wasl\">ٱ</span>لْحِكْمَةِ وَلَا تَ<span class=\"tj-qalaqah\">جْ</span>عَلْ مَعَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهِ إِلَ<span class=\"tj-madda-normal\">ٰ</span>هًا ءَاخَرَ فَتُلْقَىٰ فِى جَهَ<span class=\"tj-ghunnah\">نَّ</span>مَ مَلُوم<span class=\"tj-idgham-ghunnah\">ًا مَّ</span><span class=\"tj-qalaqah\">دْ</span>حُورًا"
+    },
+    {
+      "number": 40,
+      "arFull": "اَفَاَصْفٰىكُمْ رَبُّكُمْ بِالْبَنِیْنَ وَاتَّخَذَ مِنَ الْمَلٰٓىِٕكَةِ اِنَاثًا ؕ اِنَّكُمْ لَتَقُوْلُوْنَ قَوْلًا عَظِیْمًا ۟۠",
+      "ur": "کیا بیٹوں کے لئے تو اللہ نے تمہیں چھانٹ لیا اور خود اپنے لئے فرشتوں کو لڑکیاں بنالیں؟ بےشک تم بہت بڑا بول بول رہے ہو.",
+      "en": "Then, has your Lord chosen you for [having] sons and taken [i.e., adopted] from among the angels daughters? Indeed, you say a grave saying.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اَفَاَصْفٰىكُمْ",
+          "ur": "کیا بھلا چن لیا تم کو",
+          "en": "Then has your Lord chosen (for) you",
+          "arTajweed": "أَفَأَصْفَى<span class=\"tj-madda-normal\">ٰ</span>كُمْ"
+        },
+        {
+          "ar": "رَبُّكُمْ",
+          "ur": "تمہارے رب نے",
+          "en": "Then has your Lord chosen (for) you",
+          "arTajweed": "رَبُّكُ<span class=\"tj-ikhafa-shafawi\">م</span>"
+        },
+        {
+          "ar": "بِالْبَنِیْنَ",
+          "ur": "بیٹوں کے ساتھ",
+          "en": "sons",
+          "arTajweed": "<span class=\"tj-ikhafa-shafawi\">بِ</span><span class=\"tj-ham-wasl\">ٱ</span>لْبَنِينَ"
+        },
+        {
+          "ar": "وَاتَّخَذَ",
+          "ur": "اور بنالیں",
+          "en": "and He has taken",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>تَّخَذَ"
+        },
+        {
+          "ar": "مِنَ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "مِنَ"
+        },
+        {
+          "ar": "الْمَلٰٓىِٕكَةِ",
+          "ur": "فرشتوں میں (سے)",
+          "en": "the Angels",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَلَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَةِ"
+        },
+        {
+          "ar": "اِنَاثًا ؕ",
+          "ur": "لڑکیاں",
+          "en": "daughters",
+          "arTajweed": "إِنَ<span class=\"tj-madda-normal\">ٰ</span>ثًا"
+        },
+        {
+          "ar": "اِنَّكُمْ",
+          "ur": "یقیناً تم",
+          "en": "Indeed, you",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>كُمْ"
+        },
+        {
+          "ar": "لَتَقُوْلُوْنَ",
+          "ur": "البتہ تم کہتے ہو",
+          "en": "surely say",
+          "arTajweed": "لَتَقُولُونَ"
+        },
+        {
+          "ar": "قَوْلًا",
+          "ur": "بات",
+          "en": "a word",
+          "arTajweed": "قَوْلًا"
+        },
+        {
+          "ar": "عَظِیْمًا",
+          "ur": "بہت بڑی",
+          "en": "grave",
+          "arTajweed": "عَظِيمًا"
+        }
+      ],
+      "arTajweed": "أَفَأَصْفَى<span class=\"tj-madda-normal\">ٰ</span>كُمْ رَبُّكُ<span class=\"tj-ikhafa-shafawi\">م بِ</span><span class=\"tj-ham-wasl\">ٱ</span>لْبَنِينَ وَ<span class=\"tj-ham-wasl\">ٱ</span>تَّخَذَ مِنَ <span class=\"tj-ham-wasl\">ٱ</span>لْمَلَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَةِ إِنَ<span class=\"tj-madda-normal\">ٰ</span>ثًا إِ<span class=\"tj-ghunnah\">نَّ</span>كُمْ لَتَقُولُونَ قَوْلًا عَظِيمًا"
+    },
+    {
+      "number": 41,
+      "arFull": "وَلَقَدْ صَرَّفْنَا فِیْ هٰذَا الْقُرْاٰنِ لِیَذَّكَّرُوْا ؕ وَمَا یَزِیْدُهُمْ اِلَّا نُفُوْرًا ۟",
+      "ur": "ہم نے تو اس قرآن میں ہر ہر طرح بیان[1] فرما دیا کہ لوگ سمجھ جائیں لیکن اس سے انہیں تو نفرت ہی بڑھتی ہے.",
+      "en": "And We have certainly diversified [the contents] in this Qur’ān that they [i.e., mankind] may be reminded, but it does not increase them [i.e., the disbelievers] except in aversion.",
+      "footnotesUr": "[1] ہر ہر طرح کا مطلب ہے، وعظ و نصیحت، دلائل و بینات ، ترغیب و ترہیب اور امثال و واقعات، ہر طریقے سے بار بار سمجھایا گیا ہے تاکہ وہ سمجھ جائیں، لیکن وہ کفر شرک کی تاریکیوں میں اس طرح پھنسے ہوئے ہیں کہ وہ حق کے قریب ہونے کی بجائے، اور زیادہ دور ہوگئے ہیں۔ اس لئے کہ وہ سمجھتے ہیں کہ یہ قرآن جادو، کہانت اور شاعری ہے، پھر وہ اس قرآن سے کس طرح راہ یاب ہوں؟ کیونکہ قرآن کی مثال بارش کی ہے کہ اچھی زمین پر پڑے تو وہ بارش سے شاداب ہو جاتی ہے اور اگر وہ گندی ہے تو بارش سے بدبو میں اضافہ ہو جاتا ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَقَدْ",
+          "ur": "اور البتہ تحقیق",
+          "en": "And verily",
+          "arTajweed": "وَلَقَ<span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "صَرَّفْنَا",
+          "ur": "پھیر پھیر کر لائے ہیں ہم",
+          "en": "We have explained",
+          "arTajweed": "صَرَّفْنَا"
+        },
+        {
+          "ar": "فِیْ",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "هٰذَا",
+          "ur": "اس",
+          "en": "this",
+          "arTajweed": "هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا"
+        },
+        {
+          "ar": "الْقُرْاٰنِ",
+          "ur": "قرآن",
+          "en": "the Quran",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ"
+        },
+        {
+          "ar": "لِیَذَّكَّرُوْا ؕ",
+          "ur": "تاکہ وہ نصیحت پکڑیں",
+          "en": "that they may take heed",
+          "arTajweed": "لِيَذَّكَّرُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "وَمَا",
+          "ur": "اور نہیں",
+          "en": "but not",
+          "arTajweed": "وَمَا"
+        },
+        {
+          "ar": "یَزِیْدُهُمْ",
+          "ur": "بڑھاتا ان کو (یہ پھیرنا/مثالیں لانا)",
+          "en": "it increases them",
+          "arTajweed": "يَزِيدُهُمْ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "نُفُوْرًا",
+          "ur": "بھاگنے میں/نفرت میں",
+          "en": "(in) aversion",
+          "arTajweed": "نُفُورًا"
+        }
+      ],
+      "arTajweed": "وَلَقَ<span class=\"tj-qalaqah\">دْ</span> صَرَّفْنَا فِى هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ لِيَذَّكَّرُو<span class=\"tj-slnt\">ا۟</span> وَمَا يَزِيدُهُمْ إِلَّا نُفُورًا"
+    },
+    {
+      "number": 42,
+      "arFull": "قُلْ لَّوْ كَانَ مَعَهٗۤ اٰلِهَةٌ كَمَا یَقُوْلُوْنَ اِذًا لَّابْتَغَوْا اِلٰی ذِی الْعَرْشِ سَبِیْلًا ۟",
+      "ur": "کہہ دیجیئے! کہ اگر اللہ کے ساتھ اور معبود بھی ہوتے جیسے کہ یہ لوگ کہتے ہیں تو ضرور وه اب تک مالک عرش کی جانب راه ڈھونڈ نکالتے.[1]",
+      "en": "Say, [O Muḥammad], \"If there had been with Him [other] gods, as they say, then they [each] would have sought to the Owner of the Throne a way.\"[747]",
+      "footnotesUr": "[1] اس کے ایک معنی تو یہ ہیں کہ جس طرح ایک بادشاہ دوسرے بادشاہ پر لشکر کشی کر کے غلبہ و قوت حاصل کر لیتا ہے، اسی طرح دوسرے معبود بھی اللہ پر غلبے کی کوئی راہ ڈھونڈ نکالتے۔ اور اب تک ایسا نہیں ہوا، جب کہ ان معبودوں کو پوجتے ہوئے صدیاں گزر گئی ہیں، تو اس کا مطلب یہ ہے کہ اللہ کے سوا کوئی معبود ہی نہیں، کوئی با اختیار ہی نہیں، دوسرے معنی ہیں کہ وہ اب تک اللہ کا قرب حاصل کر چکے ہوتے اور یہ مشرکین جو یہ عقیدہ رکھتے ہیں کہ ان کے ذریعے سے وہ اللہ کا قرب حاصل کرتے ہیں، انہیں بھی وہ اللہ کے قریب کر چکے ہوتے۔",
+      "footnotesEn": "[747] To please Him, recognizing His superiority. Another interpretation is \"...they would seek a way\" to depose Him (subḥānahu wa taʿālā) and take over His Throne.",
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُل"
+        },
+        {
+          "ar": "لَّوْ",
+          "ur": "اگر",
+          "en": "If",
+          "arTajweed": "لَّوْ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہوتے",
+          "en": "(there) were",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "مَعَهٗۤ",
+          "ur": "اس کے ساتھ",
+          "en": "with Him",
+          "arTajweed": "مَعَهُ<span class=\"tj-madda-permissible\">ۥٓ</span>"
+        },
+        {
+          "ar": "اٰلِهَةٌ",
+          "ur": null,
+          "en": "gods",
+          "arTajweed": "ءَالِهَة<span class=\"tj-ikhafa\">ٌ</span>"
+        },
+        {
+          "ar": "كَمَا",
+          "ur": "جیسا کہ",
+          "en": "as",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>مَا"
+        },
+        {
+          "ar": "یَقُوْلُوْنَ",
+          "ur": "وہ کہتے ہیں",
+          "en": "they say",
+          "arTajweed": "يَقُولُونَ"
+        },
+        {
+          "ar": "اِذًا",
+          "ur": "تب",
+          "en": "then",
+          "arTajweed": "إِذ<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "لَّابْتَغَوْا",
+          "ur": "البتہ وہ تلاش کرتے",
+          "en": "surely they (would) have sought",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span><span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">بْ</span>تَغَوْ<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اِلٰی",
+          "ur": "طرف",
+          "en": "to",
+          "arTajweed": "إِلَىٰ"
+        },
+        {
+          "ar": "ذِی",
+          "ur": "والے کے",
+          "en": "(the) Owner",
+          "arTajweed": "ذِى"
+        },
+        {
+          "ar": "الْعَرْشِ",
+          "ur": "عرش",
+          "en": "(of) the Throne",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْعَرْشِ"
+        },
+        {
+          "ar": "سَبِیْلًا",
+          "ur": "راستہ",
+          "en": "a way",
+          "arTajweed": "سَبِيلًا"
+        }
+      ],
+      "arTajweed": "قُل لَّوْ كَانَ مَعَهُ<span class=\"tj-madda-permissible\">ۥٓ</span> ءَالِهَة<span class=\"tj-ikhafa\">ٌ كَ</span>مَا يَقُولُونَ إِذ<span class=\"tj-idgham-wo-ghunnah\">ًا لَّ</span><span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">بْ</span>تَغَوْ<span class=\"tj-slnt\">ا۟</span> إِلَىٰ ذِى <span class=\"tj-ham-wasl\">ٱ</span>لْعَرْشِ سَبِيلًا"
+    },
+    {
+      "number": 43,
+      "arFull": "سُبْحٰنَهٗ وَتَعٰلٰی عَمَّا یَقُوْلُوْنَ عُلُوًّا كَبِیْرًا ۟",
+      "ur": "جو کچھ یہ کہتے ہیں اس سے وه پاک اور باﻻتر، بہت دور اور بہت بلند ہے.[1]",
+      "en": "Exalted is He and high above what they say by great sublimity.",
+      "footnotesUr": "[1] یعنی واقعہ یہ ہے کہ یہ لوگ اللہ کی بابت جو کہتے ہیں کہ اس کے شریک ہیں، اللہ تعالٰی ان باتوں سے پاک اور بلند ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "سُبْحٰنَهٗ",
+          "ur": "پاک ہے وہ",
+          "en": "Glorified is He",
+          "arTajweed": "سُ<span class=\"tj-qalaqah\">بْ</span>حَ<span class=\"tj-madda-normal\">ٰ</span>نَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "وَتَعٰلٰی",
+          "ur": "اور بلند ہے",
+          "en": "and Exalted is He",
+          "arTajweed": "وَتَعَ<span class=\"tj-madda-normal\">ٰ</span>لَىٰ"
+        },
+        {
+          "ar": "عَمَّا",
+          "ur": "اس سے",
+          "en": "above what",
+          "arTajweed": "عَ<span class=\"tj-ghunnah\">مَّ</span>ا"
+        },
+        {
+          "ar": "یَقُوْلُوْنَ",
+          "ur": "جو وہ کہتے ہیں",
+          "en": "they say",
+          "arTajweed": "يَقُولُونَ"
+        },
+        {
+          "ar": "عُلُوًّا",
+          "ur": "بلندی",
+          "en": "(by) height",
+          "arTajweed": "عُلُوّ<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "كَبِیْرًا",
+          "ur": "بہت زیادہ",
+          "en": "great",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>بِيرًا"
+        }
+      ],
+      "arTajweed": "سُ<span class=\"tj-qalaqah\">بْ</span>حَ<span class=\"tj-madda-normal\">ٰ</span>نَهُ<span class=\"tj-madda-normal\">ۥ</span> وَتَعَ<span class=\"tj-madda-normal\">ٰ</span>لَىٰ عَ<span class=\"tj-ghunnah\">مَّ</span>ا يَقُولُونَ عُلُوّ<span class=\"tj-ikhafa\">ًا كَ</span>بِيرًا"
+    },
+    {
+      "number": 44,
+      "arFull": "تُسَبِّحُ لَهُ السَّمٰوٰتُ السَّبْعُ وَالْاَرْضُ وَمَنْ فِیْهِنَّ ؕ وَاِنْ مِّنْ شَیْءٍ اِلَّا یُسَبِّحُ بِحَمْدِهٖ وَلٰكِنْ لَّا تَفْقَهُوْنَ تَسْبِیْحَهُمْ ؕ اِنَّهٗ كَانَ حَلِیْمًا غَفُوْرًا ۟",
+      "ur": "ساتوں آسمان اور زمین اور جو بھی ان میں ہے اسی کی تسبیح کر رہے ہیں۔ ایسی کوئی چیز نہیں جو اسے پاکیزگی اور تعریف کے ساتھ یاد نہ کرتی ہو۔ ہاں یہ صحیح ہے کہ تم اس کی تسبیح سمجھ نہیں سکتے[1] ۔ وه بڑا بردبار اور بخشنے واﻻ ہے.",
+      "en": "The seven heavens and the earth and whatever is in them exalt Him. And there is not a thing except that it exalts [Allāh] by His praise, but you do not understand their [way of] exalting. Indeed, He is ever Forbearing[748] and Forgiving.",
+      "footnotesUr": "[1] یعنی سب اسی کے مطیع اور اپنے اپنے انداز میں اس کی تسبیح و تحمید میں مصروف ہیں۔ گو ہم ان کی تسبیح و تحمید کو نہ سمجھ سکیں۔ اس کی تائید بعض آیات قرآنی سے بھی ہوتی ہے مثلًا حضرت داؤد (عليه السلام) کے بارے میں آتا ہے «اِنَّا سَخَّرْنَا الْجِبَالَ مَعَهٗ يُسَبِّحْنَ بِالْعَشِيِّ وَالْاِشْرَاقِ» (ص:18) ”ہم نے پہاڑوں کو داؤد (عليه السلام) کے تابع کر دیا، بس وہ شام کو اور صبح کو اس کے ساتھ اللہ کی تسبیح (پاکی) بیان کرتے ہیں“۔ بعض پتھروں کے بارے میں اللہ تعالٰی نے فرمایا «وَاِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْـيَةِ اللّٰهِ»( البقرۃ:74) ”اور بعض اللہ تعالٰی کے ڈر سے گر پڑتے ہیں“، بعض صحابہ (رضي الله عنهم) بیان کرتے ہیں کہ وہ رسول اللہ (صلى الله عليه وسلم) کے ساتھ کھانا کھا رہے تھے کہ انہوں نے کھانے سے تسبیح کی آواز سنی۔ ( صحيح بخاري- كتاب المناقب نمبر 1759)، ایک اور حدیث سے ثابت ہے کہ چیونٹیاں اللہ کی تسبیح کرتی ہیں (بخاري، نمبر:3019 مسلم: نمبر1759)، اسی طرح جس تنے کے ساتھ ٹیک لگا کر رسول اللہ (صلى الله عليه وسلم) خطبہ ارشاد فرمایا کرتے تھے، جب لکڑی کا منبر بن گیا اور اسے آپ (صلى الله عليه وسلم) نے چھوڑ دیا تو بچے کی طرح اس سے رونے کی آواز آتی تھی (بخاری نمبر3583) مکے میں ایک پتھر تھا جو رسول (صلى الله عليه وسلم) کو سلام کیا کرتا تھا (صحیح مسلم 1782) ان آیات و صحیح حدیث سے واضح ہے کہ جمادات و نباتات کے اندر بھی ایک مخصوص قسم کا شعور موجود ہے، جسے گو ہم نہ سمجھ سکیں، مگر وہ اس شعور کی بنا پر اللہ کی تسبیح کرتے ہیں۔ بعض کہتے ہیں کہ اس سے مراد تسبیح دلالت ہے یعنی یہ چیزیں اس بات پر دلالت کرتی ہیں کہ تمام کائنات کا خالق اور ہرچیز پر قادر صرف اللہ تعالٰی ہے۔\nوَفِي كُلِّ شَيْءٍ لَهُ آيَةٌ\nتَدُلُّ عَلَى أَنَّهُ وَاحِدٌ ”ہرچیز اس بات پر دلالت کرتی ہے کہ اللہ تعالٰی ایک ہے، لیکن صحیح بات پہلی ہی ہے کہ تسبیح اپنے حقیقی معنی میں ہے“۔",
+      "footnotesEn": "[748] Refer to footnote in 2:225.",
+      "words": [
+        {
+          "ar": "تُسَبِّحُ",
+          "ur": "تسبیح کررہے ہیں",
+          "en": "Glorify",
+          "arTajweed": "تُسَبِّحُ"
+        },
+        {
+          "ar": "لَهُ",
+          "ur": "اس کے لئے",
+          "en": "[to] Him",
+          "arTajweed": "لَهُ"
+        },
+        {
+          "ar": "السَّمٰوٰتُ",
+          "ur": "آسمان",
+          "en": "the seven heavens",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تُ"
+        },
+        {
+          "ar": "السَّبْعُ",
+          "ur": "سات",
+          "en": "the seven heavens",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّ<span class=\"tj-qalaqah\">بْ</span>عُ"
+        },
+        {
+          "ar": "وَالْاَرْضُ",
+          "ur": "اور زمین",
+          "en": "and the earth",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضُ"
+        },
+        {
+          "ar": "وَمَنْ",
+          "ur": "اور جو",
+          "en": "and whatever",
+          "arTajweed": "وَمَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "فِیْهِنَّ ؕ",
+          "ur": "ان کے اندر ہے",
+          "en": "(is) in them",
+          "arTajweed": "<span class=\"tj-ikhafa\">فِ</span>يهِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "وَاِنْ",
+          "ur": "اور نہیں",
+          "en": "And (there is) not",
+          "arTajweed": "وَإِ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": "کوئی",
+          "en": "any",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "شَیْءٍ",
+          "ur": "چیز",
+          "en": "thing",
+          "arTajweed": "<span class=\"tj-ikhafa\">شَ</span>ىْءٍ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "یُسَبِّحُ",
+          "ur": "تسبیح کررہی ہے",
+          "en": "glorifies",
+          "arTajweed": "يُسَبِّحُ"
+        },
+        {
+          "ar": "بِحَمْدِهٖ",
+          "ur": "ساتھ اس کی حمد کے",
+          "en": "His Praise",
+          "arTajweed": "بِحَمْدِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "وَلٰكِنْ",
+          "ur": "لیکن",
+          "en": "but",
+          "arTajweed": "وَلَ<span class=\"tj-madda-normal\">ٰ</span>كِ<span class=\"tj-idgham-wo-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "لَّا",
+          "ur": "نہیں",
+          "en": "not",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>ا"
+        },
+        {
+          "ar": "تَفْقَهُوْنَ",
+          "ur": "تم سمجھتے",
+          "en": "you understand",
+          "arTajweed": "تَفْقَهُونَ"
+        },
+        {
+          "ar": "تَسْبِیْحَهُمْ ؕ",
+          "ur": "ان کی تسبیح کو",
+          "en": "their glorification",
+          "arTajweed": "تَسْبِيحَهُمْ"
+        },
+        {
+          "ar": "اِنَّهٗ",
+          "ur": "بیشک وہ",
+          "en": "Indeed, He",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "حَلِیْمًا",
+          "ur": "حلم والا/ بردبار",
+          "en": "Ever-Forbearing",
+          "arTajweed": "حَلِيمًا"
+        },
+        {
+          "ar": "غَفُوْرًا",
+          "ur": "بخشنے والا",
+          "en": "Oft-Forgiving",
+          "arTajweed": "غَفُورًا"
+        }
+      ],
+      "arTajweed": "تُسَبِّحُ لَهُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّ<span class=\"tj-qalaqah\">بْ</span>عُ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضُ وَمَ<span class=\"tj-ikhafa\">ن فِ</span>يهِ<span class=\"tj-ghunnah\">نَّ</span> وَإِ<span class=\"tj-idgham-ghunnah\">ن مِّ</span><span class=\"tj-ikhafa\">ن شَ</span>ىْءٍ إِلَّا يُسَبِّحُ بِحَمْدِهِ<span class=\"tj-madda-normal\">ۦ</span> وَلَ<span class=\"tj-madda-normal\">ٰ</span>كِ<span class=\"tj-idgham-wo-ghunnah\">ن لَّ</span>ا تَفْقَهُونَ تَسْبِيحَهُمْ إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> كَانَ حَلِيمًا غَفُورًا"
+    },
+    {
+      "number": 45,
+      "arFull": "وَاِذَا قَرَاْتَ الْقُرْاٰنَ جَعَلْنَا بَیْنَكَ وَبَیْنَ الَّذِیْنَ لَا یُؤْمِنُوْنَ بِالْاٰخِرَةِ حِجَابًا مَّسْتُوْرًا ۟ۙ",
+      "ur": "تو جب قرآن پڑھتا ہے ہم تیرے اور ان لوگوں کے درمیان جو آخرت پر یقین نہیں رکھتے ایک پوشیده حجاب ڈال دیتے ہیں.[1]",
+      "en": "And when you recite the Qur’ān, We put between you and those who do not believe in the Hereafter a concealed partition.[749]",
+      "footnotesUr": "[1] مَسْتُورٌ بمعنی سَاترٍ(مانع اور حائل) ہے مستور عن الابصار (آنکھوں سے اوجھل) پس وہ اسے دیکھتے ہیں۔ اس کے باوجود، ان کے اور ہدایت کے درمیان حجاب ہے۔",
+      "footnotesEn": "[749] Preventing guidance from reaching them.",
+      "words": [
+        {
+          "ar": "وَاِذَا",
+          "ur": "اور جب",
+          "en": "And when",
+          "arTajweed": "وَإِذَا"
+        },
+        {
+          "ar": "قَرَاْتَ",
+          "ur": "پڑھتے ہو تم",
+          "en": "you recite",
+          "arTajweed": "قَرَأْتَ"
+        },
+        {
+          "ar": "الْقُرْاٰنَ",
+          "ur": "قرآن کو",
+          "en": "the Quran",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانَ"
+        },
+        {
+          "ar": "جَعَلْنَا",
+          "ur": "ہم ڈال دیتے ہیں",
+          "en": "We place",
+          "arTajweed": "جَعَلْنَا"
+        },
+        {
+          "ar": "بَیْنَكَ",
+          "ur": "تیرے درمیان",
+          "en": "between you",
+          "arTajweed": "بَيْنَكَ"
+        },
+        {
+          "ar": "وَبَیْنَ",
+          "ur": "اور   درمیان",
+          "en": "and between",
+          "arTajweed": "وَبَيْنَ"
+        },
+        {
+          "ar": "الَّذِیْنَ",
+          "ur": "ان لوگوں کے",
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
+        },
+        {
+          "ar": "لَا",
+          "ur": "جو نہیں",
+          "en": "(do) not",
+          "arTajweed": "لَا"
+        },
+        {
+          "ar": "یُؤْمِنُوْنَ",
+          "ur": "ایمان رکھتے",
+          "en": "believe",
+          "arTajweed": "يُؤْمِنُونَ"
+        },
+        {
+          "ar": "بِالْاٰخِرَةِ",
+          "ur": "آخرت",
+          "en": "in the Hereafter",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ"
+        },
+        {
+          "ar": "حِجَابًا",
+          "ur": "ایک پردہ",
+          "en": "a barrier",
+          "arTajweed": "حِجَاب<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّسْتُوْرًا",
+          "ur": "چھپا ہوا",
+          "en": "hidden",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>سْتُورًا"
+        }
+      ],
+      "arTajweed": "وَإِذَا قَرَأْتَ <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ لَا يُؤْمِنُونَ بِ<span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ حِجَاب<span class=\"tj-idgham-ghunnah\">ًا مَّ</span>سْتُورًا"
+    },
+    {
+      "number": 46,
+      "arFull": "وَّجَعَلْنَا عَلٰی قُلُوْبِهِمْ اَكِنَّةً اَنْ یَّفْقَهُوْهُ وَفِیْۤ اٰذَانِهِمْ وَقْرًا ؕ وَاِذَا ذَكَرْتَ رَبَّكَ فِی الْقُرْاٰنِ وَحْدَهٗ وَلَّوْا عَلٰۤی اَدْبَارِهِمْ نُفُوْرًا ۟",
+      "ur": "اور ان کے دلوں پر ہم نے پردے ڈال دیئے ہیں کہ وه اسے سمجھیں اور ان کے کانوں میں بوجھ اور جب تو صرف اللہ ہی کا ذکر اس کی توحید کے ساتھ، اس قرآن میں کرتا ہے تو وه روگردانی کرتے پیٹھ پھیر کر بھاگ کھڑے ہوتے ہیں.[1]",
+      "en": "And We have placed over their hearts coverings, lest they understand it, and in their ears deafness. And when you mention your Lord alone in the Qur’ān, they turn back in aversion.",
+      "footnotesUr": "[1] أَكِنَّةً، كِنَانٌ کی جمع ہے ایسا پردہ جو دلوں پر پڑ جائے۔ وَقْرٌ کانوں میں ایسا ثقل یا ڈاٹ جو قرآن کے سننے میں مانع ہو۔ مطلب یہ ہے کہ ان کے دل قرآن کے سمجھنے سے قاصر اور کان قرآن سن کر ہدایت قبول کرنے سے عاجز ہیں، اور اللہ کی توحید سے انہیں اتنی نفرت ہے کہ اسے سن کر تو بھاگ ہی کھڑے ہوتے ہیں، ان افعال کی نسبت اللہ کی طرف، بہ اعتبار خلق کے ہے۔ ورنہ ہدایت سے محرومی ان کے جمود و عناد ہی کا نتیجہ تھا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَّجَعَلْنَا",
+          "ur": "اورہم ڈال دیتے ہیں",
+          "en": "And We have placed",
+          "arTajweed": "وَجَعَلْنَا"
+        },
+        {
+          "ar": "عَلٰی",
+          "ur": "پر",
+          "en": "over",
+          "arTajweed": "عَلَىٰ"
+        },
+        {
+          "ar": "قُلُوْبِهِمْ",
+          "ur": "ان کے دلوں",
+          "en": "their hearts",
+          "arTajweed": "قُلُوبِهِمْ"
+        },
+        {
+          "ar": "اَكِنَّةً",
+          "ur": "غلاف",
+          "en": "coverings",
+          "arTajweed": "أَكِ<span class=\"tj-ghunnah\">نَّ</span>ةً"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "lest",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّفْقَهُوْهُ",
+          "ur": "وہ (نہ) سمجھیں اس کو",
+          "en": "they understand it",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>فْقَهُوهُ"
+        },
+        {
+          "ar": "وَفِیْۤ",
+          "ur": "میں",
+          "en": "and in",
+          "arTajweed": "وَفِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اٰذَانِهِمْ",
+          "ur": "اور ان کے کانوں",
+          "en": "their ears",
+          "arTajweed": "ءَاذَانِهِمْ"
+        },
+        {
+          "ar": "وَقْرًا ؕ",
+          "ur": "بوجھ ہوتا ہے",
+          "en": "deafness",
+          "arTajweed": "وَ<span class=\"tj-qalaqah\">قْ</span>ر<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "وَاِذَا",
+          "ur": "اور جب",
+          "en": "And when",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>إِذَا"
+        },
+        {
+          "ar": "ذَكَرْتَ",
+          "ur": "تم ذکر کرتے ہو",
+          "en": "you mention",
+          "arTajweed": "ذَكَرْتَ"
+        },
+        {
+          "ar": "رَبَّكَ",
+          "ur": "اپنے رب کا",
+          "en": "your Lord",
+          "arTajweed": "رَبَّكَ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْقُرْاٰنِ",
+          "ur": "قرآن",
+          "en": "the Quran",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ"
+        },
+        {
+          "ar": "وَحْدَهٗ",
+          "ur": "اکیلے اسی کا",
+          "en": "Alone",
+          "arTajweed": "وَحْدَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "وَلَّوْا",
+          "ur": "وہ مڑجاتے ہیں",
+          "en": "they turn",
+          "arTajweed": "وَلَّوْ<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "عَلٰۤی",
+          "ur": "پر",
+          "en": "on",
+          "arTajweed": "عَلَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اَدْبَارِهِمْ",
+          "ur": "اپنی پیٹھوں پر",
+          "en": "their backs",
+          "arTajweed": "أَ<span class=\"tj-qalaqah\">دْ</span>بَ<span class=\"tj-madda-normal\">ٰ</span>رِهِمْ"
+        },
+        {
+          "ar": "نُفُوْرًا",
+          "ur": "نفرت کرتے ہوئے",
+          "en": "(in) aversion",
+          "arTajweed": "نُفُورًا"
+        }
+      ],
+      "arTajweed": "وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِ<span class=\"tj-ghunnah\">نَّ</span>ةً أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>فْقَهُوهُ وَفِ<span class=\"tj-madda-permissible\">ىٓ</span> ءَاذَانِهِمْ وَ<span class=\"tj-qalaqah\">قْ</span>ر<span class=\"tj-idgham-ghunnah\">ًا وَ</span>إِذَا ذَكَرْتَ رَبَّكَ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ وَحْدَهُ<span class=\"tj-madda-normal\">ۥ</span> وَلَّوْ<span class=\"tj-slnt\">ا۟</span> عَلَ<span class=\"tj-madda-permissible\">ىٰٓ</span> أَ<span class=\"tj-qalaqah\">دْ</span>بَ<span class=\"tj-madda-normal\">ٰ</span>رِهِمْ نُفُورًا"
+    },
+    {
+      "number": 47,
+      "arFull": "نَحْنُ اَعْلَمُ بِمَا یَسْتَمِعُوْنَ بِهٖۤ اِذْ یَسْتَمِعُوْنَ اِلَیْكَ وَاِذْ هُمْ نَجْوٰۤی اِذْ یَقُوْلُ الظّٰلِمُوْنَ اِنْ تَتَّبِعُوْنَ اِلَّا رَجُلًا مَّسْحُوْرًا ۟",
+      "ur": "جس غرض سے وه لوگ اسے سنتے ہیں ان (کی نیتوں) سے ہم خوب آگاه ہیں، جب یہ آپ کی طرف کان لگائے ہوئے ہوتے ہیں تب بھی اور جب یہ مشوره کرتے ہیں تب بھی جب کہ یہ ﻇالم کہتے ہیں کہ تم اس کی تابعداری میں لگے ہوئے ہو جن پر جادو[1] کردیا گیا ہے.",
+      "en": "We are most knowing of how they listen to it when they listen to you and [of] when they are in private conversation, when the wrongdoers say, \"You follow not but a man affected by magic.\"",
+      "footnotesUr": "[1] یعنی نبی (صلى الله عليه وسلم) کو یہ سحر زدہ سمجھتے ہیں اور یہ سمجھتے ہوئے قرآن سنتے اور آپس میں سرگوشیاں کرتے ہیں، اس لئے ہدایت سے محروم ہی رہتے ہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "نَحْنُ",
+          "ur": "ہم زیادہ",
+          "en": "We",
+          "arTajweed": "نَّحْنُ"
+        },
+        {
+          "ar": "اَعْلَمُ",
+          "ur": "جانتے ہیں",
+          "en": "know best",
+          "arTajweed": "أَعْلَمُ"
+        },
+        {
+          "ar": "بِمَا",
+          "ur": "ساتھ اس کو جو کچھ",
+          "en": "[of] what",
+          "arTajweed": "بِمَا"
+        },
+        {
+          "ar": "یَسْتَمِعُوْنَ",
+          "ur": "وہ سنتے ہیں",
+          "en": "they listen",
+          "arTajweed": "يَسْتَمِعُونَ"
+        },
+        {
+          "ar": "بِهٖۤ",
+          "ur": "ساتھ اس کے",
+          "en": "to [it]",
+          "arTajweed": "بِهِ<span class=\"tj-madda-permissible\">ۦٓ</span>"
+        },
+        {
+          "ar": "اِذْ",
+          "ur": "جب",
+          "en": "when",
+          "arTajweed": "إِذْ"
+        },
+        {
+          "ar": "یَسْتَمِعُوْنَ",
+          "ur": "وہ سنتے ہیں",
+          "en": "they listen",
+          "arTajweed": "يَسْتَمِعُونَ"
+        },
+        {
+          "ar": "اِلَیْكَ",
+          "ur": "تیری طرف",
+          "en": "to you",
+          "arTajweed": "إِلَيْكَ"
+        },
+        {
+          "ar": "وَاِذْ",
+          "ur": "اور جب",
+          "en": "and when",
+          "arTajweed": "وَإِذْ"
+        },
+        {
+          "ar": "هُمْ",
+          "ur": "وہ",
+          "en": "they",
+          "arTajweed": "هُمْ"
+        },
+        {
+          "ar": "نَجْوٰۤی",
+          "ur": "سرگوشیاں کرتے ہیں",
+          "en": "(are) in private conversation",
+          "arTajweed": "نَ<span class=\"tj-qalaqah\">جْ</span>وَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اِذْ",
+          "ur": "جب",
+          "en": "when",
+          "arTajweed": "إِذْ"
+        },
+        {
+          "ar": "یَقُوْلُ",
+          "ur": "کہتے ہیں",
+          "en": "say",
+          "arTajweed": "يَقُولُ"
+        },
+        {
+          "ar": "الظّٰلِمُوْنَ",
+          "ur": "ظالم لوگ",
+          "en": "the wrongdoers",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ظَّ<span class=\"tj-madda-normal\">ٰ</span>لِمُونَ"
+        },
+        {
+          "ar": "اِنْ",
+          "ur": "نہیں",
+          "en": "Not",
+          "arTajweed": "إِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "تَتَّبِعُوْنَ",
+          "ur": "تم پیروی کرتے",
+          "en": "you follow",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span>تَّبِعُونَ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "but",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "رَجُلًا",
+          "ur": "ایک شخص کی",
+          "en": "a man",
+          "arTajweed": "رَجُل<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّسْحُوْرًا",
+          "ur": "سحر زدہ",
+          "en": "bewitched",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>سْحُورًا"
+        }
+      ],
+      "arTajweed": "نَّحْنُ أَعْلَمُ بِمَا يَسْتَمِعُونَ بِهِ<span class=\"tj-madda-permissible\">ۦٓ</span> إِذْ يَسْتَمِعُونَ إِلَيْكَ وَإِذْ هُمْ نَ<span class=\"tj-qalaqah\">جْ</span>وَ<span class=\"tj-madda-permissible\">ىٰٓ</span> إِذْ يَقُولُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ظَّ<span class=\"tj-madda-normal\">ٰ</span>لِمُونَ إِ<span class=\"tj-ikhafa\">ن تَ</span>تَّبِعُونَ إِلَّا رَجُل<span class=\"tj-idgham-ghunnah\">ًا مَّ</span>سْحُورًا"
+    },
+    {
+      "number": 48,
+      "arFull": "اُنْظُرْ كَیْفَ ضَرَبُوْا لَكَ الْاَمْثَالَ فَضَلُّوْا فَلَا یَسْتَطِیْعُوْنَ سَبِیْلًا ۟",
+      "ur": "دیکھیں تو سہی، آپ کے لئے کیا کیا مثالیں بیان کرتے ہیں، پس وه بہک رہے ہیں۔ اب تو راه پانا ان کے بس میں نہیں رہا.[1]",
+      "en": "Look how they strike for you comparisons;[750] but they have strayed, so they cannot [find] a way.",
+      "footnotesUr": "[1] کبھی ساحر، کبھی مسحور، کبھی مجنون اور کبھی کاہن کہتے ہیں، پس اس طرح گمراہ ہو رہے ہیں، ہدایت کا راستہ انہیں کس طرح ملے۔",
+      "footnotesEn": "[750] Describing the Prophet (ﷺ) as a poet, a madman or one under the influence of sorcery.",
+      "words": [
+        {
+          "ar": "اُنْظُرْ",
+          "ur": "دیکھو",
+          "en": "See",
+          "arTajweed": "ٱ<span class=\"tj-ikhafa\">نظُ</span>رْ"
+        },
+        {
+          "ar": "كَیْفَ",
+          "ur": "کس طرح",
+          "en": "how",
+          "arTajweed": "كَيْفَ"
+        },
+        {
+          "ar": "ضَرَبُوْا",
+          "ur": "انہوں نے بیان کیں",
+          "en": "they put forth",
+          "arTajweed": "ضَرَبُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "لَكَ",
+          "ur": "تیرے لئے",
+          "en": "for you",
+          "arTajweed": "لَكَ"
+        },
+        {
+          "ar": "الْاَمْثَالَ",
+          "ur": "مثالیں",
+          "en": "the examples",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَمْثَالَ"
+        },
+        {
+          "ar": "فَضَلُّوْا",
+          "ur": "تو وہ بھٹک گئے",
+          "en": "but they have gone astray",
+          "arTajweed": "فَضَلُّو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "فَلَا",
+          "ur": "تو نہیں",
+          "en": "so not",
+          "arTajweed": "فَلَا"
+        },
+        {
+          "ar": "یَسْتَطِیْعُوْنَ",
+          "ur": "وہ استطاعت رکھتے راستے کی",
+          "en": "they can",
+          "arTajweed": "يَسْتَطِيعُونَ"
+        },
+        {
+          "ar": "سَبِیْلًا",
+          "ur": null,
+          "en": "(find) a way",
+          "arTajweed": "سَبِيلًا"
+        }
+      ],
+      "arTajweed": "ٱ<span class=\"tj-ikhafa\">نظُ</span>رْ كَيْفَ ضَرَبُو<span class=\"tj-slnt\">ا۟</span> لَكَ <span class=\"tj-ham-wasl\">ٱ</span>لْأَمْثَالَ فَضَلُّو<span class=\"tj-slnt\">ا۟</span> فَلَا يَسْتَطِيعُونَ سَبِيلًا"
+    },
+    {
+      "number": 49,
+      "arFull": "وَقَالُوْۤا ءَاِذَا كُنَّا عِظَامًا وَّرُفَاتًا ءَاِنَّا لَمَبْعُوْثُوْنَ خَلْقًا جَدِیْدًا ۟",
+      "ur": "انہوں نے کہا کیا جب ہم ہڈیاں اور (مٹی ہو کر) ریزه ریزه ہوجائیں گے تو کیا ہم ازسرنو پیدا کر کے پھر دوباره اٹھا کر کھڑے کر دیئے جائیں گے.",
+      "en": "And they say, \"When we are bones and crumbled particles, will we [truly] be resurrected as a new creation?\"",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَقَالُوْۤا",
+          "ur": "اور وہ کہتے ہیں",
+          "en": "And they say",
+          "arTajweed": "وَقَالُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "ءَاِذَا",
+          "ur": "کیا جب",
+          "en": "Is it when",
+          "arTajweed": "أَءِذَا"
+        },
+        {
+          "ar": "كُنَّا",
+          "ur": "ہم ہوں گے",
+          "en": "we are",
+          "arTajweed": "كُ<span class=\"tj-ghunnah\">نَّ</span>ا"
+        },
+        {
+          "ar": "عِظَامًا",
+          "ur": "ہڈیاں",
+          "en": "bones",
+          "arTajweed": "عِظَ<span class=\"tj-madda-normal\">ٰ</span>م<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "وَّرُفَاتًا",
+          "ur": "اور چورا چورا",
+          "en": "and crumbled particles",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>رُفَ<span class=\"tj-madda-normal\">ٰ</span>تًا"
+        },
+        {
+          "ar": "ءَاِنَّا",
+          "ur": "کیا بیشک ہم",
+          "en": "will we",
+          "arTajweed": "أَءِ<span class=\"tj-ghunnah\">نَّ</span>ا"
+        },
+        {
+          "ar": "لَمَبْعُوْثُوْنَ",
+          "ur": "البتہ اٹھائے جائیں گے",
+          "en": "surely (be) resurrected",
+          "arTajweed": "لَمَ<span class=\"tj-qalaqah\">بْ</span>عُوثُونَ"
+        },
+        {
+          "ar": "خَلْقًا",
+          "ur": "پیدائش میں",
+          "en": "(as) a creation",
+          "arTajweed": "خَلْق<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "جَدِیْدًا",
+          "ur": "ایک نئی",
+          "en": "new",
+          "arTajweed": "<span class=\"tj-ikhafa\">جَ</span>دِيدًا"
+        }
+      ],
+      "arTajweed": "وَقَالُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> أَءِذَا كُ<span class=\"tj-ghunnah\">نَّ</span>ا عِظَ<span class=\"tj-madda-normal\">ٰ</span>م<span class=\"tj-idgham-ghunnah\">ًا وَ</span>رُفَ<span class=\"tj-madda-normal\">ٰ</span>تًا أَءِ<span class=\"tj-ghunnah\">نَّ</span>ا لَمَ<span class=\"tj-qalaqah\">بْ</span>عُوثُونَ خَلْق<span class=\"tj-ikhafa\">ًا جَ</span>دِيدًا"
+    },
+    {
+      "number": 50,
+      "arFull": "قُلْ كُوْنُوْا حِجَارَةً اَوْ حَدِیْدًا ۟ۙ",
+      "ur": "جواب دیجیئے کہ تم پتھر بن جاؤ یا لوہا.[1]",
+      "en": "Say, \"Be you stones or iron[751]",
+      "footnotesUr": "[1] جو مٹی اور ہڈیوں سے زیادہ سخت ہے اور جس میں زندگی کے آثار پیدا کرنا زیادہ مشکل ہے۔",
+      "footnotesEn": "[751] i.e., even if you should be stones or iron.",
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلْ"
+        },
+        {
+          "ar": "كُوْنُوْا",
+          "ur": "ہوجاؤ",
+          "en": "Be",
+          "arTajweed": "كُونُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "حِجَارَةً",
+          "ur": "پتھر",
+          "en": "stones",
+          "arTajweed": "حِجَارَةً"
+        },
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "حَدِیْدًا",
+          "ur": "لوہا",
+          "en": "iron",
+          "arTajweed": "حَدِيدًا"
+        }
+      ],
+      "arTajweed": "قُلْ كُونُو<span class=\"tj-slnt\">ا۟</span> حِجَارَةً أَوْ حَدِيدًا"
+    },
+    {
+      "number": 51,
+      "arFull": "اَوْ خَلْقًا مِّمَّا یَكْبُرُ فِیْ صُدُوْرِكُمْ ۚ فَسَیَقُوْلُوْنَ مَنْ یُّعِیْدُنَا ؕ قُلِ الَّذِیْ فَطَرَكُمْ اَوَّلَ مَرَّةٍ ۚ فَسَیُنْغِضُوْنَ اِلَیْكَ رُءُوْسَهُمْ وَیَقُوْلُوْنَ مَتٰی هُوَ ؕ قُلْ عَسٰۤی اَنْ یَّكُوْنَ قَرِیْبًا ۟",
+      "ur": "یا کوئی اور ایسی خلقت جو تمہارے دلوں میں بہت ہی سخت معلوم ہو[1] ، پھر وه پوچھیں کہ کون ہے جو دوباره ہماری زندگی لوٹائے؟ آپ جواب دے دیں کہ وہی اللہ جس نے تمہیں اول بار پیدا کیا، اس پر وه اپنے سر ہلا ہلا[2] کر آپ سے دریافت کریں گے کہ اچھا یہ ہے کب؟ تو آپ جواب دے دیں کہ کیا عجب کہ وه (ساعت) قریب ہی آن لگی ہو.[3]",
+      "en": "Or [any] creation of that which is great[752] within your breasts.\" And they will say, \"Who will restore us?\" Say, \"He who brought you forth the first time.\" Then they will nod their heads toward you[753] and say, \"When is that?\" Say, \"Perhaps it will be soon -",
+      "footnotesUr": "[1] یعنی اس سے بھی زیادہ سخت چیز، جو تمہارے علم میں ہو، وہ بن جاؤ اور پھر پوچھو کہ کون زندہ کرے گا؟۔\n[2] أَنْغَضَ يُنْغِضُ کے معنی ہیں سر ہلانا۔ یعنی استہزاء کے طور پر سر ہلا کر وہ کہیں گے کہ یہ دوبارہ زندگی کب ہوگی؟۔\n[3] قریب کا مطلب ہے، ہونے والی چیز «كُلُّ مَا هُوَ آتٍ فَهُوَ قَرِيبٌ» ”ہر وقوع پذیر ہونے والی چیز قریب ہے“۔ اور ”عسی“ بھی قرآن میں یقین اور واجب الوقوع کے معنی میں استعمال ہوا ہے، یعنی قیامت کا وقوع یقینی اور ضروری ہے۔",
+      "footnotesEn": "[752] Such as the heavens and earth.\n[753] In disbelief and ridicule.",
+      "words": [
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "Or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "خَلْقًا",
+          "ur": "مخلوق",
+          "en": "a creation",
+          "arTajweed": "خَلْق<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مِّمَّا",
+          "ur": "اس میں سے جو",
+          "en": "of what",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-ghunnah\">مَّ</span>ا"
+        },
+        {
+          "ar": "یَكْبُرُ",
+          "ur": "بڑی ہوتی ہے",
+          "en": "(is) great",
+          "arTajweed": "يَكْبُرُ"
+        },
+        {
+          "ar": "فِیْ",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "صُدُوْرِكُمْ ۚ",
+          "ur": "تمہارے سینوں",
+          "en": "your breasts",
+          "arTajweed": "صُدُورِكُمْ"
+        },
+        {
+          "ar": "فَسَیَقُوْلُوْنَ",
+          "ur": "پس عنقریب وہ کہیں گے",
+          "en": "Then they will say",
+          "arTajweed": "فَسَيَقُولُونَ"
+        },
+        {
+          "ar": "مَنْ",
+          "ur": "کون",
+          "en": "Who",
+          "arTajweed": "مَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یُّعِیْدُنَا ؕ",
+          "ur": "لوٹائے گا ہم کو",
+          "en": "will restore us",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يُ</span>عِيدُنَا"
+        },
+        {
+          "ar": "قُلِ",
+          "ur": "کہہ دیجئے کہ وہ ہستی",
+          "en": "Say",
+          "arTajweed": "قُلِ"
+        },
+        {
+          "ar": "الَّذِیْ",
+          "ur": "جس نے",
+          "en": "He Who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِى"
+        },
+        {
+          "ar": "فَطَرَكُمْ",
+          "ur": "پیدا کیا تم کو",
+          "en": "created you",
+          "arTajweed": "فَطَرَكُمْ"
+        },
+        {
+          "ar": "اَوَّلَ",
+          "ur": "پہلی",
+          "en": "(the) first",
+          "arTajweed": "أَوَّلَ"
+        },
+        {
+          "ar": "مَرَّةٍ ۚ",
+          "ur": "بار",
+          "en": "time",
+          "arTajweed": "مَرَّة<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "فَسَیُنْغِضُوْنَ",
+          "ur": "پس عنقریب سر ہلائیں گے",
+          "en": "Then they will shake",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>سَيُنْغِضُونَ"
+        },
+        {
+          "ar": "اِلَیْكَ",
+          "ur": "تیری طرف",
+          "en": "at you",
+          "arTajweed": "إِلَيْكَ"
+        },
+        {
+          "ar": "رُءُوْسَهُمْ",
+          "ur": "اپنے سروں کو",
+          "en": "their heads",
+          "arTajweed": "رُءُوسَهُمْ"
+        },
+        {
+          "ar": "وَیَقُوْلُوْنَ",
+          "ur": "اور وہ کہیں گے",
+          "en": "and they say",
+          "arTajweed": "وَيَقُولُونَ"
+        },
+        {
+          "ar": "مَتٰی",
+          "ur": "کب ہے",
+          "en": "When (will)",
+          "arTajweed": "مَتَىٰ"
+        },
+        {
+          "ar": "هُوَ ؕ",
+          "ur": "وہ",
+          "en": "it (be)",
+          "arTajweed": "هُوَ"
+        },
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلْ"
+        },
+        {
+          "ar": "عَسٰۤی",
+          "ur": "امید ہے",
+          "en": "Perhaps",
+          "arTajweed": "عَسَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّكُوْنَ",
+          "ur": "وہ ہو",
+          "en": "(it) will be",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>كُونَ"
+        },
+        {
+          "ar": "قَرِیْبًا",
+          "ur": "قریب ہی",
+          "en": "soon",
+          "arTajweed": "قَرِيبًا"
+        }
+      ],
+      "arTajweed": "أَوْ خَلْق<span class=\"tj-idgham-ghunnah\">ًا مِّ</span><span class=\"tj-ghunnah\">مَّ</span>ا يَكْبُرُ فِى صُدُورِكُمْ فَسَيَقُولُونَ مَ<span class=\"tj-idgham-ghunnah\">ن يُ</span>عِيدُنَا قُلِ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِى فَطَرَكُمْ أَوَّلَ مَرَّة<span class=\"tj-ikhafa\">ٍ فَ</span>سَيُنْغِضُونَ إِلَيْكَ رُءُوسَهُمْ وَيَقُولُونَ مَتَىٰ هُوَ قُلْ عَسَ<span class=\"tj-madda-permissible\">ىٰٓ</span> أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>كُونَ قَرِيبًا"
+    },
+    {
+      "number": 52,
+      "arFull": "یَوْمَ یَدْعُوْكُمْ فَتَسْتَجِیْبُوْنَ بِحَمْدِهٖ وَتَظُنُّوْنَ اِنْ لَّبِثْتُمْ اِلَّا قَلِیْلًا ۟۠",
+      "ur": "جس دن وه تمہیں[1] بلائے گا تم اس کی تعریف کرتے ہوئے تعمیل ارشاد کرو گے اور گمان کرو گے کہ تمہارا رہنا بہت ہی تھوڑا ہے.[2]",
+      "en": "On the Day He will call you and you will respond with praise of Him and think that you had not remained [in the world] except for a little.\"",
+      "footnotesUr": "[1] ”بلائے گا“ کا مطلب ہے قبروں سے زندہ کر کے اپنی بارگاہ میں حاضر کرے گا، تم اس کی حمد کرتے ہوئے تعمیل ارشاد کرو گے یا اسے پہچانتے ہوئے اس کے پاس حاضر ہو جاؤ گے۔\n[2] وہاں یہ دنیا کی زندگی بالکل تھوڑی معلوم ہوگی۔ «كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوا إِلا عَشِيَّةً أَوْ ضُحَاهَا»۔ (النازعات:46) ۔ ”جب قیامت کو دیکھ لیں گے، تو دنیا کی زندگی انہیں ایسے لگے گی گویا اس میں ایک شام یا ایک صبح رہے ہیں“، اسی مضمون کو دیگر مقامات میں بھی بیان کیا گیا ہے۔ مثلاً سورۂ طہٰ102، 104۔ الروم 55۔ المؤمنون 112، 114۔ بعض کہتے ہیں کہ پہلا نفخہ ہوگا تو سب مردے قبروں میں زندہ ہو جائیں گے۔ پھر دوسرے نفخے پر میدان محشر میں حساب کتاب کے لئے اکٹھے ہونگے۔ دونوں نفخوں کے درمیان چالیس سال کا فاصلہ ہوگا اور اس فاصلے میں انہیں کوئی عذاب نہیں دیا جائے گا، وہ سو جائیں گے۔ دوسرے صور پر اٹھیں گے تو کہیں گے ”افسوس، ہمیں ہماری خواب گاہوں سے کس نے اٹھایاہے؟“ (سورۂ یس:52) (فتح القدیر) پہلی بات زیادہ صحیح ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "یَوْمَ",
+          "ur": "جس دن وہ",
+          "en": "(On) the Day",
+          "arTajweed": "يَوْمَ"
+        },
+        {
+          "ar": "یَدْعُوْكُمْ",
+          "ur": "پکارے گا تم کو",
+          "en": "He will call you",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">دْ</span>عُوكُمْ"
+        },
+        {
+          "ar": "فَتَسْتَجِیْبُوْنَ",
+          "ur": "پس تم جواب دوگے",
+          "en": "and you will respond",
+          "arTajweed": "فَتَسْتَجِيبُونَ"
+        },
+        {
+          "ar": "بِحَمْدِهٖ",
+          "ur": "ساتھ اس کی حمد سے",
+          "en": "with His Praise",
+          "arTajweed": "بِحَمْدِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "وَتَظُنُّوْنَ",
+          "ur": "اور تم سمجھ جاؤ گے",
+          "en": "and you will think",
+          "arTajweed": "وَتَظُ<span class=\"tj-ghunnah\">نُّ</span>ونَ"
+        },
+        {
+          "ar": "اِنْ",
+          "ur": "کہ نہیں",
+          "en": "not",
+          "arTajweed": "إِ<span class=\"tj-idgham-wo-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "لَّبِثْتُمْ",
+          "ur": "ٹھہرے تم",
+          "en": "you had remained",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>بِثْتُمْ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "قَلِیْلًا",
+          "ur": "بہت تھوڑا",
+          "en": "a little (while)",
+          "arTajweed": "قَلِيلًا"
+        }
+      ],
+      "arTajweed": "يَوْمَ يَ<span class=\"tj-qalaqah\">دْ</span>عُوكُمْ فَتَسْتَجِيبُونَ بِحَمْدِهِ<span class=\"tj-madda-normal\">ۦ</span> وَتَظُ<span class=\"tj-ghunnah\">نُّ</span>ونَ إِ<span class=\"tj-idgham-wo-ghunnah\">ن لَّ</span>بِثْتُمْ إِلَّا قَلِيلًا"
+    },
+    {
+      "number": 53,
+      "arFull": "وَقُلْ لِّعِبَادِیْ یَقُوْلُوا الَّتِیْ هِیَ اَحْسَنُ ؕ اِنَّ الشَّیْطٰنَ یَنْزَغُ بَیْنَهُمْ ؕ اِنَّ الشَّیْطٰنَ كَانَ لِلْاِنْسَانِ عَدُوًّا مُّبِیْنًا ۟",
+      "ur": "اور میرے بندوں سے کہہ دیجیئے کہ وه بہت ہی اچھی بات منھ سے نکالا کریں[1] کیونکہ شیطان آپس میں فساد ڈلواتا ہے[2]۔ بےشک شیطان انسان کا کھلا دشمن ہے.",
+      "en": "And tell My servants to say that which is best. Indeed, Satan induces [dissension] among them. Indeed Satan is ever, to mankind, a clear enemy.",
+      "footnotesUr": "[1] یعنی آپس میں گفتگو کرتے وقت زبان کو احتیاط سے استعمال کریں، اچھے کلمات بولیں، اسی طرح کفار و مشرکین اور اہل کتاب سے اگر مخاطبت کی ضرورت پیش آئے تو ان سے مشفقانہ اور نرم لہجے میں گفتگو کریں۔\n[2] زبان کی ذرا سی بے اعتدالی سے شیطان، جو تمہارا کھلا دشمن ہے، تمہارے درمیان آپس میں فساد ڈلوا سکتا ہے، یا کفار یا مشرکین کے دلوں میں تمہارے لئے زیادہ بغض و عناد پیدا کر سکتا ہے۔ حدیث میں ہے نبی (صلى الله عليه وسلم) نے فرمایا ”تم میں سے کوئی شخص اپنے بھائی کی طرف ہتھیار کے ساتھ اشارہ نہ کرے اس لیے کہ وہ نہیں جانتا کہ شیطان شاید اس کے ہاتھ سے وہ ہتھیار چلوا دے اور وہ اس مسلمان بھائی کو جا لگے جس سے اس کی موت واقع ہو جائے پس وہ جہنم کے گڑھے میں جا گرے“۔ ( صحيح بخاري كتاب الفتن، باب من حمل علينا السلاح فليس منا- صحيح مسلم، كتاب البر، باب النهي عن الإشارة بالسلاح )",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَقُلْ",
+          "ur": "اور کہہ دیجئے",
+          "en": "And say",
+          "arTajweed": "وَقُل"
+        },
+        {
+          "ar": "لِّعِبَادِیْ",
+          "ur": "میرے بندوں کو",
+          "en": "to My slaves",
+          "arTajweed": "لِّعِبَادِى"
+        },
+        {
+          "ar": "یَقُوْلُوا",
+          "ur": "وہ کہیں",
+          "en": "(to) say",
+          "arTajweed": "يَقُولُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الَّتِیْ",
+          "ur": "وہ بات",
+          "en": "that",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّتِى"
+        },
+        {
+          "ar": "هِیَ",
+          "ur": "جو",
+          "en": "which",
+          "arTajweed": "هِىَ"
+        },
+        {
+          "ar": "اَحْسَنُ ؕ",
+          "ur": "زیادہ اچھی ہو",
+          "en": "(is) best",
+          "arTajweed": "أَحْسَنُ"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "کیونکہ",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "الشَّیْطٰنَ",
+          "ur": "شیطان",
+          "en": "the Shaitaan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نَ"
+        },
+        {
+          "ar": "یَنْزَغُ",
+          "ur": "فساد ڈلواتا ہے",
+          "en": "sows discord",
+          "arTajweed": "يَ<span class=\"tj-ikhafa\">نزَ</span>غُ"
+        },
+        {
+          "ar": "بَیْنَهُمْ ؕ",
+          "ur": "ان کے درمیان",
+          "en": "between them",
+          "arTajweed": "بَيْنَهُمْ"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "الشَّیْطٰنَ",
+          "ur": "شیطان",
+          "en": "the Shaitaan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نَ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "لِلْاِنْسَانِ",
+          "ur": "انسان کے لئے",
+          "en": "to the man",
+          "arTajweed": "لِلْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نِ"
+        },
+        {
+          "ar": "عَدُوًّا",
+          "ur": "دشمن",
+          "en": "an enemy",
+          "arTajweed": "عَدُوّ<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مُّبِیْنًا",
+          "ur": "کھلا",
+          "en": "clear",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مُّ</span>بِينًا"
+        }
+      ],
+      "arTajweed": "وَقُل لِّعِبَادِى يَقُولُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>لَّتِى هِىَ أَحْسَنُ إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نَ يَ<span class=\"tj-ikhafa\">نزَ</span>غُ بَيْنَهُمْ إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نَ كَانَ لِلْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نِ عَدُوّ<span class=\"tj-idgham-ghunnah\">ًا مُّ</span>بِينًا"
+    },
+    {
+      "number": 54,
+      "arFull": "رَبُّكُمْ اَعْلَمُ بِكُمْ ؕ اِنْ یَّشَاْ یَرْحَمْكُمْ اَوْ اِنْ یَّشَاْ یُعَذِّبْكُمْ ؕ وَمَاۤ اَرْسَلْنٰكَ عَلَیْهِمْ وَكِیْلًا ۟",
+      "ur": "تمہارا رب تم سے بہ نسبت تمہارے بہت زیاده جاننے واﻻ ہے، وه اگر چاہے تو تم پر رحم کردے یا اگر وه چاہے تمہیں عذاب دے[1] ۔ ہم نے آپ کو ان کا ذمہ دار ٹھہرا کر نہیں بھیجا.[2]",
+      "en": "Your Lord is most knowing of you. If He wills, He will have mercy upon you; or if He wills, He will punish you. And We have not sent you, [O Muḥammad], over them as a manager.",
+      "footnotesUr": "[1] اگر خطاب مشرکین سے ہو تو رحم کے معنی قبول اسلام کی توفیق کے ہونگے اور عذاب سے مراد شرک پر ہی موت ہے، جس پر وہ عذاب کے مستحق ہوں گے۔ اور اگر خطاب مومنین سے ہو تو رحم کے معنی ہوں گے کہ وہ کفار سے تمہاری حفاظت فرمائے گا اور عذاب کا مطلب ہے کفار کا مسلمانوں پر غلبہ و تسلط۔\n[2] کہ آپ انہیں ضرور کفر کی دلدل سے نکالیں یا ان کے کفر پر جمے رہنے پر آپ سے باز پرس ہو۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "رَبُّكُمْ",
+          "ur": "تمہارا رب",
+          "en": "Your Lord",
+          "arTajweed": "رَّبُّكُمْ"
+        },
+        {
+          "ar": "اَعْلَمُ",
+          "ur": "خوب جانتا ہے",
+          "en": "(is) most knowing",
+          "arTajweed": "أَعْلَمُ"
+        },
+        {
+          "ar": "بِكُمْ ؕ",
+          "ur": "تم کو",
+          "en": "of you",
+          "arTajweed": "بِكُمْ"
+        },
+        {
+          "ar": "اِنْ",
+          "ur": "اگر",
+          "en": "If",
+          "arTajweed": "إِ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّشَاْ",
+          "ur": "وہ چاہے",
+          "en": "He wills",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>شَأْ"
+        },
+        {
+          "ar": "یَرْحَمْكُمْ",
+          "ur": "رحم کرے تم پر",
+          "en": "He will have mercy on you",
+          "arTajweed": "يَرْحَمْكُمْ"
+        },
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "اِنْ",
+          "ur": "اگر",
+          "en": "if",
+          "arTajweed": "إِ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّشَاْ",
+          "ur": "چاہے",
+          "en": "He wills",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>شَأْ"
+        },
+        {
+          "ar": "یُعَذِّبْكُمْ ؕ",
+          "ur": "عذاب دے تم کو",
+          "en": "He will punish you",
+          "arTajweed": "يُعَذِّ<span class=\"tj-qalaqah\">بْ</span>كُمْ"
+        },
+        {
+          "ar": "وَمَاۤ",
+          "ur": "اور نہیں",
+          "en": "And not",
+          "arTajweed": "وَمَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَرْسَلْنٰكَ",
+          "ur": "بھیجا ہم نے آپ کو",
+          "en": "We have sent you",
+          "arTajweed": "أَرْسَلْنَ<span class=\"tj-madda-normal\">ٰ</span>كَ"
+        },
+        {
+          "ar": "عَلَیْهِمْ",
+          "ur": "ان پر",
+          "en": "over them",
+          "arTajweed": "عَلَيْهِمْ"
+        },
+        {
+          "ar": "وَكِیْلًا",
+          "ur": "کار ساز",
+          "en": "(as) a guardian",
+          "arTajweed": "وَكِيلًا"
+        }
+      ],
+      "arTajweed": "رَّبُّكُمْ أَعْلَمُ بِكُمْ إِ<span class=\"tj-idgham-ghunnah\">ن يَ</span>شَأْ يَرْحَمْكُمْ أَوْ إِ<span class=\"tj-idgham-ghunnah\">ن يَ</span>شَأْ يُعَذِّ<span class=\"tj-qalaqah\">بْ</span>كُمْ وَمَ<span class=\"tj-madda-permissible\">آ</span> أَرْسَلْنَ<span class=\"tj-madda-normal\">ٰ</span>كَ عَلَيْهِمْ وَكِيلًا"
+    },
+    {
+      "number": 55,
+      "arFull": "وَرَبُّكَ اَعْلَمُ بِمَنْ فِی السَّمٰوٰتِ وَالْاَرْضِ ؕ وَلَقَدْ فَضَّلْنَا بَعْضَ النَّبِیّٖنَ عَلٰی بَعْضٍ وَّاٰتَیْنَا دَاوٗدَ زَبُوْرًا ۟",
+      "ur": "آسمانوں وزمین میں جو بھی ہے آپ کا رب سب کو بخوبی جانتا ہے۔ ہم نے بعض پیغمبروں کو بعض پر بہتری اور برتری دی ہے[1] اور داؤد کو زبور ہم نے عطا فرمائی ہے.",
+      "en": "And your Lord is most knowing of whoever is in the heavens and the earth. And We have made some of the prophets exceed others [in various ways], and to David We gave the book [of Psalms].",
+      "footnotesUr": "[1] یہ مضمون «تِلْكَ الرُّسُلُ فَضَّلْنَا بَعْضَهُمْ عَلَى بَعْضٍ»(البقرۃ:253) بھی گزر چکا ہے۔ یہاں دوبارہ کفار مکہ کے جواب میں یہ مضمون دہرایا گیا ہے، جو کہتے تھے کہ کیا اللہ کو رسالت کے لئے یہ محمد (صلى الله عليه وسلم) ہی ملا تھا؟ اللہ تعالٰی نے فرمایا کسی کو رسالت کے لئے منتخب کرنا اور کسی ایک نبی کو دوسرے پر فضیلت دینا، یہ اللہ ہی کے اختیار میں ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَرَبُّكَ",
+          "ur": "اور تیرا رب",
+          "en": "And your Lord",
+          "arTajweed": "وَرَبُّكَ"
+        },
+        {
+          "ar": "اَعْلَمُ",
+          "ur": "خوب جانتا ہے",
+          "en": "(is) most knowing",
+          "arTajweed": "أَعْلَمُ"
+        },
+        {
+          "ar": "بِمَنْ",
+          "ur": "اس کو جو",
+          "en": "of whoever",
+          "arTajweed": "بِمَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں ہے",
+          "en": "(is) in",
+          "arTajweed": "<span class=\"tj-ikhafa\">فِ</span>ى"
+        },
+        {
+          "ar": "السَّمٰوٰتِ",
+          "ur": "آسمانوں",
+          "en": "the heavens",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
+        },
+        {
+          "ar": "وَالْاَرْضِ ؕ",
+          "ur": "اور زمین میں",
+          "en": "and the earth",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "وَلَقَدْ",
+          "ur": "اور البتہ تحقیق",
+          "en": "And verily",
+          "arTajweed": "وَلَقَ<span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "فَضَّلْنَا",
+          "ur": "فضیلت دی ہم نے",
+          "en": "We have preferred",
+          "arTajweed": "فَضَّلْنَا"
+        },
+        {
+          "ar": "بَعْضَ",
+          "ur": "بعض",
+          "en": "some",
+          "arTajweed": "بَعْضَ"
+        },
+        {
+          "ar": "النَّبِیّٖنَ",
+          "ur": "نبیوں کو",
+          "en": "(of) the Prophets",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>بِيِّ<span class=\"tj-madda-normal\">ۦ</span>نَ"
+        },
+        {
+          "ar": "عَلٰی",
+          "ur": "پر",
+          "en": "to",
+          "arTajweed": "عَلَىٰ"
+        },
+        {
+          "ar": "بَعْضٍ",
+          "ur": "بعض",
+          "en": "others",
+          "arTajweed": "بَعْض<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّاٰتَیْنَا",
+          "ur": "اور دی ہم نے",
+          "en": "And We gave",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>ءَاتَيْنَا"
+        },
+        {
+          "ar": "دَاوٗدَ",
+          "ur": "داؤد کو",
+          "en": "Dawood",
+          "arTajweed": "دَاوُ<span class=\"tj-madda-normal\">ۥ</span>دَ"
+        },
+        {
+          "ar": "زَبُوْرًا",
+          "ur": "زبور",
+          "en": "Zaboor",
+          "arTajweed": "زَبُورًا"
+        }
+      ],
+      "arTajweed": "وَرَبُّكَ أَعْلَمُ بِمَ<span class=\"tj-ikhafa\">ن فِ</span>ى <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ وَلَقَ<span class=\"tj-qalaqah\">دْ</span> فَضَّلْنَا بَعْضَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>بِيِّ<span class=\"tj-madda-normal\">ۦ</span>نَ عَلَىٰ بَعْض<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>ءَاتَيْنَا دَاوُ<span class=\"tj-madda-normal\">ۥ</span>دَ زَبُورًا"
+    },
+    {
+      "number": 56,
+      "arFull": "قُلِ ادْعُوا الَّذِیْنَ زَعَمْتُمْ مِّنْ دُوْنِهٖ فَلَا یَمْلِكُوْنَ كَشْفَ الضُّرِّ عَنْكُمْ وَلَا تَحْوِیْلًا ۟",
+      "ur": "کہہ دیجیئے کہ اللہ کے سوا جنہیں تم معبود سمجھ رہے ہو انہیں پکارو لیکن نہ تو وه تم سے کسی تکلیف کو دور کرسکتے ہیں اور نہ بدل سکتے ہیں.",
+      "en": "Say, \"Invoke those you have claimed [as gods] besides Him, for they do not possess the [ability for] removal of adversity from you or [for its] transfer [to someone else].\"",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "قُلِ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلِ"
+        },
+        {
+          "ar": "ادْعُوا",
+          "ur": "کہ پکارو",
+          "en": "Call",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الَّذِیْنَ",
+          "ur": "ان لوگوں کو",
+          "en": "those whom",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
+        },
+        {
+          "ar": "زَعَمْتُمْ",
+          "ur": "تم گمان رکھتے ہو",
+          "en": "you claimed",
+          "arTajweed": "زَعَمْتُ<span class=\"tj-idgham-shafawi\">م</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": "سے",
+          "en": "besides Him",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مِّ</span><span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "دُوْنِهٖ",
+          "ur": "اس کے سوا تو",
+          "en": "besides Him",
+          "arTajweed": "<span class=\"tj-ikhafa\">دُ</span>ونِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "فَلَا",
+          "ur": "نہیں",
+          "en": "[then] not",
+          "arTajweed": "فَلَا"
+        },
+        {
+          "ar": "یَمْلِكُوْنَ",
+          "ur": "وہ مالک ہوسکتے",
+          "en": "they have power",
+          "arTajweed": "يَمْلِكُونَ"
+        },
+        {
+          "ar": "كَشْفَ",
+          "ur": "ہٹانے کے",
+          "en": "(to) remove",
+          "arTajweed": "كَشْفَ"
+        },
+        {
+          "ar": "الضُّرِّ",
+          "ur": "تکلیف",
+          "en": "the misfortunes",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ضُّرِّ"
+        },
+        {
+          "ar": "عَنْكُمْ",
+          "ur": "تم سے",
+          "en": "from you",
+          "arTajweed": "عَ<span class=\"tj-ikhafa\">نكُ</span>مْ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "and not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَحْوِیْلًا",
+          "ur": "بدلنے کے",
+          "en": "(to) transfer (it)",
+          "arTajweed": "تَحْوِيلًا"
+        }
+      ],
+      "arTajweed": "قُلِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ زَعَمْتُ<span class=\"tj-idgham-shafawi\">م مِّ</span><span class=\"tj-ikhafa\">ن دُ</span>ونِهِ<span class=\"tj-madda-normal\">ۦ</span> فَلَا يَمْلِكُونَ كَشْفَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ضُّرِّ عَ<span class=\"tj-ikhafa\">نكُ</span>مْ وَلَا تَحْوِيلًا"
+    },
+    {
+      "number": 57,
+      "arFull": "اُولٰٓىِٕكَ الَّذِیْنَ یَدْعُوْنَ یَبْتَغُوْنَ اِلٰی رَبِّهِمُ الْوَسِیْلَةَ اَیُّهُمْ اَقْرَبُ وَیَرْجُوْنَ رَحْمَتَهٗ وَیَخَافُوْنَ عَذَابَهٗ ؕ اِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُوْرًا ۟",
+      "ur": "جنہیں یہ لوگ پکارتے ہیں خود وه اپنے رب کے تقرب کی جستجو میں رہتے ہیں کہ ان میں سے کون زیاده نزدیک ہوجائے وه خود اس کی رحمت کی امید رکھتے اور اس کے عذاب سے خوفزده رہتے ہیں[1] ، (بات بھی یہی ہے) کہ تیرے رب کا عذاب ڈرنے کی چیز ہی ہے.",
+      "en": "Those whom they invoke[754] seek means of access to their Lord, [striving as to] which of them would be nearest, and they hope for His mercy and fear His punishment. Indeed, the punishment of your Lord is ever feared.",
+      "footnotesUr": "[1] مذکورہ آیت میں ”مِنْ دُونِ اللهِ“ سے مراد فرشتوں اور بزرگوں کی وہ تصویریں اور مجسمے ہیں جن کی عبادت کرتے تھے، یا حضرت عزیر و مسیح علہما السلام ہیں جنہیں یہودی اور عیسائی ابن اللہ کہتے ہیں اور انہیں الوہی صفات کا حامل مانتے تھے، یا وہ جنات ہیں جو مسلمان ہوگئے تھے اور مشرکین ان کی عبادت کرتے تھے۔ اس لئے کہ اس آیت میں بتلایا جا رہا ہے کہ یہ تو خود اپنے رب کا قرب تلاش کرنے کی جستجو میں رہتے اور اس کی رحمت کی امید رکھتے اور اس کے عذاب سے ڈرتے ہیں اور یہ صفت جمادات (پتھروں) میں نہیں ہو سکتی۔ اس آیت سے واضح ہو جاتا ہے کہ مِنْ دُونِ اللهِ (اللہ کے سوا جن کی عبات کی جاتی رہی ہے) وہ صرف پتھر کی مورتیاں ہی نہیں تھیں، بلکہ اللہ کے وہ بندے بھی تھے جن میں سے کچھ فرشتے، کچھ صالحین، کچھ انبیاء اور کچھ جنات تھے۔ اللہ تعالٰی نے سب کی بابت فرمایا کہ وہ کچھ نہیں کر سکتے، نہ کسی کی تکلیف دور کر سکتے ہیں نہ کسی کی حالت بدل سکتے ہیں ”اپنے رب کے تقرب کی جستجو میں رہتے ہیں“ کا مطلب اعمال صالحہ کے ذریعے سے اللہ کا قرب ڈھونڈتے ہیں۔ یہی الوسیلۃ ہے جسے قرآن نے بیان کیا ہے۔ وہ نہیں ہے جسے قبر پرست بیان کرتے ہیں کہ فوت شدہ اشخاص کے نام کی نذر نیاز دو، ان کی قبروں پر غلاف چڑھاؤ اور میلے ٹھیلے جماؤ اور ان سے استمداد و استغاثہ کرو ۔کیونکہ یہ وسیلہ نہیں یہ تو ان کی عبادت ہے جو شرک ہے۔ اللہ تعالٰی ہر مسلمان کو اس سے محفوظ رکھے۔",
+      "footnotesEn": "[754] Among the righteous of Allāh's creation, such as angels, prophets, deceased scholars, etc.",
+      "words": [
+        {
+          "ar": "اُولٰٓىِٕكَ",
+          "ur": "یہ",
+          "en": "Those",
+          "arTajweed": "أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ"
+        },
+        {
+          "ar": "الَّذِیْنَ",
+          "ur": "وہ لوگ ہیں",
+          "en": "whom",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
+        },
+        {
+          "ar": "یَدْعُوْنَ",
+          "ur": "جن کو وہ پکارتے ہیں",
+          "en": "they call",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">دْ</span>عُونَ"
+        },
+        {
+          "ar": "یَبْتَغُوْنَ",
+          "ur": "وہ (خود) تلاش کرتے ہیں",
+          "en": "seek",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">بْ</span>تَغُونَ"
+        },
+        {
+          "ar": "اِلٰی",
+          "ur": "طرف",
+          "en": "to",
+          "arTajweed": "إِلَىٰ"
+        },
+        {
+          "ar": "رَبِّهِمُ",
+          "ur": "اپنے رب کی",
+          "en": "their Lord",
+          "arTajweed": "رَبِّهِمُ"
+        },
+        {
+          "ar": "الْوَسِیْلَةَ",
+          "ur": "کوئی ذریعہ",
+          "en": "the means of access",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْوَسِيلَةَ"
+        },
+        {
+          "ar": "اَیُّهُمْ",
+          "ur": "کون سا ان میں سے",
+          "en": "which of them",
+          "arTajweed": "أَيُّهُمْ"
+        },
+        {
+          "ar": "اَقْرَبُ",
+          "ur": "قریب تر",
+          "en": "(is) nearest",
+          "arTajweed": "أَ<span class=\"tj-qalaqah\">قْ</span>رَبُ"
+        },
+        {
+          "ar": "وَیَرْجُوْنَ",
+          "ur": "اور وہ امید رکھتے ہیں",
+          "en": "and they hope",
+          "arTajweed": "وَيَرْجُونَ"
+        },
+        {
+          "ar": "رَحْمَتَهٗ",
+          "ur": "اس کی رحمت کی",
+          "en": "(for) His mercy",
+          "arTajweed": "رَحْمَتَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "وَیَخَافُوْنَ",
+          "ur": "اورر وہ ڈرتے ہیں",
+          "en": "and fear",
+          "arTajweed": "وَيَخَافُونَ"
+        },
+        {
+          "ar": "عَذَابَهٗ ؕ",
+          "ur": "اس کے عذاب سے",
+          "en": "His punishment",
+          "arTajweed": "عَذَابَهُ<span class=\"tj-madda-permissible\">ۥٓ</span>"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "عَذَابَ",
+          "ur": "عذاب",
+          "en": "(the) punishment",
+          "arTajweed": "عَذَابَ"
+        },
+        {
+          "ar": "رَبِّكَ",
+          "ur": "تیرے رب کا",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكَ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "مَحْذُوْرًا",
+          "ur": "ڈرنے کے لائق",
+          "en": "(ever) feared",
+          "arTajweed": "مَحْذُورًا"
+        }
+      ],
+      "arTajweed": "أُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ يَ<span class=\"tj-qalaqah\">دْ</span>عُونَ يَ<span class=\"tj-qalaqah\">بْ</span>تَغُونَ إِلَىٰ رَبِّهِمُ <span class=\"tj-ham-wasl\">ٱ</span>لْوَسِيلَةَ أَيُّهُمْ أَ<span class=\"tj-qalaqah\">قْ</span>رَبُ وَيَرْجُونَ رَحْمَتَهُ<span class=\"tj-madda-normal\">ۥ</span> وَيَخَافُونَ عَذَابَهُ<span class=\"tj-madda-permissible\">ۥٓ</span> إِ<span class=\"tj-ghunnah\">نَّ</span> عَذَابَ رَبِّكَ كَانَ مَحْذُورًا"
+    },
+    {
+      "number": 58,
+      "arFull": "وَاِنْ مِّنْ قَرْیَةٍ اِلَّا نَحْنُ مُهْلِكُوْهَا قَبْلَ یَوْمِ الْقِیٰمَةِ اَوْ مُعَذِّبُوْهَا عَذَابًا شَدِیْدًا ؕ كَانَ ذٰلِكَ فِی الْكِتٰبِ مَسْطُوْرًا ۟",
+      "ur": "جتنی بھی بستیاں ہیں ہم قیامت کے دن سے پہلے پہلے یا تو انہیں ہلاک کردینے والے ہیں یا سخت تر سزا دینے والے ہیں۔ یہ تو کتاب میں لکھا جاچکا ہے.[1]",
+      "en": "And there is no city but that We will destroy it[755] before the Day of Resurrection or punish it with a severe punishment. That has ever been in the Register[756] inscribed.",
+      "footnotesUr": "[1] کتاب سے مراد لوح محفوظ ہے۔ مطلب یہ ہے کہ اللہ تعالٰی کی طرف سے یہ بات طے شدہ ہے، جو لوح محفوظ میں لکھی ہوئی ہے کہ ہم کافروں کی ہر بستی کو یا تو موت کے ذریعے سے ہلاک کر دیں گے اور بستی سے مراد، بستی کے باشندگان ہیں اور ہلاکت کی وجہ ان کا کفر و شرک اور ظلم و طغیان ہے۔ علاوہ ازیں یہ ہلاکت قیامت سے قبل وقوع پذیر ہوگی، ورنہ قیامت کے دن تو بلا تفریق ہر بستی ہی شکست و ریخت کا شکار ہو جائے گی۔",
+      "footnotesEn": "[755] Because of the sins of its inhabitants.\n[756] The Preserved Slate (al-Lawḥ al-Maḥfūẓ), which is with Allāh.",
+      "words": [
+        {
+          "ar": "وَاِنْ",
+          "ur": "اور نہیں",
+          "en": "And not",
+          "arTajweed": "وَإِ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": "سے",
+          "en": "(is) any",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "قَرْیَةٍ",
+          "ur": "کوئی بستی",
+          "en": "town",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span>رْيَةٍ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "but",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "نَحْنُ",
+          "ur": "ہم",
+          "en": "We",
+          "arTajweed": "نَحْنُ"
+        },
+        {
+          "ar": "مُهْلِكُوْهَا",
+          "ur": "ہلاک کرنے والے ہیں اس کو",
+          "en": "(will) destroy it",
+          "arTajweed": "مُهْلِكُوهَا"
+        },
+        {
+          "ar": "قَبْلَ",
+          "ur": "پہلے",
+          "en": "before",
+          "arTajweed": "قَ<span class=\"tj-qalaqah\">بْ</span>لَ"
+        },
+        {
+          "ar": "یَوْمِ",
+          "ur": "دن سے",
+          "en": "(the) Day",
+          "arTajweed": "يَوْمِ"
+        },
+        {
+          "ar": "الْقِیٰمَةِ",
+          "ur": "قیامت کے",
+          "en": "(of) the Resurrection",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ"
+        },
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "مُعَذِّبُوْهَا",
+          "ur": "عذاب دینے والے ہیں اس کو",
+          "en": "punish it",
+          "arTajweed": "مُعَذِّبُوهَا"
+        },
+        {
+          "ar": "عَذَابًا",
+          "ur": "عذاب",
+          "en": "with a punishment",
+          "arTajweed": "عَذَاب<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "شَدِیْدًا ؕ",
+          "ur": "سخت",
+          "en": "severe",
+          "arTajweed": "<span class=\"tj-ikhafa\">شَ</span>دِيد<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "That is",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>انَ"
+        },
+        {
+          "ar": "ذٰلِكَ",
+          "ur": "یہ",
+          "en": "That is",
+          "arTajweed": "ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْكِتٰبِ",
+          "ur": "کتاب",
+          "en": "the Book",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْكِتَ<span class=\"tj-madda-normal\">ٰ</span>بِ"
+        },
+        {
+          "ar": "مَسْطُوْرًا",
+          "ur": "لکھا ہوا",
+          "en": "written",
+          "arTajweed": "مَسْطُورًا"
+        }
+      ],
+      "arTajweed": "وَإِ<span class=\"tj-idgham-ghunnah\">ن مِّ</span><span class=\"tj-ikhafa\">ن قَ</span>رْيَةٍ إِلَّا نَحْنُ مُهْلِكُوهَا قَ<span class=\"tj-qalaqah\">بْ</span>لَ يَوْمِ <span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ أَوْ مُعَذِّبُوهَا عَذَاب<span class=\"tj-ikhafa\">ًا شَ</span>دِيد<span class=\"tj-ikhafa\">ًا كَ</span>انَ ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْكِتَ<span class=\"tj-madda-normal\">ٰ</span>بِ مَسْطُورًا"
+    },
+    {
+      "number": 59,
+      "arFull": "وَمَا مَنَعَنَاۤ اَنْ نُّرْسِلَ بِالْاٰیٰتِ اِلَّاۤ اَنْ كَذَّبَ بِهَا الْاَوَّلُوْنَ ؕ وَاٰتَیْنَا ثَمُوْدَ النَّاقَةَ مُبْصِرَةً فَظَلَمُوْا بِهَا ؕ وَمَا نُرْسِلُ بِالْاٰیٰتِ اِلَّا تَخْوِیْفًا ۟",
+      "ur": "ہمیں نشانات (معجزات) کے نازل کرنے سے روک صرف اسی کی ہے کہ اگلے لوگ انہیں جھٹلا چکے ہیں[1] ۔ ہم نے ﺛمودیوں کو بطور بصیرت کے اونٹنی دی لیکن انہوں نے اس پر ﻇلم کیا[2] ہم تو لوگوں کو دھمکانے کے لئے ہی نشانیاں بھیجتے ہیں.",
+      "en": "And nothing has prevented Us from sending signs [i.e., miracles] except that the former peoples denied them. And We gave Thamūd the she-camel as a visible sign, but they wronged her. And We send not the signs except as a warning.",
+      "footnotesUr": "[1] یہ آیت اس وقت اتری جب کفار مکہ نے مطالبہ کیا کوہ صفا کو سونے کا بنا دیا جائے یا مکے کے پہاڑ اپنی جگہ سے ہٹا دیئے جائیں تاکہ وہاں کاشت کاری ممکن ہو سکے، جس پر اللہ تعالٰی نے جبرائیل کے ذریعے سے پیغام بھیجا کہ ان کے مطالبات ہم پورے کرنے کے لئے تیار ہیں، لیکن اگر اس کے بعد بھی وہ ایمان نہ لائے تو پھر ان کی ہلاکت یقینی ہے۔ پھر انہیں مہلت نہیں دی جائے گی۔ نبی (صلى الله عليه وسلم) نے بھی اسی بات کو پسند فرمایا کہ ان کا مطالبہ پورا نہ کیا جائے تاکہ یہ یقینی ہلاکت سے بچ جائیں (مسند أحمد, ج 1، ص 258وقال أحمد شاكر في تعليقه على المسند (2333) إسناده صحيح)، اس آیت میں بھی اللہ تعالٰی نے یہی مضمون بیان فرمایا کہ ان کی خواہش کے مطابق نشانیاں اتار دینا ہمارے لئے کوئی مشکل نہیں۔ لیکن ہم اس سے گریز اس لئے کر رہے ہیں کہ پہلی قوموں نے بھی اپنی خواہش کے مطابق نشانیاں مانگیں جو انہیں دکھا دی گئیں، لیکن اس کے باوجود انہوں نے تکذیب کی اور ایمان نہ لائے، جس کے نتیجے میں وہ ہلاک کر دی گئیں۔\n[2] قوم ثمود کا بطور مثال تذکرہ کیا کیونکہ ان کی خواہش پر پتھر کی چٹان سے اونٹنی ظاہر کر کے دکھائی گئی تھی، لیکن ان ظالموں نے، ایمان لانے کی بجائے، اس اونٹنی ہی کو مار ڈالا، جس پر تین دن کے بعد ان پر عذاب آگیا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَمَا",
+          "ur": "اور نہیں",
+          "en": "And not",
+          "arTajweed": "وَمَا"
+        },
+        {
+          "ar": "مَنَعَنَاۤ",
+          "ur": "روکا ہم کو",
+          "en": "stopped Us",
+          "arTajweed": "مَنَعَنَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "نُّرْسِلَ",
+          "ur": "ہم بھیجیں",
+          "en": "We send",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نُّ</span>رْسِلَ"
+        },
+        {
+          "ar": "بِالْاٰیٰتِ",
+          "ur": "نشانیاں",
+          "en": "the Signs",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْءَايَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
+        },
+        {
+          "ar": "اِلَّاۤ",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "یہ کہ",
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "كَذَّبَ",
+          "ur": "جھٹلایا",
+          "en": "denied",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>ذَّبَ"
+        },
+        {
+          "ar": "بِهَا",
+          "ur": "ان کو",
+          "en": "them",
+          "arTajweed": "بِهَا"
+        },
+        {
+          "ar": "الْاَوَّلُوْنَ ؕ",
+          "ur": "پہلوں میں",
+          "en": "the former (people)",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَوَّلُونَ"
+        },
+        {
+          "ar": "وَاٰتَیْنَا",
+          "ur": "اور دی ہم نے",
+          "en": "And We gave",
+          "arTajweed": "وَءَاتَيْنَا"
+        },
+        {
+          "ar": "ثَمُوْدَ",
+          "ur": "ثمود کو",
+          "en": "Thamud",
+          "arTajweed": "ثَمُودَ"
+        },
+        {
+          "ar": "النَّاقَةَ",
+          "ur": "اونٹنی",
+          "en": "the she-camel",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اقَةَ"
+        },
+        {
+          "ar": "مُبْصِرَةً",
+          "ur": "واضح/ روشن کرنے والی",
+          "en": "(as) a visible sign",
+          "arTajweed": "مُ<span class=\"tj-qalaqah\">بْ</span>صِرَة<span class=\"tj-ikhafa\">ً</span>"
+        },
+        {
+          "ar": "فَظَلَمُوْا",
+          "ur": "تو انہوں نے ظلم کیا",
+          "en": "but they wronged",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>ظَلَمُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "بِهَا ؕ",
+          "ur": "اس کے ساتھ",
+          "en": "her",
+          "arTajweed": "بِهَا"
+        },
+        {
+          "ar": "وَمَا",
+          "ur": "اور نہیں",
+          "en": "And not",
+          "arTajweed": "وَمَا"
+        },
+        {
+          "ar": "نُرْسِلُ",
+          "ur": "ہم بھیجتے",
+          "en": "We send",
+          "arTajweed": "نُرْسِلُ"
+        },
+        {
+          "ar": "بِالْاٰیٰتِ",
+          "ur": "نشانیاں",
+          "en": "the Signs",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْءَايَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "تَخْوِیْفًا",
+          "ur": "ڈرانے کے لئے",
+          "en": "(as) a warning",
+          "arTajweed": "تَخْوِيفًا"
+        }
+      ],
+      "arTajweed": "وَمَا مَنَعَنَ<span class=\"tj-madda-permissible\">آ</span> أَ<span class=\"tj-idgham-ghunnah\">ن نُّ</span>رْسِلَ بِ<span class=\"tj-ham-wasl\">ٱ</span>لْءَايَ<span class=\"tj-madda-normal\">ٰ</span>تِ إِلَّ<span class=\"tj-madda-permissible\">آ</span> أَ<span class=\"tj-ikhafa\">ن كَ</span>ذَّبَ بِهَا <span class=\"tj-ham-wasl\">ٱ</span>لْأَوَّلُونَ وَءَاتَيْنَا ثَمُودَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اقَةَ مُ<span class=\"tj-qalaqah\">بْ</span>صِرَة<span class=\"tj-ikhafa\">ً فَ</span>ظَلَمُو<span class=\"tj-slnt\">ا۟</span> بِهَا وَمَا نُرْسِلُ بِ<span class=\"tj-ham-wasl\">ٱ</span>لْءَايَ<span class=\"tj-madda-normal\">ٰ</span>تِ إِلَّا تَخْوِيفًا"
+    },
+    {
+      "number": 60,
+      "arFull": "وَاِذْ قُلْنَا لَكَ اِنَّ رَبَّكَ اَحَاطَ بِالنَّاسِ ؕ وَمَا جَعَلْنَا الرُّءْیَا الَّتِیْۤ اَرَیْنٰكَ اِلَّا فِتْنَةً لِّلنَّاسِ وَالشَّجَرَةَ الْمَلْعُوْنَةَ فِی الْقُرْاٰنِ ؕ وَنُخَوِّفُهُمْ ۙ فَمَا یَزِیْدُهُمْ اِلَّا طُغْیَانًا كَبِیْرًا ۟۠",
+      "ur": "اور یاد کرو جب کہ ہم نے آپ سے فرما دیا کہ آپ کے رب نے لوگوں کو گھیر لیا[1] ہے۔ جو رویا (عینی رؤیت) ہم نے آپ کو دکھائی تھی وه لوگوں کے لئے صاف آزمائش ہی تھی اور اسی طرح وه درخت بھی جس سے قرآن میں اﻇہار نفرت کیا گیا ہے[2]۔ ہم انہیں ڈرا رہے ہیں لیکن یہ انہیں اور بڑی سرکشی میں بڑھا رہا ہے.[3]",
+      "en": "And [remember, O Muḥammad], when We told you, \"Indeed, your Lord has encompassed the people.\"[757] And We did not make the sight which We showed you[758] except as a trial for the people, as was the accursed tree [mentioned] in the Qur’ān. And We threaten [i.e., warn] them, but it increases them not except in great transgression.",
+      "footnotesUr": "[1] یعنی لوگ اللہ کے غلبہ و تصرف میں ہیں اور جو اللہ چاہے گا وہی ہوگا نہ کہ جو وہ چاہیں گے، یا مراد اہل مکہ ہیں کہ وہ اللہ کے زیر اقتدار ہیں، آپ بےخوفی سے تبلیغ رسالت کیجئے، وہ آپ کا کچھ نہیں بگاڑ سکیں گے، ہم ان سے آپ کی حفاظت فرمائیں گے۔ یا جنگ بدر اور فتح مکہ کے موقع پر جس طرح اللہ نے کفار مکہ کو عبرت ناک شکست سے دو چار کیا، اس کو واضح کیا جارہا ہے۔\n[2] صحابہ و تابعین(رضي الله عنهم) نے اس رویا کی تفسیر عینی رؤیت سے کی ہے اور مراد اس سے معراج کا واقعہ ہے، جو بہت سے کمزور لوگوں کے لئے فتنے کا باعث بن گیا اور وہ مرتد ہوگئے۔ اور درخت سے مراد زَقُّومٌ (تھوہر) کا درخت ہے، جس کا مشاہدہ نبی (صلى الله عليه وسلم) نے شب معراج، جہنم میں کیا۔ الْمَلْعُونَةَ سے مراد، کھانے والوں پر یعنی جہنمیوں پر لعنت۔ جیسے دوسرے مقام پر ہے کہ «إِنَّ شَجَرَتَ الزَّقُّومِ، طَعَامُ الأَثِيمِ» ( الدخان:44,43)۔ ”زقوم کا درخت، گناہ گاروں کا کھانا ہے“۔\n[3] یعنی کافروں کے دلوں میں جو خبث و عناد ہے، اس کی وجہ سے، نشانیاں دیکھ کر ایمان لانے کی بجائے، ان کی سرکشی و طغیانی میں اور اضافہ ہو جاتا ہے۔",
+      "footnotesEn": "[757] In His knowledge and power, meaning that Allāh would protect him (ﷺ) from their harm.\n[758] During the miʿrāj (ascension) into the heavens.",
+      "words": [
+        {
+          "ar": "وَاِذْ",
+          "ur": "اور جب",
+          "en": "And when",
+          "arTajweed": "وَإِذْ"
+        },
+        {
+          "ar": "قُلْنَا",
+          "ur": "کہا ہم نے",
+          "en": "We said",
+          "arTajweed": "قُلْنَا"
+        },
+        {
+          "ar": "لَكَ",
+          "ur": "تیرے لئے",
+          "en": "to you",
+          "arTajweed": "لَكَ"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "رَبَّكَ",
+          "ur": "تیرے رب نے",
+          "en": "your Lord",
+          "arTajweed": "رَبَّكَ"
+        },
+        {
+          "ar": "اَحَاطَ",
+          "ur": "گھیر لیا ہے",
+          "en": "has encompassed",
+          "arTajweed": "أَحَاطَ"
+        },
+        {
+          "ar": "بِالنَّاسِ ؕ",
+          "ur": "لوگوں کو",
+          "en": "the mankind",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ"
+        },
+        {
+          "ar": "وَمَا",
+          "ur": "اور نہیں",
+          "en": "And not",
+          "arTajweed": "وَمَا"
+        },
+        {
+          "ar": "جَعَلْنَا",
+          "ur": "بنایا ہم نے",
+          "en": "We made",
+          "arTajweed": "جَعَلْنَا"
+        },
+        {
+          "ar": "الرُّءْیَا",
+          "ur": "منظر کو",
+          "en": "the vision",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رُّءْيَا"
+        },
+        {
+          "ar": "الَّتِیْۤ",
+          "ur": "وہ جو",
+          "en": "which",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّتِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اَرَیْنٰكَ",
+          "ur": "دکھایا ہم نے تجھ کو",
+          "en": "We showed you",
+          "arTajweed": "أَرَيْنَ<span class=\"tj-madda-normal\">ٰ</span>كَ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "فِتْنَةً",
+          "ur": "فتنہ",
+          "en": "(as) a trial",
+          "arTajweed": "فِتْنَة<span class=\"tj-idgham-wo-ghunnah\">ً</span>"
+        },
+        {
+          "ar": "لِّلنَّاسِ",
+          "ur": "لوگوں کے لئے",
+          "en": "for mankind",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لِّ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ"
+        },
+        {
+          "ar": "وَالشَّجَرَةَ",
+          "ur": "اور وہ درخت",
+          "en": "and the tree",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّجَرَةَ"
+        },
+        {
+          "ar": "الْمَلْعُوْنَةَ",
+          "ur": "جو لعنت کیا گیا",
+          "en": "the accursed",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَلْعُونَةَ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْقُرْاٰنِ ؕ",
+          "ur": "قرآن",
+          "en": "the Quran",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ"
+        },
+        {
+          "ar": "وَنُخَوِّفُهُمْ ۙ",
+          "ur": "اور ہم ڈراتے ہیں ان کو",
+          "en": "And We threaten them",
+          "arTajweed": "وَنُخَوِّفُهُمْ"
+        },
+        {
+          "ar": "فَمَا",
+          "ur": "تو نہیں",
+          "en": "but not",
+          "arTajweed": "فَمَا"
+        },
+        {
+          "ar": "یَزِیْدُهُمْ",
+          "ur": "بڑھاتا/ زیادہ کرتا ان کو",
+          "en": "it increases them",
+          "arTajweed": "يَزِيدُهُمْ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "طُغْیَانًا",
+          "ur": "سرکشی",
+          "en": "(in) transgression",
+          "arTajweed": "طُغْيَ<span class=\"tj-madda-normal\">ٰ</span>ن<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "كَبِیْرًا",
+          "ur": "بڑی (میں)",
+          "en": "great",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>بِيرًا"
+        }
+      ],
+      "arTajweed": "وَإِذْ قُلْنَا لَكَ إِ<span class=\"tj-ghunnah\">نَّ</span> رَبَّكَ أَحَاطَ بِ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ وَمَا جَعَلْنَا <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رُّءْيَا <span class=\"tj-ham-wasl\">ٱ</span>لَّتِ<span class=\"tj-madda-permissible\">ىٓ</span> أَرَيْنَ<span class=\"tj-madda-normal\">ٰ</span>كَ إِلَّا فِتْنَة<span class=\"tj-idgham-wo-ghunnah\">ً لِّ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّجَرَةَ <span class=\"tj-ham-wasl\">ٱ</span>لْمَلْعُونَةَ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلَّا طُغْيَ<span class=\"tj-madda-normal\">ٰ</span>ن<span class=\"tj-ikhafa\">ًا كَ</span>بِيرًا"
+    },
+    {
+      "number": 61,
+      "arFull": "وَاِذْ قُلْنَا لِلْمَلٰٓىِٕكَةِ اسْجُدُوْا لِاٰدَمَ فَسَجَدُوْۤا اِلَّاۤ اِبْلِیْسَ ؕ قَالَ ءَاَسْجُدُ لِمَنْ خَلَقْتَ طِیْنًا ۟ۚ",
+      "ur": "جب ہم نے فرشتوں کو حکم دیا کہ آدم کو سجده کرو تو ابلیس کے سوا سب نے کیا، اس نے کہا کہ کیا میں اسے سجده کروں جسے تو نے مٹی سے پیدا کیا ہے.",
+      "en": "And [mention] when We said to the angels, \"Prostrate to Adam,\" and they prostrated, except for Iblees.[759] He said, \"Should I prostrate to one You created from clay?\"",
+      "footnotesUr": null,
+      "footnotesEn": "[759] See footnote to 2:34.",
+      "words": [
+        {
+          "ar": "وَاِذْ",
+          "ur": "اور جب",
+          "en": "And when",
+          "arTajweed": "وَإِذْ"
+        },
+        {
+          "ar": "قُلْنَا",
+          "ur": "کہا ہم نے",
+          "en": "We said",
+          "arTajweed": "قُلْنَا"
+        },
+        {
+          "ar": "لِلْمَلٰٓىِٕكَةِ",
+          "ur": "فرشوں سے",
+          "en": "to the Angels",
+          "arTajweed": "لِلْمَلَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَةِ"
+        },
+        {
+          "ar": "اسْجُدُوْا",
+          "ur": "سجدہ کرو",
+          "en": "Prostrate",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>سْجُدُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "لِاٰدَمَ",
+          "ur": "آدم کو",
+          "en": "to Adam",
+          "arTajweed": "لِءَادَمَ"
+        },
+        {
+          "ar": "فَسَجَدُوْۤا",
+          "ur": "تو ان سب نے سجدہ کیا",
+          "en": "So they prostrated",
+          "arTajweed": "فَسَجَدُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اِلَّاۤ",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اِبْلِیْسَ ؕ",
+          "ur": "ابلیس نے",
+          "en": "Iblis",
+          "arTajweed": "إِ<span class=\"tj-qalaqah\">بْ</span>لِيسَ"
+        },
+        {
+          "ar": "قَالَ",
+          "ur": "اس نے کہا",
+          "en": "He said",
+          "arTajweed": "قَالَ"
+        },
+        {
+          "ar": "ءَاَسْجُدُ",
+          "ur": "کیا میں سجدہ کروں",
+          "en": "Shall I prostrate",
+          "arTajweed": "ءَأَسْجُدُ"
+        },
+        {
+          "ar": "لِمَنْ",
+          "ur": "واسطے اس کے",
+          "en": "to (one) whom",
+          "arTajweed": "لِمَنْ"
+        },
+        {
+          "ar": "خَلَقْتَ",
+          "ur": "جس کو پیدا کیا تو نے",
+          "en": "You created",
+          "arTajweed": "خَلَ<span class=\"tj-qalaqah\">قْ</span>تَ"
+        },
+        {
+          "ar": "طِیْنًا",
+          "ur": "مٹی سے",
+          "en": "(from) clay",
+          "arTajweed": "طِينًا"
+        }
+      ],
+      "arTajweed": "وَإِذْ قُلْنَا لِلْمَلَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَةِ <span class=\"tj-ham-wasl\">ٱ</span>سْجُدُو<span class=\"tj-slnt\">ا۟</span> لِءَادَمَ فَسَجَدُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> إِلَّ<span class=\"tj-madda-permissible\">آ</span> إِ<span class=\"tj-qalaqah\">بْ</span>لِيسَ قَالَ ءَأَسْجُدُ لِمَنْ خَلَ<span class=\"tj-qalaqah\">قْ</span>تَ طِينًا"
+    },
+    {
+      "number": 62,
+      "arFull": "قَالَ اَرَءَیْتَكَ هٰذَا الَّذِیْ كَرَّمْتَ عَلَیَّ ؗ لَىِٕنْ اَخَّرْتَنِ اِلٰی یَوْمِ الْقِیٰمَةِ لَاَحْتَنِكَنَّ ذُرِّیَّتَهٗۤ اِلَّا قَلِیْلًا ۟",
+      "ur": "اچھا دیکھ لے اسے تو نے مجھ پر بزرگی تو دی ہے، لیکن اگر مجھے بھی قیامت تک تو نے ڈھیل دی تو میں اس کی اوﻻد کو بجز بہت تھوڑے لوگوں کے، اپنے بس[1] میں کرلوں گا.",
+      "en": "[Iblees] said, \"Do You see this one whom You have honored above me? If You delay me [i.e., my death] until the Day of Resurrection, I will surely destroy[760] his descendants, except for a few.\"",
+      "footnotesUr": "[1] یعنی اس پر غلبہ حاصل کرلوں گا اور اسے جس طرح چاہوں گا، گمراہ کرلوں گا۔ البتہ تھوڑے سے لوگ میرے داؤ سے بچ جائیں گے۔ آدم (عليه السلام) و ابلیس کا یہ قصہ اس سے قبل سورہ بقرہ، اعراف اور حجر میں گزر چکا ہے۔ یہاں چوتھی مرتبہ اسے بیان کیا جا رہا ہے۔ علاوہ ازیں سورہ کہف طٰہٰ اور سورہ صٓ میں بھی اس کا ذکر آئے گا۔",
+      "footnotesEn": "[760] By tempting them and leading them astray.",
+      "words": [
+        {
+          "ar": "قَالَ",
+          "ur": "کہا",
+          "en": "He said",
+          "arTajweed": "قَالَ"
+        },
+        {
+          "ar": "اَرَءَیْتَكَ",
+          "ur": "کیا دیکھا تو نے اپنے آپ کو",
+          "en": "Do You see",
+          "arTajweed": "أَرَءَيْتَكَ"
+        },
+        {
+          "ar": "هٰذَا",
+          "ur": "یہ ہے",
+          "en": "this",
+          "arTajweed": "هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا"
+        },
+        {
+          "ar": "الَّذِیْ",
+          "ur": "جسے",
+          "en": "whom",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِى"
+        },
+        {
+          "ar": "كَرَّمْتَ",
+          "ur": "تو نے عزت بخشی",
+          "en": "You have honored",
+          "arTajweed": "كَرَّمْتَ"
+        },
+        {
+          "ar": "عَلَیَّ ؗ",
+          "ur": "مجھ پر",
+          "en": "above me",
+          "arTajweed": "عَلَىَّ"
+        },
+        {
+          "ar": "لَىِٕنْ",
+          "ur": "البتہ اگر",
+          "en": "If",
+          "arTajweed": "لَئِنْ"
+        },
+        {
+          "ar": "اَخَّرْتَنِ",
+          "ur": "تو نے مہلت دی مجھ کو",
+          "en": "You give me respite",
+          "arTajweed": "أَخَّرْتَنِ"
+        },
+        {
+          "ar": "اِلٰی",
+          "ur": "تک",
+          "en": "till",
+          "arTajweed": "إِلَىٰ"
+        },
+        {
+          "ar": "یَوْمِ",
+          "ur": "دن",
+          "en": "(the) Day",
+          "arTajweed": "يَوْمِ"
+        },
+        {
+          "ar": "الْقِیٰمَةِ",
+          "ur": "قیامت کے",
+          "en": "(of) the Resurrection",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ"
+        },
+        {
+          "ar": "لَاَحْتَنِكَنَّ",
+          "ur": "البتہ میں ضرور قابو میں کرلوں گا",
+          "en": "I will surely destroy",
+          "arTajweed": "لَأَحْتَنِكَ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "ذُرِّیَّتَهٗۤ",
+          "ur": "اس کی اولاد کو",
+          "en": "his offspring",
+          "arTajweed": "ذُرِّيَّتَهُ<span class=\"tj-madda-permissible\">ۥٓ</span>"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر/ سوائے تھوڑوں کے",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "قَلِیْلًا",
+          "ur": "مگر/ سوائے تھوڑوں کے",
+          "en": "a few",
+          "arTajweed": "قَلِيلًا"
+        }
+      ],
+      "arTajweed": "قَالَ أَرَءَيْتَكَ هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا <span class=\"tj-ham-wasl\">ٱ</span>لَّذِى كَرَّمْتَ عَلَىَّ لَئِنْ أَخَّرْتَنِ إِلَىٰ يَوْمِ <span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ لَأَحْتَنِكَ<span class=\"tj-ghunnah\">نَّ</span> ذُرِّيَّتَهُ<span class=\"tj-madda-permissible\">ۥٓ</span> إِلَّا قَلِيلًا"
+    },
+    {
+      "number": 63,
+      "arFull": "قَالَ اذْهَبْ فَمَنْ تَبِعَكَ مِنْهُمْ فَاِنَّ جَهَنَّمَ جَزَآؤُكُمْ جَزَآءً مَّوْفُوْرًا ۟",
+      "ur": "ارشاد ہوا کہ جا ان میں سے جو بھی تیرا تابعدار ہوجائے گا تو تم سب کی سزا جہنم ہے جو پورا پورا بدلہ ہے.",
+      "en": "[Allāh] said, \"Go, for whoever of them follows you, indeed Hell will be the recompense of [all of] you - an ample recompense.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "قَالَ",
+          "ur": "فرمایا",
+          "en": "He said",
+          "arTajweed": "قَالَ"
+        },
+        {
+          "ar": "اذْهَبْ",
+          "ur": "جا",
+          "en": "Go",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>ذْهَ<span class=\"tj-qalaqah\">بْ</span>"
+        },
+        {
+          "ar": "فَمَنْ",
+          "ur": "تو جو کوئی",
+          "en": "and whoever",
+          "arTajweed": "فَمَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "تَبِعَكَ",
+          "ur": "پیروی کرے تیری",
+          "en": "follows you",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span>بِعَكَ"
+        },
+        {
+          "ar": "مِنْهُمْ",
+          "ur": "ان میں سے",
+          "en": "among them",
+          "arTajweed": "مِنْهُمْ"
+        },
+        {
+          "ar": "فَاِنَّ",
+          "ur": "تو بیشک",
+          "en": "then indeed",
+          "arTajweed": "فَإِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "جَهَنَّمَ",
+          "ur": "جہنم",
+          "en": "Hell",
+          "arTajweed": "جَهَ<span class=\"tj-ghunnah\">نَّ</span>مَ"
+        },
+        {
+          "ar": "جَزَآؤُكُمْ",
+          "ur": "بدلہ ہے تمہارا",
+          "en": "(is) your recompense",
+          "arTajweed": "جَزَ<span class=\"tj-madda-obligatory\">آ</span>ؤُكُمْ"
+        },
+        {
+          "ar": "جَزَآءً",
+          "ur": "بدلہ",
+          "en": "a recompense",
+          "arTajweed": "جَزَ<span class=\"tj-madda-obligatory\">آ</span>ء<span class=\"tj-idgham-ghunnah\">ً</span>"
+        },
+        {
+          "ar": "مَّوْفُوْرًا",
+          "ur": "پورا پورا",
+          "en": "ample",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>وْفُورًا"
+        }
+      ],
+      "arTajweed": "قَالَ <span class=\"tj-ham-wasl\">ٱ</span>ذْهَ<span class=\"tj-qalaqah\">بْ</span> فَمَ<span class=\"tj-ikhafa\">ن تَ</span>بِعَكَ مِنْهُمْ فَإِ<span class=\"tj-ghunnah\">نَّ</span> جَهَ<span class=\"tj-ghunnah\">نَّ</span>مَ جَزَ<span class=\"tj-madda-obligatory\">آ</span>ؤُكُمْ جَزَ<span class=\"tj-madda-obligatory\">آ</span>ء<span class=\"tj-idgham-ghunnah\">ً مَّ</span>وْفُورًا"
+    },
+    {
+      "number": 64,
+      "arFull": "وَاسْتَفْزِزْ مَنِ اسْتَطَعْتَ مِنْهُمْ بِصَوْتِكَ وَاَجْلِبْ عَلَیْهِمْ بِخَیْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِی الْاَمْوَالِ وَالْاَوْلَادِ وَعِدْهُمْ ؕ وَمَا یَعِدُهُمُ الشَّیْطٰنُ اِلَّا غُرُوْرًا ۟",
+      "ur": "ان میں سے تو جسے بھی اپنی آواز سے بہکا سکے بہکا[1] لے اور ان پر اپنے سوار اور پیادے چڑھا ﻻ[2] اور ان کے مال اور اوﻻد میں سے اپنا بھی ساجھا لگا[3] اور انہیں (جھوٹے) وعدے دے لے[4]۔ ان سے جتنے بھی وعدے شیطان کے ہوتے ہیں سب کے سب سراسر فریب ہیں.[5]",
+      "en": "And incite [to senselessness] whoever you can among them with your voice and assault them with your horses and foot soldiers and become a partner in their wealth and their children and promise them.\" But Satan does not promise them except delusion.",
+      "footnotesUr": "[1] آواز سے مراد پر فریب دعوت یا گانے، موسیقی اور لہو و لعب کے دیگر آلات ہیں، جن کے ذریعے سے شیطان بکثرت لوگوں کو گمراہ کر رہا ہے۔\n[2] ان لشکروں سے مراد، انسانوں اور جنوں کے وہ سوار اور پیادے لشکر ہیں جو شیطان کے چیلے اور اس کے پیروکار ہیں اور شیطان ہی کی طرح انسانوں کو گمراہ کرتے ہیں، یا مراد ہے ہر ممکن ذرائع جو شیطان گمراہ کرنے کے لئے استعمال کرتا ہے۔\n[3] مال میں شیطان کی مشارکت کا مطلب حرام ذریعے سے مال کمانا اور حرام طریقے سے خرچ کرنا ہے اور اسی طرح مویشیوں کو بتوں کے ناموں پر وقف کر دینا مثلًا بحیرہ، سائبہ وغیرہ اور اولاد میں شرکت کا مطلب، زنا کاری، عبدالات، عبدالعزیٰ وغیرہ نام رکھنا، غیر اسلامی طریقے سے ان کی تربیت کرنا کہ برے اخلاق و کردار کے حامل ہوں، ان کو تنگ دستی کے خوف سے ہلاک یا زندہ درگور کر دینا، اولاد کو مجوسی، یہودی و نصرانی وغیرہ بنانا اور بغیر مسنون دعا پڑھے بیوی سے ہم بستری کرنا وغیرہ وغیرہ ہے۔ ان تمام صورتوں میں شیطان کی شرکت ہو جاتی ہے۔\n[4] کہ کوئی جنت و دوزخ نہیں ہے، یا مرنے کے بعد دوبارہ زندگی نہیں ہے وغیرہ۔\n[5] غُرُورٌ (فریب) کا مطلب ہوتا ہے غلط کام کو اس طرح مزین کرکے دکھانا کہ وہ اچھا اور درست لگے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَاسْتَفْزِزْ",
+          "ur": "اور بہکالے/ اکسالے",
+          "en": "And incite",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>سْتَفْزِزْ"
+        },
+        {
+          "ar": "مَنِ",
+          "ur": "جس کو",
+          "en": "whoever",
+          "arTajweed": "مَنِ"
+        },
+        {
+          "ar": "اسْتَطَعْتَ",
+          "ur": "تو استطاعت رکھتا ہے",
+          "en": "you can",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>سْتَطَعْتَ"
+        },
+        {
+          "ar": "مِنْهُمْ",
+          "ur": "ان میں سے",
+          "en": "among them",
+          "arTajweed": "مِنْهُ<span class=\"tj-ikhafa-shafawi\">م</span>"
+        },
+        {
+          "ar": "بِصَوْتِكَ",
+          "ur": "اپنی آواز کے ساتھ",
+          "en": "with your voice",
+          "arTajweed": "<span class=\"tj-ikhafa-shafawi\">بِ</span>صَوْتِكَ"
+        },
+        {
+          "ar": "وَاَجْلِبْ",
+          "ur": "اور چڑھا لا",
+          "en": "and assault",
+          "arTajweed": "وَأَ<span class=\"tj-qalaqah\">جْ</span>لِ<span class=\"tj-qalaqah\">بْ</span>"
+        },
+        {
+          "ar": "عَلَیْهِمْ",
+          "ur": "ان پر",
+          "en": "[on] them",
+          "arTajweed": "عَلَيْهِ<span class=\"tj-ikhafa-shafawi\">م</span>"
+        },
+        {
+          "ar": "بِخَیْلِكَ",
+          "ur": "سوار اپنے",
+          "en": "with your cavalry",
+          "arTajweed": "<span class=\"tj-ikhafa-shafawi\">بِ</span>خَيْلِكَ"
+        },
+        {
+          "ar": "وَرَجِلِكَ",
+          "ur": "اور پیادے اپنے",
+          "en": "and infantry",
+          "arTajweed": "وَرَجِلِكَ"
+        },
+        {
+          "ar": "وَشَارِكْهُمْ",
+          "ur": "اور شریک ہو ان کا",
+          "en": "and be a partner",
+          "arTajweed": "وَشَارِكْهُمْ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْاَمْوَالِ",
+          "ur": "مالوں",
+          "en": "the wealth",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَمْوَ<span class=\"tj-madda-normal\">ٰ</span>لِ"
+        },
+        {
+          "ar": "وَالْاَوْلَادِ",
+          "ur": "اور بچوں میں",
+          "en": "and the children",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَوْلَ<span class=\"tj-madda-normal\">ٰ</span>دِ"
+        },
+        {
+          "ar": "وَعِدْهُمْ ؕ",
+          "ur": "اور وعدہ کر ان سے",
+          "en": "and promise them",
+          "arTajweed": "وَعِ<span class=\"tj-qalaqah\">دْ</span>هُمْ"
+        },
+        {
+          "ar": "وَمَا",
+          "ur": "اور نہیں",
+          "en": "And not",
+          "arTajweed": "وَمَا"
+        },
+        {
+          "ar": "یَعِدُهُمُ",
+          "ur": "وعدہ کرتا ان سے",
+          "en": "promises them",
+          "arTajweed": "يَعِدُهُمُ"
+        },
+        {
+          "ar": "الشَّیْطٰنُ",
+          "ur": "شیطان",
+          "en": "the Shaitaan",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نُ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "غُرُوْرًا",
+          "ur": "دھوکے کا",
+          "en": "delusion",
+          "arTajweed": "غُرُورًا"
+        }
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>سْتَفْزِزْ مَنِ <span class=\"tj-ham-wasl\">ٱ</span>سْتَطَعْتَ مِنْهُ<span class=\"tj-ikhafa-shafawi\">م بِ</span>صَوْتِكَ وَأَ<span class=\"tj-qalaqah\">جْ</span>لِ<span class=\"tj-qalaqah\">بْ</span> عَلَيْهِ<span class=\"tj-ikhafa-shafawi\">م بِ</span>خَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْأَمْوَ<span class=\"tj-madda-normal\">ٰ</span>لِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَوْلَ<span class=\"tj-madda-normal\">ٰ</span>دِ وَعِ<span class=\"tj-qalaqah\">دْ</span>هُمْ وَمَا يَعِدُهُمُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّيْطَ<span class=\"tj-madda-normal\">ٰ</span>نُ إِلَّا غُرُورًا"
+    },
+    {
+      "number": 65,
+      "arFull": "اِنَّ عِبَادِیْ لَیْسَ لَكَ عَلَیْهِمْ سُلْطٰنٌ ؕ وَكَفٰی بِرَبِّكَ وَكِیْلًا ۟",
+      "ur": "میرے سچے بندوں پر تیرا کوئی قابو اور بس نہیں[1] ۔ تیرا رب کارسازی کرنے واﻻ کافی ہے.[2]",
+      "en": "Indeed, over My [believing] servants there is for you no authority. And sufficient is your Lord as Disposer of affairs.[761]",
+      "footnotesUr": "[1] بندوں کی نسبت اپنی طرف کی، بطور شرف اور اعزاز کے ہے، جس سے معلوم ہوا کہ اللہ کے خاص بندوں کو شیطان بہکانے میں ناکام رہتا ہے۔\n[2] یعنی جو صحیح معنوں میں اللہ کا بندہ بن جاتا ہے، اسی پر اعتماد اور توکل کرتا ہے تو اللہ بھی اس کا دوست اور کار ساز بن جاتا ہے۔",
+      "footnotesEn": "[761] Refer to footnote in 3: 173.",
+      "words": [
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "عِبَادِیْ",
+          "ur": "میرے بندے",
+          "en": "My slaves",
+          "arTajweed": "عِبَادِى"
+        },
+        {
+          "ar": "لَیْسَ",
+          "ur": "نہیں ہے",
+          "en": "not",
+          "arTajweed": "لَيْسَ"
+        },
+        {
+          "ar": "لَكَ",
+          "ur": "تیرے لئے",
+          "en": "for you",
+          "arTajweed": "لَكَ"
+        },
+        {
+          "ar": "عَلَیْهِمْ",
+          "ur": "ان پر",
+          "en": "over them",
+          "arTajweed": "عَلَيْهِمْ"
+        },
+        {
+          "ar": "سُلْطٰنٌ ؕ",
+          "ur": "کوئی زور",
+          "en": "any authority",
+          "arTajweed": "سُلْطَ<span class=\"tj-madda-normal\">ٰ</span>ن<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "وَكَفٰی",
+          "ur": "اور کافی ہے",
+          "en": "And sufficient",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>كَفَىٰ"
+        },
+        {
+          "ar": "بِرَبِّكَ",
+          "ur": "تیرا رب",
+          "en": "(is) your Lord",
+          "arTajweed": "بِرَبِّكَ"
+        },
+        {
+          "ar": "وَكِیْلًا",
+          "ur": "کارساز",
+          "en": "(as) a Guardian",
+          "arTajweed": "وَكِيلًا"
+        }
+      ],
+      "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span> عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَ<span class=\"tj-madda-normal\">ٰ</span>ن<span class=\"tj-idgham-ghunnah\">ٌ وَ</span>كَفَىٰ بِرَبِّكَ وَكِيلًا"
+    },
+    {
+      "number": 66,
+      "arFull": "رَبُّكُمُ الَّذِیْ یُزْجِیْ لَكُمُ الْفُلْكَ فِی الْبَحْرِ لِتَبْتَغُوْا مِنْ فَضْلِهٖ ؕ اِنَّهٗ كَانَ بِكُمْ رَحِیْمًا ۟",
+      "ur": "تمہارا پروردگار وه ہے جو تمہارے لئے دریا میں کشتیاں چلاتا ہے تاکہ تم اس کا فضل تلاش کرو۔ وه تمہارے اوپر بہت ہی مہربان ہے.[1]",
+      "en": "It is your Lord who drives the ship for you through the sea that you may seek of His bounty. Indeed, He is ever, to you, Merciful.",
+      "footnotesUr": "[1] یہ اس کا فضل اور رحمت ہی ہے کہ اس نے سمندر کو انسانوں کے تابع کر دیا اور وہ اس پر کشتیاں اور جہاز چلا کر ایک ملک سے دوسرے ملک میں آتے جاتے اور کاروبار کرتے ہیں، نیز اس نے ان چیزوں کی طرف رہنمائی بھی فرمائی جن میں بندوں کے لئے منافع اور مصالح ہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "رَبُّكُمُ",
+          "ur": "رب تمہارا",
+          "en": "Your Lord",
+          "arTajweed": "رَّبُّكُمُ"
+        },
+        {
+          "ar": "الَّذِیْ",
+          "ur": "وہ ذات ہے",
+          "en": "(is) the One Who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِى"
+        },
+        {
+          "ar": "یُزْجِیْ",
+          "ur": "جو  چلاتا ہے",
+          "en": "drives",
+          "arTajweed": "يُزْجِى"
+        },
+        {
+          "ar": "لَكُمُ",
+          "ur": "تمہارے لئے",
+          "en": "for you",
+          "arTajweed": "لَكُمُ"
+        },
+        {
+          "ar": "الْفُلْكَ",
+          "ur": "کشتیوں کو",
+          "en": "the ship",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْفُلْكَ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْبَحْرِ",
+          "ur": "سمندر",
+          "en": "the sea",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرِ"
+        },
+        {
+          "ar": "لِتَبْتَغُوْا",
+          "ur": "تاکہ تم تلاش کرو",
+          "en": "that you may seek",
+          "arTajweed": "لِتَ<span class=\"tj-qalaqah\">بْ</span>تَغُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "سے",
+          "en": "of",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "فَضْلِهٖ ؕ",
+          "ur": "اسکے فضل",
+          "en": "His Bounty",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>ضْلِهِ<span class=\"tj-madda-permissible\">ۦٓ</span>"
+        },
+        {
+          "ar": "اِنَّهٗ",
+          "ur": "یقیناً وہ",
+          "en": "Indeed, He",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "بِكُمْ",
+          "ur": "ساتھ تمہارے",
+          "en": "to you",
+          "arTajweed": "بِكُمْ"
+        },
+        {
+          "ar": "رَحِیْمًا",
+          "ur": "رحم فرمانے والا",
+          "en": "Ever Merciful",
+          "arTajweed": "رَحِيمًا"
+        }
+      ],
+      "arTajweed": "رَّبُّكُمُ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِى يُزْجِى لَكُمُ <span class=\"tj-ham-wasl\">ٱ</span>لْفُلْكَ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرِ لِتَ<span class=\"tj-qalaqah\">بْ</span>تَغُو<span class=\"tj-slnt\">ا۟</span> مِ<span class=\"tj-ikhafa\">ن فَ</span>ضْلِهِ<span class=\"tj-madda-permissible\">ۦٓ</span> إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> كَانَ بِكُمْ رَحِيمًا"
+    },
+    {
+      "number": 67,
+      "arFull": "وَاِذَا مَسَّكُمُ الضُّرُّ فِی الْبَحْرِ ضَلَّ مَنْ تَدْعُوْنَ اِلَّاۤ اِیَّاهُ ۚ فَلَمَّا نَجّٰىكُمْ اِلَی الْبَرِّ اَعْرَضْتُمْ ؕ وَكَانَ الْاِنْسَانُ كَفُوْرًا ۟",
+      "ur": "اور سمندروں میں مصیبت پہنچتے ہی جنہیں تم پکارتے تھے سب گم ہوجاتے ہیں صرف وہی اللہ باقی ره جاتا ہے۔ پھر جب وه تمہیں خشکی کی طرف بچا ﻻتا ہے تو تم منھ پھیر لیتے ہو اور انسان بڑا ہی ناشکرا ہے.[1]",
+      "en": "And when adversity touches you at sea, lost are [all] those you invoke except for Him. But when He delivers you to the land, you turn away [from Him]. And ever is man ungrateful.",
+      "footnotesUr": "[1] یہ مضموں پہلے بھی کئی جگہ گزر چکا ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَاِذَا",
+          "ur": "اور جب",
+          "en": "And when",
+          "arTajweed": "وَإِذَا"
+        },
+        {
+          "ar": "مَسَّكُمُ",
+          "ur": "چھو جاتی ہے تم کو",
+          "en": "touches you",
+          "arTajweed": "مَسَّكُمُ"
+        },
+        {
+          "ar": "الضُّرُّ",
+          "ur": "تکلیف",
+          "en": "the hardship",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ضُّرُّ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْبَحْرِ",
+          "ur": "سمندر",
+          "en": "the sea",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرِ"
+        },
+        {
+          "ar": "ضَلَّ",
+          "ur": "گم ہوجاتے ہیں",
+          "en": "lost",
+          "arTajweed": "ضَلَّ"
+        },
+        {
+          "ar": "مَنْ",
+          "ur": "جن کو",
+          "en": "(are) who",
+          "arTajweed": "مَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "تَدْعُوْنَ",
+          "ur": "تم پکارتے ہو",
+          "en": "you call",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span><span class=\"tj-qalaqah\">دْ</span>عُونَ"
+        },
+        {
+          "ar": "اِلَّاۤ",
+          "ur": "سوائے",
+          "en": "except",
+          "arTajweed": "إِلَّ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اِیَّاهُ ۚ",
+          "ur": "صرف اس کے",
+          "en": "Him Alone",
+          "arTajweed": "إِيَّاهُ"
+        },
+        {
+          "ar": "فَلَمَّا",
+          "ur": "تو جب",
+          "en": "But when",
+          "arTajweed": "فَلَ<span class=\"tj-ghunnah\">مَّ</span>ا"
+        },
+        {
+          "ar": "نَجّٰىكُمْ",
+          "ur": "وہ نجات دیتا ہے تم کو",
+          "en": "He delivers you",
+          "arTajweed": "نَجَّى<span class=\"tj-madda-normal\">ٰ</span>كُمْ"
+        },
+        {
+          "ar": "اِلَی",
+          "ur": "طرف",
+          "en": "to",
+          "arTajweed": "إِلَى"
+        },
+        {
+          "ar": "الْبَرِّ",
+          "ur": "خشکی کی",
+          "en": "the land",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَرِّ"
+        },
+        {
+          "ar": "اَعْرَضْتُمْ ؕ",
+          "ur": "تو تم منہ موڑ جاتے ہو",
+          "en": "you turn away",
+          "arTajweed": "أَعْرَضْتُمْ"
+        },
+        {
+          "ar": "وَكَانَ",
+          "ur": "اور ہے",
+          "en": "And is",
+          "arTajweed": "وَكَانَ"
+        },
+        {
+          "ar": "الْاِنْسَانُ",
+          "ur": "انسان",
+          "en": "man",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نُ"
+        },
+        {
+          "ar": "كَفُوْرًا",
+          "ur": "بڑا ناشکرا",
+          "en": "ungrateful",
+          "arTajweed": "كَفُورًا"
+        }
+      ],
+      "arTajweed": "وَإِذَا مَسَّكُمُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ضُّرُّ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرِ ضَلَّ مَ<span class=\"tj-ikhafa\">ن تَ</span><span class=\"tj-qalaqah\">دْ</span>عُونَ إِلَّ<span class=\"tj-madda-permissible\">آ</span> إِيَّاهُ فَلَ<span class=\"tj-ghunnah\">مَّ</span>ا نَجَّى<span class=\"tj-madda-normal\">ٰ</span>كُمْ إِلَى <span class=\"tj-ham-wasl\">ٱ</span>لْبَرِّ أَعْرَضْتُمْ وَكَانَ <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نُ كَفُورًا"
+    },
+    {
+      "number": 68,
+      "arFull": "اَفَاَمِنْتُمْ اَنْ یَّخْسِفَ بِكُمْ جَانِبَ الْبَرِّ اَوْ یُرْسِلَ عَلَیْكُمْ حَاصِبًا ثُمَّ لَا تَجِدُوْا لَكُمْ وَكِیْلًا ۟ۙ",
+      "ur": "تو کیا تم اس سے بےخوف ہوگئے ہو کہ تمہیں خشکی کی طرف (لے جاکر زمین) میں دھنسا دے یا تم پر پتھروں کی آندھی بھیج دے[1] ۔ پھر تم اپنے لئے کسی نگہبان کو نہ پاسکو.",
+      "en": "Then do you feel secure that [instead] He will not cause a part of the land to swallow you or send against you a storm of stones? Then you would not find for yourselves an advocate.",
+      "footnotesUr": "[1] یعنی سمندر سے نکلنے کے بعد تم جو اللہ کو بھول جاتے ہو تو کیا تمہیں معلوم نہیں کہ وہ خشکی میں بھی تمہاری گرفت کر سکتا ہے، تمہیں وہ زمین میں دھنسا سکتا ہے یا پتھروں کی بارش کر کے تمہیں ہلاک کر سکتا ہے، جس طرح بعض گزشتہ قوموں کو اس نے اس طرح ہلاک کیا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اَفَاَمِنْتُمْ",
+          "ur": "کیا بےخوف ہوگئے تم",
+          "en": "Do you then feel secure",
+          "arTajweed": "أَفَأَمِ<span class=\"tj-ikhafa\">نتُ</span>مْ"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "that (not)",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّخْسِفَ",
+          "ur": "وہ دھنسا دے",
+          "en": "He will cause to swallow",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>خْسِفَ"
+        },
+        {
+          "ar": "بِكُمْ",
+          "ur": "تم کو",
+          "en": "you",
+          "arTajweed": "بِكُمْ"
+        },
+        {
+          "ar": "جَانِبَ",
+          "ur": "جانب",
+          "en": "side",
+          "arTajweed": "جَانِبَ"
+        },
+        {
+          "ar": "الْبَرِّ",
+          "ur": "خشکی کے",
+          "en": "(of) the land",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَرِّ"
+        },
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "یُرْسِلَ",
+          "ur": "بھیجے",
+          "en": "send",
+          "arTajweed": "يُرْسِلَ"
+        },
+        {
+          "ar": "عَلَیْكُمْ",
+          "ur": "تم پر",
+          "en": "against you",
+          "arTajweed": "عَلَيْكُمْ"
+        },
+        {
+          "ar": "حَاصِبًا",
+          "ur": "پتھروں کی بارش",
+          "en": "a storm of stones",
+          "arTajweed": "حَاصِب<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "ثُمَّ",
+          "ur": "پھر",
+          "en": "Then",
+          "arTajweed": "<span class=\"tj-ikhafa\">ثُ</span><span class=\"tj-ghunnah\">مَّ</span>"
+        },
+        {
+          "ar": "لَا",
+          "ur": "نہ",
+          "en": "not",
+          "arTajweed": "لَا"
+        },
+        {
+          "ar": "تَجِدُوْا",
+          "ur": "تم پاؤ گے",
+          "en": "you will find",
+          "arTajweed": "تَجِدُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "لَكُمْ",
+          "ur": "اپنے لئے",
+          "en": "for you",
+          "arTajweed": "لَكُمْ"
+        },
+        {
+          "ar": "وَكِیْلًا",
+          "ur": "کوئی کارساز",
+          "en": "a guardian",
+          "arTajweed": "وَكِيلًا"
+        }
+      ],
+      "arTajweed": "أَفَأَمِ<span class=\"tj-ikhafa\">نتُ</span>مْ أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>خْسِفَ بِكُمْ جَانِبَ <span class=\"tj-ham-wasl\">ٱ</span>لْبَرِّ أَوْ يُرْسِلَ عَلَيْكُمْ حَاصِب<span class=\"tj-ikhafa\">ًا ثُ</span><span class=\"tj-ghunnah\">مَّ</span> لَا تَجِدُو<span class=\"tj-slnt\">ا۟</span> لَكُمْ وَكِيلًا"
+    },
+    {
+      "number": 69,
+      "arFull": "اَمْ اَمِنْتُمْ اَنْ یُّعِیْدَكُمْ فِیْهِ تَارَةً اُخْرٰی فَیُرْسِلَ عَلَیْكُمْ قَاصِفًا مِّنَ الرِّیْحِ فَیُغْرِقَكُمْ بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوْا لَكُمْ عَلَیْنَا بِهٖ تَبِیْعًا ۟",
+      "ur": "کیا تم اس بات سے بےخوف ہوگئے ہو کہ اللہ تعالیٰ پھر تمہیں دوباره دریا کے سفر میں لے آئے اور تم پر تیز وتند ہواؤں کے جھونکے بھیج دے اور تمہارے کفر کے باعﺚ تمہیں ڈبو دے۔ پھر تم اپنے لئے ہم پر اس کا دعویٰ (پیچھا) کرنے واﻻ کسی کو نہ پاؤ گے.[1]",
+      "en": "Or do you feel secure that He will not send you back into it [i.e., the sea] another time and send upon you a hurricane of wind and drown you for what you denied?[762] Then you would not find for yourselves against Us an avenger.[763]",
+      "footnotesUr": "[1] قَاصِفٌ، ایسی تند تیز سمندری ہوا جو کشتیوں کو توڑ دے اور انہیں ڈبو دے، تَبِيعًا انتقام لینے والا، پیچھا کرنے والا، یعنی تمہارے ڈوب جانے کے بعد ہم سے پوچھے کہ تو نے ہمارے بندوں کو کیوں ڈبویا؟ مطلب یہ ہے کہ ایک مرتبہ سمندر سے بخریت نکلنے کے بعد، کیا تمہیں دوبارہ سمندر میں جانے کی ضرورت پیش نہیں آئے گی؟ اور وہاں وہ تمہیں گرداب بلا میں نہیں پھنسا سکتا؟۔",
+      "footnotesEn": "[762] Or \"for your disbelief.\"\n[763] Or \"someone to demand restitution.\"",
+      "words": [
+        {
+          "ar": "اَمْ",
+          "ur": "یا",
+          "en": "Or",
+          "arTajweed": "أَمْ"
+        },
+        {
+          "ar": "اَمِنْتُمْ",
+          "ur": "بےخوف ہوگئے",
+          "en": "do you feel secure",
+          "arTajweed": "أَمِ<span class=\"tj-ikhafa\">نتُ</span>مْ"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "that (not)",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یُّعِیْدَكُمْ",
+          "ur": "وہ لوٹائے تم کو",
+          "en": "He will send you back",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يُ</span>عِيدَكُمْ"
+        },
+        {
+          "ar": "فِیْهِ",
+          "ur": "اس میں",
+          "en": "into it",
+          "arTajweed": "فِيهِ"
+        },
+        {
+          "ar": "تَارَةً",
+          "ur": "مرتبہ",
+          "en": "another time",
+          "arTajweed": "تَارَةً"
+        },
+        {
+          "ar": "اُخْرٰی",
+          "ur": "دوسری",
+          "en": "another time",
+          "arTajweed": "أُخْرَىٰ"
+        },
+        {
+          "ar": "فَیُرْسِلَ",
+          "ur": "پھر بھیجے",
+          "en": "and send",
+          "arTajweed": "فَيُرْسِلَ"
+        },
+        {
+          "ar": "عَلَیْكُمْ",
+          "ur": "تم پر",
+          "en": "upon you",
+          "arTajweed": "عَلَيْكُمْ"
+        },
+        {
+          "ar": "قَاصِفًا",
+          "ur": "گرجنے والی/ توڑنے والی",
+          "en": "a hurricane",
+          "arTajweed": "قَاصِف<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مِّنَ",
+          "ur": "میں سے",
+          "en": "of",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span>نَ"
+        },
+        {
+          "ar": "الرِّیْحِ",
+          "ur": "ہوا",
+          "en": "the wind",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رِّيحِ"
+        },
+        {
+          "ar": "فَیُغْرِقَكُمْ",
+          "ur": "پھر غرق کردے تم کو",
+          "en": "and drown you",
+          "arTajweed": "فَيُغْرِقَكُ<span class=\"tj-ikhafa-shafawi\">م</span>"
+        },
+        {
+          "ar": "بِمَا",
+          "ur": "بوجہ اس کے",
+          "en": "because",
+          "arTajweed": "<span class=\"tj-ikhafa-shafawi\">بِ</span>مَا"
+        },
+        {
+          "ar": "كَفَرْتُمْ ۙ",
+          "ur": "جو ناشکری کی تم نے",
+          "en": "you disbelieved",
+          "arTajweed": "كَفَرْتُمْ"
+        },
+        {
+          "ar": "ثُمَّ",
+          "ur": "پھر",
+          "en": "Then",
+          "arTajweed": "ثُ<span class=\"tj-ghunnah\">مَّ</span>"
+        },
+        {
+          "ar": "لَا",
+          "ur": "نہ",
+          "en": "not",
+          "arTajweed": "لَا"
+        },
+        {
+          "ar": "تَجِدُوْا",
+          "ur": "تم پاؤ",
+          "en": "you will find",
+          "arTajweed": "تَجِدُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "لَكُمْ",
+          "ur": "اپنے لئے",
+          "en": "for you",
+          "arTajweed": "لَكُمْ"
+        },
+        {
+          "ar": "عَلَیْنَا",
+          "ur": "ہمارے مقابلے میں",
+          "en": "against Us",
+          "arTajweed": "عَلَيْنَا"
+        },
+        {
+          "ar": "بِهٖ",
+          "ur": "ساتھ اس کے",
+          "en": "therein",
+          "arTajweed": "بِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "تَبِیْعًا",
+          "ur": "کوئی تابع/ کوئی یپیچھا کرنے والا",
+          "en": "an avenger",
+          "arTajweed": "تَبِيعًا"
+        }
+      ],
+      "arTajweed": "أَمْ أَمِ<span class=\"tj-ikhafa\">نتُ</span>مْ أَ<span class=\"tj-idgham-ghunnah\">ن يُ</span>عِيدَكُمْ فِيهِ تَارَةً أُخْرَىٰ فَيُرْسِلَ عَلَيْكُمْ قَاصِف<span class=\"tj-idgham-ghunnah\">ًا مِّ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رِّيحِ فَيُغْرِقَكُ<span class=\"tj-ikhafa-shafawi\">م بِ</span>مَا كَفَرْتُمْ ثُ<span class=\"tj-ghunnah\">مَّ</span> لَا تَجِدُو<span class=\"tj-slnt\">ا۟</span> لَكُمْ عَلَيْنَا بِهِ<span class=\"tj-madda-normal\">ۦ</span> تَبِيعًا"
+    },
+    {
+      "number": 70,
+      "arFull": "وَلَقَدْ كَرَّمْنَا بَنِیْۤ اٰدَمَ وَحَمَلْنٰهُمْ فِی الْبَرِّ وَالْبَحْرِ وَرَزَقْنٰهُمْ مِّنَ الطَّیِّبٰتِ وَفَضَّلْنٰهُمْ عَلٰی كَثِیْرٍ مِّمَّنْ خَلَقْنَا تَفْضِیْلًا ۟۠",
+      "ur": "یقیناً ہم نے اوﻻد آدم کو بڑی عزت دی[1] اور انہیں خشکی اور تری کی سواریاں[2] دیں اور انہیں پاکیزه چیزوں کی روزیاں[3] دیں اور اپنی بہت سی مخلوق پر انہیں فضیلت عطا فرمائی.[4]",
+      "en": "And We have certainly honored the children of Adam and carried them on the land and sea and provided for them of the good things and preferred them over much of what We have created, with [definite] preference.",
+      "footnotesUr": "[1] یہ شرف اور فضل، بحیثیت انسان کے، ہر انسان کو حاصل ہے چاہے مومن ہو یا کافر۔ کیونکہ یہ شرف دوسری مخلوقات، حیوانات، جمادات و نباتات وغیرہ کے مقابلے میں ہے۔ اور یہ شرف متعدد اعتبار سے ہے جس طرح کی شکل و صورت، قد وقامت اور ہیئت اللہ تعالٰی نے انسان کو عطا کی ہے، وہ کسی دوسری مخلوق کو حاصل نہیں، جو عقل انسان کو دی گئی ہے، جس کے ذریعے سے اس نے اپنے آرام و راحت کے لئے بیشمار چیزیں ایجاد کیں۔ حیوانات وغیرہ اس سے محروم ہیں۔ علاوہ ازیں اسی عقل سے صحیح، مفید و مضر اور حسین قبیح کے درمیان تمیز کرنے پر قادر ہے۔ علاوہ ازیں کائنات کی تمام چیزوں کو اللہ تعالٰی نے انسان کی خدمت پر لگا رکھا ہے۔ چاند سورج، ہوا پانی اور دیگر بیشمار چیزیں ہیں جن سے انسان فیض یاب ہو رہا ہے۔\n[2] خشکی میں گھوڑوں، خچروں، گدھوں، اونٹوں اور اپنی تیار کردہ سواریوں (ریلیں، گاڑیاں، بسیں، ہوائی جہاز، سائیکل اور موٹر سائیکل وغیرہ) پر سوار ہوتا ہے اور اسی طرح سمندر میں کشتیاں اور جہاز ہیں جن پر وہ سوار ہوتا ہے اور سامان لاتا لے جاتا ہے۔\n[3] انسان کی خوراک کے لئے جو غلہ جات، میوے اور پھل ہیں سب اسی نے پیدا کئے اور ان میں جو جو لذتیں، ذائقے اور قوتیں رکھیں ہیں۔ انواع اقسام کے کھانے، یہ لذیذ و مرغوب پھل اور یہ قوت بخش اور مفرح مرکبات و مشروبات اور خمیرے اور معجونات، انسان کے علاوہ اور کس مخلوق کو حاصل ہیں؟۔\n[4] مذکورہ تفصیل سے انسان کی، بہت سی مخلوقات پر، فضیلت اور برتری واضح ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَقَدْ",
+          "ur": "اور البتہ تحقیق",
+          "en": "And certainly",
+          "arTajweed": "وَلَقَ<span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "كَرَّمْنَا",
+          "ur": "عزت بخشی ہم نے",
+          "en": "We have honored",
+          "arTajweed": "كَرَّمْنَا"
+        },
+        {
+          "ar": "بَنِیْۤ",
+          "ur": "بنی",
+          "en": "(the) children of Adam",
+          "arTajweed": "بَنِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اٰدَمَ",
+          "ur": "آدم کو",
+          "en": "(the) children of Adam",
+          "arTajweed": "ءَادَمَ"
+        },
+        {
+          "ar": "وَحَمَلْنٰهُمْ",
+          "ur": "اور سوار کیا ہمنے ان کو",
+          "en": "and We carried them",
+          "arTajweed": "وَحَمَلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُمْ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "on",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْبَرِّ",
+          "ur": "خشکی",
+          "en": "the land",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَرِّ"
+        },
+        {
+          "ar": "وَالْبَحْرِ",
+          "ur": "اور سمندر میں",
+          "en": "and the sea",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرِ"
+        },
+        {
+          "ar": "وَرَزَقْنٰهُمْ",
+          "ur": "اور رزق دیا ہم نے ان کو",
+          "en": "and We have provided them",
+          "arTajweed": "وَرَزَ<span class=\"tj-qalaqah\">قْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>هُ<span class=\"tj-idgham-shafawi\">م</span>"
+        },
+        {
+          "ar": "مِّنَ",
+          "ur": "سے",
+          "en": "of",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مِّ</span>نَ"
+        },
+        {
+          "ar": "الطَّیِّبٰتِ",
+          "ur": "پاکیزہ چیزوں میں (سے)",
+          "en": "the good things",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>طَّيِّبَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
+        },
+        {
+          "ar": "وَفَضَّلْنٰهُمْ",
+          "ur": "اور فضیلت دی ہم نے ان کو",
+          "en": "and We preferred them",
+          "arTajweed": "وَفَضَّلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُمْ"
+        },
+        {
+          "ar": "عَلٰی",
+          "ur": "اوپر",
+          "en": "over",
+          "arTajweed": "عَلَىٰ"
+        },
+        {
+          "ar": "كَثِیْرٍ",
+          "ur": "بہت ساروں کے",
+          "en": "many",
+          "arTajweed": "كَثِير<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "مِّمَّنْ",
+          "ur": "ان میں سے جو",
+          "en": "of those whom",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-ghunnah\">مَّ</span>نْ"
+        },
+        {
+          "ar": "خَلَقْنَا",
+          "ur": "پیدا کئے ہم نے",
+          "en": "We have created",
+          "arTajweed": "خَلَ<span class=\"tj-qalaqah\">قْ</span>نَا"
+        },
+        {
+          "ar": "تَفْضِیْلًا",
+          "ur": "فضیلت دینا",
+          "en": "(with) preference",
+          "arTajweed": "تَفْضِيلًا"
+        }
+      ],
+      "arTajweed": "وَلَقَ<span class=\"tj-qalaqah\">دْ</span> كَرَّمْنَا بَنِ<span class=\"tj-madda-permissible\">ىٓ</span> ءَادَمَ وَحَمَلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُمْ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْبَرِّ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرِ وَرَزَ<span class=\"tj-qalaqah\">قْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>هُ<span class=\"tj-idgham-shafawi\">م مِّ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>طَّيِّبَ<span class=\"tj-madda-normal\">ٰ</span>تِ وَفَضَّلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُمْ عَلَىٰ كَثِير<span class=\"tj-idgham-ghunnah\">ٍ مِّ</span><span class=\"tj-ghunnah\">مَّ</span>نْ خَلَ<span class=\"tj-qalaqah\">قْ</span>نَا تَفْضِيلًا"
+    },
+    {
+      "number": 71,
+      "arFull": "یَوْمَ نَدْعُوْا كُلَّ اُنَاسٍ بِاِمَامِهِمْ ۚ فَمَنْ اُوْتِیَ كِتٰبَهٗ بِیَمِیْنِهٖ فَاُولٰٓىِٕكَ یَقْرَءُوْنَ كِتٰبَهُمْ وَلَا یُظْلَمُوْنَ فَتِیْلًا ۟",
+      "ur": "جس دن ہم ہر جماعت کو اس کے پیشوا سمیت[1] بلائیں گے۔ پھر جن کا بھی اعمال نامہ دائیں ہاتھ میں دے دیا گیا وه تو شوق سے اپنا نامہٴ اعمال پڑھنے لگیں گے اور دھاگے کے برابر (ذره برابر) بھی ﻇلم نہ کئے جائیں گے.[2]",
+      "en": "[Mention, O Muḥammad], the Day We will call forth every people with their record [of deeds].[764] Then whoever is given his record in his right hand - those will read their records, and injustice will not be done to them, [even] as much as a thread [inside the date seed].",
+      "footnotesUr": "[1] إِمَامٌ کے معنی پیشوا، لیڈر اور قائد کے ہیں، یہاں اس سے کیا مراد ہے؟ اس میں اختلاف ہے۔ بعض کہتے ہیں کہ اس سے مراد پیغمبر ہے یعنی ہر امت کو اس کے پیغمبر کے حوالے سے پکارا جائے گا، بعض کہتے ہیں، اس سے آسمانی کتاب مراد ہے جو انبیاء کے ساتھ نازل ہوتی رہیں۔ یعنی اے اہل تورات! اے اہل انجیل! اور اے اہل قرآن! وغیرہ کہہ کر پکارا جائے گا بعض کہتے ہیں یہاں ”امام“ سے مراد نامہ اعمال ہے یعنی ہر شخص کو جب بلایا جائے گا تو اس کا نامہ اعمال اس کے ساتھ ہوگا اور اس کے مطابق اس کا فیصلہ کیا جائے گا۔ اسی رائے کو امام ابن کثیر اور امام شوکانی نے ترجیح دی ہے۔\n[2] فَتِيلٌ اس جھلی یا تاگے کو کہتے ہیں جو کھجور کی گٹھلی میں ہوتا ہے یعنی ذرہ برابر ظلم نہیں ہوگا۔",
+      "footnotesEn": "[764] Other meanings are \"with their leader\" or \"with that which they had followed.\"",
+      "words": [
+        {
+          "ar": "یَوْمَ",
+          "ur": "جس دن",
+          "en": "(The) Day",
+          "arTajweed": "يَوْمَ"
+        },
+        {
+          "ar": "نَدْعُوْا",
+          "ur": "ہم پکاریں گے",
+          "en": "We will call",
+          "arTajweed": "نَ<span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "كُلَّ",
+          "ur": "سب",
+          "en": "all",
+          "arTajweed": "كُلَّ"
+        },
+        {
+          "ar": "اُنَاسٍ",
+          "ur": "لوگوں کو",
+          "en": "human beings",
+          "arTajweed": "أُنَاس<span class=\"tj-iqlab\">ٍۭ</span>"
+        },
+        {
+          "ar": "بِاِمَامِهِمْ ۚ",
+          "ur": "ساتھ ان کے لیڈر کے/ پیشوا کے",
+          "en": "with their record",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>ِإِمَ<span class=\"tj-madda-normal\">ٰ</span>مِهِمْ"
+        },
+        {
+          "ar": "فَمَنْ",
+          "ur": "تو جو کوئی",
+          "en": "then whoever",
+          "arTajweed": "فَمَنْ"
+        },
+        {
+          "ar": "اُوْتِیَ",
+          "ur": "دیا گیا",
+          "en": "is given",
+          "arTajweed": "أُوتِىَ"
+        },
+        {
+          "ar": "كِتٰبَهٗ",
+          "ur": "کتاب اپنی",
+          "en": "his record",
+          "arTajweed": "كِتَ<span class=\"tj-madda-normal\">ٰ</span>بَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "بِیَمِیْنِهٖ",
+          "ur": "اپنے دائیں ہاتھ میں",
+          "en": "in his right hand",
+          "arTajweed": "بِيَمِينِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "فَاُولٰٓىِٕكَ",
+          "ur": "تو یہی لوگ",
+          "en": "then those",
+          "arTajweed": "فَأُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ"
+        },
+        {
+          "ar": "یَقْرَءُوْنَ",
+          "ur": "پڑھیں گے",
+          "en": "will read",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">قْ</span>رَءُونَ"
+        },
+        {
+          "ar": "كِتٰبَهُمْ",
+          "ur": "کتاب اپنی",
+          "en": "their records",
+          "arTajweed": "كِتَ<span class=\"tj-madda-normal\">ٰ</span>بَهُمْ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "and not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "یُظْلَمُوْنَ",
+          "ur": "وہ ظلم کئے جائیں گے",
+          "en": "they will be wronged",
+          "arTajweed": "يُظْلَمُونَ"
+        },
+        {
+          "ar": "فَتِیْلًا",
+          "ur": "دھاگے برابر",
+          "en": "(even as much as) a hair on a date seed",
+          "arTajweed": "فَتِيلًا"
+        }
+      ],
+      "arTajweed": "يَوْمَ نَ<span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span> كُلَّ أُنَاس<span class=\"tj-iqlab\">ٍۭ ب</span>ِإِمَ<span class=\"tj-madda-normal\">ٰ</span>مِهِمْ فَمَنْ أُوتِىَ كِتَ<span class=\"tj-madda-normal\">ٰ</span>بَهُ<span class=\"tj-madda-normal\">ۥ</span> بِيَمِينِهِ<span class=\"tj-madda-normal\">ۦ</span> فَأُ<span class=\"tj-slnt\">و۟</span>لَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَ يَ<span class=\"tj-qalaqah\">قْ</span>رَءُونَ كِتَ<span class=\"tj-madda-normal\">ٰ</span>بَهُمْ وَلَا يُظْلَمُونَ فَتِيلًا"
+    },
+    {
+      "number": 72,
+      "arFull": "وَمَنْ كَانَ فِیْ هٰذِهٖۤ اَعْمٰی فَهُوَ فِی الْاٰخِرَةِ اَعْمٰی وَاَضَلُّ سَبِیْلًا ۟",
+      "ur": "اور جو کوئی اس جہان میں اندھا رہا، وه آخرت میں بھی اندھا اور راستے سے بہت ہی بھٹکا ہوا رہے گا.[1]",
+      "en": "And whoever is blind[765] in this [life] will be blind in the Hereafter and more astray in way.",
+      "footnotesUr": "[1] أَعْمَى (اندھا) سے مراد دل کا اندھا ہے یعنی جو دنیا میں حق کے دیکھنے، سمجھنے اور اسے قبول کرنے سے محروم رہا، وہ آخرت میں اندھا، اور رب کے خصوصی فضل و کرم سے محروم رہے گا۔",
+      "footnotesEn": "[765] i.e., refusing to see the truth.",
+      "words": [
+        {
+          "ar": "وَمَنْ",
+          "ur": "اور جو کوئی",
+          "en": "And whoever",
+          "arTajweed": "وَمَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہوا",
+          "en": "is",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>انَ"
+        },
+        {
+          "ar": "فِیْ",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "هٰذِهٖۤ",
+          "ur": "اس دنیا",
+          "en": "this (world)",
+          "arTajweed": "هَ<span class=\"tj-madda-normal\">ٰ</span>ذِهِ<span class=\"tj-madda-permissible\">ۦٓ</span>"
+        },
+        {
+          "ar": "اَعْمٰی",
+          "ur": "اندھا",
+          "en": "blind",
+          "arTajweed": "أَعْمَىٰ"
+        },
+        {
+          "ar": "فَهُوَ",
+          "ur": "تو وہ",
+          "en": "then he",
+          "arTajweed": "فَهُوَ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْاٰخِرَةِ",
+          "ur": "آخرت میں",
+          "en": "the Hereafter",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ"
+        },
+        {
+          "ar": "اَعْمٰی",
+          "ur": "اندھا ہوگا",
+          "en": "(will be) blind",
+          "arTajweed": "أَعْمَىٰ"
+        },
+        {
+          "ar": "وَاَضَلُّ",
+          "ur": "اور سب سے زیادہ بھٹکا ہوا",
+          "en": "and more astray",
+          "arTajweed": "وَأَضَلُّ"
+        },
+        {
+          "ar": "سَبِیْلًا",
+          "ur": "راستے کے اعتبار سے",
+          "en": "(from the) path",
+          "arTajweed": "سَبِيلًا"
+        }
+      ],
+      "arTajweed": "وَمَ<span class=\"tj-ikhafa\">ن كَ</span>انَ فِى هَ<span class=\"tj-madda-normal\">ٰ</span>ذِهِ<span class=\"tj-madda-permissible\">ۦٓ</span> أَعْمَىٰ فَهُوَ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ أَعْمَىٰ وَأَضَلُّ سَبِيلًا"
+    },
+    {
+      "number": 73,
+      "arFull": "وَاِنْ كَادُوْا لَیَفْتِنُوْنَكَ عَنِ الَّذِیْۤ اَوْحَیْنَاۤ اِلَیْكَ لِتَفْتَرِیَ عَلَیْنَا غَیْرَهٗ ۖۗ وَاِذًا لَّاتَّخَذُوْكَ خَلِیْلًا ۟",
+      "ur": "یہ لوگ آپ کو اس وحی سے جو ہم نے آپ پر اتاری ہے بہکانا چاہتے کہ آپ اس کے سوا کچھ اور ہی ہمارے نام سے گھڑ گھڑالیں، تب تو آپ کو یہ لوگ اپنا ولی دوست بنا لیتے.",
+      "en": "And indeed, they were about to tempt you away from that which We revealed to you in order to [make] you invent about Us something else; and then they would have taken you as a friend.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَاِنْ",
+          "ur": "اور اگر چہ",
+          "en": "And indeed",
+          "arTajweed": "وَإِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "كَادُوْا",
+          "ur": "قریب تھا",
+          "en": "they were about (to)",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>ادُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "لَیَفْتِنُوْنَكَ",
+          "ur": "کہ وہ دھوکہ دیں تجھ کو/ فتنے میں ڈالیں تجھ کو",
+          "en": "tempt you away",
+          "arTajweed": "لَيَفْتِنُونَكَ"
+        },
+        {
+          "ar": "عَنِ",
+          "ur": "اس",
+          "en": "from",
+          "arTajweed": "عَنِ"
+        },
+        {
+          "ar": "الَّذِیْۤ",
+          "ur": "چیز کے بارے میں",
+          "en": "that which",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اَوْحَیْنَاۤ",
+          "ur": "ہم نے وحی",
+          "en": "We revealed",
+          "arTajweed": "أَوْحَيْنَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اِلَیْكَ",
+          "ur": "آپ کی طرف",
+          "en": "to you",
+          "arTajweed": "إِلَيْكَ"
+        },
+        {
+          "ar": "لِتَفْتَرِیَ",
+          "ur": "تاکہ تم گھڑ سکو",
+          "en": "that you invent",
+          "arTajweed": "لِتَفْتَرِىَ"
+        },
+        {
+          "ar": "عَلَیْنَا",
+          "ur": "ہم پر",
+          "en": "about Us",
+          "arTajweed": "عَلَيْنَا"
+        },
+        {
+          "ar": "غَیْرَهٗ ۖۗ",
+          "ur": "اس کے علاوہ",
+          "en": "other (than) it",
+          "arTajweed": "غَيْرَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "وَاِذًا",
+          "ur": "اور تب البتہ",
+          "en": "And then",
+          "arTajweed": "وَإِذ<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "لَّاتَّخَذُوْكَ",
+          "ur": "وہ بنالیتے تجھ کو",
+          "en": "surely they would take you",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span><span class=\"tj-ham-wasl\">ٱ</span>تَّخَذُوكَ"
+        },
+        {
+          "ar": "خَلِیْلًا",
+          "ur": "دوست",
+          "en": "(as) a friend",
+          "arTajweed": "خَلِيلًا"
+        }
+      ],
+      "arTajweed": "وَإِ<span class=\"tj-ikhafa\">ن كَ</span>ادُو<span class=\"tj-slnt\">ا۟</span> لَيَفْتِنُونَكَ عَنِ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِ<span class=\"tj-madda-permissible\">ىٓ</span> أَوْحَيْنَ<span class=\"tj-madda-permissible\">آ</span> إِلَيْكَ لِتَفْتَرِىَ عَلَيْنَا غَيْرَهُ<span class=\"tj-madda-normal\">ۥ</span> وَإِذ<span class=\"tj-idgham-wo-ghunnah\">ًا لَّ</span><span class=\"tj-ham-wasl\">ٱ</span>تَّخَذُوكَ خَلِيلًا"
+    },
+    {
+      "number": 74,
+      "arFull": "وَلَوْلَاۤ اَنْ ثَبَّتْنٰكَ لَقَدْ كِدْتَّ تَرْكَنُ اِلَیْهِمْ شَیْـًٔا قَلِیْلًا ۟ۗۙ",
+      "ur": "اگر ہم آپ کو ﺛابت قدم نہ رکھتے تو بہت ممکن تھا کہ ان کی طرف قدرے قلیل مائل ہو ہی جاتے.[1]",
+      "en": "And if We had not strengthened you, you would have almost inclined to them a little.",
+      "footnotesUr": "[1] اس میں اس عصمت کا بیان ہے جو اللہ کی طرف سے انبیاء (عليهم السلام) کو حاصل ہوتی ہے۔ اس سے یہ معلوم ہوا کہ مشرکین اگرچہ نبی (صلى الله عليه وسلم) کو اپنی طرف مائل کرنا چاہتے تھے، لیکن اللہ نے آپ کو ان سے بچایا اور آپ (صلى الله عليه وسلم) ذرا بھی ان کی طرف نہیں جھکے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَوْلَاۤ",
+          "ur": "اور اگر نہ ہوتی یہ بات",
+          "en": "And if not",
+          "arTajweed": "وَلَوْلَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "[that]",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "ثَبَّتْنٰكَ",
+          "ur": "ہم ثابت قدم رکھتے تجھ کو",
+          "en": "We (had) strengthened you",
+          "arTajweed": "<span class=\"tj-ikhafa\">ثَ</span>بَّتْنَ<span class=\"tj-madda-normal\">ٰ</span>كَ"
+        },
+        {
+          "ar": "لَقَدْ",
+          "ur": "البتہ تحقیق",
+          "en": "certainly",
+          "arTajweed": "لَقَ<span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "كِدْتَّ",
+          "ur": "قریب تھا",
+          "en": "you almost",
+          "arTajweed": "كِ<span class=\"tj-idghaam_mutajanisayn\">د</span>تَّ"
+        },
+        {
+          "ar": "تَرْكَنُ",
+          "ur": "کہ تو جھک جاتا",
+          "en": "(would) have inclined",
+          "arTajweed": "تَرْكَنُ"
+        },
+        {
+          "ar": "اِلَیْهِمْ",
+          "ur": "ان کی طرف",
+          "en": "to them",
+          "arTajweed": "إِلَيْهِمْ"
+        },
+        {
+          "ar": "شَیْـًٔا",
+          "ur": "چیز",
+          "en": "(in) something",
+          "arTajweed": "شَيْـٔ<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "قَلِیْلًا",
+          "ur": "تھوڑا سا/ تھوڑی سی",
+          "en": "a little",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span>لِيلًا"
+        }
+      ],
+      "arTajweed": "وَلَوْلَ<span class=\"tj-madda-permissible\">آ</span> أَ<span class=\"tj-ikhafa\">ن ثَ</span>بَّتْنَ<span class=\"tj-madda-normal\">ٰ</span>كَ لَقَ<span class=\"tj-qalaqah\">دْ</span> كِ<span class=\"tj-idghaam_mutajanisayn\">د</span>تَّ تَرْكَنُ إِلَيْهِمْ شَيْـٔ<span class=\"tj-ikhafa\">ًا قَ</span>لِيلًا"
+    },
+    {
+      "number": 75,
+      "arFull": "اِذًا لَّاَذَقْنٰكَ ضِعْفَ الْحَیٰوةِ وَضِعْفَ الْمَمَاتِ ثُمَّ لَا تَجِدُ لَكَ عَلَیْنَا نَصِیْرًا ۟",
+      "ur": "پھر تو ہم بھی آپ کو دوہرا عذاب دنیا کا کرتے اور دوہرا ہی موت کا[1] ، پھر آپ تو اپنے لئے ہمارے مقابلے میں کسی کو مددگار بھی نہ پاتے.",
+      "en": "Then [if you had], We would have made you taste double [punishment in] life and double [after] death. Then you would not find for yourself against Us a helper.",
+      "footnotesUr": "[1] اس سے معلوم ہوا کہ سزا قدرو منزلت کے مطابق ہوتی ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اِذًا",
+          "ur": "تب",
+          "en": "Then",
+          "arTajweed": "إِذ<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "لَّاَذَقْنٰكَ",
+          "ur": "البتہ ہم چکھاتے تجھ کو",
+          "en": "We (would) have made you taste",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>أَذَ<span class=\"tj-qalaqah\">قْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>كَ"
+        },
+        {
+          "ar": "ضِعْفَ",
+          "ur": "دوگنا",
+          "en": "double",
+          "arTajweed": "ضِعْفَ"
+        },
+        {
+          "ar": "الْحَیٰوةِ",
+          "ur": "زندگی میں",
+          "en": "(in) the life",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْحَيَ<span class=\"tj-slnt\">و</span><span class=\"tj-madda-normal\">ٰ</span>ةِ"
+        },
+        {
+          "ar": "وَضِعْفَ",
+          "ur": "اور دوگنا",
+          "en": "and double",
+          "arTajweed": "وَضِعْفَ"
+        },
+        {
+          "ar": "الْمَمَاتِ",
+          "ur": "موت میں",
+          "en": "(after) the death",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَمَاتِ"
+        },
+        {
+          "ar": "ثُمَّ",
+          "ur": "پھر",
+          "en": "Then",
+          "arTajweed": "ثُ<span class=\"tj-ghunnah\">مَّ</span>"
+        },
+        {
+          "ar": "لَا",
+          "ur": "نہ",
+          "en": "not",
+          "arTajweed": "لَا"
+        },
+        {
+          "ar": "تَجِدُ",
+          "ur": "تم پاتے",
+          "en": "you (would) have found",
+          "arTajweed": "تَجِدُ"
+        },
+        {
+          "ar": "لَكَ",
+          "ur": "اپنے لئے",
+          "en": "for you",
+          "arTajweed": "لَكَ"
+        },
+        {
+          "ar": "عَلَیْنَا",
+          "ur": "ہم پر/ ہمارے مقابلے پر",
+          "en": "against Us",
+          "arTajweed": "عَلَيْنَا"
+        },
+        {
+          "ar": "نَصِیْرًا",
+          "ur": "کوئی مدد گار",
+          "en": "any helper",
+          "arTajweed": "نَصِيرًا"
+        }
+      ],
+      "arTajweed": "إِذ<span class=\"tj-idgham-wo-ghunnah\">ًا لَّ</span>أَذَ<span class=\"tj-qalaqah\">قْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>كَ ضِعْفَ <span class=\"tj-ham-wasl\">ٱ</span>لْحَيَ<span class=\"tj-slnt\">و</span><span class=\"tj-madda-normal\">ٰ</span>ةِ وَضِعْفَ <span class=\"tj-ham-wasl\">ٱ</span>لْمَمَاتِ ثُ<span class=\"tj-ghunnah\">مَّ</span> لَا تَجِدُ لَكَ عَلَيْنَا نَصِيرًا"
+    },
+    {
+      "number": 76,
+      "arFull": "وَاِنْ كَادُوْا لَیَسْتَفِزُّوْنَكَ مِنَ الْاَرْضِ لِیُخْرِجُوْكَ مِنْهَا وَاِذًا لَّا یَلْبَثُوْنَ خِلٰفَكَ اِلَّا قَلِیْلًا ۟",
+      "ur": "یہ تو آپ کے قدم اس سرزمین سے اکھاڑنے ہی لگے تھے کہ آپ کو اس سے نکال دیں[1] ۔ پھر یہ بھی آپ کے بعد بہت ہی کم ٹھہر پاتے.[2]",
+      "en": "And indeed, they were about to provoke [i.e., drive] you from the land [i.e., Makkah] to evict you therefrom. And then [when they do], they will not remain [there] after you, except for a little.[766]",
+      "footnotesUr": "[1] یہ اس سازش کی طرف اشارہ ہے جو نبی (صلى الله عليه وسلم) کو مکے سے نکالنے کے لئے قریش مکہ نے تیار کی تھی، جس سے اللہ نے آپ کو بچا لیا۔\n[2] یعنی اگر اپنے منصوبے کے مطابق یہ آپ کو مکے سے نکال دیتے تو یہ بھی اس کے بعد زیادہ دیر نہ رہتے یعنی عذاب الٰہی کی گرفت میں آجاتے۔",
+      "footnotesEn": "[766] Only ten years after the Prophet's emigration, Makkah was completely cleared of his enemies.",
+      "words": [
+        {
+          "ar": "وَاِنْ",
+          "ur": "اور بیشک",
+          "en": "And indeed",
+          "arTajweed": "وَإِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "كَادُوْا",
+          "ur": "قریب تھا",
+          "en": "they were about",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>ادُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "لَیَسْتَفِزُّوْنَكَ",
+          "ur": "البتہ عاجز کردیں تجھ کو",
+          "en": "(to) scare you",
+          "arTajweed": "لَيَسْتَفِزُّونَكَ"
+        },
+        {
+          "ar": "مِنَ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "مِنَ"
+        },
+        {
+          "ar": "الْاَرْضِ",
+          "ur": "زمین",
+          "en": "the land",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "لِیُخْرِجُوْكَ",
+          "ur": "تاکہ وہ نکال دیں تجھ کو",
+          "en": "that they evict you",
+          "arTajweed": "لِيُخْرِجُوكَ"
+        },
+        {
+          "ar": "مِنْهَا",
+          "ur": "اس سے",
+          "en": "from it",
+          "arTajweed": "مِنْهَا"
+        },
+        {
+          "ar": "وَاِذًا",
+          "ur": "اور تب",
+          "en": "But then",
+          "arTajweed": "وَإِذ<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "لَّا",
+          "ur": "نہ",
+          "en": "not",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>ا"
+        },
+        {
+          "ar": "یَلْبَثُوْنَ",
+          "ur": "وہ ٹھہرتے",
+          "en": "they (would) have stayed",
+          "arTajweed": "يَلْبَثُونَ"
+        },
+        {
+          "ar": "خِلٰفَكَ",
+          "ur": "تیرے پیچھے",
+          "en": "after you",
+          "arTajweed": "خِلَ<span class=\"tj-madda-normal\">ٰ</span>فَكَ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "قَلِیْلًا",
+          "ur": "تھوڑا سا",
+          "en": "a little",
+          "arTajweed": "قَلِيلًا"
+        }
+      ],
+      "arTajweed": "وَإِ<span class=\"tj-ikhafa\">ن كَ</span>ادُو<span class=\"tj-slnt\">ا۟</span> لَيَسْتَفِزُّونَكَ مِنَ <span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ لِيُخْرِجُوكَ مِنْهَا وَإِذ<span class=\"tj-idgham-wo-ghunnah\">ًا لَّ</span>ا يَلْبَثُونَ خِلَ<span class=\"tj-madda-normal\">ٰ</span>فَكَ إِلَّا قَلِيلًا"
+    },
+    {
+      "number": 77,
+      "arFull": "سُنَّةَ مَنْ قَدْ اَرْسَلْنَا قَبْلَكَ مِنْ رُّسُلِنَا وَلَا تَجِدُ لِسُنَّتِنَا تَحْوِیْلًا ۟۠",
+      "ur": "ایسا ہی دستور ان کا تھا جو آپ سے پہلے رسول ہم نے بھیجے[1] اور آپ ہمارے دستور میں کبھی ردوبدل نہ پائیں گے.[2]",
+      "en": "[That is Our] established way for those We had sent before you of Our messengers; and you will not find in Our way any alteration.",
+      "footnotesUr": "[1] یعنی یہ دستور پرانا چلا آرہا ہے جو آپ (صلى الله عليه وسلم) سے پہلے رسولوں کے لئے بھی برتا جاتا رہا ہے کہ جب ان قوموں نے انہیں اپنے وطن سے نکال دیا یا انہیں نکلنے پر مجبور کر دیا تو پھر وہ قومیں بھی اللہ کے عذاب سے محفوظ نہ رہیں۔\n[2] چنانچہ اہل مکہ کے ساتھ بھی یہی ہوا کہ رسول اللہ نبی (صلى الله عليه وسلم) کی ہجرت کے ڈیڑھ سال بعد ہی میدان بدر میں وہ عبرت ناک ذلت و شکست سے دو چار ہوئے اور چھ سال بعد ٨ ہجری میں مکہ ہی فتح ہوگیا اور اس ذلت و ہزیمیت کے بعد وہ سر اٹھانے کے قابل نہ رہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "سُنَّةَ",
+          "ur": "طریقہ ہے",
+          "en": "(Such is Our) Way",
+          "arTajweed": "سُ<span class=\"tj-ghunnah\">نَّ</span>ةَ"
+        },
+        {
+          "ar": "مَنْ",
+          "ur": "جن کو",
+          "en": "(for) whom",
+          "arTajweed": "مَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "قَدْ",
+          "ur": "تحقیق",
+          "en": "[verily]",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span><span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "اَرْسَلْنَا",
+          "ur": "بھیجا ہم نے",
+          "en": "We sent",
+          "arTajweed": "أَرْسَلْنَا"
+        },
+        {
+          "ar": "قَبْلَكَ",
+          "ur": "تجھ سے پہلے",
+          "en": "before you",
+          "arTajweed": "قَ<span class=\"tj-qalaqah\">بْ</span>لَكَ"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "میں سے",
+          "en": "of",
+          "arTajweed": "مِ<span class=\"tj-idgham-wo-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "رُّسُلِنَا",
+          "ur": "اپنے رسولوں",
+          "en": "Our Messengers",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">رُّ</span>سُلِنَا"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور  نہ",
+          "en": "And not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَجِدُ",
+          "ur": "تو پائے گا",
+          "en": "you will find",
+          "arTajweed": "تَجِدُ"
+        },
+        {
+          "ar": "لِسُنَّتِنَا",
+          "ur": "ہمارے طریقے کو",
+          "en": "(in) Our way",
+          "arTajweed": "لِسُ<span class=\"tj-ghunnah\">نَّ</span>تِنَا"
+        },
+        {
+          "ar": "تَحْوِیْلًا",
+          "ur": "بدلنے والا",
+          "en": "any alteration",
+          "arTajweed": "تَحْوِيلًا"
+        }
+      ],
+      "arTajweed": "سُ<span class=\"tj-ghunnah\">نَّ</span>ةَ مَ<span class=\"tj-ikhafa\">ن قَ</span><span class=\"tj-qalaqah\">دْ</span> أَرْسَلْنَا قَ<span class=\"tj-qalaqah\">بْ</span>لَكَ مِ<span class=\"tj-idgham-wo-ghunnah\">ن رُّ</span>سُلِنَا وَلَا تَجِدُ لِسُ<span class=\"tj-ghunnah\">نَّ</span>تِنَا تَحْوِيلًا"
+    },
+    {
+      "number": 78,
+      "arFull": "اَقِمِ الصَّلٰوةَ لِدُلُوْكِ الشَّمْسِ اِلٰی غَسَقِ الَّیْلِ وَقُرْاٰنَ الْفَجْرِ ؕ اِنَّ قُرْاٰنَ الْفَجْرِ كَانَ مَشْهُوْدًا ۟",
+      "ur": "نماز کو قائم کریں آفتاب کے ڈھلنے سے لے کر رات کی تاریکی تک[1] اور فجر کا قرآن پڑھنا بھی یقیناً فجر کے وقت کا قرآن پڑھنا حاضر کیا گیا ہے.[2]",
+      "en": "Establish prayer at the decline of the sun [from its meridian] until the darkness of the night[767] and [also] the Qur’ān [i.e., recitation] of dawn.[768] Indeed, the recitation of dawn is ever witnessed.",
+      "footnotesUr": "[1] دُلُوكٌ کے معنی زوال کے اور غَسَق کے معنی تاریکی کے ہیں۔ آفتاب کے ڈھلنے کے بعد، ظہر اور عصر کی نماز اور رات کی تاریکی تک سے مراد مغرب اور عشاء کی نمازیں ہیں اور قرآن الفجر سے مراد فجر کی نماز ہے۔ قرآن، نماز کے معنی میں ہے۔ اس کو قرآن سے اس لئے تعبیر کیا گیا ہے کہ فجر میں قراءت لمبی ہوتی ہے۔ اس طرح اس آیت میں پانچوں فرض نمازوں کا اجمالی ذکر آجاتا ہے۔ جن کی تفیصلات احادیث میں ملتی ہیں اور جو امت کے لئے عملی تواتر سے بھی ثابت ہیں۔\n[2] یعنی اس وقت فرشتے حاضر ہوتے ہیں بلکہ دن کے فرشتوں اور رات کے فرشتوں کا اجتماع ہوتا ہے، جیسا کہ حدیث میں ہے (صحیح بخاری، تفسیر بنی اسرائیل) ایک اور حدیث میں ہے کہ رات والے فرشتے جب اللہ کے پاس جاتے ہیں تو اللہ تعالٰی ان سے پوچھتا ہے حالانکہ وہ خود خوب جانتا ہے ”تم نے میرے بندوں کو کس حال میں چھوڑا؟“ فرشتے کہتے ہیں ”جب ہم ان کے پاس گئے تھے، اس وقت بھی وہ نماز پڑھ رہے تھے اور جب ہم ان کے پاس سے آئے ہیں تو انہیں نماز پڑھتے ہوئے ہی چھوڑ کر آئے ہیں“۔ ( البخاري كتاب المواقيت، باب فضل صلاة العصر ومسلم باب فضل صلاتي الصبح والعصر والمحافظة عليهما )",
+      "footnotesEn": "[767] i.e., the period which includes the ẓuhr, aṣr, maghrib, and ʿishā’ prayers.\n[768] i.e., the fajr prayer, in which the recitation of the Qur’ān is prolonged.",
+      "words": [
+        {
+          "ar": "اَقِمِ",
+          "ur": "قائم کرو",
+          "en": "Establish",
+          "arTajweed": "أَقِمِ"
+        },
+        {
+          "ar": "الصَّلٰوةَ",
+          "ur": "نماز کو",
+          "en": "the prayer",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّلَ<span class=\"tj-slnt\">و</span><span class=\"tj-madda-normal\">ٰ</span>ةَ"
+        },
+        {
+          "ar": "لِدُلُوْكِ",
+          "ur": "ڈھلنے کے وقت",
+          "en": "at the decline",
+          "arTajweed": "لِدُلُوكِ"
+        },
+        {
+          "ar": "الشَّمْسِ",
+          "ur": "سورج کے",
+          "en": "(of) the sun",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّمْسِ"
+        },
+        {
+          "ar": "اِلٰی",
+          "ur": "تک",
+          "en": "till",
+          "arTajweed": "إِلَىٰ"
+        },
+        {
+          "ar": "غَسَقِ",
+          "ur": "سخت تاریکی",
+          "en": "(the) darkness",
+          "arTajweed": "غَسَقِ"
+        },
+        {
+          "ar": "الَّیْلِ",
+          "ur": "رات کی",
+          "en": "(of) the night",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّيْلِ"
+        },
+        {
+          "ar": "وَقُرْاٰنَ",
+          "ur": "اور  قرآن پڑھنا",
+          "en": "and Quran",
+          "arTajweed": "وَقُرْءَانَ"
+        },
+        {
+          "ar": "الْفَجْرِ ؕ",
+          "ur": "فجر کا",
+          "en": "at dawn",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْفَ<span class=\"tj-qalaqah\">جْ</span>رِ"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "قُرْاٰنَ",
+          "ur": "قرآن پڑھنا",
+          "en": "the Quran",
+          "arTajweed": "قُرْءَانَ"
+        },
+        {
+          "ar": "الْفَجْرِ",
+          "ur": "فجر کا",
+          "en": "(at) the dawn",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْفَ<span class=\"tj-qalaqah\">جْ</span>رِ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "مَشْهُوْدًا",
+          "ur": "حاضر کیا گیا/ دیکھا جانے والا",
+          "en": "ever witnessed",
+          "arTajweed": "مَشْهُودًا"
+        }
+      ],
+      "arTajweed": "أَقِمِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>صَّلَ<span class=\"tj-slnt\">و</span><span class=\"tj-madda-normal\">ٰ</span>ةَ لِدُلُوكِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّمْسِ إِلَىٰ غَسَقِ <span class=\"tj-ham-wasl\">ٱ</span>لَّيْلِ وَقُرْءَانَ <span class=\"tj-ham-wasl\">ٱ</span>لْفَ<span class=\"tj-qalaqah\">جْ</span>رِ إِ<span class=\"tj-ghunnah\">نَّ</span> قُرْءَانَ <span class=\"tj-ham-wasl\">ٱ</span>لْفَ<span class=\"tj-qalaqah\">جْ</span>رِ كَانَ مَشْهُودًا"
+    },
+    {
+      "number": 79,
+      "arFull": "وَمِنَ الَّیْلِ فَتَهَجَّدْ بِهٖ نَافِلَةً لَّكَ ۖۗ عَسٰۤی اَنْ یَّبْعَثَكَ رَبُّكَ مَقَامًا مَّحْمُوْدًا ۟",
+      "ur": "رات کے کچھ حصے میں تہجد کی نماز میں قرآن کی تلاوت کریں[1] یہ زیادتی آپ کے لئے ہے[2] عنقریب آپ کا رب آپ کو مقام محمود میں کھڑا کرے گا.[3]",
+      "en": "And from [part of] the night, pray[769] with it [i.e., recitation of the Qur’ān] as additional [worship] for you; it is expected that[770] your Lord will resurrect you to a praised station.[771]",
+      "footnotesUr": "[1] بعض کہتے ہیں ”تھجد“ اضداد میں سے ہے جس کے معنی سونے کے بھی ہیں اور نیند سے بیدار ہونے کے بھی۔ اور یہاں یہی دوسرے معنی ہیں کہ رات کو سو کر اٹھیں اور نوافل پڑھیں۔ بعض کہتے ہیں کہ ”ھجود“ کے اصل معنی تو رات کو سونے کے ہی ہیں، لیکن باب تفعّل میں جانے سے اس میں تجنّب کے معنی پیدا ہوگئے جیسے تأثم کے معنی ہیں اس نے گناہ سے اجتناب کیا، یا بچا، اس طرح تھجد کے معنی ہونگے، سونے سے بچنا جو رات کو سونے سے بچا اور قیام کیا۔ بہرحال تھجد کا مفہوم رات کے پچھلے پہر اٹھ کر نوافل پڑھنا۔ ساری رات قیام اللیل کرنا خلاف سنت ہے۔ نبی رات کے پہلے حصے میں سوتے اور پچھلے حصے میں اٹھ کر تہجد پڑھتے۔ یہی طریقہ سنت ہے۔\n[2] بعض نے اس کے معنی کئے ہیں یہ ایک زائد فرض ہے جو آپ کے لئے خاص ہے، اس طرح وہ کہتے ہیں کہ نبی (صلى الله عليه وسلم) پر تہجد بھی اسی طرح فرض تھی، جس طرح پانچ نمازیں فرض تھیں۔ البتہ امت کے لئے تہجد کی نماز فرض نہیں۔ بعض کہتے ہیں کہ تہجد آپ پر فرض تھی نہ آپ کی امت پر۔ یہ ایک زائد عبادت ہے جس کی فضیلت یقینا بہت ہے اور اس وقت اللہ اپنی عبادت سے بڑا خوش ہوتا ہے۔ تاہم یہ نماز فرض و واجب نہ نبی (صلى الله عليه وسلم) پر تھی اور نہ آپ (صلى الله عليه وسلم) کی امت پر ہی فرض ہے۔\n[3] یہ وہ مقام ہے جو قیامت والے دن اللہ تعالٰی نبی کو عطا فرمائے گا اور اس مقام پر ہی آپ صلی اللہ علیہ وسلم وہ شفاعت عظمٰی فرمائیں گے، جس کے بعد لوگوں کا حساب کتاب ہوگا۔",
+      "footnotesEn": "[769] Literally, \"arise from sleep for prayer.\"\n[770] This is a promise from Allāh (subḥānahu wa taʿālā) to Prophet Muḥammad (ﷺ).\n[771] The position of intercession by permission of Allāh and the highest degree in Paradise.",
+      "words": [
+        {
+          "ar": "وَمِنَ",
+          "ur": "میں سے",
+          "en": "And from",
+          "arTajweed": "وَمِنَ"
+        },
+        {
+          "ar": "الَّیْلِ",
+          "ur": "اور رات",
+          "en": "the night",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّيْلِ"
+        },
+        {
+          "ar": "فَتَهَجَّدْ",
+          "ur": "پس تہجد پڑھو",
+          "en": "arise from sleep for prayer",
+          "arTajweed": "فَتَهَجَّ<span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "بِهٖ",
+          "ur": "اس میں",
+          "en": "with it",
+          "arTajweed": "بِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "نَافِلَةً",
+          "ur": "نفل ہیں/ زائد ہیں",
+          "en": "(as) additional",
+          "arTajweed": "نَافِلَة<span class=\"tj-idgham-wo-ghunnah\">ً</span>"
+        },
+        {
+          "ar": "لَّكَ ۖۗ",
+          "ur": "آپ کے لئے",
+          "en": "for you",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>كَ"
+        },
+        {
+          "ar": "عَسٰۤی",
+          "ur": "امید ہے",
+          "en": "it may be",
+          "arTajweed": "عَسَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "یہ کہ",
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّبْعَثَكَ",
+          "ur": "پہنچادے تجھ کو",
+          "en": "will raise you",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span><span class=\"tj-qalaqah\">بْ</span>عَثَكَ"
+        },
+        {
+          "ar": "رَبُّكَ",
+          "ur": "رب تیرا",
+          "en": "your Lord",
+          "arTajweed": "رَبُّكَ"
+        },
+        {
+          "ar": "مَقَامًا",
+          "ur": "مقام",
+          "en": "(to) a station",
+          "arTajweed": "مَقَام<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّحْمُوْدًا",
+          "ur": "محمود پر",
+          "en": "praiseworthy",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>حْمُودًا"
+        }
+      ],
+      "arTajweed": "وَمِنَ <span class=\"tj-ham-wasl\">ٱ</span>لَّيْلِ فَتَهَجَّ<span class=\"tj-qalaqah\">دْ</span> بِهِ<span class=\"tj-madda-normal\">ۦ</span> نَافِلَة<span class=\"tj-idgham-wo-ghunnah\">ً لَّ</span>كَ عَسَ<span class=\"tj-madda-permissible\">ىٰٓ</span> أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span><span class=\"tj-qalaqah\">بْ</span>عَثَكَ رَبُّكَ مَقَام<span class=\"tj-idgham-ghunnah\">ًا مَّ</span>حْمُودًا"
+    },
+    {
+      "number": 80,
+      "arFull": "وَقُلْ رَّبِّ اَدْخِلْنِیْ مُدْخَلَ صِدْقٍ وَّاَخْرِجْنِیْ مُخْرَجَ صِدْقٍ وَّاجْعَلْ لِّیْ مِنْ لَّدُنْكَ سُلْطٰنًا نَّصِیْرًا ۟",
+      "ur": "اور دعا کیا کریں کہ اے میرے پروردگار مجھے جہاں لے جا اچھی طرح لے جا اور جہاں سے نکال اچھی طرح نکال اور میرے لئے اپنے پاس سے غلبہ اور امداد مقرر فرما دے.[1]",
+      "en": "And say, \"My Lord, cause me to enter a sound entrance[772] and to exit a sound exit[773] and grant me from Yourself a supporting authority.\"",
+      "footnotesUr": "[1] بعض کہتے ہیں کہ یہ ہجرت کے موقع پر نازل ہوئی جب آپ کو مدینے میں داخل ہونے اور مکہ سے نکلنے کا مسئلہ درپیش تھا، بعض کہتے ہیں اس کے معنی ہیں مجھے سچائی کے ساتھ موت دینا اور سچائی کے ساتھ قیامت والے دن اٹھانا۔ بعض کہتے ہیں کہ مجھے قبر میں سچا داخل کرنا اور قیامت کے دن جب قبر سے اٹھائے تو سچائی کے ساتھ قبر سے نکالنا وغیرہ۔ امام شوکانی فرماتے ہیں کہ چونکہ یہ دعا ہے اس لئے اس کے عموم میں سب باتیں آجاتی ہیں۔",
+      "footnotesEn": "[772] Into Madīnah at the time of emigration, or into the grave.\n[773] From Makkah, or from the grave at the time of resurrection.",
+      "words": [
+        {
+          "ar": "وَقُلْ",
+          "ur": "اور آپ کہہ دیجئے",
+          "en": "And say",
+          "arTajweed": "وَقُ<span class=\"tj-idghaam_mutaqaribayn\">ل</span>"
+        },
+        {
+          "ar": "رَّبِّ",
+          "ur": "اے میرے رب",
+          "en": "My Lord",
+          "arTajweed": "رَّبِّ"
+        },
+        {
+          "ar": "اَدْخِلْنِیْ",
+          "ur": "داخل کر مجھ کو",
+          "en": "Cause me to enter",
+          "arTajweed": "أَ<span class=\"tj-qalaqah\">دْ</span>خِلْنِى"
+        },
+        {
+          "ar": "مُدْخَلَ",
+          "ur": "داخل کرنا",
+          "en": "an entrance",
+          "arTajweed": "مُ<span class=\"tj-qalaqah\">دْ</span>خَلَ"
+        },
+        {
+          "ar": "صِدْقٍ",
+          "ur": "سچائی کے ساتھ",
+          "en": "sound",
+          "arTajweed": "صِ<span class=\"tj-qalaqah\">دْ</span>ق<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّاَخْرِجْنِیْ",
+          "ur": "اور نکال مجھ کو",
+          "en": "and cause me to exit",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>أَخْرِ<span class=\"tj-qalaqah\">جْ</span>نِى"
+        },
+        {
+          "ar": "مُخْرَجَ",
+          "ur": "نکالنا",
+          "en": "an exit",
+          "arTajweed": "مُخْرَجَ"
+        },
+        {
+          "ar": "صِدْقٍ",
+          "ur": "سچائی کے ساتھ",
+          "en": "sound",
+          "arTajweed": "صِ<span class=\"tj-qalaqah\">دْ</span>ق<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّاجْعَلْ",
+          "ur": "اور بنادے",
+          "en": "and make",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span><span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">جْ</span>عَل"
+        },
+        {
+          "ar": "لِّیْ",
+          "ur": "میرے لئے",
+          "en": "for me",
+          "arTajweed": "لِّى"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "مِ<span class=\"tj-idgham-wo-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "لَّدُنْكَ",
+          "ur": "اپنے پاس سے",
+          "en": "near You",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>دُ<span class=\"tj-ikhafa\">نكَ</span>"
+        },
+        {
+          "ar": "سُلْطٰنًا",
+          "ur": "ایک قوت،",
+          "en": "an authority",
+          "arTajweed": "سُلْطَ<span class=\"tj-madda-normal\">ٰ</span>ن<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "نَّصِیْرًا",
+          "ur": "طاقت/ مددگار",
+          "en": "helping",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نَّ</span>صِيرًا"
+        }
+      ],
+      "arTajweed": "وَقُ<span class=\"tj-idghaam_mutaqaribayn\">ل</span> رَّبِّ أَ<span class=\"tj-qalaqah\">دْ</span>خِلْنِى مُ<span class=\"tj-qalaqah\">دْ</span>خَلَ صِ<span class=\"tj-qalaqah\">دْ</span>ق<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>أَخْرِ<span class=\"tj-qalaqah\">جْ</span>نِى مُخْرَجَ صِ<span class=\"tj-qalaqah\">دْ</span>ق<span class=\"tj-idgham-ghunnah\">ٍ وَ</span><span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">جْ</span>عَل لِّى مِ<span class=\"tj-idgham-wo-ghunnah\">ن لَّ</span>دُ<span class=\"tj-ikhafa\">نكَ</span> سُلْطَ<span class=\"tj-madda-normal\">ٰ</span>ن<span class=\"tj-idgham-ghunnah\">ًا نَّ</span>صِيرًا"
+    },
+    {
+      "number": 81,
+      "arFull": "وَقُلْ جَآءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ ؕ اِنَّ الْبَاطِلَ كَانَ زَهُوْقًا ۟",
+      "ur": "اور اعلان کردے کہ حق آچکا اور ناحق نابود ہوگیا۔ یقیناً باطل تھا بھی نابود ہونے واﻻ.[1]",
+      "en": "And say, \"Truth has come, and falsehood has departed. Indeed is falsehood, [by nature], ever bound to depart.\"",
+      "footnotesUr": "[1] حدیث میں آتا ہے کہ فتح مکہ کے بعد جب نبی (صلى الله عليه وسلم) خانہ کعبہ میں داخل ہوئے تو وہاں تین سو ساٹھ بت تھے، آپ کے ہاتھ میں چھڑی تھی، آپ چھڑی کی نوک سے ان بتوں کو مارتے جاتے اور «جَاءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ» (الاسراء:81)۔ اور «جَاءَ الْحَقُّ وَمَا يُبْدِئُ الْبَاطِلُ وَمَا يُعِيدُ» پڑھتے جاتے۔ (صحيح بخاري، تفسير بني إسرائيل وكتاب المظالم، باب هل تكسر الدنان التي فيها الخمر ومسلم- الجهاد، باب إزالة الأصنام من حول الكعبة )",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَقُلْ",
+          "ur": "اور کہہ دیجئے",
+          "en": "And say",
+          "arTajweed": "وَقُلْ"
+        },
+        {
+          "ar": "جَآءَ",
+          "ur": "آگیا",
+          "en": "Has come",
+          "arTajweed": "جَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
+        },
+        {
+          "ar": "الْحَقُّ",
+          "ur": "حق",
+          "en": "the truth",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْحَقُّ"
+        },
+        {
+          "ar": "وَزَهَقَ",
+          "ur": "اور زائل ہوگیا/ ہٹ گیا",
+          "en": "and perished",
+          "arTajweed": "وَزَهَقَ"
+        },
+        {
+          "ar": "الْبَاطِلُ ؕ",
+          "ur": "باطل",
+          "en": "the falsehood",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَ<span class=\"tj-madda-normal\">ٰ</span>طِلُ"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "الْبَاطِلَ",
+          "ur": "باطل",
+          "en": "the falsehood",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَ<span class=\"tj-madda-normal\">ٰ</span>طِلَ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "زَهُوْقًا",
+          "ur": "زائل ہونے والا",
+          "en": "(bound) to perish",
+          "arTajweed": "زَهُوقًا"
+        }
+      ],
+      "arTajweed": "وَقُلْ جَ<span class=\"tj-madda-obligatory\">آ</span>ءَ <span class=\"tj-ham-wasl\">ٱ</span>لْحَقُّ وَزَهَقَ <span class=\"tj-ham-wasl\">ٱ</span>لْبَ<span class=\"tj-madda-normal\">ٰ</span>طِلُ إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>لْبَ<span class=\"tj-madda-normal\">ٰ</span>طِلَ كَانَ زَهُوقًا"
+    },
+    {
+      "number": 82,
+      "arFull": "وَنُنَزِّلُ مِنَ الْقُرْاٰنِ مَا هُوَ شِفَآءٌ وَّرَحْمَةٌ لِّلْمُؤْمِنِیْنَ ۙ وَلَا یَزِیْدُ الظّٰلِمِیْنَ اِلَّا خَسَارًا ۟",
+      "ur": "یہ قرآن جو ہم نازل کر رہے ہیں مومنوں کے لئے تو سراسر شفا اور رحمت ہے۔ ہاں ﻇالموں کو بجز نقصان کے اور کوئی زیادتی نہیں ہوتی.[1]",
+      "en": "And We send down of the Qur’ān that which is healing and mercy for the believers, but it does not increase the wrongdoers except in loss.",
+      "footnotesUr": "[1] اس مفہوم کی آیت سورۂ یونس:57 میں گزر چکی ہے، اس کا حاشیہ ملاحظہ فرما لیا جائے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَنُنَزِّلُ",
+          "ur": "اور ہم نازل کرتے ہیں",
+          "en": "And We reveal",
+          "arTajweed": "وَنُنَزِّلُ"
+        },
+        {
+          "ar": "مِنَ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "مِنَ"
+        },
+        {
+          "ar": "الْقُرْاٰنِ",
+          "ur": "قرآن میں (سے)",
+          "en": "the Quran",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ"
+        },
+        {
+          "ar": "مَا",
+          "ur": "وہ",
+          "en": "that",
+          "arTajweed": "مَا"
+        },
+        {
+          "ar": "هُوَ",
+          "ur": "جو",
+          "en": "it",
+          "arTajweed": "هُوَ"
+        },
+        {
+          "ar": "شِفَآءٌ",
+          "ur": "شفاء ہے",
+          "en": "(is) a healing",
+          "arTajweed": "شِفَ<span class=\"tj-madda-obligatory\">آ</span>ء<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "وَّرَحْمَةٌ",
+          "ur": "اور رحمت",
+          "en": "and a mercy",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>رَحْمَة<span class=\"tj-idgham-wo-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "لِّلْمُؤْمِنِیْنَ ۙ",
+          "ur": "ایمان لانے والوں کے لئے",
+          "en": "for the believers",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لِّ</span>لْمُؤْمِنِينَ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہیں",
+          "en": "but not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "یَزِیْدُ",
+          "ur": "زیادہ ہوتا",
+          "en": "it increases",
+          "arTajweed": "يَزِيدُ"
+        },
+        {
+          "ar": "الظّٰلِمِیْنَ",
+          "ur": "ظالموں کو",
+          "en": "the wrongdoers",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ظَّ<span class=\"tj-madda-normal\">ٰ</span>لِمِينَ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "خَسَارًا",
+          "ur": "خسارہ",
+          "en": "(in) loss",
+          "arTajweed": "خَسَارًا"
+        }
+      ],
+      "arTajweed": "وَنُنَزِّلُ مِنَ <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ مَا هُوَ شِفَ<span class=\"tj-madda-obligatory\">آ</span>ء<span class=\"tj-idgham-ghunnah\">ٌ وَ</span>رَحْمَة<span class=\"tj-idgham-wo-ghunnah\">ٌ لِّ</span>لْمُؤْمِنِينَ وَلَا يَزِيدُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ظَّ<span class=\"tj-madda-normal\">ٰ</span>لِمِينَ إِلَّا خَسَارًا"
+    },
+    {
+      "number": 83,
+      "arFull": "وَاِذَاۤ اَنْعَمْنَا عَلَی الْاِنْسَانِ اَعْرَضَ وَنَاٰ بِجَانِبِهٖ ۚ وَاِذَا مَسَّهُ الشَّرُّ كَانَ یَـُٔوْسًا ۟",
+      "ur": "اور انسان پر جب ہم اپنا انعام کرتے ہیں تو وه منھ موڑ لیتا ہے اور کروٹ بدل لیتا ہے اور جب اسے کوئی تکلیف پہنچتی ہے تو وه مایوس ہوجاتا ہے.[1]",
+      "en": "And when We bestow favor upon man [i.e., the disbeliever], he turns away and distances himself; and when evil touches him, he is ever despairing.",
+      "footnotesUr": "[1] اس میں انسان کی حالت و کیفیت کا ذکر ہے جس میں وہ عام طور پر خوش حالی کے وقت اور تکلیف کے وقت مبتلا ہوتا ہے، خوشحالی میں وہ اللہ کو بھول جاتا ہے اور تکلیف میں مایوس ہو جاتا ہے، لیکن اہل ایمان کا معاملہ دونوں حالتوں میں اس سے مختلف ہوتا ہے۔ دیکھئے سورۂ ھود کی آیات 9-11 کے حواشی۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَاِذَاۤ",
+          "ur": "اور جب",
+          "en": "And when",
+          "arTajweed": "وَإِذَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنْعَمْنَا",
+          "ur": "انعام کرتے ہیں ہم",
+          "en": "We bestow favor",
+          "arTajweed": "أَنْعَمْنَا"
+        },
+        {
+          "ar": "عَلَی",
+          "ur": "پر",
+          "en": "on",
+          "arTajweed": "عَلَى"
+        },
+        {
+          "ar": "الْاِنْسَانِ",
+          "ur": "انسان",
+          "en": "man",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نِ"
+        },
+        {
+          "ar": "اَعْرَضَ",
+          "ur": "وہ منہ موڑ لیتا ہے",
+          "en": "he turns away",
+          "arTajweed": "أَعْرَضَ"
+        },
+        {
+          "ar": "وَنَاٰ",
+          "ur": "اور دور ہوتا ہے",
+          "en": "and becomes remote",
+          "arTajweed": "وَنَـَٔا"
+        },
+        {
+          "ar": "بِجَانِبِهٖ ۚ",
+          "ur": "اپنے پہلو کے ساتھ",
+          "en": "on his side",
+          "arTajweed": "بِجَانِبِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "وَاِذَا",
+          "ur": "اور جب",
+          "en": "And when",
+          "arTajweed": "وَإِذَا"
+        },
+        {
+          "ar": "مَسَّهُ",
+          "ur": "پہنچتا ہے اس کو",
+          "en": "touches him",
+          "arTajweed": "مَسَّهُ"
+        },
+        {
+          "ar": "الشَّرُّ",
+          "ur": "شر/تکلیف",
+          "en": "the evil",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّرُّ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہوجاتا ہے",
+          "en": "he is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "یَـُٔوْسًا",
+          "ur": "بہت مایوس",
+          "en": "(in) despair",
+          "arTajweed": "يَـُٔوسًا"
+        }
+      ],
+      "arTajweed": "وَإِذَ<span class=\"tj-madda-permissible\">آ</span> أَنْعَمْنَا عَلَى <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِ<span class=\"tj-madda-normal\">ۦ</span> وَإِذَا مَسَّهُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّرُّ كَانَ يَـُٔوسًا"
+    },
+    {
+      "number": 84,
+      "arFull": "قُلْ كُلٌّ یَّعْمَلُ عَلٰی شَاكِلَتِهٖ ؕ فَرَبُّكُمْ اَعْلَمُ بِمَنْ هُوَ اَهْدٰی سَبِیْلًا ۟۠",
+      "ur": "کہہ دیجئیے! کہ ہر شخص اپنے طریقہ پر عامل ہے جو پوری ہدایت کے راستے پر ہیں انہیں تمہارا رب ہی بخوبی جاننے[1] واﻻ ہے.",
+      "en": "Say, \"Each works according to his manner, but your Lord is most knowing of who is best guided in way.\"",
+      "footnotesUr": "[1] اس میں مشرکین کے لئے تہدید ووعید ہے اور اس کا وہی مفہوم ہے جو سورہ ھود کی آیت 121-122 کا ہے۔ «وَقُلْ لِلَّذِينَ لا يُؤْمِنُونَ اعْمَلُوا عَلَى مَكَانَتِكُمْ إِنَّا عَامِلُونَ»... شَاكِلَةٌ کے معنی نیت، دین، طریقے اور مزاج وطبیعت کے ہیں۔ بعض کہتے ہیں کہ اس میں کافر کے لیے ذم اور مومن کے لیے مدح کا پہلو ہے کیونکہ اس کا مطلب یہ ہے کہ ہر انسان ایسا عمل کرتا ہے جو اس کے اخلاق و کردار پر مبنی ہوتا ہے جو اس کی عادت و طبیعت ہوتی ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلْ"
+        },
+        {
+          "ar": "كُلٌّ",
+          "ur": "سب کے سب",
+          "en": "Each",
+          "arTajweed": "كُلّ<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "یَّعْمَلُ",
+          "ur": "عمل کر رہے ہیں",
+          "en": "works",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>عْمَلُ"
+        },
+        {
+          "ar": "عَلٰی",
+          "ur": "پر",
+          "en": "on",
+          "arTajweed": "عَلَىٰ"
+        },
+        {
+          "ar": "شَاكِلَتِهٖ ؕ",
+          "ur": "اپنے طریقے",
+          "en": "his manner",
+          "arTajweed": "شَاكِلَتِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "فَرَبُّكُمْ",
+          "ur": "تو رب تمہارا",
+          "en": "but your Lord",
+          "arTajweed": "فَرَبُّكُمْ"
+        },
+        {
+          "ar": "اَعْلَمُ",
+          "ur": "زیادہ جانتا ہے",
+          "en": "(is) most knowing",
+          "arTajweed": "أَعْلَمُ"
+        },
+        {
+          "ar": "بِمَنْ",
+          "ur": "اس کو جو",
+          "en": "of who",
+          "arTajweed": "بِمَنْ"
+        },
+        {
+          "ar": "هُوَ",
+          "ur": "وہ",
+          "en": "[he]",
+          "arTajweed": "هُوَ"
+        },
+        {
+          "ar": "اَهْدٰی",
+          "ur": "زیادہ ہدایت یافتہ ہے",
+          "en": "(is) best guided",
+          "arTajweed": "أَهْدَىٰ"
+        },
+        {
+          "ar": "سَبِیْلًا",
+          "ur": "راستے کے اعتبار سے",
+          "en": "(in) way",
+          "arTajweed": "سَبِيلًا"
+        }
+      ],
+      "arTajweed": "قُلْ كُلّ<span class=\"tj-idgham-ghunnah\">ٌ يَ</span>عْمَلُ عَلَىٰ شَاكِلَتِهِ<span class=\"tj-madda-normal\">ۦ</span> فَرَبُّكُمْ أَعْلَمُ بِمَنْ هُوَ أَهْدَىٰ سَبِيلًا"
+    },
+    {
+      "number": 85,
+      "arFull": "وَیَسْـَٔلُوْنَكَ عَنِ الرُّوْحِ ؕ قُلِ الرُّوْحُ مِنْ اَمْرِ رَبِّیْ وَمَاۤ اُوْتِیْتُمْ مِّنَ الْعِلْمِ اِلَّا قَلِیْلًا ۟",
+      "ur": "اور یہ لوگ آپ سے روح کی بابت سوال کرتے ہیں، آپ جواب دے دیجئیے کہ روح میرے رب کے حکم سے ہے اور تمہیں بہت ہی کم علم دیا گیا ہے.[1]",
+      "en": "And they ask you, [O Muḥammad], about the soul. Say, \"The soul is of the affair [i.e., concern] of my Lord. And you [i.e., mankind] have not been given of knowledge except a little.\"",
+      "footnotesUr": "[1] روح وہ لطیف شے ہے جو کسی کو نظر نہیں آتی لیکن ہر جاندار کی قوت و توانائی اسی روح کے اندر مضمر ہے اس کی حقیقت و ماہیت کیا ہے؟ کوئی نہیں جانتا۔ یہودیوں نے بھی ایک مرتبہ نبی (صلى الله عليه وسلم) سے اس کی بابت پوچھا تو یہ آیت اتری ( صحيح بخاري، تفسير سورة بني إسرائيل ومسلم، كتاب صفة القيامة والجنة- والنار، باب سؤال اليهود النبي صلى الله عليه وسلم عن الروح ) آیت کا مطلب یہ ہے کہ تمہارا علم، اللہ کے علم کے مقابلے میں قلیل ہے، اور یہ روح، جس کے بارے میں تم سے پوچھ رہے ہو، اس کا علم تو اللہ نے انبیاء سمیت کسی کو بھی نہیں دیا ہے اتنا سمجھو کہ یہ میرے رب کا امر (حکم) ہے۔ یا میرے رب کی شان میں سے ہے، جس کی حقیقت کو صرف وہی جانتا ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَیَسْـَٔلُوْنَكَ",
+          "ur": "اور وہ سوال کرتے ہیں آپ سے",
+          "en": "And they ask you",
+          "arTajweed": "وَيَسْـَٔلُونَكَ"
+        },
+        {
+          "ar": "عَنِ",
+          "ur": "بارے میں",
+          "en": "concerning",
+          "arTajweed": "عَنِ"
+        },
+        {
+          "ar": "الرُّوْحِ ؕ",
+          "ur": "روح کے",
+          "en": "the soul",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رُّوحِ"
+        },
+        {
+          "ar": "قُلِ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلِ"
+        },
+        {
+          "ar": "الرُّوْحُ",
+          "ur": "روح",
+          "en": "The soul",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رُّوحُ"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "سے ہے",
+          "en": "(is) of",
+          "arTajweed": "مِنْ"
+        },
+        {
+          "ar": "اَمْرِ",
+          "ur": "حکم",
+          "en": "(the) affair",
+          "arTajweed": "أَمْرِ"
+        },
+        {
+          "ar": "رَبِّیْ",
+          "ur": "میرے رب کے",
+          "en": "(of) my Lord",
+          "arTajweed": "رَبِّى"
+        },
+        {
+          "ar": "وَمَاۤ",
+          "ur": "اور نہیں",
+          "en": "And not",
+          "arTajweed": "وَمَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اُوْتِیْتُمْ",
+          "ur": "دیئے گئے تم",
+          "en": "you have been given",
+          "arTajweed": "أُوتِيتُ<span class=\"tj-idgham-shafawi\">م</span>"
+        },
+        {
+          "ar": "مِّنَ",
+          "ur": "میں سے",
+          "en": "of",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مِّ</span>نَ"
+        },
+        {
+          "ar": "الْعِلْمِ",
+          "ur": "علم",
+          "en": "the knowledge",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْعِلْمِ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "قَلِیْلًا",
+          "ur": "بہت تھوڑا",
+          "en": "a little",
+          "arTajweed": "قَلِيلًا"
+        }
+      ],
+      "arTajweed": "وَيَسْـَٔلُونَكَ عَنِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رُّوحِ قُلِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رُّوحُ مِنْ أَمْرِ رَبِّى وَمَ<span class=\"tj-madda-permissible\">آ</span> أُوتِيتُ<span class=\"tj-idgham-shafawi\">م مِّ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span>لْعِلْمِ إِلَّا قَلِيلًا"
+    },
+    {
+      "number": 86,
+      "arFull": "وَلَىِٕنْ شِئْنَا لَنَذْهَبَنَّ بِالَّذِیْۤ اَوْحَیْنَاۤ اِلَیْكَ ثُمَّ لَا تَجِدُ لَكَ بِهٖ عَلَیْنَا وَكِیْلًا ۟ۙ",
+      "ur": "اور اگر ہم چاہیں تو جو وحی آپ کی طرف ہم نے اتاری ہے سب سلب کرلیں[1] ، پھر آپ کو اس کے لئے ہمارے مقابلے میں کوئی حمایتی میسر نہ آسکے.[2]",
+      "en": "And if We willed, We could surely do away with that which We revealed to you. Then you would not find for yourself concerning it an advocate against Us.",
+      "footnotesUr": "[1] یعنی وحی کے ذریعے سے جو تھوڑا بہت علم دیا گیا ہے اگر اللہ تعالٰی چاہے تو اسے بھی سلب کرلے یعنی دل سے محو کر دے یا کتاب سے ہی مٹا دے۔\n[2] جو دوبارہ اس وحی کو آپ کی طرف لوٹا دے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَىِٕنْ",
+          "ur": "اور البتہ اگر",
+          "en": "And if",
+          "arTajweed": "وَلَئِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "شِئْنَا",
+          "ur": "ہم چاہتے",
+          "en": "We willed",
+          "arTajweed": "<span class=\"tj-ikhafa\">شِ</span>ئْنَا"
+        },
+        {
+          "ar": "لَنَذْهَبَنَّ",
+          "ur": "البتہ ہم ضرور لے جاتے",
+          "en": "We (would) have surely taken away",
+          "arTajweed": "لَنَذْهَبَ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "بِالَّذِیْۤ",
+          "ur": "اس چیز کو",
+          "en": "that which",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لَّذِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اَوْحَیْنَاۤ",
+          "ur": "جو وحی کی ہم نے",
+          "en": "We have revealed",
+          "arTajweed": "أَوْحَيْنَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اِلَیْكَ",
+          "ur": "آپ کی طرف",
+          "en": "to you",
+          "arTajweed": "إِلَيْكَ"
+        },
+        {
+          "ar": "ثُمَّ",
+          "ur": "پھر",
+          "en": "Then",
+          "arTajweed": "ثُ<span class=\"tj-ghunnah\">مَّ</span>"
+        },
+        {
+          "ar": "لَا",
+          "ur": "نہ",
+          "en": "not",
+          "arTajweed": "لَا"
+        },
+        {
+          "ar": "تَجِدُ",
+          "ur": "تم پاتے",
+          "en": "you would find",
+          "arTajweed": "تَجِدُ"
+        },
+        {
+          "ar": "لَكَ",
+          "ur": "اپنے لئے",
+          "en": "for you",
+          "arTajweed": "لَكَ"
+        },
+        {
+          "ar": "بِهٖ",
+          "ur": "ساتھ اس کے",
+          "en": "concerning it",
+          "arTajweed": "بِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "عَلَیْنَا",
+          "ur": "ہم پر",
+          "en": "against Us",
+          "arTajweed": "عَلَيْنَا"
+        },
+        {
+          "ar": "وَكِیْلًا",
+          "ur": "کوئی کارساز",
+          "en": "any advocate",
+          "arTajweed": "وَكِيلًا"
+        }
+      ],
+      "arTajweed": "وَلَئِ<span class=\"tj-ikhafa\">ن شِ</span>ئْنَا لَنَذْهَبَ<span class=\"tj-ghunnah\">نَّ</span> بِ<span class=\"tj-ham-wasl\">ٱ</span>لَّذِ<span class=\"tj-madda-permissible\">ىٓ</span> أَوْحَيْنَ<span class=\"tj-madda-permissible\">آ</span> إِلَيْكَ ثُ<span class=\"tj-ghunnah\">مَّ</span> لَا تَجِدُ لَكَ بِهِ<span class=\"tj-madda-normal\">ۦ</span> عَلَيْنَا وَكِيلًا"
+    },
+    {
+      "number": 87,
+      "arFull": "اِلَّا رَحْمَةً مِّنْ رَّبِّكَ ؕ اِنَّ فَضْلَهٗ كَانَ عَلَیْكَ كَبِیْرًا ۟",
+      "ur": "سوائے آپ کے رب کی رحمت کے[1] ، یقیناً آپ پر اس کا بڑا ہی فضل ہے.",
+      "en": "Except [We have left it with you] as a mercy from your Lord. Indeed, His favor upon you has ever been great.",
+      "footnotesUr": "[1] کہ اس نے نازل کردہ وحی کو سلب نہیں کیا یا وحی سے آپ (صلى الله عليه وسلم) کو مشرف فرمایا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "Except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "رَحْمَةً",
+          "ur": "رحمت",
+          "en": "a mercy",
+          "arTajweed": "رَحْمَة<span class=\"tj-idgham-ghunnah\">ً</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-idgham-wo-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "رَّبِّكَ ؕ",
+          "ur": "تیرے رب کی طرف (سے)",
+          "en": "your Lord",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">رَّ</span>بِّكَ"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "فَضْلَهٗ",
+          "ur": "فضل اس کا",
+          "en": "His Bounty",
+          "arTajweed": "فَضْلَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "عَلَیْكَ",
+          "ur": "تجھ پر",
+          "en": "upon you",
+          "arTajweed": "عَلَيْكَ"
+        },
+        {
+          "ar": "كَبِیْرًا",
+          "ur": "بہت بڑا",
+          "en": "great",
+          "arTajweed": "كَبِيرًا"
+        }
+      ],
+      "arTajweed": "إِلَّا رَحْمَة<span class=\"tj-idgham-ghunnah\">ً مِّ</span><span class=\"tj-idgham-wo-ghunnah\">ن رَّ</span>بِّكَ إِ<span class=\"tj-ghunnah\">نَّ</span> فَضْلَهُ<span class=\"tj-madda-normal\">ۥ</span> كَانَ عَلَيْكَ كَبِيرًا"
+    },
+    {
+      "number": 88,
+      "arFull": "قُلْ لَّىِٕنِ اجْتَمَعَتِ الْاِنْسُ وَالْجِنُّ عَلٰۤی اَنْ یَّاْتُوْا بِمِثْلِ هٰذَا الْقُرْاٰنِ لَا یَاْتُوْنَ بِمِثْلِهٖ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِیْرًا ۟",
+      "ur": "کہہ دیجیئے کہ اگر تمام انسان اور کل جنات مل کر اس قرآن کے مثل ﻻنا چاہیں تو ان سب سے اس کے مثل ﻻنا ناممکن ہے گو وه (آپس میں) ایک دوسرے کے مددگار بھی بن جائیں.[1]",
+      "en": "Say, \"If mankind and the jinn gathered in order to produce the like of this Qur’ān, they could not produce the like of it, even if they were to each other assistants.\"",
+      "footnotesUr": "[1] قرآن مجید سے متعلق یہ چلینج اس سے قبل بھی کئی جگہ گزر چکا ہے۔ یہ چلینج آج تک تشنہ جواب ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُل"
+        },
+        {
+          "ar": "لَّىِٕنِ",
+          "ur": "البتہ اگر",
+          "en": "If",
+          "arTajweed": "لَّئِنِ"
+        },
+        {
+          "ar": "اجْتَمَعَتِ",
+          "ur": "جمع ہوجائیں",
+          "en": "gathered",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">جْ</span>تَمَعَتِ"
+        },
+        {
+          "ar": "الْاِنْسُ",
+          "ur": "انسان",
+          "en": "the mankind",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسُ</span>"
+        },
+        {
+          "ar": "وَالْجِنُّ",
+          "ur": "اور جن",
+          "en": "and the jinn",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْجِ<span class=\"tj-ghunnah\">نُّ</span>"
+        },
+        {
+          "ar": "عَلٰۤی",
+          "ur": "پر",
+          "en": "to",
+          "arTajweed": "عَلَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "[that]",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّاْتُوْا",
+          "ur": "اس بات لے آئیں",
+          "en": "bring",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>أْتُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "بِمِثْلِ",
+          "ur": "مانند",
+          "en": "the like",
+          "arTajweed": "بِمِثْلِ"
+        },
+        {
+          "ar": "هٰذَا",
+          "ur": "اس",
+          "en": "(of) this",
+          "arTajweed": "هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا"
+        },
+        {
+          "ar": "الْقُرْاٰنِ",
+          "ur": "قرآن کے",
+          "en": "Quran",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ"
+        },
+        {
+          "ar": "لَا",
+          "ur": "نہ",
+          "en": "not",
+          "arTajweed": "لَا"
+        },
+        {
+          "ar": "یَاْتُوْنَ",
+          "ur": "لاسکیں گے",
+          "en": "they (could) bring",
+          "arTajweed": "يَأْتُونَ"
+        },
+        {
+          "ar": "بِمِثْلِهٖ",
+          "ur": "اس کی طرح کا",
+          "en": "the like of it",
+          "arTajweed": "بِمِثْلِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "وَلَوْ",
+          "ur": "اور اگرچہ",
+          "en": "even if",
+          "arTajweed": "وَلَوْ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہوں",
+          "en": "were",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "بَعْضُهُمْ",
+          "ur": "ان میں سے بعض",
+          "en": "some of them",
+          "arTajweed": "بَعْضُهُمْ"
+        },
+        {
+          "ar": "لِبَعْضٍ",
+          "ur": "بعض کے لئے",
+          "en": "to some others",
+          "arTajweed": "لِبَعْض<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "ظَهِیْرًا",
+          "ur": "مدد گار",
+          "en": "assistants",
+          "arTajweed": "<span class=\"tj-ikhafa\">ظَ</span>هِيرًا"
+        }
+      ],
+      "arTajweed": "قُل لَّئِنِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">جْ</span>تَمَعَتِ <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسُ</span> وَ<span class=\"tj-ham-wasl\">ٱ</span>لْجِ<span class=\"tj-ghunnah\">نُّ</span> عَلَ<span class=\"tj-madda-permissible\">ىٰٓ</span> أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>أْتُو<span class=\"tj-slnt\">ا۟</span> بِمِثْلِ هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ لَا يَأْتُونَ بِمِثْلِهِ<span class=\"tj-madda-normal\">ۦ</span> وَلَوْ كَانَ بَعْضُهُمْ لِبَعْض<span class=\"tj-ikhafa\">ٍ ظَ</span>هِيرًا"
+    },
+    {
+      "number": 89,
+      "arFull": "وَلَقَدْ صَرَّفْنَا لِلنَّاسِ فِیْ هٰذَا الْقُرْاٰنِ مِنْ كُلِّ مَثَلٍ ؗ فَاَبٰۤی اَكْثَرُ النَّاسِ اِلَّا كُفُوْرًا ۟",
+      "ur": "ہم نے تو اس قرآن میں لوگوں کے سمجھنے کے لئے ہر طرح سے تمام مثالیں بیان کردی ہیں، مگر اکثر لوگ انکار سے باز نہیں [1]",
+      "en": "And We have certainly diversified for the people in this Qur’ān from every [kind of] example, but most of the people refused except disbelief.",
+      "footnotesUr": "[1] یہ آیت اسی سورت کے شروع میں بھی گزر چکی ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَقَدْ",
+          "ur": "اور البتہ تحقیق",
+          "en": "And verily",
+          "arTajweed": "وَلَقَ<span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "صَرَّفْنَا",
+          "ur": "پھیر پھیر کر لائے ہم/ پھیر پھیر کر بیان کیں ہم نے",
+          "en": "We have explained",
+          "arTajweed": "صَرَّفْنَا"
+        },
+        {
+          "ar": "لِلنَّاسِ",
+          "ur": "لوگوں کے لئے",
+          "en": "to mankind",
+          "arTajweed": "لِ<span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ"
+        },
+        {
+          "ar": "فِیْ",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "هٰذَا",
+          "ur": "اس",
+          "en": "this",
+          "arTajweed": "هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا"
+        },
+        {
+          "ar": "الْقُرْاٰنِ",
+          "ur": "قرآن",
+          "en": "Quran",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "میں سے",
+          "en": "from",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "كُلِّ",
+          "ur": "ہر طرح کی",
+          "en": "every",
+          "arTajweed": "<span class=\"tj-ikhafa\">كُ</span>لِّ"
+        },
+        {
+          "ar": "مَثَلٍ ؗ",
+          "ur": "مثال",
+          "en": "example",
+          "arTajweed": "مَثَل<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "فَاَبٰۤی",
+          "ur": "تو نہ مانا",
+          "en": "but refused",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>أَبَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اَكْثَرُ",
+          "ur": "اکثر",
+          "en": "most",
+          "arTajweed": "أَكْثَرُ"
+        },
+        {
+          "ar": "النَّاسِ",
+          "ur": "لوگوں نے",
+          "en": "(of) the mankind",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "كُفُوْرًا",
+          "ur": "انکار کرنا",
+          "en": "disbelief",
+          "arTajweed": "كُفُورًا"
+        }
+      ],
+      "arTajweed": "وَلَقَ<span class=\"tj-qalaqah\">دْ</span> صَرَّفْنَا لِ<span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ فِى هَ<span class=\"tj-madda-normal\">ٰ</span>ذَا <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَانِ مِ<span class=\"tj-ikhafa\">ن كُ</span>لِّ مَثَل<span class=\"tj-ikhafa\">ٍ فَ</span>أَبَ<span class=\"tj-madda-permissible\">ىٰٓ</span> أَكْثَرُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ إِلَّا كُفُورًا"
+    },
+    {
+      "number": 90,
+      "arFull": "وَقَالُوْا لَنْ نُّؤْمِنَ لَكَ حَتّٰی تَفْجُرَ لَنَا مِنَ الْاَرْضِ یَنْۢبُوْعًا ۟ۙ",
+      "ur": "انہوں نے کہا[1] کہ ہم آپ پر ہرگز ایمان ﻻنے کے نہیں تاوقتیکہ آپ ہمارے لئے زمین سے کوئی چشمہ جاری نہ کردیں.",
+      "en": "And they say, \"We will not believe you until you break open for us from the ground a spring",
+      "footnotesUr": "[1] ایمان لانے کے لئے قریش مکہ نے یہ مطالبات پیش کئے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَقَالُوْا",
+          "ur": "اور انہوں نے کہا",
+          "en": "And they say",
+          "arTajweed": "وَقَالُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "لَنْ",
+          "ur": "ہم ہرگز نہ",
+          "en": "Never",
+          "arTajweed": "لَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "نُّؤْمِنَ",
+          "ur": "ایمان لائیں گے",
+          "en": "we will believe",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نُّ</span>ؤْمِنَ"
+        },
+        {
+          "ar": "لَكَ",
+          "ur": "تیرے لئے",
+          "en": "in you",
+          "arTajweed": "لَكَ"
+        },
+        {
+          "ar": "حَتّٰی",
+          "ur": "یہاں تک کہ",
+          "en": "until",
+          "arTajweed": "حَتَّىٰ"
+        },
+        {
+          "ar": "تَفْجُرَ",
+          "ur": "تو جاری کرے",
+          "en": "you cause to gush forth",
+          "arTajweed": "تَفْجُرَ"
+        },
+        {
+          "ar": "لَنَا",
+          "ur": "ہمارے لئے",
+          "en": "for us",
+          "arTajweed": "لَنَا"
+        },
+        {
+          "ar": "مِنَ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "مِنَ"
+        },
+        {
+          "ar": "الْاَرْضِ",
+          "ur": "زمین",
+          "en": "the earth",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "یَنْۢبُوْعًا",
+          "ur": "ایک چشمہ",
+          "en": "a spring",
+          "arTajweed": "يَن<span class=\"tj-iqlab\">ۢب</span>ُوعًا"
+        }
+      ],
+      "arTajweed": "وَقَالُو<span class=\"tj-slnt\">ا۟</span> لَ<span class=\"tj-idgham-ghunnah\">ن نُّ</span>ؤْمِنَ لَكَ حَتَّىٰ تَفْجُرَ لَنَا مِنَ <span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ يَن<span class=\"tj-iqlab\">ۢب</span>ُوعًا"
+    },
+    {
+      "number": 91,
+      "arFull": "اَوْ تَكُوْنَ لَكَ جَنَّةٌ مِّنْ نَّخِیْلٍ وَّعِنَبٍ فَتُفَجِّرَ الْاَنْهٰرَ خِلٰلَهَا تَفْجِیْرًا ۟ۙ",
+      "ur": "یا خود آپ کے لئے ہی کوئی باغ ہو کھجوروں اور انگوروں کا اور اس کے درمیان آپ بہت سی نہریں جاری کر دکھائیں.",
+      "en": "Or [until] you have a garden of palm trees and grapes and make rivers gush forth within them in force [and abundance]",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "Or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "تَكُوْنَ",
+          "ur": "ہو وے",
+          "en": "you have",
+          "arTajweed": "تَكُونَ"
+        },
+        {
+          "ar": "لَكَ",
+          "ur": "تیرے لئے",
+          "en": "for you",
+          "arTajweed": "لَكَ"
+        },
+        {
+          "ar": "جَنَّةٌ",
+          "ur": "ایک باغ",
+          "en": "a garden",
+          "arTajweed": "جَ<span class=\"tj-ghunnah\">نَّ</span>ة<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": "میں سے",
+          "en": "of",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "نَّخِیْلٍ",
+          "ur": "کھجوروں",
+          "en": "date-palms",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نَّ</span>خِيل<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّعِنَبٍ",
+          "ur": "اور انگوروںمیں سے",
+          "en": "and grapes",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>عِنَب<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "فَتُفَجِّرَ",
+          "ur": "پھر تو پھاڑے",
+          "en": "and cause to gush forth",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>تُفَجِّرَ"
+        },
+        {
+          "ar": "الْاَنْهٰرَ",
+          "ur": "دریا",
+          "en": "the rivers",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَنْهَ<span class=\"tj-madda-normal\">ٰ</span>رَ"
+        },
+        {
+          "ar": "خِلٰلَهَا",
+          "ur": "اس کے درمیان",
+          "en": "within them",
+          "arTajweed": "خِلَ<span class=\"tj-madda-normal\">ٰ</span>لَهَا"
+        },
+        {
+          "ar": "تَفْجِیْرًا",
+          "ur": "پھاڑنا/ جاری کرنا",
+          "en": "abundantly",
+          "arTajweed": "تَفْجِيرًا"
+        }
+      ],
+      "arTajweed": "أَوْ تَكُونَ لَكَ جَ<span class=\"tj-ghunnah\">نَّ</span>ة<span class=\"tj-idgham-ghunnah\">ٌ مِّ</span><span class=\"tj-idgham-ghunnah\">ن نَّ</span>خِيل<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>عِنَب<span class=\"tj-ikhafa\">ٍ فَ</span>تُفَجِّرَ <span class=\"tj-ham-wasl\">ٱ</span>لْأَنْهَ<span class=\"tj-madda-normal\">ٰ</span>رَ خِلَ<span class=\"tj-madda-normal\">ٰ</span>لَهَا تَفْجِيرًا"
+    },
+    {
+      "number": 92,
+      "arFull": "اَوْ تُسْقِطَ السَّمَآءَ كَمَا زَعَمْتَ عَلَیْنَا كِسَفًا اَوْ تَاْتِیَ بِاللّٰهِ وَالْمَلٰٓىِٕكَةِ قَبِیْلًا ۟ۙ",
+      "ur": "یا آپ آسمان کو ہم پر ٹکڑے ٹکڑے کرکے گرا دیں جیسا کہ آپ کا گمان ہے یا آپ خود اللہ تعالیٰ کو اور فرشتوں کو ہمارے سامنے ﻻکھڑا کریں.[1]",
+      "en": "Or you make the heaven fall upon us in fragments as you have claimed or you bring Allāh and the angels before [us]",
+      "footnotesUr": "[1] یعنی ہمارے روبرو آکر کھڑے ہو جائیں اور ہم انہیں اپنی آنکھوں سے دیکھیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "Or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "تُسْقِطَ",
+          "ur": "تو گرائے",
+          "en": "you cause to fall",
+          "arTajweed": "تُسْقِطَ"
+        },
+        {
+          "ar": "السَّمَآءَ",
+          "ur": "آسمان کو",
+          "en": "the sky",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
+        },
+        {
+          "ar": "كَمَا",
+          "ur": "جیسا کہ",
+          "en": "as",
+          "arTajweed": "كَمَا"
+        },
+        {
+          "ar": "زَعَمْتَ",
+          "ur": "تم دعویٰ کرتے ہو",
+          "en": "you have claimed",
+          "arTajweed": "زَعَمْتَ"
+        },
+        {
+          "ar": "عَلَیْنَا",
+          "ur": "ہم پر",
+          "en": "upon us",
+          "arTajweed": "عَلَيْنَا"
+        },
+        {
+          "ar": "كِسَفًا",
+          "ur": "ٹکڑے ٹکڑے کرکے",
+          "en": "(in) pieces",
+          "arTajweed": "كِسَفًا"
+        },
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "تَاْتِیَ",
+          "ur": "تو لے آئے",
+          "en": "you bring",
+          "arTajweed": "تَأْتِىَ"
+        },
+        {
+          "ar": "بِاللّٰهِ",
+          "ur": "اللہ تعالیٰ کو",
+          "en": "Allah",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
+        },
+        {
+          "ar": "وَالْمَلٰٓىِٕكَةِ",
+          "ur": "اور فرشتوں کو",
+          "en": "and the Angels",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْمَلَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَةِ"
+        },
+        {
+          "ar": "قَبِیْلًا",
+          "ur": "سامنے",
+          "en": "before (us)",
+          "arTajweed": "قَبِيلًا"
+        }
+      ],
+      "arTajweed": "أَوْ تُسْقِطَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءَ كَمَا زَعَمْتَ عَلَيْنَا كِسَفًا أَوْ تَأْتِىَ بِ<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْمَلَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَةِ قَبِيلًا"
+    },
+    {
+      "number": 93,
+      "arFull": "اَوْ یَكُوْنَ لَكَ بَیْتٌ مِّنْ زُخْرُفٍ اَوْ تَرْقٰی فِی السَّمَآءِ ؕ وَلَنْ نُّؤْمِنَ لِرُقِیِّكَ حَتّٰی تُنَزِّلَ عَلَیْنَا كِتٰبًا نَّقْرَؤُهٗ ؕ قُلْ سُبْحَانَ رَبِّیْ هَلْ كُنْتُ اِلَّا بَشَرًا رَّسُوْلًا ۟۠",
+      "ur": "یا آپ کے اپنے لئے کوئی سونے[1] کا گھر ہوجائے یا آپ آسمان پر چڑھ جائیں اور ہم تو آپ کے چڑھ جانے کا بھی اس وقت تک ہرگز یقین نہیں کریں گے جب تک کہ آپ ہم پر کوئی کتاب نہ اتار ﻻئیں جسے ہم خود پڑھ لیں[2]، آپ جواب دے دیں کہ میرا پروردگار پاک ہے میں تو صرف ایک انسان ہی ہوں جو رسول بنایا گیا ہوں.[3]",
+      "en": "Or you have a house of ornament [i.e., gold] or you ascend into the sky. And [even then], we will not believe in your ascension until you bring down to us a book we may read.\" Say, \"Exalted is my Lord! Was I ever but a human messenger?\"",
+      "footnotesUr": "[1] زُخْرُف کے اصل معنی زینت کے ہیں، مُزَخْرَفٌ مزین چیز کو کہتے ہیں۔ لیکن یہاں اسکے معنی سونے کے ہیں۔\n[2] یعنی ہم میں سے ہر شخص اسے صاف صاف خود پڑھ سکتا ہو۔\n[3] مطلب یہ ہے کہ میرے رب کے اندر تو ہر طرح کی طاقت ہے، وہ چاہے تو تمہارے مطالبے آن واحد میں لفظ ”کُنْ“ سے پورے فرما دے۔ لیکن جہاں تک میرا تعلق ہے میں تو (تمہاری طرح) ایک بشر ہوں۔ کیا کوئی بشر ان چیزوں پر قادر ہے؟ جو مجھ سے مطالبہ کرتے ہو۔ ہاں، اس کے ساتھ میں اللہ کا رسول بھی ہوں۔ لیکن رسول کا کام صرف اللہ کا پیغام پہنچانا ہے، اور وہ میں نے پہنچا دیا اور پہنچا رہا ہوں۔ لوگوں کے مطالبات پر معجزات ظاہر کر کے دکھانا یہ رسالت کا حصہ نہیں ہے۔ البتہ اگر اللہ چاہے تو صدق رسالت کے لئے ایک آدھا معجزہ دکھا دیا جاتا ہے لیکن لوگوں کی خواہشات پر اگر معجزے دکھانے شروع کر دیئے جائیں تو یہ سلسلہ کہیں بھی جا کر نہیں رک سکے گا ہر آدمی اپنی خواہش کے مطابق نیا معجزہ دیکھنے کا آرزو مند ہوگا اور رسول پھر اسی کام پر لگا رہے گا تبلیغ ودعوت کا اصل کام ٹھپ ہو جائے گا اس لیے معجزات کا صدور صرف اللہ کی مشیت سے ہی ممکن ہے اور میں بھی اس کی مشیت میں دخل اندازی کا مجاز نہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "Or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "یَكُوْنَ",
+          "ur": "ہو",
+          "en": "is",
+          "arTajweed": "يَكُونَ"
+        },
+        {
+          "ar": "لَكَ",
+          "ur": "تیرے لئے",
+          "en": "for you",
+          "arTajweed": "لَكَ"
+        },
+        {
+          "ar": "بَیْتٌ",
+          "ur": "بیت",
+          "en": "a house",
+          "arTajweed": "بَيْت<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": null,
+          "en": "of",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "زُخْرُفٍ",
+          "ur": "سونے کا",
+          "en": "ornament",
+          "arTajweed": "<span class=\"tj-ikhafa\">زُ</span>خْرُفٍ"
+        },
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "تَرْقٰی",
+          "ur": "تو چڑھ جائے",
+          "en": "you ascend",
+          "arTajweed": "تَرْقَىٰ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "into",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "السَّمَآءِ ؕ",
+          "ur": "آسمان",
+          "en": "the sky",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "وَلَنْ",
+          "ur": "اور ہم ہرگز نہ",
+          "en": "And never",
+          "arTajweed": "وَلَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "نُّؤْمِنَ",
+          "ur": "مانیں گے",
+          "en": "we will believe",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نُّ</span>ؤْمِنَ"
+        },
+        {
+          "ar": "لِرُقِیِّكَ",
+          "ur": "تیرے چڑھنے کو",
+          "en": "in your ascension",
+          "arTajweed": "لِرُقِيِّكَ"
+        },
+        {
+          "ar": "حَتّٰی",
+          "ur": "یہاں تک کہ",
+          "en": "until",
+          "arTajweed": "حَتَّىٰ"
+        },
+        {
+          "ar": "تُنَزِّلَ",
+          "ur": "تو اتار لائے",
+          "en": "you bring down",
+          "arTajweed": "تُنَزِّلَ"
+        },
+        {
+          "ar": "عَلَیْنَا",
+          "ur": "ہم پر",
+          "en": "to us",
+          "arTajweed": "عَلَيْنَا"
+        },
+        {
+          "ar": "كِتٰبًا",
+          "ur": "ایک  کتاب",
+          "en": "a book",
+          "arTajweed": "كِتَ<span class=\"tj-madda-normal\">ٰ</span>ب<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "نَّقْرَؤُهٗ ؕ",
+          "ur": "ہم پڑھیں اس کو",
+          "en": "we could read it",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نَّ</span><span class=\"tj-qalaqah\">قْ</span>رَؤُهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلْ"
+        },
+        {
+          "ar": "سُبْحَانَ",
+          "ur": "پاک ہے",
+          "en": "Glorified (is)",
+          "arTajweed": "سُ<span class=\"tj-qalaqah\">بْ</span>حَانَ"
+        },
+        {
+          "ar": "رَبِّیْ",
+          "ur": "میرا رب",
+          "en": "my Lord",
+          "arTajweed": "رَبِّى"
+        },
+        {
+          "ar": "هَلْ",
+          "ur": "کیا نہیں",
+          "en": "What",
+          "arTajweed": "هَلْ"
+        },
+        {
+          "ar": "كُنْتُ",
+          "ur": "ہوں میں",
+          "en": "am I",
+          "arTajweed": "كُ<span class=\"tj-ikhafa\">نتُ</span>"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر/ سوائے",
+          "en": "but",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "بَشَرًا",
+          "ur": "ایک انسان کے",
+          "en": "a human",
+          "arTajweed": "بَشَر<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "رَّسُوْلًا",
+          "ur": "جو رسول ہے",
+          "en": "a Messenger",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">رَّ</span>سُولًا"
+        }
+      ],
+      "arTajweed": "أَوْ يَكُونَ لَكَ بَيْت<span class=\"tj-idgham-ghunnah\">ٌ مِّ</span><span class=\"tj-ikhafa\">ن زُ</span>خْرُفٍ أَوْ تَرْقَىٰ فِى <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءِ وَلَ<span class=\"tj-idgham-ghunnah\">ن نُّ</span>ؤْمِنَ لِرُقِيِّكَ حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَ<span class=\"tj-madda-normal\">ٰ</span>ب<span class=\"tj-idgham-ghunnah\">ًا نَّ</span><span class=\"tj-qalaqah\">قْ</span>رَؤُهُ<span class=\"tj-madda-normal\">ۥ</span> قُلْ سُ<span class=\"tj-qalaqah\">بْ</span>حَانَ رَبِّى هَلْ كُ<span class=\"tj-ikhafa\">نتُ</span> إِلَّا بَشَر<span class=\"tj-idgham-wo-ghunnah\">ًا رَّ</span>سُولًا"
+    },
+    {
+      "number": 94,
+      "arFull": "وَمَا مَنَعَ النَّاسَ اَنْ یُّؤْمِنُوْۤا اِذْ جَآءَهُمُ الْهُدٰۤی اِلَّاۤ اَنْ قَالُوْۤا اَبَعَثَ اللّٰهُ بَشَرًا رَّسُوْلًا ۟",
+      "ur": "لوگوں کے پاس ہدایت پہنچ چکنے کے بعد ایمان سے روکنے والی صرف یہی چیز رہی کہ انہوں نے کہا کیا اللہ نے ایک انسان کو ہی رسول بنا کر بھیجا؟[1]",
+      "en": "And what prevented the people from believing when guidance came to them except that they said, \"Has Allāh sent a human messenger?\"",
+      "footnotesUr": "[1] یعنی کسی انسان کا رسول ہونا، کفار و مشرکین کے لئے سخت تعجب کی بات تھی، وہ یہ بات مانتے ہی نہ تھے کہ ہمارے جیسا انسان، جو ہماری طرح چلتا پھرتا ہے، ہماری طرح کھاتا پیتا ہے، ہماری طرح انسانی رشتوں میں منسلک ہے، وہ رسول بن جائے۔ یہی تعجب ان کے ایمان میں مانع رہا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَمَا",
+          "ur": "اور نہیں",
+          "en": "And what",
+          "arTajweed": "وَمَا"
+        },
+        {
+          "ar": "مَنَعَ",
+          "ur": "روکا",
+          "en": "prevented",
+          "arTajweed": "مَنَعَ"
+        },
+        {
+          "ar": "النَّاسَ",
+          "ur": "لوگوں کو",
+          "en": "the people",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسَ"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یُّؤْمِنُوْۤا",
+          "ur": "وہ ایمان لائیں",
+          "en": "they believe",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يُ</span>ؤْمِنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اِذْ",
+          "ur": "جب",
+          "en": "when",
+          "arTajweed": "إِذْ"
+        },
+        {
+          "ar": "جَآءَهُمُ",
+          "ur": "آگئی ان کے پاس",
+          "en": "came to them",
+          "arTajweed": "جَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُمُ"
+        },
+        {
+          "ar": "الْهُدٰۤی",
+          "ur": "ہدایت",
+          "en": "the guidance",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْهُدَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اِلَّاۤ",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "یہ کہ",
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "قَالُوْۤا",
+          "ur": "انہوں نے کہا",
+          "en": "they said",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span>الُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اَبَعَثَ",
+          "ur": "کیا بھیجا",
+          "en": "Has Allah sent",
+          "arTajweed": "أَبَعَثَ"
+        },
+        {
+          "ar": "اللّٰهُ",
+          "ur": "اللہ نے",
+          "en": "Has Allah sent",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
+        },
+        {
+          "ar": "بَشَرًا",
+          "ur": "ایک بشر کو",
+          "en": "a human",
+          "arTajweed": "بَشَر<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "رَّسُوْلًا",
+          "ur": "رسول بناکر",
+          "en": "Messenger",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">رَّ</span>سُولًا"
+        }
+      ],
+      "arTajweed": "وَمَا مَنَعَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسَ أَ<span class=\"tj-idgham-ghunnah\">ن يُ</span>ؤْمِنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> إِذْ جَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُمُ <span class=\"tj-ham-wasl\">ٱ</span>لْهُدَ<span class=\"tj-madda-permissible\">ىٰٓ</span> إِلَّ<span class=\"tj-madda-permissible\">آ</span> أَ<span class=\"tj-ikhafa\">ن قَ</span>الُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> أَبَعَثَ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ بَشَر<span class=\"tj-idgham-wo-ghunnah\">ًا رَّ</span>سُولًا"
+    },
+    {
+      "number": 95,
+      "arFull": "قُلْ لَّوْ كَانَ فِی الْاَرْضِ مَلٰٓىِٕكَةٌ یَّمْشُوْنَ مُطْمَىِٕنِّیْنَ لَنَزَّلْنَا عَلَیْهِمْ مِّنَ السَّمَآءِ مَلَكًا رَّسُوْلًا ۟",
+      "ur": "آپ کہہ دیں کہ اگر زمین میں فرشتے چلتے پھرتے اور رہتے بستے ہوتے تو ہم بھی ان کے پاس کسی آسمانی فرشتے ہی کو رسول بنا کر بھیجتے.[1]",
+      "en": "Say, \"If there were upon the earth angels walking securely,[774] We would have sent down to them from the heaven an angel [as a] messenger.\"",
+      "footnotesUr": "[1] اللہ تعالٰی نے فرمایا جب زمین میں انسان بستے ہیں تو ان کی ہدایت کے لئے رسول بھی انسان ہی ہوں گے۔ غیر انسان رسول، انسانوں کی ہدایت کا فریضہ انجام دے ہی نہیں سکتا۔ ہاں اگر زمین میں فرشتے بستے ہوتے تو ان کے لئے رسول بھی یقینا فرشتے ہی ہوتے۔",
+      "footnotesEn": "[774] i.e., who were settled and established there, as is man.",
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُل"
+        },
+        {
+          "ar": "لَّوْ",
+          "ur": "اگر",
+          "en": "If",
+          "arTajweed": "لَّوْ"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہوتے",
+          "en": "(there) were",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْاَرْضِ",
+          "ur": "زمین",
+          "en": "the earth",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "مَلٰٓىِٕكَةٌ",
+          "ur": "فرشتے",
+          "en": "Angels",
+          "arTajweed": "مَلَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَة<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "یَّمْشُوْنَ",
+          "ur": "چلتے پھرتے",
+          "en": "walking",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>مْشُونَ"
+        },
+        {
+          "ar": "مُطْمَىِٕنِّیْنَ",
+          "ur": "اطمینان کے ساتھ",
+          "en": "securely",
+          "arTajweed": "مُ<span class=\"tj-qalaqah\">طْ</span>مَئِ<span class=\"tj-ghunnah\">نِّ</span>ينَ"
+        },
+        {
+          "ar": "لَنَزَّلْنَا",
+          "ur": "البتہ نازل کرتے ہم",
+          "en": "surely We (would) have sent down",
+          "arTajweed": "لَنَزَّلْنَا"
+        },
+        {
+          "ar": "عَلَیْهِمْ",
+          "ur": "ان پر",
+          "en": "to them",
+          "arTajweed": "عَلَيْهِ<span class=\"tj-idgham-shafawi\">م</span>"
+        },
+        {
+          "ar": "مِّنَ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مِّ</span>نَ"
+        },
+        {
+          "ar": "السَّمَآءِ",
+          "ur": "آسمان",
+          "en": "the heaven",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "مَلَكًا",
+          "ur": "ایک فرشتے کو",
+          "en": "an Angel",
+          "arTajweed": "مَلَك<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "رَّسُوْلًا",
+          "ur": "رسول بنا کر",
+          "en": "(as) a Messenger",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">رَّ</span>سُولًا"
+        }
+      ],
+      "arTajweed": "قُل لَّوْ كَانَ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ مَلَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ئِكَة<span class=\"tj-idgham-ghunnah\">ٌ يَ</span>مْشُونَ مُ<span class=\"tj-qalaqah\">طْ</span>مَئِ<span class=\"tj-ghunnah\">نِّ</span>ينَ لَنَزَّلْنَا عَلَيْهِ<span class=\"tj-idgham-shafawi\">م مِّ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءِ مَلَك<span class=\"tj-idgham-wo-ghunnah\">ًا رَّ</span>سُولًا"
+    },
+    {
+      "number": 96,
+      "arFull": "قُلْ كَفٰی بِاللّٰهِ شَهِیْدًا بَیْنِیْ وَبَیْنَكُمْ ؕ اِنَّهٗ كَانَ بِعِبَادِهٖ خَبِیْرًا بَصِیْرًا ۟",
+      "ur": "کہہ دیجئیے کہ میرے اور تمہارے درمیان اللہ تعالیٰ کا گواه ہونا کافی ہے[1] ۔ وه اپنے بندوں سے خوب آگاه اور بخوبی دیکھنے واﻻ ہے.",
+      "en": "Say, \"Sufficient is Allāh as Witness between me and you. Indeed He is ever, concerning His servants, Aware and Seeing.\"",
+      "footnotesUr": "[1] یعنی میرے ذمے جو تبلیغ و دعوت تھی، وہ میں نے پہنچا دی، اس بارے میرے اور تمہارے درمیان اللہ کا گواہ ہونا کافی ہے، کیونکہ ہرچیز کا فیصلہ اسی کو کرنا ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلْ"
+        },
+        {
+          "ar": "كَفٰی",
+          "ur": "کافی ہے",
+          "en": "Sufficient is",
+          "arTajweed": "كَفَىٰ"
+        },
+        {
+          "ar": "بِاللّٰهِ",
+          "ur": "اللہ تعالیٰ",
+          "en": "Allah",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ"
+        },
+        {
+          "ar": "شَهِیْدًا",
+          "ur": "گواہ",
+          "en": "(as) a witness",
+          "arTajweed": "شَهِيد<span class=\"tj-iqlab\">ًۢا</span>"
+        },
+        {
+          "ar": "بَیْنِیْ",
+          "ur": "میرے درمیان",
+          "en": "between me",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َيْنِى"
+        },
+        {
+          "ar": "وَبَیْنَكُمْ ؕ",
+          "ur": "اور تمہارے درمیان",
+          "en": "and between you",
+          "arTajweed": "وَبَيْنَكُمْ"
+        },
+        {
+          "ar": "اِنَّهٗ",
+          "ur": "بیشک وہ",
+          "en": "Indeed, He",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "كَانَ"
+        },
+        {
+          "ar": "بِعِبَادِهٖ",
+          "ur": "اپنے بندوں کی",
+          "en": "of His slaves",
+          "arTajweed": "بِعِبَادِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "خَبِیْرًا",
+          "ur": "خبر رکھنے والا،",
+          "en": "All-Aware",
+          "arTajweed": "خَبِير<span class=\"tj-iqlab\">ًۢا</span>"
+        },
+        {
+          "ar": "بَصِیْرًا",
+          "ur": "دیکھنے والا",
+          "en": "All-Seer",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َصِيرًا"
+        }
+      ],
+      "arTajweed": "قُلْ كَفَىٰ بِ<span class=\"tj-ham-wasl\">ٱ</span>للَّهِ شَهِيد<span class=\"tj-iqlab\">ًۢا ب</span>َيْنِى وَبَيْنَكُمْ إِ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> كَانَ بِعِبَادِهِ<span class=\"tj-madda-normal\">ۦ</span> خَبِير<span class=\"tj-iqlab\">ًۢا ب</span>َصِيرًا"
+    },
+    {
+      "number": 97,
+      "arFull": "وَمَنْ یَّهْدِ اللّٰهُ فَهُوَ الْمُهْتَدِ ۚ وَمَنْ یُّضْلِلْ فَلَنْ تَجِدَ لَهُمْ اَوْلِیَآءَ مِنْ دُوْنِهٖ ؕ وَنَحْشُرُهُمْ یَوْمَ الْقِیٰمَةِ عَلٰی وُجُوْهِهِمْ عُمْیًا وَّبُكْمًا وَّصُمًّا ؕ مَاْوٰىهُمْ جَهَنَّمُ ؕ كُلَّمَا خَبَتْ زِدْنٰهُمْ سَعِیْرًا ۟",
+      "ur": "اللہ جس کی رہنمائی کرے تو وه ہدایت یافتہ ہے اور جسے وه راه سے بھٹکا دے ناممکن ہے کہ تو اس کا مددگار اس کے سوا کسی اور کو پائے[1] ، ایسے لوگوں کا ہم بروز قیامت اوندھے منھ حشر کریں گے[2]، دراں حالیکہ وه اندھے، گونگے اور بہرے ہوں گے[3]، ان کا ٹھکانہ جہنم ہوگا۔ جب کبھی وه بجھنے لگے گی ہم ان پر اسے اور بھڑکا دیں گے.",
+      "en": "And whoever Allāh guides - he is the [rightly] guided; and whoever He sends astray[775] - you will never find for them protectors besides Him, and We will gather them on the Day of Resurrection [fallen] on their faces - blind, dumb and deaf. Their refuge is Hell; every time it subsides, We increase [for] them blazing fire.",
+      "footnotesUr": "[1] میری تبلیغ و دعوت سے کون ایمان لاتا ہے، کون نہیں، یہ بھی اللہ کے اختیار میں ہے، میرا کام صرف تبلیغ ہی ہے۔\n[2] حدیث میں آتا ہے کہ صحابہ کرام (رضي الله عنهم) نے تعجب کا اظہار کیا کہ اوندھے منہ کس طرح حشر ہوگا؟ نبی کریم (صلى الله عليه وسلم) نے فرمایا، جس اللہ نے ان کو پیروں سے چلنے کی قوت عطا کی ہے، وہ اس بات پر بھی قادر ہے کہ انہیں منہ کے بل چلا دے۔ ( صحيح بخاري، سورة الفرقان، مسلم، صفة القيامة والجنة والنار، باب يحشر الكافر على وجهه )۔\n[3] یعنی جس طرح وہ دنیا میں حق کے معاملے میں اندھے، بہرے اور گونگے بنے رہے، قیامت والے دن بطور جزا اندھے، بہرے اور گونگے ہوں گے۔",
+      "footnotesEn": "[775] As a result of his own preference.",
+      "words": [
+        {
+          "ar": "وَمَنْ",
+          "ur": "اور جس کو",
+          "en": "And whoever",
+          "arTajweed": "وَمَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّهْدِ",
+          "ur": "ہدایت دے",
+          "en": "Allah guides",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>هْدِ"
+        },
+        {
+          "ar": "اللّٰهُ",
+          "ur": "اللہ",
+          "en": "Allah guides",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهُ"
+        },
+        {
+          "ar": "فَهُوَ",
+          "ur": "تو وہی",
+          "en": "then he (is)",
+          "arTajweed": "فَهُوَ"
+        },
+        {
+          "ar": "الْمُهْتَدِ ۚ",
+          "ur": "ہدایت پانے والا ہے",
+          "en": "the guided one",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُهْتَدِ"
+        },
+        {
+          "ar": "وَمَنْ",
+          "ur": "او ر جس کو",
+          "en": "and whoever",
+          "arTajweed": "وَمَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یُّضْلِلْ",
+          "ur": "بھٹکادے",
+          "en": "He lets go astray",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يُ</span>ضْلِلْ"
+        },
+        {
+          "ar": "فَلَنْ",
+          "ur": "تو ہرگز نہیں",
+          "en": "then never",
+          "arTajweed": "فَلَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "تَجِدَ",
+          "ur": "تم پاؤ گے",
+          "en": "you will find",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span>جِدَ"
+        },
+        {
+          "ar": "لَهُمْ",
+          "ur": "ان کے لئے",
+          "en": "for them",
+          "arTajweed": "لَهُمْ"
+        },
+        {
+          "ar": "اَوْلِیَآءَ",
+          "ur": "کوئی مدد گار",
+          "en": "protectors",
+          "arTajweed": "أَوْلِيَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "اس کے",
+          "en": "besides Him",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "دُوْنِهٖ ؕ",
+          "ur": "سوا",
+          "en": "besides Him",
+          "arTajweed": "<span class=\"tj-ikhafa\">دُ</span>ونِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "وَنَحْشُرُهُمْ",
+          "ur": "اور ہم اکٹھا کریں گے ان کو",
+          "en": "And We will gather them",
+          "arTajweed": "وَنَحْشُرُهُمْ"
+        },
+        {
+          "ar": "یَوْمَ",
+          "ur": "دن",
+          "en": "(on) the Day",
+          "arTajweed": "يَوْمَ"
+        },
+        {
+          "ar": "الْقِیٰمَةِ",
+          "ur": "قیامت کے",
+          "en": "(of) the Resurrection",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ"
+        },
+        {
+          "ar": "عَلٰی",
+          "ur": "پر",
+          "en": "on",
+          "arTajweed": "عَلَىٰ"
+        },
+        {
+          "ar": "وُجُوْهِهِمْ",
+          "ur": "ان  مونہوں",
+          "en": "their faces",
+          "arTajweed": "وُجُوهِهِمْ"
+        },
+        {
+          "ar": "عُمْیًا",
+          "ur": "اندھا",
+          "en": "blind",
+          "arTajweed": "عُمْي<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "وَّبُكْمًا",
+          "ur": "اور گونگا",
+          "en": "and dumb",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>بُكْم<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "وَّصُمًّا ؕ",
+          "ur": "اور بہرا (بناکر)",
+          "en": "and deaf",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>صُ<span class=\"tj-ghunnah\">مّ</span><span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَاْوٰىهُمْ",
+          "ur": "ٹھکانہ ان کا ہوگا",
+          "en": "Their abode",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>أْوَى<span class=\"tj-madda-normal\">ٰ</span>هُمْ"
+        },
+        {
+          "ar": "جَهَنَّمُ ؕ",
+          "ur": "جہنم ہوگا",
+          "en": "(is) Hell",
+          "arTajweed": "جَهَ<span class=\"tj-ghunnah\">نَّ</span>مُ"
+        },
+        {
+          "ar": "كُلَّمَا",
+          "ur": "جب کبھی",
+          "en": "every time",
+          "arTajweed": "كُلَّمَا"
+        },
+        {
+          "ar": "خَبَتْ",
+          "ur": "آہستہ ہونے لگے گی",
+          "en": "it subsides",
+          "arTajweed": "خَبَتْ"
+        },
+        {
+          "ar": "زِدْنٰهُمْ",
+          "ur": "زیادہ کردیں گے ہم ان کو",
+          "en": "We (will) increase (for) them",
+          "arTajweed": "زِ<span class=\"tj-qalaqah\">دْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>هُمْ"
+        },
+        {
+          "ar": "سَعِیْرًا",
+          "ur": "بھڑکنے میں",
+          "en": "the blazing fire",
+          "arTajweed": "سَعِيرًا"
+        }
+      ],
+      "arTajweed": "وَمَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>هْدِ <span class=\"tj-ham-wasl\">ٱ</span>للَّهُ فَهُوَ <span class=\"tj-ham-wasl\">ٱ</span>لْمُهْتَدِ وَمَ<span class=\"tj-idgham-ghunnah\">ن يُ</span>ضْلِلْ فَلَ<span class=\"tj-ikhafa\">ن تَ</span>جِدَ لَهُمْ أَوْلِيَ<span class=\"tj-madda-obligatory\">آ</span>ءَ مِ<span class=\"tj-ikhafa\">ن دُ</span>ونِهِ<span class=\"tj-madda-normal\">ۦ</span> وَنَحْشُرُهُمْ يَوْمَ <span class=\"tj-ham-wasl\">ٱ</span>لْقِيَ<span class=\"tj-madda-normal\">ٰ</span>مَةِ عَلَىٰ وُجُوهِهِمْ عُمْي<span class=\"tj-idgham-ghunnah\">ًا وَ</span>بُكْم<span class=\"tj-idgham-ghunnah\">ًا وَ</span>صُ<span class=\"tj-ghunnah\">مّ</span><span class=\"tj-idgham-ghunnah\">ًا مَّ</span>أْوَى<span class=\"tj-madda-normal\">ٰ</span>هُمْ جَهَ<span class=\"tj-ghunnah\">نَّ</span>مُ كُلَّمَا خَبَتْ زِ<span class=\"tj-qalaqah\">دْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>هُمْ سَعِيرًا"
+    },
+    {
+      "number": 98,
+      "arFull": "ذٰلِكَ جَزَآؤُهُمْ بِاَنَّهُمْ كَفَرُوْا بِاٰیٰتِنَا وَقَالُوْۤا ءَاِذَا كُنَّا عِظَامًا وَّرُفَاتًا ءَاِنَّا لَمَبْعُوْثُوْنَ خَلْقًا جَدِیْدًا ۟",
+      "ur": "یہ سب ہماری آیتوں سے کفر کرنے اور اس کہنے کا بدلہ ہے کہ کیا جب ہم ہڈیاں اور ریزے ریزے ہوجائیں گے پھر ہم نئی پیدائش میں اٹھا کھڑے کئے جائیں[1] گے؟",
+      "en": "That is their recompense because they disbelieved in Our verses and said, \"When we are bones and crumbled particles, will we [truly] be resurrected [in] a new creation?\"",
+      "footnotesUr": "[1] یعنی جہنم کی یہ سزا ان کو اس لئے دی جائیگی کہ انہوں نے ہماری نازل کردہ آیات کی تصدیق نہیں کی اور کائنات میں پھیلی ہوئی تکوینی آیات پر غور و فکر نہیں کیا، جس کی وجہ سے انہوں نے و قوع قیامت اور بعث بعد الموت کو محال خیال کیا اور کہا کہ ہڈیاں اور ریزہ ریزہ ہو جانے کے بعد ہمیں نئی پیدائش کس طرح مل سکتی ہے؟۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "ذٰلِكَ",
+          "ur": "یہ",
+          "en": "That",
+          "arTajweed": "ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ"
+        },
+        {
+          "ar": "جَزَآؤُهُمْ",
+          "ur": "ان کی جزا ہے",
+          "en": "(is) their recompense",
+          "arTajweed": "جَزَ<span class=\"tj-madda-obligatory\">آ</span>ؤُهُ<span class=\"tj-ikhafa-shafawi\">م</span>"
+        },
+        {
+          "ar": "بِاَنَّهُمْ",
+          "ur": "بوجہ اس کے کہ بیشک انہوں نے",
+          "en": "because they",
+          "arTajweed": "<span class=\"tj-ikhafa-shafawi\">بِ</span>أَ<span class=\"tj-ghunnah\">نَّ</span>هُمْ"
+        },
+        {
+          "ar": "كَفَرُوْا",
+          "ur": "انہوں نے کفر کیا",
+          "en": "disbelieved",
+          "arTajweed": "كَفَرُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "بِاٰیٰتِنَا",
+          "ur": "ہماری آیات کا",
+          "en": "in Our Verses",
+          "arTajweed": "بِـَٔايَ<span class=\"tj-madda-normal\">ٰ</span>تِنَا"
+        },
+        {
+          "ar": "وَقَالُوْۤا",
+          "ur": "اور انہوں نے کہا",
+          "en": "and said",
+          "arTajweed": "وَقَالُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "ءَاِذَا",
+          "ur": "کیا جب ہوں گے",
+          "en": "When",
+          "arTajweed": "أَءِذَا"
+        },
+        {
+          "ar": "كُنَّا",
+          "ur": "ہم",
+          "en": "we are",
+          "arTajweed": "كُ<span class=\"tj-ghunnah\">نَّ</span>ا"
+        },
+        {
+          "ar": "عِظَامًا",
+          "ur": "ہڈیاں",
+          "en": "bones",
+          "arTajweed": "عِظَ<span class=\"tj-madda-normal\">ٰ</span>م<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "وَّرُفَاتًا",
+          "ur": "اور ریزہ ریزہ",
+          "en": "and crumbled particles",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>رُفَ<span class=\"tj-madda-normal\">ٰ</span>تًا"
+        },
+        {
+          "ar": "ءَاِنَّا",
+          "ur": "کیا بیشک ہم",
+          "en": "will we",
+          "arTajweed": "أَءِ<span class=\"tj-ghunnah\">نَّ</span>ا"
+        },
+        {
+          "ar": "لَمَبْعُوْثُوْنَ",
+          "ur": "البتہ اٹھائیں جائیں گے",
+          "en": "surely (be) resurrected",
+          "arTajweed": "لَمَ<span class=\"tj-qalaqah\">بْ</span>عُوثُونَ"
+        },
+        {
+          "ar": "خَلْقًا",
+          "ur": "پیدائش میں",
+          "en": "(as) a creation",
+          "arTajweed": "خَلْق<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "جَدِیْدًا",
+          "ur": "نئی",
+          "en": "new",
+          "arTajweed": "<span class=\"tj-ikhafa\">جَ</span>دِيدًا"
+        }
+      ],
+      "arTajweed": "ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ جَزَ<span class=\"tj-madda-obligatory\">آ</span>ؤُهُ<span class=\"tj-ikhafa-shafawi\">م بِ</span>أَ<span class=\"tj-ghunnah\">نَّ</span>هُمْ كَفَرُو<span class=\"tj-slnt\">ا۟</span> بِـَٔايَ<span class=\"tj-madda-normal\">ٰ</span>تِنَا وَقَالُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> أَءِذَا كُ<span class=\"tj-ghunnah\">نَّ</span>ا عِظَ<span class=\"tj-madda-normal\">ٰ</span>م<span class=\"tj-idgham-ghunnah\">ًا وَ</span>رُفَ<span class=\"tj-madda-normal\">ٰ</span>تًا أَءِ<span class=\"tj-ghunnah\">نَّ</span>ا لَمَ<span class=\"tj-qalaqah\">بْ</span>عُوثُونَ خَلْق<span class=\"tj-ikhafa\">ًا جَ</span>دِيدًا"
+    },
+    {
+      "number": 99,
+      "arFull": "اَوَلَمْ یَرَوْا اَنَّ اللّٰهَ الَّذِیْ خَلَقَ السَّمٰوٰتِ وَالْاَرْضَ قَادِرٌ عَلٰۤی اَنْ یَّخْلُقَ مِثْلَهُمْ وَجَعَلَ لَهُمْ اَجَلًا لَّا رَیْبَ فِیْهِ ؕ فَاَبَی الظّٰلِمُوْنَ اِلَّا كُفُوْرًا ۟",
+      "ur": "کیا انہوں نے اس بات پر نظر نہیں کی کہ جس اللہ نے آسمان وزمین کو پیدا کیا ہے وه ان جیسوں کی پیدائش پر پورا قادر ہے[1] ، اسی نے ان کے لئے ایک ایسا وقت مقرر کر رکھا ہے جو شک شبہ سے یکسر خالی ہے[2]، لیکن ﻇالم لوگ انکار کئے بغیر رہتے ہی نہیں.",
+      "en": "Do they not see that Allāh, who created the heavens and earth, is [the one] Able to create the likes of them? And He has appointed for them a term, about which there is no doubt. But the wrongdoers refuse except disbelief.",
+      "footnotesUr": "[1] اللہ نے ان کے جواب میں فرمایا کہ جو اللہ آسمانوں اور زمین کا خالق ہے، وہ ان جیسوں کی پیدائش یا دوبارہ انہیں زندگی دینے پر بھی قادر ہے، کیونکہ یہ تو آسمان و زمین کی تخلیق سے زیادہ آسان ہے۔ «لَخَــلْقُ السَّمٰوٰتِ وَالْاَرْضِ اَكْبَرُ مِنْ خَلْقِ النَّاسِ» ( المؤمن:57)۔ ”آسمان اور زمین کی پیدائش انسانوں کی تخلیق سے زیادہ بڑا اور مشکل کام ہے“۔ اسی مضمون کو اللہ تعالٰی نے سورۃ الاحقاف33 میں اور سورہ یٰسین81-82 میں بھی بیان فرمایا ہے۔\n[2] اس اجل (وقت مقرر) سے مراد موت یا قیامت ہے۔ یہاں سیاق کلام کے اعتبار سے قیامت مراد لینا زیادہ صحیح ہے یعنی ہم نے انہیں دوبارہ زندہ کر کے قبروں سے اٹھانے کے لئے ایک وقت مقرر کر رکھا ہے۔ «وَمَا نُؤَخِّرُهُ إِلا لأَجَلٍ مَعْدُودٍ» ( هود ۔104)۔ ”ہم ان کے معاملے کو ایک وقت مقرر تک کے لیے ہی مؤخر کر رہے ہیں“۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اَوَلَمْ",
+          "ur": "کیا بھلا انہوں نے",
+          "en": "Do not",
+          "arTajweed": "أَوَلَمْ"
+        },
+        {
+          "ar": "یَرَوْا",
+          "ur": "دیکھا نہیں",
+          "en": "they see",
+          "arTajweed": "يَرَوْ<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اَنَّ",
+          "ur": "بیشک",
+          "en": "that",
+          "arTajweed": "أَ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "اللّٰهَ",
+          "ur": "اللہ تعالیٰ",
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
+        },
+        {
+          "ar": "الَّذِیْ",
+          "ur": "وہ ذات ہے",
+          "en": "the One Who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِى"
+        },
+        {
+          "ar": "خَلَقَ",
+          "ur": "جس نے پیدا کیا",
+          "en": "created",
+          "arTajweed": "خَلَقَ"
+        },
+        {
+          "ar": "السَّمٰوٰتِ",
+          "ur": "آسمانوں کو",
+          "en": "the heavens",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
+        },
+        {
+          "ar": "وَالْاَرْضَ",
+          "ur": "اور زمین کو",
+          "en": "and the earth",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضَ"
+        },
+        {
+          "ar": "قَادِرٌ",
+          "ur": "قادر ہے",
+          "en": "(is) Able",
+          "arTajweed": "قَادِرٌ"
+        },
+        {
+          "ar": "عَلٰۤی",
+          "ur": "اس بات پر",
+          "en": "[on]",
+          "arTajweed": "عَلَ<span class=\"tj-madda-permissible\">ىٰٓ</span>"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "to",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّخْلُقَ",
+          "ur": "وہ پیدا کرے",
+          "en": "create",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>خْلُقَ"
+        },
+        {
+          "ar": "مِثْلَهُمْ",
+          "ur": "ان کی مانند",
+          "en": "the like of them",
+          "arTajweed": "مِثْلَهُمْ"
+        },
+        {
+          "ar": "وَجَعَلَ",
+          "ur": "اور اس نے مقرر کر رکھا ہے",
+          "en": "And He has made",
+          "arTajweed": "وَجَعَلَ"
+        },
+        {
+          "ar": "لَهُمْ",
+          "ur": "ان کے لئے",
+          "en": "for them",
+          "arTajweed": "لَهُمْ"
+        },
+        {
+          "ar": "اَجَلًا",
+          "ur": "ایک وقت",
+          "en": "a term",
+          "arTajweed": "أَجَل<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "لَّا",
+          "ur": "نہیں",
+          "en": "no",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>ا"
+        },
+        {
+          "ar": "رَیْبَ",
+          "ur": "کوئی شک",
+          "en": "doubt",
+          "arTajweed": "رَيْبَ"
+        },
+        {
+          "ar": "فِیْهِ ؕ",
+          "ur": "جس میں",
+          "en": "in it",
+          "arTajweed": "فِيهِ"
+        },
+        {
+          "ar": "فَاَبَی",
+          "ur": "تو انکار کیا",
+          "en": "But refused",
+          "arTajweed": "فَأَبَى"
+        },
+        {
+          "ar": "الظّٰلِمُوْنَ",
+          "ur": "ظالموں نے",
+          "en": "the wrongdoers",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ظَّ<span class=\"tj-madda-normal\">ٰ</span>لِمُونَ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "كُفُوْرًا",
+          "ur": "کفر کا/انکار کا",
+          "en": "disbelief",
+          "arTajweed": "كُفُورًا"
+        }
+      ],
+      "arTajweed": "أَوَلَمْ يَرَوْ<span class=\"tj-slnt\">ا۟</span> أَ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِى خَلَقَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضَ قَادِرٌ عَلَ<span class=\"tj-madda-permissible\">ىٰٓ</span> أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>خْلُقَ مِثْلَهُمْ وَجَعَلَ لَهُمْ أَجَل<span class=\"tj-idgham-wo-ghunnah\">ًا لَّ</span>ا رَيْبَ فِيهِ فَأَبَى <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ظَّ<span class=\"tj-madda-normal\">ٰ</span>لِمُونَ إِلَّا كُفُورًا"
+    },
+    {
+      "number": 100,
+      "arFull": "قُلْ لَّوْ اَنْتُمْ تَمْلِكُوْنَ خَزَآىِٕنَ رَحْمَةِ رَبِّیْۤ اِذًا لَّاَمْسَكْتُمْ خَشْیَةَ الْاِنْفَاقِ ؕ وَكَانَ الْاِنْسَانُ قَتُوْرًا ۟۠",
+      "ur": "کہہ دیجیئے کہ اگر بالفرض تم میرے رب کی رحمتوں کے خزانوں کے مالک بن جاتے تو تم اس وقت بھی اس کے خرچ ہوجانے[1] کے خوف سے اس کو روکے رکھتے اور انسان ہے ہی تنگ دل.",
+      "en": "Say [to them], \"If you possessed the depositories of the mercy of my Lord, then you would withhold out of fear of spending.\" And ever has man been stingy.",
+      "footnotesUr": "[1] خَشْيَةَ الإنْفَاقِ کا مطلب ہے۔ خَشْيَةَ أَنْ يُنْفِقُوا فَيَفْتَقِرُوا۔ اس خوف سے کہ خرچ کر کے ختم کر ڈالیں گے، اس کے بعد فقیر ہو جائیں گے۔ حالانکہ یہ خزانہ الٰہی جو ختم ہونے والا نہیں لیکن چونکہ انسان تنگ دل واقع ہوا ہے، اس لئے بخل سے کام لیتا ہے۔ دوسرے مقام پر اللہ تعالٰی نے فرمایا «اَمْ لَهُمْ نَصِيْبٌ مِّنَ الْمُلْكِ فَاِذًا لَّا يُؤْتُوْنَ النَّاسَ نَقِيْرًا» (النساء:53)۔ یعنی ان کو اگر اللہ کی بادشاہی میں سے کچھ حصہ مل جائے تو یہ لوگوں کو کچھ نہ دیں۔ نقیر کھجور کی گٹھلی میں جو گڑھا ہوتا ہے اس کو کہتے ہیں یعنی تل برابر بھی کسی کو نہ دیں یہ تو اللہ کی مہربانی اور اس کا فضل وکرم ہے کہ اس نے اپنے خزانوں کے منہ لوگوں کے لیے کھولے ہوئے ہیں جس طرح حدیث میں ہے اللہ کے ہاتھ بھرے ہوئے ہیں وہ رات دن خرچ کرتا ہے لیکن اس میں کوئی کمی نہیں آتی ذرا دیکھو تو سہی جب سے آسمان و زمین اس نے پیدا کیے ہیں کس قدر خرچ کیا ہوگا لیکن اس کے ہاتھ میں جو کچھ ہے اس میں کمی نہیں۔ ”وہ بھرے کے بھرے ہیں“۔ ( البخاري- كتاب التوحيد، باب وكان عرشه على الماء- مسلم، كتاب الزكاة، باب الحث على النفقة وتبشير المنفق بالخلف )۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُل"
+        },
+        {
+          "ar": "لَّوْ",
+          "ur": "اگر",
+          "en": "If",
+          "arTajweed": "لَّوْ"
+        },
+        {
+          "ar": "اَنْتُمْ",
+          "ur": "تم",
+          "en": "you",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">نتُ</span>مْ"
+        },
+        {
+          "ar": "تَمْلِكُوْنَ",
+          "ur": "مالک ہو",
+          "en": "possess",
+          "arTajweed": "تَمْلِكُونَ"
+        },
+        {
+          "ar": "خَزَآىِٕنَ",
+          "ur": "خزانوں کے",
+          "en": "the treasures",
+          "arTajweed": "خَزَ<span class=\"tj-madda-obligatory\">آ</span>ئِنَ"
+        },
+        {
+          "ar": "رَحْمَةِ",
+          "ur": "رحمت کے",
+          "en": "(of) the Mercy",
+          "arTajweed": "رَحْمَةِ"
+        },
+        {
+          "ar": "رَبِّیْۤ",
+          "ur": "میرے رب کی",
+          "en": "(of) my Lord",
+          "arTajweed": "رَبِّ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اِذًا",
+          "ur": "تب",
+          "en": "then",
+          "arTajweed": "إِذ<span class=\"tj-idgham-wo-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "لَّاَمْسَكْتُمْ",
+          "ur": "البتہ روک لیتے تم",
+          "en": "surely you would withhold",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>أَمْسَكْتُمْ"
+        },
+        {
+          "ar": "خَشْیَةَ",
+          "ur": "ڈر سے",
+          "en": "(out of) fear",
+          "arTajweed": "خَشْيَةَ"
+        },
+        {
+          "ar": "الْاِنْفَاقِ ؕ",
+          "ur": "خرچ ہوجانے کے",
+          "en": "(of) spending",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نفَ</span>اقِ"
+        },
+        {
+          "ar": "وَكَانَ",
+          "ur": "اور ہے",
+          "en": "And is",
+          "arTajweed": "وَكَانَ"
+        },
+        {
+          "ar": "الْاِنْسَانُ",
+          "ur": "انسان",
+          "en": "man",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نُ"
+        },
+        {
+          "ar": "قَتُوْرًا",
+          "ur": "کنجوس/ بخیل",
+          "en": "stingy",
+          "arTajweed": "قَتُورًا"
+        }
+      ],
+      "arTajweed": "قُل لَّوْ أَ<span class=\"tj-ikhafa\">نتُ</span>مْ تَمْلِكُونَ خَزَ<span class=\"tj-madda-obligatory\">آ</span>ئِنَ رَحْمَةِ رَبِّ<span class=\"tj-madda-permissible\">ىٓ</span> إِذ<span class=\"tj-idgham-wo-ghunnah\">ًا لَّ</span>أَمْسَكْتُمْ خَشْيَةَ <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نفَ</span>اقِ وَكَانَ <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نُ قَتُورًا"
+    },
+    {
+      "number": 101,
+      "arFull": "وَلَقَدْ اٰتَیْنَا مُوْسٰی تِسْعَ اٰیٰتٍ بَیِّنٰتٍ فَسْـَٔلْ بَنِیْۤ اِسْرَآءِیْلَ اِذْ جَآءَهُمْ فَقَالَ لَهٗ فِرْعَوْنُ اِنِّیْ لَاَظُنُّكَ یٰمُوْسٰی مَسْحُوْرًا ۟",
+      "ur": "ہم نے موسیٰ کو نو معجزے[1] بالکل صاف صاف عطا فرمائے، تو خود ہی بنی اسرائیل سے پوچھ لے کہ جب وه ان کے پاس پہنچے تو فرعون بوﻻ کہ اے موسیٰ میرے خیال میں تو تجھ پر جادو کردیا گیا ہے.",
+      "en": "And We had certainly given Moses nine evident signs, so ask the Children of Israel [about] when he came to them and Pharaoh said to him, \"Indeed I think, O Moses, that you are affected by magic.\"",
+      "footnotesUr": "[1] وہ نو معجزے ہیں۔ ہاتھ، لاٹھی، قحط سالی، نقص ثمرات، طوفان، جراد (ٹڈی دل) قُمّل (کھٹمل، جوئیں) ضفادع (مینڈک) اور خون، امام حسن بصری کہتے ہیں، کہ قحط سالی اور نقص ثمرات ایک ہی چیز ہے اور نواں معجزہ لاٹھی کا جادو گروں کی شعبدہ بازی کو نگل جانا ہے۔ حضرت موسیٰ (عليه السلام) کو ان کے علاوہ بھی معجزات دیئے گئے تھے مثلًا لاٹھی کا پتھر پر مارنا، جس سے بارہ چشمے ظاہر ہوگئے تھے، بادلوں کا سایہ کرنا، من و سلوی وغیرہ۔ لیکن یہاں آیات تسعہ سے صرف وہی نو معجزات مراد ہیں، جن کا مشاہدہ فرعون اور اس کی قوم نے کیا۔ اسی لیے حضرت ابن عباس (رضي الله عنه) نے انْفِلاقُ بَحْرٍ (سمندر کا پھٹ کر راستہ بن جانے) کو بھی ان نو معجزات میں شمار کیا ہے اور قحط سالی اور نقص ثمرات کو ایک معجزہ شمار کیا ہے، ترمذی کی ایک روایت میں آیات تسعہ کی تفصیل اس سے مختلف بیان کی گئی ہے لیکن سنداً وہ روایت ضعیف ہے اس لیے آیات تسعہ سے مراد یہی مذکورہ معجزات ہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَقَدْ",
+          "ur": "اور البتہ تحقیق",
+          "en": "And certainly",
+          "arTajweed": "وَلَقَ<span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "اٰتَیْنَا",
+          "ur": "دی ہم نے",
+          "en": "We had given",
+          "arTajweed": "ءَاتَيْنَا"
+        },
+        {
+          "ar": "مُوْسٰی",
+          "ur": "موسیٰ کو",
+          "en": "Musa",
+          "arTajweed": "مُوسَىٰ"
+        },
+        {
+          "ar": "تِسْعَ",
+          "ur": "نو",
+          "en": "nine",
+          "arTajweed": "تِسْعَ"
+        },
+        {
+          "ar": "اٰیٰتٍ",
+          "ur": "نشانیاں",
+          "en": "Signs",
+          "arTajweed": "ءَايَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-iqlab\">ٍۭ</span>"
+        },
+        {
+          "ar": "بَیِّنٰتٍ",
+          "ur": "روشن",
+          "en": "clear",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َيِّنَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "فَسْـَٔلْ",
+          "ur": "تو پوچھ لو",
+          "en": "so ask",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>سْـَٔلْ"
+        },
+        {
+          "ar": "بَنِیْۤ",
+          "ur": "بنی",
+          "en": "(the) Children of Israel",
+          "arTajweed": "بَنِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اِسْرَآءِیْلَ",
+          "ur": "اسرائیل سے",
+          "en": "(the) Children of Israel",
+          "arTajweed": "إِسْرَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ءِيلَ"
+        },
+        {
+          "ar": "اِذْ",
+          "ur": "جب",
+          "en": "when",
+          "arTajweed": "إِذْ"
+        },
+        {
+          "ar": "جَآءَهُمْ",
+          "ur": "آئیں ان کے پاس",
+          "en": "he came to them",
+          "arTajweed": "جَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُمْ"
+        },
+        {
+          "ar": "فَقَالَ",
+          "ur": "تو کہا",
+          "en": "then said",
+          "arTajweed": "فَقَالَ"
+        },
+        {
+          "ar": "لَهٗ",
+          "ur": "اس کو",
+          "en": "to him",
+          "arTajweed": "لَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "فِرْعَوْنُ",
+          "ur": "فرعون نے",
+          "en": "Firaun",
+          "arTajweed": "فِرْعَوْنُ"
+        },
+        {
+          "ar": "اِنِّیْ",
+          "ur": "بیشک میں",
+          "en": "Indeed, I",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نِّ</span>ى"
+        },
+        {
+          "ar": "لَاَظُنُّكَ",
+          "ur": "البتہ میں گمان/ کرتا ہوں تجھ کو",
+          "en": "[I] think you",
+          "arTajweed": "لَأَظُ<span class=\"tj-ghunnah\">نُّ</span>كَ"
+        },
+        {
+          "ar": "یٰمُوْسٰی",
+          "ur": "اے موسیٰ",
+          "en": "O Musa",
+          "arTajweed": "يَ<span class=\"tj-madda-normal\">ٰ</span>مُوسَىٰ"
+        },
+        {
+          "ar": "مَسْحُوْرًا",
+          "ur": "سحر زدہ",
+          "en": "(you are) bewitched",
+          "arTajweed": "مَسْحُورًا"
+        }
+      ],
+      "arTajweed": "وَلَقَ<span class=\"tj-qalaqah\">دْ</span> ءَاتَيْنَا مُوسَىٰ تِسْعَ ءَايَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-iqlab\">ٍۭ ب</span>َيِّنَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-ikhafa\">ٍ فَ</span>سْـَٔلْ بَنِ<span class=\"tj-madda-permissible\">ىٓ</span> إِسْرَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ءِيلَ إِذْ جَ<span class=\"tj-madda-obligatory\">آ</span>ءَهُمْ فَقَالَ لَهُ<span class=\"tj-madda-normal\">ۥ</span> فِرْعَوْنُ إِ<span class=\"tj-ghunnah\">نِّ</span>ى لَأَظُ<span class=\"tj-ghunnah\">نُّ</span>كَ يَ<span class=\"tj-madda-normal\">ٰ</span>مُوسَىٰ مَسْحُورًا"
+    },
+    {
+      "number": 102,
+      "arFull": "قَالَ لَقَدْ عَلِمْتَ مَاۤ اَنْزَلَ هٰۤؤُلَآءِ اِلَّا رَبُّ السَّمٰوٰتِ وَالْاَرْضِ بَصَآىِٕرَ ۚ وَاِنِّیْ لَاَظُنُّكَ یٰفِرْعَوْنُ مَثْبُوْرًا ۟",
+      "ur": "موسیٰ نے جواب دیا کہ یہ تو تجھے علم ہوچکا ہے کہ آسمان وزمین کے پروردگار ہی نے یہ معجزے دکھانے، سمجھانے کو نازل فرمائے ہیں، اے فرعون! میں تو سمجھ رہا ہوں کہ تو یقیناً برباد وہلاک کیا گیا ہے.",
+      "en": "[Moses] said, \"You have already known that none has sent down these [signs] except the Lord of the heavens and the earth as evidence, and indeed I think,[776] O Pharaoh, that you are destroyed.\"",
+      "footnotesUr": null,
+      "footnotesEn": "[776] i.e., I am certain.",
+      "words": [
+        {
+          "ar": "قَالَ",
+          "ur": "اس نے کہا",
+          "en": "He said",
+          "arTajweed": "قَالَ"
+        },
+        {
+          "ar": "لَقَدْ",
+          "ur": "البتہ تحقیق",
+          "en": "Verily",
+          "arTajweed": "لَقَ<span class=\"tj-qalaqah\">دْ</span>"
+        },
+        {
+          "ar": "عَلِمْتَ",
+          "ur": "تو جانتا ہے",
+          "en": "you have known",
+          "arTajweed": "عَلِمْتَ"
+        },
+        {
+          "ar": "مَاۤ",
+          "ur": "نہیں",
+          "en": "none",
+          "arTajweed": "مَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَنْزَلَ",
+          "ur": "اتارا",
+          "en": "has sent down",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">نزَ</span>لَ"
+        },
+        {
+          "ar": "هٰۤؤُلَآءِ",
+          "ur": "ان کو",
+          "en": "these",
+          "arTajweed": "هَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ؤُلَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "رَبُّ",
+          "ur": "رب نے",
+          "en": "(the) Lord",
+          "arTajweed": "رَبُّ"
+        },
+        {
+          "ar": "السَّمٰوٰتِ",
+          "ur": "آسمانوں کے",
+          "en": "(of) the heavens",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
+        },
+        {
+          "ar": "وَالْاَرْضِ",
+          "ur": "اور زمین کے",
+          "en": "and the earth",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "بَصَآىِٕرَ ۚ",
+          "ur": "واضح نشانیا/ دلائل",
+          "en": "(as) evidence",
+          "arTajweed": "بَصَ<span class=\"tj-madda-obligatory\">آ</span>ئِرَ"
+        },
+        {
+          "ar": "وَاِنِّیْ",
+          "ur": "اور بیشک میں",
+          "en": "and indeed, I",
+          "arTajweed": "وَإِ<span class=\"tj-ghunnah\">نِّ</span>ى"
+        },
+        {
+          "ar": "لَاَظُنُّكَ",
+          "ur": "البتہ گمان کرتا ہوں تمجھ کو",
+          "en": "[I] surely think you",
+          "arTajweed": "لَأَظُ<span class=\"tj-ghunnah\">نُّ</span>كَ"
+        },
+        {
+          "ar": "یٰفِرْعَوْنُ",
+          "ur": "اے فرعون",
+          "en": "O Firaun",
+          "arTajweed": "يَ<span class=\"tj-madda-normal\">ٰ</span>فِرْعَوْنُ"
+        },
+        {
+          "ar": "مَثْبُوْرًا",
+          "ur": "ہلاک ہونے والا",
+          "en": "(you are) destroyed",
+          "arTajweed": "مَثْبُورًا"
+        }
+      ],
+      "arTajweed": "قَالَ لَقَ<span class=\"tj-qalaqah\">دْ</span> عَلِمْتَ مَ<span class=\"tj-madda-permissible\">آ</span> أَ<span class=\"tj-ikhafa\">نزَ</span>لَ هَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ؤُلَ<span class=\"tj-madda-obligatory\">آ</span>ءِ إِلَّا رَبُّ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ بَصَ<span class=\"tj-madda-obligatory\">آ</span>ئِرَ وَإِ<span class=\"tj-ghunnah\">نِّ</span>ى لَأَظُ<span class=\"tj-ghunnah\">نُّ</span>كَ يَ<span class=\"tj-madda-normal\">ٰ</span>فِرْعَوْنُ مَثْبُورًا"
+    },
+    {
+      "number": 103,
+      "arFull": "فَاَرَادَ اَنْ یَّسْتَفِزَّهُمْ مِّنَ الْاَرْضِ فَاَغْرَقْنٰهُ وَمَنْ مَّعَهٗ جَمِیْعًا ۟ۙ",
+      "ur": "آخر فرعون نے پختہ اراده کر لیا کہ انہیں زمین سے ہی اکھیڑ دے تو ہم نے خود اسے اور اس کے تمام ساتھیوں کو غرق کر دیا.",
+      "en": "So he intended to drive them from the land, but We drowned him and those with him all together.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَاَرَادَ",
+          "ur": "تو اس نے ارادہ کیا",
+          "en": "So he intended",
+          "arTajweed": "فَأَرَادَ"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "to",
+          "arTajweed": "أَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "یَّسْتَفِزَّهُمْ",
+          "ur": "اکھاڑ پھینکے ان کو",
+          "en": "drive them out",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">يَ</span>سْتَفِزَّهُ<span class=\"tj-idgham-shafawi\">م</span>"
+        },
+        {
+          "ar": "مِّنَ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "<span class=\"tj-idgham-shafawi\">مِّ</span>نَ"
+        },
+        {
+          "ar": "الْاَرْضِ",
+          "ur": "زمین",
+          "en": "the land",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "فَاَغْرَقْنٰهُ",
+          "ur": "تو غرق کردیا ہم نے اس کو",
+          "en": "but We drowned him",
+          "arTajweed": "فَأَغْرَ<span class=\"tj-qalaqah\">قْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>هُ"
+        },
+        {
+          "ar": "وَمَنْ",
+          "ur": "اور جو",
+          "en": "and who",
+          "arTajweed": "وَمَ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "مَّعَهٗ",
+          "ur": "اس کے ساتھ تھے",
+          "en": "(were) with him",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>عَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "جَمِیْعًا",
+          "ur": "سب کے سب کو",
+          "en": "all",
+          "arTajweed": "جَمِيعًا"
+        }
+      ],
+      "arTajweed": "فَأَرَادَ أَ<span class=\"tj-idgham-ghunnah\">ن يَ</span>سْتَفِزَّهُ<span class=\"tj-idgham-shafawi\">م مِّ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ فَأَغْرَ<span class=\"tj-qalaqah\">قْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>هُ وَمَ<span class=\"tj-idgham-ghunnah\">ن مَّ</span>عَهُ<span class=\"tj-madda-normal\">ۥ</span> جَمِيعًا"
+    },
+    {
+      "number": 104,
+      "arFull": "وَّقُلْنَا مِنْ بَعْدِهٖ لِبَنِیْۤ اِسْرَآءِیْلَ اسْكُنُوا الْاَرْضَ فَاِذَا جَآءَ وَعْدُ الْاٰخِرَةِ جِئْنَا بِكُمْ لَفِیْفًا ۟ؕ",
+      "ur": "اس کے بعد ہم نے بنی اسرائیل سے فرما دیا کہ اس سرزمین[1] پر تم رہو سہو۔ ہاں جب آخرت کا وعده آئے گا ہم تم سب کو سمیٹ اور لپیٹ کر لے آئیں گے.",
+      "en": "And We said after him [i.e., Pharaoh] to the Children of Israel, \"Dwell in the land, and when there comes the promise [i.e., appointment] of the Hereafter, We will bring you forth in [one] gathering.\"",
+      "footnotesUr": "[1] بظاہر اس سرزمین جس سے فرعون نے موسیٰ (عليه السلام) اور ان کی قوم کو نکالنے کا ارادہ کیا تھا۔ مگر تاریخ بنی اسرائیل کی شہادت یہ ہے کہ مصر سے نکلنے کے بعد دوبارہ مصر نہیں گئے، بلکہ چالیس سال میدان تیہ میں گزار کر فلسطین میں داخل ہوئے۔ اس کی شہادت سورہ اعراف وغیرہ میں قرآن کے بیان سے ملتی ہے۔ اس لئے صحیح یہی ہے کہ اس سے مراد فلسطین کی سرزمین ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَّقُلْنَا",
+          "ur": "اور کہا ہم نے",
+          "en": "And We said",
+          "arTajweed": "وَقُلْنَا"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "اس کے",
+          "en": "after him",
+          "arTajweed": "مِن<span class=\"tj-iqlab\">ۢ</span>"
+        },
+        {
+          "ar": "بَعْدِهٖ",
+          "ur": "بعد",
+          "en": "after him",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َعْدِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "لِبَنِیْۤ",
+          "ur": "بنی اسرائیل  کے لئے",
+          "en": "to the Children of Israel",
+          "arTajweed": "لِبَنِ<span class=\"tj-madda-permissible\">ىٓ</span>"
+        },
+        {
+          "ar": "اِسْرَآءِیْلَ",
+          "ur": "اسرائیل",
+          "en": "to the Children of Israel",
+          "arTajweed": "إِسْرَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ءِيلَ"
+        },
+        {
+          "ar": "اسْكُنُوا",
+          "ur": "بس جاؤ",
+          "en": "Dwell",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>سْكُنُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الْاَرْضَ",
+          "ur": "زمین میں",
+          "en": "(in) the land",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضَ"
+        },
+        {
+          "ar": "فَاِذَا",
+          "ur": "پھر جب",
+          "en": "then when",
+          "arTajweed": "فَإِذَا"
+        },
+        {
+          "ar": "جَآءَ",
+          "ur": "آجائے گا",
+          "en": "comes",
+          "arTajweed": "جَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
+        },
+        {
+          "ar": "وَعْدُ",
+          "ur": "وقت",
+          "en": "(the) promise",
+          "arTajweed": "وَعْدُ"
+        },
+        {
+          "ar": "الْاٰخِرَةِ",
+          "ur": "آخرت کا",
+          "en": "(of) the Hereafter",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ"
+        },
+        {
+          "ar": "جِئْنَا",
+          "ur": "لے آئیں گے ہم",
+          "en": "We will bring",
+          "arTajweed": "جِئْنَا"
+        },
+        {
+          "ar": "بِكُمْ",
+          "ur": "تم کو",
+          "en": "you",
+          "arTajweed": "بِكُمْ"
+        },
+        {
+          "ar": "لَفِیْفًا",
+          "ur": "جم کر کے/ لپیٹ کر",
+          "en": "(as) a mixed crowd",
+          "arTajweed": "لَفِيفًا"
+        }
+      ],
+      "arTajweed": "وَقُلْنَا مِن<span class=\"tj-iqlab\">ۢ ب</span>َعْدِهِ<span class=\"tj-madda-normal\">ۦ</span> لِبَنِ<span class=\"tj-madda-permissible\">ىٓ</span> إِسْرَ<span class=\"tj-madda-obligatory\">ٰٓ</span>ءِيلَ <span class=\"tj-ham-wasl\">ٱ</span>سْكُنُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضَ فَإِذَا جَ<span class=\"tj-madda-obligatory\">آ</span>ءَ وَعْدُ <span class=\"tj-ham-wasl\">ٱ</span>لْءَاخِرَةِ جِئْنَا بِكُمْ لَفِيفًا"
+    },
+    {
+      "number": 105,
+      "arFull": "وَبِالْحَقِّ اَنْزَلْنٰهُ وَبِالْحَقِّ نَزَلَ ؕ وَمَاۤ اَرْسَلْنٰكَ اِلَّا مُبَشِّرًا وَّنَذِیْرًا ۟ۘ",
+      "ur": "اور ہم نے اس قرآن کو حق کے ساتھ اتارا اور یہ بھی حق کے ساتھ اترا[1] ۔ ہم نے آپ کو صرف خوشخبری سنانے واﻻ اور ڈرانے واﻻ[2] بنا کر بھیجا ہے.",
+      "en": "And with the truth We have sent it [i.e., the Qur’ān] down, and with the truth it has descended. And We have not sent you, [O Muḥammad], except as a bringer of good tidings and a warner.",
+      "footnotesUr": "[1] یعنی با حفاظت آپ تک پہنچ گیا، اس میں راستے میں کوئی کمی بیشی اور کوئی تبدیلی اور آمیزش نہیں کی گئی اس لئے کہ اس کو لانے والا فرشتہ۔ شَدِيدُ الْقُوَى، الأَمِينُ، الْمَكِينُ اور الْمُطَاعُ فِي الْمَلإِ الأَعْلَى ہے۔ یہ وہ صفات ہیں جو حضرت جبرائیل (عليه السلام) کے متعلق قرآن میں بیان کی گئی ہیں۔\n[2] مُبَشِّرٌ اطاعت گزار مومن کے لئے اور نَذِيرٌ نافرمان کے لئے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَبِالْحَقِّ",
+          "ur": "اور حق کے ساتھ",
+          "en": "And with the truth",
+          "arTajweed": "وَبِ<span class=\"tj-ham-wasl\">ٱ</span>لْحَقِّ"
+        },
+        {
+          "ar": "اَنْزَلْنٰهُ",
+          "ur": "نازل کیا ہم نے اس کو",
+          "en": "We sent it down",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">نزَ</span>لْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ"
+        },
+        {
+          "ar": "وَبِالْحَقِّ",
+          "ur": "اور حق ہی کے ساتھ",
+          "en": "and with the truth",
+          "arTajweed": "وَبِ<span class=\"tj-ham-wasl\">ٱ</span>لْحَقِّ"
+        },
+        {
+          "ar": "نَزَلَ ؕ",
+          "ur": "وہ اترا",
+          "en": "it descended",
+          "arTajweed": "نَزَلَ"
+        },
+        {
+          "ar": "وَمَاۤ",
+          "ur": "اور نہیں",
+          "en": "And not",
+          "arTajweed": "وَمَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَرْسَلْنٰكَ",
+          "ur": "بھیجا ہم نے آپ کو",
+          "en": "We sent you",
+          "arTajweed": "أَرْسَلْنَ<span class=\"tj-madda-normal\">ٰ</span>كَ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "مُبَشِّرًا",
+          "ur": "خوش خبری دینے والا",
+          "en": "(as) a bearer of glad tidings",
+          "arTajweed": "مُبَشِّر<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "وَّنَذِیْرًا",
+          "ur": "اور ڈرانے والا",
+          "en": "and a warner",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>نَذِيرًا"
+        }
+      ],
+      "arTajweed": "وَبِ<span class=\"tj-ham-wasl\">ٱ</span>لْحَقِّ أَ<span class=\"tj-ikhafa\">نزَ</span>لْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ وَبِ<span class=\"tj-ham-wasl\">ٱ</span>لْحَقِّ نَزَلَ وَمَ<span class=\"tj-madda-permissible\">آ</span> أَرْسَلْنَ<span class=\"tj-madda-normal\">ٰ</span>كَ إِلَّا مُبَشِّر<span class=\"tj-idgham-ghunnah\">ًا وَ</span>نَذِيرًا"
+    },
+    {
+      "number": 106,
+      "arFull": "وَقُرْاٰنًا فَرَقْنٰهُ لِتَقْرَاَهٗ عَلَی النَّاسِ عَلٰی مُكْثٍ وَّنَزَّلْنٰهُ تَنْزِیْلًا ۟",
+      "ur": "قرآن کو ہم نے تھوڑا تھوڑا کرکے اس لئے اتارا[1] ہے کہ آپ اسے بہ مہلت لوگوں کو سنائیں اور ہم نے خود بھی اسے بتدریج نازل فرمایا.",
+      "en": "And [it is] a Qur’ān which We have separated [by intervals] that you might recite it to the people over a prolonged period. And We have sent it down progressively.",
+      "footnotesUr": "[1] فَرَقْنَاهُ کے ایک دوسرے معنی بَيَّنَّاهُ وَأَوْضَحْنَاهُ (ہم نے اسے کھول کر وضاحت سے بیان کر دیا) بھی کئے گئے ہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَقُرْاٰنًا",
+          "ur": "اور قرآن",
+          "en": "And the Quran",
+          "arTajweed": "وَقُرْءَان<span class=\"tj-ikhafa\">ًا</span>"
+        },
+        {
+          "ar": "فَرَقْنٰهُ",
+          "ur": "الگ الگ کردیا ہم نے اس کو",
+          "en": "We have divided",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>رَ<span class=\"tj-qalaqah\">قْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>هُ"
+        },
+        {
+          "ar": "لِتَقْرَاَهٗ",
+          "ur": "تاکہ تم پڑھو اس کو",
+          "en": "that you might recite it",
+          "arTajweed": "لِتَ<span class=\"tj-qalaqah\">قْ</span>رَأَهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "عَلَی",
+          "ur": "پر",
+          "en": "to",
+          "arTajweed": "عَلَى"
+        },
+        {
+          "ar": "النَّاسِ",
+          "ur": "لوگوں",
+          "en": "the people",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ"
+        },
+        {
+          "ar": "عَلٰی",
+          "ur": "پر",
+          "en": "at",
+          "arTajweed": "عَلَىٰ"
+        },
+        {
+          "ar": "مُكْثٍ",
+          "ur": "آہستگی سے/ ٹھہر ٹھہر کر",
+          "en": "intervals",
+          "arTajweed": "مُكْث<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّنَزَّلْنٰهُ",
+          "ur": "اور نازل کیا ہم نے اس کو",
+          "en": "And We have revealed it",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>نَزَّلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ"
+        },
+        {
+          "ar": "تَنْزِیْلًا",
+          "ur": "آہستہ آہستہ نازل کرنا",
+          "en": "(in) stages",
+          "arTajweed": "تَ<span class=\"tj-ikhafa\">نزِ</span>يلًا"
+        }
+      ],
+      "arTajweed": "وَقُرْءَان<span class=\"tj-ikhafa\">ًا فَ</span>رَ<span class=\"tj-qalaqah\">قْ</span>نَ<span class=\"tj-madda-normal\">ٰ</span>هُ لِتَ<span class=\"tj-qalaqah\">قْ</span>رَأَهُ<span class=\"tj-madda-normal\">ۥ</span> عَلَى <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>اسِ عَلَىٰ مُكْث<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>نَزَّلْنَ<span class=\"tj-madda-normal\">ٰ</span>هُ تَ<span class=\"tj-ikhafa\">نزِ</span>يلًا"
+    },
+    {
+      "number": 107,
+      "arFull": "قُلْ اٰمِنُوْا بِهٖۤ اَوْ لَا تُؤْمِنُوْا ؕ اِنَّ الَّذِیْنَ اُوْتُوا الْعِلْمَ مِنْ قَبْلِهٖۤ اِذَا یُتْلٰی عَلَیْهِمْ یَخِرُّوْنَ لِلْاَذْقَانِ سُجَّدًا ۟ۙ",
+      "ur": "کہہ دیجئیے! تم اس پر ایمان ﻻؤ یا نہ ﻻؤ جنہیں اس سے پہلے علم دیا گیا ہے ان کے پاس تو جب بھی اس کی تلاوت کی جاتی ہے تو وه ٹھوڑیوں کے بل سجده میں گر پڑتے ہیں.[1]",
+      "en": "Say, \"Believe in it or do not believe.\" Indeed, those who were given knowledge before it[777] - when it is recited to them, they fall upon their faces in prostration,",
+      "footnotesUr": "[1] یعنی وہ علماء جنہوں نے نزول قرآن سے قبل کتب سابقہ پڑھی ہیں اور وہ وحی کی حقیقت اور رسالت کی علامات سے واقف ہیں، وہ سجدہ ریز ہوتے ہیں، اس بات پر اللہ کا شکر ادا کرتے ہوئے کہ انہیں آخری رسول (صلى الله عليه وسلم) کی پہچان کی توفیق دی اور قرآن و رسالت پر ایمان لانے کی سعادت نصیب فرمائی۔",
+      "footnotesEn": "[777] i.e., the righteous among the People of the Scriptures who recognize the truth contained in the Qur’ān.",
+      "words": [
+        {
+          "ar": "قُلْ",
+          "ur": "کہہ دیجئے",
+          "en": "Say",
+          "arTajweed": "قُلْ"
+        },
+        {
+          "ar": "اٰمِنُوْا",
+          "ur": "ایمان لاؤ",
+          "en": "Believe",
+          "arTajweed": "ءَامِنُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "بِهٖۤ",
+          "ur": "ساتھ اس کے",
+          "en": "in it",
+          "arTajweed": "بِهِ<span class=\"tj-madda-permissible\">ۦٓ</span>"
+        },
+        {
+          "ar": "اَوْ",
+          "ur": "یا",
+          "en": "or",
+          "arTajweed": "أَوْ"
+        },
+        {
+          "ar": "لَا",
+          "ur": "نہ",
+          "en": "(do) not",
+          "arTajweed": "لَا"
+        },
+        {
+          "ar": "تُؤْمِنُوْا ؕ",
+          "ur": "تم ایمان لاؤ",
+          "en": "believe",
+          "arTajweed": "تُؤْمِنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اِنَّ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "الَّذِیْنَ",
+          "ur": "وہ لوگ",
+          "en": "those who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ"
+        },
+        {
+          "ar": "اُوْتُوا",
+          "ur": "جو دیئے گئے",
+          "en": "were given",
+          "arTajweed": "أُوتُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الْعِلْمَ",
+          "ur": "علم",
+          "en": "the knowledge",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْعِلْمَ"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "اس سے",
+          "en": "before it",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "قَبْلِهٖۤ",
+          "ur": "پہلے",
+          "en": "before it",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span><span class=\"tj-qalaqah\">بْ</span>لِهِ<span class=\"tj-madda-permissible\">ۦٓ</span>"
+        },
+        {
+          "ar": "اِذَا",
+          "ur": "جب",
+          "en": "when",
+          "arTajweed": "إِذَا"
+        },
+        {
+          "ar": "یُتْلٰی",
+          "ur": "پڑھی جاتی ہیں",
+          "en": "it is recited",
+          "arTajweed": "يُتْلَىٰ"
+        },
+        {
+          "ar": "عَلَیْهِمْ",
+          "ur": "ان پر (ہماری آیات)",
+          "en": "to them",
+          "arTajweed": "عَلَيْهِمْ"
+        },
+        {
+          "ar": "یَخِرُّوْنَ",
+          "ur": "گرپڑتے ہیں",
+          "en": "they fall",
+          "arTajweed": "يَخِرُّونَ"
+        },
+        {
+          "ar": "لِلْاَذْقَانِ",
+          "ur": "ٹھوڑیوں کے بل",
+          "en": "on their faces",
+          "arTajweed": "لِلْأَذْقَانِ"
+        },
+        {
+          "ar": "سُجَّدًا",
+          "ur": "سجدہ کرتے ہوئے",
+          "en": "(in) prostration",
+          "arTajweed": "سُجَّدًا"
+        }
+      ],
+      "arTajweed": "قُلْ ءَامِنُو<span class=\"tj-slnt\">ا۟</span> بِهِ<span class=\"tj-madda-permissible\">ۦٓ</span> أَوْ لَا تُؤْمِنُ<span class=\"tj-madda-permissible\">وٓ</span><span class=\"tj-slnt\">ا۟</span> إِ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>لَّذِينَ أُوتُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>لْعِلْمَ مِ<span class=\"tj-ikhafa\">ن قَ</span><span class=\"tj-qalaqah\">بْ</span>لِهِ<span class=\"tj-madda-permissible\">ۦٓ</span> إِذَا يُتْلَىٰ عَلَيْهِمْ يَخِرُّونَ لِلْأَذْقَانِ سُجَّدًا"
+    },
+    {
+      "number": 108,
+      "arFull": "وَّیَقُوْلُوْنَ سُبْحٰنَ رَبِّنَاۤ اِنْ كَانَ وَعْدُ رَبِّنَا لَمَفْعُوْلًا ۟",
+      "ur": "اور کہتے ہیں کہ ہمارا رب پاک ہے، ہمارے رب کا وعده بلاشک وشبہ پورا ہو کر رہنے[1] واﻻ ہی ہے.",
+      "en": "And they say, \"Exalted is our Lord! Indeed, the promise of our Lord has been fulfilled.\"",
+      "footnotesUr": "[1] مطلب یہ ہے کہ یہ کفار مکہ جو ہرچیز سے ناواقف ہیں اگر یہ ایمان نہیں لاتے تو آپ پروا نہ کریں اس لیے کہ جو اہل علم ہیں اور وحی ورسالت کی حقیقت سے آشنا ہیں وہ اس پر ایمان لے آئے ہیں بلکہ قرآن سن کر وہ بارگاہ الہی میں سجدہ ریز ہوگئے ہیں اور اس کی پاکیزگی بیان کرتے اور رب کے وعدوں پر یقین رکھتے ہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَّیَقُوْلُوْنَ",
+          "ur": "اور وہ کہتے ہیں",
+          "en": "And they say",
+          "arTajweed": "وَيَقُولُونَ"
+        },
+        {
+          "ar": "سُبْحٰنَ",
+          "ur": "پاک ہے",
+          "en": "Glory be to",
+          "arTajweed": "سُ<span class=\"tj-qalaqah\">بْ</span>حَ<span class=\"tj-madda-normal\">ٰ</span>نَ"
+        },
+        {
+          "ar": "رَبِّنَاۤ",
+          "ur": "رب ہمارا",
+          "en": "our Lord",
+          "arTajweed": "رَبِّنَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اِنْ",
+          "ur": "بیشک",
+          "en": "Indeed",
+          "arTajweed": "إِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "كَانَ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span>انَ"
+        },
+        {
+          "ar": "وَعْدُ",
+          "ur": "وعدہ",
+          "en": "(the) promise",
+          "arTajweed": "وَعْدُ"
+        },
+        {
+          "ar": "رَبِّنَا",
+          "ur": "ہمارے رب کا",
+          "en": "(of) our Lord",
+          "arTajweed": "رَبِّنَا"
+        },
+        {
+          "ar": "لَمَفْعُوْلًا",
+          "ur": "البتہ ہوکر رہنے والا",
+          "en": "surely fulfilled",
+          "arTajweed": "لَمَفْعُولًا"
+        }
+      ],
+      "arTajweed": "وَيَقُولُونَ سُ<span class=\"tj-qalaqah\">بْ</span>حَ<span class=\"tj-madda-normal\">ٰ</span>نَ رَبِّنَ<span class=\"tj-madda-permissible\">آ</span> إِ<span class=\"tj-ikhafa\">ن كَ</span>انَ وَعْدُ رَبِّنَا لَمَفْعُولًا"
+    },
+    {
+      "number": 109,
+      "arFull": "وَیَخِرُّوْنَ لِلْاَذْقَانِ یَبْكُوْنَ وَیَزِیْدُهُمْ خُشُوْعًا ۟",
+      "ur": "وه اپنی ٹھوڑیوں کے بل روتے ہوئے سجده میں گر پڑ تے ہیں اور یہ قرآن ان کی عاجزی اور خشوع اور خضوع بڑھا دیتا ہے.[1]",
+      "en": "And they fall upon their faces weeping, and it [i.e., the Qur’ān] increases them in humble submission.",
+      "footnotesUr": "[1] ٹھوڑیوں کے بل سجدے میں گر پڑنے کا دوبارہ ذکر کیا، کیونکہ پہلا سجدہ اللہ کی تعظیم کے لئے اور بطور شکر تھا اور قرآن سن کر جو خشیت و رقت ان پر طاری ہوئی اور اس کی تاثیر و اعجاز سے جس درجہ وہ متأثر ہوئے، اس نے دوبارہ انہیں سجدہ ریز کر دیا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَیَخِرُّوْنَ",
+          "ur": "اور وہ گرپڑتے ہیں",
+          "en": "And they fall",
+          "arTajweed": "وَيَخِرُّونَ"
+        },
+        {
+          "ar": "لِلْاَذْقَانِ",
+          "ur": "ٹھوڑیوں کے بل",
+          "en": "on their faces",
+          "arTajweed": "لِلْأَذْقَانِ"
+        },
+        {
+          "ar": "یَبْكُوْنَ",
+          "ur": "روتے ہیں",
+          "en": "weeping",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">بْ</span>كُونَ"
+        },
+        {
+          "ar": "وَیَزِیْدُهُمْ",
+          "ur": "اور وہ بڑھا دیتا ہے ان کو",
+          "en": "and it increases them",
+          "arTajweed": "وَيَزِيدُهُمْ"
+        },
+        {
+          "ar": "خُشُوْعًا",
+          "ur": "عاجزی میں/ خشوع میں",
+          "en": "(in) humility",
+          "arTajweed": "خُشُوعًا"
+        }
+      ],
+      "arTajweed": "وَيَخِرُّونَ لِلْأَذْقَانِ يَ<span class=\"tj-qalaqah\">بْ</span>كُونَ وَيَزِيدُهُمْ خُشُوعًا"
+    },
+    {
+      "number": 110,
+      "arFull": "قُلِ ادْعُوا اللّٰهَ اَوِ ادْعُوا الرَّحْمٰنَ ؕ اَیًّا مَّا تَدْعُوْا فَلَهُ الْاَسْمَآءُ الْحُسْنٰی ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَابْتَغِ بَیْنَ ذٰلِكَ سَبِیْلًا ۟",
+      "ur": "کہہ دیجئیے کہ اللہ کو اللہ کہہ کر پکارو یا رحمٰن کہہ کر، جس نام سے بھی پکارو تمام اچھے نام اسی کے ہیں[1] ۔ نہ تو تو اپنی نماز بہت بلند آواز سے پڑھ اور نہ بالکل پوشیده بلکہ اس کے درمیان کا راستہ تلاش کرلے.[2]",
+      "en": "Say, \"Call upon Allāh or call upon the Most Merciful [ar-Raḥmān]. Whichever [name] you call - to Him belong the best names.\" And do not recite [too] loudly in your prayer or [too] quietly but seek between that an [intermediate] way.",
+      "footnotesUr": "[1] جس طرح کہ پہلے گزر چکا ہے کہ مشرکین مکہ کے لئے اللہ کا صفتی نام ”رحمٰن“ یا ”رحیم“ نامانوس تھا اور بعض آثار میں آتا ہے کہ بعض مشرکین نے نبی (صلى الله عليه وسلم) کی زبان مبارک سے یا رحمٰن و رحیم کے الفاظ سنے تو کہا کہ ہمیں تو یہ کہتا ہے کہ صرف ایک اللہ کو پکارو اور خود دو معبودوں کو پکار رہا ہے۔ جس پر یہ آیت نازل ہوئی (ابن کثیر)\n[2] اس کی شان نزول میں حضرت ابن عباس (رضي الله عنه) بیان فرماتے ہیں کہ مکے میں رسول اللہ (صلى الله عليه وسلم) چھپ کر رہتے تھے، جب اپنے ساتھیوں کو نماز پڑھاتے تو آواز قدرے بلند فرما لیتے، مشرکین قرآن سن کر قرآن کو اور اللہ کو گالی گلوچ کرتے، اللہ تعالٰی نے فرمایا، اپنی آواز کو اتنا اونچا نہ کرو کہ مشرکین سن کر قرآن کو برا بھلا کہیں اور نہ آواز اتنی پست کرو کہ صحابہ (رضي الله عنهم) بھی نہ سن سکیں( البخاري- التوحيد، باب قول الله تعالى أنزله بعلمه والملائكة يشهدون- ومسلم، الصلاة، باب التوسط في القراءة )، خود نبی (صلى الله عليه وسلم) کا واقعہ ہے کہ ایک رات نبی (صلى الله عليه وسلم) کا گزر حضرت ابو بکر صدیق (رضي الله عنه) کی طرف سے ہوا تو وہ پست آواز سے نماز پڑھ رہے ہیں، پھر حضرت عمر (رضي الله عنه) کو بھی دیکھنے کا اتفاق ہوا تو وہ اونچی آواز سے نماز پڑھ رہے تھے۔ آپ (صلى الله عليه وسلم) نے دونوں سے پوچھا تو حضرت ابو بکر صدیق (رضي الله عنه)نے فرمایا میں جس سے مصروف مناجات تھا، وہ میری آواز سن رہا تھا، حضرت عمر (رضي الله عنه) نے جواب دیا کہ میرا مقصد سوتوں کو جگانا اور شیطان کو بھگانا تھا۔ آپ نے صدیق اکبر (رضي الله عنه) سے فرمایا ”اپنی آواز قدرے بلند کرو“ اور حضرت عمر (رضي الله عنه) سے کہا ”اپنی آواز کچھ پست رکھو“ ( مشكاة باب صلاة الليل، بحواله أبو داود ترمذي )۔ حضرت عائشہ (رضی الله عنها) فرماتی ہیں کہ یہ آیت دعا کے بارے میں نازل ہوئی ہے۔ (بخاری و مسلم، بحوالہ فتح القدیر)",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "قُلِ",
+          "ur": "کہہ دیجئے کہ",
+          "en": "Say",
+          "arTajweed": "قُلِ"
+        },
+        {
+          "ar": "ادْعُوا",
+          "ur": "پکارو",
+          "en": "Invoke",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "اللّٰهَ",
+          "ur": "اللہ کو",
+          "en": "Allah",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>للَّهَ"
+        },
+        {
+          "ar": "اَوِ",
+          "ur": "یا",
+          "en": "or",
+          "arTajweed": "أَوِ"
+        },
+        {
+          "ar": "ادْعُوا",
+          "ur": "پکارو",
+          "en": "invoke",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الرَّحْمٰنَ ؕ",
+          "ur": "الرحمن (کہہ کر)",
+          "en": "the Most Gracious",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّحْمَ<span class=\"tj-madda-normal\">ٰ</span>نَ"
+        },
+        {
+          "ar": "اَیًّا",
+          "ur": "جس کو بھی/ جس کسے ساتھ بھی",
+          "en": "By whatever (name)",
+          "arTajweed": "أَيّ<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "مَّا",
+          "ur": "جس کو بھی/ جس کسے ساتھ بھی",
+          "en": "By whatever (name)",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>ا"
+        },
+        {
+          "ar": "تَدْعُوْا",
+          "ur": "تم پکارو گے",
+          "en": "you invoke",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "فَلَهُ",
+          "ur": "تو اسی کے لئے ہیں",
+          "en": "to Him (belongs)",
+          "arTajweed": "فَلَهُ"
+        },
+        {
+          "ar": "الْاَسْمَآءُ",
+          "ur": "نام",
+          "en": "the Most Beautiful Names",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَسْمَ<span class=\"tj-madda-obligatory\">آ</span>ءُ"
+        },
+        {
+          "ar": "الْحُسْنٰی ۚ",
+          "ur": "اچھے",
+          "en": "the Most Beautiful Names",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْحُسْنَىٰ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "And (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تَجْهَرْ",
+          "ur": "تو بلند کر",
+          "en": "be loud",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">جْ</span>هَرْ"
+        },
+        {
+          "ar": "بِصَلَاتِكَ",
+          "ur": "اپنی نماز کو",
+          "en": "in your prayers",
+          "arTajweed": "بِصَلَاتِكَ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "and not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تُخَافِتْ",
+          "ur": "پست کر",
+          "en": "be silent",
+          "arTajweed": "تُخَافِتْ"
+        },
+        {
+          "ar": "بِهَا",
+          "ur": "اس کو",
+          "en": "therein",
+          "arTajweed": "بِهَا"
+        },
+        {
+          "ar": "وَابْتَغِ",
+          "ur": "اور اختیار کر",
+          "en": "but seek",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">بْ</span>تَغِ"
+        },
+        {
+          "ar": "بَیْنَ",
+          "ur": "درمیان",
+          "en": "between",
+          "arTajweed": "بَيْنَ"
+        },
+        {
+          "ar": "ذٰلِكَ",
+          "ur": "اس کے",
+          "en": "that",
+          "arTajweed": "ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ"
+        },
+        {
+          "ar": "سَبِیْلًا",
+          "ur": "راستہ",
+          "en": "a way",
+          "arTajweed": "سَبِيلًا"
+        }
+      ],
+      "arTajweed": "قُلِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>للَّهَ أَوِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّحْمَ<span class=\"tj-madda-normal\">ٰ</span>نَ أَيّ<span class=\"tj-idgham-ghunnah\">ًا مَّ</span>ا تَ<span class=\"tj-qalaqah\">دْ</span>عُو<span class=\"tj-slnt\">ا۟</span> فَلَهُ <span class=\"tj-ham-wasl\">ٱ</span>لْأَسْمَ<span class=\"tj-madda-obligatory\">آ</span>ءُ <span class=\"tj-ham-wasl\">ٱ</span>لْحُسْنَىٰ وَلَا تَ<span class=\"tj-qalaqah\">جْ</span>هَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-qalaqah\">بْ</span>تَغِ بَيْنَ ذَ<span class=\"tj-madda-normal\">ٰ</span>لِكَ سَبِيلًا"
+    },
+    {
+      "number": 111,
+      "arFull": "وَقُلِ الْحَمْدُ لِلّٰهِ الَّذِیْ لَمْ یَتَّخِذْ وَلَدًا وَّلَمْ یَكُنْ لَّهٗ شَرِیْكٌ فِی الْمُلْكِ وَلَمْ یَكُنْ لَّهٗ وَلِیٌّ مِّنَ الذُّلِّ وَكَبِّرْهُ تَكْبِیْرًا ۟۠",
+      "ur": "اور یہ کہہ دیجیئے کہ تمام تعریفیں اللہ ہی کے لئے ہیں جو نہ اوﻻد رکھتا ہے نہ اپنی بادشاہت میں کسی کو شریک وساجھی رکھتا ہے اور نہ وه کمزور ہے کہ اسے کسی حمایتی کی ضرورت ہو اور تو اس کی پوری پوری بڑائی بیان کرتا ره.",
+      "en": "And say, \"Praise to Allāh, who has not taken a son and has had no partner in [His] dominion and has no [need of a] protector out of weakness; and glorify Him with [great] glorification.\"",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَقُلِ",
+          "ur": "اور کہہ دیجئے",
+          "en": "And say",
+          "arTajweed": "وَقُلِ"
+        },
+        {
+          "ar": "الْحَمْدُ",
+          "ur": "سب تعریف",
+          "en": "All Praise",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْحَمْدُ"
+        },
+        {
+          "ar": "لِلّٰهِ",
+          "ur": "اللہ کے لئے ہے",
+          "en": "(is) for Allah",
+          "arTajweed": "لِلَّهِ"
+        },
+        {
+          "ar": "الَّذِیْ",
+          "ur": "وہ ذات",
+          "en": "the One Who",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّذِى"
+        },
+        {
+          "ar": "لَمْ",
+          "ur": "نہیں",
+          "en": "has not taken",
+          "arTajweed": "لَمْ"
+        },
+        {
+          "ar": "یَتَّخِذْ",
+          "ur": "اس نے بنایا",
+          "en": "has not taken",
+          "arTajweed": "يَتَّخِذْ"
+        },
+        {
+          "ar": "وَلَدًا",
+          "ur": "کوئی بچہ/ کوئی بیٹا",
+          "en": "a son",
+          "arTajweed": "وَلَد<span class=\"tj-idgham-ghunnah\">ًا</span>"
+        },
+        {
+          "ar": "وَّلَمْ",
+          "ur": "اور نہیں",
+          "en": "and not",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>لَمْ"
+        },
+        {
+          "ar": "یَكُنْ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "يَكُ<span class=\"tj-idgham-wo-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "لَّهٗ",
+          "ur": "اس کے لئے",
+          "en": "for Him",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "شَرِیْكٌ",
+          "ur": "کوئی شریک",
+          "en": "a partner",
+          "arTajweed": "شَرِيك<span class=\"tj-ikhafa\">ٌ</span>"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "<span class=\"tj-ikhafa\">فِ</span>ى"
+        },
+        {
+          "ar": "الْمُلْكِ",
+          "ur": "بادشاہت",
+          "en": "the dominion",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُلْكِ"
+        },
+        {
+          "ar": "وَلَمْ",
+          "ur": "اور  نہیں",
+          "en": "and not",
+          "arTajweed": "وَلَمْ"
+        },
+        {
+          "ar": "یَكُنْ",
+          "ur": "ہے",
+          "en": "is",
+          "arTajweed": "يَكُ<span class=\"tj-idgham-wo-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "لَّهٗ",
+          "ur": "اس کے لئے",
+          "en": "for Him",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "وَلِیٌّ",
+          "ur": "کوئی مددگار",
+          "en": "any protector",
+          "arTajweed": "وَلِىّ<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "مِّنَ",
+          "ur": "سے",
+          "en": "out of",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span>نَ"
+        },
+        {
+          "ar": "الذُّلِّ",
+          "ur": "کمزوری",
+          "en": "weakness",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ذُّلِّ"
+        },
+        {
+          "ar": "وَكَبِّرْهُ",
+          "ur": "اور بڑائی بیان کر اس کی",
+          "en": "And magnify Him",
+          "arTajweed": "وَكَبِّرْهُ"
+        },
+        {
+          "ar": "تَكْبِیْرًا",
+          "ur": "بڑائی بیان کرنا/ پوری پوری بڑائی",
+          "en": "(with all) magnificence",
+          "arTajweed": "تَكْبِيرًۢا"
+        }
+      ],
+      "arTajweed": "وَقُلِ <span class=\"tj-ham-wasl\">ٱ</span>لْحَمْدُ لِلَّهِ <span class=\"tj-ham-wasl\">ٱ</span>لَّذِى لَمْ يَتَّخِذْ وَلَد<span class=\"tj-idgham-ghunnah\">ًا وَ</span>لَمْ يَكُ<span class=\"tj-idgham-wo-ghunnah\">ن لَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> شَرِيك<span class=\"tj-ikhafa\">ٌ فِ</span>ى <span class=\"tj-ham-wasl\">ٱ</span>لْمُلْكِ وَلَمْ يَكُ<span class=\"tj-idgham-wo-ghunnah\">ن لَّ</span>هُ<span class=\"tj-madda-normal\">ۥ</span> وَلِىّ<span class=\"tj-idgham-ghunnah\">ٌ مِّ</span>نَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ذُّلِّ وَكَبِّرْهُ تَكْبِيرًۢا"
+    }
+  ]
+};

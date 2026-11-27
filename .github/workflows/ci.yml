@@ -1,0 +1,70 @@
+name: Baseerah Kiosk CI
+
+on:
+  push:
+    branches: [ main, "feat/**" ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Verify Quran Build Pipeline & Integrity
+        run: |
+          python -m unittest tests/test_build.py
+          python -m unittest tests/test_kiosk.py
+
+      - name: Check Arabic Script Allowlist (No Hand-Typed Content)
+        run: |
+          python scripts/check_arabic_allowlist.py
+
+      - name: Validate SHA-256 Manifest against Raw Checked-Out Linux Bytes
+        run: |
+          python -c "
+          import json, hashlib, os, sys
+          with open('data/manifest.sha256.json', 'r', encoding='utf-8') as f:
+              manifest = json.load(f)
+          errors = []
+          for path, expected_hash in manifest.items():
+              if not os.path.exists(path):
+                  errors.append(f'Missing file on disk: {path}')
+                  continue
+              with open(path, 'rb') as f:
+                  raw_bytes = f.read()
+              actual_hash = hashlib.sha256(raw_bytes).hexdigest()
+              if actual_hash != expected_hash:
+                  errors.append(f'{path}: expected {expected_hash}, got {actual_hash}')
+          if errors:
+              print('MANIFEST INTEGRITY CHECK FAILED ON LINUX BYTES:', file=sys.stderr)
+              for err in errors:
+                  print('  ' + err, file=sys.stderr)
+              sys.exit(1)
+          print(f'All {len(manifest)} manifest files strictly verified against Linux raw bytes.')
+          "
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Dependencies
+        run: |
+          npm ci || npm install
+
+      - name: Install Playwright Browsers
+        run: |
+          npx playwright install --with-deps chromium
+
+      - name: Run Playwright E2E Test Suite
+        run: |
+          npx playwright test

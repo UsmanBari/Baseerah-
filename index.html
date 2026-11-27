@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baseerah — بصيرة</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <meta name="theme-color" content="#0E5A47">
+  <!-- Stops Android "auto dark" from repainting the light theme; the app has its own dark mode -->
+  <meta name="color-scheme" content="only light">
+  <!-- Preload ONLY the primary Urdu font needed for the first screen (Task 2 perf optimization) -->
+  <link rel="preload" href="fonts/noto-nastaliq-urdu.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/jakarta/plus-jakarta-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts-ui.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/phone.css">
+  <link rel="stylesheet" href="css/polish.css">
+  <link rel="stylesheet" href="css/theme-dark.css">
+</head>
+<body class="scale-normal theme-light" data-theme="light">
+  <div id="app-container" class="app-container">
+    <div class="screen active screen-home" dir="rtl">
+      <header class="home-header">
+        <div class="brand brand-interactive" id="brand-logo" role="button" tabindex="0" aria-label="Baseerah Kiosk">
+          <svg class="brand-mark" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true" focusable="false">
+            <rect width="48" height="48" rx="12" fill="#0E5A47"/>
+            <path d="M24 10 C 29 10, 34 13.5, 36 18.5 C 30 18, 24 22, 22.5 28.5 C 22 31, 22.5 33.5, 23.5 35.5 C 19 34.5, 15.5 30.5, 15.5 25.6 C 15.5 17, 19.5 10, 24 10 Z" fill="#E9C77B"/>
+          </svg>
+          <div class="brand-text">
+            <span class="brand-name">Baseerah</span>
+            <span class="brand-sub">Insight into Namaz &amp; Quran</span>
+          </div>
+        </div>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="ur">اردو</button>
+          <button type="button" class="lang-btn" data-lang="en">English</button>
+        </div>
+      </header>
+
+      <div class="home-intro">
+        <p id="home-bismillah" class="bismillah" lang="ar" dir="rtl"></p>
+        <p class="muted">Touch a card to begin</p>
+      </div>
+
+      <div class="home-cards">
+        <button type="button" class="home-card card-primary" data-nav="namaz">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#E9C77B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M12 3c2.5 2 4 4 4 6.5H8C8 7 9.5 5 12 3z"/>
+            <path d="M6 21V11h12v10"/>
+            <path d="M10 21v-4a2 2 0 0 1 4 0v4"/>
+            <path d="M3 21h18"/>
+          </svg>
+          <span class="card-ur" lang="ur" dir="rtl">نماز سیکھیں</span>
+          <span class="card-en">Learn Namaz</span>
+          <span class="card-sub">Step by step — what to do and what to recite</span>
+        </button>
+
+        <button type="button" class="home-card card-light" data-nav="surahs">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v16H5.5c-.8 0-1.5-.7-1.5-1.5z"/>
+            <path d="M20 5.5c0-.8-.7-1.5-1.5-1.5H13v16h5.5c.8 0 1.5-.7 1.5-1.5z"/>
+            <path d="M7 8h1.5M7 11h1.5M15.5 8H17M15.5 11H17"/>
+          </svg>
+          <span class="card-ur accent" lang="ur" dir="rtl">قرآن سمجھیں</span>
+          <span class="card-en">Understand the Quran</span>
+          <span class="card-sub muted">Every ayah, word by word, in Urdu and English</span>
+        </button>
+      </div>
+
+      <footer class="home-footer">
+        <button type="button" class="footer-link" data-nav="about">
+          About &amp; Sources · ذرائع اور اسناد
+        </button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Built data files (lean startup payload < 100 KB total; search_index.js is lazy-loaded on search) -->
+  <script defer src="data/index.js"></script>
+  <script defer src="data/metadata.js"></script>
+  <script defer src="data/juz.js"></script>
+  <script defer src="data/morphology.js"></script>
+  <!-- Modular ES application -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

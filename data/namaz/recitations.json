@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "status": "draft",
+  "reviewed_by": "pending-scholar-review",
+  "madhab": "Hanafi",
+  "sources": {
+    "quran": "Arabic: Tanzil; Urdu: Muhammad Junagarhi; English: Saheeh International (via QuranEnc)",
+    "adhkar": "Standard wording from the Sunnah with hadith references; Urdu and English meaning prepared for Baseerah"
+  },
+  "items": {
+    "takbeer": {
+      "id": "takbeer",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Takbeer",
+      "titleUr": "تکبیر",
+      "ar": "اللَّهُ أَكْبَرُ",
+      "ur": "اللہ سب سے بڑا ہے۔",
+      "en": "Allah is the Greatest.",
+      "ref": "Said when starting the prayer and when moving between positions (Bukhari 789)"
+    },
+    "thana": {
+      "id": "thana",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Thana",
+      "titleUr": "ثناء",
+      "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، وَتَبَارَكَ اسْمُكَ، وَتَعَالَىٰ جَدُّكَ، وَلَا إِلَٰهَ غَيْرُكَ",
+      "ur": "اے اللہ! تو پاک ہے اور تیری ہی حمد ہے، تیرا نام بہت برکت والا ہے، تیری شان بہت بلند ہے، اور تیرے سوا کوئی معبود نہیں۔",
+      "en": "Glory be to You, O Allah, and all praise is Yours. Blessed is Your name, exalted is Your majesty, and there is no god but You.",
+      "ref": "Abu Dawud 775, Tirmidhi 242",
+      "note": "Said quietly, once, after the first Takbeer."
+    },
+    "taawwudh": {
+      "id": "taawwudh",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Ta'awwudh",
+      "titleUr": "تعوذ",
+      "ar": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "ur": "میں شیطان مردود سے اللہ کی پناہ مانگتا ہوں۔",
+      "en": "I seek refuge in Allah from Satan, the rejected.",
+      "ref": "Based on Quran 16:98",
+      "note": "Said quietly in the first rak'ah, before Al-Fatihah."
+    },
+    "aameen": {
+      "id": "aameen",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Aameen",
+      "titleUr": "آمین",
+      "ar": "آمِين",
+      "ur": "اے اللہ! قبول فرما۔",
+      "en": "O Allah, accept.",
+      "ref": "Bukhari 780",
+      "note": "Said after finishing Al-Fatihah."
+    },
+    "ruku": {
+      "id": "ruku",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Tasbeeh in Ruku",
+      "titleUr": "رکوع کی تسبیح",
+      "ar": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+      "ur": "پاک ہے میرا رب جو بڑی عظمت والا ہے۔",
+      "en": "Glory be to my Lord, the Most Great.",
+      "repeat": 3,
+      "ref": "Muslim 772, Abu Dawud 869"
+    },
+    "tasmee": {
+      "id": "tasmee",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Rising from Ruku",
+      "titleUr": "رکوع سے اٹھتے ہوئے",
+      "ar": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ",
+      "ur": "اللہ نے اُس کی سن لی جس نے اُس کی تعریف کی۔",
+      "en": "Allah hears the one who praises Him.",
+      "ref": "Bukhari 789",
+      "note": "Said while rising (the imam, or when praying alone)."
+    },
+    "tahmeed": {
+      "id": "tahmeed",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Standing after Ruku",
+      "titleUr": "قومہ",
+      "ar": "رَبَّنَا لَكَ الْحَمْدُ",
+      "ur": "اے ہمارے رب! سب تعریفیں تیرے ہی لیے ہیں۔",
+      "en": "Our Lord, all praise is Yours.",
+      "ref": "Bukhari 722, 789",
+      "note": "Said once standing straight."
+    },
+    "sajdah": {
+      "id": "sajdah",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Tasbeeh in Sajdah",
+      "titleUr": "سجدے کی تسبیح",
+      "ar": "سُبْحَانَ رَبِّيَ الْأَعْلَىٰ",
+      "ur": "پاک ہے میرا رب جو سب سے بلند ہے۔",
+      "en": "Glory be to my Lord, the Most High.",
+      "repeat": 3,
+      "ref": "Muslim 772, Abu Dawud 869",
+      "note": "Each rak'ah has two sajdahs; say this in both."
+    },
+    "jalsa": {
+      "id": "jalsa",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Between the two Sajdahs",
+      "titleUr": "دو سجدوں کے درمیان",
+      "ar": "رَبِّ اغْفِرْ لِي",
+      "ur": "اے میرے رب! مجھے بخش دے۔",
+      "en": "My Lord, forgive me.",
+      "ref": "Abu Dawud 874, Ibn Majah 897",
+      "note": "Sit up briefly between the two sajdahs."
+    },
+    "tashahhud": {
+      "id": "tashahhud",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Tashahhud (Attahiyyat)",
+      "titleUr": "تشہد (التحیات)",
+      "ar": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَىٰ عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "ur": "تمام قولی، بدنی اور مالی عبادتیں اللہ ہی کے لیے ہیں۔ اے نبی! آپ پر سلام ہو اور اللہ کی رحمت اور اس کی برکتیں۔ ہم پر اور اللہ کے نیک بندوں پر سلام ہو۔ میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، اور میں گواہی دیتا ہوں کہ محمد ﷺ اس کے بندے اور رسول ہیں۔",
+      "en": "All greetings, prayers and good things are for Allah. Peace be upon you, O Prophet, and the mercy of Allah and His blessings. Peace be upon us and upon the righteous servants of Allah. I bear witness that there is no god but Allah, and I bear witness that Muhammad is His servant and Messenger.",
+      "ref": "Bukhari 831, Muslim 402 (narrated by Ibn Mas'ud)",
+      "note": "Said in every sitting."
+    },
+    "durood": {
+      "id": "durood",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Durood-e-Ibrahimi",
+      "titleUr": "درود ابراہیمی",
+      "ar": "اللَّهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ. اللَّهُمَّ بَارِكْ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "ur": "اے اللہ! محمد ﷺ اور آلِ محمد ﷺ پر رحمت نازل فرما، جیسے تو نے ابراہیمؑ اور آلِ ابراہیمؑ پر رحمت نازل فرمائی، بے شک تو تعریف والا، بزرگی والا ہے۔ اے اللہ! محمد ﷺ اور آلِ محمد ﷺ پر برکت نازل فرما، جیسے تو نے ابراہیمؑ اور آلِ ابراہیمؑ پر برکت نازل فرمائی، بے شک تو تعریف والا، بزرگی والا ہے۔",
+      "en": "O Allah, send prayers upon Muhammad and the family of Muhammad, as You sent prayers upon Ibrahim and the family of Ibrahim; indeed You are Praiseworthy, Glorious. O Allah, bless Muhammad and the family of Muhammad, as You blessed Ibrahim and the family of Ibrahim; indeed You are Praiseworthy, Glorious.",
+      "ref": "Bukhari 3370 (narrated by Ka'b ibn 'Ujrah)",
+      "note": "Said in the last sitting, after Tashahhud."
+    },
+    "salam": {
+      "id": "salam",
+      "kind": "dhikr",
+      "provenance": "baseerah-draft-with-hadith-reference",
+      "titleEn": "Salam",
+      "titleUr": "سلام",
+      "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+      "ur": "تم پر سلامتی ہو اور اللہ کی رحمت۔",
+      "en": "Peace be upon you and the mercy of Allah.",
+      "ref": "Abu Dawud 996, Tirmidhi 295",
+      "note": "Turn your face to the right and say it, then to the left and say it again."
+    },
+    "tasmiyah": {
+      "id": "tasmiyah",
+      "kind": "quran",
+      "provenance": "quran-data",
+      "titleEn": "Bismillah",
+      "titleUr": "بسم اللہ",
+      "ar": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِیْمِ ۟",
+      "ur": "شروع کرتا ہوں اللہ تعالیٰ کے نام سے جو بڑا مہربان نہایت رحم واﻻ ہے۔",
+      "en": "In the name of Allāh, the Entirely Merciful, the Especially Merciful.",
+      "ref": "Quran 1:1 (Al-Fatihah)",
+      "note": "Said quietly before Al-Fatihah in every rak'ah."
+    },
+    "fatihah": {
+      "id": "fatihah",
+      "kind": "quran",
+      "provenance": "quran-data",
+      "titleEn": "Surah Al-Fatihah",
+      "titleUr": "سورۃ الفاتحہ",
+      "ar": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَ ۟ۙ الرَّحْمٰنِ الرَّحِیْمِ ۟ۙ مٰلِكِ یَوْمِ الدِّیْنِ ۟ؕ اِیَّاكَ نَعْبُدُ وَاِیَّاكَ نَسْتَعِیْنُ ۟ؕ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَ ۟ۙ صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ۙ۬ۦ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَلَا الضَّآلِّیْنَ ۟۠",
+      "ur": "سب تعریف اللہ تعالیٰ کے لئے ہے جو تمام جہانوں کا پالنے واﻻ ہے۔ بڑا مہربان نہایت رحم کرنے واﻻ۔ بدلے کے دن (یعنی قیامت) کا مالک ہے۔ ہم صرف تیری ہی عبادت کرتے ہیں اور صرف تجھ ہی سے مدد چاہتے ہیں۔ ہمیں سیدھی (اور سچی) راه دکھا۔ ان لوگوں کی راه جن پر تو نے انعام کیا ان کی نہیں جن پر غضب کیا گیا (یعنی وه لوگ جنہوں نے حق کو پہچانا، مگر اس پر عمل پیرا نہیں ہوئے) اور نہ گمراہوں کی (یعنی وه لوگ جو جہالت کے سبب راه حق سے برگشتہ ہوگئے)۔",
+      "en": "[All] praise is [due] to Allāh, Lord of the worlds - The Entirely Merciful, the Especially Merciful, Sovereign of the Day of Recompense. It is You we worship and You we ask for help. Guide us to the straight path - The path of those upon whom You have bestowed favor, not of those who have earned [Your] anger or of those who are astray.",
+      "ref": "Quran 1:2-7 (Al-Fatihah)",
+      "note": "Recited in every rak'ah."
+    },
+    "ikhlas": {
+      "id": "ikhlas",
+      "kind": "quran",
+      "provenance": "quran-data",
+      "titleEn": "Another surah, e.g. Al-Ikhlas",
+      "titleUr": "کوئی سورت، مثلاً سورۃ الاخلاص",
+      "ar": "قُلْ هُوَ اللّٰهُ اَحَدٌ ۟ۚ اَللّٰهُ الصَّمَدُ ۟ۚ لَمْ یَلِدْ ۙ۬ وَلَمْ یُوْلَدْ ۟ۙ وَلَمْ یَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۟۠",
+      "ur": "آپ کہہ دیجئے کہ وه اللہ تعالیٰ ایک (ہی) ہے. اللہ تعالیٰ بے نیاز ہے. نہ اس سے کوئی پیدا ہوا نہ وه کسی سے پیدا ہوا. اور نہ کوئی اس کا ہمسر ہے.",
+      "en": "Say, \"He is Allāh, [who is] One, Allāh, the Eternal Refuge. He neither begets nor is born, Nor is there to Him any equivalent.\"",
+      "ref": "Quran 112:1-4 (Al-Ikhlas)",
+      "note": "In the first two rak'ahs (and every rak'ah of Sunnah and Witr), recite any surah or at least three short ayahs after Al-Fatihah."
+    },
+    "dua_masura": {
+      "id": "dua_masura",
+      "kind": "quran",
+      "provenance": "quran-data",
+      "titleEn": "Dua before Salam",
+      "titleUr": "سلام سے پہلے دعا",
+      "ar": "رَبِّ اجْعَلْنِیْ مُقِیْمَ الصَّلٰوةِ وَمِنْ ذُرِّیَّتِیْ ۖۗ رَبَّنَا وَتَقَبَّلْ دُعَآءِ ۟ رَبَّنَا اغْفِرْ لِیْ وَلِوَالِدَیَّ وَلِلْمُؤْمِنِیْنَ یَوْمَ یَقُوْمُ الْحِسَابُ ۟۠",
+      "ur": "اے میرے پالنے والے! مجھے نماز کا پابند رکھ اور میری اوﻻد سے بھی ، اے ہمارے رب میری دعا قبول فرما. اے ہمارے پروردگار! مجھے بخش دے اور میرے ماں باپ کو بھی بخش اور دیگر مومنوں کو بھی بخش جس دن حساب ہونے لگے.",
+      "en": "My Lord, make me an establisher of prayer, and [many] from my descendants. Our Lord, and accept my supplication. Our Lord, forgive me and my parents and the believers the Day the account is established.\"",
+      "ref": "Quran 14:40-41 (Ibrahim)",
+      "note": "Said in the last sitting, after Durood. This dua is from the Quran (Surah Ibrahim)."
+    }
+  },
+  "steps": {
+    "takbeer": [
+      "takbeer"
+    ],
+    "qiyam": [
+      "thana",
+      "taawwudh",
+      "tasmiyah",
+      "fatihah",
+      "aameen",
+      "ikhlas"
+    ],
+    "ruku": [
+      "takbeer",
+      "ruku",
+      "tasmee",
+      "tahmeed"
+    ],
+    "sajdah": [
+      "takbeer",
+      "sajdah",
+      "jalsa"
+    ],
+    "tashahhud": [
+      "tashahhud",
+      "durood",
+      "dua_masura"
+    ],
+    "salam": [
+      "salam"
+    ]
+  },
+  "order": [
+    "takbeer",
+    "qiyam",
+    "ruku",
+    "sajdah",
+    "tashahhud",
+    "salam"
+  ]
+}

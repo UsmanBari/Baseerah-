@@ -1,0 +1,29 @@
+{
+  "name": "baseerah",
+  "version": "1.0.0",
+  "description": "Baseerah — Commercial Quran and Namaz learning kiosk for mosques",
+  "private": true,
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:smoke": "node scripts/test_smoke_114_surahs.js",
+    "test:i18n": "node scripts/check_i18n_completeness.js",
+    "test:offline-audio": "node scripts/test_offline_audio.js",
+    "test:prayer": "node tests/test_prayer_times.js",
+    "test:notifications": "node tests/test_prayer_scheduler.js && node tests/test_push_functions.js && node tests/test_notifications_playwright.js",
+    "test:ci": "python -m unittest tests/test_build.py tests/test_kiosk.py && python scripts/check_arabic_allowlist.py && python scripts/check_shaping_harfbuzz.py && node scripts/check_i18n_completeness.js && node tests/test_prayer_times.js && node tests/test_bidi_isolation.js && node tests/test_theme_default.js && node tests/test_tajweed_css_guard.js && node tests/test_toolbar_pills.js && node tests/test_audio_state.js && node tests/test_hijri.mjs && node tests/test_words.mjs && node tests/test_word_timing.mjs && node tests/test_morphology.mjs && node scripts/check_responsive.js && node scripts/check_a11y_axe.js && node scripts/test_smoke_114_surahs.js && node scripts/test_offline_audio.js && node scripts/test_offline_start_page.js && node tests/test_glyph_integrity.js && node tests/test_no_raw_i18n_keys.js && node tests/test_prayer_scheduler.js && node tests/test_push_functions.js && node tests/test_notifications_playwright.js",
+    "test:perf": "node scripts/run_lighthouse.js",
+    "lighthouse": "node scripts/run_lighthouse.js",
+    "test:audio-state": "node tests/test_audio_state.js"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.1",
+    "chrome-launcher": "^1.2.3",
+    "lighthouse": "^13.6.0"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9",
+    "adhan": "^4.4.6",
+    "web-push": "^4.0.0"
+  }
+}

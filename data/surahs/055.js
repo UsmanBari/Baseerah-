@@ -1,0 +1,2971 @@
+window.BASEERAH_SURAH = {
+  "number": 55,
+  "nameAr": "الرحمن",
+  "nameEn": "Ar-Rahman",
+  "ayahs": [
+    {
+      "number": 1,
+      "arFull": "اَلرَّحْمٰنُ ۟ۙ",
+      "ur": "رحمٰن نے.",
+      "en": "The Most Merciful",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اَلرَّحْمٰنُ",
+          "ur": "الرحمان",
+          "en": "The Most Gracious",
+          "arTajweed": "ٱ<span class=\"tj-laam-shamsiyah\">ل</span>رَّحْمَ<span class=\"tj-madda-permissible\">ٰ</span>نُ"
+        }
+      ],
+      "arTajweed": "ٱ<span class=\"tj-laam-shamsiyah\">ل</span>رَّحْمَ<span class=\"tj-madda-permissible\">ٰ</span>نُ"
+    },
+    {
+      "number": 2,
+      "arFull": "عَلَّمَ الْقُرْاٰنَ ۟ؕ",
+      "ur": "قرآن سکھایا.[1]",
+      "en": "Taught the Qur’ān,",
+      "footnotesUr": "[1] کہتےہیں کہ یہ اہل مکہ کےجواب میں ہے جوکہتے تھے کہ یہ قرآن محمد (صلی اللہ علیہ وسلم) کو کوئی انسان سکھاتا ہے بعض کہتےہیں کہ ان کے اس قول کے جواب میں ہے کہ رحمٰن کیا ہے؟ قرآن سکھانے کا مطلب ہے، اسے آسان کر دیا، یااللہ نے اپنے پیغمبر کوسکھایا اور پیغمبر نے امت کو سکھایا۔ اس سورت میں اللہ نےاپنی بہت سی نعمتیں گنوائی ہیں۔ چونکہ تعلیم قرآن ان میں قدرومنزلت اور اہمیت وافادیت کے لحاظ سےسب سے نمایاں ہے، اس لیے پہلے اسی نعمت کا ذکر فرمایا ہے۔ (فتح القدیر)۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "عَلَّمَ",
+          "ur": "اس نے تعلیم دی",
+          "en": "He taught",
+          "arTajweed": "عَلَّمَ"
+        },
+        {
+          "ar": "الْقُرْاٰنَ",
+          "ur": "قرآن کی",
+          "en": "the Quran",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَ<span class=\"tj-madda-permissible\">ا</span>نَ"
+        }
+      ],
+      "arTajweed": "عَلَّمَ <span class=\"tj-ham-wasl\">ٱ</span>لْقُرْءَ<span class=\"tj-madda-permissible\">ا</span>نَ"
+    },
+    {
+      "number": 3,
+      "arFull": "خَلَقَ الْاِنْسَانَ ۟ۙ",
+      "ur": "اسی نے انسان کو پیدا کیا.[1]",
+      "en": "Created man,",
+      "footnotesUr": "[1] یعنی یہ بندر وغیرہ جانوروں سے ترقی کرتےکرتے انسان نہیں بن گئے ہیں۔ جیسا کہ دارون کا فلسفہ ارتقا ہے۔ بلکہ انسان کواسی شکل وصورت میں اللہ نے پیدا فرمایا ہے۔ جو جانوروں سے الگ ایک مستقل مخلوق ہے۔ انسان کا لفظ بطور جنس کے ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "خَلَقَ",
+          "ur": "اس نے پیدا کیا",
+          "en": "He created",
+          "arTajweed": "خَلَقَ"
+        },
+        {
+          "ar": "الْاِنْسَانَ",
+          "ur": "انسان کو",
+          "en": "[the] man",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-permissible\">ٰ</span>نَ"
+        }
+      ],
+      "arTajweed": "خَلَقَ <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-permissible\">ٰ</span>نَ"
+    },
+    {
+      "number": 4,
+      "arFull": "عَلَّمَهُ الْبَیَانَ ۟",
+      "ur": "اور اسے بولنا سکھایا.[1]",
+      "en": "[And] taught him eloquence.",
+      "footnotesUr": "[1] اس بیان سےمراد ہر شخص کی اپنی مادری بولی ہے جو بغیرسیکھے ازخود ہر شخص بول لیتا اور اس میں اپنے مافی الضمیر کا اظہار کر لیتاہے، حتیٰ کہ وہ چھوٹا بچہ بھی بولتا ہے، جس کو کسی بات کا علم اور شعور نہیں ہوتا۔ یہ اس تعلیم الٰہی کا نتیجہ ہے جس کا ذکر اس آیت میں ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "عَلَّمَهُ",
+          "ur": "سکھایا اس کو",
+          "en": "He taught him",
+          "arTajweed": "عَلَّمَهُ"
+        },
+        {
+          "ar": "الْبَیَانَ",
+          "ur": "بولنا",
+          "en": "[the] speech",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَيَ<span class=\"tj-madda-permissible\">ا</span>نَ"
+        }
+      ],
+      "arTajweed": "عَلَّمَهُ <span class=\"tj-ham-wasl\">ٱ</span>لْبَيَ<span class=\"tj-madda-permissible\">ا</span>نَ"
+    },
+    {
+      "number": 5,
+      "arFull": "اَلشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ ۟ۙ",
+      "ur": "آفتاب اور ماہتاب (مقرره) حساب سے ہیں.[1]",
+      "en": "The sun and the moon [move] by precise calculation,",
+      "footnotesUr": "[1] یعنی اللہ کے ٹھہرائے ہوئے حساب سے اپنی اپنی منزلوں پر رواں دواں رہتےہیں، ان سے تجاوز نہیں کرتے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اَلشَّمْسُ",
+          "ur": "سورج",
+          "en": "The sun",
+          "arTajweed": "ٱ<span class=\"tj-laam-shamsiyah\">ل</span>شَّمْسُ"
+        },
+        {
+          "ar": "وَالْقَمَرُ",
+          "ur": "اور چاند",
+          "en": "and the moon",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْقَمَرُ"
+        },
+        {
+          "ar": "بِحُسْبَانٍ",
+          "ur": "حساب کے ساتھ ہیں",
+          "en": "by (precise) calculation",
+          "arTajweed": "بِحُسْبَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+        }
+      ],
+      "arTajweed": "ٱ<span class=\"tj-laam-shamsiyah\">ل</span>شَّمْسُ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْقَمَرُ بِحُسْبَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+    },
+    {
+      "number": 6,
+      "arFull": "وَّالنَّجْمُ وَالشَّجَرُ یَسْجُدٰنِ ۟",
+      "ur": "اور ستارے اور درخت دونوں سجده کرتے ہیں.[1]",
+      "en": "And the stars and trees prostrate.[1593]",
+      "footnotesUr": "[1] جیسے دوسرےمقام پر فرمایا أَلَمْ تَرَ أَنَّ اللَّهَ يَسْجُدُ لَهُ مَنْ فِي السَّمَاوَاتِ وَمَنْ فِي الأَرْضِ وَالشَّمْسُ وَالْقَمَرُ وَالنُّجُومُ وَالْجِبَالُ وَالشَّجَرُ وَالدَّوَابُّ الآية (الحج: 18)۔",
+      "footnotesEn": "[1593] They submit obediently to the laws of Allāh. See 22:18. An additional meaning of \"najm\" is vegetation of a kind without a trunk, stalk or stem.",
+      "words": [
+        {
+          "ar": "وَّالنَّجْمُ",
+          "ur": "اور تارے",
+          "en": "And the stars",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-qalaqah\">جْ</span>مُ"
+        },
+        {
+          "ar": "وَالشَّجَرُ",
+          "ur": "اور درخت",
+          "en": "and the trees",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّجَرُ"
+        },
+        {
+          "ar": "یَسْجُدٰنِ",
+          "ur": "سجدہ کر رہے ہیں",
+          "en": "both prostrate",
+          "arTajweed": "يَسْجُدَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span><span class=\"tj-qalaqah\">جْ</span>مُ وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>شَّجَرُ يَسْجُدَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 7,
+      "arFull": "وَالسَّمَآءَ رَفَعَهَا وَوَضَعَ الْمِیْزَانَ ۟ۙ",
+      "ur": "اسی نے آسمان کو بلند کیا اور اسی نے ترازو رکھی.[1]",
+      "en": "And the heaven He raised and imposed the balance",
+      "footnotesUr": "[1] یعنی زمین میں انصاف رکھا، جس کا اس نے لوگوں کو حکم دیا، جیسے فرمایا: لَقَدْ أَرْسَلْنَا رُسُلَنَا بِالْبَيِّنَاتِ وَأَنْزَلْنَا مَعَهُمُ الْكِتَابَ وَالْمِيزَانَ لِيَقُومَ النَّاسُ بِالْقِسْطِ (الحديد: 25)۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَالسَّمَآءَ",
+          "ur": "اور آسمان",
+          "en": "And the heaven",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءَ"
+        },
+        {
+          "ar": "رَفَعَهَا",
+          "ur": "اس نے بلند کیا اس کو",
+          "en": "He raised it",
+          "arTajweed": "رَفَعَهَا"
+        },
+        {
+          "ar": "وَوَضَعَ",
+          "ur": "اور قائم کردی۔ رکھ دی",
+          "en": "and He has set up",
+          "arTajweed": "وَوَضَعَ"
+        },
+        {
+          "ar": "الْمِیْزَانَ",
+          "ur": "میزان",
+          "en": "the balance",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمِيزَ<span class=\"tj-madda-permissible\">ا</span>نَ"
+        }
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءَ رَفَعَهَا وَوَضَعَ <span class=\"tj-ham-wasl\">ٱ</span>لْمِيزَ<span class=\"tj-madda-permissible\">ا</span>نَ"
+    },
+    {
+      "number": 8,
+      "arFull": "اَلَّا تَطْغَوْا فِی الْمِیْزَانِ ۟",
+      "ur": "تاکہ تم تولنے میں تجاوز نہ کرو.[1]",
+      "en": "That you not transgress within the balance.",
+      "footnotesUr": "[1] یعنی انصاف سے تجاوز نہ کرو۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "اَلَّا",
+          "ur": "کہ نہ",
+          "en": "That not",
+          "arTajweed": "أَلَّا"
+        },
+        {
+          "ar": "تَطْغَوْا",
+          "ur": "تم خلل ڈالو۔ زیادتی کرو",
+          "en": "you may transgress",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">طْ</span>غَوْ<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْمِیْزَانِ",
+          "ur": "میزان",
+          "en": "the balance",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمِيزَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "أَلَّا تَ<span class=\"tj-qalaqah\">طْ</span>غَوْ<span class=\"tj-slnt\">ا۟</span> فِى <span class=\"tj-ham-wasl\">ٱ</span>لْمِيزَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 9,
+      "arFull": "وَاَقِیْمُوا الْوَزْنَ بِالْقِسْطِ وَلَا تُخْسِرُوا الْمِیْزَانَ ۟",
+      "ur": "انصاف کے ساتھ وزن کو ٹھیک رکھو اور تول میں کم نہ دو.",
+      "en": "And establish weight in justice and do not make deficient the balance.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَاَقِیْمُوا",
+          "ur": "اور قائم کرو۔ تولو",
+          "en": "And establish",
+          "arTajweed": "وَأَقِيمُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الْوَزْنَ",
+          "ur": "وزن کو",
+          "en": "the weight",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْوَزْنَ"
+        },
+        {
+          "ar": "بِالْقِسْطِ",
+          "ur": "انصاف کے ساتھ",
+          "en": "in justice",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span>لْقِسْطِ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "and (do) not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "تُخْسِرُوا",
+          "ur": "خسارہ کر کے دو ۔ نقصان دو",
+          "en": "make deficient",
+          "arTajweed": "تُخْسِرُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "الْمِیْزَانَ",
+          "ur": "میزان میں۔ ترازو میں",
+          "en": "the balance",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمِيزَ<span class=\"tj-madda-permissible\">ا</span>نَ"
+        }
+      ],
+      "arTajweed": "وَأَقِيمُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>لْوَزْنَ بِ<span class=\"tj-ham-wasl\">ٱ</span>لْقِسْطِ وَلَا تُخْسِرُو<span class=\"tj-slnt\">ا۟</span> <span class=\"tj-ham-wasl\">ٱ</span>لْمِيزَ<span class=\"tj-madda-permissible\">ا</span>نَ"
+    },
+    {
+      "number": 10,
+      "arFull": "وَالْاَرْضَ وَضَعَهَا لِلْاَنَامِ ۟ۙ",
+      "ur": "اور اسی نے مخلوق کے لیے زمین بچھا دی.",
+      "en": "And the earth He laid [out] for the creatures.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَالْاَرْضَ",
+          "ur": "اور زمین",
+          "en": "And the earth",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضَ"
+        },
+        {
+          "ar": "وَضَعَهَا",
+          "ur": "اس نے رکھ دیا اس کو",
+          "en": "He laid it",
+          "arTajweed": "وَضَعَهَا"
+        },
+        {
+          "ar": "لِلْاَنَامِ",
+          "ur": "مخلوقات کے لیے",
+          "en": "for the creatures",
+          "arTajweed": "لِلْأَنَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+        }
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضَ وَضَعَهَا لِلْأَنَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+    },
+    {
+      "number": 11,
+      "arFull": "فِیْهَا فَاكِهَةٌ وَّالنَّخْلُ ذَاتُ الْاَكْمَامِ ۟ۖ",
+      "ur": "جس میں میوے ہیں اور خوشے والے کھجور کے درخت ہیں.[1]",
+      "en": "Therein is fruit and palm trees having sheaths [of dates]",
+      "footnotesUr": "[1] أَكْمَامٌ، كِمٌّ کی جمع ہے وِعَاءُ التَّمْرِ، کھجور پر چڑھا ہوا غلاف۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فِیْهَا",
+          "ur": "اس میں",
+          "en": "Therein",
+          "arTajweed": "فِيهَا"
+        },
+        {
+          "ar": "فَاكِهَةٌ",
+          "ur": "پھل ہیں",
+          "en": "(is) fruit",
+          "arTajweed": "فَ<span class=\"tj-madda-normal\">ٰ</span>كِهَة<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "وَّالنَّخْلُ",
+          "ur": "اور کھجور کے درخت",
+          "en": "and date-palms",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span><span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>خْلُ"
+        },
+        {
+          "ar": "ذَاتُ",
+          "ur": "والے",
+          "en": "having",
+          "arTajweed": "ذَاتُ"
+        },
+        {
+          "ar": "الْاَكْمَامِ",
+          "ur": "خوشوں",
+          "en": "sheaths",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْأَكْمَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+        }
+      ],
+      "arTajweed": "فِيهَا فَ<span class=\"tj-madda-normal\">ٰ</span>كِهَة<span class=\"tj-idgham-ghunnah\">ٌ وَ</span><span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>خْلُ ذَاتُ <span class=\"tj-ham-wasl\">ٱ</span>لْأَكْمَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+    },
+    {
+      "number": 12,
+      "arFull": "وَالْحَبُّ ذُو الْعَصْفِ وَالرَّیْحَانُ ۟ۚ",
+      "ur": "اور بھس واﻻ اناج ہے[1] ۔ اور خوشبودار پھول ہیں.",
+      "en": "And grain having husks and scented plants.",
+      "footnotesUr": "[1] حَبٌّ سےمراد ہر وہ خوراک ہے جو انسان اور جانور کھاتے ہیں خشک ہو کراس کا پودا بھس بن جاتا ہے تو جانوروں کے کام آتا ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَالْحَبُّ",
+          "ur": "اور غلے",
+          "en": "And the grain",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْحَبُّ"
+        },
+        {
+          "ar": "ذُو",
+          "ur": "والے",
+          "en": "having",
+          "arTajweed": "ذُو"
+        },
+        {
+          "ar": "الْعَصْفِ",
+          "ur": "بھس",
+          "en": "husk",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْعَصْفِ"
+        },
+        {
+          "ar": "وَالرَّیْحَانُ",
+          "ur": "اور خوشبودار پھول",
+          "en": "and scented plants",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّيْحَ<span class=\"tj-madda-permissible\">ا</span>نُ"
+        }
+      ],
+      "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْحَبُّ ذُو <span class=\"tj-ham-wasl\">ٱ</span>لْعَصْفِ وَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>رَّيْحَ<span class=\"tj-madda-permissible\">ا</span>نُ"
+    },
+    {
+      "number": 13,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس (اے انسانو اور جنو!) تم اپنے پروردگار کی کس کس نعمت کو جھٹلاؤ گے؟[1]",
+      "en": "So which of the favors of your Lord would you deny?[1594]",
+      "footnotesUr": "[1] یہ انسانوں اور جنوں دونوں سے خطاب ہے۔ اللہ تعالیٰ اپنی نعتمیں گنوا کر ان سے پوچھ رہا ہے۔ یہ تکرار اس شخص کی طرح ہے جو کسی پرمسلسل احسان کرے لیکن وہ اس کے احسان کا منکر ہو، جیسے کہے، میں نے تیرا فلاں کام کیا، کیا تو انکار کرتا ہے؟ فلاں چیز تجھے دی، کیا تجھے یاد نہیں؟ تجھ پر فلاں احسان کیا، کیا تجھے ہمارا ذرا خیال نہیں؟ (فتح القدیر)۔",
+      "footnotesEn": "[1594] Literally, \"you two,\" addressing the species of mankind and jinn.",
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 14,
+      "arFull": "خَلَقَ الْاِنْسَانَ مِنْ صَلْصَالٍ كَالْفَخَّارِ ۟ۙ",
+      "ur": "اس نےانسان کو بجنے والی مٹی سے پیدا کیا جو ٹھیکری کی طرح تھی.[1]",
+      "en": "He created man from clay like [that of] pottery.",
+      "footnotesUr": "[1] صَلْصَالٍ خشک مٹی، جس میں آ واز ہو۔ فَخَّارٌ آگ میں پکی ہوئی مٹی، جسے ٹھیکری کہتےہیں۔ اس انسان سےمراد حضرت آدم (عليه السلام) ہیں، جن کا پہلے مٹی سے پتلا بنایا گیا اور پھر اس میں اللہ نے روح پھونکی۔ پھر حضرت آدم (عليه السلام) کی بائیں پسلی سے حوا کو پیدا فرمایا، اور پھر ان دونوں سے نسل انسانی چلی۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "خَلَقَ",
+          "ur": "اس نے پیدا کیا",
+          "en": "He created",
+          "arTajweed": "خَلَقَ"
+        },
+        {
+          "ar": "الْاِنْسَانَ",
+          "ur": "انسان کو",
+          "en": "the man",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نَ"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "صَلْصَالٍ",
+          "ur": "بجنے والی مٹی",
+          "en": "clay",
+          "arTajweed": "<span class=\"tj-ikhafa\">صَ</span>لْصَ<span class=\"tj-madda-normal\">ٰ</span>ل<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "كَالْفَخَّارِ",
+          "ur": "ٹھیکری کی طرح",
+          "en": "like the pottery",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span><span class=\"tj-ham-wasl\">ٱ</span>لْفَخَّ<span class=\"tj-madda-permissible\">ا</span>رِ"
+        }
+      ],
+      "arTajweed": "خَلَقَ <span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسَ</span><span class=\"tj-madda-normal\">ٰ</span>نَ مِ<span class=\"tj-ikhafa\">ن صَ</span>لْصَ<span class=\"tj-madda-normal\">ٰ</span>ل<span class=\"tj-ikhafa\">ٍ كَ</span><span class=\"tj-ham-wasl\">ٱ</span>لْفَخَّ<span class=\"tj-madda-permissible\">ا</span>رِ"
+    },
+    {
+      "number": 15,
+      "arFull": "وَخَلَقَ الْجَآنَّ مِنْ مَّارِجٍ مِّنْ نَّارٍ ۟ۚ",
+      "ur": "اور جنات کو آگ کے شعلے سے پیدا کیا.[1]",
+      "en": "And He created the jinn from a smokeless flame of fire.",
+      "footnotesUr": "[1] اس سے مراد سب سے پہلا جن ہے جو ابوالجن ہے، یا جن بطور جنس کے ہے۔ جیساکہ ترجمہ جنس کے اعتبار سے ہی کیا گیا ہے۔ مَارِجٍ آگ سے بلند ہونے والے شعلے کو کہتےہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَخَلَقَ",
+          "ur": "اور اس نے پیدا کیا",
+          "en": "And He created",
+          "arTajweed": "وَخَلَقَ"
+        },
+        {
+          "ar": "الْجَآنَّ",
+          "ur": "جن کو",
+          "en": "the jinn",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْجَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "سے",
+          "en": "from",
+          "arTajweed": "مِ<span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "مَّارِجٍ",
+          "ur": "شعلے والی",
+          "en": "a smokeless flame",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span>ارِج<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": "سے",
+          "en": "of",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "نَّارٍ",
+          "ur": "آگ",
+          "en": "fire",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نَّ</span><span class=\"tj-madda-permissible\">ا</span>رٍ"
+        }
+      ],
+      "arTajweed": "وَخَلَقَ <span class=\"tj-ham-wasl\">ٱ</span>لْجَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">نَّ</span> مِ<span class=\"tj-idgham-ghunnah\">ن مَّ</span>ارِج<span class=\"tj-idgham-ghunnah\">ٍ مِّ</span><span class=\"tj-idgham-ghunnah\">ن نَّ</span><span class=\"tj-madda-permissible\">ا</span>رٍ"
+    },
+    {
+      "number": 16,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟[1]",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": "[1] یعنی تمہاری یہ پیدائش بھی اور پھر تم سے مزید نسلوں کی تخلیق وافزائش، یہ اللہ کی نعمتوں میں سے ہے۔ کیا تم اس نعمت کا انکار کرو گے؟",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 17,
+      "arFull": "رَبُّ الْمَشْرِقَیْنِ وَرَبُّ الْمَغْرِبَیْنِ ۟ۚ",
+      "ur": "وه رب ہے دونوں مشرقوں اور دونوں مغربوں کا[1]",
+      "en": "[He is] Lord of the two sunrises and Lord of the two sunsets.[1595]",
+      "footnotesUr": "[1] ایک گرمی کا مشرق اورایک سردی کا مشرق، اسی طرح مغرب ہے۔ اس لیے دونوں کو تثنیہ ذکر کیاہے، موسموں کے اعتبار سے مشرق و مغرب کامختلف ہونا اس میں بھی انس و جن کی بہت سی مصلحتیں ہیں، اس لیے اسے بھی نعمت قرار دیا گیا ہے۔",
+      "footnotesEn": "[1595] i.e., the points of sunrise in the east and sunset in the west in both summer and winter.",
+      "words": [
+        {
+          "ar": "رَبُّ",
+          "ur": "رب ہے",
+          "en": "Lord",
+          "arTajweed": "رَبُّ"
+        },
+        {
+          "ar": "الْمَشْرِقَیْنِ",
+          "ur": "دو مشرقوں کا",
+          "en": "(of) the two Easts",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَشْرِقَيْنِ"
+        },
+        {
+          "ar": "وَرَبُّ",
+          "ur": "اور رب ہے",
+          "en": "and Lord",
+          "arTajweed": "وَرَبُّ"
+        },
+        {
+          "ar": "الْمَغْرِبَیْنِ",
+          "ur": "دو مغربوں کا",
+          "en": "(of) the two Wests",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمَغْرِبَ<span class=\"tj-madda-permissible\">ي</span>ْنِ"
+        }
+      ],
+      "arTajweed": "رَبُّ <span class=\"tj-ham-wasl\">ٱ</span>لْمَشْرِقَيْنِ وَرَبُّ <span class=\"tj-ham-wasl\">ٱ</span>لْمَغْرِبَ<span class=\"tj-madda-permissible\">ي</span>ْنِ"
+    },
+    {
+      "number": 18,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "تو (اے جنو اورانسانو!) تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 19,
+      "arFull": "مَرَجَ الْبَحْرَیْنِ یَلْتَقِیٰنِ ۟ۙ",
+      "ur": "اس نے دو دریا جاری کر دیے جو ایک دوسرے سے مل جاتے ہیں.",
+      "en": "He released the two seas,[1596] meeting [one another];",
+      "footnotesUr": null,
+      "footnotesEn": "[1596] Two bodies of water or two sea waters of distinct characteristics.",
+      "words": [
+        {
+          "ar": "مَرَجَ",
+          "ur": "اس نے چھوڑ دیا",
+          "en": "He released",
+          "arTajweed": "مَرَجَ"
+        },
+        {
+          "ar": "الْبَحْرَیْنِ",
+          "ur": "دو سمندروں کو",
+          "en": "the two seas",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرَيْنِ"
+        },
+        {
+          "ar": "یَلْتَقِیٰنِ",
+          "ur": "کہ دونوں باہم مل جائیں",
+          "en": "meeting",
+          "arTajweed": "يَلْتَقِيَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "مَرَجَ <span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرَيْنِ يَلْتَقِيَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 20,
+      "arFull": "بَیْنَهُمَا بَرْزَخٌ لَّا یَبْغِیٰنِ ۟ۚ",
+      "ur": "ان دونوں میں ایک آڑ ہے کہ اس سے بڑھ نہیں سکتے.[1]",
+      "en": "Between them is a barrier so neither of them transgresses.",
+      "footnotesUr": "[1] مَرَجَ بمعنی أَرْسَل َجاری کر دیئے۔ اس کی تفصیل سورۃ الفرقان،آیت 53 میں گزر چکی ہے۔ جس کا خلاصہ یہ ہے کہ دو دریاوں سے مراد بعض کے نزدیک ان کے الگ الگ وجود ہیں۔ جیسےمیٹھے پانی کے دریا ہیں، جن سے کھیتیاں سیراب ہوتی ہیں اور انسان ان کا پانی اپنی دیگر ضروریات میں بھی استعمال کرتا ہے۔ دوسری قسم سمندروں کاﭘانی ہے۔ جو کھارا ہے،جس کے کچھ اور فوائد ہیں۔ یہ دونوں آپس میں نہیں ملتے۔ بعض نے اس کا مفہوم یہ بیان کیا ہے کہ کھارے سمندروں میں ہی میٹھے پانی کی لہریں چلتی ہیں اوریہ دونوں لہریں آپس میں نہیں ملتیں، بلکہ ایک دوسرے سے جدا اور ممتاز ہی رہتی ہیں۔ اس کی ایک صورت تویہ ہے کہ اللہ تعالیٰ نے کھارے سمندروں میں ہی کئی مقامات پر میٹھے پانی کی لہریں بھی جاری کی ہوئی ہیں اور وہ کھارے پانی سے الگ ہی رہتی ہیں۔ دوسری صورت یہ بھی ہے کہ اوپرکھارا پانی ہو اور اس کی تہ میں نیچے چشمہ آب شیریں۔ جیسا کہ واقعتاً بعض مقامات پر ایسا ہے۔ تیسری صورت یہ ہے کہ جن مقامات پر میٹھے پانی کے دریا کا پانی سمندر میں جا گرتا ہے، وہاں کئی لوگوں کا مشاہدہ ہے کہ دونوں پانی میلوں دور تک اس طرح ساتھ ساتھ چلتے ہیں کہ ایک طرف میٹھا دریائی پانی اور دوسری طرف وسیع و عریض سمندر کا کھارا پانی، ان کے درمیان اگرچہ کوئی آڑ نہیں۔ لیکن یہ باہم نہیں ملتے۔ دونوں کے درمیان یہ وہ برزخ (آڑ) ہے جو اللہ نے رکھ دی ہے، دونوں اس سے تجاوز نہیں کرتے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "بَیْنَهُمَا",
+          "ur": "ان دونوں کے درمیان",
+          "en": "Between both of them",
+          "arTajweed": "بَيْنَهُمَا"
+        },
+        {
+          "ar": "بَرْزَخٌ",
+          "ur": "ایک پردہ ہے",
+          "en": "(is) a barrier",
+          "arTajweed": "بَرْزَخ<span class=\"tj-idgham-wo-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "لَّا",
+          "ur": "نہیں",
+          "en": "not",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>ا"
+        },
+        {
+          "ar": "یَبْغِیٰنِ",
+          "ur": "وہ تجاوز کرتے۔ آگے بڑھتے",
+          "en": "they transgress",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">بْ</span>غِيَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "بَيْنَهُمَا بَرْزَخ<span class=\"tj-idgham-wo-ghunnah\">ٌ لَّ</span>ا يَ<span class=\"tj-qalaqah\">بْ</span>غِيَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 21,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس اپنے پروردگار کی کون کون سی نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 22,
+      "arFull": "یَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ ۟ۚ",
+      "ur": "ان دونوں میں سے موتی اور مونگے برآمد ہوتے ہیں.[1]",
+      "en": "From both of them emerge pearl and coral.",
+      "footnotesUr": "[1] مَرْجَانٌ سے چھوٹے موتی یا پھر مونگے مراد ہیں۔ کہتے ہیں کہ آسمان سے بارش ہوتی ہے تو سیپیاں اپنے مونہہ کھول دیتی ہیں، جو قطرہ ان کے اندر پڑ جاتا ہے، وہ موتی بن جاتا ہےمشہور یہی ہے کہ موتی وغیرہ میٹھے پانی کے دریاؤں سے نہیں، بلکہ صرف آب شور یعنی سمندروں سے ہی نکلتے ہیں۔ لیکن قرآن نے تثنیہ کی ضمیر استعمال کی ہے جس سے معلوم ہوتا ہے کہ دونوں سے ہی موتی نکلتے ہیں۔ چونکہ موتی کثرت کے ساتھ سمندروں سےہی نکلتے ہیں، اس لیےاس کی شہرت ہو گئی ہے۔ تاہم شیریں دریاؤں سے اس کی نفی ممکن نہیں بلکہ موجودہ دور کے تجربات سے ثابت ہوا ہے کہ میٹھے دریا میں بھی موتی ہوتے ہیں۔ البتہ ان کے مسلسل جاری رہنے کی وجہ سے ان سے موتی نکالنا مشکل امر ہے۔ بعض نے کہا ہے کہ مراد مجموعہ ہے، ان میں سے کسی ایک سے بھی موتی نکل جائیں توان پر تثنیہ کا اطلاق صحیح ہے۔ بعض نے کہا کہ شیریں دریا بھی عام طور پر سمندر میں ہی گرتے ہیں اور وہیں سے موتی نکالے جاتے ہیں، اس لیے گو منبع دریائے شور ہی ہوئے، لیکن دوسرے دریاؤں کا حصہ بھی اس میں شامل ہے لیکن موجودہ دورکے تجربات کے بعد ان تاویلات اور تکلﻔات کی ضرورت نہیں۔ وَاللهُ أَعْلَمُ۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "یَخْرُجُ",
+          "ur": "نکلتے ہیں",
+          "en": "Come forth",
+          "arTajweed": "يَخْرُجُ"
+        },
+        {
+          "ar": "مِنْهُمَا",
+          "ur": "ان دونوں سے",
+          "en": "from both of them",
+          "arTajweed": "مِنْهُمَا"
+        },
+        {
+          "ar": "اللُّؤْلُؤُ",
+          "ur": "موتی",
+          "en": "the pearl",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>لُّؤْلُؤُ"
+        },
+        {
+          "ar": "وَالْمَرْجَانُ",
+          "ur": "اور مونگے",
+          "en": "and the coral",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْمَرْجَ<span class=\"tj-madda-permissible\">ا</span>نُ"
+        }
+      ],
+      "arTajweed": "يَخْرُجُ مِنْهُمَا <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>لُّؤْلُؤُ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْمَرْجَ<span class=\"tj-madda-permissible\">ا</span>نُ"
+    },
+    {
+      "number": 23,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پھر تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟[1]",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": "[1] یہ جواہر اورموتی زیب وزینت اور حسن وجمال کا مظہر ہیں اور اہل شوق واہل ثروت انہیں اپنے ذوق جمال کی تسکین اور حسن ورعنائی میں اضافے ہی کے لیے استعمال کرتےہیں، اس لیے ان کا نعمت ہونا بھی واضح ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 24,
+      "arFull": "وَلَهُ الْجَوَارِ الْمُنْشَـٰٔتُ فِی الْبَحْرِ كَالْاَعْلَامِ ۟ۚ",
+      "ur": "اور اللہ ہی کی (ملکیت میں) ہیں وه جہاز جو سمندروں میں پہاڑ کی طرح بلند (چل پھر رہے) ہیں.[1]",
+      "en": "And to Him belong the ships [with sails] elevated in the sea like mountains.",
+      "footnotesUr": "[1] الْجَوَارِ، جَارِيَةٌ (چلنے والی) کی جمع اور محذوف موصوف (السُّفُنُ) کی صفت ہے۔ مُنْشَآتٌ کے معنی مرفوعات ہیں، یعنی بلند کی ہوئیں، مراد بادبان ہیں،جو بادبانی کشتیوں میں جھنڈوں کی طرح اونچے اور بلند بنائے جاتے ہیں۔ بعض نے اس کے معنی مصنوعات کے کیے ہیں یعنی اللہ کی بنائی ہوئی جو سمندر میں چلتی ہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَلَهُ",
+          "ur": "اور اسی کے لیے ہیں",
+          "en": "And for Him",
+          "arTajweed": "وَلَهُ"
+        },
+        {
+          "ar": "الْجَوَارِ",
+          "ur": "جہاز",
+          "en": "(are) the ships",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْجَوَارِ"
+        },
+        {
+          "ar": "الْمُنْشَـٰٔتُ",
+          "ur": "اونچے اٹھے ہوئے",
+          "en": "elevated",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُ<span class=\"tj-ikhafa\">نشَ</span>ـَٔاتُ"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "الْبَحْرِ",
+          "ur": "سمندر",
+          "en": "the sea",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرِ"
+        },
+        {
+          "ar": "كَالْاَعْلَامِ",
+          "ur": "اونچے پہاڑوں کی طرح",
+          "en": "like mountains",
+          "arTajweed": "كَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَعْلَ<span class=\"tj-madda-permissible\">ٰ</span>مِ"
+        }
+      ],
+      "arTajweed": "وَلَهُ <span class=\"tj-ham-wasl\">ٱ</span>لْجَوَارِ <span class=\"tj-ham-wasl\">ٱ</span>لْمُ<span class=\"tj-ikhafa\">نشَ</span>ـَٔاتُ فِى <span class=\"tj-ham-wasl\">ٱ</span>لْبَحْرِ كَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَعْلَ<span class=\"tj-madda-permissible\">ٰ</span>مِ"
+    },
+    {
+      "number": 25,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟۠",
+      "ur": "پس (اے انسانو اور جنو!) تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟[1]",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": "[1] ان کے ذریعے سے بھی نقل وحمل کی جو آسانیاں ہیں، محتاج وضاحت نہیں، اس لیے یہ بھی اللہ کی عظیم نعمت ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 26,
+      "arFull": "كُلُّ مَنْ عَلَیْهَا فَانٍ ۟ۚۖ",
+      "ur": "زمین پر جو ہیں سب فنا ہونے والے ہیں.",
+      "en": "Everyone upon it [i.e., the earth] will perish,",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "كُلُّ",
+          "ur": "سب کے سب",
+          "en": "Everyone",
+          "arTajweed": "كُلُّ"
+        },
+        {
+          "ar": "مَنْ",
+          "ur": "جو",
+          "en": "who",
+          "arTajweed": "مَنْ"
+        },
+        {
+          "ar": "عَلَیْهَا",
+          "ur": "اس پر ہیں",
+          "en": "(is) on it",
+          "arTajweed": "عَلَيْهَا"
+        },
+        {
+          "ar": "فَانٍ",
+          "ur": "فنا ہونے والے ہیں",
+          "en": "(will) perish",
+          "arTajweed": "فَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+        }
+      ],
+      "arTajweed": "كُلُّ مَنْ عَلَيْهَا فَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+    },
+    {
+      "number": 27,
+      "arFull": "وَّیَبْقٰی وَجْهُ رَبِّكَ ذُو الْجَلٰلِ وَالْاِكْرَامِ ۟ۚ",
+      "ur": "صرف تیرے رب کی ذات جو عظمت اور عزت والی ہے باقی ره جائے گی.",
+      "en": "And there will remain the Face[1597] of your Lord, Owner of Majesty and Honor.",
+      "footnotesUr": null,
+      "footnotesEn": "[1597] See footnote to 2:19.",
+      "words": [
+        {
+          "ar": "وَّیَبْقٰی",
+          "ur": "اور باقی رہے گی",
+          "en": "But will remain",
+          "arTajweed": "وَيَ<span class=\"tj-qalaqah\">بْ</span>قَىٰ"
+        },
+        {
+          "ar": "وَجْهُ",
+          "ur": "ذات",
+          "en": "(the) Face",
+          "arTajweed": "وَ<span class=\"tj-qalaqah\">جْ</span>هُ"
+        },
+        {
+          "ar": "رَبِّكَ",
+          "ur": "تیرے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكَ"
+        },
+        {
+          "ar": "ذُو",
+          "ur": "والی",
+          "en": "(the) Owner",
+          "arTajweed": "ذُو"
+        },
+        {
+          "ar": "الْجَلٰلِ",
+          "ur": "بزرگی",
+          "en": "(of) Majesty",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْجَلَ<span class=\"tj-madda-normal\">ٰ</span>لِ"
+        },
+        {
+          "ar": "وَالْاِكْرَامِ",
+          "ur": "اور کرم والی",
+          "en": "and Honor",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْإِكْرَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+        }
+      ],
+      "arTajweed": "وَيَ<span class=\"tj-qalaqah\">بْ</span>قَىٰ وَ<span class=\"tj-qalaqah\">جْ</span>هُ رَبِّكَ ذُو <span class=\"tj-ham-wasl\">ٱ</span>لْجَلَ<span class=\"tj-madda-normal\">ٰ</span>لِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْإِكْرَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+    },
+    {
+      "number": 28,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پھرتم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟[1]",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": "[1] فنائے دنیا کے بعد، جزا وسزا یعنی عدل کا اہتمام ہوگا، لہٰذا یہ بھی ایک نعمت عظمیٰ ہے جس پر شکرا الٰہی واجب ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 29,
+      "arFull": "یَسْـَٔلُهٗ مَنْ فِی السَّمٰوٰتِ وَالْاَرْضِ ؕ كُلَّ یَوْمٍ هُوَ فِیْ شَاْنٍ ۟ۚ",
+      "ur": "سب آسمان وزمین والے اسی سے مانگتے ہیں[1] ۔ ہر روز وه ایک شان میں ہے.[2]",
+      "en": "Whoever is within the heavens and earth asks Him; every day He is in [i.e., bringing about] a matter.[1598]",
+      "footnotesUr": "[1] یعنی سب اس کے محتاج اور اس کے در کے سوالی ہیں۔\n[2] ہر روز کا مطلب، ہر وقت۔ شان کے معنی امر یا معاملہ ، یعنی ہر وقت وہ کسی نہ کسی کام میں مصروف ہے، کسی کو بیمار کر رہا ہے، کسی کو شفایاب، کسی کو تونگر بنا رہا ہے تو کسی تونگرکو فقیر۔ کسی کو گدا سے شاہ اور شاہ سے گدا، کسی کو بلندیوں پر فائز کرر ہا ہے، کسی کو پستی میں گرا رہا ہے، کسی کو ہست سے نیست اور نیست کو ہست کررہا ہے وغیرہ۔ الغرض کائنات میں یہ سارے تصرف اسی کے امر ومشیت سےہو رہے ہیں اور شب وروز کا کوئی لمحہ ایسا نہیں جو اس کی کارگزاری سے خالی ہو۔ هُوَ الْحَيُّ الْقَيُّومُ، لا تَأْخُذُهُ سِنَةٌ وَلا نَوْمٌ۔",
+      "footnotesEn": "[1598] For each of His creatures.",
+      "words": [
+        {
+          "ar": "یَسْـَٔلُهٗ",
+          "ur": "مانگتے ہیں اس سے",
+          "en": "Asks Him",
+          "arTajweed": "يَسْـَٔلُهُ<span class=\"tj-madda-normal\">ۥ</span>"
+        },
+        {
+          "ar": "مَنْ",
+          "ur": "جو بھی",
+          "en": "whoever",
+          "arTajweed": "مَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں ہیں",
+          "en": "(is) in",
+          "arTajweed": "<span class=\"tj-ikhafa\">فِ</span>ى"
+        },
+        {
+          "ar": "السَّمٰوٰتِ",
+          "ur": "آسمانوں",
+          "en": "the heavens",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
+        },
+        {
+          "ar": "وَالْاَرْضِ ؕ",
+          "ur": "اور زمین میں",
+          "en": "and the earth",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "كُلَّ",
+          "ur": "ہر",
+          "en": "Every",
+          "arTajweed": "كُلَّ"
+        },
+        {
+          "ar": "یَوْمٍ",
+          "ur": "روز",
+          "en": "day",
+          "arTajweed": "يَوْمٍ"
+        },
+        {
+          "ar": "هُوَ",
+          "ur": "وہ",
+          "en": "He",
+          "arTajweed": "هُوَ"
+        },
+        {
+          "ar": "فِیْ",
+          "ur": "میں ہے",
+          "en": "(is) in",
+          "arTajweed": "فِى"
+        },
+        {
+          "ar": "شَاْنٍ",
+          "ur": "نئی شان",
+          "en": "a matter",
+          "arTajweed": "شَأْنٍ"
+        }
+      ],
+      "arTajweed": "يَسْـَٔلُهُ<span class=\"tj-madda-normal\">ۥ</span> مَ<span class=\"tj-ikhafa\">ن فِ</span>ى <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍ"
+    },
+    {
+      "number": 30,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پھر تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟[1]",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": "[1] اوراتنی بڑی ہستی کاﮨر وقت بندوں کے امور ومعاملات کی تدبیر میں لگے رہنا، کتنی بڑی نعمت ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 31,
+      "arFull": "سَنَفْرُغُ لَكُمْ اَیُّهَ الثَّقَلٰنِ ۟ۚ",
+      "ur": "(جنوں اور انسانوں کے گروہو!) عنقریب ہم تمہاری طرف پوری طرح متوجہ ہو جائیں گے.[1]",
+      "en": "We will attend to you, O prominent beings.[1599]",
+      "footnotesUr": "[1] اس کا یہ مطلب نہیں ہے کہ اللہ کو فراغت نہیں ہے بلکہ یہ محاورۃً بولا گیا ہے۔ جس کا مقصد وعید وتہدید ہے۔ ثَقَلانِ (جن وانس کو) اس لیے کہا گیا ہے کہ ان کو تکالیف شرعیہ کا پابندکیا گیا ہے، اس پابندی یا بوجھ سے دوسری مخلوق مستثنیٰ ہے۔",
+      "footnotesEn": "[1599] Specifically two: mankind and jinn.",
+      "words": [
+        {
+          "ar": "سَنَفْرُغُ",
+          "ur": "عنقریب ہم فارغ ہوجائیں گے",
+          "en": "Soon We will attend",
+          "arTajweed": "سَنَفْرُغُ"
+        },
+        {
+          "ar": "لَكُمْ",
+          "ur": "تمہارے لیے",
+          "en": "to you",
+          "arTajweed": "لَكُمْ"
+        },
+        {
+          "ar": "اَیُّهَ",
+          "ur": "اے",
+          "en": "O you",
+          "arTajweed": "أَيُّهَ"
+        },
+        {
+          "ar": "الثَّقَلٰنِ",
+          "ur": "دو بوجھو",
+          "en": "two classes",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ثَّقَلَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "سَنَفْرُغُ لَكُمْ أَيُّهَ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>ثَّقَلَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 32,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پھر تم اپنے رب کی کس کس نعمت کو جھٹلاؤگے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 33,
+      "arFull": "یٰمَعْشَرَ الْجِنِّ وَالْاِنْسِ اِنِ اسْتَطَعْتُمْ اَنْ تَنْفُذُوْا مِنْ اَقْطَارِ السَّمٰوٰتِ وَالْاَرْضِ فَانْفُذُوْا ؕ لَا تَنْفُذُوْنَ اِلَّا بِسُلْطٰنٍ ۟ۚ",
+      "ur": "اے گروه جنات و انسان! اگر تم میں آسمانوں اور زمین کے کناروں سے باہر نکل جانے کی طاقت ہے تو نکل بھاگو[1] ! بغیر غلبہ اور طاقت کے تم نہیں نکل سکتے.[2]",
+      "en": "O company of jinn and mankind, if you are able to pass beyond the regions of the heavens and the earth, then pass. You will not pass except by authority [from Allāh].",
+      "footnotesUr": "[1] یہ تہدید بھی نعمت ہے کہ اس سے بدکار، بدیوں کے ارتکاب سے باز آجائے اورمحسن زیادہ نیکیاں کمائے۔\n[2] یعنی اللہ کی تقدیر اور قضا سے تم بھاگ کر کہیں جا سکتے ہو تو چلے جاؤ، لیکن یہ طاقت کس میں ہے؟ اور بھاگ کر آخر کہاں جائے گا؟ کون سی جگہ ایسی ہے جو اللہ کے اختیارات سے باہر ہو۔ یہ بھی تہدید ہے جو مذکورہ تہدید کی طرح نعمت ہے۔ بعض نے کہا ہے کہ یہ میدان محشر میں کہا جائے گا، جب کہ فرشتے ہر طرف سے لوگوں کو گھیر رکھے ہوں گے۔ دونوں ہی مفہوم اپنی اپنی جگہ صحیح ہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "یٰمَعْشَرَ",
+          "ur": "اے گروہ",
+          "en": "O assembly",
+          "arTajweed": "يَ<span class=\"tj-madda-normal\">ٰ</span>مَعْشَرَ"
+        },
+        {
+          "ar": "الْجِنِّ",
+          "ur": "جن",
+          "en": "(of) the jinn",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْجِ<span class=\"tj-ghunnah\">نِّ</span>"
+        },
+        {
+          "ar": "وَالْاِنْسِ",
+          "ur": "و انس",
+          "en": "and the men",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسِ</span>"
+        },
+        {
+          "ar": "اِنِ",
+          "ur": "اگر",
+          "en": "If",
+          "arTajweed": "إِنِ"
+        },
+        {
+          "ar": "اسْتَطَعْتُمْ",
+          "ur": "تم استطاعت رکھتے ہو",
+          "en": "you are able",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>سْتَطَعْتُمْ"
+        },
+        {
+          "ar": "اَنْ",
+          "ur": "کہ",
+          "en": "to",
+          "arTajweed": "أَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "تَنْفُذُوْا",
+          "ur": "تم نکل بھاگو",
+          "en": "pass beyond",
+          "arTajweed": "<span class=\"tj-ikhafa\">تَ</span><span class=\"tj-ikhafa\">نفُ</span>ذُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "سے",
+          "en": "[of]",
+          "arTajweed": "مِنْ"
+        },
+        {
+          "ar": "اَقْطَارِ",
+          "ur": "کناروں",
+          "en": "(the) regions",
+          "arTajweed": "أَ<span class=\"tj-qalaqah\">قْ</span>طَارِ"
+        },
+        {
+          "ar": "السَّمٰوٰتِ",
+          "ur": "آسمانوں کے",
+          "en": "(of) the heavens",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ"
+        },
+        {
+          "ar": "وَالْاَرْضِ",
+          "ur": "اور زمین کے",
+          "en": "and the earth",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ"
+        },
+        {
+          "ar": "فَانْفُذُوْا ؕ",
+          "ur": "تو بھاگ نکلو",
+          "en": "then pass",
+          "arTajweed": "فَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-ikhafa\">نفُ</span>ذُو<span class=\"tj-slnt\">ا۟</span>"
+        },
+        {
+          "ar": "لَا",
+          "ur": "نہیں",
+          "en": "Not",
+          "arTajweed": "لَا"
+        },
+        {
+          "ar": "تَنْفُذُوْنَ",
+          "ur": "تم بھاگ سکتے",
+          "en": "you (can) pass",
+          "arTajweed": "تَ<span class=\"tj-ikhafa\">نفُ</span>ذُونَ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "مگر",
+          "en": "except",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "بِسُلْطٰنٍ",
+          "ur": "ساتھ ایک زور کے",
+          "en": "by authority",
+          "arTajweed": "بِسُلْطَ<span class=\"tj-madda-permissible\">ٰ</span>نٍ"
+        }
+      ],
+      "arTajweed": "يَ<span class=\"tj-madda-normal\">ٰ</span>مَعْشَرَ <span class=\"tj-ham-wasl\">ٱ</span>لْجِ<span class=\"tj-ghunnah\">نِّ</span> وَ<span class=\"tj-ham-wasl\">ٱ</span>لْإِ<span class=\"tj-ikhafa\">نسِ</span> إِنِ <span class=\"tj-ham-wasl\">ٱ</span>سْتَطَعْتُمْ أَ<span class=\"tj-ikhafa\">ن تَ</span><span class=\"tj-ikhafa\">نفُ</span>ذُو<span class=\"tj-slnt\">ا۟</span> مِنْ أَ<span class=\"tj-qalaqah\">قْ</span>طَارِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-normal\">ٰ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>تِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَرْضِ فَ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-ikhafa\">نفُ</span>ذُو<span class=\"tj-slnt\">ا۟</span> لَا تَ<span class=\"tj-ikhafa\">نفُ</span>ذُونَ إِلَّا بِسُلْطَ<span class=\"tj-madda-permissible\">ٰ</span>نٍ"
+    },
+    {
+      "number": 34,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پھر تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 35,
+      "arFull": "یُرْسَلُ عَلَیْكُمَا شُوَاظٌ مِّنْ نَّارٍ ۙ۬ وَّنُحَاسٌ فَلَا تَنْتَصِرٰنِ ۟ۚ",
+      "ur": "تم پر آگ کے شعلے اور دھواں چھوڑا جائے گا[1] پھر تم مقابلہ نہ کر سکو گے.[2]",
+      "en": "There will be sent upon you a flame of fire and smoke,[1600] and you will not defend yourselves.",
+      "footnotesUr": "[1] مطلب یہ ہے کہ اگر تم قیامت والے دن کہیں بھاگ کر گئے بھی، تو فرشتے آگ کے شعلے اور دھواں تم پر چھوڑ کر یا پگھلا ہوا تانبہ تمہارے سروں پر ڈال کر تمہیں واپس لے آئیں گے۔ نُحَاسٌ کے دوسرے معنی پگھلے ہوئے تانبے کے کیے گئے ہیں۔\n[2] یعنی اللہ کے عذاب کو ٹالنے کی تم قدرت نہیں رکھو گے۔",
+      "footnotesEn": "[1600] Another possible meaning is liquefied brass or copper.",
+      "words": [
+        {
+          "ar": "یُرْسَلُ",
+          "ur": "چھوڑ دیا جائے گا",
+          "en": "Will be sent",
+          "arTajweed": "يُرْسَلُ"
+        },
+        {
+          "ar": "عَلَیْكُمَا",
+          "ur": "تم پر",
+          "en": "against both of you",
+          "arTajweed": "عَلَيْكُمَا"
+        },
+        {
+          "ar": "شُوَاظٌ",
+          "ur": "شعلہ",
+          "en": "a flame",
+          "arTajweed": "شُوَاظ<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "مِّنْ",
+          "ur": "میں سے",
+          "en": "of",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مِّ</span><span class=\"tj-idgham-ghunnah\">ن</span>"
+        },
+        {
+          "ar": "نَّارٍ ۙ۬",
+          "ur": "آگ",
+          "en": "fire",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">نَّ</span>ار<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّنُحَاسٌ",
+          "ur": "اور دھواں",
+          "en": "and smoke",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>نُحَاس<span class=\"tj-ikhafa\">ٌ</span>"
+        },
+        {
+          "ar": "فَلَا",
+          "ur": "تو نہ",
+          "en": "and not",
+          "arTajweed": "<span class=\"tj-ikhafa\">فَ</span>لَا"
+        },
+        {
+          "ar": "تَنْتَصِرٰنِ",
+          "ur": "تم دونوں مقابلہ کرسکو گے",
+          "en": "you will (be able to) defend yourselves",
+          "arTajweed": "تَ<span class=\"tj-ikhafa\">نتَ</span>صِرَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "يُرْسَلُ عَلَيْكُمَا شُوَاظ<span class=\"tj-idgham-ghunnah\">ٌ مِّ</span><span class=\"tj-idgham-ghunnah\">ن نَّ</span>ار<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>نُحَاس<span class=\"tj-ikhafa\">ٌ فَ</span>لَا تَ<span class=\"tj-ikhafa\">نتَ</span>صِرَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 36,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پھر اپنے رب کی نعمتوں میں سے کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 37,
+      "arFull": "فَاِذَا انْشَقَّتِ السَّمَآءُ فَكَانَتْ وَرْدَةً كَالدِّهَانِ ۟ۚ",
+      "ur": "پس جب کہ آسمان پھٹ کر سرخ ہو جائے جیسے کہ سرخ چمڑه.[1]",
+      "en": "And when the heaven is split open and becomes rose-colored like oil[1601] -",
+      "footnotesUr": "[1] قیامت والے دن آسمان پھٹ پڑے گا، فرشتے زمین پر اترآئیں گے، اس دن یہ نار جہنم کی شدت حرارت سے پگھل کر سرخ نری کے چمڑے کر طرح ہو جائے گا۔ دِهَانٌ ،سرخ چمڑہ۔",
+      "footnotesEn": "[1601] Or \"like a tanned skin.\"",
+      "words": [
+        {
+          "ar": "فَاِذَا",
+          "ur": "تو جب",
+          "en": "Then when",
+          "arTajweed": "فَإِذَا"
+        },
+        {
+          "ar": "انْشَقَّتِ",
+          "ur": "پھٹ جائے گا",
+          "en": "is split",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-ikhafa\">نشَ</span>قَّتِ"
+        },
+        {
+          "ar": "السَّمَآءُ",
+          "ur": "آسمان",
+          "en": "the heaven",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءُ"
+        },
+        {
+          "ar": "فَكَانَتْ",
+          "ur": "تو ہوجائے گا",
+          "en": "and it becomes",
+          "arTajweed": "فَكَانَتْ"
+        },
+        {
+          "ar": "وَرْدَةً",
+          "ur": "سرخ سرخ",
+          "en": "rose-colored",
+          "arTajweed": "وَرْدَة<span class=\"tj-ikhafa\">ً</span>"
+        },
+        {
+          "ar": "كَالدِّهَانِ",
+          "ur": "چمڑے کی طرح۔ تیل کی تلچھٹ کی طرح",
+          "en": "like murky oil",
+          "arTajweed": "<span class=\"tj-ikhafa\">كَ</span><span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>دِّهَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَإِذَا <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-ikhafa\">نشَ</span>قَّتِ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>سَّمَ<span class=\"tj-madda-obligatory\">آ</span>ءُ فَكَانَتْ وَرْدَة<span class=\"tj-ikhafa\">ً كَ</span><span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>دِّهَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 38,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny? -",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 39,
+      "arFull": "فَیَوْمَىِٕذٍ لَّا یُسْـَٔلُ عَنْ ذَنْۢبِهٖۤ اِنْسٌ وَّلَا جَآنٌّ ۟ۚ",
+      "ur": "اس دن کسی انسان اورکسی جن سے اس کے گناہوں کی پرسش نہ کی جائے گی.[1]",
+      "en": "Then on that Day none will be asked about his sin among men or jinn.[1602]",
+      "footnotesUr": "[1] یعنی جس وقت وہ قبروں سےباہر نکلیں گے۔ ورنہ بعد میں موقف حساب میں ان سے باز پرس کی جائے گی۔ بعض نے اس کا مطلب یہ بیان کیا ہے کہ گناہوں کی بابت نہیں پوچھا جائے گا، کیونکہ ان کا تو پورا ریکارڈ فرشتوں کے پاس بھی ہوگا اور اللہ کے علم میں بھی۔ البتہ پوچھا جائے گا کہ تم نے یہ کیوں کیے؟ یا یہ مطلب ہے، ان سے نہیں پوچھا جائے گا بلکہ انسانی اعضا خودبول کر ہر بات بتلائیں گے۔",
+      "footnotesEn": "[1602] Once they have been condemned to the Fire.",
+      "words": [
+        {
+          "ar": "فَیَوْمَىِٕذٍ",
+          "ur": "تو اس دن",
+          "en": "Then (on) that Day",
+          "arTajweed": "فَيَوْمَئِذ<span class=\"tj-idgham-wo-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "لَّا",
+          "ur": "نہ",
+          "en": "not",
+          "arTajweed": "<span class=\"tj-idgham-wo-ghunnah\">لَّ</span>ا"
+        },
+        {
+          "ar": "یُسْـَٔلُ",
+          "ur": "پوچھا جائے گا",
+          "en": "will be asked",
+          "arTajweed": "يُسْـَٔلُ"
+        },
+        {
+          "ar": "عَنْ",
+          "ur": "کے بارے میں",
+          "en": "about",
+          "arTajweed": "عَ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "ذَنْۢبِهٖۤ",
+          "ur": "اپنے گناہوں",
+          "en": "his sin",
+          "arTajweed": "<span class=\"tj-ikhafa\">ذَ</span>ن<span class=\"tj-iqlab\">ۢب</span>ِهِ<span class=\"tj-madda-permissible\">ۦٓ</span>"
+        },
+        {
+          "ar": "اِنْسٌ",
+          "ur": "کوئی انسان",
+          "en": "any man",
+          "arTajweed": "إِ<span class=\"tj-ikhafa\">نس</span><span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "وَّلَا",
+          "ur": "اور نہ",
+          "en": "and not",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>لَا"
+        },
+        {
+          "ar": "جَآنٌّ",
+          "ur": "کوئی جن",
+          "en": "any jinn",
+          "arTajweed": "جَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">نّ</span>ٌ"
+        }
+      ],
+      "arTajweed": "فَيَوْمَئِذ<span class=\"tj-idgham-wo-ghunnah\">ٍ لَّ</span>ا يُسْـَٔلُ عَ<span class=\"tj-ikhafa\">ن ذَ</span>ن<span class=\"tj-iqlab\">ۢب</span>ِهِ<span class=\"tj-madda-permissible\">ۦٓ</span> إِ<span class=\"tj-ikhafa\">نس</span><span class=\"tj-idgham-ghunnah\">ٌ وَ</span>لَا جَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">نّ</span>ٌ"
+    },
+    {
+      "number": 40,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 41,
+      "arFull": "یُعْرَفُ الْمُجْرِمُوْنَ بِسِیْمٰهُمْ فَیُؤْخَذُ بِالنَّوَاصِیْ وَالْاَقْدَامِ ۟ۚ",
+      "ur": "گناه گار صرف حلیہ ہی سے پہچان لیے جائیں گے[1] اور ان کی پیشانیوں کے بال اور قدم پکڑ لیے جائیں گے.[2]",
+      "en": "The criminals will be known by their marks, and they will be seized by the forelocks and the feet.",
+      "footnotesUr": "[1] یعنی جس طرح اہل ایمان کی علامت ہوگی کہ ان کے اعضائے وضو چمکتے ہوں گے۔ اسی طرح گناہ گاروں کےچہرے سیاہ، آنکھیں نیلگوں اور وہ دہشت زدہ ہوں گے۔\n[2] فرشتے ان کی پیشانیاں اور ان کے قدموں کے ساتھ ملا کر پکڑیں گے اور جہنم میں ڈال دیں گے، یا کبھی پیشانیوں سے اور کبھی قدموں سے انہیں پکڑیں گے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "یُعْرَفُ",
+          "ur": "پہچانے جائیں گے",
+          "en": "Will be known",
+          "arTajweed": "يُعْرَفُ"
+        },
+        {
+          "ar": "الْمُجْرِمُوْنَ",
+          "ur": "مجرم",
+          "en": "the criminals",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُ<span class=\"tj-qalaqah\">جْ</span>رِمُونَ"
+        },
+        {
+          "ar": "بِسِیْمٰهُمْ",
+          "ur": "اپنے چہروں کے ساتھ",
+          "en": "by their marks",
+          "arTajweed": "بِسِيمَ<span class=\"tj-madda-normal\">ٰ</span>هُمْ"
+        },
+        {
+          "ar": "فَیُؤْخَذُ",
+          "ur": "تو پکڑے جائیں گے",
+          "en": "and will be seized",
+          "arTajweed": "فَيُؤْخَذُ"
+        },
+        {
+          "ar": "بِالنَّوَاصِیْ",
+          "ur": "پیشانی کے بالوں سے",
+          "en": "by the forelocks",
+          "arTajweed": "بِ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>صِى"
+        },
+        {
+          "ar": "وَالْاَقْدَامِ",
+          "ur": "اور قدموں سے",
+          "en": "and the feet",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَ<span class=\"tj-qalaqah\">قْ</span>دَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+        }
+      ],
+      "arTajweed": "يُعْرَفُ <span class=\"tj-ham-wasl\">ٱ</span>لْمُ<span class=\"tj-qalaqah\">جْ</span>رِمُونَ بِسِيمَ<span class=\"tj-madda-normal\">ٰ</span>هُمْ فَيُؤْخَذُ بِ<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span><span class=\"tj-ghunnah\">نَّ</span>وَ<span class=\"tj-madda-normal\">ٰ</span>صِى وَ<span class=\"tj-ham-wasl\">ٱ</span>لْأَ<span class=\"tj-qalaqah\">قْ</span>دَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+    },
+    {
+      "number": 42,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 43,
+      "arFull": "هٰذِهٖ جَهَنَّمُ الَّتِیْ یُكَذِّبُ بِهَا الْمُجْرِمُوْنَ ۟ۘ",
+      "ur": "یہ ہے وه جہنم جسے مجرم جھوٹا جانتے تھے.",
+      "en": "This is Hell, which the criminals deny.",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "هٰذِهٖ",
+          "ur": "یہ ہے",
+          "en": "This",
+          "arTajweed": "هَ<span class=\"tj-madda-normal\">ٰ</span>ذِهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "جَهَنَّمُ",
+          "ur": "وہ جہنم",
+          "en": "(is) Hell",
+          "arTajweed": "جَهَ<span class=\"tj-ghunnah\">نَّ</span>مُ"
+        },
+        {
+          "ar": "الَّتِیْ",
+          "ur": "وہ جو",
+          "en": "which",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لَّتِى"
+        },
+        {
+          "ar": "یُكَذِّبُ",
+          "ur": "جھٹلاتے تھے",
+          "en": "deny",
+          "arTajweed": "يُكَذِّبُ"
+        },
+        {
+          "ar": "بِهَا",
+          "ur": "جس کو",
+          "en": "[of it]",
+          "arTajweed": "بِهَا"
+        },
+        {
+          "ar": "الْمُجْرِمُوْنَ",
+          "ur": "مجرم",
+          "en": "the criminals",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْمُ<span class=\"tj-qalaqah\">جْ</span>رِمُ<span class=\"tj-madda-permissible\">و</span>نَ"
+        }
+      ],
+      "arTajweed": "هَ<span class=\"tj-madda-normal\">ٰ</span>ذِهِ<span class=\"tj-madda-normal\">ۦ</span> جَهَ<span class=\"tj-ghunnah\">نَّ</span>مُ <span class=\"tj-ham-wasl\">ٱ</span>لَّتِى يُكَذِّبُ بِهَا <span class=\"tj-ham-wasl\">ٱ</span>لْمُ<span class=\"tj-qalaqah\">جْ</span>رِمُ<span class=\"tj-madda-permissible\">و</span>نَ"
+    },
+    {
+      "number": 44,
+      "arFull": "یَطُوْفُوْنَ بَیْنَهَا وَبَیْنَ حَمِیْمٍ اٰنٍ ۟ۚ",
+      "ur": "اس کے اور کھولتے ہوئے گرم پانی کے درمیان چکر کھائیں گے.[1]",
+      "en": "They will circulate between it and scalding water, heated [to the utmost degree].",
+      "footnotesUr": "[1] یعنی کبھی انہی حجیم کا عذاب دیا جائے گا اور کبھی مَاءٌ حَمِيمٌ پینے کا عذاب۔ آنٍ گرم۔ یعنی سخت کھولتا ہوا پانی، جو ان کی انتڑیوں کو کاٹ دے گا۔ أَعَاذَنَا اللهُ مِنْهَا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "یَطُوْفُوْنَ",
+          "ur": "گردش کریں گے",
+          "en": "They will go around",
+          "arTajweed": "يَطُوفُونَ"
+        },
+        {
+          "ar": "بَیْنَهَا",
+          "ur": "اس کے درمیان",
+          "en": "between it",
+          "arTajweed": "بَيْنَهَا"
+        },
+        {
+          "ar": "وَبَیْنَ",
+          "ur": "اور درمیان",
+          "en": "and between",
+          "arTajweed": "وَبَيْنَ"
+        },
+        {
+          "ar": "حَمِیْمٍ",
+          "ur": "کھولتے پانی کے",
+          "en": "scalding water",
+          "arTajweed": "حَمِيمٍ"
+        },
+        {
+          "ar": "اٰنٍ",
+          "ur": "جو سخت گرم ہوگا۔ شدید گرم ہوگا",
+          "en": "heated",
+          "arTajweed": "ءَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+        }
+      ],
+      "arTajweed": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ ءَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+    },
+    {
+      "number": 45,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟۠",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 46,
+      "arFull": "وَلِمَنْ خَافَ مَقَامَ رَبِّهٖ جَنَّتٰنِ ۟ۚ",
+      "ur": "اور اس شخص کے لیے جو اپنے رب کے سامنے کھڑا ہونے سے ڈرا دو جنتیں ہیں.[1]",
+      "en": "But for he who has feared the position of his Lord[1603] are two gardens -",
+      "footnotesUr": "[1] جیسے حدیث میں آتا ہے۔ ”دو باغ چاندی کے ہیں، جن میں برتن اورجو کچھ ان میں ہے، سب چاندی کے ہوں گے۔ دو باغ سونے کے ہیں اور ان کے برتن اور جو کچھ ان میں ہے، سب سونے کے ہی ہوں گے“۔ (صحيح بخاري، تفسير سور الرحمن) بعض آثار میں ہے کہ سونے کے باغ خواص مومنین مُقَرَّبِينَ اورچاندی کے باغ عام مومنین أَصْحَابُ الْيَمِينِ کے لیے ہوں گے۔ (ابن کثیر)۔",
+      "footnotesEn": "[1603] An alternative meaning is \"the standing [for account] before his Lord.\"",
+      "words": [
+        {
+          "ar": "وَلِمَنْ",
+          "ur": "اور واسطے اس کے",
+          "en": "But for (him) who",
+          "arTajweed": "وَلِمَنْ"
+        },
+        {
+          "ar": "خَافَ",
+          "ur": "جو ڈرے",
+          "en": "fears",
+          "arTajweed": "خَافَ"
+        },
+        {
+          "ar": "مَقَامَ",
+          "ur": "سامنے کھڑے ہونے سے",
+          "en": "(the) standing",
+          "arTajweed": "مَقَامَ"
+        },
+        {
+          "ar": "رَبِّهٖ",
+          "ur": "اپنے رب کے",
+          "en": "(before) his Lord",
+          "arTajweed": "رَبِّهِ<span class=\"tj-madda-normal\">ۦ</span>"
+        },
+        {
+          "ar": "جَنَّتٰنِ",
+          "ur": "دو باغ ہیں",
+          "en": "(are) two gardens",
+          "arTajweed": "جَ<span class=\"tj-ghunnah\">نَّ</span>تَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ<span class=\"tj-madda-normal\">ۦ</span> جَ<span class=\"tj-ghunnah\">نَّ</span>تَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 47,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟ۙ",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny? -",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 48,
+      "arFull": "ذَوَاتَاۤ اَفْنَانٍ ۟ۚ",
+      "ur": "(دونوں جنتیں) بہت سی ٹہنیوں اور شاخوں والی ہیں.[1]",
+      "en": "Having [spreading] branches.",
+      "footnotesUr": "[1] یہ اشارہ ہے اس طرف کہ اس میں سایہ گنجان اورگہرا ہوگا، نیز پھولوں کی کثرت ہوگی، کیونکہ کہتےہیں ہر شاخ اور ٹہنی پھلوں سے لدی ہوگی۔ (ابن کثیر)۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "ذَوَاتَاۤ",
+          "ur": "ہری بھری ڈالیوں والے",
+          "en": "Having",
+          "arTajweed": "ذَوَاتَ<span class=\"tj-madda-permissible\">آ</span>"
+        },
+        {
+          "ar": "اَفْنَانٍ",
+          "ur": "ہری بھری ڈالیوں والے",
+          "en": "branches",
+          "arTajweed": "أَفْنَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+        }
+      ],
+      "arTajweed": "ذَوَاتَ<span class=\"tj-madda-permissible\">آ</span> أَفْنَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+    },
+    {
+      "number": 49,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 50,
+      "arFull": "فِیْهِمَا عَیْنٰنِ تَجْرِیٰنِ ۟ۚ",
+      "ur": "ان دونوں (جنتوں) میں دو بہتے ہوئے چشمے ہیں.[1]",
+      "en": "In both of them are two springs, flowing.",
+      "footnotesUr": "[1] ایک کا نام تَسْنِيمٌ اور دوسرے کا سَلْسَبِيلٌ ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فِیْهِمَا",
+          "ur": "ان دونوں میں",
+          "en": "In both of them",
+          "arTajweed": "فِيهِمَا"
+        },
+        {
+          "ar": "عَیْنٰنِ",
+          "ur": "دو چشمے ہیں",
+          "en": "(are) two springs",
+          "arTajweed": "عَيْنَانِ"
+        },
+        {
+          "ar": "تَجْرِیٰنِ",
+          "ur": "بہتے ہوئے",
+          "en": "flowing",
+          "arTajweed": "تَ<span class=\"tj-qalaqah\">جْ</span>رِيَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فِيهِمَا عَيْنَانِ تَ<span class=\"tj-qalaqah\">جْ</span>رِيَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 51,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 52,
+      "arFull": "فِیْهِمَا مِنْ كُلِّ فَاكِهَةٍ زَوْجٰنِ ۟ۚ",
+      "ur": "ان دونوں جنتوں میں ہر قسم کے میوؤں کی دو قسمیں ہوگی.[1]",
+      "en": "In both of them are of every fruit, two kinds.",
+      "footnotesUr": "[1] یعنی ذائقے اور لذت کے اعتبار سے ہر پھل دو قسم کا ہو گا، یہ مزید فضل خاص کی ایک صورت ہے۔ بعض نے کہا کہ ایک قسم خشک میوے کی اور دوسری تازہ میوے کی ہو گی۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فِیْهِمَا",
+          "ur": "ان دونوں میں",
+          "en": "In both of them",
+          "arTajweed": "فِيهِمَا"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "میں سے ہیں",
+          "en": "[of]",
+          "arTajweed": "مِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "كُلِّ",
+          "ur": "ہر قسم کے",
+          "en": "(are) every",
+          "arTajweed": "<span class=\"tj-ikhafa\">كُ</span>لِّ"
+        },
+        {
+          "ar": "فَاكِهَةٍ",
+          "ur": "پھلوں",
+          "en": "fruits",
+          "arTajweed": "فَ<span class=\"tj-madda-normal\">ٰ</span>كِهَة<span class=\"tj-ikhafa\">ٍ</span>"
+        },
+        {
+          "ar": "زَوْجٰنِ",
+          "ur": "دو قسم",
+          "en": "(in) pairs",
+          "arTajweed": "<span class=\"tj-ikhafa\">زَ</span>وْجَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فِيهِمَا مِ<span class=\"tj-ikhafa\">ن كُ</span>لِّ فَ<span class=\"tj-madda-normal\">ٰ</span>كِهَة<span class=\"tj-ikhafa\">ٍ زَ</span>وْجَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 53,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پھر تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 54,
+      "arFull": "مُتَّكِـِٕیْنَ عَلٰی فُرُشٍ بَطَآىِٕنُهَا مِنْ اِسْتَبْرَقٍ ؕ وَجَنَا الْجَنَّتَیْنِ دَانٍ ۟ۚ",
+      "ur": "جنتی ایسے فرشوں پر تکیہ لگائے ہوئے ہوں گے جن کے استر دبیز ریشم کے ہوں گے[1] ، اور ان دونوں جنتوں کے میوے بالکل قریب ہوں گے.[2]",
+      "en": "[They are] reclining on beds whose linings are of silk brocade, and the fruit of the two gardens is hanging low.",
+      "footnotesUr": "[1] ابری یعنی اوپر کا کپڑاہمیشہ استر سےبہتر اور خوب صورت ہوتا ہے،یہاں صرف استر کا بیان ہے، جس کا مطلب یہ ہے کہ اوپر (ابری) کا کپڑا اس سے کہیں زیادہ عمدہ ہو گا۔\n[2] اتنے قریب ہوں گے کہ بیٹھے بیٹھے بلکہ لیٹے لیٹے بھی توڑ سکیں گے۔ قُطُوفُهَا دَانِيَةٌ (الحاقة: 23)۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "مُتَّكِـِٕیْنَ",
+          "ur": "تکیہ لگائے ہوئے ہوں گے",
+          "en": "Reclining",
+          "arTajweed": "مُتَّكِـِٔينَ"
+        },
+        {
+          "ar": "عَلٰی",
+          "ur": "پر",
+          "en": "on",
+          "arTajweed": "عَلَىٰ"
+        },
+        {
+          "ar": "فُرُشٍ",
+          "ur": "ایسے فرشوں",
+          "en": "couches",
+          "arTajweed": "فُرُش<span class=\"tj-iqlab\">ٍۭ</span>"
+        },
+        {
+          "ar": "بَطَآىِٕنُهَا",
+          "ur": "ان کے استر",
+          "en": "(whose) inner linings",
+          "arTajweed": "<span class=\"tj-iqlab\">ب</span>َطَ<span class=\"tj-madda-obligatory\">آ</span>ئِنُهَا"
+        },
+        {
+          "ar": "مِنْ",
+          "ur": "ہوں گے  کے",
+          "en": "(are) of",
+          "arTajweed": "مِنْ"
+        },
+        {
+          "ar": "اِسْتَبْرَقٍ ؕ",
+          "ur": "موٹے تافتے",
+          "en": "brocade",
+          "arTajweed": "إِسْتَ<span class=\"tj-qalaqah\">بْ</span>رَق<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَجَنَا",
+          "ur": "اور پھل",
+          "en": "and (the) fruit",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>جَنَى"
+        },
+        {
+          "ar": "الْجَنَّتَیْنِ",
+          "ur": "دونوں باغوں کے۔ پھل توڑیں گے دونوں باغوں کے",
+          "en": "(of) both the gardens",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْجَ<span class=\"tj-ghunnah\">نَّ</span>تَيْنِ"
+        },
+        {
+          "ar": "دَانٍ",
+          "ur": "قریب قریب ہوں گے۔ جھکے ہوئے ہوں گے",
+          "en": "(is) near",
+          "arTajweed": "دَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+        }
+      ],
+      "arTajweed": "مُتَّكِـِٔينَ عَلَىٰ فُرُش<span class=\"tj-iqlab\">ٍۭ ب</span>َطَ<span class=\"tj-madda-obligatory\">آ</span>ئِنُهَا مِنْ إِسْتَ<span class=\"tj-qalaqah\">بْ</span>رَق<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>جَنَى <span class=\"tj-ham-wasl\">ٱ</span>لْجَ<span class=\"tj-ghunnah\">نَّ</span>تَيْنِ دَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+    },
+    {
+      "number": 55,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 56,
+      "arFull": "فِیْهِنَّ قٰصِرٰتُ الطَّرْفِ ۙ لَمْ یَطْمِثْهُنَّ اِنْسٌ قَبْلَهُمْ وَلَا جَآنٌّ ۟ۚ",
+      "ur": "وہاں (شرمیلی) نیچی نگاه والی حوریں ہیں[1] جنہیں ان سے پہلے کسی جن وانس نے ہاتھ نہیں لگایا.[2]",
+      "en": "In them are women limiting [their] glances,[1604] untouched[1605] before them by man or jinnī -",
+      "footnotesUr": "[1] جن کی نگاہیں اپنے خاوندوں کے علاوہ کسی پر نہیں پڑیں گی اور ان کو اپنے خاوند ہی سب سے زیادہ حسین اور اچھے معلوم ہوں گے۔\n[2] یعنی باکرہ اور نئی نویلی ہوں گی۔ اس سے قبل وہ کسی کے نکاح میں نہیں رہی ہوں گے۔ یہ آیت اور اس سے ماقبل کی بعض آیات سے صاف طور پر معلوم ہوتا ہے کہ جو جن مومن ہوں گے، وہ بھی مومن انسانوں کی طرح جنت میں جائیں گے اور ان کے لیے بھی وہی کچھ ہوگا جو دیگر اہل ایمان کےلیے ہوگا۔",
+      "footnotesEn": "[1604] To their own mates, i.e., being chaste and modest.\n[1605] Literally, they have not been caused to bleed by loss of virginity.",
+      "words": [
+        {
+          "ar": "فِیْهِنَّ",
+          "ur": "ان میں ہوں گی",
+          "en": "In them",
+          "arTajweed": "فِيهِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "قٰصِرٰتُ",
+          "ur": "جھکانے والیاں",
+          "en": "(will be) companions of modest gaze",
+          "arTajweed": "قَ<span class=\"tj-madda-normal\">ٰ</span>صِرَ<span class=\"tj-madda-normal\">ٰ</span>تُ"
+        },
+        {
+          "ar": "الطَّرْفِ ۙ",
+          "ur": "نگاہوں کو",
+          "en": "(will be) companions of modest gaze",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>طَّرْفِ"
+        },
+        {
+          "ar": "لَمْ",
+          "ur": "نہیں",
+          "en": "not",
+          "arTajweed": "لَمْ"
+        },
+        {
+          "ar": "یَطْمِثْهُنَّ",
+          "ur": "چھوا ہوگا ان کو",
+          "en": "has touched them",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">طْ</span>مِثْهُ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "اِنْسٌ",
+          "ur": "کسی انسان نے",
+          "en": "any man",
+          "arTajweed": "إِ<span class=\"tj-ikhafa\">نس</span><span class=\"tj-ikhafa\">ٌ</span>"
+        },
+        {
+          "ar": "قَبْلَهُمْ",
+          "ur": "ان سے پہلے",
+          "en": "before them",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span><span class=\"tj-qalaqah\">بْ</span>لَهُمْ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "and not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "جَآنٌّ",
+          "ur": "کسی جن نے",
+          "en": "any jinn",
+          "arTajweed": "جَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">نّ</span>ٌ"
+        }
+      ],
+      "arTajweed": "فِيهِ<span class=\"tj-ghunnah\">نَّ</span> قَ<span class=\"tj-madda-normal\">ٰ</span>صِرَ<span class=\"tj-madda-normal\">ٰ</span>تُ <span class=\"tj-ham-wasl\">ٱ</span><span class=\"tj-laam-shamsiyah\">ل</span>طَّرْفِ لَمْ يَ<span class=\"tj-qalaqah\">طْ</span>مِثْهُ<span class=\"tj-ghunnah\">نَّ</span> إِ<span class=\"tj-ikhafa\">نس</span><span class=\"tj-ikhafa\">ٌ قَ</span><span class=\"tj-qalaqah\">بْ</span>لَهُمْ وَلَا جَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">نّ</span>ٌ"
+    },
+    {
+      "number": 57,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟ۚ",
+      "ur": "پس اپنے پالنے والے کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny? -",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 58,
+      "arFull": "كَاَنَّهُنَّ الْیَاقُوْتُ وَالْمَرْجَانُ ۟ۚ",
+      "ur": "وه حوریں مثل یاقوت اور مونگے کے ہوں گی.[1]",
+      "en": "As if they were rubies and coral.[1606]",
+      "footnotesUr": "[1] یعنی صفائی میں یا قوت اور سفیدی وسرخی میں موتی یا مونگے کی طرح ہوں گی۔ جس طرح صحیح احادیث میں بھی ان کے حسن وجمال کو ان الفاظ میں بیان فرمایا گیا ہے ”يُرَى مُخُّ سُوقِهِنَّ مِنْ وَّرَاءِ الْعَظْمِ وَاللَّحْمِ“ (صحيح بخاري، كتاب بدء الخلق ، باب ما جاء في صفة الجنة، وصحيح مسلم ، كتاب الجنة وصفة نعيمها ، باب أول زمرة تدخل الجنة) ”ان کے حسن وجمال کی وجہ سے ان کی پنڈلی کا گودا گوشت اور ہڈی کے باہر سے نظر آئے گا“۔ ایک دوسری روایت میں فرمایا کہ ”جنتیوں کی بیویاں اتنی حسین وجمیل ہوں گی کہ اگر ان میں سے ایک عورت اہل ارض کی طرف جھانک لےتو آسمان وزمین کے درمیان کا سارا حصہ چمک اٹھے اور خوشبو سے بھرجائے، اور اس کے سر کا دوپٹہ اتنا قیمتی ہوگا کہ وہ دنیا وما فیہا سے بہتر ہے“۔ (صحيح بخاري، كتاب الجهاد باب الحور العين)۔",
+      "footnotesEn": "[1606] In purity, color and beauty.",
+      "words": [
+        {
+          "ar": "كَاَنَّهُنَّ",
+          "ur": "گویا کہ وہ",
+          "en": "As if they were",
+          "arTajweed": "كَأَ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "الْیَاقُوْتُ",
+          "ur": "یاقوت ہیں",
+          "en": "rubies",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْيَاقُوتُ"
+        },
+        {
+          "ar": "وَالْمَرْجَانُ",
+          "ur": "اور موتی",
+          "en": "and coral",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْمَرْجَ<span class=\"tj-madda-permissible\">ا</span>نُ"
+        }
+      ],
+      "arTajweed": "كَأَ<span class=\"tj-ghunnah\">نَّ</span>هُ<span class=\"tj-ghunnah\">نَّ</span> <span class=\"tj-ham-wasl\">ٱ</span>لْيَاقُوتُ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْمَرْجَ<span class=\"tj-madda-permissible\">ا</span>نُ"
+    },
+    {
+      "number": 59,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 60,
+      "arFull": "هَلْ جَزَآءُ الْاِحْسَانِ اِلَّا الْاِحْسَانُ ۟ۚ",
+      "ur": "احسان کا بدلہ احسان کے سوا کیا ہے.[1]",
+      "en": "Is the reward for good [anything] but good?",
+      "footnotesUr": "[1] پہلے احسان سے مراد نیکی اوراطاعت اور اطاعت الٰہی اور دوسرے احسان سے اس کا صلہ، یعنی جنت اور اس کی نعمتیں ہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "هَلْ",
+          "ur": "کیا",
+          "en": "Is",
+          "arTajweed": "هَلْ"
+        },
+        {
+          "ar": "جَزَآءُ",
+          "ur": "بدلہ ہے",
+          "en": "(the) reward",
+          "arTajweed": "جَزَ<span class=\"tj-madda-obligatory\">آ</span>ءُ"
+        },
+        {
+          "ar": "الْاِحْسَانِ",
+          "ur": "احسن کا",
+          "en": "for the good",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِحْسَ<span class=\"tj-madda-normal\">ٰ</span>نِ"
+        },
+        {
+          "ar": "اِلَّا",
+          "ur": "سوائے",
+          "en": "but",
+          "arTajweed": "إِلَّا"
+        },
+        {
+          "ar": "الْاِحْسَانُ",
+          "ur": "احسان کے (کچھ اور ہے ؟ )",
+          "en": "good",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْإِحْسَ<span class=\"tj-madda-permissible\">ٰ</span>نُ"
+        }
+      ],
+      "arTajweed": "هَلْ جَزَ<span class=\"tj-madda-obligatory\">آ</span>ءُ <span class=\"tj-ham-wasl\">ٱ</span>لْإِحْسَ<span class=\"tj-madda-normal\">ٰ</span>نِ إِلَّا <span class=\"tj-ham-wasl\">ٱ</span>لْإِحْسَ<span class=\"tj-madda-permissible\">ٰ</span>نُ"
+    },
+    {
+      "number": 61,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 62,
+      "arFull": "وَمِنْ دُوْنِهِمَا جَنَّتٰنِ ۟ۚ",
+      "ur": "اور ان کے سوا دو جنتیں اور ہیں.[1]",
+      "en": "And below them both [in excellence] are two [other] gardens -",
+      "footnotesUr": "[1] دُونِهِمَا سے یہ استدلال بھی کیا گیا ہے کہ یہ دو باغ شان اور فضیلت میں پچھلے دوباغوں سے، جن کا ذکر آیت 46 میں گزرا، کم تر ہوں گے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "وَمِنْ",
+          "ur": "اور",
+          "en": "Besides these two",
+          "arTajweed": "وَمِ<span class=\"tj-ikhafa\">ن</span>"
+        },
+        {
+          "ar": "دُوْنِهِمَا",
+          "ur": "ان دونوں کے علاوہ",
+          "en": "Besides these two",
+          "arTajweed": "<span class=\"tj-ikhafa\">دُ</span>ونِهِمَا"
+        },
+        {
+          "ar": "جَنَّتٰنِ",
+          "ur": "دو باغ ہیں",
+          "en": "(are) two gardens",
+          "arTajweed": "جَ<span class=\"tj-ghunnah\">نَّ</span>تَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "وَمِ<span class=\"tj-ikhafa\">ن دُ</span>ونِهِمَا جَ<span class=\"tj-ghunnah\">نَّ</span>تَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 63,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟ۙ",
+      "ur": "پس تم اپنے پرورش کرنے والے کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny? -",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 64,
+      "arFull": "مُدْهَآمَّتٰنِ ۟ۚ",
+      "ur": "جو دونوں گہری سبز سیاہی مائل ہیں.[1]",
+      "en": "Dark green [in color].",
+      "footnotesUr": "[1] کثرت سیرابی اور سبزے کی فراوانی کی وجہ سے وہ مائل بہ سیاہی ہوں گے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "مُدْهَآمَّتٰنِ",
+          "ur": "نہایت سبز",
+          "en": "Dark green",
+          "arTajweed": "مُ<span class=\"tj-qalaqah\">دْ</span>هَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">مَّ</span>تَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "مُ<span class=\"tj-qalaqah\">دْ</span>هَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">مَّ</span>تَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 65,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟ۚ",
+      "ur": "بتاؤ اب اپنے پروردگار کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 66,
+      "arFull": "فِیْهِمَا عَیْنٰنِ نَضَّاخَتٰنِ ۟ۚ",
+      "ur": "ان میں دو (جوش سے) ابلنے والے چشمے ہیں.[1]",
+      "en": "In both of them are two springs, spouting.",
+      "footnotesUr": "[1] یہ صفت تَجْرِيَانِ سے ہلکی ہے الْجَرْيُ أَقْوَى مِنَ النَّضْخ (ابن كثير)۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فِیْهِمَا",
+          "ur": "ان دونوں میں",
+          "en": "In both of them",
+          "arTajweed": "فِيهِمَا"
+        },
+        {
+          "ar": "عَیْنٰنِ",
+          "ur": "دو چشمے ہیں",
+          "en": "(are) two springs",
+          "arTajweed": "عَيْنَانِ"
+        },
+        {
+          "ar": "نَضَّاخَتٰنِ",
+          "ur": "جوش مارنے والے",
+          "en": "gushing forth",
+          "arTajweed": "نَضَّاخَتَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فِيهِمَا عَيْنَانِ نَضَّاخَتَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 67,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پھر تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں  جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 68,
+      "arFull": "فِیْهِمَا فَاكِهَةٌ وَّنَخْلٌ وَّرُمَّانٌ ۟ۚ",
+      "ur": "ان دونوں میں میوے اور کھجور اور انار ہوں گے.[1]",
+      "en": "In both of them are fruit and palm trees and pomegranates.",
+      "footnotesUr": "[1] جب کہ پہلی دو جنتوں (باغوں) کی صفت میں بتلایا گیا ہے کہ ہر پھل دو قسم کا ہو گا۔ ظاہر ہے اس میں شرف و فضل کی جو زیادتی ہے، وہ دوسری بات میں نہیں ہے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فِیْهِمَا",
+          "ur": "ان دونوں میں",
+          "en": "In both of them",
+          "arTajweed": "فِيهِمَا"
+        },
+        {
+          "ar": "فَاكِهَةٌ",
+          "ur": "پھل ہیں",
+          "en": "(are) fruits",
+          "arTajweed": "فَ<span class=\"tj-madda-normal\">ٰ</span>كِهَة<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "وَّنَخْلٌ",
+          "ur": "اور کھجور کے درخت",
+          "en": "and date-palms",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>نَخْل<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "وَّرُمَّانٌ",
+          "ur": "اور انار",
+          "en": "and pomegranates",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>رُ<span class=\"tj-ghunnah\">مَّ</span><span class=\"tj-madda-permissible\">ا</span>نٌ"
+        }
+      ],
+      "arTajweed": "فِيهِمَا فَ<span class=\"tj-madda-normal\">ٰ</span>كِهَة<span class=\"tj-idgham-ghunnah\">ٌ وَ</span>نَخْل<span class=\"tj-idgham-ghunnah\">ٌ وَ</span>رُ<span class=\"tj-ghunnah\">مَّ</span><span class=\"tj-madda-permissible\">ا</span>نٌ"
+    },
+    {
+      "number": 69,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟ۚ",
+      "ur": "کیا اب بھی رب کی کسی نعمت کی تکذیب تم کرو گے؟",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 70,
+      "arFull": "فِیْهِنَّ خَیْرٰتٌ حِسَانٌ ۟ۚ",
+      "ur": "ان میں نیک سیرت خوبصورت عورتیں ہیں.[1]",
+      "en": "In them are good and beautiful women -",
+      "footnotesUr": "[1] خَيْرَاتٌ سے مراد اخلاق وکردار کی خوبیاں ہیں اور حِسَانٌ کامطلب ہے کہ حسن وجمال میں یکتا۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فِیْهِنَّ",
+          "ur": "ان میں  ہیں",
+          "en": "In them",
+          "arTajweed": "فِيهِ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "خَیْرٰتٌ",
+          "ur": "اچھی عورتیں",
+          "en": "(are) good",
+          "arTajweed": "خَيْرَ<span class=\"tj-madda-normal\">ٰ</span>تٌ"
+        },
+        {
+          "ar": "حِسَانٌ",
+          "ur": "خوبصورت",
+          "en": "and beautiful ones",
+          "arTajweed": "حِسَ<span class=\"tj-madda-permissible\">ا</span>نٌ"
+        }
+      ],
+      "arTajweed": "فِيهِ<span class=\"tj-ghunnah\">نَّ</span> خَيْرَ<span class=\"tj-madda-normal\">ٰ</span>تٌ حِسَ<span class=\"tj-madda-permissible\">ا</span>نٌ"
+    },
+    {
+      "number": 71,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟ۚ",
+      "ur": "پس تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny? -",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 72,
+      "arFull": "حُوْرٌ مَّقْصُوْرٰتٌ فِی الْخِیَامِ ۟ۚ",
+      "ur": "(گوری رنگت کی) حوریں جنتی خیموں میں رہنے والیاں ہیں.[1]",
+      "en": "Fair ones reserved in pavilions -",
+      "footnotesUr": "[1] حدیث میں نبی ﹲ نے فرمایا جنت میں موتیوں کے خیمے ہوں گے، ان کا عرض ساٹھ میل ہوگا، اس کےہر کونے میں جنتی کے اہل ہوں گے، جس کو دوسرے کونے والے نہیں دیکھ سکیں گے۔ مومن اس میں گھومے گا۔ (صحيح بخاري، تفسير سورة الرحمن وكتاب بدء ما جاء في صفة الجنة ، صحيح مسلم، كتاب الجنة ، باب في صفة خيام الجنة)۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "حُوْرٌ",
+          "ur": "حوریں",
+          "en": "Fair ones",
+          "arTajweed": "حُور<span class=\"tj-idgham-ghunnah\">ٌ</span>"
+        },
+        {
+          "ar": "مَّقْصُوْرٰتٌ",
+          "ur": "ٹھہرائی ہوئیں۔ روکی ہوئیں",
+          "en": "restrained",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">مَّ</span><span class=\"tj-qalaqah\">قْ</span>صُورَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-ikhafa\">ٌ</span>"
+        },
+        {
+          "ar": "فِی",
+          "ur": "میں",
+          "en": "in",
+          "arTajweed": "<span class=\"tj-ikhafa\">فِ</span>ى"
+        },
+        {
+          "ar": "الْخِیَامِ",
+          "ur": "خیموں",
+          "en": "the pavilions",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْخِيَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+        }
+      ],
+      "arTajweed": "حُور<span class=\"tj-idgham-ghunnah\">ٌ مَّ</span><span class=\"tj-qalaqah\">قْ</span>صُورَ<span class=\"tj-madda-normal\">ٰ</span>ت<span class=\"tj-ikhafa\">ٌ فِ</span>ى <span class=\"tj-ham-wasl\">ٱ</span>لْخِيَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+    },
+    {
+      "number": 73,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟ۚ",
+      "ur": "پس (اے انسانو اور جنو!) تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟",
+      "en": "So which of the favors of your Lord would you deny? -",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 74,
+      "arFull": "لَمْ یَطْمِثْهُنَّ اِنْسٌ قَبْلَهُمْ وَلَا جَآنٌّ ۟ۚ",
+      "ur": "ان کو ہاتھ نہیں لگایا کسی انسان یا جن نے اس سے قبل.",
+      "en": "Untouched before them by man or jinnī -",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "لَمْ",
+          "ur": "نہیں",
+          "en": "Not",
+          "arTajweed": "لَمْ"
+        },
+        {
+          "ar": "یَطْمِثْهُنَّ",
+          "ur": "چھوا ہوگا ان کو",
+          "en": "has touched them",
+          "arTajweed": "يَ<span class=\"tj-qalaqah\">طْ</span>مِثْهُ<span class=\"tj-ghunnah\">نَّ</span>"
+        },
+        {
+          "ar": "اِنْسٌ",
+          "ur": "کسی انسان نے",
+          "en": "any man",
+          "arTajweed": "إِ<span class=\"tj-ikhafa\">نس</span><span class=\"tj-ikhafa\">ٌ</span>"
+        },
+        {
+          "ar": "قَبْلَهُمْ",
+          "ur": "ان سے پہلے",
+          "en": "before them",
+          "arTajweed": "<span class=\"tj-ikhafa\">قَ</span><span class=\"tj-qalaqah\">بْ</span>لَهُمْ"
+        },
+        {
+          "ar": "وَلَا",
+          "ur": "اور نہ",
+          "en": "and not",
+          "arTajweed": "وَلَا"
+        },
+        {
+          "ar": "جَآنٌّ",
+          "ur": "کسی جن نے",
+          "en": "any jinn",
+          "arTajweed": "جَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">نّ</span>ٌ"
+        }
+      ],
+      "arTajweed": "لَمْ يَ<span class=\"tj-qalaqah\">طْ</span>مِثْهُ<span class=\"tj-ghunnah\">نَّ</span> إِ<span class=\"tj-ikhafa\">نس</span><span class=\"tj-ikhafa\">ٌ قَ</span><span class=\"tj-qalaqah\">بْ</span>لَهُمْ وَلَا جَ<span class=\"tj-madda-necessary\">آ</span><span class=\"tj-ghunnah\">نّ</span>ٌ"
+    },
+    {
+      "number": 75,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس اپنے پروردگار کی کون کون سی نعمت کے ساتھ تم تکذیب کرتے ہو؟",
+      "en": "So which of the favors of your Lord would you deny? -",
+      "footnotesUr": null,
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 76,
+      "arFull": "مُتَّكِـِٕیْنَ عَلٰی رَفْرَفٍ خُضْرٍ وَّعَبْقَرِیٍّ حِسَانٍ ۟ۚ",
+      "ur": "سبز مسندوں اور عمده فرشوں پر تکیہ لگائے ہوئے ہوں گے.[1]",
+      "en": "Reclining on green cushions and beautiful fine carpets.",
+      "footnotesUr": "[1] رفرف مسند، غالیچہ یا اس قسم کاعمدہ فرش عَبْقَرِيٍّ ، ہر نفیس اور اعلیٰ چیز کو کہا جاتا ہے۔ نبی (صلى الله عليه وسلم) نے حضرت عمر (رضي الله عنه) کے لیے یہ لفظ استعمال فرمایا فَلَمْ أَرَ عَبْقَرِيًّا يَفْرِي فِرْيَة (البخاري ، كتاب المناقب، باب فضل عمر- وصحيح مسلم ، فضائل الصحابة ، باب من فضائل عمررضي الله عنه) ”میں نے کوئی عبقری ایسا نہیں دیکھا جو عمر کی طرح کام کرتا ہو“۔ مطلب یہ ہے کہ جنتی ایسے تختوں پر فروکش ہوں گے جس پر سبز رنگ کی مسندیں، غالیچے اور اعلیٰ قسم کے خوبصورت منقش فرش بچھے ہوں گے۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "مُتَّكِـِٕیْنَ",
+          "ur": "تکیہ لگائے ہوئے ہوں گے",
+          "en": "Reclining",
+          "arTajweed": "مُتَّكِـِٔينَ"
+        },
+        {
+          "ar": "عَلٰی",
+          "ur": "پر",
+          "en": "on",
+          "arTajweed": "عَلَىٰ"
+        },
+        {
+          "ar": "رَفْرَفٍ",
+          "ur": "مسندوں",
+          "en": "cushions",
+          "arTajweed": "رَفْرَفٍ"
+        },
+        {
+          "ar": "خُضْرٍ",
+          "ur": "سبز",
+          "en": "green",
+          "arTajweed": "خُضْر<span class=\"tj-idgham-ghunnah\">ٍ</span>"
+        },
+        {
+          "ar": "وَّعَبْقَرِیٍّ",
+          "ur": "اور نادر",
+          "en": "and carpets",
+          "arTajweed": "<span class=\"tj-idgham-ghunnah\">وَ</span>عَ<span class=\"tj-qalaqah\">بْ</span>قَرِىٍّ"
+        },
+        {
+          "ar": "حِسَانٍ",
+          "ur": "نفیس",
+          "en": "beautiful",
+          "arTajweed": "حِسَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+        }
+      ],
+      "arTajweed": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْر<span class=\"tj-idgham-ghunnah\">ٍ وَ</span>عَ<span class=\"tj-qalaqah\">بْ</span>قَرِىٍّ حِسَ<span class=\"tj-madda-permissible\">ا</span>نٍ"
+    },
+    {
+      "number": 77,
+      "arFull": "فَبِاَیِّ اٰلَآءِ رَبِّكُمَا تُكَذِّبٰنِ ۟",
+      "ur": "پس (اے جنو اور انسانو!) تم اپنے رب کی کس کس نعمت کو جھٹلاؤ گے؟[1]",
+      "en": "So which of the favors of your Lord would you deny?",
+      "footnotesUr": "[1] یہ آیت اس سورت میں 31 مرتبہ آئی ہے۔ اللہ تعالیٰ نے اس سورت میں اپنی اقسام وانواع کی نعمتوں کا ذکر فرمایا ہے اور ہر نعمت یا چند نعمتوں کے ذکر کے بعد یہ استفسار فرمایا ہے، حتیٰ کہ میدان محشر کی ہولناکیوں اور جہنم کے عذاب کے بعد بھی یہ استفسار فرمایاہے، جس کا مطلب ہے کہ امور آخرت کی یاد دہانی بھی نعمت عظیمہ ہے تاکہ بچنے والے اس سے بچنے کی سعی کر لیں۔ دوسری بات یہ معلوم ہوئی، کہ جن بھی انسانوں کی طرح اللہ کی ایک مخلوق ہے بلکہ انسانوں کے بعدیہ دوسری مخلوق ہے جسے عقل وشعور سے نوازا گیا ہے اور اس کے بدلے میں ان سے صرف اس امر کا تقاضا کیا گیا ہے کہ وہ صرف ایک اللہ کی عبادت کریں۔ اس کے ساتھ کسی کو شریک نہ ٹھہرائیں۔ مخلوقات میں یہی دو ہیں جو شرعی احکام وفرائض کے مکلف ہیں، اسی لیے انہیں ارادہ واختیار کی آزادی دی گئی ہے۔ تاکہ ان کی آزمائش ہو سکے، تیسرے نعمتوں کے بیان سے یہ بھی ثابت ہوا کہ اللہ کی نعمتوں سے فائدہ اٹھانا جائز ومستحب ہے۔ یہ زہد وتقویٰ کے خلاف ہے اور نہ تعلق مع اللہ میں مانع، جیساکہ بعض اہل تصوف باورکراتے ہیں۔ چوتھے، بار بار یہ سوال کہ تم اللہ کی کون کون سی نعمتوں کی تکذیب کرو گے؟ یہ توبیخ اور تہدید کے طور پر ہے، جس کا مقصد اس اللہ کی نافرمانی سے روکنا ہے، جس نے یہ ساری نعمتیں پیدا اور مہیا فرمائیں۔ اسی لیے نبی ﹲ نے اس کے جواب میں یہ پڑھنا پسند فرمایا ”لا بِشَيْءٍ مِنْ نِعَمِكَ رَبَّنَا نُكَذِّبُ فَلَكَ الْحَمْدُ“ اے ہمارے رب ہم تیری کسی بھی نعمت کی تکذیب نہیں کرتے، پس تمام تعریفیں تیرے ہی لیے ہیں (سنن الترمذي، والصحيحة للألباني) لیکن اندرون صلاۃ اس جواب کاﭘڑھنا مشروع نہیں۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "فَبِاَیِّ",
+          "ur": "تو ساتھ کون سی",
+          "en": "So which",
+          "arTajweed": "فَبِأَىِّ"
+        },
+        {
+          "ar": "اٰلَآءِ",
+          "ur": "نعمتوں کے",
+          "en": "(of the) favors",
+          "arTajweed": "ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ"
+        },
+        {
+          "ar": "رَبِّكُمَا",
+          "ur": "اپنے رب کی تم دونوں",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكُمَا"
+        },
+        {
+          "ar": "تُكَذِّبٰنِ",
+          "ur": "تم دونوں جھٹلاؤ گے",
+          "en": "will you both deny",
+          "arTajweed": "تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+        }
+      ],
+      "arTajweed": "فَبِأَىِّ ءَالَ<span class=\"tj-madda-obligatory\">آ</span>ءِ رَبِّكُمَا تُكَذِّبَ<span class=\"tj-madda-permissible\">ا</span>نِ"
+    },
+    {
+      "number": 78,
+      "arFull": "تَبٰرَكَ اسْمُ رَبِّكَ ذِی الْجَلٰلِ وَالْاِكْرَامِ ۟۠",
+      "ur": "تیرے پروردگار کا نام بابرکت ہے[1] جو عزت وجلال واﻻ ہے.",
+      "en": "Blessed is the name of your Lord, Owner of Majesty and Honor.",
+      "footnotesUr": "[1] تَبَارَكَ، برکت سے ہے جس کے معنی دوام وثبات کے ہیں۔ مطلب ہے اس کا نام ہمیشہ رہنے والا ہے، یا اس کے پاس ہمیشہ خیر کے خزانے ہیں۔ بعض نے اس کے معنی بلندی اور علو شان کےکیے ہیں اور جب اس کا نام اتنا بابرکت یعنی خیر اور بلندی کا حامل ہے تو اس کی ذات کتنی برکت اور عظمت و رفعت والی ہو گی۔",
+      "footnotesEn": null,
+      "words": [
+        {
+          "ar": "تَبٰرَكَ",
+          "ur": "بہت بابرکت ہے",
+          "en": "Blessed is",
+          "arTajweed": "تَبَ<span class=\"tj-madda-normal\">ٰ</span>رَكَ"
+        },
+        {
+          "ar": "اسْمُ",
+          "ur": "نام",
+          "en": "(the) name",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>سْمُ"
+        },
+        {
+          "ar": "رَبِّكَ",
+          "ur": "تیرے رب کا",
+          "en": "(of) your Lord",
+          "arTajweed": "رَبِّكَ"
+        },
+        {
+          "ar": "ذِی",
+          "ur": "جو صاحب",
+          "en": "Owner",
+          "arTajweed": "ذِى"
+        },
+        {
+          "ar": "الْجَلٰلِ",
+          "ur": "جلال ہے",
+          "en": "(of) Majesty",
+          "arTajweed": "<span class=\"tj-ham-wasl\">ٱ</span>لْجَلَ<span class=\"tj-madda-normal\">ٰ</span>لِ"
+        },
+        {
+          "ar": "وَالْاِكْرَامِ",
+          "ur": "اور کریم ہے۔ صاحب اکرام ہے",
+          "en": "and Honor",
+          "arTajweed": "وَ<span class=\"tj-ham-wasl\">ٱ</span>لْإِكْرَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+        }
+      ],
+      "arTajweed": "تَبَ<span class=\"tj-madda-normal\">ٰ</span>رَكَ <span class=\"tj-ham-wasl\">ٱ</span>سْمُ رَبِّكَ ذِى <span class=\"tj-ham-wasl\">ٱ</span>لْجَلَ<span class=\"tj-madda-normal\">ٰ</span>لِ وَ<span class=\"tj-ham-wasl\">ٱ</span>لْإِكْرَ<span class=\"tj-madda-permissible\">ا</span>مِ"
+    }
+  ]
+};

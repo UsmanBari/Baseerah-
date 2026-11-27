@@ -1,0 +1,44 @@
+[
+  {
+    "target": "Home Screen (#home)",
+    "seriousOrCritical": 0,
+    "moderateOrMinor": 0,
+    "violations": []
+  },
+  {
+    "target": "Quran Screen 1:1 (#quran/1/1)",
+    "seriousOrCritical": 0,
+    "moderateOrMinor": 0,
+    "violations": []
+  },
+  {
+    "target": "Quran Screen 2:1 (#quran/2/1)",
+    "seriousOrCritical": 0,
+    "moderateOrMinor": 0,
+    "violations": []
+  },
+  {
+    "target": "Quran Screen 2:1 Word-by-word",
+    "seriousOrCritical": 0,
+    "moderateOrMinor": 0,
+    "violations": []
+  },
+  {
+    "target": "Namaz Steps Screen (#namaz/steps)",
+    "seriousOrCritical": 0,
+    "moderateOrMinor": 0,
+    "violations": []
+  },
+  {
+    "target": "Settings Bottom Sheet",
+    "seriousOrCritical": 0,
+    "moderateOrMinor": 0,
+    "violations": []
+  },
+  {
+    "target": "Bookmarks Modal",
+    "seriousOrCritical": 0,
+    "moderateOrMinor": 0,
+    "violations": []
+  }
+]
