@@ -482,7 +482,7 @@ export async function renderHomeScreen(container) {
       tapCount = 0;
     }, 3000);
 
-    if (tapCount >= 5) {
+    if (tapCount >= 5 && state.isKiosk) {
       tapCount = 0;
       clearTimeout(tapTimer);
       UIComponents.showAdminPinDialog(() => {

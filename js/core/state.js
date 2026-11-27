@@ -1,4 +1,5 @@
 /* Baseerah — Global Reactive State */
+import { IS_KIOSK_BUILD, IS_DEV_HOST } from "./build.js";
 import { Storage } from "./storage.js";
 
 class AppState {
@@ -36,7 +37,8 @@ class AppState {
   }
 
   get isKiosk() {
-    return !!this.settings.isKiosk;
+    // The phone app is never in kiosk mode; only the kiosk build (or local testing) is.
+    return IS_KIOSK_BUILD || (IS_DEV_HOST && !!this.settings.isKiosk);
   }
 
   set textSize(val) {

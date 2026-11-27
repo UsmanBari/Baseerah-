@@ -1,4 +1,5 @@
 /* Baseerah — Mosque Kiosk Admin Panel */
+import { IS_DEV_HOST } from "../core/build.js";
 import { state } from "../core/state.js";
 import { t } from "../core/i18n.js";
 import { router } from "../core/router.js";
@@ -43,7 +44,7 @@ export function renderAdminScreen(container) {
         <div class="admin-card">
           <h3 class="admin-card-title">${isUr ? "مسجد کیوسک موڈ اور حفاظت" : "Kiosk Lockdown & Operational Rules"}</h3>
           
-          <div class="admin-field-row">
+          ${IS_DEV_HOST ? `          <div class="admin-field-row">
             <div class="field-info">
               <span class="field-title">Kiosk Lockdown Mode (مسجد کیوسک موڈ)</span>
               <span class="field-desc">${isUr ? "کیوسک موڈ آن کرنے سے آف لائن ڈاؤنلوڈ چھپ جاتے ہیں اور خودکار اسکرین سیور فعال ہوتا ہے" : "Locks down public kiosk, activates screensaver, hides phone download controls"}</span>
@@ -53,6 +54,7 @@ export function renderAdminScreen(container) {
               <span class="slider round"></span>
             </label>
           </div>
+` : ""}
 
           <div class="admin-field-row">
             <div class="field-info">
@@ -337,7 +339,8 @@ export function renderAdminScreen(container) {
   }
 
   // Toggle Is Kiosk
-  container.querySelector("#toggle-is-kiosk").addEventListener("change", (e) => {
+  const kioskToggle = container.querySelector("#toggle-is-kiosk");
+  if (kioskToggle) kioskToggle.addEventListener("change", (e) => {
     state.settings.isKiosk = e.target.checked;
     saveStateSafely();
     state.applyKioskLock();
