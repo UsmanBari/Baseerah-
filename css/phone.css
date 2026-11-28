@@ -1681,3 +1681,18 @@ body.kiosk-locked .btn-word-save { display: none !important; }
 }
 @keyframes attract-pulse { from { transform: scale(.9); opacity: .9; } to { transform: scale(1.25); opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .attract-prompt .pulse-ring { animation: none; } }
+
+/* Long ayahs (e.g. 2:286) must fit the screen without scrolling */
+.screen-attract .attract-surah-meta { justify-content: center; width: 100%; }
+.screen-attract.is-long .attract-time { font-size: clamp(40px, 6vw, 72px); }
+.screen-attract.is-long .attract-arabic { font-size: clamp(24px, 3vw, 38px); line-height: 1.9; }
+.screen-attract.is-long .attract-ur { font-size: clamp(17px, 1.9vw, 24px); line-height: 1.9; }
+.screen-attract.is-long .attract-en { font-size: clamp(14px, 1.3vw, 17px); }
+.screen-attract.is-very-long .attract-clock-box { display: none; }
+.screen-attract.is-very-long .attract-arabic { font-size: clamp(20px, 2.4vw, 30px); line-height: 1.85; }
+.screen-attract.is-very-long .attract-ur { font-size: clamp(15px, 1.6vw, 20px); line-height: 1.85; }
+.screen-attract.is-very-long .attract-en { font-size: clamp(13px, 1.15vw, 15px); line-height: 1.5; }
+.screen-attract.is-long .attract-content-box,
+.screen-attract.is-very-long .attract-content-box { gap: 10px; padding: clamp(18px, 2.4vw, 32px); }
+.screen-attract .attract-overlay { max-height: 100%; }
+.screen-attract .attract-en, .screen-attract .attract-ur { text-align: center; }

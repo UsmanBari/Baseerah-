@@ -89,7 +89,7 @@ export async function renderAttractScreen(container) {
   const drift = BURN_IN_OFFSETS[burnInStep % BURN_IN_OFFSETS.length];
 
   container.innerHTML = `
-    <div class="screen active screen-attract" dir="${isUr ? "rtl" : "ltr"}">
+    <div class="screen active screen-attract ${(ayahItem.ar || "").length > 380 ? "is-very-long" : (ayahItem.ar || "").length > 200 ? "is-long" : ""}" dir="${isUr ? "rtl" : "ltr"}">
       <div class="attract-overlay" style="transform: translate(${drift.x}px, ${drift.y}px); transition: transform 2s ease-in-out;">
         <!-- Live Clock -->
         <div class="attract-clock-box">
