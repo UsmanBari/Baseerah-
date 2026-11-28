@@ -76,6 +76,8 @@ if ("serviceWorker" in navigator && window.location.protocol.startsWith("http"))
 }
 
 // Register Screen Handlers
+// Mosque kiosk: Quran + Namaz only. Personal tools stay in the phone app.
+const phoneOnly = (render) => (container, params) => (state.isKiosk ? router.navigate("home") : render(container, params));
 router.register("home", renderHomeScreen);
 router.register("surahs", renderSurahListScreen);
 router.register("juz", (container, params) => renderSurahListScreen(container, ["juz", ...params]));
@@ -83,10 +85,10 @@ router.register("quran", renderQuranScreen);
 router.register("namaz", renderNamazScreen);
 router.register("about", renderAboutScreen);
 router.register("settings", renderSettingsScreen);
-router.register("learn", renderLearnScreen);
-router.register("plan", renderPlanScreen);
-router.register("qibla", renderQiblaScreen);
-router.register("tasbeeh", renderTasbeehScreen);
+router.register("learn", phoneOnly(renderLearnScreen));
+router.register("plan", phoneOnly(renderPlanScreen));
+router.register("qibla", phoneOnly(renderQiblaScreen));
+router.register("tasbeeh", phoneOnly(renderTasbeehScreen));
 // Opened by the daily "Quran time" notification: jump to where the person left off.
 router.register("continue", () => {
   let target = "quran/1/1";

@@ -757,7 +757,7 @@ export const UIComponents = {
               </div>
             </div>
 
-            <div class="settings-sheet-section">
+            ${!state.isKiosk ? `            <div class="settings-sheet-section">
               <span class="settings-section-title">${t("sleepTimerLabel", state.lang)}</span>
               <div class="mode-pill-toggle segmented-control" role="group" aria-label="${t("sleepTimerLabel", state.lang)}">
                 ${[0, 15, 30, 60].map((m) => `
@@ -767,6 +767,7 @@ export const UIComponents = {
               <p class="settings-help-text">${t("sleepTimerHelp", state.lang)}</p>
             </div>
 
+` : ""}
             <div class="settings-sheet-section">
               <span class="settings-section-title">${t("repeatGapLabel", state.lang)}</span>
               <div class="mode-pill-toggle segmented-control" role="group" aria-label="${t("repeatGapLabel", state.lang)}">
@@ -858,7 +859,7 @@ export const UIComponents = {
           </div>
 
           <!-- 4. PRAYER NOTIFICATIONS -->
-          <div class="settings-group-card" id="settings-notifications-card">
+          ${!state.isKiosk ? `          <div class="settings-group-card" id="settings-notifications-card">
             <h4 class="settings-group-header">
               <span class="settings-group-icon" aria-hidden="true">${Icons.bell(18)}</span>
               <span>${t("remindersTitle", state.lang)}</span>
@@ -994,6 +995,7 @@ export const UIComponents = {
             ` : ""}
           </div>
 
+` : ""}
           ${!state.isKiosk ? `
           <!-- OFFLINE & BACKUP -->
           <div class="settings-group-card" id="settings-offline-card">
