@@ -156,6 +156,7 @@ class AppState {
   applyKioskLock() {
     if (typeof document === "undefined" || !document.body) return;
     document.body.classList.toggle("kiosk-locked", this.isKiosk);
+    if (IS_KIOSK_BUILD && !this._kioskDefaultsDone) { this._kioskDefaultsDone = true; this.applyKioskDefaults(); }
   }
 
   get quranReminder() {
@@ -282,6 +283,15 @@ class AppState {
     try {
       sessionStorage.removeItem("baseerah_mushaf_show_trans");
     } catch (e) {}
+    this.applyKioskDefaults();
+  }
+
+  /** Mosque kiosk: every visitor starts with Sir's word-part colours on (letters tinted). */
+  applyKioskDefaults() {
+    if (!IS_KIOSK_BUILD) return;
+    this.settings.showMorphology = true;
+    this.settings.morphologyStyle = "tint";
+    Storage.saveSettings(this.settings);
   }
 
   get translationDisplay() {
