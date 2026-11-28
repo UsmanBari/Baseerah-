@@ -3,6 +3,7 @@ import { state } from "./state.js";
 import { t } from "./i18n.js";
 import { wakeLockManager } from "./wake-lock.js";
 
+import { IS_KIOSK_BUILD } from "./build.js";
 import { estimateSegments, analyzeVoiced, exactSegments } from "./word-timing.js";
 
 export const RECITERS = [
@@ -81,6 +82,7 @@ class AudioManager {
   }
 
   loadStoredReciter() {
+    if (IS_KIOSK_BUILD) return "alafasy";
     if (typeof localStorage !== "undefined") {
       const stored = localStorage.getItem("baseerah_reciter");
       if (stored && RECITERS.some((r) => r.id === stored)) {
@@ -205,6 +207,7 @@ class AudioManager {
       if (urlIndex < urls.length) {
         const candidateUrl = urls[urlIndex++];
         let playSrc = candidateUrl;
+        this.currentSourceUrl = candidateUrl;
 
         if (typeof window !== "undefined" && "caches" in window) {
           try {
@@ -263,13 +266,13 @@ class AudioManager {
       if (!words.length) return;
       this.segments = estimateSegments(words, dur);
       // Alafasy: real per-word timings. Others: refine with the silences in the recording.
-      const src = audio.currentSrc || audio.src;
+      const src = this.currentSourceUrl || audio.currentSrc || audio.src;
       exactSegments(surahNumber, ayahNumber, src).then((exact) => {
         if (exact && exact.length === words.length && this.currentAudio === audio) {
           this.segments = exact;
           return;
         }
-        return analyzeVoiced(src).then((voiced) => {
+        return analyzeVoiced(audio.currentSrc || audio.src).then((voiced) => {
         if (voiced && this.currentAudio === audio && audio.duration > 0) {
           this.segments = estimateSegments(words, audio.duration, { voiced });
         }

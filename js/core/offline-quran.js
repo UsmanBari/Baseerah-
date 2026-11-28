@@ -4,7 +4,12 @@
  */
 const TEXT_CACHE = "baseerah-quran-text-v1";
 const SURAH_COUNT = 114;
-const EXTRA_FILES = ["data/search_index.js", "data/metadata_extended.js", "data/word_freq.js", "data/vocab.js"];
+const pad3 = (n) => String(n).padStart(3, "0");
+const EXTRA_FILES = [
+  "data/search_index.js", "data/metadata_extended.js", "data/word_freq.js", "data/vocab.js", "data/roots.json",
+  ...Array.from({ length: 114 }, (_, i) => `data/morph/${pad3(i + 1)}.json`),
+  ...Array.from({ length: 114 }, (_, i) => `data/timings/alafasy/${pad3(i + 1)}.json`)
+];
 
 const surahUrl = (n) => `data/surahs/${String(n).padStart(3, "0")}.js`;
 

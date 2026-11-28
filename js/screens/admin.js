@@ -7,6 +7,9 @@ import { Icons } from "../ui/icons.js";
 import { Storage } from "../core/storage.js";
 import { UIComponents } from "../ui/components.js";
 import { RECITERS } from "../core/audio.js";
+import { IS_KIOSK_BUILD } from "../core/build.js";
+import { OfflineQuran } from "../core/offline-quran.js";
+import { OfflineAudio } from "../core/offline-audio.js";
 
 export function renderAdminScreen(container) {
   const isUr = state.lang === "ur";
@@ -41,6 +44,14 @@ export function renderAdminScreen(container) {
 
       <div class="admin-body">
         <!-- 1. Kiosk Operational Mode & Security -->
+        ${IS_KIOSK_BUILD || IS_DEV_HOST ? `
+        <div class="admin-card kiosk-offline-card">
+          <h3 class="admin-card-title">Offline setup (do this once on mosque Wi-Fi)</h3>
+          <p class="field-desc">Downloads the whole Quran, translations, word data and Sheikh Alafasy's recitation (about 1.2 GB) so this tablet works with no internet.</p>
+          <p class="kiosk-offline-status" id="kiosk-offline-status" aria-live="polite">Checking…</p>
+          <div class="kiosk-offline-bar" aria-hidden="true"><span id="kiosk-offline-fill"></span></div>
+          <button type="button" class="btn-primary" id="btn-kiosk-offline" style="min-height:52px">Download everything for offline</button>
+        </div>` : ""}
         <div class="admin-card">
           <h3 class="admin-card-title">${isUr ? "مسجد کیوسک موڈ اور حفاظت" : "Kiosk Lockdown & Operational Rules"}</h3>
           
@@ -335,6 +346,51 @@ export function renderAdminScreen(container) {
       } catch (e) {
         console.warn("Failed to change PIN:", e);
       }
+    });
+  }
+
+
+  // ── Kiosk offline setup ─────────────────────────────────────────────
+  const offStatus = container.querySelector("#kiosk-offline-status");
+  const offFill = container.querySelector("#kiosk-offline-fill");
+  const offBtn = container.querySelector("#btn-kiosk-offline");
+  const surahList = (window.BASEERAH_INDEX || []).map((x) => ({ n: x.number, ayahs: x.ayahCount }));
+  const refreshOffline = async () => {
+    if (!offStatus) return;
+    const text = await OfflineQuran.countSaved();
+    const audio = surahList.filter((x) => OfflineAudio.isSurahDownloaded(x.n, "alafasy")).length;
+    const ready = text === 114 && audio === 114;
+    offStatus.textContent = ready
+      ? "Offline ready ✓ Quran text, word data and Alafasy audio are all on this tablet."
+      : `Quran text: ${text}/114 surahs · Recitation: ${audio}/114 surahs`;
+    offStatus.classList.toggle("is-ready", ready);
+    if (offFill) offFill.style.width = `${Math.round(((text + audio) / 228) * 100)}%`;
+  };
+  if (offBtn) {
+    refreshOffline();
+    offBtn.addEventListener("click", async () => {
+      offBtn.disabled = true;
+      try {
+        await OfflineAudio.requestPersistence();
+        offStatus.textContent = "Downloading Quran text and word data…";
+        const res = await OfflineQuran.downloadAll((done, total) => {
+          offStatus.textContent = `Downloading Quran text and word data… ${done}/${total}`;
+        });
+        let failed = res.failed || 0;
+        for (const x of surahList) {
+          if (OfflineAudio.isSurahDownloaded(x.n, "alafasy")) continue;
+          offStatus.textContent = `Downloading recitation: Surah ${x.n} of 114…`;
+          try {
+            await OfflineAudio.downloadSurah(x.n, x.ayahs, "alafasy");
+          } catch (e) { failed++; }
+          if (offFill) offFill.style.width = `${Math.round(((114 + x.n) / 228) * 100)}%`;
+        }
+        await refreshOffline();
+        if (failed) offStatus.textContent += ` · ${failed} items failed. Tap again to retry (already saved parts are kept).`;
+      } catch (e) {
+        offStatus.textContent = "Download stopped. Check the internet and tap again; saved parts are kept.";
+      }
+      offBtn.disabled = false;
     });
   }
 

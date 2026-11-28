@@ -1610,3 +1610,9 @@ body.ui-no-urdu .rec-title-ur, body.ui-no-urdu .rec-step-ur { display: none !imp
 .root-form .rf-ar { font-family: var(--font-quran, inherit); font-size: 19px; }
 .root-form .rf-en { font-size: 12px; color: var(--color-text-secondary, #666); }
 .root-form .rf-n { font-size: 11px; color: var(--color-text-secondary, #888); }
+
+/* Kiosk offline setup */
+.kiosk-offline-status { font-size: 15px; font-weight: 600; margin: 10px 0 8px; color: var(--color-ink); }
+.kiosk-offline-status.is-ready { color: var(--color-primary, #0B4A3B); }
+.kiosk-offline-bar { height: 8px; border-radius: 999px; background: rgba(0,0,0,.08); overflow: hidden; margin-bottom: 14px; }
+.kiosk-offline-bar > span { display: block; height: 100%; width: 0; background: var(--color-primary, #0B4A3B); border-radius: inherit; transition: width 300ms ease-out; }
