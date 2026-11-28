@@ -1616,3 +1616,8 @@ body.ui-no-urdu .rec-title-ur, body.ui-no-urdu .rec-step-ur { display: none !imp
 .kiosk-offline-status.is-ready { color: var(--color-primary, #0B4A3B); }
 .kiosk-offline-bar { height: 8px; border-radius: 999px; background: rgba(0,0,0,.08); overflow: hidden; margin-bottom: 14px; }
 .kiosk-offline-bar > span { display: block; height: 100%; width: 0; background: var(--color-primary, #0B4A3B); border-radius: inherit; transition: width 300ms ease-out; }
+
+/* Mosque kiosk: no personal bookmarking / memorising on a shared tablet */
+body.kiosk-locked .btn-ayah-bookmark,
+body.kiosk-locked .btn-memorized-toggle,
+body.kiosk-locked .btn-word-save { display: none !important; }

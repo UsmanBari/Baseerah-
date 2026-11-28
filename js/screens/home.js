@@ -74,7 +74,7 @@ export async function renderHomeScreen(container) {
   const lastRead = Storage.getLastRead();
   const streak = ReadingTracker.streak();
   const khatam = ReadingTracker.plan();
-  const progressLine = [
+  const progressLine = state.isKiosk ? "" : [
     streak > 0 ? `${Icons.flame(13)} ${t(streak === 1 ? "streakDays1" : "streakDays", state.lang).replace("{n}", streak)}` : "",
     khatam && !khatam.finished ? t("khatamToday", state.lang).replace("{n}", khatam.today).replace("{t}", khatam.target) : ""
   ].filter(Boolean).join(' <span aria-hidden="true">·</span> ');
@@ -201,7 +201,7 @@ export async function renderHomeScreen(container) {
           </div>` : ""}
 
           <!-- PRAYER TIMES CARD (Next prayer + countdown + 5 daily times) -->
-          ${visibleSections.prayerTimes !== false ? `
+          ${visibleSections.prayerTimes !== false && !state.isKiosk ? `
           <div class="prayer-times-home-card" role="region" aria-label="${t("prayerTimes", state.lang)}">
             <div class="prayer-header">
               <div class="prayer-city-group">
@@ -237,14 +237,14 @@ export async function renderHomeScreen(container) {
           </div>
           ` : ""}
 
-          ${ramadanHtml}
+          ${state.isKiosk ? "" : ramadanHtml}
 
-          <nav class="home-tools" aria-label="${t("homeTools", state.lang)}">
+          ${!state.isKiosk ? `          <nav class="home-tools" aria-label="${t("homeTools", state.lang)}">
             <button type="button" class="home-tool" data-nav="learn">${Icons.cards(22)}<span>${t("toolLearn", state.lang)}</span></button>
             <button type="button" class="home-tool" data-nav="plan">${Icons.calendar(22)}<span>${t("toolPlan", state.lang)}</span></button>
             <button type="button" class="home-tool" data-nav="qibla">${Icons.compass(22)}<span>${t("toolQibla", state.lang)}</span></button>
             <button type="button" class="home-tool" data-nav="tasbeeh">${Icons.beads(22)}<span>${t("toolTasbeeh", state.lang)}</span></button>
-          </nav>
+          </nav>` : ""}
 
           <div class="home-tiles-grid">
             <!-- 1. WIDE TOP TILE: Understand the Quran (Word by Word) with LIVE PREVIEW -->
@@ -331,21 +331,20 @@ export async function renderHomeScreen(container) {
                 </div>
               </button>
 
-              <!-- Bookmarks Tile -->
-              <button type="button" class="home-v2-tile tile-subtile" id="home-bookmarks-btn">
+              ${!state.isKiosk ? `              <button type="button" class="home-v2-tile tile-subtile" id="home-bookmarks-btn">
                 <div class="subtile-icon">${Icons.bookmark(24)}</div>
                 <div class="subtile-text">
                   <h4>${biLabel("bookmarks")}</h4>
                   <span class="subtile-hint">${t("bookmarksSub", state.lang)}</span>
                 </div>
-              </button>
+              </button>` : ""}
 
               <!-- Settings Tile -->
               <button type="button" class="home-v2-tile tile-subtile" id="home-settings-btn">
                 <div class="subtile-icon">${Icons.settings(24)}</div>
                 <div class="subtile-text">
                   <h4>${biLabel("appSettings")}</h4>
-                  <span class="subtile-hint">${t("appSettingsSub", state.lang)}</span>
+                  <span class="subtile-hint">${state.isKiosk ? "Text size, translation &amp; display" : t("appSettingsSub", state.lang)}</span>
                 </div>
               </button>
 
