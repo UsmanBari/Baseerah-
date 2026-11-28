@@ -1696,3 +1696,21 @@ body.kiosk-locked .btn-word-save { display: none !important; }
 .screen-attract.is-very-long .attract-content-box { gap: 10px; padding: clamp(18px, 2.4vw, 32px); }
 .screen-attract .attract-overlay { max-height: 100%; }
 .screen-attract .attract-en, .screen-attract .attract-ur { text-align: center; }
+
+/* Welcome screen sized by BOTH width and height, so it fits any tablet or window */
+.screen-attract { padding: clamp(14px, 3vh, 48px) clamp(16px, 4vw, 56px); }
+.screen-attract .attract-overlay { gap: clamp(10px, 2.6vh, 32px); }
+.screen-attract .attract-time { font-size: clamp(40px, min(9vw, 11vh), 112px); }
+.screen-attract .attract-date { font-size: clamp(14px, min(1.8vw, 2.6vh), 22px); }
+.screen-attract .attract-content-box { padding: clamp(16px, 3.2vh, 44px) clamp(18px, 3.5vw, 44px); gap: clamp(8px, 1.6vh, 14px); }
+.screen-attract .attract-arabic { font-size: clamp(26px, min(5vw, 7.2vh), 64px); line-height: 1.9; margin: 0; }
+.screen-attract .attract-ur { font-size: clamp(18px, min(2.6vw, 3.8vh), 32px); line-height: 1.9; }
+.screen-attract .attract-en { font-size: clamp(14px, min(1.6vw, 2.4vh), 20px); }
+.screen-attract .attract-prompt .prompt-text { font-size: clamp(14px, min(1.6vw, 2.4vh), 20px); padding: clamp(10px, 1.6vh, 14px) 30px; }
+.screen-attract.is-long .attract-time { font-size: clamp(32px, min(6vw, 7vh), 72px); }
+.screen-attract.is-long .attract-arabic { font-size: clamp(20px, min(3vw, 4.4vh), 38px); }
+.screen-attract.is-long .attract-ur { font-size: clamp(15px, min(1.9vw, 2.8vh), 24px); }
+.screen-attract.is-very-long .attract-arabic { font-size: clamp(17px, min(2.4vw, 3.4vh), 30px); }
+.screen-attract.is-very-long .attract-ur { font-size: clamp(13px, min(1.6vw, 2.3vh), 20px); }
+.screen-attract.is-very-long .attract-en { font-size: clamp(12px, min(1.15vw, 1.8vh), 15px); }
+.screen-attract .attract-prompt { padding: 0; }
