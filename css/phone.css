@@ -1621,3 +1621,63 @@ body.ui-no-urdu .rec-title-ur, body.ui-no-urdu .rec-step-ur { display: none !imp
 body.kiosk-locked .btn-ayah-bookmark,
 body.kiosk-locked .btn-memorized-toggle,
 body.kiosk-locked .btn-word-save { display: none !important; }
+
+/* ── Kiosk welcome (attract) screen ─────────────────────────────────── */
+.screen-attract {
+  position: fixed; inset: 0; z-index: 50;
+  display: flex; align-items: center; justify-content: center;
+  padding: clamp(24px, 4vw, 56px);
+  background-color: var(--color-primary-dark, #08392D);
+  background-image: var(--pattern-star);
+  color: #FDF8EC; cursor: pointer; overflow: hidden;
+}
+.screen-attract::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse at 50% 40%, rgba(201,162,39,.16), transparent 60%),
+              linear-gradient(180deg, rgba(0,0,0,.05), rgba(0,0,0,.35));
+}
+.attract-overlay {
+  position: relative; width: min(980px, 100%);
+  display: flex; flex-direction: column; align-items: center; gap: clamp(20px, 3vh, 36px);
+  text-align: center;
+}
+.attract-clock-box { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.attract-time { font-size: clamp(56px, 9vw, 112px); font-weight: 700; line-height: 1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.attract-date { font-size: clamp(16px, 1.8vw, 22px); color: rgba(253,248,236,.75); }
+.attract-content-box {
+  width: 100%; padding: clamp(24px, 3.5vw, 44px);
+  border-radius: 28px;
+  background: rgba(253,248,236,.07);
+  border: 1px solid rgba(232,200,120,.35);
+  box-shadow: 0 30px 80px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,255,255,.06);
+  backdrop-filter: blur(6px);
+  display: flex; flex-direction: column; align-items: center; gap: 14px;
+}
+.attract-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 14px; border-radius: 999px;
+  background: rgba(232,200,120,.16); color: #E8C878;
+  font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+}
+.attract-surah-meta { display: inline-flex; gap: 8px; font-size: 16px; color: rgba(253,248,236,.8); }
+.attract-arabic {
+  font-family: var(--font-quran, "Amiri Quran", serif);
+  font-size: clamp(34px, 5vw, 64px); line-height: 2; color: #FFF6DB;
+  margin: 4px 0;
+}
+.attract-translations { display: flex; flex-direction: column; gap: 10px; max-width: 820px; }
+.attract-ur { font-family: var(--font-urdu, inherit); font-size: clamp(22px, 2.6vw, 32px); line-height: 2; color: #F3E6C4; margin: 0; }
+.attract-en { font-size: clamp(16px, 1.6vw, 20px); line-height: 1.6; color: rgba(253,248,236,.82); margin: 0; }
+.attract-prompt { position: relative; display: inline-flex; align-items: center; justify-content: center; padding: 14px 30px; }
+.attract-prompt .prompt-text {
+  position: relative; z-index: 1;
+  padding: 14px 30px; border-radius: 999px;
+  background: #E8C878; color: #08392D; font-weight: 700; font-size: clamp(16px, 1.6vw, 20px);
+}
+.attract-prompt .pulse-ring {
+  position: absolute; inset: 0; border-radius: 999px;
+  border: 2px solid rgba(232,200,120,.6);
+  animation: attract-pulse 2.2s ease-out infinite;
+}
+@keyframes attract-pulse { from { transform: scale(.9); opacity: .9; } to { transform: scale(1.25); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .attract-prompt .pulse-ring { animation: none; } }
