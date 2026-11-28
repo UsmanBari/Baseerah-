@@ -1,0 +1,27 @@
+# Keeps the kiosk branch up to date: every push to main is merged into kiosk.
+# The kiosk branch differs from main only in build-flag.js.
+name: Sync kiosk branch
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Merge main into kiosk
+        run: |
+          git config user.name "UsmanBari"
+          git config user.email "usmanbari2005@gmail.com"
+          git checkout kiosk
+          git merge --no-edit origin/main || {
+            # build-flag.js must always stay "kiosk" on this branch
+            git checkout --ours build-flag.js && git add build-flag.js && git commit --no-edit
+          }
+          grep -q '"kiosk"' build-flag.js || { echo 'build-flag.js lost kiosk flag'; exit 1; }
+          git push origin kiosk
