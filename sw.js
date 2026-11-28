@@ -1,5 +1,5 @@
 /* Baseerah — Offline Service Worker (Kiosk PWA) */
-const CACHE_NAME = "baseerah-v1.0.0-c007826-kiosk";
+const CACHE_NAME = "baseerah-v1.0.0-c007826";
 
 // Caches that must survive app updates: the full-Quran download, surahs a
 // person has opened, and downloaded recitation audio.
